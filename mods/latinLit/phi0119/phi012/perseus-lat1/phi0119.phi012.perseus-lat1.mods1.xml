@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:atom="http://www.w3.org/2005/Atom"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+                <mods:titleInfo xml:lang="en" type="uniform">
+                    <title xmlns="http://www.loc.gov/mods/v3">Miles Gloriosus</title>
+                </mods:titleInfo>
+                <mods:part>
+                    <mods:extent unit="words">
+                        <mods:total>12812</mods:total>
+                    </mods:extent>
+                </mods:part>
+                <mods:identifier>Perseus:text:1999.02.0041</mods:identifier>
+                <mods:identifier type="phi">119.12</mods:identifier>
+                <mods:identifier type="stoa author-text">stoa0231-stoa012</mods:identifier>
+                <mods:identifier type="Perseus:abo">Perseus:abo:phi,0119,012</mods:identifier>
+                <mods:identifier type="ctsurn">urn:cts:latinLit:phi0119.phi012.perseus-lat1</mods:identifier>
+                <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         xmlns="http://www.loc.gov/mods/v3"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n80-14980.html">
+                    <namePart>Plautus, Titus Maccius.</namePart>
+                    <role>
+                        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                    </role>
+                </name>
+                <name xmlns="http://www.loc.gov/mods/v3"
+         type="personal"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n90644361">
+                    <namePart>Leo, Friedrich</namePart>
+                    <namePart type="date">1851-1914</namePart>
+                    <role>
+                        <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+                    </role>
+                </name>
+                <language xmlns="http://www.loc.gov/mods/v3">
+                    <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+                </language>
+                <part xmlns="http://www.loc.gov/mods/v3" displayLabel="Vol 2">
+                    <extent unit="pages">
+                        <start>1</start>
+                        <end>75</end>
+                    </extent>
+                </part>
+                <location xmlns="http://www.loc.gov/mods/v3">
+                    <url displayLabel="Perseus" note="Latin">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0041</url>
+                </location>
+                <location xmlns="http://www.loc.gov/mods/v3">
+                    <url displayLabel="Google Books" note="Vol 2">http://books.google.com/books?id=TnztmcUv8sEC&amp;pg=PP19</url>
+                </location>
+                <relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
+                    <titleInfo>
+                        <title>Comoediae</title>
+                        <partNumber>Vol 1-2</partNumber>
+                    </titleInfo>
+                    <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n80-14980.html">
+                        <namePart>Plautus, Titus Maccius.</namePart>
+                        <role>
+                            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal"
+            authorityURI="http://id.loc.gov/authorities/names/"
+            valueURI="http://id.loc.gov/authorities/names/n90644361">
+                        <namePart>Leo, Friedrich</namePart>
+                        <namePart type="date">1851-1914</namePart>
+                        <role>
+                            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <originInfo>
+                        <place>
+                            <placeTerm type="code" authority="marccountry">gw</placeTerm>
+                        </place>
+                        <place>
+                            <placeTerm type="text">Berlin</placeTerm>
+                        </place>
+                        <publisher>Weidmann</publisher>
+                        <dateIssued>1895-1896</dateIssued>
+                        <dateIssued encoding="marc">1895-6</dateIssued>
+                        <issuance>monographic</issuance>
+                    </originInfo>
+                    <tableOfContents>Tom. 1-Amphitruo, Asinaria, Aulularia, Bacchides, Captivi, Casina, Cistellaria Curculio, Epidicus, Menaechmi, Mercator. --
+            Tom 2. Miles Gloriosus. Mostellaria. Persa. Poenulus. Pseudolus. Rudens. Stichus. Trinummus. Truculentus. Vidularia. Fragmenta.</tableOfContents>
+                    <language objectPart="text">
+                        <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+                    </language>
+                    <physicalDescription>
+                        <digitalOrigin>digitized other analog</digitalOrigin>
+                        <extent>2 v. ; 23 cm.</extent>
+                    </physicalDescription>
+                    <subject authority="lcsh">
+                        <topic>Comedy</topic>
+                    </subject>
+                    <classification authority="lcc"/>
+                    <identifier type="oclc">20079143</identifier>
+                    <location displayLabel="Worldcat">
+                        <url>http://www.worldcat.org/oclc/20079143</url>
+                    </location>
+                    <location displayLabel="Open Content Alliance">
+                        <url note="Vol 1">http://www.archive.org/details/comoediaerecensu01plauuoft</url>
+                    </location>
+                    <location displayLabel="GoogleBooks">
+                        <url note="Vol 2">http://books.google.com/books?id=TnztmcUv8sEC</url>
+                    </location>
+                    <recordInfo>
+                        <recordContentSource authority="marcorg">OCoLC</recordContentSource>
+                        <recordCreationDate encoding="marc"/>
+                        <recordChangeDate encoding="iso8601"/>
+                        <recordIdentifier>6325241</recordIdentifier>
+                        <recordOrigin/>
+                    </recordInfo>
+                </relatedItem>
+            </mods:mods>

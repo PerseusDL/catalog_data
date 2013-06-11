@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:atom="http://www.w3.org/2005/Atom"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+                <mods:titleInfo xml:lang="en" type="uniform">
+                    <mods:title>Daphnis &amp;amp; Chloe</mods:title>
+                </mods:titleInfo>
+                <mods:part>
+                    <mods:extent unit="words">
+                        <mods:total>20929</mods:total>
+                    </mods:extent>
+                </mods:part>
+                <titleInfo xmlns="http://www.loc.gov/mods/v3">
+                    <title>Daphnis et Chloe</title>
+                </titleInfo>
+                <mods:identifier type="tlg">0561.001</mods:identifier>
+                <mods:identifier>Perseus:text:2008.01.0642</mods:identifier>
+                <mods:identifier type="Perseus:abo">Perseus:abo:tlg,0561,001</mods:identifier>
+                <mods:identifier type="ctsurn">urn:cts:greekLit:tlg0561.tlg001.perseus-grc1</mods:identifier>
+                <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         xmlns="http://www.loc.gov/mods/v3"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n50-43501.html">
+                    <namePart>Longus</namePart>
+                    <role>
+                        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                    </role>
+                </name>
+                <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         xmlns="http://www.loc.gov/mods/v3"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n93-57556.html">
+                    <namePart>Hercher, Rudolf</namePart>
+                    <namePart type="date">1821-1878</namePart>
+                    <role>
+                        <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+                    </role>
+                </name>
+                <language xmlns="http://www.loc.gov/mods/v3" objectPart="text">
+                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+                </language>
+                <part xmlns="http://www.loc.gov/mods/v3">
+                    <extent unit="pages">
+                        <start>239</start>
+                        <end>326</end>
+                    </extent>
+                </part>
+                <location xmlns="http://www.loc.gov/mods/v3">
+                    <url displayLabel="GoogleBooks">http://books.google.com/books?id=pRgPAAAAIAAJ&amp;pg=PA239</url>
+                </location>
+                <location xmlns="http://www.loc.gov/mods/v3">
+                    <url displayLabel="Perseus">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0642</url>
+                </location>
+                <relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
+                    <titleInfo>
+                        <title>Erotikon logon syngrapheis</title>
+                        <partNumber>Tomus Prior</partNumber>
+                    </titleInfo>
+                    <titleInfo type="translated" lang="lat">
+                        <title> Erotici scriptores Graeci</title>
+                        <partNumber>Vol I</partNumber>
+                    </titleInfo>
+                    <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n93-57556.html">
+                        <namePart>Hercher, Rudolf</namePart>
+                        <namePart type="date">1821-1878</namePart>
+                        <role>
+                            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <originInfo>
+                        <place>
+                            <placeTerm type="code" authority="marccountry">gw</placeTerm>
+                        </place>
+                        <place>
+                            <placeTerm type="text">Lipsiae</placeTerm>
+                        </place>
+                        <publisher>in aedibus B. G. Teubneri</publisher>
+                        <dateIssued>1858-</dateIssued>
+                        <issuance>monographic</issuance>
+                    </originInfo>
+                    <language objectPart="preface">
+                        <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+                    </language>
+                    <language objectPart="text">
+                        <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+                    </language>
+                    <physicalDescription>
+                        <form authority="marcform">print</form>
+                        <extent>2 v. 18 cm.</extent>
+                    </physicalDescription>
+                    <note type="statement of responsibility">recognovit Rudolphus Hercher.</note>
+                    <tableOfContents>I. Parthenius. Achilles Tatius. Iamblichus. Diogenes. Longus. Xenophon.--II. Chariton. Eustathius. Theodorus Prodromus.
+                Nicetas Eugenianun. Manasses.</tableOfContents>
+                    <subject authority="lcsh">
+                        <topic>Erotic literature</topic>
+                        <topic>Greek</topic>
+                    </subject>
+                    <classification authority="lcc">PA3487</classification>
+                    <classification authority="ddc">880.8</classification>
+                    <relatedItem type="series">
+                        <titleInfo>
+                            <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
+                        </titleInfo>
+                        <titleInfo type="abbreviated">
+                            <title>Teubner</title>
+                        </titleInfo>
+                    </relatedItem>
+                    <identifier type="oclc">9486401</identifier>
+                    <location>
+                        <url displayLabel="WorldCat">http://worldcat.org/oclc/9486401</url>
+                    </location>
+                    <location>
+                        <url displayLabel="GoogleBooks">http://books.google.com/books?id=pRgPAAAAIAAJ</url>
+                    </location>
+                </relatedItem>
+            </mods:mods>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:atom="http://www.w3.org/2005/Atom"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+                <mods:titleInfo xml:lang="en" type="uniform">
+                    <title xmlns="http://www.loc.gov/mods/v3">1 John</title>
+                </mods:titleInfo>
+                <mods:part>
+                    <mods:extent unit="words">
+                        <mods:total>2250</mods:total>
+                    </mods:extent>
+                </mods:part>
+                <mods:identifier type="tlg">0031.023</mods:identifier>
+                <mods:identifier type="Perseus:abo">Perseus:abo:tlg,0031023</mods:identifier>
+                <mods:identifier>Perseus:text:1999.01.0155:book=I John</mods:identifier>
+                <mods:identifier type="ctsurn">urn:cts:greekLit:tlg0031.tlg023.perseus-grc1</mods:identifier>
+                <language xmlns="http://www.loc.gov/mods/v3" objectPart="text">
+                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+                </language>
+                <location xmlns="http://www.loc.gov/mods/v3">
+                    <url displayLabel="Perseus" note="Greek">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0155:book=I John</url>
+                </location>
+                <relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
+                    <titleInfo>
+                        <nonSort>The </nonSort>
+                        <title>New Testament in the original Greek</title>
+                    </titleInfo>
+                    <titleInfo type="uniform">
+                        <title>Bible. N. T. Greek. 1885.</title>
+                    </titleInfo>
+                    <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n50-3371.html">
+                        <namePart>Westcott, Brooke Foss</namePart>
+                        <namePart type="date">1825-1901</namePart>
+                        <role>
+                            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+                        </role>
+                    </name>
+                    <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n85-87906.html">
+                        <namePart>Hort, Fenton John Anthony</namePart>
+                        <namePart type="date">1828-1892</namePart>
+                        <role>
+                            <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <originInfo>
+                        <place>
+                            <placeTerm type="code" authority="marccountry">nyu</placeTerm>
+                        </place>
+                        <place>
+                            <placeTerm type="text">New York</placeTerm>
+                        </place>
+                        <publisher>Macmillan</publisher>
+                        <dateIssued>1885</dateIssued>
+                        <issuance>monographic</issuance>
+                    </originInfo>
+                    <language>
+                        <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+                    </language>
+                    <physicalDescription>
+                        <form authority="marcform">print</form>
+                        <extent>.</extent>
+                    </physicalDescription>
+                    <classification authority="lcc">BS1965 1885</classification>
+                    <identifier type="oclc">36237274</identifier>
+                    <identifier>Perseus:text:1999.01.0155</identifier>
+                    <location>
+                        <url displayLabel="WorldCat">http://worldcat.org/oclc/36237274</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus" note="Greek">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0155</url>
+                    </location>
+                    <recordInfo>
+                        <recordContentSource authority="marcorg">OCoLC</recordContentSource>
+                        <recordCreationDate encoding="marc"/>
+                        <recordChangeDate encoding="iso8601"/>
+                        <recordIdentifier> </recordIdentifier>
+                    </recordInfo>
+                </relatedItem>
+            </mods:mods>

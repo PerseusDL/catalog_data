@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:atom="http://www.w3.org/2005/Atom"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+                <mods:titleInfo lang="eng" type="uniform">
+                    <mods:title xmlns="http://www.loc.gov/mods/v3">Hymn to Athena</mods:title>
+                </mods:titleInfo>
+                <mods:titleInfo xmlns="http://www.loc.gov/mods/v3">
+                    <mods:title>In lavacrum Palladis</mods:title>
+                </mods:titleInfo>
+                <mods:identifier>Perseus:text:1999.01.0226:text=hymns:poem=5</mods:identifier>
+                <mods:identifier type="Perseus:abo">Perseus:abo:tlg,0533,019</mods:identifier>
+                <mods:identifier type="tlg">0533.019</mods:identifier>
+                <mods:identifier type="ctsurn">urn:cts:greekLit:tlg0533.tlg019.opp-grc1</mods:identifier>
+                <mods:name xmlns="http://www.loc.gov/mods/v3"
+              xmlns:ns2="http://www.w3.org/1999/xlink"
+              authority="naf"
+              type="personal"
+              ns2:href="http://errol.oclc.org/laf/n80-40584.html">
+                    <mods:namePart>Callimachus</mods:namePart>
+                    <mods:role>
+                        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+                    </mods:role>
+                </mods:name>
+                <mods:name xmlns="http://www.loc.gov/mods/v3"
+              xmlns:ns2="http://www.w3.org/1999/xlink"
+              authority="naf"
+              type="personal"
+              ns2:href="http://errol.oclc.org/laf/n82-57012.html">
+                    <mods:namePart>Wilamowitz-Moellendorff, Ulrich von</mods:namePart>
+                    <mods:namePart type="date">1848-1931</mods:namePart>
+                    <mods:role>
+                        <mods:roleTerm type="text" authority="marcrelator">editor</mods:roleTerm>
+                    </mods:role>
+                </mods:name>
+                <mods:language xmlns="http://www.loc.gov/mods/v3" objectPart="text">
+                    <mods:languageTerm authority="iso639-2b" type="code">grc</mods:languageTerm>
+                </mods:language>
+                <mods:location xmlns="http://www.loc.gov/mods/v3">
+                    <mods:url displayLabel="Perseus" note="Greek">http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0226:text=hymns:poem=5</mods:url>
+                </mods:location>
+                <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
+                    <mods:titleInfo>
+                        <mods:title>Callimachi Hymni et epigrammata.</mods:title>
+                    </mods:titleInfo>
+                    <mods:titleInfo type="translated" lang="eng">
+                        <mods:title>Hymns and Epigrams</mods:title>
+                    </mods:titleInfo>
+                    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
+                 authority="naf"
+                 type="personal"
+                 ns2:href="http://errol.oclc.org/laf/n80-40584.html">
+                        <mods:namePart>Callimachus</mods:namePart>
+                        <mods:role>
+                            <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+                        </mods:role>
+                    </mods:name>
+                    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
+                 authority="naf"
+                 type="personal"
+                 ns2:href="http://errol.oclc.org/laf/n82-57012.html">
+                        <mods:namePart>Wilamowitz-Moellendorff, Ulrich von</mods:namePart>
+                        <mods:namePart type="date">1848-1931</mods:namePart>
+                        <mods:role>
+                            <mods:roleTerm type="text" authority="marcrelator">editor</mods:roleTerm>
+                        </mods:role>
+                    </mods:name>
+                    <mods:typeOfResource>text</mods:typeOfResource>
+                    <mods:originInfo>
+                        <mods:place>
+                            <mods:placeTerm type="code" authority="marccountry">gw</mods:placeTerm>
+                        </mods:place>
+                        <mods:place>
+                            <mods:placeTerm type="text">Berlin</mods:placeTerm>
+                        </mods:place>
+                        <mods:publisher>Wedimann</mods:publisher>
+                        <mods:dateIssued>1897</mods:dateIssued>
+                        <mods:issuance>monographic</mods:issuance>
+                    </mods:originInfo>
+                    <mods:language objectPart="text">
+                        <mods:languageTerm authority="iso639-2b" type="code">grc</mods:languageTerm>
+                    </mods:language>
+                    <mods:language objectPart="preface">
+                        <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
+                    </mods:language>
+                    <mods:physicalDescription>
+                        <mods:form authority="marcform">print</mods:form>
+                        <mods:extent> 68 p. 20 cm.</mods:extent>
+                    </mods:physicalDescription>
+                    <mods:note type="statement of responsibility">Iterum Udalricus de Wilamowitz-Moellendorff
+            recognovit.</mods:note>
+                    <mods:subject authority="lcsh">
+                        <mods:topic>Greek poetry, Hellenistic</mods:topic>
+                        <mods:geographic>Egypt</mods:geographic>
+                        <mods:geographic>Alexandria</mods:geographic>
+                    </mods:subject>
+                    <mods:classification authority="lcc">PA3945 .A2 1979</mods:classification>
+                    <mods:classification authority="ddc">881/.01</mods:classification>
+                    <mods:identifier type="oclc"> 20792109</mods:identifier>
+                    <mods:identifier>Perseus:text:1999.01.0226</mods:identifier>
+                    <mods:location>
+                        <mods:url displayLabel="WorldCat">http://www.worldcat.org/oclc/20792109</mods:url>
+                    </mods:location>
+                    <mods:location>
+                        <mods:url displayLabel="Perseus" note="Greek">http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0226</mods:url>
+                    </mods:location>
+                    <mods:location>
+                        <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=cFdJ4Zne23YC</mods:url>
+                    </mods:location>
+                </mods:relatedItem>
+            </mods:mods>

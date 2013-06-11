@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:atom="http://www.w3.org/2005/Atom"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+                <mods:titleInfo xml:lang="en" type="uniform">
+                    <mods:title>Testimonia</mods:title>
+                </mods:titleInfo>
+                <mods:part>
+                    <mods:extent unit="words">
+                        <mods:total>146</mods:total>
+                    </mods:extent>
+                </mods:part>
+                <mods:titleInfo xmlns="http://www.loc.gov/mods/v3">
+                    <mods:title>Fragmenta and Testimonia</mods:title>
+                </mods:titleInfo>
+                <mods:titleInfo xmlns="http://www.loc.gov/mods/v3"
+                   type="abbreviated"
+                   displayLabel="FHG">
+                    <mods:title>FHG 2: 59-63</mods:title>
+                </mods:titleInfo>
+                <mods:titleInfo xmlns="http://www.loc.gov/mods/v3"
+                   type="abbreviated"
+                   displayLabel="FGrH">
+                    <mods:title>FGrH #6</mods:title>
+                </mods:titleInfo>
+                <mods:identifier type="tlg">1434.001</mods:identifier>
+                <mods:identifier type="tlg">1434.002</mods:identifier>
+                <mods:identifier type="ctsurn">urn:cts:greekLit:tlg1434.tlg001.opp-lat1</mods:identifier>
+                <mods:tableOfContents xmlns="http://www.loc.gov/mods/v3">Testimonia (pg. 59-61) -- Fragmenta--Collectio (pg. 61) --
+                Olympionicarum Recensus (pg. 61) -- Nomina gentium (pg. 61-63)</mods:tableOfContents>
+                <mods:part xmlns="http://www.loc.gov/mods/v3">
+                    <mods:extent unit="pages">
+                        <mods:start>59</mods:start>
+                        <mods:end>63</mods:end>
+                    </mods:extent>
+                </mods:part>
+                <mods:location xmlns="http://www.loc.gov/mods/v3">
+                    <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=UckWAAAAQAAJ&amp;pg=PA59</mods:url>
+                </mods:location>
+                <mods:location xmlns="http://www.loc.gov/mods/v3">
+                    <mods:url displayLabel="Open Content Alliance">http://www.archive.org/stream/fragmentahistori02mueluoft#page/58/mode/2up</mods:url>
+                </mods:location>
+                <mods:relatedItem xmlns="http://www.loc.gov/mods/v3"
+                     type="host"
+                     displayLabel="Liber Primus">
+                    <mods:titleInfo>
+                        <mods:title>Inde ab Incunabulus Artis Historicae Usque ad Finem Belli Peloponnesiaci</mods:title>
+                        <mods:subTitle>520-404 A.C.</mods:subTitle>
+                    </mods:titleInfo>
+                    <mods:relatedItem type="host">
+                        <mods:titleInfo>
+                            <mods:title>Fragmenta historicorum graecorum</mods:title>
+                            <mods:partNumber>Vol II</mods:partNumber>
+                        </mods:titleInfo>
+                        <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
+                    authority="naf"
+                    type="personal"
+                    ns2:href="http://errol.oclc.org/laf/nr95-8185.html">
+                            <mods:namePart>Müller, Karl</mods:namePart>
+                            <mods:namePart type="termsOfAddress">of Paris</mods:namePart>
+                            <mods:role>
+                                <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+                            </mods:role>
+                        </mods:name>
+                        <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
+                    authority="naf"
+                    type="personal"
+                    ns2:href="http://errol.oclc.org/laf/nr95-8187.html">
+                            <mods:namePart>Müller, Theodor,</mods:namePart>
+                            <mods:role>
+                                <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+                            </mods:role>
+                        </mods:name>
+                        <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
+                    authority="naf"
+                    type="personal"
+                    ns2:href="http://errol.oclc.org/laf/n84-135026.html">
+                            <mods:namePart>Langlois, Victor</mods:namePart>
+                            <mods:namePart type="date">1829-1869</mods:namePart>
+                            <mods:role>
+                                <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+                            </mods:role>
+                        </mods:name>
+                        <mods:typeOfResource>text</mods:typeOfResource>
+                        <mods:originInfo>
+                            <mods:place>
+                                <mods:placeTerm type="text">Parisiis</mods:placeTerm>
+                            </mods:place>
+                            <mods:publisher>Editore Ambrosio Firmin Didot</mods:publisher>
+                            <mods:dateIssued>1848</mods:dateIssued>
+                            <mods:dateIssued encoding="marc">1848</mods:dateIssued>
+                            <mods:issuance>monographic</mods:issuance>
+                        </mods:originInfo>
+                        <mods:language objectPart="text">
+                            <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
+                        </mods:language>
+                        <mods:language objectPart="text">
+                            <mods:languageTerm authority="iso639-2b" type="code">grc</mods:languageTerm>
+                        </mods:language>
+                        <mods:physicalDescription>
+                            <mods:form authority="marcform">print</mods:form>
+                            <mods:extent>xlii, 631 pg.</mods:extent>
+                        </mods:physicalDescription>
+                        <mods:note type="additional physical form">Digitized and made available by: University of Toronto
+        Libraries</mods:note>
+                        <mods:subject authority="lcsh">
+                            <mods:topic>History, Ancient</mods:topic>
+                            <mods:topic>Collections</mods:topic>
+                        </mods:subject>
+                        <mods:subject authority="lcsh">
+                            <mods:topic>Historians</mods:topic>
+                            <mods:topic>Greece</mods:topic>
+                        </mods:subject>
+                        <mods:subject authority="lcsh">
+                            <mods:topic>Greece</mods:topic>
+                            <mods:topic>History</mods:topic>
+                            <mods:topic>Sources</mods:topic>
+                        </mods:subject>
+                        <mods:classification authority="lcc">PA3490 M84</mods:classification>
+                        <mods:note type="statement of responsibility">auxerunt, notis et prolegomenis illustrarunt, indici
+        plenissimo instruxerunt Car. et Theod. Mulleri . Accedunt marmora parium et rosettanum, hoc
+        cum Letronnii, illud cum C. Mulleri commentariis</mods:note>
+                        <mods:identifier type="lccn">none for this manifestation</mods:identifier>
+                        <mods:identifier type="oclc">221365708</mods:identifier>
+                        <mods:identifier type="oca"> fragmentahistori02mueluoft</mods:identifier>
+                        <mods:tableOfContents> Cadmus Milesius -- Dionysius Milesius -- Hippius Rheginus -- Eugeonius Samius
+        -- Deiochus -- Bionis -- Eudemus -- Democlis --Amelesagoras -- Glaucus Rheginus -- Herodorus
+        -- Simonides -- Xenomedes -- Ionis - Stesimbrotus-- Hippias -- Damastus -- Anaximandrus --
+        Critias -- Themistogenus? -- Sophaenetus -- Cratippus -- Aristippus -- Dionysius Tyrannus --
+        Hermias Methymnaeus -- Athanis Syracusanas --Timonides Leucadius -- Dionysodorus Boeoti --
+        Anaxis Boeoti -- Zoilus Amphipolitae -- Cephisodorus -- Demophilus -- Theocritus Chius --
+        Dinon -- Heraclides Cumaeus -- Aristagoras Milesius -- Aristotelis Stagiritae -- Heraclides
+        Ponticus -- Dicaerchus Messenius -- Aristoxenus Tarentinus -- Phanias Eresius -- Clearchus
+        Solensis. -- Clytius Milesius -- Leon Byzantius -- Menecrates Elaita -- Andron
+        Halicarnassensis -- Diodorus Perieg. -- Diyllus Atheniensis -- Demetrius Phalerus -- Straton
+        Lampsacenus -- Theodectas Phaselinus -- Lycus Rheginus -- Nymphodorus Syracusanus -- Callis
+        Syracusanus -- Antandrus Syracusanius -- Hecataeus Abderitae -- Megasthenus -- Daimachus --
+        Patroclus -- Demodamus Milesius -- Demochares Leuconoensis -- Hieronymus Cardianus --
+        Pyrrhus Epirotes -- Proxenus -- Cineae Thessali Et Suidae -- Duris Samius -- Idomeneus
+        Lampsacenus -- Berosus Chaldaeus -- Manetho Historicus -- Demetrius Byzantinus -- Ctesibius.
+        -- Sosibius Laconis -- Didorus Siculus -- Polybius -- Dionysius Halicarnassensis </mods:tableOfContents>
+                        <mods:location>
+                            <mods:url displayLabel="WorldCat">http://worldcat.org/oclc/221365708</mods:url>
+                        </mods:location>
+                        <mods:location>
+                            <mods:url displayLabel="Open Content Alliance">http://www.archive.org/details/fragmentahistori02mueluoft</mods:url>
+                        </mods:location>
+                        <mods:location>
+                            <mods:url displayLabel="Open Library">http://www.openlibrary.org/details/fragmentahistori02mueluoft</mods:url>
+                        </mods:location>
+                        <mods:location>
+                            <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=UckWAAAAQAAJ</mods:url>
+                        </mods:location>
+                    </mods:relatedItem>
+                </mods:relatedItem>
+                <mods:language xmlns="http://www.loc.gov/mods/v3">
+                    <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
+                </mods:language>
+                <mods:name xmlns="http://www.loc.gov/mods/v3"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              type="personal"
+              valueURI="http://id.loc.gov/authorities/names/n88070221">
+                    <mods:namePart>Hippias,</mods:namePart>
+                    <mods:namePart type="termsOfAddress">of Elis,</mods:namePart>
+                    <mods:namePart type="date">5th cent B.C.</mods:namePart>
+                    <mods:role>
+                        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+                    </mods:role>
+                    <mods:displayForm>Hippias Eleus</mods:displayForm>
+                </mods:name>
+                <mods:name xmlns="http://www.loc.gov/mods/v3"
+              xmlns:ns2="http://www.w3.org/1999/xlink"
+              authority="naf"
+              type="personal"
+              ns2:href="http://errol.oclc.org/laf/nr95-8185.html">
+                    <mods:namePart>Müller, Karl</mods:namePart>
+                    <mods:namePart type="termsOfAddress">of Paris</mods:namePart>
+                    <mods:role>
+                        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+                    </mods:role>
+                </mods:name>
+                <mods:name xmlns="http://www.loc.gov/mods/v3"
+              xmlns:ns2="http://www.w3.org/1999/xlink"
+              authority="naf"
+              type="personal"
+              ns2:href="http://errol.oclc.org/laf/nr95-8187.html">
+                    <mods:namePart>Müller, Theodor,</mods:namePart>
+                    <mods:role>
+                        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+                    </mods:role>
+                </mods:name>
+                <mods:name xmlns="http://www.loc.gov/mods/v3"
+              xmlns:ns2="http://www.w3.org/1999/xlink"
+              authority="naf"
+              type="personal"
+              ns2:href="http://errol.oclc.org/laf/n84-135026.html">
+                    <mods:namePart>Langlois, Victor</mods:namePart>
+                    <mods:namePart type="date">1829-1869</mods:namePart>
+                    <mods:role>
+                        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+                    </mods:role>
+                </mods:name>
+            </mods:mods>

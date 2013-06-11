@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:atom="http://www.w3.org/2005/Atom"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+                <mods:titleInfo xml:lang="en" type="uniform">
+                    <title xmlns="http://www.loc.gov/mods/v3">Discourses</title>
+                </mods:titleInfo>
+                <mods:part>
+                    <mods:extent unit="words">
+                        <mods:total>78609</mods:total>
+                    </mods:extent>
+                </mods:part>
+                <mods:identifier>Perseus:text:1999.01.0237:text=disc</mods:identifier>
+                <mods:identifier type="tlg">0557.001</mods:identifier>
+                <mods:identifier type="Perseus:abo">Perseus:abo:tlg,0557,001</mods:identifier>
+                <mods:identifier type="ctsurn">urn:cts:greekLit:tlg0557.tlg001.perseus-eng2</mods:identifier>
+                <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         xmlns="http://www.loc.gov/mods/v3"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n50-82929.html">
+                    <namePart>Epictetus.</namePart>
+                    <role>
+                        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                    </role>
+                </name>
+                <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         xmlns="http://www.loc.gov/mods/v3"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n50-34600.html">
+                    <namePart>Higginson, Thomas Wentworth</namePart>
+                    <namePart type="date">1823-1911</namePart>
+                    <role>
+                        <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+                    </role>
+                </name>
+                <language xmlns="http://www.loc.gov/mods/v3">
+                    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+                </language>
+                <location xmlns="http://www.loc.gov/mods/v3">
+                    <url displayLabel="Perseus" note="English">http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0237:text=disc</url>
+                </location>
+                <relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
+                    <titleInfo>
+                        <nonSort>The </nonSort>
+                        <title>works of Epictetus</title>
+                        <subTitle>His Discourses, in Four Books, the Enchiridion, and fragments</subTitle>
+                    </titleInfo>
+                    <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n50-82929.html">
+                        <namePart>Epictetus.</namePart>
+                        <role>
+                            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                        </role>
+                    </name>
+                    <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n50-34600.html">
+                        <namePart>Higginson, Thomas Wentworth</namePart>
+                        <namePart type="date">1823-1911</namePart>
+                        <role>
+                            <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <originInfo>
+                        <place>
+                            <placeTerm type="code" authority="marccountry">nyu</placeTerm>
+                        </place>
+                        <place>
+                            <placeTerm type="text">New York</placeTerm>
+                        </place>
+                        <publisher>Thomas Nelson and Sons</publisher>
+                        <dateIssued>1890</dateIssued>
+                        <edition>A new and rev. ed. ...</edition>
+                        <issuance>monographic</issuance>
+                    </originInfo>
+                    <language>
+                        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+                    </language>
+                    <physicalDescription>
+                        <form authority="marcform">print</form>
+                        <extent/>
+                    </physicalDescription>
+                    <note type="statement of responsibility">Tr. from the Greek by Thomas Wentworth Higginson.</note>
+                    <classification authority="lcc">B560.E5</classification>
+                    <classification authority="ddc">188</classification>
+                    <identifier type="oclc">18883660</identifier>
+                    <location>
+                        <url displayLabel="WorldCat">http://www.worldcat.org/oclc/18883660</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Open Content Alliance">http://www.archive.org/details/theworksofepicte00epicuoft</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Open Library">http://www.openlibrary.org/details/theworksofepicte00epicuoft</url>
+                    </location>
+                </relatedItem>
+            </mods:mods>

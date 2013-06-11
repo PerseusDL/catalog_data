@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:atom="http://www.w3.org/2005/Atom"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+                <mods:titleInfo xml:lang="en" type="uniform">
+                    <mods:title xmlns="http://www.loc.gov/mods/v3">Scholia in Euclidis phaenomena</mods:title>
+                </mods:titleInfo>
+                <mods:part>
+                    <mods:extent unit="words">
+                        <mods:total>4801</mods:total>
+                    </mods:extent>
+                </mods:part>
+                <mods:identifier type="tlg">5022.006</mods:identifier>
+                <mods:identifier displayLabel="isScholiaTo" type="tlg">1799.012</mods:identifier>
+                <mods:identifier type="ctsurn">urn:cts:greekLit:tlg5022.tlg006.opp-grc1</mods:identifier>
+                <mods:part xmlns="http://www.loc.gov/mods/v3">
+                    <mods:extent unit="pages">
+                        <mods:start>134</mods:start>
+                        <mods:end>156</mods:end>
+                    </mods:extent>
+                </mods:part>
+                <mods:location xmlns="http://www.loc.gov/mods/v3">
+                    <mods:url displayLabel="GoogleBooks"/>
+                </mods:location>
+                <mods:location xmlns="http://www.loc.gov/mods/v3">
+                    <mods:url displayLabel="Open Content Alliance">http://www.archive.org/stream/euclidisoperaomn08eucluoft#page/132/mode/2up</mods:url>
+                </mods:location>
+                <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
+                    <mods:titleInfo>
+                        <mods:title>Euclidis Opera omnia</mods:title>
+                        <mods:partNumber>Vol VIII</mods:partNumber>
+                    </mods:titleInfo>
+                    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
+                 authority="naf"
+                 type="personal"
+                 ns2:href="http://errol.oclc.org/laf/n50-43341.html">
+                        <mods:namePart>Euclid.</mods:namePart>
+                        <mods:role>
+                            <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+                        </mods:role>
+                    </mods:name>
+                    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
+                 authority="naf"
+                 type="personal"
+                 ns2:href="http://errol.oclc.org/laf/n93-86238.html">
+                        <mods:namePart>Menge, Heinrich</mods:namePart>
+                        <mods:role>
+                            <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+                        </mods:role>
+                        <mods:role>
+                            <mods:roleTerm authority="marcrelator" type="text">translator</mods:roleTerm>
+                        </mods:role>
+                    </mods:name>
+                    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
+                 authority="naf"
+                 type="personal"
+                 ns2:href="http://errol.oclc.org/laf/n84-802854.html">
+                        <mods:namePart>Heiberg, J. L. (Johan Ludvig)</mods:namePart>
+                        <mods:namePart type="date">1854-1928</mods:namePart>
+                        <mods:role>
+                            <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+                        </mods:role>
+                        <mods:role>
+                            <mods:roleTerm authority="marcrelator" type="text">translator</mods:roleTerm>
+                        </mods:role>
+                    </mods:name>
+                    <mods:typeOfResource>text</mods:typeOfResource>
+                    <mods:originInfo>
+                        <mods:place>
+                            <mods:placeTerm type="code" authority="marccountry">gw</mods:placeTerm>
+                        </mods:place>
+                        <mods:place>
+                            <mods:placeTerm type="text">Lipsiae</mods:placeTerm>
+                        </mods:place>
+                        <mods:publisher>in aedibus B. G. Teubneri</mods:publisher>
+                        <mods:dateIssued>1916</mods:dateIssued>
+                        <mods:dateCreated point="start" encoding="marc">1916</mods:dateCreated>
+                        <mods:issuance>monographic</mods:issuance>
+                    </mods:originInfo>
+                    <mods:language objectPart="preface">
+                        <mods:languageTerm type="code" authority="iso639-2b">lat</mods:languageTerm>
+                    </mods:language>
+                    <mods:language objectPart="text">
+                        <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
+                    </mods:language>
+                    <mods:language objectPart="text">
+                        <mods:languageTerm type="code" authority="iso639-2b">lat</mods:languageTerm>
+                    </mods:language>
+                    <mods:subject authority="lcsh">
+                        <mods:topic>Geometry</mods:topic>
+                        <mods:topic>Early works to 1800</mods:topic>
+                    </mods:subject>
+                    <mods:tableOfContents>Phaenomena, Pheanomena (Recensio B), Scholia in Phaenomena, Phaenomena (demonstrationes alterae recensionis b),
+            Sectio Canonis, Introductio Harmonica (Cleonides), Fragmenta, Epigramma, </mods:tableOfContents>
+                    <mods:physicalDescription>
+                        <mods:form authority="marcform">print</mods:form>
+                        <mods:extent>liv, 292 pg.</mods:extent>
+                    </mods:physicalDescription>
+                    <mods:note type="statement of responsibility">Ediderunt I.L. Heiberg et H. Menge.</mods:note>
+                    <mods:classification authority="lcc">PA3404 .E6 </mods:classification>
+                    <mods:identifier type="lccn">26017425</mods:identifier>
+                    <mods:identifier type="oclc">4055199</mods:identifier>
+                    <mods:location>
+                        <mods:url displayLabel="WorldCat">http://worldcat.org/oclc/5835487</mods:url>
+                    </mods:location>
+                    <mods:location>
+                        <mods:url displayLabel="GoogleBooks"/>
+                    </mods:location>
+                    <mods:location>
+                        <mods:url displayLabel="Open Content Alliance">http://www.archive.org/details/euclidisoperaomn08eucluoft</mods:url>
+                    </mods:location>
+                </mods:relatedItem>
+                <mods:language xmlns="http://www.loc.gov/mods/v3" objectPart="text">
+                    <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
+                </mods:language>
+                <mods:name xmlns="http://www.loc.gov/mods/v3"
+              xmlns:ns2="http://www.w3.org/1999/xlink"
+              authority="tlg"
+              type="corporate"
+              ns2:href="">
+                    <mods:namePart>Scholia in Euclidem</mods:namePart>
+                    <mods:role>
+                        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+                    </mods:role>
+                </mods:name>
+                <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
+              authority="naf"
+              type="personal"
+              ns2:href="http://errol.oclc.org/laf/n93-86238.html">
+                    <mods:role xmlns="http://www.loc.gov/mods/v3">
+                        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+                    </mods:role>
+                </mods:name>
+            </mods:mods>

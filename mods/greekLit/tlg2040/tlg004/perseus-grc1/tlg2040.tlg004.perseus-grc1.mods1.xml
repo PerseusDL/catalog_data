@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:atom="http://www.w3.org/2005/Atom"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+                <mods:titleInfo xml:lang="en" type="uniform">
+                    <title xmlns="http://www.loc.gov/mods/v3">Epistulae</title>
+                </mods:titleInfo>
+                <mods:part>
+                    <mods:extent unit="words">
+                        <mods:total>137631</mods:total>
+                    </mods:extent>
+                </mods:part>
+                <mods:identifier type="lccn">27002019</mods:identifier>
+                <mods:identifier type="oclc">3365397</mods:identifier>
+                <mods:identifier type="Perseus:abo">Perseus:abo:tlg2004,tlg004</mods:identifier>
+                <mods:identifier>Perseus:text:2008.01.0637</mods:identifier>
+                <mods:identifier type="tlg">2040.004</mods:identifier>
+                <mods:identifier type="ctsurn">urn:cts:greekLit:tlg2040.tlg004.perseus-grc1</mods:identifier>
+                <name xmlns="http://www.loc.gov/mods/v3"
+         authority="naf"
+         type="personal"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80004066">
+                    <namePart>Basil,</namePart>
+                    <namePart type="termsOfAddress">Saint, Bishop of Caesarea</namePart>
+                    <namePart type="date">approximately 329-379</namePart>
+                    <role>
+                        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                    </role>
+                </name>
+                <name xmlns="http://www.loc.gov/mods/v3"
+         authority="naf"
+         type="personal"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/nr89006304">
+                    <namePart>Deferrari, Roy J. (Roy Joseph)</namePart>
+                    <namePart type="date">1890-1969</namePart>
+                    <role>
+                        <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+                    </role>
+                </name>
+                <typeOfResource xmlns="http://www.loc.gov/mods/v3">text</typeOfResource>
+                <originInfo xmlns="http://www.loc.gov/mods/v3">
+                    <place>
+                        <placeTerm type="code" authority="marccountry">enk</placeTerm>
+                    </place>
+                    <place>
+                        <placeTerm type="text">London</placeTerm>
+                    </place>
+                    <place>
+                        <placeTerm type="text">New York</placeTerm>
+                    </place>
+                    <publisher>W. Heinemann</publisher>
+                    <publisher>G. P. Putnam's sons</publisher>
+                    <dateIssued>1926-34</dateIssued>
+                    <dateIssued point="start" encoding="marc">1926</dateIssued>
+                    <dateIssued point="end" encoding="marc">1934</dateIssued>
+                    <issuance>monographic</issuance>
+                </originInfo>
+                <language xmlns="http://www.loc.gov/mods/v3" objectPart="text">
+                    <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+                </language>
+                <physicalDescription xmlns="http://www.loc.gov/mods/v3">
+                    <form authority="marcform">print</form>
+                    <extent>4 v. map. 17 cm.</extent>
+                </physicalDescription>
+                <note xmlns="http://www.loc.gov/mods/v3">Vol. 4 has imprint: London, W. Heinemann, ltd.; Cambridge, Mass., Harvard university press.</note>
+                <classification xmlns="http://www.loc.gov/mods/v3" authority="lcc">PA3612 .B45 1926d</classification>
+                <classification xmlns="http://www.loc.gov/mods/v3" authority="ddc">270.2/092 B</classification>
+                <relatedItem xmlns="http://www.loc.gov/mods/v3" type="series">
+                    <titleInfo>
+                        <title>The Loeb classical library [Greek authors]</title>
+                    </titleInfo>
+                </relatedItem>
+                <location xmlns="http://www.loc.gov/mods/v3">
+                    <url displayLabel="LC Permalink">http://lccn.loc.gov/27002019</url>
+                </location>
+                <location xmlns="http://www.loc.gov/mods/v3">
+                    <url displayLabel="WorldCat">http://worldcat.org/oclc/3365397</url>
+                </location>
+                <location xmlns="http://www.loc.gov/mods/v3">
+                    <url displayLabel="Perseus">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0637</url>
+                </location>
+                <recordInfo xmlns="http://www.loc.gov/mods/v3">
+                    <recordContentSource authority="marcorg">DLC</recordContentSource>
+                    <recordCreationDate encoding="marc">771024</recordCreationDate>
+                    <recordChangeDate encoding="iso8601">20130507120829.0</recordChangeDate>
+                    <recordIdentifier>7332245</recordIdentifier>
+                    <recordOrigin>Converted from MARCXML to MODS version 3.4 using MARC21slim2MODS3-4.xsl
+				(Revision 1.85 2013/03/07)</recordOrigin>
+                </recordInfo>
+            </mods:mods>

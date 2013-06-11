@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:atom="http://www.w3.org/2005/Atom"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+                <mods:titleInfo lang="eng" type="uniform">
+                    <title xmlns="http://www.loc.gov/mods/v3">Hymn to Apollo</title>
+                </mods:titleInfo>
+                <titleInfo xmlns="http://www.loc.gov/mods/v3">
+                    <title>In Apollinem</title>
+                </titleInfo>
+                <mods:identifier>Perseus:text:1999.01.0226:text=hymns:poem=2</mods:identifier>
+                <mods:identifier type="Perseus:abo">Perseus:abo:tlg,0533,016</mods:identifier>
+                <mods:identifier type="tlg">0533.016</mods:identifier>
+                <mods:identifier type="ctsurn">urn:cts:greekLit:tlg0533.tlg016.perseus-grc2</mods:identifier>
+                <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         xmlns="http://www.loc.gov/mods/v3"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n80-40584.html">
+                    <namePart>Callimachus</namePart>
+                    <role>
+                        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                    </role>
+                </name>
+                <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         xmlns="http://www.loc.gov/mods/v3"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n82-57012.html">
+                    <namePart>Wilamowitz-Moellendorff, Ulrich von</namePart>
+                    <namePart type="date">1848-1931</namePart>
+                    <role>
+                        <roleTerm type="text" authority="marcrelator">editor</roleTerm>
+                    </role>
+                </name>
+                <language xmlns="http://www.loc.gov/mods/v3" objectPart="text">
+                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+                </language>
+                <location xmlns="http://www.loc.gov/mods/v3">
+                    <url displayLabel="Perseus" note="Greek">http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0226:text=hymns:poem=2</url>
+                </location>
+                <relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
+                    <titleInfo>
+                        <title>Callimachi Hymni et epigrammata.</title>
+                    </titleInfo>
+                    <titleInfo type="translated" lang="eng">
+                        <title>Hymns and Epigrams</title>
+                    </titleInfo>
+                    <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n80-40584.html">
+                        <namePart>Callimachus</namePart>
+                        <role>
+                            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                        </role>
+                    </name>
+                    <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n82-57012.html">
+                        <namePart>Wilamowitz-Moellendorff, Ulrich von</namePart>
+                        <namePart type="date">1848-1931</namePart>
+                        <role>
+                            <roleTerm type="text" authority="marcrelator">editor</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <originInfo>
+                        <place>
+                            <placeTerm type="code" authority="marccountry">gw</placeTerm>
+                        </place>
+                        <place>
+                            <placeTerm type="text">Berlin</placeTerm>
+                        </place>
+                        <publisher>Wedimann</publisher>
+                        <dateIssued>1897</dateIssued>
+                        <issuance>monographic</issuance>
+                    </originInfo>
+                    <language objectPart="text">
+                        <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+                    </language>
+                    <language objectPart="preface">
+                        <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+                    </language>
+                    <physicalDescription>
+                        <form authority="marcform">print</form>
+                        <extent> 68 p. 20 cm.</extent>
+                    </physicalDescription>
+                    <note type="statement of responsibility">Iterum Udalricus de Wilamowitz-Moellendorff
+            recognovit.</note>
+                    <subject authority="lcsh">
+                        <topic>Greek poetry, Hellenistic</topic>
+                        <geographic>Egypt</geographic>
+                        <geographic>Alexandria</geographic>
+                    </subject>
+                    <classification authority="lcc">PA3945 .A2 1979</classification>
+                    <classification authority="ddc">881/.01</classification>
+                    <identifier type="oclc"> 20792109</identifier>
+                    <identifier>Perseus:text:1999.01.0226</identifier>
+                    <location>
+                        <url displayLabel="WorldCat">http://www.worldcat.org/oclc/20792109</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus" note="Greek">http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0226</url>
+                    </location>
+                    <location>
+                        <url displayLabel="GoogleBooks">http://books.google.com/books?id=cFdJ4Zne23YC</url>
+                    </location>
+                </relatedItem>
+            </mods:mods>

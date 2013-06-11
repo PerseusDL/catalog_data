@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:atom="http://www.w3.org/2005/Atom"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+                <mods:titleInfo xml:lang="en" type="uniform">
+                    <title xmlns="http://www.loc.gov/mods/v3">Panegyricus de tertio consulatu Honorii Augusti</title>
+                </mods:titleInfo>
+                <mods:identifier type="stoa author-text">stoa0089-stoa010</mods:identifier>
+                <mods:identifier>Perseus:text:2008.01.0696</mods:identifier>
+                <mods:identifier type="ctsurn">urn:cts:latinLit:stoa0089.stoa010.perseus-lat1</mods:identifier>
+                <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         xmlns="http://www.loc.gov/mods/v3"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n80-98606.html">
+                    <namePart>Claudianus, Claudius.</namePart>
+                    <role>
+                        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                    </role>
+                </name>
+                <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         xmlns="http://www.loc.gov/mods/v3"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n50-19922.html">
+                    <namePart>Platnauer, Maurice</namePart>
+                    <role>
+                        <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+                    </role>
+                </name>
+                <language xmlns="http://www.loc.gov/mods/v3">
+                    <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+                </language>
+                <location xmlns="http://www.loc.gov/mods/v3">
+                    <url displayLabel="Perseus" note="Latin">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0696</url>
+                </location>
+                <relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
+                    <titleInfo>
+                        <title>Claudian</title>
+                        <partNumber>Vol I</partNumber>
+                    </titleInfo>
+                    <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n80-98606.html">
+                        <namePart>Claudianus, Claudius.</namePart>
+                        <role>
+                            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                        </role>
+                    </name>
+                    <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n50-19922.html">
+                        <namePart>Platnauer, Maurice</namePart>
+                        <role>
+                            <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <originInfo>
+                        <place>
+                            <placeTerm type="code" authority="marccountry">enk</placeTerm>
+                        </place>
+                        <place>
+                            <placeTerm type="text">London</placeTerm>
+                        </place>
+                        <place>
+                            <placeTerm type="text">New York</placeTerm>
+                        </place>
+                        <publisher>W. Heinemann</publisher>
+                        <publisher>G.P. Putnam's Sons</publisher>
+                        <edition>Reprint</edition>
+                        <dateModified>1990 </dateModified>
+                        <dateIssued>1922</dateIssued>
+                        <issuance>monographic</issuance>
+                    </originInfo>
+                    <language>
+                        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+                    </language>
+                    <language>
+                        <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+                    </language>
+                    <physicalDescription>
+                        <form authority="marcform">print</form>
+                        <extent/>
+                    </physicalDescription>
+                    <note type="statement of responsibility">with an English translation by Maurice Platnauer ...</note>
+                    <note>Latin and English on opposite pages</note>
+                    <note>Includes bibliographical references and indexes.</note>
+                    <subject authority="lcsh">
+                        <name authority="" type="personal">
+                            <namePart>Claudianus, Claudius</namePart>
+                        </name>
+                        <topic>Translations into English</topic>
+                    </subject>
+                    <classification authority="lcc">PA6156</classification>
+                    <classification authority="ddc">873.01</classification>
+                    <identifier type="lccn">23003398</identifier>
+                    <note>LCCN # is for original 1922 reprint</note>
+                    <identifier type="oclc">37280582</identifier>
+                    <note>OCLC # is for 1990 reprint</note>
+                    <location>
+                        <url displayLabel="LC Permalink">http://lccn.loc.gov/23003398</url>
+                    </location>
+                    <location>
+                        <url displayLabel="WorldCat">http://worldcat.org/oclc/313897</url>
+                    </location>
+                    <location>
+                        <url displayLabel="GoogleBooks">http://books.google.com/books?id=-xoMAAAAIAAJ</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Open Content Alliance">http://www.archive.org/details/claudian01clau</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Open Library">http://www.openlibrary.org/details/claudian01clau</url>
+                    </location>
+                    <relatedItem type="series">
+                        <titleInfo>
+                            <title>The Loeb classical library</title>
+                            <partNumber>135</partNumber>
+                        </titleInfo>
+                        <titleInfo>
+                            <title>LCL 135</title>
+                        </titleInfo>
+                    </relatedItem>
+                </relatedItem>
+            </mods:mods>

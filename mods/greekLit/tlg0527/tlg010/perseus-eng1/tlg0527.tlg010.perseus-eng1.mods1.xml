@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:atom="http://www.w3.org/2005/Atom"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+                <mods:titleInfo xml:lang="en" type="uniform">
+                    <title xmlns="http://www.loc.gov/mods/v3">Ruth</title>
+                </mods:titleInfo>
+                <mods:part>
+                    <mods:extent unit="words">
+                        <mods:total>2200</mods:total>
+                    </mods:extent>
+                </mods:part>
+                <mods:identifier type="tlg">0527.010</mods:identifier>
+                <mods:identifier type="Perseus:abo">Perseus:abo:tlg,0527,010</mods:identifier>
+                <mods:identifier>Perseus:text:1999.01.0156:book=Ruth</mods:identifier>
+                <mods:identifier type="ctsurn">urn:cts:greekLit:tlg0527.tlg010.perseus-eng1</mods:identifier>
+                <language xmlns="http://www.loc.gov/mods/v3">
+                    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+                </language>
+                <location xmlns="http://www.loc.gov/mods/v3">
+                    <url displayLabel="Perseus" note="English">http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0156:book=Ruth</url>
+                </location>
+                <relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
+                    <titleInfo>
+                        <title>World English Bible</title>
+                    </titleInfo>
+                    <name type="corporate">
+                        <namePart>Rainbow Missions</namePart>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <originInfo>
+                        <place>
+                            <placeTerm type="code" authority="marccountry">cou</placeTerm>
+                        </place>
+                        <place>
+                            <placeTerm type="text">Longmont, CO</placeTerm>
+                        </place>
+                        <publisher>Rainbow Missions</publisher>
+                        <issuance>monographic</issuance>
+                    </originInfo>
+                    <language>
+                        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+                    </language>
+                    <physicalDescription>
+                        <form authority="marcform">print</form>
+                        <extent>.</extent>
+                    </physicalDescription>
+                    <note>"A revision of the public domain text of the American Standard Version of the Holy Bible of
+        1901"--T.p. verso.</note>
+                    <note>United Bible Societies language: English.</note>
+                    <identifier>Perseus:text:1999.01.0156</identifier>
+                    <location>
+                        <url displayLabel="Perseus" note="English">http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0156</url>
+                    </location>
+                    <recordInfo>
+                        <recordContentSource authority="marcorg">OCoLC</recordContentSource>
+                        <recordCreationDate encoding="marc"/>
+                        <recordChangeDate encoding="iso8601"/>
+                        <recordIdentifier/>
+                    </recordInfo>
+                </relatedItem>
+            </mods:mods>
