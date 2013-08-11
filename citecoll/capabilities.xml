@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../cite-collection-editor/src/capabilities/CiteCollection.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<collectionService xmlns="http://chs.harvard.edu/xmlns/cite/capabilities">
+    <citeCollection canonicalId="urn" class="1I0Zkm1mAfydn6TfFEWH2h0D3boAd4q7zC-4vuUY" name="cattg"
+        description="Perseus Catalog of Textgroups">
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1">Perseus Catalogued Textgroups</dc:title>
+        <namespaceMapping abbr="perseus" fullValue="http://data.perseus.org/ns/collections"/>
+        <citeProperty name="urn" type="citeurn" label="Catalog Record Identifier"/>
+        <citeProperty name="textgroup" type="ctsurn" label="CTS TextGroup URN"/>
+        <citeProperty name="groupname_eng" type="string" label="Groupname (English)"/>
+        <citeProperty name="has_mads" type="string" label="Has MADs file?">
+            <valueList>
+                <value>true</value>
+                <value>false</value>
+            </valueList>
+        </citeProperty>
+        <citeProperty name="mads_possible" type="string" label="MADs possible?">
+            <valueList>
+                <value>true</value>
+                <value>false</value>
+            </valueList>
+        </citeProperty>
+        <citeProperty name="notes" type="string" label="Notes"/>
+        <citeProperty name="urn_status" type="string" label="Status">
+            <valueList>
+                <value>pending</value>
+                <value>published</value>
+                <value>rejected</value>
+            </valueList>
+        </citeProperty>
+        <citeProperty name="created_by" type="authuser" label="Created By"/>
+        <citeProperty name="edited_by" type="authuser" label="Edited By"/>
+    </citeCollection>
+    <citeCollection canonicalId="urn" class="1PQY6nVHZV8Ng42-qrbiLKXwDz9XoNlStKi3xKfU" name="catwk" description="Perseus Catalog of Works">
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1">Perseus Catalogued Works</dc:title>
+        <namespaceMapping abbr="perseus" fullValue="http://data.perseus.org/ns/collections"/>
+        <citeProperty name="urn" type="citeurn" label="Catalog Record Identifier"/>
+        <citeProperty name="work" type="ctsurn" label="CTS Work URN"/>
+        <citeProperty name="title_eng" type="string" label="Uniform Title (English)"/>
+        <citeProperty name="notes" type="string" label="Notes"/>
+        <citeProperty name="urn_status" type="string" label="Status">
+            <valueList>
+                <value>pending</value>
+                <value>published</value>
+                <value>redirected</value>
+            </valueList>
+        </citeProperty>
+        <citeProperty name="created_by" type="authuser" label="Created By"/>
+        <citeProperty name="edited_by" type="authuser" label="Edited By"/>
+    </citeCollection>
+    <citeCollection canonicalId="urn" class="1STn9raQzWZDeIC4f_LHuLDUPPW3BDkpFfyKrKtw" name="catver"
+        description="Perseus Catalog of Versions">
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1">Perseus Catalogued Versions</dc:title>
+        <namespaceMapping abbr="perseus" fullValue="http://data.perseus.org/ns/collections"/>
+        <citeProperty name="urn" type="citeurn" label="Catalog Record Identifier"/>
+        <citeProperty name="version" type="ctsurn" label="CTS Version URN"/>
+        <citeProperty name="label_eng" type="string" label="Label (English)"/>
+        <citeProperty name="desc_eng" type="string" label="Description (English)"/>
+        <citeProperty name="type" type="string" label="Version Type">
+            <valueList>
+                <value>edition</value>
+                <value>translation</value>
+            </valueList>
+        </citeProperty>
+        <citeProperty name="has_mods" type="string" label="Has MODs">
+            <valueList>
+                <value>true</value>
+                <value>false</value>
+            </valueList>
+        </citeProperty>
+        <citeProperty name="urn_status" type="string" label="Status">
+            <valueList>
+                <value>published</value>
+                <value>redirected</value>
+                <value>rejected</value>
+                <value>proposed</value>
+            </valueList>
+        </citeProperty>
+        <citeProperty name="redirect_to" type="ctsurn" label="Redirected To"/>
+        <citeProperty name="member_of" type="string" label="Member of">
+            <valueList>
+                <value>Perseus:collection:Greco-Roman</value>
+                <value>Perseus:collection:Greco-Roman-protected</value>
+            </valueList>
+        </citeProperty>
+        <citeProperty name="created_by" type="authuser" label="Created By"/>
+        <citeProperty name="edited_by" type="authuser" label="Edited By"/>
+    </citeCollection>
+    <citeCollection canonicalId="urn" class="1sjeeqv_TKrWQ1wDurpA8ltXtfhJnVCpVyZYrHXA" name="primauth"
+        description="Perseus Catalog of Primary Authors">
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1">Perseus Primary Authors</dc:title>
+        <namespaceMapping abbr="perseus" fullValue="http://data.perseus.org/ns/collections"/>
+        <citeProperty name="urn" label="Author Identifier" type="citeurn"/>
+        <citeProperty name="authority_name" label="Authority Name" type="string"/>
+        <citeProperty name="canonical_id" label="Canonical ID" type="string"/>
+        <citeProperty name="mads_file" label="MADS File" type="string"/>
+        <citeProperty name="alt_ids" label="Alternate IDs" type="string"/>
+        <citeProperty name="related_works" label="Related Works" type="string"/>
+        <citeProperty name="urn_status" type="string" label="Status">
+            <valueList>
+                <value>published</value>
+                <value>redirected</value>
+                <value>rejected</value>
+                <value>proposed</value>
+            </valueList>
+        </citeProperty>
+        <citeProperty name="redirect_to" type="ctsurn" label="Redirected To"/>
+        <citeProperty name="created_by" type="authuser" label="Created By"/>
+        <citeProperty name="edited_by" type="authuser" label="Edited By"/>
+    </citeCollection>
+</collectionService>
