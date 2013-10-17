@@ -1,16 +1,99 @@
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"><mads:authority><mads:name type="personal" authority="naf"><mads:namePart>Colluthus</mads:namePart><mads:namePart type="termsOfAddress">of Lycopolis</mads:namePart></mads:name></mads:authority><mads:variant type="other" lang="grc"><mads:name type="personal"><mads:namePart>Κόλλουθος</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="ger"><mads:name type="personal" authority="Brill"><mads:namePart>Kolluthos</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="eng"><mads:name type="personal"><mads:namePart>Coluthus</mads:namePart><mads:namePart type="termsOfAddress">of Lycopolis</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="gre"><mads:name type="personal"><mads:namePart>Kollouthos</mads:namePart><mads:namePart type="termsOfAddress">ho Lykopolitēs</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="lat"><mads:name type="personal"><mads:namePart>Colutus</mads:namePart><mads:namePart type="termsOfAddress">Thebanus</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="ita"><mads:name type="personal"><mads:namePart>Coluto</mads:namePart><mads:namePart type="termsOfAddress">Tebano</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal" authority="lsj"><mads:namePart>Coluthus</mads:namePart><mads:namePart type="termsOfAddress">Epicus</mads:namePart></mads:name></mads:variant><mads:variant type="abbreviation"><mads:name type="personal" authority="lsj"><mads:namePart>Coluth.</mads:namePart></mads:name></mads:variant><mads:fieldOfActivity>Epic Poet</mads:fieldOfActivity><mads:note type="source">His Colluthi Lycopolitani Carmen de raptu Helenae, 1880</mads:note><mads:note type="source">Encyc. Brit. (Colluthus of Lycopolis, fl. ca. 500; Greek epic poet)</mads:note><mads:note type="source">Lemprière&amp;#039;s classical dict. (Coluthus; native of Lycopolis
-      in Egypt)</mads:note><mads:note type="source">LC data base, 3/10/86 (hdg.: Colluthus)</mads:note><mads:note type="source">Oxford class. dict. (Colluthus, epic poet from Lycopolis)</mads:note><mads:note type="source">Papyros-Larous. (Kollouthos ho Lykopolitēs)</mads:note><mads:note type="source">Quintus, Smyrnaeus. Quinti Calabri Derelictorum ab Homero libri
-      quatuordecim, 1541: t.p. (Coluti Thebani ...)</mads:note><mads:note type="source">Il rapimento di Elena di Coluto Tebano, 1837</mads:note><mads:note type="notFound">Encycl. Amer</mads:note><mads:identifier type="lccn">n 85310974</mads:identifier><mads:note type="source">TLG Canon of Greek Authors and Works, Third Edition, pg. 104</mads:note><mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 1,
+<?xml version="1.0"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+  <mads:authority>
+    <mads:name type="personal" authority="naf">
+      <mads:namePart>Colluthus</mads:namePart>
+      <mads:namePart type="termsOfAddress">of Lycopolis</mads:namePart>
+    </mads:name>
+  </mads:authority>
+  <mads:variant type="other" lang="grc">
+    <mads:name type="personal">
+      <mads:namePart>&#x39A;&#x3CC;&#x3BB;&#x3BB;&#x3BF;&#x3C5;&#x3B8;&#x3BF;&#x3C2;</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="ger">
+    <mads:name type="personal" authority="Brill">
+      <mads:namePart>Kolluthos</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="eng">
+    <mads:name type="personal">
+      <mads:namePart>Coluthus</mads:namePart>
+      <mads:namePart type="termsOfAddress">of Lycopolis</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="gre">
+    <mads:name type="personal">
+      <mads:namePart>Kollouthos</mads:namePart>
+      <mads:namePart type="termsOfAddress">ho Lykopolite&#x304;s</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="lat">
+    <mads:name type="personal">
+      <mads:namePart>Colutus</mads:namePart>
+      <mads:namePart type="termsOfAddress">Thebanus</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="ita">
+    <mads:name type="personal">
+      <mads:namePart>Coluto</mads:namePart>
+      <mads:namePart type="termsOfAddress">Tebano</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal" authority="lsj">
+      <mads:namePart>Coluthus</mads:namePart>
+      <mads:namePart type="termsOfAddress">Epicus</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="abbreviation">
+    <mads:name type="personal" authority="lsj">
+      <mads:namePart>Coluth.</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:fieldOfActivity>Epic Poet</mads:fieldOfActivity>
+  <mads:note type="source">His Colluthi Lycopolitani Carmen de raptu Helenae, 1880</mads:note>
+  <mads:note type="source">Encyc. Brit. (Colluthus of Lycopolis, fl. ca. 500; Greek epic poet)</mads:note>
+  <mads:note type="source">Lemprie&#x300;re&amp;#039;s classical dict. (Coluthus; native of Lycopolis
+      in Egypt)</mads:note>
+  <mads:note type="source">LC data base, 3/10/86 (hdg.: Colluthus)</mads:note>
+  <mads:note type="source">Oxford class. dict. (Colluthus, epic poet from Lycopolis)</mads:note>
+  <mads:note type="source">Papyros-Larous. (Kollouthos ho Lykopolite&#x304;s)</mads:note>
+  <mads:note type="source">Quintus, Smyrnaeus. Quinti Calabri Derelictorum ab Homero libri
+      quatuordecim, 1541: t.p. (Coluti Thebani ...)</mads:note>
+  <mads:note type="source">Il rapimento di Elena di Coluto Tebano, 1837</mads:note>
+  <mads:note type="notFound">Encycl. Amer</mads:note>
+  <mads:identifier type="citeurn">urn:cite:perseus:author.393.1</mads:identifier>
+  <mads:identifier type="lccn">n 85310974</mads:identifier>
+  <mads:note type="source">TLG Canon of Greek Authors and Works, Third Edition, pg. 104</mads:note>
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 1,
       1867, p. 815: "One of the late Greek epic poets, was a native of Lycopolis in Upper Egypt, and
       flourished under the emperor Anastasius, at the beginning of the sixth century of our era. He
-      wrote laudatory poems (ἐγκώμια δι᾽ ἐπῶν), an heroic poem, in six books, entitled Καλυδονικά,
-      and another entitled Περσικά. These are all lost, but his poem on "The Rape of Helen" (Ἐλένης
-      ἁρπαγή) was discovered, with Quintus Smyrnaeus, by the Cardinal Bessarion in Calabria..." </mads:note><mads:note type="source">Brill's New Pauly: "A Greek native of Lycopolis in Egypt, who lived
+      wrote laudatory poems (&#x1F10;&#x3B3;&#x3BA;&#x3CE;&#x3BC;&#x3B9;&#x3B1; &#x3B4;&#x3B9;&#x1FBD; &#x1F10;&#x3C0;&#x1FF6;&#x3BD;), an heroic poem, in six books, entitled &#x39A;&#x3B1;&#x3BB;&#x3C5;&#x3B4;&#x3BF;&#x3BD;&#x3B9;&#x3BA;&#x3AC;,
+      and another entitled &#x3A0;&#x3B5;&#x3C1;&#x3C3;&#x3B9;&#x3BA;&#x3AC;. These are all lost, but his poem on "The Rape of Helen" (&#x1F18;&#x3BB;&#x3AD;&#x3BD;&#x3B7;&#x3C2;
+      &#x1F01;&#x3C1;&#x3C0;&#x3B1;&#x3B3;&#x3AE;) was discovered, with Quintus Smyrnaeus, by the Cardinal Bessarion in Calabria..." </mads:note>
+  <mads:note type="source">Brill's New Pauly: "A Greek native of Lycopolis in Egypt, who lived
       during the reign of Anastasius I (AD 491-518)....epic poet, author of a poem about the
-      Calydonian Boar Hunt (Kalydōniaká in six bks.), of encomia (hymns of praise) in hexameters and
-      of an epic poem Persiká, which may have dealt with Anastasius's triumphs over the Persians in
-      the year 505 ....His surviving work is a small epic poem in 392 verses, the ‘Rape of Helen’
-      (Ἁρπαγὴ Ἑλένης, discovered by Cardinal Bessarion in a southern Italian MS, and strangely not
+      Calydonian Boar Hunt (Kalyd&#x14D;niak&#xE1; in six bks.), of encomia (hymns of praise) in hexameters and
+      of an epic poem Persik&#xE1;, which may have dealt with Anastasius's triumphs over the Persians in
+      the year 505 ....His surviving work is a small epic poem in 392 verses, the &#x2018;Rape of Helen&#x2019;
+      (&#x1F09;&#x3C1;&#x3C0;&#x3B1;&#x3B3;&#x1F74; &#x1F19;&#x3BB;&#x3AD;&#x3BD;&#x3B7;&#x3C2;, discovered by Cardinal Bessarion in a southern Italian MS, and strangely not
       mentioned by the Suda...." Fornaro, Sotera (Sassari). "Colluthus." Brill's New Pauly.
       Antiquity volumes edited by: Hubert Cancik and Helmuth Schneider . Brill, 2009. Brill Online.
-      . </mads:note><mads:url displayLabel="VIAF">http://viaf.org/viaf/62351876</mads:url><mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Colluthus</mads:url><mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-n85-310974</mads:url><mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=acl3129.0001.001;didno=acl3129.0001.001;view=image;seq=00000830</mads:url><mads:identifier type="tlg">4081</mads:identifier><mads:extension><mads:description>List of related work identifiers</mads:description><identifier type="tlg">4081.001</identifier></mads:extension><mads:recordInfo><mads:recordContentSource authority="marcorg">InU</mads:recordContentSource><mads:recordCreationDate encoding="marc">860331</mads:recordCreationDate><mads:recordChangeDate encoding="iso8601">20071026152430.0</mads:recordChangeDate><mads:recordIdentifier>oca01549342 </mads:recordIdentifier></mads:recordInfo></mads:mads>
+      . </mads:note>
+  <mads:url displayLabel="VIAF">http://viaf.org/viaf/62351876</mads:url>
+  <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Colluthus</mads:url>
+  <mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-n85-310974</mads:url>
+  <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=acl3129.0001.001;didno=acl3129.0001.001;view=image;seq=00000830</mads:url>
+  <mads:identifier type="tlg">4081</mads:identifier>
+  <mads:extension>
+    <mads:description>List of related work identifiers</mads:description>
+    <identifier type="tlg">4081.001</identifier>
+  </mads:extension>
+  <mads:recordInfo>
+    <mads:recordContentSource authority="marcorg">InU</mads:recordContentSource>
+    <mads:recordCreationDate encoding="marc">860331</mads:recordCreationDate>
+    <mads:recordChangeDate encoding="iso8601">20071026152430.0</mads:recordChangeDate>
+    <mads:recordIdentifier>oca01549342 </mads:recordIdentifier>
+  </mads:recordInfo>
+</mads:mads>

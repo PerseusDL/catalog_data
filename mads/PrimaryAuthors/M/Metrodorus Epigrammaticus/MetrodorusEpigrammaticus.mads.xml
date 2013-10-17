@@ -1,11 +1,97 @@
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"><mads:authority><mads:name type="personal"><mads:namePart>Metrodorus</mads:namePart><mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart><mads:namePart type="date">4. Jh. n. Chr</mads:namePart></mads:name></mads:authority><mads:variant type="other" lang="grc"><mads:name type="personal" authority="Brill"><mads:namePart>Μητρόδωρος</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="fre"><mads:name type="personal"><mads:namePart>Métrodore</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="ger"><mads:name type="personal"><mads:namePart>Metrodoros</mads:namePart><mads:namePart type="termsOfAddress">Epigrammatiker</mads:namePart><mads:namePart type="date">4. Jh. n. Chr</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="ger"><mads:name type="personal"><mads:namePart>Metrodoros</mads:namePart><mads:namePart type="termsOfAddress">Epigrammatist</mads:namePart><mads:namePart type="date">4. Jh. n. Chr</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="ger"><mads:name type="personal"><mads:namePart>Metrodoros</mads:namePart><mads:namePart type="termsOfAddress">Mathematiker</mads:namePart><mads:namePart type="date">4. Jh. n. Chr</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="ger"><mads:name type="personal"><mads:namePart>Metrodoros</mads:namePart><mads:namePart type="termsOfAddress">Dichter</mads:namePart><mads:namePart type="date">4. Jh. n. Chr</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="spa"><mads:name type="personal"><mads:namePart>Metrodoro</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal" authority="lsj"><mads:namePart>Metrodorus</mads:namePart><mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart></mads:name></mads:variant><mads:variant type="abbreviation"><mads:name type="personal" authority="lsj"><mads:namePart>Metrod.</mads:namePart></mads:name></mads:variant><mads:note type="history">AP 9.360, AP 9.712, AP 14.2,3,6,7,116-146; nicht identisch mit
-      Metrodorus &lt;Grammaticus&gt;</mads:note><mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity><mads:note type="source">TLG Canon of Greek Authors and Works, Third Edition, pg. 271</mads:note><mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 2,
-      1867, p. 1071: "Metrodorus,the author of two epigrams in the Greek Anthology..."</mads:note><mads:note type="source">Brill's New Pauly: "Various epigrams survive under this name, which can
+<?xml version="1.0"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+  <mads:authority>
+    <mads:name type="personal">
+      <mads:namePart>Metrodorus</mads:namePart>
+      <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
+      <mads:namePart type="date">4. Jh. n. Chr</mads:namePart>
+    </mads:name>
+  </mads:authority>
+  <mads:variant type="other" lang="grc">
+    <mads:name type="personal" authority="Brill">
+      <mads:namePart>&#x39C;&#x3B7;&#x3C4;&#x3C1;&#x3CC;&#x3B4;&#x3C9;&#x3C1;&#x3BF;&#x3C2;</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="fre">
+    <mads:name type="personal">
+      <mads:namePart>M&#xE9;trodore</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="ger">
+    <mads:name type="personal">
+      <mads:namePart>Metrodoros</mads:namePart>
+      <mads:namePart type="termsOfAddress">Epigrammatiker</mads:namePart>
+      <mads:namePart type="date">4. Jh. n. Chr</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="ger">
+    <mads:name type="personal">
+      <mads:namePart>Metrodoros</mads:namePart>
+      <mads:namePart type="termsOfAddress">Epigrammatist</mads:namePart>
+      <mads:namePart type="date">4. Jh. n. Chr</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="ger">
+    <mads:name type="personal">
+      <mads:namePart>Metrodoros</mads:namePart>
+      <mads:namePart type="termsOfAddress">Mathematiker</mads:namePart>
+      <mads:namePart type="date">4. Jh. n. Chr</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="ger">
+    <mads:name type="personal">
+      <mads:namePart>Metrodoros</mads:namePart>
+      <mads:namePart type="termsOfAddress">Dichter</mads:namePart>
+      <mads:namePart type="date">4. Jh. n. Chr</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="spa">
+    <mads:name type="personal">
+      <mads:namePart>Metrodoro</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal" authority="lsj">
+      <mads:namePart>Metrodorus</mads:namePart>
+      <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="abbreviation">
+    <mads:name type="personal" authority="lsj">
+      <mads:namePart>Metrod.</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:note type="history">AP 9.360, AP 9.712, AP 14.2,3,6,7,116-146; nicht identisch mit
+      Metrodorus &lt;Grammaticus&gt;</mads:note>
+  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
+  <mads:note type="source">TLG Canon of Greek Authors and Works, Third Edition, pg. 271</mads:note>
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 2,
+      1867, p. 1071: "Metrodorus,the author of two epigrams in the Greek Anthology..."</mads:note>
+  <mads:note type="source">Brill's New Pauly: "Various epigrams survive under this name, which can
       probably be ascribed to three different authors whose precise date can not be established with
-      certainty: the epideictic epigrams Anth. Pal. 9,360 ... and 9,712 (by ‘Metrodorus, a grammarian in Byzantium’ on
+      certainty: the epideictic epigrams Anth. Pal. 9,360 ... and 9,712 (by &#x2018;Metrodorus, a grammarian in Byzantium&#x2019; on
       a lawyer called John) and a series of arithmetical problems (Anth. Pal. 14,116-146).... M. was probably the
-      compiler rather than the author of these...." Bodnár, István (Budapest); von Bredow, Iris
-      (Bietigheim-Bissingen); Dorandi, Tiziano (Paris); Günther, Linda-Marie (Munich); Hidber,
-      Thomas (Berne); Stanzel, Karl-Heinz (Tübingen); Hübner, Wolfgang (Münster); Nutton, Vivian
+      compiler rather than the author of these...." Bodn&#xE1;r, Istv&#xE1;n (Budapest); von Bredow, Iris
+      (Bietigheim-Bissingen); Dorandi, Tiziano (Paris); G&#xFC;nther, Linda-Marie (Munich); Hidber,
+      Thomas (Berne); Stanzel, Karl-Heinz (T&#xFC;bingen); H&#xFC;bner, Wolfgang (M&#xFC;nster); Nutton, Vivian
       (London); Albiani, Maria Grazia (Bologna). "Metrodorus." Brill's New Pauly. Antiquity volumes
-      edited by: Hubert Cancik and ; Helmuth Schneider . Brill, 2010. Brill Online</mads:note><mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Metrodorus_(grammarian)</mads:url><mads:url displayLabel="VIAF">http://viaf.org/viaf/10236436/</mads:url><mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0002.001;didno=ACL3129.0002.001;view=image;seq=00001081</mads:url><mads:identifier type="tlg">4077</mads:identifier><mads:extension><mads:description>List of related work identifiers</mads:description><identifier type="tlg">4077.001</identifier></mads:extension><mads:recordInfo><mads:recordContentSource authority="marcorg">DE-12</mads:recordContentSource><mads:recordCreationDate encoding="marc">930416</mads:recordCreationDate><mads:recordChangeDate encoding="iso8601">20080405190903.0</mads:recordChangeDate><mads:recordIdentifier source="DNB">DNB|102399522</mads:recordIdentifier><mads:languageOfCataloging><mads:languageTerm authority="iso639-2b" type="code">ger</mads:languageTerm></mads:languageOfCataloging></mads:recordInfo></mads:mads>
+      edited by: Hubert Cancik and ; Helmuth Schneider . Brill, 2010. Brill Online</mads:note>
+  <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Metrodorus_(grammarian)</mads:url>
+  <mads:url displayLabel="VIAF">http://viaf.org/viaf/10236436/</mads:url>
+  <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0002.001;didno=ACL3129.0002.001;view=image;seq=00001081</mads:url>
+  <mads:identifier type="citeurn">urn:cite:perseus:author.932.1</mads:identifier>
+  <mads:identifier type="tlg">4077</mads:identifier>
+  <mads:extension>
+    <mads:description>List of related work identifiers</mads:description>
+    <identifier type="tlg">4077.001</identifier>
+  </mads:extension>
+  <mads:recordInfo>
+    <mads:recordContentSource authority="marcorg">DE-12</mads:recordContentSource>
+    <mads:recordCreationDate encoding="marc">930416</mads:recordCreationDate>
+    <mads:recordChangeDate encoding="iso8601">20080405190903.0</mads:recordChangeDate>
+    <mads:recordIdentifier source="DNB">DNB|102399522</mads:recordIdentifier>
+    <mads:languageOfCataloging>
+      <mads:languageTerm authority="iso639-2b" type="code">ger</mads:languageTerm>
+    </mads:languageOfCataloging>
+  </mads:recordInfo>
+</mads:mads>

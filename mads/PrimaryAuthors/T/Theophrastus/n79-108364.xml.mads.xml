@@ -1,18 +1,149 @@
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0"><mads:authority><mads:name type="personal" authority="naf"><mads:namePart>Theophrastus</mads:namePart></mads:name></mads:authority><mads:variant type="other" lang="grc"><mads:name type="personal"><mads:namePart>Θεόφραστος</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Feofrast</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="ara"><mads:name type="personal"><mads:namePart>ثيوفراسط</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="cat"><mads:name type="personal"><mads:namePart>Teofrast</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="chi"><mads:name type="personal"><mads:namePart>泰奧弗拉斯托斯</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="cze"><mads:name type="personal"><mads:namePart>Theofrastos</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="fre"><mads:name type="personal"><mads:namePart>Théophraste</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="heb"><mads:name type="personal"><mads:namePart>תאופרסטוס</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="ger"><mads:name type="personal"><mads:namePart>Theophrastos</mads:namePart><mads:namePart type="termsOfAddress">von Eresos</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="ita"><mads:name type="personal"><mads:namePart>Teofrasto</mads:namePart><mads:namePart type="termsOfAddress">di Éreso</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="jap"><mads:name type="personal"><mads:namePart>テオプラストス</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="por"><mads:name type="personal"><mads:namePart>Teofrasto</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="spa"><mads:name type="personal"><mads:namePart>Teofrasto</mads:namePart><mads:namePart type="termsOfAddress">de Éreso</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="swe"><mads:name type="personal"><mads:namePart>Theofrastos</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang=""><mads:name type="personal"><mads:namePart>Téoprastos‏</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal" authority="lsj"><mads:namePart>Theophrastus</mads:namePart><mads:namePart type="termsOfAddress">Philosophus</mads:namePart></mads:name></mads:variant><mads:variant type="abbreviation"><mads:name type="personal" authority="lsj"><mads:namePart>Thphr.</mads:namePart></mads:name></mads:variant><mads:note type="source">His Enquiry into plants ... 1916</mads:note><mads:note type="source">Kapsalis, G. D. Die Typik der Situationen in den Charakteren
-        Theophrasts und ihre Rezeption in der neugriechischen Literatur, 1982: t.p. (Theophrasts)</mads:note><mads:note type="source">Bochenski, J. La logique de TheÌophraste, 1987: CIP t.p.
-        (TheÌophraste)</mads:note><mads:note type="source">MegaleÌ HellenikeÌ enkykl. (Theophrastos)</mads:note><mads:note type="source">His Caratteri, c1989: t.p. (Teofrasto)</mads:note><mads:identifier type="lccn">n 79108364 </mads:identifier><mads:fieldOfActivity>Botanist</mads:fieldOfActivity><mads:fieldOfActivity>Scientist</mads:fieldOfActivity><mads:fieldOfActivity>Peripatetic</mads:fieldOfActivity><mads:fieldOfActivity>Philosopher</mads:fieldOfActivity><mads:note type="source">TLG Canon of Greek Authors and Works, Third Edition,</mads:note><mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol ,
-        1867, p. 1: </mads:note><mads:note type="source">Brill's New Pauly: "Peripatetic philosopher, c. 371/0-287/6 BC, pupil
+<?xml version="1.0"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
+  <mads:authority>
+    <mads:name type="personal" authority="naf">
+      <mads:namePart>Theophrastus</mads:namePart>
+    </mads:name>
+  </mads:authority>
+  <mads:variant type="other" lang="grc">
+    <mads:name type="personal">
+      <mads:namePart>&#x398;&#x3B5;&#x3CC;&#x3C6;&#x3C1;&#x3B1;&#x3C3;&#x3C4;&#x3BF;&#x3C2;</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Feofrast</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="ara">
+    <mads:name type="personal">
+      <mads:namePart>&#x62B;&#x64A;&#x648;&#x641;&#x631;&#x627;&#x633;&#x637;</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="cat">
+    <mads:name type="personal">
+      <mads:namePart>Teofrast</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="chi">
+    <mads:name type="personal">
+      <mads:namePart>&#x6CF0;&#x5967;&#x5F17;&#x62C9;&#x65AF;&#x6258;&#x65AF;</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="cze">
+    <mads:name type="personal">
+      <mads:namePart>Theofrastos</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="fre">
+    <mads:name type="personal">
+      <mads:namePart>Th&#xE9;ophraste</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="heb">
+    <mads:name type="personal">
+      <mads:namePart>&#x5EA;&#x5D0;&#x5D5;&#x5E4;&#x5E8;&#x5E1;&#x5D8;&#x5D5;&#x5E1;</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="ger">
+    <mads:name type="personal">
+      <mads:namePart>Theophrastos</mads:namePart>
+      <mads:namePart type="termsOfAddress">von Eresos</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="ita">
+    <mads:name type="personal">
+      <mads:namePart>Teofrasto</mads:namePart>
+      <mads:namePart type="termsOfAddress">di &#xC9;reso</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="jap">
+    <mads:name type="personal">
+      <mads:namePart>&#x30C6;&#x30AA;&#x30D7;&#x30E9;&#x30B9;&#x30C8;&#x30B9;</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="por">
+    <mads:name type="personal">
+      <mads:namePart>Teofrasto</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="spa">
+    <mads:name type="personal">
+      <mads:namePart>Teofrasto</mads:namePart>
+      <mads:namePart type="termsOfAddress">de &#xC9;reso</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="swe">
+    <mads:name type="personal">
+      <mads:namePart>Theofrastos</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="">
+    <mads:name type="personal">
+      <mads:namePart>T&#xE9;oprastos&#x200F;</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal" authority="lsj">
+      <mads:namePart>Theophrastus</mads:namePart>
+      <mads:namePart type="termsOfAddress">Philosophus</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="abbreviation">
+    <mads:name type="personal" authority="lsj">
+      <mads:namePart>Thphr.</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:note type="source">His Enquiry into plants ... 1916</mads:note>
+  <mads:note type="source">Kapsalis, G. D. Die Typik der Situationen in den Charakteren
+        Theophrasts und ihre Rezeption in der neugriechischen Literatur, 1982: t.p. (Theophrasts)</mads:note>
+  <mads:note type="source">Bochenski, J. La logique de The&#xCC;&#x81;ophraste, 1987: CIP t.p.
+        (The&#xCC;&#x81;ophraste)</mads:note>
+  <mads:note type="source">Megale&#xCC;&#x84; Hellenike&#xCC;&#x84; enkykl. (Theophrastos)</mads:note>
+  <mads:note type="source">His Caratteri, c1989: t.p. (Teofrasto)</mads:note>
+  <mads:identifier type="citeurn">urn:cite:perseus:author.1394.1</mads:identifier>
+  <mads:identifier type="lccn">n 79108364 </mads:identifier>
+  <mads:fieldOfActivity>Botanist</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Scientist</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Peripatetic</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Philosopher</mads:fieldOfActivity>
+  <mads:note type="source">TLG Canon of Greek Authors and Works, Third Edition,</mads:note>
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol ,
+        1867, p. 1: </mads:note>
+  <mads:note type="source">Brill's New Pauly: "Peripatetic philosopher, c. 371/0-287/6 BC, pupil
         and successor of Aristotle....T., born in Eresus on Lesbos, is said to have been a pupil of
         Alcippus... T.'s many interests are reflected in a list of 225 titles in Diog. Laert.
         5,42-50. There can thus be no doubt of T.'s productivity. Surviving works include two
-        important treatises on botany (Περὶ φυτῶν ἱστορία/Perì phytôn historía/Historia plantarum;
-        φυτικῶν αἰτίαι/phytikôn aitíai/De causis plantarum) [4; 5; 6]. Several works of differing
+        important treatises on botany (&#x3A0;&#x3B5;&#x3C1;&#x1F76; &#x3C6;&#x3C5;&#x3C4;&#x1FF6;&#x3BD; &#x1F31;&#x3C3;&#x3C4;&#x3BF;&#x3C1;&#x3AF;&#x3B1;/Per&#xEC; phyt&#xF4;n histor&#xED;a/Historia plantarum;
+        &#x3C6;&#x3C5;&#x3C4;&#x3B9;&#x3BA;&#x1FF6;&#x3BD; &#x3B1;&#x1F30;&#x3C4;&#x3AF;&#x3B1;&#x3B9;/phytik&#xF4;n ait&#xED;ai/De causis plantarum) [4; 5; 6]. Several works of differing
         scope deal with human physiology (sweat, signs of fatigue, dizziness; cf. [7; 8; 9]), with
         fish, smells, fire, winds, meteorology (only preserved in Arabic and perhaps incomplete) and
         stones [10; 11; 12; 13; 14; 15]. A treatise on metaphysics also survives, as does a
         doxographical work on sensual perception [16; 17; 18]. His well-known book on the human
-        characters (Ἠθικοὶ χαρακτῆρες, Ethikoì Charaktêres) became the inspiration for the literary
+        characters (&#x1F28;&#x3B8;&#x3B9;&#x3BA;&#x3BF;&#x1F76; &#x3C7;&#x3B1;&#x3C1;&#x3B1;&#x3BA;&#x3C4;&#x1FC6;&#x3C1;&#x3B5;&#x3C2;, Ethiko&#xEC; Charakt&#xEA;res) became the inspiration for the literary
         genre of the 'character study' in the 17th cent. [19; 20]. Little is known of T. today: most
         of his works are lost..." Fortenbaugh, William W. "Theophrastus." Brill's New Pauly.
         Antiquity volumes edited by: Hubert Cancik and ; Helmuth Schneider . Brill, 2010. Brill
-        Online. Tufts University Library. 08 October 2010 </mads:note><mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Theophrastus</mads:url><mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n79-108364</mads:url><mads:url displayLabel="Smith's Dictionary"/><mads:identifier type="tlg">0093</mads:identifier><mads:extension><mads:description>List of related work identifiers</mads:description><identifier type="tlg">0093.001</identifier><identifier type="tlg">0093.002</identifier><identifier type="tlg">0093.003</identifier><identifier type="tlg">0093.004</identifier><identifier type="tlg">0093.005</identifier><identifier type="tlg">0093.006</identifier><identifier type="tlg">0093.009</identifier><identifier type="tlg">0093.010</identifier></mads:extension><mads:recordInfo><mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource><mads:recordCreationDate encoding="marc">800623</mads:recordCreationDate><mads:recordChangeDate encoding="iso8601">20001201174407.0</mads:recordChangeDate><mads:recordIdentifier>oca00340295 </mads:recordIdentifier></mads:recordInfo></mads:mads>
+        Online. Tufts University Library. 08 October 2010 </mads:note>
+  <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Theophrastus</mads:url>
+  <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n79-108364</mads:url>
+  <mads:url displayLabel="Smith's Dictionary"/>
+  <mads:identifier type="tlg">0093</mads:identifier>
+  <mads:extension>
+    <mads:description>List of related work identifiers</mads:description>
+    <identifier type="tlg">0093.001</identifier>
+    <identifier type="tlg">0093.002</identifier>
+    <identifier type="tlg">0093.003</identifier>
+    <identifier type="tlg">0093.004</identifier>
+    <identifier type="tlg">0093.005</identifier>
+    <identifier type="tlg">0093.006</identifier>
+    <identifier type="tlg">0093.009</identifier>
+    <identifier type="tlg">0093.010</identifier>
+  </mads:extension>
+  <mads:recordInfo>
+    <mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource>
+    <mads:recordCreationDate encoding="marc">800623</mads:recordCreationDate>
+    <mads:recordChangeDate encoding="iso8601">20001201174407.0</mads:recordChangeDate>
+    <mads:recordIdentifier>oca00340295 </mads:recordIdentifier>
+  </mads:recordInfo>
+</mads:mads>

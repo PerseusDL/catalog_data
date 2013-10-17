@@ -1,7 +1,129 @@
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0"><mads:authority><mads:name type="personal" authority="naf"><mads:namePart>Gorgias</mads:namePart><mads:namePart type="termsOfAddress">of Leontini</mads:namePart></mads:name></mads:authority><mads:variant type="other" lang="grc"><mads:name type="personal" authority="Brill"><mads:namePart>Γοργίας</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="ara"><mads:name type="personal" authority="Brill"><mads:namePart>غورجياس</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="bul"><mads:name type="personal"><mads:namePart>Горгий</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="cat"><mads:name type="personal"><mads:namePart>Gòrgies</mads:namePart><mads:namePart type="termsOfAddress">de Leontins</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="chi"><mads:name type="personal"><mads:namePart>高爾吉亞</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="ger"><mads:name type="personal"><mads:namePart>Gorgias</mads:namePart><mads:namePart type="termsOfAddress">aus Leontinoi</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="ger"><mads:name type="personal"><mads:namePart>Gorgias</mads:namePart><mads:namePart type="termsOfAddress">von Leontinoi</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="heb"><mads:name type="personal" authority="Brill"><mads:namePart>גורגיאס</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="ita"><mads:name type="personal"><mads:namePart>Gorgia</mads:namePart><mads:namePart type="termsOfAddress">di Leontini</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="ita"><mads:name type="personal"><mads:namePart>Gorgia</mads:namePart><mads:namePart type="termsOfAddress">di Lentini</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="jap"><mads:name type="personal" authority="Brill"><mads:namePart>ゴルギアス</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="kor"><mads:name type="personal" authority="Brill"><mads:namePart>고르기아스</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="pol"><mads:name type="personal"><mads:namePart>Gorgiasz</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="spa"><mads:name type="personal"><mads:namePart>Gorgias</mads:namePart><mads:namePart type="termsOfAddress">de Leontini</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal" authority="lsj"><mads:namePart>Gorgias</mads:namePart><mads:namePart type="termsOfAddress">Rhetor et Sophista </mads:namePart></mads:name></mads:variant><mads:variant type="abbreviation"><mads:name type="personal" authority="lsj"><mads:namePart>Gorg.</mads:namePart></mads:name></mads:variant><mads:note type="source">Hamberger, P. Die rednerische Disposition in der alten ... 1914</mads:note><mads:note type="source">Mazzara, G. Gorgia ontologo e metafisico, c1982: t.p. (Gorgia)</mads:note><mads:note type="source">Bibl. naz. it. (Gorgia, di Lentini)</mads:note><mads:note type="source">Grande encic. Vallardi (Gorgia, di Leontini (Lentini))</mads:note><mads:note type="source">WroÌblewski, W. PojeÌ¨cie arete w II poÅowie V wieku p.n.e. ... 1979: t.p. (Gorgiasz)</mads:note><mads:identifier type="lccn">n  82106049 </mads:identifier><mads:fieldOfActivity>Rhetor</mads:fieldOfActivity><mads:fieldOfActivity>Sophist</mads:fieldOfActivity><mads:fieldOfActivity>Pre-Socratic</mads:fieldOfActivity><mads:note type="source">TLG Canon of Greek Authors and Works, Third Edition, pg. 179</mads:note><mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 2, 1867, p. : </mads:note><mads:note type="source">Brill's New Pauly:  "According to Philostratus, he was the ‘father’ of Sophistic (Philostr. VS 1,9,1), but 
-        according to Plato and the Suda, he was a rhetor (Pl. Grg. 449a; cf. Pl. Hp. mai. 282b: ‘The sophist of Leontini’)...
+<?xml version="1.0"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
+  <mads:authority>
+    <mads:name type="personal" authority="naf">
+      <mads:namePart>Gorgias</mads:namePart>
+      <mads:namePart type="termsOfAddress">of Leontini</mads:namePart>
+    </mads:name>
+  </mads:authority>
+  <mads:variant type="other" lang="grc">
+    <mads:name type="personal" authority="Brill">
+      <mads:namePart>&#x393;&#x3BF;&#x3C1;&#x3B3;&#x3AF;&#x3B1;&#x3C2;</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="ara">
+    <mads:name type="personal" authority="Brill">
+      <mads:namePart>&#x63A;&#x648;&#x631;&#x62C;&#x64A;&#x627;&#x633;</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="bul">
+    <mads:name type="personal">
+      <mads:namePart>&#x413;&#x43E;&#x440;&#x433;&#x438;&#x439;</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="cat">
+    <mads:name type="personal">
+      <mads:namePart>G&#xF2;rgies</mads:namePart>
+      <mads:namePart type="termsOfAddress">de Leontins</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="chi">
+    <mads:name type="personal">
+      <mads:namePart>&#x9AD8;&#x723E;&#x5409;&#x4E9E;</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="ger">
+    <mads:name type="personal">
+      <mads:namePart>Gorgias</mads:namePart>
+      <mads:namePart type="termsOfAddress">aus Leontinoi</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="ger">
+    <mads:name type="personal">
+      <mads:namePart>Gorgias</mads:namePart>
+      <mads:namePart type="termsOfAddress">von Leontinoi</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="heb">
+    <mads:name type="personal" authority="Brill">
+      <mads:namePart>&#x5D2;&#x5D5;&#x5E8;&#x5D2;&#x5D9;&#x5D0;&#x5E1;</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="ita">
+    <mads:name type="personal">
+      <mads:namePart>Gorgia</mads:namePart>
+      <mads:namePart type="termsOfAddress">di Leontini</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="ita">
+    <mads:name type="personal">
+      <mads:namePart>Gorgia</mads:namePart>
+      <mads:namePart type="termsOfAddress">di Lentini</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="jap">
+    <mads:name type="personal" authority="Brill">
+      <mads:namePart>&#x30B4;&#x30EB;&#x30AE;&#x30A2;&#x30B9;</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="kor">
+    <mads:name type="personal" authority="Brill">
+      <mads:namePart>&#xACE0;&#xB974;&#xAE30;&#xC544;&#xC2A4;</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="pol">
+    <mads:name type="personal">
+      <mads:namePart>Gorgiasz</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="spa">
+    <mads:name type="personal">
+      <mads:namePart>Gorgias</mads:namePart>
+      <mads:namePart type="termsOfAddress">de Leontini</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal" authority="lsj">
+      <mads:namePart>Gorgias</mads:namePart>
+      <mads:namePart type="termsOfAddress">Rhetor et Sophista </mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="abbreviation">
+    <mads:name type="personal" authority="lsj">
+      <mads:namePart>Gorg.</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:note type="source">Hamberger, P. Die rednerische Disposition in der alten ... 1914</mads:note>
+  <mads:note type="source">Mazzara, G. Gorgia ontologo e metafisico, c1982: t.p. (Gorgia)</mads:note>
+  <mads:note type="source">Bibl. naz. it. (Gorgia, di Lentini)</mads:note>
+  <mads:note type="source">Grande encic. Vallardi (Gorgia, di Leontini (Lentini))</mads:note>
+  <mads:note type="source">Wro&#xCC;&#x81;blewski, W. Poje&#xCC;&#xA8;cie arete w II po&#xC5;&#x82;owie V wieku p.n.e. ... 1979: t.p. (Gorgiasz)</mads:note>
+  <mads:identifier type="citeurn">urn:cite:perseus:author.674.1</mads:identifier>
+  <mads:identifier type="lccn">n  82106049 </mads:identifier>
+  <mads:fieldOfActivity>Rhetor</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Sophist</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Pre-Socratic</mads:fieldOfActivity>
+  <mads:note type="source">TLG Canon of Greek Authors and Works, Third Edition, pg. 179</mads:note>
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 2, 1867, p. : </mads:note>
+  <mads:note type="source">Brill's New Pauly:  "According to Philostratus, he was the &#x2018;father&#x2019; of Sophistic (Philostr. VS 1,9,1), but 
+        according to Plato and the Suda, he was a rhetor (Pl. Grg. 449a; cf. Pl. Hp. mai. 282b: &#x2018;The sophist of Leontini&#x2019;)...
         Born c. 480, died c. 380 BC. The dates have been inferred from the only confirmed year of 427 BC, when G. led the legation of 
-        his city in order to plead for help from Athens against the neighbouring city of Syracuse ─ a role reserved for an older man. 
+        his city in order to plead for help from Athens against the neighbouring city of Syracuse &#x2500; a role reserved for an older man. 
         Furthermore, the sources agree that he lived to the age of 100. G. was Socrates' contemporary and is said to have still known the young Plato....
         Two works have been transmitted: the Praise of Helena and the Defence of Palamedes...." from Narcy, Michel (Paris). 
-        "Gorgias." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and ; Helmuth Schneider . Brill, 2011. Brill Online. </mads:note><mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Gorgias</mads:url><mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-n82-106049</mads:url><mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;q1=Gorgias;rgn=full%20text;idno=ACL3129.0002.001;didno=ACL3129.0002.001;view=image;seq=00000293</mads:url><mads:identifier type="tlg">0593</mads:identifier><mads:extension><mads:description>List of related work identifiers</mads:description><identifier type="tlg">0593.003</identifier></mads:extension><mads:recordInfo><mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource><mads:recordCreationDate encoding="marc">821009</mads:recordCreationDate><mads:recordChangeDate encoding="iso8601">20050922172240.0</mads:recordChangeDate><mads:recordIdentifier source="OCoLC">oca00802573 </mads:recordIdentifier></mads:recordInfo></mads:mads>
+        "Gorgias." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and ; Helmuth Schneider . Brill, 2011. Brill Online. </mads:note>
+  <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Gorgias</mads:url>
+  <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-n82-106049</mads:url>
+  <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;q1=Gorgias;rgn=full%20text;idno=ACL3129.0002.001;didno=ACL3129.0002.001;view=image;seq=00000293</mads:url>
+  <mads:identifier type="tlg">0593</mads:identifier>
+  <mads:extension>
+    <mads:description>List of related work identifiers</mads:description>
+    <identifier type="tlg">0593.003</identifier>
+  </mads:extension>
+  <mads:recordInfo>
+    <mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource>
+    <mads:recordCreationDate encoding="marc">821009</mads:recordCreationDate>
+    <mads:recordChangeDate encoding="iso8601">20050922172240.0</mads:recordChangeDate>
+    <mads:recordIdentifier source="OCoLC">oca00802573 </mads:recordIdentifier>
+  </mads:recordInfo>
+</mads:mads>

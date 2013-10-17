@@ -1,8 +1,83 @@
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"><mads:authority><mads:name type="personal" authority="naf"><mads:namePart>Zeno</mads:namePart><mads:namePart type="termsOfAddress">the Stoic</mads:namePart></mads:name></mads:authority><mads:variant type="other"><mads:name type="personal"><mads:namePart>Zenon</mads:namePart><mads:namePart type="termsOfAddress">the Stoic</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Zenon</mads:namePart><mads:namePart type="termsOfAddress">von Kition</mads:namePart></mads:name></mads:variant><mads:variant><mads:name type="personal"><mads:namePart>Zeno</mads:namePart><mads:namePart type="termsOfAddress">of Citium</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Zeno</mads:namePart><mads:namePart type="termsOfAddress">the Phoenician</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Zēnōn</mads:namePart><mads:namePart type="termsOfAddress">ho Kitieus</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal" authority="lsj"><mads:namePart>Zeno Citieus</mads:namePart><mads:namePart type="termsOfAddress">Stoicus</mads:namePart></mads:name></mads:variant><mads:variant type="abbreviation"><mads:name type="personal" authority="lsj"><mads:namePart>ZenoStoic.</mads:namePart></mads:name></mads:variant><mads:note type="source">Hovhannisyan, H.A. Zenoni Imastasiri Haghags bnutʻean ... 1978: t.p.
-      (Zenoni Imastasiri) added t.p. (Zenon [in rom.])</mads:note><mads:note type="source">Acad. Amer. enc., c1989 (Zeno of Citium, b. Citium, Cyprus, c. 336 BC,
-      d. c. 261 BC, founder of Stoicism)</mads:note><mads:note type="source">Enc. Amer., c1975 (Zeno of Citium, Greek philosopher, b. Citium, Cyprus,
-      c. 335 B.C., d. Athens, Greece, c. 263 B.C., his system was named Stoicism)</mads:note><mads:note type="source">Enc. Brit., c1972 (Zeno the Stoic, c. 334-262/261 B.C., sometimes also
-      called Zeno the Phoenician, founder of the Stoic philosophy, native of Citium, Cyprus)</mads:note><mads:note type="source">Archaia Kypriakē grammateia, 1999- : v. 5, t.p. (Zēnōn ho Kitieus) p.
-      37 (Zenon von Kition)</mads:note><mads:identifier type="lccn">n 50061829</mads:identifier><mads:fieldOfActivity>Stoic</mads:fieldOfActivity><mads:fieldOfActivity>Philosopher</mads:fieldOfActivity><mads:note type="source">TLG Canon of Greek Authors and Works, Third Edition, p. 404</mads:note><mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 3,
+<?xml version="1.0"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+  <mads:authority>
+    <mads:name type="personal" authority="naf">
+      <mads:namePart>Zeno</mads:namePart>
+      <mads:namePart type="termsOfAddress">the Stoic</mads:namePart>
+    </mads:name>
+  </mads:authority>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Zenon</mads:namePart>
+      <mads:namePart type="termsOfAddress">the Stoic</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Zenon</mads:namePart>
+      <mads:namePart type="termsOfAddress">von Kition</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant>
+    <mads:name type="personal">
+      <mads:namePart>Zeno</mads:namePart>
+      <mads:namePart type="termsOfAddress">of Citium</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Zeno</mads:namePart>
+      <mads:namePart type="termsOfAddress">the Phoenician</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Ze&#x304;no&#x304;n</mads:namePart>
+      <mads:namePart type="termsOfAddress">ho Kitieus</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal" authority="lsj">
+      <mads:namePart>Zeno Citieus</mads:namePart>
+      <mads:namePart type="termsOfAddress">Stoicus</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="abbreviation">
+    <mads:name type="personal" authority="lsj">
+      <mads:namePart>ZenoStoic.</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:note type="source">Hovhannisyan, H.A. Zenoni Imastasiri Haghags bnut&#x2BB;ean ... 1978: t.p.
+      (Zenoni Imastasiri) added t.p. (Zenon [in rom.])</mads:note>
+  <mads:note type="source">Acad. Amer. enc., c1989 (Zeno of Citium, b. Citium, Cyprus, c. 336 BC,
+      d. c. 261 BC, founder of Stoicism)</mads:note>
+  <mads:note type="source">Enc. Amer., c1975 (Zeno of Citium, Greek philosopher, b. Citium, Cyprus,
+      c. 335 B.C., d. Athens, Greece, c. 263 B.C., his system was named Stoicism)</mads:note>
+  <mads:note type="source">Enc. Brit., c1972 (Zeno the Stoic, c. 334-262/261 B.C., sometimes also
+      called Zeno the Phoenician, founder of the Stoic philosophy, native of Citium, Cyprus)</mads:note>
+  <mads:note type="source">Archaia Kypriake&#x304; grammateia, 1999- : v. 5, t.p. (Ze&#x304;no&#x304;n ho Kitieus) p.
+      37 (Zenon von Kition)</mads:note>
+  <mads:identifier type="citeurn">urn:cite:perseus:author.1502.1</mads:identifier>
+  <mads:identifier type="lccn">n 50061829</mads:identifier>
+  <mads:fieldOfActivity>Stoic</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Philosopher</mads:fieldOfActivity>
+  <mads:note type="source">TLG Canon of Greek Authors and Works, Third Edition, p. 404</mads:note>
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 3,
       1867, p. 1313: "Zenon, of Citium,a city in the island of Cyprus...He is said to have been
-      early won over to the pursuit of philosophy through books of the Socratics...."</mads:note><mads:note type="source">Brill's New Pauly:</mads:note><mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Zeno_of_Citium</mads:url><mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-n50-61829</mads:url><mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0003.001;didno=ACL3129.0003.001;view=image;seq=00001321</mads:url><mads:identifier type="tlg">0635</mads:identifier><mads:extension><mads:description>List of related work identifiers</mads:description><identifier type="tlg">0635.001</identifier></mads:extension><mads:recordInfo><mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource><mads:recordCreationDate encoding="marc">810217</mads:recordCreationDate><mads:recordChangeDate encoding="iso8601">20060912164825.0</mads:recordChangeDate><mads:recordIdentifier>oca00096242 </mads:recordIdentifier></mads:recordInfo></mads:mads>
+      early won over to the pursuit of philosophy through books of the Socratics...."</mads:note>
+  <mads:note type="source">Brill's New Pauly:</mads:note>
+  <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Zeno_of_Citium</mads:url>
+  <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-n50-61829</mads:url>
+  <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0003.001;didno=ACL3129.0003.001;view=image;seq=00001321</mads:url>
+  <mads:identifier type="tlg">0635</mads:identifier>
+  <mads:extension>
+    <mads:description>List of related work identifiers</mads:description>
+    <identifier type="tlg">0635.001</identifier>
+  </mads:extension>
+  <mads:recordInfo>
+    <mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource>
+    <mads:recordCreationDate encoding="marc">810217</mads:recordCreationDate>
+    <mads:recordChangeDate encoding="iso8601">20060912164825.0</mads:recordChangeDate>
+    <mads:recordIdentifier>oca00096242 </mads:recordIdentifier>
+  </mads:recordInfo>
+</mads:mads>

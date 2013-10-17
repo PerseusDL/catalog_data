@@ -1,13 +1,97 @@
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0"><mads:authority><mads:name type="personal" authority="naf"><mads:namePart>Dioscorides</mads:namePart><mads:namePart type="date">3rd cent. B.C</mads:namePart></mads:name></mads:authority><mads:variant type="other" lang="grc"><mads:name type="personal"><mads:namePart>Διοσκουρίδης</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="fre"><mads:name type="personal"><mads:namePart>Dioscoride</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="ger"><mads:name type="personal"><mads:namePart>Dioskurides</mads:namePart><mads:namePart type="termsOfAddress">von Alexandreia</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang=""><mads:name type="personal"><mads:namePart>Dioscorides</mads:namePart><mads:namePart type="termsOfAddress">Alexandrinus</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang=""><mads:name type="personal"><mads:namePart>Dioscurides</mads:namePart><mads:namePart type="termsOfAddress">Alexandrinus</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang=""><mads:name type="personal"><mads:namePart>Dioscuride</mads:namePart><mads:namePart type="termsOfAddress">di Alessandria</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="spa"><mads:name type="personal"><mads:namePart>Dioscórides</mads:namePart><mads:namePart type="termsOfAddress">de Alejandría</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal" authority="lsj"><mads:namePart>Dioscorides</mads:namePart><mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart></mads:name></mads:variant><mads:variant type="abbreviation"><mads:name type="personal" authority="lsj"><mads:namePart>Diosc.</mads:namePart></mads:name></mads:variant><mads:note type="source">Dioscorides and Antipater of Sidon, 2001: p. 3 (lived during the last
-        half of the 3rd cent. B.C.)</mads:note><mads:note type="source">Oxford class. dict., 1996: p. 483 (Dioscorides, author of 40 epigrams
-        in the Greek anthology, not earlier than the late 3rd cent. B.C.)</mads:note><mads:identifier type="lccn">nr2002023705</mads:identifier><mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity><mads:note type="source">TLG Canon of Greek Authors and Works, Third Edition, pg. 142</mads:note><mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 1,
+<?xml version="1.0"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
+  <mads:authority>
+    <mads:name type="personal" authority="naf">
+      <mads:namePart>Dioscorides</mads:namePart>
+      <mads:namePart type="date">3rd cent. B.C</mads:namePart>
+    </mads:name>
+  </mads:authority>
+  <mads:variant type="other" lang="grc">
+    <mads:name type="personal">
+      <mads:namePart>&#x394;&#x3B9;&#x3BF;&#x3C3;&#x3BA;&#x3BF;&#x3C5;&#x3C1;&#x3AF;&#x3B4;&#x3B7;&#x3C2;</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="fre">
+    <mads:name type="personal">
+      <mads:namePart>Dioscoride</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="ger">
+    <mads:name type="personal">
+      <mads:namePart>Dioskurides</mads:namePart>
+      <mads:namePart type="termsOfAddress">von Alexandreia</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="">
+    <mads:name type="personal">
+      <mads:namePart>Dioscorides</mads:namePart>
+      <mads:namePart type="termsOfAddress">Alexandrinus</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="">
+    <mads:name type="personal">
+      <mads:namePart>Dioscurides</mads:namePart>
+      <mads:namePart type="termsOfAddress">Alexandrinus</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="">
+    <mads:name type="personal">
+      <mads:namePart>Dioscuride</mads:namePart>
+      <mads:namePart type="termsOfAddress">di Alessandria</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="spa">
+    <mads:name type="personal">
+      <mads:namePart>Diosc&#xF3;rides</mads:namePart>
+      <mads:namePart type="termsOfAddress">de Alejandr&#xED;a</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal" authority="lsj">
+      <mads:namePart>Dioscorides</mads:namePart>
+      <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="abbreviation">
+    <mads:name type="personal" authority="lsj">
+      <mads:namePart>Diosc.</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:note type="source">Dioscorides and Antipater of Sidon, 2001: p. 3 (lived during the last
+        half of the 3rd cent. B.C.)</mads:note>
+  <mads:note type="source">Oxford class. dict., 1996: p. 483 (Dioscorides, author of 40 epigrams
+        in the Greek anthology, not earlier than the late 3rd cent. B.C.)</mads:note>
+  <mads:identifier type="citeurn">urn:cite:perseus:author.519.1</mads:identifier>
+  <mads:identifier type="lccn">nr2002023705</mads:identifier>
+  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
+  <mads:note type="source">TLG Canon of Greek Authors and Works, Third Edition, pg. 142</mads:note>
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 1,
         1867, p. 1051: "Dioscorides, the author of thirty-nine epigrams in the Greek
-        Anthology.....seems, from the internal evidence of his epigrams, to have lived in Egypt..."</mads:note><mads:note type="source">Brill's New Pauly: "Writer of epigrams of the ‘Garland’ of Meleager
-        (cf. Anth. Pal. 4,1,24, where the wording Διοσκουρ- is favoured over the more widely used
-        Διοσκορ-) who came from an otherwise unspecified Nicopolis (according to the lemma of
+        Anthology.....seems, from the internal evidence of his epigrams, to have lived in Egypt..."</mads:note>
+  <mads:note type="source">Brill's New Pauly: "Writer of epigrams of the &#x2018;Garland&#x2019; of Meleager
+        (cf. Anth. Pal. 4,1,24, where the wording &#x394;&#x3B9;&#x3BF;&#x3C3;&#x3BA;&#x3BF;&#x3C5;&#x3C1;- is favoured over the more widely used
+        &#x394;&#x3B9;&#x3BF;&#x3C3;&#x3BA;&#x3BF;&#x3C1;-) who came from an otherwise unspecified Nicopolis (according to the lemma of
         7,178). He lived in the 2nd half of the 3rd cent. BC, as suggested in the epitaphios for the
         comic actor Machon (7,708, cf. Ath. 6,241f.), in Egypt, mostly in Alexandria (cf. Anth. Pal.
         11,363 and 6,290; 7,76; 7,166; 9,568). 40 of his epigrams have been preserved; these are
         mainly funerary or erotic...." Degani, Enzo (Bologna).Dioscorides." Brill's New Pauly.
         Antiquity volumes edited by: Hubert Cancik and Helmuth Schneider . Brill, 2009. Brill
-        Online.</mads:note><mads:url displayLabel="Wikipedia"/><mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-nr2002-23705</mads:url><mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00001066</mads:url><mads:identifier type="tlg">0173</mads:identifier><mads:extension><mads:description>List of related work identifiers</mads:description><identifier type="tlg">0173.001</identifier></mads:extension><mads:recordInfo><mads:recordContentSource authority="marcorg">UPB</mads:recordContentSource><mads:recordCreationDate encoding="marc">020625</mads:recordCreationDate><mads:recordChangeDate encoding="iso8601">20020702033129.0</mads:recordChangeDate><mads:recordIdentifier>oca05802574 </mads:recordIdentifier><mads:languageOfCataloging><mads:languageTerm type="code" authority="iso639-2b">eng</mads:languageTerm></mads:languageOfCataloging></mads:recordInfo></mads:mads>
+        Online.</mads:note>
+  <mads:url displayLabel="Wikipedia"/>
+  <mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-nr2002-23705</mads:url>
+  <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00001066</mads:url>
+  <mads:identifier type="tlg">0173</mads:identifier>
+  <mads:extension>
+    <mads:description>List of related work identifiers</mads:description>
+    <identifier type="tlg">0173.001</identifier>
+  </mads:extension>
+  <mads:recordInfo>
+    <mads:recordContentSource authority="marcorg">UPB</mads:recordContentSource>
+    <mads:recordCreationDate encoding="marc">020625</mads:recordCreationDate>
+    <mads:recordChangeDate encoding="iso8601">20020702033129.0</mads:recordChangeDate>
+    <mads:recordIdentifier>oca05802574 </mads:recordIdentifier>
+    <mads:languageOfCataloging>
+      <mads:languageTerm type="code" authority="iso639-2b">eng</mads:languageTerm>
+    </mads:languageOfCataloging>
+  </mads:recordInfo>
+</mads:mads>

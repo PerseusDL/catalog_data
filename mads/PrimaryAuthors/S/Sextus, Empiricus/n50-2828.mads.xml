@@ -1,2 +1,104 @@
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"><mads:authority lang="lat"><mads:name type="personal" authority="naf" valueURI="http://id.loc.gov/authorities/names/n50002828"><mads:namePart>Sextus</mads:namePart><mads:namePart type="termsOfAddress">Empiricus</mads:namePart></mads:name></mads:authority><mads:related type="equivalent" lang="grc"><mads:name type="personal" authority="Brill"><mads:namePart>Σέξτος</mads:namePart><mads:namePart type="termsOfAddress">ο Εμπειρικός</mads:namePart></mads:name></mads:related><mads:variant type="other" lang="lat"><mads:name type="personal"><mads:namePart>Sextus Empiricus</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Sekst</mads:namePart><mads:namePart type="termsOfAddress">Ėmpirik</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="ara"><mads:name type="personal"><mads:namePart>سيكستوس إمبيريكوس</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="cat"><mads:name type="personal"><mads:namePart>Sext Empíric</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="gre"><mads:name type="personal"><mads:namePart>Sextos</mads:namePart><mads:namePart type="termsOfAddress">ho Empeirikos</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="ger"><mads:name type="personal"><mads:namePart>Sextos Empicirus</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="ita"><mads:name type="personal"><mads:namePart>Sesto</mads:namePart><mads:namePart type="termsOfAddress">Empirico</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="ita"><mads:name type="personal"><mads:namePart>Sesto Empirico</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="spa"><mads:name type="personal"><mads:namePart>Sexto Empírico‏</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal" authority="lsj"><mads:namePart>Sextus Empiricus</mads:namePart><mads:namePart type="termsOfAddress">Philosophus</mads:namePart></mads:name></mads:variant><mads:variant type="abbreviation"><mads:name type="personal" authority="lsj"><mads:namePart>S.E.</mads:namePart></mads:name></mads:variant><mads:note type="source">His Contre les musiciens, 1898</mads:note><mads:note type="source">Papyros-Larous. (Sextos ho Empeirikos)</mads:note><mads:note type="source">His Schizzi pirroniani, 1988: t.p. (Sesto Empirico)</mads:note><mads:note type="history">fl. either last quarter or all of the second half of 2d cent. A.D.,
-      including early 3d cent</mads:note><mads:identifier type="lccn">n 50002828</mads:identifier><mads:fieldOfActivity>Philosopher</mads:fieldOfActivity><mads:fieldOfActivity>Skeptic</mads:fieldOfActivity><mads:fieldOfActivity>Physician</mads:fieldOfActivity><mads:note type="source">TLG Canon of Greek Authors and Works, Third Edition,</mads:note><mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol , 1867, p. 1: </mads:note><mads:note type="source">Brill's New Pauly:</mads:note><mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Sextus_Empiricus</mads:url><mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n50-2828</mads:url><mads:url displayLabel="Smith's Dictionary"/><mads:url displayLabel="VIAF">http://viaf.org/viaf/60320706</mads:url><mads:url displayLabel="Id.gov">http://id.loc.gov/authorities/names/n50002828</mads:url><mads:identifier type="tlg">0544</mads:identifier><mads:extension><mads:description>List of related work identifiers</mads:description><identifier type="tlg">0544.001</identifier><identifier type="tlg">0544.002</identifier></mads:extension><mads:recordInfo><mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource><mads:recordCreationDate encoding="marc">800310</mads:recordCreationDate><mads:recordChangeDate encoding="iso8601">20010427165633.0</mads:recordChangeDate><mads:recordIdentifier>oca00038460 </mads:recordIdentifier></mads:recordInfo></mads:mads>
+<?xml version="1.0"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+  <mads:authority lang="lat">
+    <mads:name type="personal" authority="naf" valueURI="http://id.loc.gov/authorities/names/n50002828">
+      <mads:namePart>Sextus</mads:namePart>
+      <mads:namePart type="termsOfAddress">Empiricus</mads:namePart>
+    </mads:name>
+  </mads:authority>
+  <mads:related type="equivalent" lang="grc">
+    <mads:name type="personal" authority="Brill">
+      <mads:namePart>&#x3A3;&#x3AD;&#x3BE;&#x3C4;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart type="termsOfAddress">&#x3BF; &#x395;&#x3BC;&#x3C0;&#x3B5;&#x3B9;&#x3C1;&#x3B9;&#x3BA;&#x3CC;&#x3C2;</mads:namePart>
+    </mads:name>
+  </mads:related>
+  <mads:variant type="other" lang="lat">
+    <mads:name type="personal">
+      <mads:namePart>Sextus Empiricus</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Sekst</mads:namePart>
+      <mads:namePart type="termsOfAddress">E&#x307;mpirik</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="ara">
+    <mads:name type="personal">
+      <mads:namePart>&#x633;&#x64A;&#x643;&#x633;&#x62A;&#x648;&#x633; &#x625;&#x645;&#x628;&#x64A;&#x631;&#x64A;&#x643;&#x648;&#x633;</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="cat">
+    <mads:name type="personal">
+      <mads:namePart>Sext Emp&#xED;ric</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="gre">
+    <mads:name type="personal">
+      <mads:namePart>Sextos</mads:namePart>
+      <mads:namePart type="termsOfAddress">ho Empeirikos</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="ger">
+    <mads:name type="personal">
+      <mads:namePart>Sextos Empicirus</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="ita">
+    <mads:name type="personal">
+      <mads:namePart>Sesto</mads:namePart>
+      <mads:namePart type="termsOfAddress">Empirico</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="ita">
+    <mads:name type="personal">
+      <mads:namePart>Sesto Empirico</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="spa">
+    <mads:name type="personal">
+      <mads:namePart>Sexto Emp&#xED;rico&#x200F;</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal" authority="lsj">
+      <mads:namePart>Sextus Empiricus</mads:namePart>
+      <mads:namePart type="termsOfAddress">Philosophus</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="abbreviation">
+    <mads:name type="personal" authority="lsj">
+      <mads:namePart>S.E.</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:note type="source">His Contre les musiciens, 1898</mads:note>
+  <mads:note type="source">Papyros-Larous. (Sextos ho Empeirikos)</mads:note>
+  <mads:note type="source">His Schizzi pirroniani, 1988: t.p. (Sesto Empirico)</mads:note>
+  <mads:note type="history">fl. either last quarter or all of the second half of 2d cent. A.D.,
+      including early 3d cent</mads:note>
+  <mads:identifier type="citeurn">urn:cite:perseus:author.1285.1</mads:identifier>
+  <mads:identifier type="lccn">n 50002828</mads:identifier>
+  <mads:fieldOfActivity>Philosopher</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Skeptic</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Physician</mads:fieldOfActivity>
+  <mads:note type="source">TLG Canon of Greek Authors and Works, Third Edition,</mads:note>
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol , 1867, p. 1: </mads:note>
+  <mads:note type="source">Brill's New Pauly:</mads:note>
+  <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Sextus_Empiricus</mads:url>
+  <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n50-2828</mads:url>
+  <mads:url displayLabel="Smith's Dictionary"/>
+  <mads:url displayLabel="VIAF">http://viaf.org/viaf/60320706</mads:url>
+  <mads:url displayLabel="ID.gov">http://id.loc.gov/authorities/names/n50002828</mads:url>
+  <mads:identifier type="tlg">0544</mads:identifier>
+  <mads:extension>
+    <mads:description>List of related work identifiers</mads:description>
+    <identifier type="tlg">0544.001</identifier>
+    <identifier type="tlg">0544.002</identifier>
+  </mads:extension>
+  <mads:recordInfo>
+    <mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource>
+    <mads:recordCreationDate encoding="marc">800310</mads:recordCreationDate>
+    <mads:recordChangeDate encoding="iso8601">20010427165633.0</mads:recordChangeDate>
+    <mads:recordIdentifier>oca00038460 </mads:recordIdentifier>
+  </mads:recordInfo>
+</mads:mads>

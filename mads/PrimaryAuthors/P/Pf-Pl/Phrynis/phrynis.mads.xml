@@ -1,5 +1,57 @@
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"><mads:authority><mads:name type="personal"><mads:namePart>Phrynis</mads:namePart><mads:namePart type="termsOfAddress">Citharist,</mads:namePart><mads:namePart type="date">fl. 446-416 B.C</mads:namePart></mads:name></mads:authority><mads:variant type="other" lang="grc"><mads:name type="personal" authority="Brill"><mads:namePart>Φρῦνις</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="cat"><mads:name type="personal" authority="Brill"><mads:namePart>Frinis</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="ger"><mads:name type="personal" authority="Brill"><mads:namePart>Phrynis</mads:namePart><mads:namePart type="termsOfAddress">aus Mytilene</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="spa"><mads:name type="personal" authority="Brill"><mads:namePart>Frinis</mads:namePart><mads:namePart type="termsOfAddress">de Mitilene</mads:namePart></mads:name></mads:variant><mads:fieldOfActivity>Musician</mads:fieldOfActivity><mads:fieldOfActivity>Citharist</mads:fieldOfActivity><mads:note type="source">Brill's New Pauly: "Citharist from Mytilene, active 446-416 in Athens; a key figure of the 'New Music'
+<?xml version="1.0"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+  <mads:authority>
+    <mads:name type="personal">
+      <mads:namePart>Phrynis</mads:namePart>
+      <mads:namePart type="termsOfAddress">Citharist,</mads:namePart>
+      <mads:namePart type="date">fl. 446-416 B.C</mads:namePart>
+    </mads:name>
+  </mads:authority>
+  <mads:variant type="other" lang="grc">
+    <mads:name type="personal" authority="Brill">
+      <mads:namePart>&#x3A6;&#x3C1;&#x1FE6;&#x3BD;&#x3B9;&#x3C2;</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="cat">
+    <mads:name type="personal" authority="Brill">
+      <mads:namePart>Frinis</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="ger">
+    <mads:name type="personal" authority="Brill">
+      <mads:namePart>Phrynis</mads:namePart>
+      <mads:namePart type="termsOfAddress">aus Mytilene</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="spa">
+    <mads:name type="personal" authority="Brill">
+      <mads:namePart>Frinis</mads:namePart>
+      <mads:namePart type="termsOfAddress">de Mitilene</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:fieldOfActivity>Musician</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Citharist</mads:fieldOfActivity>
+  <mads:note type="source">Brill's New Pauly: "Citharist from Mytilene, active 446-416 in Athens; a key figure of the 'New Music'
       of the late 5th century BC [5. 12]. Of his works nothing survives.....Reprimanded as late as by Aristophanes (Aristoph. Nub. 969-971), in the lat
       e 4th century P. was considered the equal of Terpander (Athen. 14,638bc)....."  Harmon, Roger (Basel). "Phrynis." Der Neue Pauly. Herausgegeben von: 
       Hubert Cancik und ; Helmuth Schneider (Antike), ; Manfred Landfester (Rezeptions- und Wissenschaftsgeschichte) . Brill, 2011.    
-   </mads:note><mads:url displayLabel="Wikipedia">http://ca.wikipedia.org/wiki/Frinis</mads:url><mads:url displayLabel="VIAF"/><mads:url displayLabel="Smith's Dictionary"/><mads:identifier type="tlg"/><mads:extension><mads:description>List of related work identifiers</mads:description><identifier type="tlg">tlg-Phrynis</identifier></mads:extension><mads:recordInfo><mads:recordContentSource authority="marcorg"/><mads:recordCreationDate encoding="marc"/><mads:recordChangeDate encoding="iso8601"/><mads:recordIdentifier source="Perseus"/><mads:languageOfCataloging><mads:languageTerm authority="iso639-2b" type="code">eng</mads:languageTerm></mads:languageOfCataloging></mads:recordInfo></mads:mads>
+   </mads:note>
+  <mads:url displayLabel="Wikipedia">http://ca.wikipedia.org/wiki/Frinis</mads:url>
+  <mads:url displayLabel="VIAF"/>
+  <mads:url displayLabel="Smith's Dictionary"/>
+  <mads:identifier type="citeurn">urn:cite:perseus:author.1123.1</mads:identifier>
+  <mads:identifier type="tlg"/>
+  <mads:extension>
+    <mads:description>List of related work identifiers</mads:description>
+    <identifier type="tlg">tlg-Phrynis</identifier>
+  </mads:extension>
+  <mads:recordInfo>
+    <mads:recordContentSource authority="marcorg"/>
+    <mads:recordCreationDate encoding="marc"/>
+    <mads:recordChangeDate encoding="iso8601"/>
+    <mads:recordIdentifier source="Perseus"/>
+    <mads:languageOfCataloging>
+      <mads:languageTerm authority="iso639-2b" type="code">eng</mads:languageTerm>
+    </mads:languageOfCataloging>
+  </mads:recordInfo>
+</mads:mads>

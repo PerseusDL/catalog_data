@@ -1,10 +1,92 @@
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"><mads:authority><mads:name type="personal"><mads:namePart>Eustathius</mads:namePart><mads:namePart type="termsOfAddress">Epiphaniensis</mads:namePart><mads:namePart type="date">5. bzw. 5./6. Jh. n. Chr</mads:namePart></mads:name></mads:authority><mads:variant type="other" lang="grc"><mads:name type="personal"><mads:namePart>Εὐστάθιος</mads:namePart><mads:namePart type="termsOfAddress">Ἐπιφάνεια</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="ger"><mads:name type="personal"><mads:namePart>Eustathios</mads:namePart><mads:namePart type="termsOfAddress">von Epiphaneia</mads:namePart><mads:namePart type="date">5. bzw. 5./6. Jh. n. Chr</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="ita"><mads:name type="personal"><mads:namePart>Eustazio</mads:namePart><mads:namePart type="termsOfAddress">di Epiphaneia</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="fre"><mads:name type="personal"><mads:namePart>Eustathe</mads:namePart><mads:namePart type="termsOfAddress">d'Epiphanie</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Eustathius</mads:namePart><mads:namePart type="termsOfAddress">Syrus</mads:namePart><mads:namePart type="date">5. bzw. 5./6. Jh. n. Chr</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Eustathius</mads:namePart><mads:namePart type="termsOfAddress">Historicus</mads:namePart><mads:namePart type="date">5. bzw. 5./6. Jh. n. Chr</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal" authority="lsj"><mads:namePart>Eustathius Epiphaniensis </mads:namePart><mads:namePart type="termsOfAddress">Historicus</mads:namePart></mads:name></mads:variant><mads:variant type="abbreviation"><mads:name type="personal" authority="lsj"><mads:namePart>Eust. Epiph.</mads:namePart></mads:name></mads:variant><mads:fieldOfActivity>Historian</mads:fieldOfActivity><mads:note type="source">TLG Canon of Greek Authors and Works, Third Edition, pg. 166</mads:note><mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 2,
+<?xml version="1.0"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+  <mads:authority>
+    <mads:name type="personal">
+      <mads:namePart>Eustathius</mads:namePart>
+      <mads:namePart type="termsOfAddress">Epiphaniensis</mads:namePart>
+      <mads:namePart type="date">5. bzw. 5./6. Jh. n. Chr</mads:namePart>
+    </mads:name>
+  </mads:authority>
+  <mads:variant type="other" lang="grc">
+    <mads:name type="personal">
+      <mads:namePart>&#x395;&#x1F50;&#x3C3;&#x3C4;&#x3AC;&#x3B8;&#x3B9;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart type="termsOfAddress">&#x1F18;&#x3C0;&#x3B9;&#x3C6;&#x3AC;&#x3BD;&#x3B5;&#x3B9;&#x3B1;</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="ger">
+    <mads:name type="personal">
+      <mads:namePart>Eustathios</mads:namePart>
+      <mads:namePart type="termsOfAddress">von Epiphaneia</mads:namePart>
+      <mads:namePart type="date">5. bzw. 5./6. Jh. n. Chr</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="ita">
+    <mads:name type="personal">
+      <mads:namePart>Eustazio</mads:namePart>
+      <mads:namePart type="termsOfAddress">di Epiphaneia</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="fre">
+    <mads:name type="personal">
+      <mads:namePart>Eustathe</mads:namePart>
+      <mads:namePart type="termsOfAddress">d'Epiphanie</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Eustathius</mads:namePart>
+      <mads:namePart type="termsOfAddress">Syrus</mads:namePart>
+      <mads:namePart type="date">5. bzw. 5./6. Jh. n. Chr</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Eustathius</mads:namePart>
+      <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
+      <mads:namePart type="date">5. bzw. 5./6. Jh. n. Chr</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal" authority="lsj">
+      <mads:namePart>Eustathius Epiphaniensis </mads:namePart>
+      <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="abbreviation">
+    <mads:name type="personal" authority="lsj">
+      <mads:namePart>Eust. Epiph.</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
+  <mads:note type="source">TLG Canon of Greek Authors and Works, Third Edition, pg. 166</mads:note>
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 2,
       1867, p. 120: "Eustathius, of Epiphaneia, in Syria, a rheotirican of the time of Anastasius.
       He wrote an historical work in nine books...With the exception of a few fragments, the whole
-      work is lost...."</mads:note><mads:note type="source">Brill's New Pauly: "Eustathius, of Epiphania, writer of a world history,
-      lived in the 5th cent. and wrote a twelve-volume digest of world history (χρονικὴ ἐπιτομή).
+      work is lost...."</mads:note>
+  <mads:note type="source">Brill's New Pauly: "Eustathius, of Epiphania, writer of a world history,
+      lived in the 5th cent. and wrote a twelve-volume digest of world history (&#x3C7;&#x3C1;&#x3BF;&#x3BD;&#x3B9;&#x3BA;&#x1F74; &#x1F10;&#x3C0;&#x3B9;&#x3C4;&#x3BF;&#x3BC;&#x3AE;).
       The three-volume first part extended to the fall of Troy, the second in nine books from Aeneas
       to AD 503 (Evagrius, Hist. Eccl. 5,24). It is cited in the Suda (s.v. Eustathius); but the
       work had already been used in the 6th cent. by Malalas and Evagrios Scholastikos...." from
       Markschies, Christoph (Berlin). "Eustathius." Brill's New Pauly. Antiquity volumes edited by:
-      Hubert Cancik and Helmuth Schneider . Brill, 2009. Brill Online. Tufts University Library.</mads:note><mads:url displayLabel="Wikipedia">http://de.wikipedia.org/wiki/Eustathius_von_Epiphaneia</mads:url><mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|100940986</mads:url><mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0002.001;didno=ACL3129.0002.001;view=image;seq=00000130</mads:url><mads:identifier type="tlg">2637</mads:identifier><mads:extension><mads:description>List of related work identifiers</mads:description><identifier type="tlg">2637.001</identifier></mads:extension><mads:note type="source">Tusculum-Lexikon; CSGL</mads:note><mads:recordInfo><mads:recordContentSource authority="marcorg">DE-12</mads:recordContentSource><mads:recordCreationDate encoding="marc">910104</mads:recordCreationDate><mads:recordChangeDate encoding="iso8601">20080405164832.0</mads:recordChangeDate><mads:recordIdentifier source="DNB">DNB|100940986</mads:recordIdentifier><mads:languageOfCataloging><mads:languageTerm authority="iso639-2b" type="code">ger</mads:languageTerm></mads:languageOfCataloging></mads:recordInfo></mads:mads>
+      Hubert Cancik and Helmuth Schneider . Brill, 2009. Brill Online. Tufts University Library.</mads:note>
+  <mads:url displayLabel="Wikipedia">http://de.wikipedia.org/wiki/Eustathius_von_Epiphaneia</mads:url>
+  <mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|100940986</mads:url>
+  <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0002.001;didno=ACL3129.0002.001;view=image;seq=00000130</mads:url>
+  <mads:identifier type="citeurn">urn:cite:perseus:author.605.1</mads:identifier>
+  <mads:identifier type="tlg">2637</mads:identifier>
+  <mads:extension>
+    <mads:description>List of related work identifiers</mads:description>
+    <identifier type="tlg">2637.001</identifier>
+  </mads:extension>
+  <mads:note type="source">Tusculum-Lexikon; CSGL</mads:note>
+  <mads:recordInfo>
+    <mads:recordContentSource authority="marcorg">DE-12</mads:recordContentSource>
+    <mads:recordCreationDate encoding="marc">910104</mads:recordCreationDate>
+    <mads:recordChangeDate encoding="iso8601">20080405164832.0</mads:recordChangeDate>
+    <mads:recordIdentifier source="DNB">DNB|100940986</mads:recordIdentifier>
+    <mads:languageOfCataloging>
+      <mads:languageTerm authority="iso639-2b" type="code">ger</mads:languageTerm>
+    </mads:languageOfCataloging>
+  </mads:recordInfo>
+</mads:mads>

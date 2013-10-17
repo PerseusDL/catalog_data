@@ -1,12 +1,145 @@
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0"><mads:authority><mads:name type="personal" authority="naf"><mads:namePart>Arethas</mads:namePart><mads:namePart type="termsOfAddress">Archbishop of Caesarea (Cappadocia)</mads:namePart><mads:namePart type="date">ca. 860-ca. 940</mads:namePart></mads:name></mads:authority><mads:related type="equivalent"><mads:name type="personal" authority="SWD"><mads:namePart>Arethas</mads:namePart><mads:namePart type="termsOfAddress">von Caesarea</mads:namePart><mads:namePart type="date">850-944</mads:namePart></mads:name></mads:related><mads:variant type="other"><mads:name type="personal"><mads:namePart>Arethas Kaisareias</mads:namePart><mads:namePart type="date">ca. 860-ca. 940</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Arethas</mads:namePart><mads:namePart type="termsOfAddress">of Caesarea, ca. 860-ca. 940</mads:namePart></mads:name></mads:variant><mads:variant type="other" lang="grc"><mads:name type="personal"><mads:namePart>Aρέθας</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Arethas</mads:namePart><mads:namePart type="termsOfAddress">aus Patrai</mads:namePart><mads:namePart type="date">850-944</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Arethas</mads:namePart><mads:namePart type="termsOfAddress">Scholiastes</mads:namePart><mads:namePart type="date">850-944</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Arethas</mads:namePart><mads:namePart type="termsOfAddress">von Kaisareia</mads:namePart><mads:namePart type="date">850-944</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Arethas</mads:namePart><mads:namePart type="termsOfAddress">Cappadox</mads:namePart><mads:namePart type="date">850-944</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Arethas</mads:namePart><mads:namePart type="termsOfAddress">Prōtothronos</mads:namePart><mads:namePart type="date">850-944</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Arethas</mads:namePart><mads:namePart type="termsOfAddress">Philosophus et Scriptor Ecclesiasticus</mads:namePart><mads:namePart type="date">850-944</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Arethas</mads:namePart><mads:namePart type="termsOfAddress">Patrensis</mads:namePart><mads:namePart type="date">850-944</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Arethas</mads:namePart><mads:namePart type="termsOfAddress">Constantinopolitanus</mads:namePart><mads:namePart type="date">850-944</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Arethas</mads:namePart><mads:namePart type="termsOfAddress">Caesariensis, Erzbischof</mads:namePart><mads:namePart type="date">850-944</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Arethas</mads:namePart><mads:namePart type="termsOfAddress">Caesarea Cappadocia, Episcopus</mads:namePart><mads:namePart type="date">850-944</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal" authority="tlg"><mads:namePart>Arethas</mads:namePart><mads:namePart>Philol. et. Scr. Eccl.</mads:namePart></mads:name></mads:variant><mads:fieldOfActivity>epigrammatist</mads:fieldOfActivity><mads:fieldOfActivity>philological scholar</mads:fieldOfActivity><mads:note type="source">TLG Canon of Greek Authors and Works, Third Edition, pg. 54.</mads:note><mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 1,
-        1867, p. 268: "Arethas, 1, Archbishop of Caesaria in Cappadocia at an uncertain time, " </mads:note><mads:note type="source">Exegesis tou en hagiois patros hemon Gregoriou tou theologou, 17th
+<?xml version="1.0"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
+  <mads:authority>
+    <mads:name type="personal" authority="naf">
+      <mads:namePart>Arethas</mads:namePart>
+      <mads:namePart type="termsOfAddress">Archbishop of Caesarea (Cappadocia)</mads:namePart>
+      <mads:namePart type="date">ca. 860-ca. 940</mads:namePart>
+    </mads:name>
+  </mads:authority>
+  <mads:related type="equivalent">
+    <mads:name type="personal" authority="SWD">
+      <mads:namePart>Arethas</mads:namePart>
+      <mads:namePart type="termsOfAddress">von Caesarea</mads:namePart>
+      <mads:namePart type="date">850-944</mads:namePart>
+    </mads:name>
+  </mads:related>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Arethas Kaisareias</mads:namePart>
+      <mads:namePart type="date">ca. 860-ca. 940</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Arethas</mads:namePart>
+      <mads:namePart type="termsOfAddress">of Caesarea, ca. 860-ca. 940</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="grc">
+    <mads:name type="personal">
+      <mads:namePart>A&#x3C1;&#x3AD;&#x3B8;&#x3B1;&#x3C2;</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Arethas</mads:namePart>
+      <mads:namePart type="termsOfAddress">aus Patrai</mads:namePart>
+      <mads:namePart type="date">850-944</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Arethas</mads:namePart>
+      <mads:namePart type="termsOfAddress">Scholiastes</mads:namePart>
+      <mads:namePart type="date">850-944</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Arethas</mads:namePart>
+      <mads:namePart type="termsOfAddress">von Kaisareia</mads:namePart>
+      <mads:namePart type="date">850-944</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Arethas</mads:namePart>
+      <mads:namePart type="termsOfAddress">Cappadox</mads:namePart>
+      <mads:namePart type="date">850-944</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Arethas</mads:namePart>
+      <mads:namePart type="termsOfAddress">Pro&#x304;tothronos</mads:namePart>
+      <mads:namePart type="date">850-944</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Arethas</mads:namePart>
+      <mads:namePart type="termsOfAddress">Philosophus et Scriptor Ecclesiasticus</mads:namePart>
+      <mads:namePart type="date">850-944</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Arethas</mads:namePart>
+      <mads:namePart type="termsOfAddress">Patrensis</mads:namePart>
+      <mads:namePart type="date">850-944</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Arethas</mads:namePart>
+      <mads:namePart type="termsOfAddress">Constantinopolitanus</mads:namePart>
+      <mads:namePart type="date">850-944</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Arethas</mads:namePart>
+      <mads:namePart type="termsOfAddress">Caesariensis, Erzbischof</mads:namePart>
+      <mads:namePart type="date">850-944</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Arethas</mads:namePart>
+      <mads:namePart type="termsOfAddress">Caesarea Cappadocia, Episcopus</mads:namePart>
+      <mads:namePart type="date">850-944</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal" authority="tlg">
+      <mads:namePart>Arethas</mads:namePart>
+      <mads:namePart>Philol. et. Scr. Eccl.</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:fieldOfActivity>epigrammatist</mads:fieldOfActivity>
+  <mads:fieldOfActivity>philological scholar</mads:fieldOfActivity>
+  <mads:note type="source">TLG Canon of Greek Authors and Works, Third Edition, pg. 54.</mads:note>
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 1,
+        1867, p. 268: "Arethas, 1, Archbishop of Caesaria in Cappadocia at an uncertain time, " </mads:note>
+  <mads:note type="source">Exegesis tou en hagiois patros hemon Gregoriou tou theologou, 17th
         cent. [manuscript] (name not given: authorship of the text misattributed to Gregory of
-        Nazianzus)</mads:note><mads:note type="source">Brill Online, Brill's New Pauly, "Arethas, bliophile commentator on
+        Nazianzus)</mads:note>
+  <mads:note type="source">Brill Online, Brill's New Pauly, "Arethas, bliophile commentator on
         classical MSS, editor of theological-exegetical writings, and polemicist. A. was born
         shortly after 850 in Patras, became a student of Photius and was initially active as a
         scholar in Constantinople....." Makris, Georgios. "Arethas." Brill's New Pauly. Antiquity
         volumes edited by: Hubert Cancik and Helmuth Schneider . Brill, 2007. Brill Online. Tufts
-        University Library</mads:note><mads:note type="source">LC in RLIN, 2/1/98 (hdg.: Arethas, Abp. of Caesarea (Cappadocia) ca.
-        860-ca. 940)</mads:note><mads:note type="source">Aretha Kaisareias Scholia eis teÌn Porphyriou
-        EisagoÌgeÌn kai tas Aristotelous KateÌgorias = Arethas of
-        Caesarea's Scholia on Porphyry's Isagoge and Aristotle's Categories, 1994</mads:note><mads:identifier type="lccn">nr 98003748 </mads:identifier><mads:identifier type="tlg">2130</mads:identifier><mads:url displayLabel="WorldCat Identities">http://worldcat.org/identities/lccn-nr98-3748</mads:url><mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Arethas_of_Caesarea</mads:url><mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000293</mads:url><mads:extension><mads:description>List of related work identifiers</mads:description><identifier type="tlg">2130.001</identifier></mads:extension><mads:recordInfo><mads:recordContentSource authority="marcorg">UPB</mads:recordContentSource><mads:recordCreationDate encoding="marc">980202</mads:recordCreationDate><mads:recordChangeDate encoding="iso8601">19981121051651.4</mads:recordChangeDate><mads:recordIdentifier>oca04654195 </mads:recordIdentifier></mads:recordInfo></mads:mads>
+        University Library</mads:note>
+  <mads:note type="source">LC in RLIN, 2/1/98 (hdg.: Arethas, Abp. of Caesarea (Cappadocia) ca.
+        860-ca. 940)</mads:note>
+  <mads:note type="source">Aretha Kaisareias Scholia eis te&#xCC;&#x84;n Porphyriou
+        Eisago&#xCC;&#x84;ge&#xCC;&#x84;n kai tas Aristotelous Kate&#xCC;&#x84;gorias = Arethas of
+        Caesarea's Scholia on Porphyry's Isagoge and Aristotle's Categories, 1994</mads:note>
+  <mads:identifier type="citeurn">urn:cite:perseus:author.180.1</mads:identifier>
+  <mads:identifier type="lccn">nr 98003748 </mads:identifier>
+  <mads:identifier type="tlg">2130</mads:identifier>
+  <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-nr98-3748</mads:url>
+  <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Arethas_of_Caesarea</mads:url>
+  <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000293</mads:url>
+  <mads:extension>
+    <mads:description>List of related work identifiers</mads:description>
+    <identifier type="tlg">2130.001</identifier>
+  </mads:extension>
+  <mads:recordInfo>
+    <mads:recordContentSource authority="marcorg">UPB</mads:recordContentSource>
+    <mads:recordCreationDate encoding="marc">980202</mads:recordCreationDate>
+    <mads:recordChangeDate encoding="iso8601">19981121051651.4</mads:recordChangeDate>
+    <mads:recordIdentifier>oca04654195 </mads:recordIdentifier>
+  </mads:recordInfo>
+</mads:mads>

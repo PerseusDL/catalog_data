@@ -1,7 +1,139 @@
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0"><mads:authority><mads:name type="personal" authority="naf"><mads:namePart>Alanus</mads:namePart><mads:namePart type="termsOfAddress">de Insulis</mads:namePart><mads:namePart type="date">d. 1202</mads:namePart></mads:name></mads:authority><mads:variant type="other"><mads:name type="personal"><mads:namePart>Alanus</mads:namePart><mads:namePart type="termsOfAddress">ad Insulus</mads:namePart><mads:namePart type="date">d. 1202</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Alain</mads:namePart><mads:namePart type="termsOfAddress">de Lille</mads:namePart><mads:namePart type="date">d. 1202</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Alanus</mads:namePart><mads:namePart type="termsOfAddress">Porretanus</mads:namePart><mads:namePart type="date">d. 1202</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Alan</mads:namePart><mads:namePart type="termsOfAddress">of Lille</mads:namePart><mads:namePart type="date">d. 1202</mads:namePart></mads:name></mads:variant><mads:variant><mads:name type="personal"><mads:namePart>Alanus de Insulis</mads:namePart><mads:namePart type="date">d. 1202</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Alanus</mads:namePart><mads:namePart type="termsOfAddress">ab Insulis</mads:namePart><mads:namePart type="date">d. 1202</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Alano</mads:namePart><mads:namePart type="termsOfAddress">di Lilla</mads:namePart><mads:namePart type="date">d. 1202</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Alanus</mads:namePart><mads:namePart type="termsOfAddress">Insulanus</mads:namePart><mads:namePart type="date">d. 1202</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Insulis, Alanus de</mads:namePart><mads:namePart type="date">d. 1202</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Alain</mads:namePart><mads:namePart type="termsOfAddress">de l'Isle</mads:namePart><mads:namePart type="date">d. 1202</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Isle, Alain de l'</mads:namePart><mads:namePart type="date">d. 1202</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>L'Isle, Alain de</mads:namePart><mads:namePart type="date">d. 1202</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Alain</mads:namePart><mads:namePart type="termsOfAddress">of Lille</mads:namePart><mads:namePart type="date">d. 1202</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Alain</mads:namePart><mads:namePart type="termsOfAddress">von Ryssel</mads:namePart><mads:namePart type="date">d. 1202</mads:namePart></mads:name></mads:variant><mads:variant type="other"><mads:name type="personal"><mads:namePart>Ryssel, Alain von</mads:namePart><mads:namePart type="date">d. 1202</mads:namePart></mads:name></mads:variant><mads:note type="source">His The complaint of nature, 1908</mads:note><mads:note type="source">His The plaint of nature, 1980: t.p. (Alan of Lille)</mads:note><mads:note type="source">Evans, G. Alan of Lille, 1983: CIP t.p. (Alan of Lille) pref. (d.
-        1202-3)</mads:note><mads:note type="source">Alanus ab Insulis, c1993</mads:note><mads:note type="source">Liber parabolarum, 1993: t.p. (Alano di Lilla)</mads:note><mads:note type="source">Anticlaudianus, or, The good and perfect man, c1987: t.p. (Alan of
+<?xml version="1.0"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
+  <mads:authority>
+    <mads:name type="personal" authority="naf">
+      <mads:namePart>Alanus</mads:namePart>
+      <mads:namePart type="termsOfAddress">de Insulis</mads:namePart>
+      <mads:namePart type="date">d. 1202</mads:namePart>
+    </mads:name>
+  </mads:authority>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Alanus</mads:namePart>
+      <mads:namePart type="termsOfAddress">ad Insulus</mads:namePart>
+      <mads:namePart type="date">d. 1202</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Alain</mads:namePart>
+      <mads:namePart type="termsOfAddress">de Lille</mads:namePart>
+      <mads:namePart type="date">d. 1202</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Alanus</mads:namePart>
+      <mads:namePart type="termsOfAddress">Porretanus</mads:namePart>
+      <mads:namePart type="date">d. 1202</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Alan</mads:namePart>
+      <mads:namePart type="termsOfAddress">of Lille</mads:namePart>
+      <mads:namePart type="date">d. 1202</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant>
+    <mads:name type="personal">
+      <mads:namePart>Alanus de Insulis</mads:namePart>
+      <mads:namePart type="date">d. 1202</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Alanus</mads:namePart>
+      <mads:namePart type="termsOfAddress">ab Insulis</mads:namePart>
+      <mads:namePart type="date">d. 1202</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Alano</mads:namePart>
+      <mads:namePart type="termsOfAddress">di Lilla</mads:namePart>
+      <mads:namePart type="date">d. 1202</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Alanus</mads:namePart>
+      <mads:namePart type="termsOfAddress">Insulanus</mads:namePart>
+      <mads:namePart type="date">d. 1202</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Insulis, Alanus de</mads:namePart>
+      <mads:namePart type="date">d. 1202</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Alain</mads:namePart>
+      <mads:namePart type="termsOfAddress">de l'Isle</mads:namePart>
+      <mads:namePart type="date">d. 1202</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Isle, Alain de l'</mads:namePart>
+      <mads:namePart type="date">d. 1202</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>L'Isle, Alain de</mads:namePart>
+      <mads:namePart type="date">d. 1202</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Alain</mads:namePart>
+      <mads:namePart type="termsOfAddress">of Lille</mads:namePart>
+      <mads:namePart type="date">d. 1202</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Alain</mads:namePart>
+      <mads:namePart type="termsOfAddress">von Ryssel</mads:namePart>
+      <mads:namePart type="date">d. 1202</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal">
+      <mads:namePart>Ryssel, Alain von</mads:namePart>
+      <mads:namePart type="date">d. 1202</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:note type="source">His The complaint of nature, 1908</mads:note>
+  <mads:note type="source">His The plaint of nature, 1980: t.p. (Alan of Lille)</mads:note>
+  <mads:note type="source">Evans, G. Alan of Lille, 1983: CIP t.p. (Alan of Lille) pref. (d.
+        1202-3)</mads:note>
+  <mads:note type="source">Alanus ab Insulis, c1993</mads:note>
+  <mads:note type="source">Liber parabolarum, 1993: t.p. (Alano di Lilla)</mads:note>
+  <mads:note type="source">Anticlaudianus, or, The good and perfect man, c1987: t.p. (Alan of
         Lille) p. 9-10 (d. between Apr. 14, 1202 and Apr. 5, 1203, using Paschal method of reckoning
         years; b. 1116 or 1117 based on forensic examination; earlier scholarship had placed his
-        birth ca. 1128)</mads:note><mads:note type="source">Foote, A. Vita nostra plena bellis, c1995: p. 2 (Alanus Insulanus)</mads:note><mads:note type="source">Cath. encyc. (Alain de L'Isle; also called Alain of Lille, Alanus ab
+        birth ca. 1128)</mads:note>
+  <mads:note type="source">Foote, A. Vita nostra plena bellis, c1995: p. 2 (Alanus Insulanus)</mads:note>
+  <mads:note type="source">Cath. encyc. (Alain de L'Isle; also called Alain of Lille, Alanus ab
         Insulis or de Insulis, Alain von Ryssel, etc.; monk, poet, preacher, theologian, and
-        eclectic philosopher; b. probably at Lille ca. 1128, d. 1203)</mads:note><mads:identifier type="lccn">n 50035344 </mads:identifier><mads:identifier type="stoa">stoa0015</mads:identifier><mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-n50-35344</mads:url><mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Alain_de_Lille</mads:url><mads:extension><mads:description>List of related work identifiers</mads:description><identifier type="stoa author-text">stoa0015-stoa001 </identifier></mads:extension><mads:recordInfo><mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource><mads:recordCreationDate encoding="marc">800710</mads:recordCreationDate><mads:recordChangeDate encoding="iso8601">20050427181254.0</mads:recordChangeDate><mads:recordIdentifier>oca00070635 </mads:recordIdentifier></mads:recordInfo></mads:mads>
+        eclectic philosopher; b. probably at Lille ca. 1128, d. 1203)</mads:note>
+  <mads:identifier type="citeurn">urn:cite:perseus:author.46.1</mads:identifier>
+  <mads:identifier type="lccn">n 50035344 </mads:identifier>
+  <mads:identifier type="stoa">stoa0015</mads:identifier>
+  <mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-n50-35344</mads:url>
+  <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Alain_de_Lille</mads:url>
+  <mads:extension>
+    <mads:description>List of related work identifiers</mads:description>
+    <identifier type="stoa author-text">stoa0015-stoa001 </identifier>
+  </mads:extension>
+  <mads:recordInfo>
+    <mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource>
+    <mads:recordCreationDate encoding="marc">800710</mads:recordCreationDate>
+    <mads:recordChangeDate encoding="iso8601">20050427181254.0</mads:recordChangeDate>
+    <mads:recordIdentifier>oca00070635 </mads:recordIdentifier>
+  </mads:recordInfo>
+</mads:mads>
