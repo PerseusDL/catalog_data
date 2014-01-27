@@ -91,11 +91,14 @@
                         <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
                     </mods:role>
                 </mods:name>
-                <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
+                          <mods:name xmlns="http://www.loc.gov/mods/v3"
+              xmlns:ns2="http://www.w3.org/1999/xlink"
               authority="naf"
               type="personal"
               ns2:href="http://errol.oclc.org/laf/n86-839410.html">
-                    <mods:role xmlns="http://www.loc.gov/mods/v3">
+                    <mods:namePart>Smith, Charles Forster</mods:namePart>
+                    <mods:namePart type="date">1852-1931</mods:namePart>
+                    <mods:role>
                         <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
                     </mods:role>
                 </mods:name>
