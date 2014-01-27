@@ -72,5 +72,13 @@
                         <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
                     </mods:role>
                 </mods:name>
-                <mods:name authority="naf-inactive" type="personal"/>
+        <mods:name xmlns="http://www.loc.gov/mods/v3"
+              authority="naf-inactive"
+              type="personal">
+                    <mods:namePart>Campe, Johann Friedrich Christian</mods:namePart>
+                    <mods:namePart type="date">1808-1881</mods:namePart>
+                    <mods:role>
+                        <mods:roleTerm authority="marcrelator" type="text">translator</mods:roleTerm>
+                    </mods:role>
+                </mods:name>
             </mods:mods>
