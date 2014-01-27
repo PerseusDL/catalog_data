@@ -72,14 +72,14 @@
                         <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
                     </mods:role>
                 </mods:name>
-                <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/no96-41956.html">
-                    <mods:role xmlns="http://www.loc.gov/mods/v3">
-                        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
+                 <name authority="naf" type="personal" xmlns:ns2="http://www.w3.org/1999/xlink"
+                 ns2:href="http://errol.oclc.org/laf/no96-41956.html">
+                      <namePart>Gail, J.-B. (Jean-Baptiste)</namePart>
+                      <namePart type="date">1755-1829</namePart>
+                      <role>
+                      <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+                      </role>
+                      </name>
                 <mods:subject xmlns="http://www.loc.gov/mods/v3" authority="lcsh">
                     <mods:geographic>Greece</mods:geographic>
                     <mods:topic>History</mods:topic>
