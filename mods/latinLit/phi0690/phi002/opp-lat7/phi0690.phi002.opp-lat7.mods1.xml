@@ -20,61 +20,74 @@
                 <mods:identifier type="phi">690.2</mods:identifier>
                 <mods:identifier type="stoa author-text">stoa0290-stoa003</mods:identifier>
                 <mods:identifier type="ctsurn">urn:cts:latinLit:phi0690.phi002.opp-lat7</mods:identifier>
+               <mods:part>
+            <mods:extent unit="pages">
+                <mods:start>63</mods:start>
+                <mods:end>171</mods:end>
+            </mods:extent>
+        </mods:part>
+        <mods:location>
+            <mods:url displayLabel="HathiTrust">http://hdl.handle.net/2027/njp.32101064226192?urlappend=%3Bseq=95</mods:url>
+        </mods:location>
                 <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
-                    <mods:titleInfo>
-                        <mods:title>Opera</mods:title>
-                    </mods:titleInfo>
-                    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-                 authority="naf"
-                 type="personal"
-                 ns2:href="http://errol.oclc.org/laf/n79-14062.html">
-                        <mods:namePart>Virgil</mods:namePart>
-                        <mods:role>
-                            <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-                        </mods:role>
-                    </mods:name>
-                    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-                 authority="naf"
-                 type="personal"
-                 ns2:href="http://errol.oclc.org/laf/n85-143995.html">
-                        <mods:namePart>La Rue, Charles de</mods:namePart>
-                        <mods:namePart type="date">1643-1725</mods:namePart>
-                        <mods:role>
-                            <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-                        </mods:role>
-                    </mods:name>
-                    <mods:typeOfResource>text</mods:typeOfResource>
-                    <mods:originInfo>
-                        <mods:place>
-                            <mods:placeTerm type="code" authority="marccountry">unknown</mods:placeTerm>
-                        </mods:place>
-                        <mods:place>
-                            <mods:placeTerm type="text">unknown</mods:placeTerm>
-                        </mods:place>
-                        <mods:publisher>unknown</mods:publisher>
-                        <mods:dateIssued>unknown</mods:dateIssued>
-                        <mods:issuance>monographic</mods:issuance>
-                    </mods:originInfo>
-                    <mods:language>
-                        <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
-                    </mods:language>
-                    <mods:physicalDescription>
-                        <mods:form authority="marcform">print</mods:form>
-                        <mods:extent/>
-                    </mods:physicalDescription>
-                    <mods:tableOfContents>P. Virgilii Maronis Historia descripta per consules a Carolo Ruæo S.J. --
-        Bucolica -- Georgica -- Æneidos -- Index vocabulorum omnium.</mods:tableOfContents>
-                    <mods:note type="statement of responsibility">Interpretatione et notis illustravit Carolus Ruæus.
-        Soc. Jesu.</mods:note>
-                    <mods:classification authority="lcc">PA6801</mods:classification>
-                    <mods:identifier type="oclc">60859138?</mods:identifier>
-                    <mods:recordInfo>
-                        <mods:recordContentSource authority="marcorg">OCoLC</mods:recordContentSource>
-                        <mods:recordCreationDate encoding="marc"/>
-                        <mods:recordChangeDate encoding="iso8601"/>
-                        <mods:recordIdentifier/>
-                    </mods:recordInfo>
-                </mods:relatedItem>
+            <mods:titleInfo>
+                <mods:title>Opera</mods:title>
+            </mods:titleInfo>
+            <mods:name authority="naf" type="personal" xmlns:ns2="http://www.w3.org/1999/xlink"
+                ns2:href="http://errol.oclc.org/laf/n79-14062.html">
+                <mods:namePart>Virgil</mods:namePart>
+                <mods:role>
+                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:name authority="naf" type="personal" xmlns:ns2="http://www.w3.org/1999/xlink"
+                ns2:href="http://errol.oclc.org/laf/n85-143995.html">
+                <mods:namePart>La Rue, Charles de</mods:namePart>
+                <mods:namePart type="date">1643-1725</mods:namePart>
+                <mods:role>
+                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:name authority="naf" type="personal" xmlns:ns2="http://www.w3.org/1999/xlink"
+                ns2:href="http://id.loc.gov/authorities/names/n88115514">
+                <mods:namePart>Poyntell, William</mods:namePart>
+                <mods:namePart type="date">1756-1811</mods:namePart>
+                <mods:role>
+                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:typeOfResource>text</mods:typeOfResource>
+            <mods:originInfo>
+                <mods:place>
+                    <mods:placeTerm type="code" authority="marccountry">us</mods:placeTerm>
+                </mods:place>
+                <mods:place>
+                    <mods:placeTerm type="text">Philadelphia</mods:placeTerm>
+                </mods:place>
+                <mods:publisher>Ex officina classica impensis W. Poyntell et Soc., 1804 [H. Maxwell, printer]</mods:publisher>
+                <mods:dateIssued>1804</mods:dateIssued>
+                <mods:edition>Juxta editionem Londiniensem. Editio prima Americana, qua plurima Londiniensis errata, 
+                    diligentissime animadversa, corriguntur</mods:edition>
+                <mods:issuance>monographic</mods:issuance>
+            </mods:originInfo>
+            <mods:language>
+                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+            </mods:language>
+            <mods:physicalDescription>
+                <mods:form authority="marcform">print</mods:form>
+                <mods:extent>[xxii] 610 p.</mods:extent>
+            </mods:physicalDescription>
+            <mods:note type="statement of responsibility">Interpretatione et notis illustravit Carolus Ruæus.
+                Soc. Jesu.</mods:note>
+            <mods:classification authority="lcc">PA6801</mods:classification>
+            <mods:identifier type="oclc">4732262</mods:identifier>
+            <mods:location>
+                <mods:url displayLabel="Worldcat">http://www.worldcat.org/oclc/692157778</mods:url>
+            </mods:location>
+            <mods:location>
+                <mods:url displayLabel="HathiTrust">http://hdl.handle.net/2027/njp.32101064226192</mods:url>
+            </mods:location>
+        </mods:relatedItem>
                 <mods:language xmlns="http://www.loc.gov/mods/v3">
                     <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
                 </mods:language>
