@@ -56,9 +56,6 @@
                     <mods:url displayLabel="WorldCat">http://www.worldcat.org/oclc/3433687</mods:url>
                 </mods:location>
                 <mods:location xmlns="http://www.loc.gov/mods/v3">
-                    <mods:url displayLabel="GoogleBooks" note="Snippet View">http://books.google.com/books?vid=OCLC03433687</mods:url>
-                </mods:location>
-                <mods:location xmlns="http://www.loc.gov/mods/v3">
                     <mods:url displayLabel="Open Content Alliance">http://www.archive.org/details/onagriculturewit01coluuoft</mods:url>
                 </mods:location>
                 <mods:location xmlns="http://www.loc.gov/mods/v3">
@@ -83,11 +80,13 @@
                         <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
                     </mods:role>
                 </mods:name>
-                <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
+             <mods:name xmlns="http://www.loc.gov/mods/v3"
+              xmlns:ns2="http://www.w3.org/1999/xlink"
               authority="naf"
               type="personal"
               ns2:href="http://errol.oclc.org/laf/n86-863278.html">
-                    <mods:role xmlns="http://www.loc.gov/mods/v3">
+                    <mods:namePart>Ash, Harrison Boyd</mods:namePart>
+                    <mods:role>
                         <mods:roleTerm authority="translator" type="text">editor</mods:roleTerm>
                     </mods:role>
                 </mods:name>
