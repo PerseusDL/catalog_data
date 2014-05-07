@@ -86,10 +86,16 @@
                         <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
                     </mods:role>
                 </mods:name>
-                <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/n88-284968.html"/>
+           <mods:name xmlns="http://www.loc.gov/mods/v3"
+        xmlns:ns2="http://www.w3.org/1999/xlink"
+        authority="naf"
+        type="personal"
+        ns2:href="http://errol.oclc.org/laf/n88-284968.html">
+        <mods:namePart>Foster, B. O.</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+        </mods:role>
+    </mods:name>
                 <mods:subject xmlns="http://www.loc.gov/mods/v3">
                     <mods:geographicCode authority="marcgac">e------</mods:geographicCode>
                     <mods:geographicCode authority="marcgac">ff-----</mods:geographicCode>
