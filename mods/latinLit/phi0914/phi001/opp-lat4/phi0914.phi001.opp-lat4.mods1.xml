@@ -83,14 +83,28 @@
                         <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
                     </mods:role>
                 </mods:name>
-                <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/n82-98919.html"/>
-                <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/nr97-20877.html"/>
+              <mods:name xmlns="http://www.loc.gov/mods/v3"
+    xmlns:ns2="http://www.w3.org/1999/xlink"
+    authority="naf"
+    type="personal"
+    ns2:href="http://errol.oclc.org/laf/n82-98919.html">
+    <mods:namePart>Sage, Evan Taylor,</mods:namePart>
+    <mods:namePart type="date">1881-</mods:namePart>
+    <mods:role>
+        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+    </mods:role>
+</mods:name>
+<mods:name xmlns="http://www.loc.gov/mods/v3"
+    xmlns:ns2="http://www.w3.org/1999/xlink"
+    authority="naf"
+    type="personal"
+    ns2:href="http://errol.oclc.org/laf/nr97-20877.html">
+    <mods:namePart>Schlesinger, Alfred C. (Alfred Cary)</mods:namePart>
+    <mods:namePart type="date">1900-</mods:namePart>
+    <mods:role>
+        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+    </mods:role>
+</mods:name>
                 <mods:subject xmlns="http://www.loc.gov/mods/v3">
                     <mods:geographicCode authority="marcgac">e------</mods:geographicCode>
                     <mods:geographicCode authority="marcgac">ff-----</mods:geographicCode>
