@@ -84,10 +84,17 @@
                         <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
                     </mods:role>
                 </mods:name>
-                <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/no93-34096.html"/>
+              <mods:name xmlns="http://www.loc.gov/mods/v3"
+           xmlns:ns2="http://www.w3.org/1999/xlink"
+           authority="naf"
+           type="personal"
+           ns2:href="http://errol.oclc.org/laf/no93-34096.html">
+           <mods:namePart>Moore, Frank Gardner</mods:namePart>
+           <mods:namePart type="date">b. 1865</mods:namePart>
+            <mods:role>
+        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+           </mods:role>
+</mods:name>
                 <mods:subject xmlns="http://www.loc.gov/mods/v3">
                     <mods:geographicCode authority="marcgac">e------</mods:geographicCode>
                     <mods:geographicCode authority="marcgac">ff-----</mods:geographicCode>
