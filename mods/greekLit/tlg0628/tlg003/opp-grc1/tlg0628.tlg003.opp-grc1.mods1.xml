@@ -4,7 +4,7 @@
            xmlns:atom="http://www.w3.org/2005/Atom"
            xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
                 <mods:titleInfo xml:lang="en" type="uniform">
-                    <mods:title>Epistulae,Mus.Ep. (Epistolographi, p. 401),none</mods:title>
+                    <mods:title>Epistulae</mods:title>
                 </mods:titleInfo>
                 <mods:part>
                     <mods:extent unit="words">
@@ -116,10 +116,28 @@
                         <mods:roleTerm authority="marcrelator" type="text">attributed author</mods:roleTerm>
                     </mods:role>
                 </mods:name>
-                <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/n93-57556.html">
+            <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
+                 authority="naf"
+                 type="personal"
+                 ns2:href="http://errol.oclc.org/laf/n93-57556.html">
+                        <mods:namePart>Hercher, Rudolf</mods:namePart>
+                        <mods:namePart type="date">1821-1878</mods:namePart>
+                        <mods:role>
+                            <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+                        </mods:role>  <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
+                 authority="naf"
+                 type="personal"
+                 ns2:href="http://errol.oclc.org/laf/n93-57556.html">
+                        <mods:namePart>Hercher, Rudolf</mods:namePart>
+                        <mods:namePart type="date">1821-1878</mods:namePart>
+                        <mods:role>
+                            <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+                        </mods:role>
+                        <mods:role>
+                            <mods:roleTerm authority="marcrelator" type="text">translator</mods:roleTerm>
+                        </mods:role>
+                    </mods:name>
+                    </mods:name>
                     <mods:role xmlns="http://www.loc.gov/mods/v3">
                         <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
                     </mods:role>
