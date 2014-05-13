@@ -84,17 +84,17 @@
                         <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
                     </mods:role>
                 </mods:name>
-             <name xmlns:ns2="http://www.w3.org/1999/xlink"
-         xmlns="http://www.loc.gov/mods/v3"
-         authority="naf"
-         type="personal"
-         ns2:href="http://errol.oclc.org/laf/n85-222674.html ">
-                    <namePart>Gummere, Richard M. (Richard Mott)</namePart>
-                    <namePart type="date">1883-</namePart>
-                    <role>
-                        <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                    </role>
-                </name>
+ <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
+    xmlns="http://www.loc.gov/mods/v3"
+    authority="naf"
+    type="personal"
+    ns2:href="http://errol.oclc.org/laf/n85-222674.html ">
+    <mods:namePart>Gummere, Richard M. (Richard Mott)</mods:namePart>
+    <mods:namePart type="date">1883-</mods:namePart>
+    <mods:role>
+        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+    </mods:role>
+</mods:name>
                 <mods:subject xmlns="http://www.loc.gov/mods/v3" authority="lcsh">
                     <mods:topic>Conduct of life</mods:topic>
                     <mods:topic>Early works to 1800</mods:topic>
