@@ -90,10 +90,17 @@
                         <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
                     </mods:role>
                 </mods:name>
-                <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/n86-808009.html"/>
+               <mods:name xmlns="http://www.loc.gov/mods/v3"
+           xmlns:ns2="http://www.w3.org/1999/xlink"
+           authority="naf"
+           type="personal"
+           ns2:href="http://errol.oclc.org/laf/n86-808009.html">
+                      <mods:namePart>Butler, Harold Edgeworth</mods:namePart>
+                      <mods:namePart type="date">1878-1951</mods:namePart>
+                      <mods:role>
+                      <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+           </mods:role>
+</mods:name>
                 <mods:subject xmlns="http://www.loc.gov/mods/v3" authority="lcsh">
                     <mods:topic>Oratory</mods:topic>
                     <mods:topic>Early works to 1800</mods:topic>
