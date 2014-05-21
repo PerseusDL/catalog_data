@@ -12,7 +12,7 @@
                     </mods:extent>
                 </mods:part>
                 <mods:titleInfo xmlns="http://www.loc.gov/mods/v3">
-                    <mods:nonSort>The </mods:nonSort>
+                    <mods:nonSort>The</mods:nonSort>
                     <mods:title>Attic nights of Aulus Gellius</mods:title>
                     <mods:partNumber>Volume I</mods:partNumber>
                     <mods:partNumber>Book I-Book V</mods:partNumber>
@@ -89,7 +89,13 @@
                 <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
               authority="naf"
               type="personal"
-              ns2:href="http://errol.oclc.org/laf/n86-852297.html"/>
+              ns2:href="http://errol.oclc.org/laf/n86-852297.html">
+                 <mods:namePart>Rolfe, John Carew</mods:namePart>
+                    <mods:namePart type="date">1859-1943</mods:namePart>
+                    <mods:role>
+                        <mods:roleTerm authority="marcrelator" type="text">translator</mods:roleTerm>
+                    </mods:role>
+                    </mods:name>
                 <mods:subject xmlns="http://www.loc.gov/mods/v3" authority="lcsh">
                     <mods:topic>Latin essays</mods:topic>
                     <mods:topic>Translations into English</mods:topic>
