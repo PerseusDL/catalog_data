@@ -24,9 +24,9 @@
                         <mods:end>571</mods:end>
                     </mods:extent>
                 </mods:part>
-                <mods:location xmlns="http://www.loc.gov/mods/v3">
-                    <mods:url note="Open Content Alliance">http://www.archive.org/stream/statiusstat01statuoft#page/340/mode/2up</mods:url>
-                </mods:location>
+              <mods:location xmlns="http://www.loc.gov/mods/v3">
+        <mods:url displayLabel="Open Content Alliance">http://www.archive.org/stream/statiusstat01statuoft#page/340/mode/2up</mods:url>
+           </mods:location>
                 <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
                     <mods:titleInfo>
                         <mods:title>Statius</mods:title>
@@ -158,12 +158,14 @@
                         <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
                     </mods:role>
                 </mods:name>
-                <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/n88-627359.html">
-                    <mods:role xmlns="http://www.loc.gov/mods/v3">
-                        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
+                 <mods:name xmlns="http://www.loc.gov/mods/v3"
+              xmlns:ns2="http://www.w3.org/1999/xlink"
+                 authority="naf"
+                 type="personal"
+                 ns2:href="http://errol.oclc.org/laf/n88-627359.html">
+                        <mods:namePart>Mozley, J. H. (John Henry)</mods:namePart>
+                        <mods:role>
+                            <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+                        </mods:role>
+                    </mods:name>
             </mods:mods>
