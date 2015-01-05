@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+  <mods:titleInfo>
+    <mods:title>Opera omnia</mods:title>
+    <mods:partNumber>Volumen III</mods:partNumber>
+    <mods:partName>Historiae Quae Dicitur Arcana</mods:partName>
+  </mods:titleInfo>
+  <mods:name authority="naf" type="personal" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n50025184">
+    <mods:namePart>Procopius</mods:namePart>
+    <mods:role>
+      <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:name authority="naf" type="personal" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/nr2003009667">
+    <mods:namePart>Haury, Jakob,</mods:namePart>
+    <mods:role>
+      <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:typeOfResource>text</mods:typeOfResource>
+  <mods:originInfo>
+    <mods:place>
+      <mods:placeTerm type="code" authority="marccountry">gw</mods:placeTerm>
+    </mods:place>
+    <mods:place>
+      <mods:placeTerm type="text">Lipsiae</mods:placeTerm>
+    </mods:place>
+    <mods:publisher>in aedibus B. G. Teubneri</mods:publisher>
+    <mods:dateIssued>1906</mods:dateIssued>
+    <mods:dateIssued qualifier="questionable" point="start" encoding="marc">1906</mods:dateIssued>
+    <mods:issuance>monographic</mods:issuance>
+  </mods:originInfo>
+  <mods:language objectPart="preface">
+    <mods:languageTerm type="code" authority="iso639-2b">lat</mods:languageTerm>
+  </mods:language>
+  <mods:language objectPart="text">
+    <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
+  </mods:language>
+  <mods:physicalDescription>
+    <mods:form authority="marcform">print</mods:form>
+    <mods:extent>xxxii, 186 pg.</mods:extent>
+  </mods:physicalDescription>
+  <mods:note type="statement of responsibility" altRepGroup="00"/>
+  <mods:classification authority="lcc">PA3404 .P85 1905</mods:classification>
+  <mods:relatedItem type="series">
+    <mods:titleInfo>
+      <mods:title>Bibliotheca scriptorum graecorum et romanorum Teubneriana</mods:title>
+    </mods:titleInfo>
+  </mods:relatedItem>
+  <mods:subject>
+    <mods:topic>Byzantine Empire</mods:topic>
+    <mods:topic>History</mods:topic>
+    <mods:topic>Justinian I, 527-565.</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:name>
+      <mods:namePart>Justinian I,</mods:namePart>
+      <mods:namePart type="termsOfAddress">Emperor of the East,</mods:namePart>
+      <mods:namePart type="date">483?-565.</mods:namePart>
+    </mods:name>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic>Iran</mods:topic>
+    <mods:topic>History</mods:topic>
+    <mods:topic>To 640</mods:topic>
+  </mods:subject>
+  <mods:identifier type="tlg">4029.002</mods:identifier>
+  <mods:identifier type="lccn">13026179</mods:identifier>
+  <mods:identifier type="oclc">4315000</mods:identifier>
+  <mods:identifier type="oca"/>
+  <mods:identifier type="ctsurn">urn:cts:greekLit:tlg4029.tlg002.opp-grc1</mods:identifier>
+  <mods:location>
+    <mods:url displayLabel="LC Permalink"/>
+  </mods:location>
+  <mods:location>
+    <mods:url displayLabel="WorldCat">http://www.worldcat.org/oclc/4315000</mods:url>
+  </mods:location>
+  <mods:location>
+    <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=OtRfAAAAMAAJ&amp;pg=PP7</mods:url>
+  </mods:location>
+  <mods:location>
+    <mods:url displayLabel="Open Content Alliance"/>
+  </mods:location>
+  <mods:location>
+    <mods:url displayLabel="Open Library"/>
+  </mods:location>
+  <mods:location>
+    <mods:url displayLabel="HathiTrust">http://hdl.handle.net/2027/njp.32101074030196</mods:url>
+  </mods:location>
+  <mods:recordInfo>
+    <mods:recordContentSource authority="marcorg">DLC</mods:recordContentSource>
+    <mods:recordCreationDate encoding="marc">840313</mods:recordCreationDate>
+    <mods:recordChangeDate encoding="iso8601">20040123095553.0</mods:recordChangeDate>
+    <mods:recordIdentifier>7298756</mods:recordIdentifier>
+    <mods:recordOrigin>Converted from MARCXML to MODS version 3.4 using MARC21slim2MODS3-4.xsl
+				(Revision 1.85 2013/03/07)</mods:recordOrigin>
+  </mods:recordInfo>
+</mods:mods>
