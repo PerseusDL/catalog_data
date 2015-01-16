@@ -29,15 +29,13 @@
                         <mods:placeTerm type="text">Oxonii</mods:placeTerm>
                     </mods:place>
                     <mods:publisher>e typographeo Clarendoniano</mods:publisher>
-                    <mods:dateIssued>1958-1962</mods:dateIssued>
-                    <mods:dateIssued encoding="marc" point="start">1958</mods:dateIssued>
-                    <mods:dateIssued encoding="marc" point="end">1962</mods:dateIssued>
+                    <mods:dateIssued>1958</mods:dateIssued>
                     <mods:edition>Editio altera.</mods:edition>
                     <mods:issuance>monographic</mods:issuance>
                 </mods:originInfo>
                 <mods:physicalDescription xmlns="http://www.loc.gov/mods/v3">
                     <mods:form authority="marcform">print</mods:form>
-                    <mods:extent>5 v. 19 cm.</mods:extent>
+                    <mods:extent>1 vol</mods:extent>
                     <mods:note type="statement of responsibility">recognovervnt breviqve adnotatione critica
                 instrvxervnt Thomas W. Allen</mods:note>
                 </mods:physicalDescription>
@@ -56,6 +54,9 @@
                 <mods:location xmlns="http://www.loc.gov/mods/v3">
                     <mods:url displayLabel="Open Content Alliance">http://www.archive.org/details/homerioperarecog04homeuoft</mods:url>
                 </mods:location>
+                  <mods:location xmlns="http://www.loc.gov/mods/v3">
+                    <mods:url displayLabel="SLUB">http://digital.slub-dresden.de/id416763472</mods:url>
+                </mods:location>
                 <mods:recordInfo xmlns="http://www.loc.gov/mods/v3">
                     <mods:recordContentSource authority="marcorg">OCoLC</mods:recordContentSource>
                     <mods:recordCreationDate encoding="marc"/>
@@ -69,16 +70,20 @@
               xmlns:ns2="http://www.w3.org/1999/xlink"
               authority="naf"
               type="personal"
-              ns2:href="http://errol.oclc.org/laf/n78-95639.html             ">
+              ns2:href="http://errol.oclc.org/laf/n78-95639.html">
                     <mods:namePart>Homer</mods:namePart>
                     <mods:role>
                         <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
                     </mods:role>
                 </mods:name>
-                <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/nr91-18023.html"/>
+                 <mods:name authority="naf" type="personal" xmlns:ns2="http://www.w3.org/1999/xlink"
+            ns2:href="http://errol.oclc.org/laf/nr91-18023.html">
+            <mods:namePart>Allen, Thomas W. (Thomas William)</mods:namePart>
+            <mods:namePart type="date">b. 1862</mods:namePart>
+            <mods:role>
+                <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+            </mods:role>
+        </mods:name>
                 <mods:subject xmlns="http://www.loc.gov/mods/v3" authority="lcsh">
                     <mods:topic>Epic poetry, Greek</mods:topic>
                 </mods:subject>
