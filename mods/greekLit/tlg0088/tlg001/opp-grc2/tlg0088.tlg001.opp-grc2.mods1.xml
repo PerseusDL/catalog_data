@@ -29,6 +29,9 @@
                 <mods:location xmlns="http://www.loc.gov/mods/v3">
                     <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=LQ9CAAAAIAAJ&amp;pg=RA2-PA1</mods:url>
                 </mods:location>
+                   <mods:location xmlns="http://www.loc.gov/mods/v3">
+                    <mods:url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015027348179?urlappend=%3Bseq=298</mods:url>
+                </mods:location>
                 <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
                     <mods:titleInfo>
                         <mods:title>Aristoxenus von Tarent</mods:title>
@@ -42,7 +45,7 @@
                         <mods:namePart>Westphal, Rudolf,</mods:namePart>
                         <mods:namePart type="date">1826-1892</mods:namePart>
                         <mods:role>
-                            <mods:roleTerm type="text" authority="marcrelator">creator</mods:roleTerm>
+                            <mods:roleTerm type="text" authority="marcrelator">editor</mods:roleTerm>
                         </mods:role>
                     </mods:name>
                     <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
@@ -109,7 +112,7 @@
                         <mods:url displayLabel="WorldCat">http://www.worldcat.org/title/aristoxenus-von-tarent/oclc/2077862</mods:url>
                     </mods:location>
                     <mods:location>
-                        <mods:url displayLabel="Open Content Alliance"/>
+                        <mods:url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015027348179</mods:url>
                     </mods:location>
                     <mods:location>
                         <mods:url displayLabel="Open Library"/>
@@ -117,45 +120,7 @@
                     <mods:location>
                         <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=LQ9CAAAAIAAJ</mods:url>
                     </mods:location>
-                    <mods:titleInfo type="alternative">
-                        <mods:title>Elementa Rhythmica</mods:title>
-                        <mods:partName>Liber II</mods:partName>
-                    </mods:titleInfo>
-                    <mods:titleInfo type="abbreviated" authority="lsj">
-                        <mods:title>Aristox. Rhyth.</mods:title>
-                    </mods:titleInfo>
-                    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-                 authority="naf"
-                 type="personal"
-                 ns2:href="http://errol.oclc.org/laf/n83-48707.html">
-                        <mods:namePart>Aristoxenus.</mods:namePart>
-                        <mods:role>
-                            <mods:roleTerm type="text" authority="marcrelator">creator</mods:roleTerm>
-                        </mods:role>
-                    </mods:name>
-                    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-                 authority="naf"
-                 type="personal"
-                 ns2:href="http://errol.oclc.org/laf/no2004-36000.html">
-                        <mods:namePart>Westphal, Rudolf,</mods:namePart>
-                        <mods:namePart type="date">1826-1892</mods:namePart>
-                        <mods:role>
-                            <mods:roleTerm type="text" authority="marcrelator">editor</mods:roleTerm>
-                        </mods:role>
-                    </mods:name>
-                    <mods:language objectPart="text">
-                        <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
-                    </mods:language>
-                    <mods:identifier type="tlg">0088.003</mods:identifier>
-                    <mods:part>
-                        <mods:extent unit="pages">
-                            <mods:start>77</mods:start>
-                            <mods:end>86</mods:end>
-                        </mods:extent>
-                    </mods:part>
-                    <mods:location>
-                        <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=LQ9CAAAAIAAJ&amp;pg=PA77#v=onepage</mods:url>
-                    </mods:location>
+                    
                     <mods:recordInfo>
                         <mods:recordContentSource authority="marcorg">DLC</mods:recordContentSource>
                         <mods:recordCreationDate encoding="marc">930803</mods:recordCreationDate>
