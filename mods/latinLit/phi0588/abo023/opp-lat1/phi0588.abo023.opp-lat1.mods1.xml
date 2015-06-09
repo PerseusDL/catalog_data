@@ -17,53 +17,6 @@
                 <mods:location xmlns="http://www.loc.gov/mods/v3">
                     <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=pJcAAAAAYAAJ&amp;pg=PA167</mods:url>
                 </mods:location>
-                <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
-                    <mods:titleInfo>
-                        <mods:title>Vitae excellentium imperatorum. Selections</mods:title>
-                    </mods:titleInfo>
-                    <mods:titleInfo authority="phi" type="alternative">
-                        <mods:title>Vitae</mods:title>
-                    </mods:titleInfo>
-                    <mods:titleInfo authority="stoa" type="alternative">
-                        <mods:title>De Viris Illustribus</mods:title>
-                    </mods:titleInfo>
-                    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-                 authority="naf"
-                 type="personal"
-                 ns2:href="http://errol.oclc.org/laf/n50-4515.html">
-                        <mods:namePart>Nepos, Cornelius.</mods:namePart>
-                        <mods:role>
-                            <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-                        </mods:role>
-                    </mods:name>
-                    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-                 authority="naf"
-                 type="personal"
-                 ns2:href="http://errol.oclc.org/laf/nr98-24911.html">
-                        <mods:namePart>Gardner, Francis</mods:namePart>
-                        <mods:namePart type="date">1812-1876</mods:namePart>
-                        <mods:role>
-                            <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-                        </mods:role>
-                    </mods:name>
-                    <mods:identifier type="phi">588.1</mods:identifier>
-                    <mods:identifier type="stoa author-text">stoa0210-stoa003</mods:identifier>
-                    <mods:identifier type="Perseus:abo" displayLabel="Miltiades">Perseus:abo:phi,0588,001 </mods:identifier>
-                    <mods:identifier type="Perseus:abo" displayLabel="Themistocles">Perseus:abo:phi,0588,002 </mods:identifier>
-                    <mods:identifier type="Perseus:abo" displayLabel="Alcibiades">Perseus:abo:phi,0588,007 </mods:identifier>
-                    <mods:identifier type="Perseus:abo" displayLabel="Epamonidas">Perseus:abo:phi,0588,015 </mods:identifier>
-                    <mods:identifier type="Perseus:abo" displayLabel="Hannibal">Perseus:abo:phi,0588,023 </mods:identifier>
-                    <mods:note>Selections include Militiades, Themistocles, Alcibiades, Epamonidas,
-            Hannibal</mods:note>
-                    <mods:part>
-                        <mods:extent unit="pages">
-                            <mods:start>105</mods:start>
-                            <mods:end>183</mods:end>
-                        </mods:extent>
-                    </mods:part>
-                    <mods:location>
-                        <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=pJcAAAAAYAAJ&amp;pg=PA105</mods:url>
-                    </mods:location>
                     <mods:relatedItem type="host">
                         <mods:titleInfo>
                             <mods:title>Selections from Latin Classic Authors</mods:title>
@@ -192,4 +145,14 @@
                         <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
                     </mods:role>
                 </mods:name>
+                <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
+                    authority="naf"
+                    type="personal"
+                    ns2:href="http://errol.oclc.org/laf/nr98-24911.html">
+                            <mods:namePart>Gardner, Francis</mods:namePart>
+                            <mods:namePart type="date">1812-1876</mods:namePart>
+                            <mods:role>
+                                <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+                            </mods:role>
+                        </mods:name>
             </mods:mods>
