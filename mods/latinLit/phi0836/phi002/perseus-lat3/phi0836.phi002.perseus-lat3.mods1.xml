@@ -54,6 +54,16 @@
                     <dateIssued>1915</dateIssued>
                     <issuance>monographic</issuance>
                 </originInfo>
+                    <relatedItem type="series">
+		 <titleInfo>
+            <title>Bibliotheca scriptorum graecorum et romanorum Teubneriana</title>
+		 </titleInfo>
+    		</relatedItem>
+	 <relatedItem type="series">
+	    <titleInfo type="abbreviated">
+            <title>Teubner</title>
+	  </titleInfo>
+	    </relatedItem>
                 <language xmlns="http://www.loc.gov/mods/v3">
                     <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
                 </language>
@@ -76,6 +86,9 @@
                 </location>
                 <location xmlns="http://www.loc.gov/mods/v3">
                     <url displayLabel="WorldCat">http://worldcat.org/oclc/14778258</url>
+                </location>
+                   <location xmlns="http://www.loc.gov/mods/v3">
+                    <url displayLabel="CRL">https://dds.crl.edu/crldelivery/4605</url>
                 </location>
                 <location xmlns="http://www.loc.gov/mods/v3">
                     <url displayLabel="Perseus" note="Latin">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0088</url>
