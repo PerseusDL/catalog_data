@@ -17,9 +17,6 @@
                 <mods:titleInfo xmlns="http://www.loc.gov/mods/v3" type="abbreviated">
                     <mods:title>De finibus</mods:title>
                 </mods:titleInfo>
-                <mods:titleInfo xmlns="http://www.loc.gov/mods/v3" type="translated">
-                    <mods:title>On the ends of good and evil</mods:title>
-                </mods:titleInfo>
                 <mods:identifier type="oclc">21644027</mods:identifier>
                 <mods:identifier type="phi">474.48</mods:identifier>
                 <mods:identifier type="stoa author-text">stoa0087-stoa011</mods:identifier>
@@ -54,7 +51,7 @@
                 <mods:classification xmlns="http://www.loc.gov/mods/v3" authority="ddc">875.4</mods:classification>
                 <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="series">
                     <mods:titleInfo>
-                        <mods:title>The Loeb classical library. Latin Authors.</mods:title>
+                        <mods:title>The Loeb classical library</mods:title>
                         <mods:partNumber>40</mods:partNumber>
                     </mods:titleInfo>
                     <mods:titleInfo type="abbreviated">
@@ -92,11 +89,14 @@
                         <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
                     </mods:role>
                 </mods:name>
-                <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
+                <mods:name xmlns="http://www.loc.gov/mods/v3"
+              xmlns:ns2="http://www.w3.org/1999/xlink"
               authority="naf"
               type="personal"
               ns2:href="http://errol.oclc.org/laf/nr89-5316.html             ">
-                    <mods:role xmlns="http://www.loc.gov/mods/v3">
+                    <mods:namePart>Rackham, H. (Harris)</mods:namePart>
+                    <mods:namePart type="date">1868-1944</mods:namePart>
+                    <mods:role>
                         <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
                     </mods:role>
                 </mods:name>
