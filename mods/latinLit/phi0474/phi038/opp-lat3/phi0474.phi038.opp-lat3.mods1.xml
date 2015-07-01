@@ -26,6 +26,9 @@
                         <mods:end>421</mods:end>
                     </mods:extent>
                 </mods:part>
+                <mods:location>
+                           <mods:url displayLabel="PHI">http://latin.packhum.org/loc/474/38/0#0</mods:url>
+                </mods:location>
                 <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
                     <mods:titleInfo>
                         <mods:title>De oratore: in two Volumes</mods:title>
@@ -114,8 +117,14 @@
                         <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
                     </mods:role>
                 </mods:name>
-                <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/nr89-5316.html"/>
+                    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
+                 authority="naf"
+                 type="personal"
+                 ns2:href="http://errol.oclc.org/laf/nr89-5316.html">
+                        <mods:namePart>Rackham, H. (Harris)</mods:namePart>
+                        <mods:namePart type="date">1868-1944</mods:namePart>
+                        <mods:role>
+                            <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+                        </mods:role>
+                    </mods:name>
             </mods:mods>
