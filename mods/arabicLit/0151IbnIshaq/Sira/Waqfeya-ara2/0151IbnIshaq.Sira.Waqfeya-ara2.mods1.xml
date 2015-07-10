@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atom="http://www.w3.org/2005/Atom" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <mods:titleInfo lang="ara" script="Arabic">
+    <mods:title>سيرة إبن إسحاق</mods:title>
+  </mods:titleInfo>
+  <mods:titleInfo lang="ara" type="uniform">
+    <mods:title>Sīraŧ Ibn Isḥāq</mods:title>
+  </mods:titleInfo>
+  <mods:titleInfo lang="ara" type="alternative">
+    <mods:title>al-Sīraŧ al-nabawīyaŧ, al-Mubtadaʿ wa-al-mabʿaṯ wa-al-maġāzī, al-Siyār wa-l-maġāzī</mods:title>
+  </mods:titleInfo>
+  <mods:name type="personal" script="Arabic">
+    <mods:namePart>إبن إسحاق </mods:namePart>
+    <mods:namePart type="date">المتوفي 151 هـ</mods:namePart>
+    <mods:role>
+      <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:name type="personal" usage="primary">
+    <mods:namePart>Ibn Isḥāq </mods:namePart>
+    <mods:namePart type="date">d. 151/768 CE</mods:namePart>
+    <mods:role>
+      <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:language objectPart="text">
+    <mods:languageTerm type="code" authority="iso639-2b">ara</mods:languageTerm>
+  </mods:language>
+  <mods:identifier type="mrurn">0151IbnIshaq.Sira</mods:identifier>
+  <mods:identifier type="ctsurn">urn:cts:arabicLit:0151IbnIshaq.Sira.Waqfeya-ara2</mods:identifier>
+  <mods:location>
+    <mods:url displayLabel="al-Maktaba al-shamila">http://shamela.ws/index.php/book/0329</mods:url>
+  </mods:location>
+  <mods:location>
+    <mods:url displayLabel="al-Maktaba al-waqfiyya">http://www.waqfeya.com/book.php?bid=5379 </mods:url>
+  </mods:location>
+  <mods:location>
+    <mods:url displayLabel="al-Maktaba al-shamila"> http://shamela.ws/browse.php/book-0329</mods:url>
+  </mods:location>
+  <mods:relatedItem type="host">
+    <mods:titleInfo lang="ara">
+      <mods:title>سيرة ابن إسحاق المسماة بـ: المبتدأ والمبعث والمغازي (ط المغرب)</mods:title>
+    </mods:titleInfo>
+    <mods:name type="personal">
+      <mods:namePart>محمد بن إسحاق بن يسار</mods:namePart>
+      <mods:role>
+        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+      </mods:role>
+    </mods:name>
+    <mods:name type="personal" script="Arabic">
+      <mods:namePart>محمد حميد الله</mods:namePart>
+      <mods:role>
+        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+      </mods:role>
+    </mods:name>
+    <mods:typeOfResource>text</mods:typeOfResource>
+    <mods:language objectPart="text">
+      <mods:languageTerm type="code" authority="iso639-2b">ara</mods:languageTerm>
+    </mods:language>
+    <mods:originInfo>
+      <mods:place>
+        <mods:placeTerm type="text">s.n.</mods:placeTerm>
+      </mods:place>
+      <mods:publisher>معهد الدراسات والأبحاث والتعريب - المغرب</mods:publisher>
+      <mods:dateIssued>1396 - 1976</mods:dateIssued>
+    </mods:originInfo>
+    <mods:physicalDescription>
+      <mods:form>text</mods:form>
+      <mods:extent>1 v.; 441 p.</mods:extent>
+    </mods:physicalDescription>
+    <mods:subject>
+      <mods:topic>السيرة النبوية</mods:topic>
+    </mods:subject>
+    <mods:location>
+      <mods:url displayLabel="Open Content Alliance" access="raw object">http://www.archive.org/download/waq52912/52912.pdf </mods:url>
+    </mods:location>
+    <mods:location>
+      <mods:url displayLabel="Open Content Alliance" access="raw object"> http://www.archive.org/download/waq52912/52912p.pdf </mods:url>
+    </mods:location>
+    <mods:location>
+      <mods:url displayLabel="al-Maktaba al-shamila" access="raw object"> http://www.shamela.ws/old_site/books/003/0329.rar</mods:url>
+    </mods:location>
+  </mods:relatedItem>
+</mods:mods>

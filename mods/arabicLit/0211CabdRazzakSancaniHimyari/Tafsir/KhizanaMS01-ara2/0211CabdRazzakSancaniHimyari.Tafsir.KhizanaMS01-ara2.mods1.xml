@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atom="http://www.w3.org/2005/Atom" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <mods:titleInfo lang="ara" script="Arabic">
+    <mods:title>تفسير القرآن</mods:title>
+  </mods:titleInfo>
+  <mods:titleInfo lang="ara" type="uniform">
+    <mods:title>Tafsīr al-Qurʾān</mods:title>
+  </mods:titleInfo>
+  <mods:titleInfo lang="ara" type="alternative">
+    <mods:title>Tafsīr ʿAbd al-Razzāq, Tafsīr al-Ṣanʿānī</mods:title>
+  </mods:titleInfo>
+  <mods:name type="personal" script="Arabic">
+    <mods:namePart>عبد الرزاق بن همام، أبو بكر، الحميري، اليماني، الصنعاني </mods:namePart>
+    <mods:namePart type="date">المتوفي 211 هـ</mods:namePart>
+    <mods:role>
+      <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:name type="personal" usage="primary">
+    <mods:namePart>ʿAbd al-Razzāq b. Hammām, Abū Bakr, al-Ḥimyarī, al-Yamānī, al-Ṣanʿānī </mods:namePart>
+    <mods:namePart type="date">d. 211/826 CE</mods:namePart>
+    <mods:role>
+      <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:language objectPart="text">
+    <mods:languageTerm type="code" authority="iso639-2b">ara</mods:languageTerm>
+  </mods:language>
+  <mods:identifier type="mrurn">0211CabdRazzakSancaniHimyari.Tafsir</mods:identifier>
+  <mods:identifier type="ctsurn">urn:cts:arabicLit:0211CabdRazzakSancaniHimyari.Tafsir.KhizanaMS01-ara2</mods:identifier>
+  <mods:relatedItem type="host">
+    <mods:titleInfo lang="ara">
+      <mods:title>تفسير عبد الرزاق الصنعاني</mods:title>
+    </mods:titleInfo>
+    <mods:name type="personal">
+      <mods:namePart>الصنعاني</mods:namePart>
+      <mods:role>
+        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+      </mods:role>
+    </mods:name>
+    <mods:name type="personal">
+      <mods:namePart>عبد الرزاق بن همام, الصنعاني</mods:namePart>
+      <mods:role>
+        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+      </mods:role>
+    </mods:name>
+    <mods:typeOfResource manuscript="yes">text</mods:typeOfResource>
+    <mods:language objectPart="text">
+      <mods:languageTerm type="code" authority="iso639-2b">ara</mods:languageTerm>
+    </mods:language>
+    <mods:physicalDescription>
+      <mods:form>text</mods:form>
+    </mods:physicalDescription>
+    <mods:subject>
+      <mods:topic>تفسير </mods:topic>
+    </mods:subject>
+    <mods:subject>
+      <mods:topic> علوم القرآن</mods:topic>
+    </mods:subject>
+    <mods:location displayLabel="Khizanat al-turath">
+      <mods:physicalLocation>مركز البحث العلمي واحياء التراث الاسلامي مكه المكرمه المملكه العربيه السعوديه</mods:physicalLocation>
+      <mods:shelfLocator>134 (عن معهد المخطوطات العربيه برقم 113 تفسير)</mods:shelfLocator>
+    </mods:location>
+  </mods:relatedItem>
+</mods:mods>

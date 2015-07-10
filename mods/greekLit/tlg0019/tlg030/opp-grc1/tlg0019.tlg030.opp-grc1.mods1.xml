@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+  <mods:titleInfo>
+    <mods:title>Aristophanis cantica</mods:title>
+  </mods:titleInfo>
+  <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" xmlns="http://www.loc.gov/mods/v3" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n79-72756.html">
+    <mods:namePart>Aristophanes</mods:namePart>
+    <mods:role>
+      <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/no2004-1134.html">
+    <mods:namePart>Schroeder, Otto</mods:namePart>
+    <mods:namePart type="date">1851-1937</mods:namePart>
+    <mods:role>
+      <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:typeOfResource>text</mods:typeOfResource>
+  <mods:originInfo>
+    <mods:place>
+      <mods:placeTerm type="code" authority="marccountry">gw</mods:placeTerm>
+    </mods:place>
+    <mods:place>
+      <mods:placeTerm type="text">Lipsiae</mods:placeTerm>
+    </mods:place>
+    <mods:publisher>in aedibvs B. G. Tevbneri</mods:publisher>
+    <mods:dateIssued>1930</mods:dateIssued>
+    <mods:issuance>monographic</mods:issuance>
+  </mods:originInfo>
+  <mods:language>
+    <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
+  </mods:language>
+  <mods:physicalDescription>
+    <mods:form authority="marcform">print</mods:form>
+    <mods:extent>103 p. 17 cm</mods:extent>
+  </mods:physicalDescription>
+  <mods:relatedItem type="series">
+    <mods:titleInfo>
+      <mods:title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</mods:title>
+    </mods:titleInfo>
+  </mods:relatedItem>
+  <mods:classification authority="lcc">PA3404.A7 A2 1909</mods:classification>
+  <mods:identifier type="oclc">4997982</mods:identifier>
+  <mods:identifier type="tlg">0019.030</mods:identifier>
+  <mods:identifier type="ctsurn">urn:cts:greekLit:tlg0019.tlg030.opp-grc1</mods:identifier>
+  <!-- This is not technically correct, there is no TLG for this "work"
+  but this is where the TLG has left off for numbering-->
+  <mods:location>
+    <mods:url displayLabel="SLUB">http://digital.slub-dresden.de/id413829588</mods:url>
+  </mods:location>
+  <mods:location>
+    <mods:url displayLabel="Open Content Alliance">https://archive.org/stream/scriptoresmetric00westuoft#page/n315/mode/2up</mods:url>
+  </mods:location>
+  <mods:location>
+    <mods:url displayLabel="Worldcat">http://www.worldcat.org/oclc/4997982</mods:url>
+  </mods:location>
+  <mods:recordInfo>
+    <mods:recordContentSource authority="marcorg">OColC</mods:recordContentSource>
+    <mods:recordCreationDate encoding="marc"/>
+    <mods:recordChangeDate encoding="iso8601"/>
+    <mods:recordIdentifier/>
+    <mods:recordOrigin/>
+  </mods:recordInfo>
+</mods:mods>

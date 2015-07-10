@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atom="http://www.w3.org/2005/Atom" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <mods:titleInfo lang="ara" script="Arabic">
+    <mods:title>سيرة عمر بن عبد العزيز</mods:title>
+  </mods:titleInfo>
+  <mods:titleInfo lang="ara" type="uniform">
+    <mods:title>Sīraŧ ʿUmar b. ʿAbd al-ʿAzīz</mods:title>
+  </mods:titleInfo>
+  <mods:titleInfo lang="ara" type="alternative">
+    <mods:title>Sīraŧ ʿUmar b. ʿAbd al-ʿAzīz ʿalá mā rawā-hu al-imām Mālik b. Anas wa-aṣḥābu-hu</mods:title>
+  </mods:titleInfo>
+  <mods:name type="personal" script="Arabic">
+    <mods:namePart>عبد الله بن عبد الحكم، أبو محمد، المصري </mods:namePart>
+    <mods:namePart type="date">المتوفي 214 هـ</mods:namePart>
+    <mods:role>
+      <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:name type="personal" usage="primary">
+    <mods:namePart>ʿAbd Allãh b. ʿAbd al-Ḥakam, Abū Muḥammad, al-Miṣrī </mods:namePart>
+    <mods:namePart type="date">d. 214/829 CE</mods:namePart>
+    <mods:role>
+      <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:language objectPart="text">
+    <mods:languageTerm type="code" authority="iso639-2b">ara</mods:languageTerm>
+  </mods:language>
+  <mods:identifier type="mrurn">0214IbnCabdHakamMisri.SiraCumarIbnCabdCaziz</mods:identifier>
+  <mods:identifier type="ctsurn">urn:cts:arabicLit:0214IbnCabdHakamMisri.SiraCumarIbnCabdCaziz.KhizanaMS03-ara1</mods:identifier>
+  <mods:relatedItem type="host">
+    <mods:titleInfo lang="ara">
+      <mods:title>سيره عمر بن عبد العزيز</mods:title>
+    </mods:titleInfo>
+    <mods:name type="personal">
+      <mods:namePart>ابن عبد الحكم</mods:namePart>
+      <mods:role>
+        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+      </mods:role>
+    </mods:name>
+    <mods:name type="personal">
+      <mods:namePart>محمد بن عبد الله بن عبد الحكم, ابن عبد الحكم</mods:namePart>
+      <mods:role>
+        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+      </mods:role>
+    </mods:name>
+    <mods:typeOfResource manuscript="yes">text</mods:typeOfResource>
+    <mods:language objectPart="text">
+      <mods:languageTerm type="code" authority="iso639-2b">ara</mods:languageTerm>
+    </mods:language>
+    <mods:physicalDescription>
+      <mods:form>text</mods:form>
+    </mods:physicalDescription>
+    <mods:subject>
+      <mods:topic>تراجم</mods:topic>
+    </mods:subject>
+    <mods:location displayLabel="Khizanat al-turath">
+      <mods:physicalLocation>ايا صوفيا استانبول تركيا</mods:physicalLocation>
+      <mods:shelfLocator>3239</mods:shelfLocator>
+    </mods:location>
+  </mods:relatedItem>
+</mods:mods>

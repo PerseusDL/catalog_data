@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atom="http://www.w3.org/2005/Atom" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <mods:titleInfo lang="ara" script="Arabic">
+    <mods:title>مسند أبي حنيفة</mods:title>
+  </mods:titleInfo>
+  <mods:titleInfo lang="ara" type="uniform">
+    <mods:title>Musnad Abī Ḥanīfaŧ</mods:title>
+  </mods:titleInfo>
+  <mods:name type="personal" script="Arabic">
+    <mods:namePart>النعمان بن الثابت، أبو حنيفة </mods:namePart>
+    <mods:namePart type="date">المتوفي 150 هـ</mods:namePart>
+    <mods:role>
+      <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:name type="personal" usage="primary">
+    <mods:namePart>al-Nuʿmān b. al-Ṯābit, Abū Ḥanīfaŧ </mods:namePart>
+    <mods:namePart type="date">d. 150/767 CE</mods:namePart>
+    <mods:role>
+      <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:language objectPart="text">
+    <mods:languageTerm type="code" authority="iso639-2b">ara</mods:languageTerm>
+  </mods:language>
+  <mods:identifier type="mrurn">0150AbuHanifa.Musnad</mods:identifier>
+  <mods:identifier type="ctsurn">urn:cts:arabicLit:0150AbuHanifa.Musnad.KhizanaMS06-ara3</mods:identifier>
+  <mods:relatedItem type="host">
+    <mods:titleInfo lang="ara">
+      <mods:title>مسند ابي حنيفه</mods:title>
+    </mods:titleInfo>
+    <mods:name type="personal">
+      <mods:namePart>ابوحنيفه</mods:namePart>
+      <mods:role>
+        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+      </mods:role>
+    </mods:name>
+    <mods:name type="personal">
+      <mods:namePart>النعمان بن ثابت, ابوحنيفه</mods:namePart>
+      <mods:role>
+        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+      </mods:role>
+    </mods:name>
+    <mods:typeOfResource manuscript="yes">text</mods:typeOfResource>
+    <mods:language objectPart="text">
+      <mods:languageTerm type="code" authority="iso639-2b">ara</mods:languageTerm>
+    </mods:language>
+    <mods:physicalDescription>
+      <mods:form>text</mods:form>
+    </mods:physicalDescription>
+    <mods:subject>
+      <mods:topic>حديث</mods:topic>
+    </mods:subject>
+    <mods:location displayLabel="Khizanat al-turath">
+      <mods:physicalLocation>مكتبه الملك عبد العزيز المدينه المنوره المملكه العربيه السعوديه</mods:physicalLocation>
+      <mods:shelfLocator>مجموعه حكمت رقم: 505 (157/232)</mods:shelfLocator>
+    </mods:location>
+  </mods:relatedItem>
+</mods:mods>

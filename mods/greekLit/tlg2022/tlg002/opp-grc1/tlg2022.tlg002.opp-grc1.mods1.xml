@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+  <mods:titleInfo type="uniform" lang="lat">
+    <mods:title>Epistulae theologicae </mods:title>
+  </mods:titleInfo>
+  <mods:titleInfo lang="fre" type="translated">
+    <mods:title>Lettres théologiques</mods:title>
+  </mods:titleInfo>
+  <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n50-82276.html">
+    <mods:namePart>Gregory,</mods:namePart>
+    <mods:namePart type="termsOfAddress">of Nazianzenus, Saint</mods:namePart>
+    <mods:role>
+      <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:name type="personal" authority="naf" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/19677688">
+    <mods:namePart>Gallay, Paul</mods:namePart>
+    <mods:namePart type="date">1906-2001</mods:namePart>
+    <mods:role>
+      <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:name type="personal" authority="naf" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/51889881">
+    <mods:namePart>Jourjon, Maurice</mods:namePart>
+    <mods:namePart type="date">1919-2010</mods:namePart>
+    <mods:role>
+      <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:typeOfResource>text</mods:typeOfResource>
+  <mods:genre authority="marcgt">bibliography</mods:genre>
+  <mods:originInfo>
+    <mods:place>
+      <mods:placeTerm type="code" authority="marccountry">fr</mods:placeTerm>
+    </mods:place>
+    <mods:place>
+      <mods:placeTerm type="text">Paris</mods:placeTerm>
+    </mods:place>
+    <mods:publisher>Editions du Cerf</mods:publisher>
+    <mods:dateIssued>1974</mods:dateIssued>
+    <mods:issuance>monographic</mods:issuance>
+  </mods:originInfo>
+  <mods:language objectPart="text">
+    <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
+  </mods:language>
+  <mods:physicalDescription>
+    <mods:form authority="marcform">print</mods:form>
+    <mods:extent>112 p. ; 20 cm.</mods:extent>
+  </mods:physicalDescription>
+  <mods:note type="statement of responsibility" altRepGroup="00">Grégoire de Nazianze ; introduction, texte critique, 
+        traduction et notes par [le chanoine] Paul Gallay, ... avec la collaboration de [l'abbé] Maurice Jourjon, ....</mods:note>
+  <mods:note>	Text griech. u. franz. - Nur gemeinfreier Teil digitalisiert.</mods:note>
+  <mods:note>Includes index.</mods:note>
+  <mods:note type="bibliography">Bibliography: p. [33]-34.</mods:note>
+  <mods:subject authority="lcsh">
+    <mods:name type="personal">
+      <mods:namePart type="termsOfAddress">Bishop of Laodicea</mods:namePart>
+      <mods:namePart>Apollinaris</mods:namePart>
+      <mods:namePart type="date">-approximately 390</mods:namePart>
+    </mods:name>
+  </mods:subject>
+  <mods:subject authority="lcsh">
+    <mods:topic>Apologetics</mods:topic>
+    <mods:topic>Early works to 1800</mods:topic>
+  </mods:subject>
+  <mods:classification authority="lcc">BT1340 .G73</mods:classification>
+  <mods:classification authority="ddc">239/.1</mods:classification>
+  <mods:relatedItem type="series">
+    <mods:titleInfo>
+      <mods:title>Sources chrétiennes ; no 208</mods:title>
+    </mods:titleInfo>
+  </mods:relatedItem>
+  <mods:identifier type="lccn">75513424</mods:identifier>
+  <mods:identifier type="oclc">897396028</mods:identifier>
+  <mods:identifier type="tlg">2022.002</mods:identifier>
+  <mods:identifier type="ctsurn">urn:cts:greekLit:tlg2022.tlg002.opp-grc1</mods:identifier>
+  <mods:location>
+    <mods:url displayLabel="LC Permalink"/>
+  </mods:location>
+  <mods:location>
+    <mods:url displayLabel="WorldCat">http://www.worldcat.org/oclc/897396028</mods:url>
+  </mods:location>
+  <mods:location>
+    <mods:url displayLabel="SLUB">http://digital.slub-dresden.de/id417091850</mods:url>
+  </mods:location>
+  <mods:recordInfo>
+    <mods:recordContentSource authority="marcorg">DLC</mods:recordContentSource>
+    <mods:recordCreationDate encoding="marc">750916</mods:recordCreationDate>
+    <mods:recordChangeDate encoding="iso8601">20130411071619.0</mods:recordChangeDate>
+    <mods:recordIdentifier>1281400</mods:recordIdentifier>
+    <mods:recordOrigin>Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5.xsl
+				(Revision 1.106 2014/12/19)</mods:recordOrigin>
+  </mods:recordInfo>
+</mods:mods>
