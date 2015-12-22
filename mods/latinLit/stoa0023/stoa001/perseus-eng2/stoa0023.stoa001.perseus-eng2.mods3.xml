@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+  <mods:titleInfo>
+    <mods:title>Introduction to Rerum Gestarum</mods:title>
+    <mods:partNumber>Volume 3</mods:partNumber>
+  </mods:titleInfo>
+  <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" authority="naf" ns2:href="http://errol.oclc.org/laf/n86-852297.html">
+    <mods:namePart>Rolfe, John Carew</mods:namePart>
+    <mods:namePart type="date">1859-1943</mods:namePart>
+    <mods:role>
+      <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:language objectPart="text">
+    <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+  </mods:language>
+  <!-- <identifier type="stoa author-text" displayLabel="isIntroductionTo">stoa0023.stoa001</identifier> -->
+  <mods:identifier>Perseus:text:2007.01.0085</mods:identifier>
+  <mods:identifier type="viafurn">viaf46839882.viaf003</mods:identifier>
+  <mods:identifier type="Perseus:abo">Perseus:abo:stoa,0023,001</mods:identifier>
+  <mods:identifier type="ctsurn">urn:cts:latinLit:stoa0023.stoa001.perseus-eng2</mods:identifier>
+  <mods:location>
+    <mods:url displayLabel="Perseus" note="English">
+            http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0085</mods:url>
+  </mods:location>
+  <mods:relatedItem type="host">
+    <mods:titleInfo>
+      <mods:title>Ammianus Marcellinus</mods:title>
+      <mods:partNumber>Volume III</mods:partNumber>
+      <mods:partNumber>Book XXVII-Book XXXI, Excerpta Valesiana</mods:partNumber>
+    </mods:titleInfo>
+    <mods:titleInfo type="uniform">
+      <mods:title>Rerum gestarum libri. English &amp; Latin.</mods:title>
+    </mods:titleInfo>
+    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" authority="naf" ns2:href="http://errol.oclc.org/laf/n80-65875.html">
+      <mods:namePart>Ammianus Marcellinus.</mods:namePart>
+      <mods:role>
+        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+      </mods:role>
+    </mods:name>
+    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" authority="naf" ns2:href="http://errol.oclc.org/laf/n86-852297.html">
+      <mods:namePart>Rolfe, John Carew</mods:namePart>
+      <mods:namePart type="date">1859-1943</mods:namePart>
+      <mods:role>
+        <mods:roleTerm authority="marcrelator" type="text">translator</mods:roleTerm>
+      </mods:role>
+    </mods:name>
+    <mods:typeOfResource>text</mods:typeOfResource>
+    <mods:originInfo>
+      <mods:place>
+        <mods:placeTerm type="code" authority="marccountry">mau</mods:placeTerm>
+      </mods:place>
+      <mods:place>
+        <mods:placeTerm type="text">Cambridge, Mass</mods:placeTerm>
+      </mods:place>
+      <mods:publisher>Harvard university press</mods:publisher>
+      <mods:dateIssued>1939</mods:dateIssued>
+      <mods:edition>Reprint</mods:edition>
+      <mods:dateModified>1964</mods:dateModified>
+      <mods:issuance>monographic</mods:issuance>
+    </mods:originInfo>
+    <mods:language>
+      <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+    </mods:language>
+    <mods:physicalDescription>
+      <mods:form authority="marcform">print</mods:form>
+      <mods:extent>vii, 601 pg.</mods:extent>
+      <mods:note>Parallel Latin text and English translation.</mods:note>
+    </mods:physicalDescription>
+    <mods:subject>
+      <mods:geographicCode authority="marcgac">e------</mods:geographicCode>
+      <mods:geographicCode authority="marcgac">ff-----</mods:geographicCode>
+      <mods:geographicCode authority="marcgac">aw-----</mods:geographicCode>
+    </mods:subject>
+    <mods:subject authority="lcsh">
+      <mods:geographic>Rome</mods:geographic>
+      <mods:topic>History</mods:topic>
+      <mods:temporal>Empire, 284-476</mods:temporal>
+    </mods:subject>
+    <mods:classification authority="lcc">PA6156 .A6 1935</mods:classification>
+    <mods:relatedItem type="series">
+      <mods:titleInfo>
+        <mods:title>Loeb Classical Library</mods:title>
+      </mods:titleInfo>
+    </mods:relatedItem>
+    <mods:identifier type="lccn">36002106</mods:identifier>
+    <mods:identifier type="oclc">1005221</mods:identifier>
+    <mods:location>
+      <mods:url displayLabel="LC Permalink">http://lccn.loc.gov/36002106</mods:url>
+    </mods:location>
+    <mods:location>
+      <mods:url displayLabel="WorldCat">http://worldcat.org/oclc/1005221</mods:url>
+    </mods:location>
+    <mods:recordInfo>
+      <mods:recordContentSource authority="marcorg">DLC</mods:recordContentSource>
+      <mods:recordCreationDate encoding="marc">810220</mods:recordCreationDate>
+      <mods:recordChangeDate encoding="iso8601">20040721170309.0</mods:recordChangeDate>
+      <mods:recordIdentifier>8767488</mods:recordIdentifier>
+    </mods:recordInfo>
+  </mods:relatedItem>
+</mods:mods>

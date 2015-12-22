@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:modsCollection xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+  <mods:mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="mods1" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+    <mods:titleInfo type="translated" lang="ger">
+      <mods:title>Naturkunde</mods:title>
+      <mods:partNumber>Buch I</mods:partNumber>
+      <mods:partName>Widmung</mods:partName>
+    </mods:titleInfo>
+    <mods:titleInfo type="uniform" nameTitleGroup="1">
+      <mods:title>Naturalis historia</mods:title>
+    </mods:titleInfo>
+    <mods:name authority="viaf" type="personal" usage="primary" nameTitleGroup="1" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/100219162">
+      <mods:namePart>Pliny</mods:namePart>
+      <mods:namePart type="termsOfAddress">the Elder</mods:namePart>
+      <mods:namePart type="date">23-79</mods:namePart>
+      <mods:role>
+        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+      </mods:role>
+    </mods:name>
+    <mods:name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/91926369">
+      <mods:namePart>König, Roderich</mods:namePart>
+      <mods:role>
+        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+      </mods:role>
+    </mods:name>
+    <mods:name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/12431487">
+      <mods:namePart>Winkler, Gerhard</mods:namePart>
+      <mods:namePart type="date">1935-2012</mods:namePart>
+      <mods:role>
+        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+      </mods:role>
+    </mods:name>
+    <mods:typeOfResource>text</mods:typeOfResource>
+    <mods:genre authority="marcgt">bibliography</mods:genre>
+    <mods:originInfo>
+      <mods:place>
+        <mods:placeTerm type="code" authority="marccountry">gw</mods:placeTerm>
+      </mods:place>
+      <mods:place>
+        <mods:placeTerm type="text">München</mods:placeTerm>
+      </mods:place>
+      <mods:publisher>Heimeran</mods:publisher>
+      <mods:dateIssued>1973</mods:dateIssued>
+      <mods:issuance>monographic</mods:issuance>
+    </mods:originInfo>
+    <mods:language objectPart="text">
+      <mods:languageTerm type="code" authority="iso639-2b">lat</mods:languageTerm>
+    </mods:language>
+    <mods:physicalDescription>
+      <mods:form authority="marcform">print</mods:form>
+      <mods:extent>220 p. ; 18 cm.</mods:extent>
+      <mods:digitalOrigin>digitized other analog</mods:digitalOrigin>
+    </mods:physicalDescription>
+    <mods:tableOfContents>Book I</mods:tableOfContents>
+    <mods:note type="statement of responsibility" altRepGroup="00">C. Plinius Secundus d. Ä.; hrsg.
+            u. übers. von Roderich König in Zusammenarb. mit Gerhard Winkler</mods:note>
+    <mods:note type="bibliography">Includes bibliographies and indexes</mods:note>
+    <mods:subject authority="lcsh">
+      <mods:topic>Natural history</mods:topic>
+      <mods:topic>Pre-Linnean works</mods:topic>
+    </mods:subject>
+    <mods:classification authority="lcc">PA6613 .G4 1973</mods:classification>
+    <mods:classification authority="ddc" edition="19">500</mods:classification>
+    <mods:relatedItem type="series">
+      <mods:titleInfo>
+        <mods:title>Tusculum-Bücherei</mods:title>
+      </mods:titleInfo>
+    </mods:relatedItem>
+    <mods:relatedItem type="series">
+      <mods:titleInfo>
+        <mods:title>Sammlung Tusculum</mods:title>
+      </mods:titleInfo>
+    </mods:relatedItem>
+    <mods:identifier type="lccn">75585557</mods:identifier>
+    <mods:identifier type="phi">978.1</mods:identifier>
+    <mods:identifier type="stoa author-text">stoa0232-stoa001</mods:identifier>
+    <mods:identifier type="oclc">927491019</mods:identifier>
+    <mods:identifier type="ctsurn">urn:cts:latinLit:stoa0232.stoa001.opp-lat8</mods:identifier>
+    <mods:location>
+      <mods:url displayLabel="WorldCat">http://www.worldcat.org/oclc/927491019</mods:url>
+    </mods:location>
+    <mods:location>
+      <mods:url displayLabel="SLUB">http://digital.slub-dresden.de/id41051828X</mods:url>
+    </mods:location>
+    <mods:recordInfo>
+      <mods:descriptionStandard>aacr</mods:descriptionStandard>
+      <mods:recordContentSource authority="marcorg">DLC</mods:recordContentSource>
+      <mods:recordCreationDate encoding="marc">780509</mods:recordCreationDate>
+      <mods:recordChangeDate encoding="iso8601">20050728100521.0</mods:recordChangeDate>
+      <mods:recordIdentifier>2703222</mods:recordIdentifier>
+      <mods:recordOrigin>Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5.xsl
+                (Revision 1.106 2014/12/19)</mods:recordOrigin>
+    </mods:recordInfo>
+  </mods:mods>
+  <mods:mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="mods2" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+    <mods:titleInfo type="translated" lang="ger">
+      <mods:title>Naturkunde</mods:title>
+      <mods:partNumber>Buch II</mods:partNumber>
+      <mods:partName>Kosmologie</mods:partName>
+    </mods:titleInfo>
+    <mods:titleInfo type="uniform" nameTitleGroup="1">
+      <mods:title>Naturalis historia</mods:title>
+    </mods:titleInfo>
+    <mods:name authority="viaf" type="personal" usage="primary" nameTitleGroup="1" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/100219162">
+      <mods:namePart>Pliny</mods:namePart>
+      <mods:namePart type="termsOfAddress">the Elder</mods:namePart>
+      <mods:namePart type="date">23-79</mods:namePart>
+      <mods:role>
+        <mods:roleTerm type="text">creator</mods:roleTerm>
+      </mods:role>
+    </mods:name>
+    <mods:name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/91926369">
+      <mods:namePart>König, Roderich</mods:namePart>
+      <mods:role>
+        <mods:roleTerm type="text">editor</mods:roleTerm>
+      </mods:role>
+    </mods:name>
+    <mods:name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/12431487">
+      <mods:namePart>Winkler, Gerhard</mods:namePart>
+      <mods:namePart type="date">1935-2012</mods:namePart>
+      <mods:role>
+        <mods:roleTerm type="text">editor</mods:roleTerm>
+      </mods:role>
+    </mods:name>
+    <mods:typeOfResource>text</mods:typeOfResource>
+    <mods:genre authority="marcgt">bibliography</mods:genre>
+    <mods:originInfo>
+      <mods:place>
+        <mods:placeTerm type="code" authority="marccountry">gw</mods:placeTerm>
+      </mods:place>
+      <mods:place>
+        <mods:placeTerm type="text">München</mods:placeTerm>
+      </mods:place>
+      <mods:publisher>Heimeran</mods:publisher>
+      <mods:dateIssued>1974</mods:dateIssued>
+      <mods:issuance>monographic</mods:issuance>
+    </mods:originInfo>
+    <mods:language objectPart="text">
+      <mods:languageTerm type="code" authority="iso639-2b">lat</mods:languageTerm>
+    </mods:language>
+    <mods:physicalDescription>
+      <mods:form authority="marcform">print</mods:form>
+      <mods:extent>215 p.; 18 cm</mods:extent>
+      <mods:digitalOrigin>digitized other analog</mods:digitalOrigin>
+    </mods:physicalDescription>
+    <mods:tableOfContents>Book II</mods:tableOfContents>
+    <mods:note type="statement of responsibility" altRepGroup="00">herausgegeben und übersetzt von 
+            Roderich König; in Zusammenarbeit mit Gerhard Winkler/ C. Plinius Secundus d.Ä</mods:note>
+    <mods:note type="bibliography">Includes bibliographies and indexes</mods:note>
+    <mods:note type="language">Latin and German on facing pages</mods:note>
+    <mods:subject authority="lcsh">
+      <mods:topic>Natural history</mods:topic>
+      <mods:topic>Pre-Linnean works</mods:topic>
+    </mods:subject>
+    <mods:classification authority="lcc">PA6613 .G4 1974</mods:classification>
+    <mods:classification authority="ddc" edition="19">500</mods:classification>
+    <mods:relatedItem type="series">
+      <mods:titleInfo>
+        <mods:title>Tusculum-Bücherei</mods:title>
+      </mods:titleInfo>
+    </mods:relatedItem>
+    <mods:relatedItem type="series">
+      <mods:titleInfo>
+        <mods:title>Sammlung Tusculum</mods:title>
+      </mods:titleInfo>
+    </mods:relatedItem>
+    <mods:identifier type="phi">978.1</mods:identifier>
+    <mods:identifier type="stoa author-text">stoa0232-stoa001</mods:identifier>
+    <mods:identifier type="oclc">927490989</mods:identifier>
+    <mods:identifier type="ctsurn">urn:cts:latinLit:stoa0232.stoa001.opp-lat8</mods:identifier>
+    <mods:location>
+      <mods:url displayLabel="WorldCat">http://www.worldcat.org/oclc/927490989</mods:url>
+    </mods:location>
+    <mods:location>
+      <mods:url displayLabel="SLUB">http://digital.slub-dresden.de/id413905829</mods:url>
+    </mods:location>
+    <mods:recordInfo>
+      <mods:descriptionStandard>aacr</mods:descriptionStandard>
+      <mods:recordContentSource authority="marcorg">DLC</mods:recordContentSource>
+      <mods:recordCreationDate encoding="marc">780509</mods:recordCreationDate>
+      <mods:recordChangeDate encoding="iso8601">20050728100521.0</mods:recordChangeDate>
+      <mods:recordIdentifier>2703222</mods:recordIdentifier>
+      <mods:recordOrigin>Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5.xsl
+                (Revision 1.106 2014/12/19)</mods:recordOrigin>
+    </mods:recordInfo>
+  </mods:mods>
+</mods:modsCollection>

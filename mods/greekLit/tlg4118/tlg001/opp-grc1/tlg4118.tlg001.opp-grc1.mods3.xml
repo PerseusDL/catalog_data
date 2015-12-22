@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+  <mods:titleInfo>
+    <mods:title>Narratio</mods:title>
+  </mods:titleInfo>
+  <mods:titleInfo type="alternative">
+    <mods:title>Narrationes septem de monachis in Sina</mods:title>
+  </mods:titleInfo>
+  <mods:name authority="viaf" type="personal" usage="primary" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/71405213">
+    <mods:namePart>Nilus</mods:namePart>
+    <mods:namePart type="termsOfAddress">of Ancyra, Saint</mods:namePart>
+    <mods:namePart type="date">-approximately 430</mods:namePart>
+    <mods:role>
+      <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/17237650">
+    <mods:namePart>Conca, Fabrizio</mods:namePart>
+    <mods:namePart type="date">1944-</mods:namePart>
+    <mods:role>
+      <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:typeOfResource>text</mods:typeOfResource>
+  <mods:genre authority="marcgt">bibliography</mods:genre>
+  <mods:genre authority="marcgt">biography</mods:genre>
+  <mods:originInfo>
+    <mods:place>
+      <mods:placeTerm type="code" authority="marccountry">ge</mods:placeTerm>
+    </mods:place>
+    <mods:place>
+      <mods:placeTerm type="text">Leipzig</mods:placeTerm>
+    </mods:place>
+    <mods:publisher>B.G. Teubner</mods:publisher>
+    <mods:dateIssued>1983</mods:dateIssued>
+    <mods:edition>1. Aufl.</mods:edition>
+    <mods:issuance>monographic</mods:issuance>
+  </mods:originInfo>
+  <mods:language objectPart="text">
+    <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
+  </mods:language>
+  <mods:physicalDescription>
+    <mods:form authority="marcform">print</mods:form>
+    <mods:extent>xxvi, 88 p.; 21 cm</mods:extent>
+    <mods:digitalOrigin>digitized other analog</mods:digitalOrigin>
+  </mods:physicalDescription>
+  <mods:note type="statement of responsibility" altRepGroup="00">Nilus Ancyranus; edidit Fabricius Conca</mods:note>
+  <mods:note>Greek text with commentary in Latin</mods:note>
+  <mods:note>Includes indexes</mods:note>
+  <mods:note type="bibliography">Bibliography: p. xxv</mods:note>
+  <mods:subject authority="lcsh">
+    <mods:name type="personal">
+      <mods:namePart type="termsOfAddress">of Ancyra, Saint</mods:namePart>
+      <mods:namePart>Nilus</mods:namePart>
+      <mods:namePart type="date">-approximately 430</mods:namePart>
+    </mods:name>
+  </mods:subject>
+  <mods:subject authority="lcsh">
+    <mods:topic>Christian saints</mods:topic>
+    <mods:geographic>Byzantine Empire</mods:geographic>
+    <mods:topic>Biography</mods:topic>
+  </mods:subject>
+  <mods:classification authority="lcc">BR1720.N49 A3 1983</mods:classification>
+  <mods:relatedItem type="series">
+    <mods:titleInfo>
+      <mods:title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</mods:title>
+    </mods:titleInfo>
+  </mods:relatedItem>
+  <mods:identifier type="lccn">84230609</mods:identifier>
+  <mods:identifier type="tlg">4118.001</mods:identifier>
+  <mods:identifier type="oclc">882974559</mods:identifier>
+  <mods:identifier type="ctsurn">urn:cts:greekLit:tlg4118.tlg001.opp-grc1</mods:identifier>
+  <mods:location>
+    <mods:url displayLabel="WorldCat">http://www.worldcat.org/oclc/882974559</mods:url>
+  </mods:location>
+  <mods:location>
+    <mods:url displayLabel="SLUB">http://digital.slub-dresden.de/id408081708</mods:url>
+  </mods:location>
+  <mods:recordInfo>
+    <mods:descriptionStandard>aacr</mods:descriptionStandard>
+    <mods:recordContentSource authority="marcorg">DLC</mods:recordContentSource>
+    <mods:recordCreationDate encoding="marc">871204</mods:recordCreationDate>
+    <mods:recordChangeDate encoding="iso8601">20130412072437.0</mods:recordChangeDate>
+    <mods:recordIdentifier>1909256</mods:recordIdentifier>
+    <mods:recordOrigin>Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5.xsl
+				(Revision 1.106 2014/12/19)</mods:recordOrigin>
+  </mods:recordInfo>
+</mods:mods>

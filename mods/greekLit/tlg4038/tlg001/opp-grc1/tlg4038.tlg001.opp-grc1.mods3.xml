@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+  <mods:titleInfo>
+    <mods:title>Pamprepii Panopolitani carmina</mods:title>
+    <mods:subTitle>(P. Gr. Vindob. 29788 A-C)</mods:subTitle>
+  </mods:titleInfo>
+  <mods:titleInfo type="uniform">
+    <mods:title>Fragmenta</mods:title>
+  </mods:titleInfo>
+  <mods:name authority="viaf" type="personal" usage="primary" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/120695413">
+    <mods:namePart>Pamprepios</mods:namePart>
+    <mods:role>
+      <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/24210">
+    <mods:namePart>Livrea, Enrico</mods:namePart>
+    <mods:namePart type="date">1944-</mods:namePart>
+    <mods:role>
+      <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:name authority="viaf" type="corporate" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/136765452">
+    <mods:namePart>Österreichische Nationalbibliothek</mods:namePart>
+    <mods:namePart>Papyrus gr. 29788 A-C</mods:namePart>
+  </mods:name>
+  <mods:typeOfResource>text</mods:typeOfResource>
+  <mods:genre authority="marcgt">bibliography</mods:genre>
+  <mods:originInfo>
+    <mods:place>
+      <mods:placeTerm type="code" authority="marccountry">ge</mods:placeTerm>
+    </mods:place>
+    <mods:place>
+      <mods:placeTerm type="text">Leipzig</mods:placeTerm>
+    </mods:place>
+    <mods:publisher>Teubner, BSB</mods:publisher>
+    <mods:dateIssued>1979</mods:dateIssued>
+    <mods:issuance>monographic</mods:issuance>
+  </mods:originInfo>
+  <mods:language objectPart="text">
+    <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
+  </mods:language>
+  <mods:physicalDescription>
+    <mods:form authority="marcform">print</mods:form>
+    <mods:extent>xi, 82 p.; 21 cm</mods:extent>
+  </mods:physicalDescription>
+  <mods:note type="statement of responsibility" altRepGroup="00">ed. Henricus Livrea</mods:note>
+  <mods:note>Introd. and notes in Latin, text in Greek</mods:note>
+  <mods:note>Includes index</mods:note>
+  <mods:note type="bibliography">Bibliography: p. ix-x</mods:note>
+  <mods:subject authority="lcsh">
+    <mods:topic>Manuscripts, Greek (Papyri)</mods:topic>
+    <mods:geographic>Austria</mods:geographic>
+    <mods:geographic>Vienna</mods:geographic>
+  </mods:subject>
+  <mods:classification authority="lcc">PA4261.P73 L5</mods:classification>
+  <mods:relatedItem type="series">
+    <mods:titleInfo>
+      <mods:title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</mods:title>
+    </mods:titleInfo>
+  </mods:relatedItem>
+  <mods:identifier type="lccn">80513470</mods:identifier>
+  <mods:identifier type="tlg">4038.001</mods:identifier>
+  <mods:identifier type="oclc">882972965</mods:identifier>
+  <mods:identifier type="ctsurn">urn:cts:greekLit:tlg4038.tlg001.opp-grc1</mods:identifier>
+  <mods:location>
+    <mods:url displayLabel="WorldCat">http://www.worldcat.org/oclc/882972965</mods:url>
+  </mods:location>
+  <mods:recordInfo>
+    <mods:recordContentSource authority="marcorg">DLC</mods:recordContentSource>
+    <mods:recordCreationDate encoding="marc">801218</mods:recordCreationDate>
+    <mods:recordChangeDate encoding="iso8601">20040707151112.0</mods:recordChangeDate>
+    <mods:recordIdentifier>3729944</mods:recordIdentifier>
+    <mods:recordOrigin>Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5.xsl
+				(Revision 1.106 2014/12/19)</mods:recordOrigin>
+  </mods:recordInfo>
+</mods:mods>
