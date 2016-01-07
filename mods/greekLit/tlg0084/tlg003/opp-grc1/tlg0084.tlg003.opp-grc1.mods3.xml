@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+  <titleInfo>
+    <title>Dionysii Ixeuticon seu de aucupio</title>
+    <subTitle>libri tres in epitomen metro solutam redacti</subTitle>
+  </titleInfo>
+  <titleInfo type="uniform" nameTitleGroup="1">
+    <title>Paraphrasis tōn tou Dionysiou ixeutikōn</title>
+  </titleInfo>
+  <titleInfo type="alternative">
+    <title>De aucupio</title>
+  </titleInfo>
+  <name authority="viaf" type="personal" usage="primary" nameTitleGroup="1" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/100902699">
+    <namePart>Dionysius</namePart>
+    <namePart type="termsOfAddress">Periegetes</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+    </role>
+  </name>
+  <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/27081575">
+    <namePart>Garzya, Antonio</namePart>
+    <namePart type="date">1927-2012</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="marcgt">bibliography</genre>
+  <originInfo>
+    <place>
+      <placeTerm type="code" authority="marccountry">ge</placeTerm>
+    </place>
+    <place>
+      <placeTerm type="text">Lipsiae</placeTerm>
+    </place>
+    <publisher>Teubner</publisher>
+    <dateIssued>1963</dateIssued>
+    <issuance>monographic</issuance>
+  </originInfo>
+  <language objectPart="text">
+    <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+  </language>
+  <language objectPart="preface">
+    <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="marcform">print</form>
+    <extent>xxviii, 83 p., [5] p. of plates : ill. ; 21 cm</extent>
+    <digitalOrigin>digitized other analog</digitalOrigin>
+  </physicalDescription>
+  <note type="statement of responsibility" altRepGroup="00">recensuit Antonius Garzya</note>
+  <note>Greek text; preface in Latin</note>
+  <note>Includes indexes</note>
+  <note type="bibliography">Bibliography: p. xxvi-xxvii</note>
+  <classification authority="lcc">PA3968.D4 Z9 1963</classification>
+  <relatedItem type="series">
+    <titleInfo>
+      <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
+    </titleInfo>
+  </relatedItem>
+  <identifier type="lccn">87102934</identifier>
+  <identifier type="tlg">0084.003</identifier>
+  <identifier type="oclc">879605442</identifier>
+  <identifier type="ctsurn">urn:cts:greekLit:tlg0084.tlg003.opp-grc1</identifier>
+  <location>
+    <url displayLabel="WorldCat">http://www.worldcat.org/oclc/879605442</url>
+  </location>
+  <location>
+    <url displayLabel="SLUB">http://digital.slub-dresden.de/id404260144</url>
+  </location>
+  <recordInfo>
+    <descriptionStandard>aacr</descriptionStandard>
+    <recordContentSource authority="marcorg">DLC</recordContentSource>
+    <recordCreationDate encoding="marc">871030</recordCreationDate>
+    <recordChangeDate encoding="iso8601">19871118000000.0</recordChangeDate>
+    <recordIdentifier>1480806</recordIdentifier>
+    <recordOrigin>Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5.xsl
+				(Revision 1.106 2014/12/19)</recordOrigin>
+  </recordInfo>
+</mods>
