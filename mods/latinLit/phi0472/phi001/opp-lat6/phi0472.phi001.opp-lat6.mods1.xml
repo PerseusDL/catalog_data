@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+  <titleInfo>
+    <title>Catulli Veronensis Liber</title>
+  </titleInfo>
+  <titleInfo type="uniform">
+    <title>Carina</title>
+  </titleInfo>
+  <name authority="viaf" type="personal" usage="primary" nameTitleGroup="1" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/100218993">
+    <namePart>Catullus, Gaius Valerius</namePart>
+    <role>
+      <roleTerm type="text">creator</roleTerm>
+    </role>
+  </name>
+  <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/76332261">
+    <namePart>Schuster, Mauriz</namePart>
+    <namePart type="date">1879-1952</namePart>
+    <role>
+      <roleTerm type="text">editor</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>text</typeOfResource>
+  <originInfo>
+    <place>
+      <placeTerm type="code" authority="marccountry">gw</placeTerm>
+    </place>
+    <place>
+      <placeTerm type="text">Lipsiae</placeTerm>
+    </place>
+    <publisher>In aedibus B. G. Teubneri</publisher>
+    <dateIssued>1954</dateIssued>
+    <issuance>monographic</issuance>
+  </originInfo>
+  <language objectPart="text">
+    <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="marcform">print</form>
+    <extent>xiv, 153 p. 21 cm.</extent>
+  </physicalDescription>
+  <note type="statement of responsibility" altRepGroup="00">recensuit Mauritius Schuster.</note>
+  <classification authority="lcc">PA6104 .C27 1949</classification>
+  <relatedItem type="series">
+    <titleInfo>
+      <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana. [Scriptores Romani]</title>
+    </titleInfo>
+  </relatedItem>
+  <identifier type="lccn">51353336</identifier>
+  <identifier type="oclc">882986081</identifier>
+  <identifier type="phi">472.1</identifier>
+  <identifier type="stoa author-text">stoa0081-stoa001</identifier>
+  <identifier type="ctsurn">urn:cts:latinLit:phi0472.phi001.opp-lat6</identifier>
+  <location>
+    <url displayLabel="Worldcat">http://www.worldcat.org/oclc/882986081</url>
+  </location>
+  <location>
+    <url displayLabel="SLUB">http://digital.slub-dresden.de/id408369957</url>
+  </location>
+  <recordInfo>
+    <recordContentSource authority="marcorg">DLC</recordContentSource>
+    <recordCreationDate encoding="marc">810903</recordCreationDate>
+    <recordChangeDate encoding="iso8601">20011231084349.0</recordChangeDate>
+    <recordIdentifier>8841359</recordIdentifier>
+    <recordOrigin>Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5.xsl
+				(Revision 1.106 2014/12/19)</recordOrigin>
+  </recordInfo>
+</mods>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+  <titleInfo>
+    <title>Eutropii Breviarium ab urbe condita</title>
+  </titleInfo>
+  <titleInfo type="uniform" nameTitleGroup="1">
+    <title>Breviarium ab urbe condita</title>
+  </titleInfo>
+  <name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n85-83031.html">
+    <namePart>Eutropius</namePart>
+    <namePart type="date">4th cent</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+    </role>
+  </name>
+  <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/95297954">
+    <namePart>Santini, Carlo</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>text</typeOfResource>
+  <originInfo>
+    <place>
+      <placeTerm type="code" authority="marccountry">ge</placeTerm>
+    </place>
+    <place>
+      <placeTerm type="text">Leipzig</placeTerm>
+    </place>
+    <publisher>Teubner</publisher>
+    <dateIssued>1979</dateIssued>
+    <edition>1. Aufl.</edition>
+    <issuance>monographic</issuance>
+  </originInfo>
+  <language objectPart="text">
+    <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="marcform">print</form>
+    <extent>xix, 87 p. ; 21 cm.</extent>
+  </physicalDescription>
+  <note type="statement of responsibility" altRepGroup="00">recognovit Carolus Santini.</note>
+  <note>Includes indexes.</note>
+  <note type="bibliography">Bibliography: p. xvii-xix.</note>
+  <subject>
+    <geographicCode authority="marcgac">e------</geographicCode>
+    <geographicCode authority="marcgac">ff-----</geographicCode>
+    <geographicCode authority="marcgac">aw-----</geographicCode>
+  </subject>
+  <subject authority="lcsh">
+    <geographic>Rome</geographic>
+    <topic>History</topic>
+  </subject>
+  <classification authority="lcc">PA6384 .A2 1979</classification>
+  <relatedItem type="series">
+    <titleInfo>
+      <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
+    </titleInfo>
+  </relatedItem>
+  <identifier type="stoa author-text">stoa0121-stoa001</identifier>
+  <identifier type="lccn">85165385</identifier>
+  <identifier type="ctsurn">urn:cts:latinLit:stoa0121.stoa001.opp-lat3</identifier>
+  <location>
+    <url displayLabel="Worldcat">http://www.worldcat.org/oclc/882972938</url>
+  </location>
+  <location>
+    <url displayLabel="SLUB">http://digital.slub-dresden.de/id40804179X</url>
+  </location>
+  <recordInfo>
+    <descriptionStandard>aacr</descriptionStandard>
+    <recordContentSource authority="marcorg">DLC</recordContentSource>
+    <recordCreationDate encoding="marc">850612</recordCreationDate>
+    <recordChangeDate encoding="iso8601">20130409084145.0</recordChangeDate>
+    <recordIdentifier>977247</recordIdentifier>
+    <recordOrigin>Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5.xsl
+				(Revision 1.106 2014/12/19)</recordOrigin>
+  </recordInfo>
+</mods>
