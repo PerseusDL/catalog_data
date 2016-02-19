@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods:mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mods:titleInfo>
-    <mods:title>Historia Rerum in partibus transmarinis gestarum. Selections.</mods:title>
+    <mods:title>Historia Rerum in partibus transmarinis gestarum</mods:title>
   </mods:titleInfo>
   <mods:titleInfo type="translated" lang="eng">
     <mods:title>A history of deeds done beyond the sea</mods:title>
@@ -25,6 +25,15 @@
   <mods:language objectPart="text">
     <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
   </mods:language>
+  <mods:part>
+        <mods:extent unit="pages">
+            <start>305</start>
+            <end>310</end>
+        </mods:extent>
+    </mods:part>
+    <mods:location>
+        <mods:url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015001529695?urlappend=%3Bseq=342</mods:url>
+    </mods:location>
   <mods:relatedItem type="host">
     <mods:titleInfo>
       <mods:title>Mediaeval Latin</mods:title>
@@ -77,6 +86,11 @@
       </mods:titleInfo>
     </mods:relatedItem>
     <mods:identifier type="lccn">26000655</mods:identifier>
+     <mods:identifier type="oclc">58021117</mods:identifier>
+    <mods:identifier type="lccn">26000655</mods:identifier>
+<mods:location>
+        <mods:url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015001529695</mods:url>
+    </mods:location>
     <mods:recordInfo>
       <mods:recordContentSource authority="marcorg">DLC</mods:recordContentSource>
       <mods:recordCreationDate encoding="marc">770414</mods:recordCreationDate>
