@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+  <titleInfo type="uniform">
+    <title>Geographiae informatio</title>
+  </titleInfo>
+  <titleInfo type="translated" lang="eng">
+    <title>Sketch of Geography</title>
+  </titleInfo>
+  <name authority="naf" type="personal" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/no00081971">
+    <namePart>Agathemerus</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+    </role>
+  </name>
+  <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/109481733">
+    <namePart>Diller, Aubrey,</namePart>
+    <namePart type="date">1903-1985</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+    </role>
+  </name>
+  <identifier type="tlg">0090.001</identifier>
+  <identifier type="ctsurn">urn:cts:greekLit:tlg0090.tlg001.opp-grc6</identifier>
+  <language objectPart="text">
+    <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+  </language>
+  <language objectPart="text">
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+  </language>
+  <part>
+    <extent unit="pages">
+      <start>59</start>
+      <end>76</end>
+    </extent>
+  </part>
+  <location>
+    <url displayLabel="Duke">http://grbs.library.duke.edu/article/download/8681/6059</url>
+  </location>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Greek Roman and Byzantine Studies</title>
+    </titleInfo>
+    <originInfo>
+      <publisher>Duke University</publisher>
+      <place>
+        <placeTerm type="text">Durham, North Carolina</placeTerm>
+      </place>
+      <dateIssued>1975</dateIssued>
+    </originInfo>
+    <genre authority="marc">periodical</genre>
+    <part>
+      <detail type="volume">
+        <number>16</number>
+      </detail>
+      <detail type="number">
+        <number>1</number>
+      </detail>
+    </part>
+  </relatedItem>
+</mods>
