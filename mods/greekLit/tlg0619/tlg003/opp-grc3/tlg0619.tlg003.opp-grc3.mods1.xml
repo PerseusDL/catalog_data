@@ -25,7 +25,7 @@
                 <mods:location xmlns="http://www.loc.gov/mods/v3">
                     <mods:url displayLabel="Open Content Alliance">http://www.archive.org/stream/epistolographoih00hercuoft#page/110/mode/2up</mods:url>
                 </mods:location>
-                <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="constituent">
+                <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
                     <mods:titleInfo>
                         <mods:title>Epistolographoi hellenikoi</mods:title>
                         <mods:subTitle>Epistolographi graeci</mods:subTitle>
@@ -113,12 +113,14 @@
                         <mods:roleTerm authority="marcrelator" type="text">attributed author</mods:roleTerm>
                     </mods:role>
                 </mods:name>
-                <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/n93-57556.html">
-                    <mods:role xmlns="http://www.loc.gov/mods/v3">
-                        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
+               <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
+                 authority="naf"
+                 type="personal"
+                 ns2:href="http://errol.oclc.org/laf/n93-57556.html">
+                        <mods:namePart>Hercher, Rudolf</mods:namePart>
+                        <mods:namePart type="date">1821-1878</mods:namePart>
+                        <mods:role>
+                            <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+                        </mods:role>
+                    </mods:name>
             </mods:mods>
