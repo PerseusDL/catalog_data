@@ -4,7 +4,7 @@
            xmlns:atom="http://www.w3.org/2005/Atom"
            xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
                 <mods:titleInfo xml:lang="en" type="uniform">
-                    <mods:title>Catoptrica.Greek.</mods:title>
+                    <mods:title>Catoptrica</mods:title>
                 </mods:titleInfo>
                 <mods:part>
                     <mods:extent unit="words">
@@ -23,11 +23,14 @@
                     </mods:extent>
                 </mods:part>
                 <mods:location xmlns="http://www.loc.gov/mods/v3">
-                    <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=fNc2AAAAMAAJ&amp;pg=PT58</mods:url>
+                    <mods:url displayLabel="GoogleBooks">https://books.google.com/books?id=fNc2AAAAMAAJ&amp;pg=PT399</mods:url>
+                </mods:location>
+	  <mods:location xmlns="http://www.loc.gov/mods/v3">
+                    <mods:url displayLabel="HathiTrust">hhttps://hdl.handle.net/2027/mdp.39015017390355?urlappend=%3Bseq=416</mods:url>
                 </mods:location>
                 <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
                     <mods:titleInfo>
-                        <mods:title>Opera quae supersunt omnia</mods:title>
+                        <mods:title>Heronis Alexandrini Opera quae supersunt omnia</mods:title>
                         <mods:partNumber>Vol 2-Fasc I</mods:partNumber>
                         <mods:partName>Mechanica et Catoptrica</mods:partName>
                     </mods:titleInfo>
@@ -164,11 +167,16 @@
                     </mods:role>
                 </mods:name>
                 <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/no2005-77533.html">
-                    <mods:role xmlns="http://www.loc.gov/mods/v3">
-                        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
+                 authority="naf"
+                 type="personal"
+                 ns2:href="http://errol.oclc.org/laf/no2009-73066.html">
+                        <mods:namePart>Nix, Ludwig Leo Michael</mods:namePart>
+                        <mods:namePart type="date">1865-1904</mods:namePart>
+                        <mods:role>
+                            <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+                        </mods:role>
+                        <mods:role>
+                            <mods:roleTerm authority="marcrelator" type="text">translator</mods:roleTerm>
+                        </mods:role>
+                    </mods:name>
             </mods:mods>
