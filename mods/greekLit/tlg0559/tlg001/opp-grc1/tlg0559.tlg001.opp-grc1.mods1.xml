@@ -4,7 +4,7 @@
            xmlns:atom="http://www.w3.org/2005/Atom"
            xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
                 <mods:titleInfo xml:lang="en" type="uniform">
-                    <mods:title>Pneumatica/Spiritalia</mods:title>
+                    <mods:title>Pneumatica</mods:title>
                 </mods:titleInfo>
                 <mods:part>
                     <mods:extent unit="words">
@@ -29,7 +29,10 @@
                     </mods:extent>
                 </mods:part>
                 <mods:location xmlns="http://www.loc.gov/mods/v3">
-                    <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=mNY2AAAAMAAJ&amp;pg=PA1</mods:url>
+                    <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=mNY2AAAAMAAJ&amp;pg=PA2</mods:url>
+                </mods:location>
+	    <mods:location xmlns="http://www.loc.gov/mods/v3">
+                    <mods:url displayLabel="HathiTrust">https://hdl.handle.net/2027/mdp.39015024207253?urlappend=%3Bseq=78</mods:url>
                 </mods:location>
                 <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
                     <mods:titleInfo>
@@ -145,6 +148,8 @@
               type="personal"
               ns2:href="http://errol.oclc.org/laf/no2005-77533.html">
                     <mods:role xmlns="http://www.loc.gov/mods/v3">
+			<mods:namePart>Schmidt, Wilhelm</mods:namePart>
+                        <mods:namePart type="date">1862-1905</mods:namePart>
                         <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
                     </mods:role>
                 </mods:name>
