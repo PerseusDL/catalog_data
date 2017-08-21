@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
-  <mods:titleInfo>
-    <mods:title>Stadiasmus Magni Maris</mods:title>
-  </mods:titleInfo>
-  <mods:name authority="naf" type="personal" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/no97067484">
-    <mods:namePart>Stadiasmus Magni Mari</mods:namePart>
-    <mods:role>
-      <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-    </mods:role>
-  </mods:name>
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+    <mods:titleInfo type="uniform"  authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/no97067484">
+            <mods:title>Stadiasmus Magni Maris</mods:title>
+        </mods:titleInfo>
+        <mods:name authority="tlg" type="corporate">
+            <mods:namePart>Anonymous</mods:namePart>
+            <mods:role>
+                <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+            </mods:role>
+        </mods:name>
   <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/nr95-8185.html">
     <mods:namePart>Müller, Karl</mods:namePart>
     <mods:namePart type="termsOfAddress">of Paris</mods:namePart>
