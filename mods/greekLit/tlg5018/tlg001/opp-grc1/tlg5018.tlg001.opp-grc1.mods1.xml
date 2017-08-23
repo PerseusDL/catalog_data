@@ -126,18 +126,20 @@
                 <mods:language xmlns="http://www.loc.gov/mods/v3" objectPart="text">
                     <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
                 </mods:language>
-                <mods:name xmlns="http://www.loc.gov/mods/v3" type="corporate" authority="tlg">
-                    <mods:namePart>Scholia in Dionysium Byzantium</mods:namePart>
+                <mods:name type="personal">
+                    <mods:namePart>Anonymous</mods:namePart>
                     <mods:role>
                         <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
                     </mods:role>
                 </mods:name>
-                <mods:name authority="naf"
-              type="personal"
-              authorityURI="http://id.loc.gov/authorities/names/"
-              valueURI="http://id.loc.gov/authorities/names/no91013547">
-                    <mods:role xmlns="http://www.loc.gov/mods/v3">
-                        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
+             <mods:name authority="naf"
+                 type="personal"
+                 authorityURI="http://id.loc.gov/authorities/names/"
+                 valueURI="http://id.loc.gov/authorities/names/no91013547">
+                        <mods:namePart>Wescher, Carle</mods:namePart>
+                        <mods:namePart type="date">1832-1904</mods:namePart>
+                        <mods:role>
+                            <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+                        </mods:role>
+                    </mods:name>
             </mods:mods>
