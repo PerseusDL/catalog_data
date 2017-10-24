@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns="http://www.loc.gov/mods/v3">
+<mods xmlns:mods="http://www.loc.gov/mods/v3">
   <mods:titleInfo>
     <mods:title>Periocha Andria</mods:title>
   </mods:titleInfo>
@@ -28,11 +28,11 @@
     <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
   </mods:language>
   <mods:identifier type="phi">1235.1</mods:identifier>
-  <identifier type="ctsurn">urn:cts:latinLit:phi1235.phi001.opp-lat3</identifier>
+  <mods:identifier type="ctsurn">urn:cts:latinLit:phi1235.phi001.opp-lat3</mods:identifier>
   <mods:location>
     <mods:url displayLabel="SLUB">http://digital.slub-dresden.de/werkansicht/dlf/110650/12/0/</mods:url>
   </mods:location>
-  <relatedItem type="host">
+  <mods:relatedItem type="host">
     <mods:titleInfo>
       <mods:title>P. Terenti Afri Comoediae</mods:title>
     </mods:titleInfo>
