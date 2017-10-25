@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns="http://www.loc.gov/mods/v3">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3
+    http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
   <mods:titleInfo>
     <mods:title>Periocha Eunuchus</mods:title>
   </mods:titleInfo>
   <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="viaf" type="personal" ns2:href="http://viaf.org/viaf/44655240">
     <mods:namePart>Sulpicius Apollinaris, Gaius</mods:namePart>
-    <mods:namePart type="date">2. Jh. n. Chr.‏</mods:namePart>
+    <mods:namePart type="date">2. Jh. n. Chr.</mods:namePart>
     <mods:role>
       <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
     </mods:role>
@@ -32,7 +34,7 @@
   <mods:location>
     <mods:url displayLabel="SLUB">http://digital.slub-dresden.de/werkansicht/dlf/110650/122/0/</mods:url>
   </mods:location>
-  <relatedItem type="host">
+  <mods:relatedItem type="host">
     <mods:titleInfo>
       <mods:title>P. Terenti Afri Comoediae</mods:title>
     </mods:titleInfo>
@@ -92,4 +94,4 @@
       <mods:recordIdentifier/>
     </mods:recordInfo>
   </relatedItem>
-</mods>
+</mods:mods>
