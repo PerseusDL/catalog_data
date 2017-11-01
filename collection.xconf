@@ -1,0 +1,32 @@
+<collection xmlns="http://exist-db.org/collection-config/1.0"
+	    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	    xmlns:mods="http://www.loc.gov/mods/v3"
+	    xmlns:mads="http://www.loc.gov/mads/v2">
+
+  <index>
+    <!-- Not using the Legacy Fulltext Index -->
+    <fulltext default="none" attributes="false"/>
+    <!-- Lucene-Based Full-Text Indexes -->
+    <lucene>
+      <!-- MODS -->
+      <text qname="mods:title"/>
+      <text qname="mods:namePart"/>
+      <text qname="mods:identifier"/>
+
+      <!-- MADS -->
+      <text qname="mads:namePart"/>
+      <text qname="mads:identifier"/>
+    </lucene>
+
+    <!-- New Range Indexes -->
+    <range>
+      <create qname="@type" type="xs:string"/>
+
+      <!-- MODS -->
+      <create qname="mods:identifier" type="xs:string"/>
+
+      <!-- MADS -->
+      <create qname="mads:identifier" type="xs:string"/>
+    </range>
+  </index>
+</collection>
