@@ -1,7 +1,4 @@
-<collection xmlns="http://exist-db.org/collection-config/1.0"
-	    xmlns:xs="http://www.w3.org/2001/XMLSchema"
-	    xmlns:mods="http://www.loc.gov/mods/v3"
-	    xmlns:mads="http://www.loc.gov/mads/v2">
+<collection xmlns:mads="http://www.loc.gov/mads/v2" xmlns="http://exist-db.org/collection-config/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
   <index>
     <!-- Not using the Legacy Fulltext Index -->
@@ -16,7 +13,15 @@
       <!-- MADS -->
       <text qname="mads:namePart"/>
       <text qname="mads:identifier"/>
-      <text qname='mads:note'/>
+      <text qname="mads:note"/>
+      
+      <!-- Citation index -->
+      <text qname="author"/>
+      <text qname="urn"/>
+      <text qname="canonical-id"/>
+      <text qname="related-works"/>
+      <text qname="authority-name"/>
+      <text qname="groupname-eng"/>
     </lucene>
 
     <!-- New Range Indexes -->
@@ -28,6 +33,10 @@
 
       <!-- MADS -->
       <create qname="mads:identifier" type="xs:string"/>
+      
+      <!-- Citation Index -->
+      <create qname="urn" type="xs:string"/>
+      <create qname="canonical-id" type="xs:string"/>
     </range>
   </index>
 </collection>
