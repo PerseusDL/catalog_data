@@ -1,183 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<modsCollection xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
-  <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atom="http://www.w3.org/2005/Atom" ID="mods1" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-    <mods:titleInfo xml:lang="en" type="uniform">
-      <mods:title xmlns="http://www.loc.gov/mods/v3">Enneades</mods:title>
-    </mods:titleInfo>
-    <mods:identifier type="tlg">2000.001</mods:identifier>
-    <mods:identifier type="ctsurn">urn:cts:greekLit:tlg2000.tlg001.opp-grc2</mods:identifier>
-    <mods:part xmlns="http://www.loc.gov/mods/v3">
-      <mods:extent unit="pages">
-        <mods:start>38</mods:start>
-        <mods:end>350</mods:end>
-      </mods:extent>
-    </mods:part>
-    <mods:tableOfContents>Enneades I-Enneades III., IX, 3</mods:tableOfContents>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=xrwNAAAAIAAJ&amp;pg=PA37</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="Open Content Alliance">http://www.archive.org/stream/enneadespraemiss01plotuoft#page/36/mode/2up</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="HathiTrust">http://hdl.handle.net/2027/uc1.32106015843631?urlappend=%3Bseq=75</mods:url>
-    </mods:location>
-    <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
-      <mods:titleInfo>
-        <mods:title>Plotini Enneades</mods:title>
-        <mods:subTitle>Praemisso Porphyrii De Vita Plotini De Que Ordine Librorum Eius Libello</mods:subTitle>
-        <mods:partName>Vol I</mods:partName>
-      </mods:titleInfo>
-      <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n80-14372.html">
-        <mods:namePart>Plotinus</mods:namePart>
-        <mods:role>
-          <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-        </mods:role>
-      </mods:name>
-      <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n81-124456.html">
-        <mods:namePart>Porphyry</mods:namePart>
-        <mods:namePart type="date">ca. 234-ca. 305</mods:namePart>
-        <mods:role>
-          <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-        </mods:role>
-      </mods:name>
-      <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n88-9162.html">
-        <mods:namePart>Volkmann, Richard von</mods:namePart>
-        <mods:namePart type="date">1830-1889</mods:namePart>
-        <mods:role>
-          <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-        </mods:role>
-      </mods:name>
-      <mods:typeOfResource>text</mods:typeOfResource>
-      <mods:originInfo>
-        <mods:place>
-          <mods:placeTerm type="code" authority="marccountry">gw</mods:placeTerm>
-        </mods:place>
-        <mods:place>
-          <mods:placeTerm type="text">Lipsiae</mods:placeTerm>
-        </mods:place>
-        <mods:publisher>B. G. Teubneri</mods:publisher>
-        <mods:dateIssued>1883</mods:dateIssued>
-        <mods:issuance>monographic</mods:issuance>
-      </mods:originInfo>
-      <mods:language objectPart="preface">
-        <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
-      </mods:language>
-      <mods:language objectPart="text">
-        <mods:languageTerm authority="iso639-2b" type="code">grc</mods:languageTerm>
-      </mods:language>
-      <mods:physicalDescription>
-        <mods:form authority="marcform">print</mods:form>
-        <mods:extent>xxxiv, 350 pg</mods:extent>
-        <digitalOrigin>digitized other analog</digitalOrigin>
-      </mods:physicalDescription>
-      <mods:classification authority="lcc">B693.A4 E6</mods:classification>
-      <mods:identifier type="oclc">6151501</mods:identifier>
-      <mods:location>
-        <mods:url displayLabel="WorldCat">http://worldcat.org/oclc/6151501</mods:url>
-      </mods:location>
-      <mods:location>
-        <mods:url displayLabel="Open Content Alliance">http://www.archive.org/details/enneadespraemiss01plotuoft</mods:url>
-      </mods:location>
-      <mods:location>
-        <mods:url displayLabel="OpenLibrary">http://www.openlibrary.org/details/enneadespraemiss01plotuoft</mods:url>
-      </mods:location>
-      <mods:location>
-        <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=xrwNAAAAIAAJ</mods:url>
-      </mods:location>
-      <mods:location>
-        <mods:url displayLabel="HathiTrust">http://hdl.handle.net/2027/uc1.32106015843631</mods:url>
-      </mods:location>
-      <mods:recordInfo>
-        <mods:recordContentSource authority="marcorg">OCoLC</mods:recordContentSource>
-        <mods:recordCreationDate encoding="marc"/>
-        <mods:recordChangeDate encoding="iso8601"/>
-        <mods:recordIdentifier/>
-      </mods:recordInfo>
-    </mods:relatedItem>
-    <mods:language xmlns="http://www.loc.gov/mods/v3" objectPart="text">
-      <mods:languageTerm authority="iso639-2b" type="code">grc</mods:languageTerm>
-    </mods:language>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n80-14372.html">
-      <mods:namePart>Plotinus</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n88-9162.html">
-      <mods:namePart>Volkmann, Richard von</mods:namePart>
-      <mods:namePart type="date">1830-1889</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-  </mods:mods>
-  <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atom="http://www.w3.org/2005/Atom" ID="mods2" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-    <mods:titleInfo xml:lang="en" type="uniform">
-      <mods:title>Enneades</mods:title>
-    </mods:titleInfo>
-    <mods:titleInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:title>Plotini Enneades</mods:title>
-      <mods:partName>Vol II</mods:partName>
-    </mods:titleInfo>
-    <mods:identifier type="oclc">6151501</mods:identifier>
-    <mods:identifier type="tlg">2000.001</mods:identifier>
-    <mods:identifier type="ctsurn">urn:cts:greekLit:tlg2000.tlg001.opp-grc2</mods:identifier>
-    <mods:typeOfResource xmlns="http://www.loc.gov/mods/v3">text</mods:typeOfResource>
-    <mods:originInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:place>
-        <mods:placeTerm type="code" authority="marccountry">gw</mods:placeTerm>
-      </mods:place>
-      <mods:place>
-        <mods:placeTerm type="text">Lipsiae</mods:placeTerm>
-      </mods:place>
-      <mods:publisher>B. G. Teubneri</mods:publisher>
-      <mods:dateIssued>1884</mods:dateIssued>
-      <mods:issuance>monographic</mods:issuance>
-    </mods:originInfo>
-    <mods:physicalDescription xmlns="http://www.loc.gov/mods/v3">
-      <mods:form authority="marcform">print</mods:form>
-      <mods:extent>lvi, 526 pg.</mods:extent>
-      <digitalOrigin>digitized other analog</digitalOrigin>
-    </mods:physicalDescription>
-    <mods:tableOfContents>Enneades IV- Enneades VI</mods:tableOfContents>
-    <mods:classification xmlns="http://www.loc.gov/mods/v3" authority="lcc">B693.A4 E6</mods:classification>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="WorldCat">http://worldcat.org/oclc/6151501</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="Open Content Alliance">http://www.archive.org/details/enneadespraemiss02plotuoft</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="OpenLibrary">http://www.openlibrary.org/details/enneadespraemiss02plotuoft</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=3rkNAAAAIAAJ</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="HathiTrust">http://hdl.handle.net/2027/uc1.32106015843631</mods:url>
-    </mods:location>
-    <mods:recordInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:recordContentSource authority="marcorg">OCoLC</mods:recordContentSource>
-      <mods:recordCreationDate encoding="marc"/>
-      <mods:recordChangeDate encoding="iso8601"/>
-      <mods:recordIdentifier/>
-    </mods:recordInfo>
-    <mods:language xmlns="http://www.loc.gov/mods/v3" objectPart="text">
-      <mods:languageTerm authority="iso639-2b" type="code">grc</mods:languageTerm>
-    </mods:language>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n80-14372.html">
-      <mods:namePart>Plotinus</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n88-9162.html">
-      <mods:namePart>Volkmann, Richard von</mods:namePart>
-      <mods:namePart type="date">1830-1889</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-  </mods:mods>
-</modsCollection>
+<mods xmlns="http://www.loc.gov/mods/v3">
+   <identifier type="tlg">2000.001</identifier>
+   <identifier type="ctsurn">urn:cts:greekLit:tlg2000.tlg001.opp-grc2</identifier>
+   <titleInfo xml:lang="en" type="uniform">
+      <title>Enneades</title>
+    </titleInfo>
+   <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n80-14372.html">
+      <namePart>Plotinus</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+   <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n88-9162.html">
+      <namePart>Volkmann, Richard von</namePart>
+      <namePart type="date">1830-1889</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+      </role>
+    </name>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Enneades</title>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n80-14372.html">
+         <namePart>Plotinus</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n88-9162.html">
+         <namePart>Volkmann, Richard von</namePart>
+         <namePart type="date">1830-1889</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Enneades I-Enneades III., IX, 3</tableOfContents>
+      <location displayLabel="GoogleBooks">
+         <url>http://books.google.com/books?id=xrwNAAAAIAAJ&amp;pg=PA37</url>
+      </location>
+      <location displayLabel="Open Content Alliance">
+         <url>http://www.archive.org/stream/enneadespraemiss01plotuoft#page/36/mode/2up</url>
+      </location>
+      <location displayLabel="HathiTrust">
+         <url>http://hdl.handle.net/2027/uc1.32106015843631?urlappend=%3Bseq=75</url>
+      </location>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Enneades</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Plotini Enneades</title>
+         <mods:partName xmlns:mods="http://www.loc.gov/mods/v3"
+                        xmlns:atom="http://www.w3.org/2005/Atom"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vol II</mods:partName>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n80-14372.html">
+         <namePart>Plotinus</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n88-9162.html">
+         <namePart>Volkmann, Richard von</namePart>
+         <namePart type="date">1830-1889</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Enneades IV- Enneades VI</tableOfContents>
+      <location displayLabel="WorldCat">
+         <url>http://worldcat.org/oclc/6151501</url>
+      </location>
+      <location displayLabel="Open Content Alliance">
+         <url>http://www.archive.org/details/enneadespraemiss02plotuoft</url>
+      </location>
+      <location displayLabel="OpenLibrary">
+         <url>http://www.openlibrary.org/details/enneadespraemiss02plotuoft</url>
+      </location>
+      <location displayLabel="GoogleBooks">
+         <url>http://books.google.com/books?id=3rkNAAAAIAAJ</url>
+      </location>
+      <location displayLabel="HathiTrust">
+         <url>http://hdl.handle.net/2027/uc1.32106015843631</url>
+      </location>
+   </relatedItem>
+</mods>

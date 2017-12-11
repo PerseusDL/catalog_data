@@ -1,28 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<modsCollection xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
-  <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="mods1" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd" version="3.5">
-    <titleInfo type="uniform">
+<mods xmlns="http://www.loc.gov/mods/v3">
+   <identifier type="tlg">0016.001</identifier>
+   <identifier type="oclc">71506267</identifier>
+   <identifier type="ctsurn">urn:cts:greekLit:tlg0016.tlg001.opp-grc4</identifier>
+   <titleInfo type="uniform">
       <title>Historiae</title>
     </titleInfo>
-    <titleInfo>
+   <titleInfo>
       <title>Herodoti Historiarum libri IX</title>
       <partNumber>Volume 1</partNumber>
     </titleInfo>
-    <name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n79-86888.html">
-      <namePart>Herodotus.</namePart>
+   <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n79-86888.html">
+      <namePart>Herodotus</namePart>
       <role>
         <roleTerm authority="marcrelator" type="text">creator</roleTerm>
       </role>
     </name>
-    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/15511621/">
+   <name authority="viaf"
+         type="personal"
+         authorityURI="http://viaf.org/viaf/"
+         valueURI="http://viaf.org/viaf/15511621/">
       <namePart>Dietsch, Heinrich Rudolph</namePart>
       <namePart type="date">1814-1875</namePart>
       <role>
         <roleTerm authority="marcrelator" type="text">editor</roleTerm>
       </role>
     </name>
-    <typeOfResource>text</typeOfResource>
-    <originInfo>
+   <originInfo>
       <place>
         <placeTerm type="code" authority="marccountry">gw</placeTerm>
       </place>
@@ -33,119 +40,95 @@
       <dateIssued>1871</dateIssued>
       <issuance>monographic</issuance>
     </originInfo>
-    <language objectPart="text">
-      <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
-    </language>
-    <physicalDescription>
-      <form authority="marcform">print</form>
-      <extent>1 vol.</extent>
-      <digitalOrigin>digitized other analog</digitalOrigin>
-    </physicalDescription>
-    <tableOfContents>Book I-IV</tableOfContents>
-    <note type="statement of responsibility" altRepGroup="00">edidit Henr. Rudolph. Dietsch ; </note>
-    <subject authority="lcsh">
+   <typeOfResource>text</typeOfResource>
+   <subject authority="lcsh">
       <topic>History, Ancient</topic>
     </subject>
-    <subject authority="lcsh">
+   <subject authority="lcsh">
       <geographic>Greece</geographic>
       <topic>History</topic>
-      <temporal>To 146 B.C</temporal>
+      <temporal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">To 146 B.C</temporal>
     </subject>
-    <classification authority="lcc">PA3404 .H5 1899</classification>
-    <relatedItem type="series">
-      <titleInfo>
-        <title>Bibliotheca scriptorum graecorum et romanorum Teubneriana. [Scriptores graeci]</title>
+   <relatedItem type="constituent">
+      <titleInfo type="uniform">
+         <title>Historiae</title>
       </titleInfo>
-    </relatedItem>
-    <identifier type="tlg">0016.001</identifier>
-    <identifier type="oclc">71506267</identifier>
-    <identifier type="ctsurn">urn:cts:greekLit:tlg0016.tlg001.opp-grc4</identifier>
-    <location>
-      <url displayLabel="HathiTrust">http://hdl.handle.net/2027/uc1.$b290209</url>
-    </location>
-    <location>
-      <url displayLabel="Worldcat">http://www.worldcat.org/oclc/71506267</url>
-    </location>
-    <recordInfo>
-      <recordContentSource authority="marcorg">OCoLC</recordContentSource>
-      <recordCreationDate encoding="marc"/>
-      <recordChangeDate encoding="iso8601"/>
-      <recordIdentifier/>
-      <recordOrigin/>
-    </recordInfo>
-  </mods>
-  <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="mods2" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd" version="3.5">
-    <titleInfo type="uniform">
-      <title>Historiae</title>
-    </titleInfo>
-    <titleInfo>
-      <title>Herodoti Historiarum libri IX</title>
-      <partNumber>Volume 2</partNumber>
-    </titleInfo>
-    <name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n79-86888.html">
-      <namePart>Herodotus.</namePart>
-      <role>
-        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-      </role>
-    </name>
-    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/15511621/">
-      <namePart>Dietsch, Heinrich Rudolph</namePart>
-      <namePart type="date">1814-1875</namePart>
-      <role>
-        <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-      </role>
-    </name>
-    <typeOfResource>text</typeOfResource>
-    <originInfo>
-      <place>
-        <placeTerm type="code" authority="marccountry">gw</placeTerm>
-      </place>
-      <place>
-        <placeTerm type="text">Lipsiae</placeTerm>
-      </place>
-      <publisher>in aedibus B. G. Teubneri</publisher>
-      <dateIssued>1871</dateIssued>
-      <issuance>monographic</issuance>
-    </originInfo>
-    <language objectPart="text">
-      <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
-    </language>
-    <physicalDescription>
-      <form authority="marcform">print</form>
-      <extent>1 vol.</extent>
-      <digitalOrigin>digitized other analog</digitalOrigin>
-    </physicalDescription>
-    <tableOfContents>Book V-IX</tableOfContents>
-    <note type="statement of responsibility" altRepGroup="00">edidit Henr. Rudolph. Dietsch ; </note>
-    <subject authority="lcsh">
-      <topic>History, Ancient</topic>
-    </subject>
-    <subject authority="lcsh">
-      <geographic>Greece</geographic>
-      <topic>History</topic>
-      <temporal>To 146 B.C</temporal>
-    </subject>
-    <classification authority="lcc">PA3404 .H5 1899</classification>
-    <relatedItem type="series">
       <titleInfo>
-        <title>Bibliotheca scriptorum graecorum et romanorum Teubneriana. [Scriptores graeci]</title>
+         <title>Herodoti Historiarum libri IX</title>
+         <partNumber>Volume 1</partNumber>
       </titleInfo>
-    </relatedItem>
-    <identifier type="tlg">0016.001</identifier>
-    <identifier type="oclc">71506267</identifier>
-    <identifier type="ctsurn">urn:cts:greekLit:tlg0016.tlg001.opp-grc4</identifier>
-    <location>
-      <url displayLabel="HathiTrust">http://hdl.handle.net/2027/uc1.$b290209?urlappend=%3Bseq=390</url>
-    </location>
-    <location>
-      <url displayLabel="Worldcat">http://www.worldcat.org/oclc/71506267</url>
-    </location>
-    <recordInfo>
-      <recordContentSource authority="marcorg">OCoLC</recordContentSource>
-      <recordCreationDate encoding="marc"/>
-      <recordChangeDate encoding="iso8601"/>
-      <recordIdentifier/>
-      <recordOrigin/>
-    </recordInfo>
-  </mods>
-</modsCollection>
+      <part>
+         <detail>
+            <caption>Volume 1</caption>
+         </detail>
+      </part>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-86888.html">
+         <namePart>Herodotus</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name authority="viaf"
+            type="personal"
+            authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/15511621/">
+         <namePart>Dietsch, Heinrich Rudolph</namePart>
+         <namePart type="date">1814-1875</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Book I-IV</tableOfContents>
+      <location displayLabel="HathiTrust">
+         <url>http://hdl.handle.net/2027/uc1.$b290209</url>
+      </location>
+      <location displayLabel="Worldcat">
+         <url>http://www.worldcat.org/oclc/71506267</url>
+      </location>
+      <note type="statement of responsibility" altRepGroup="00">edidit Henr. Rudolph. Dietsch ; </note>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo type="uniform">
+         <title>Historiae</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Herodoti Historiarum libri IX</title>
+         <partNumber>Volume 2</partNumber>
+      </titleInfo>
+      <part>
+         <detail>
+            <caption>Volume 2</caption>
+         </detail>
+      </part>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-86888.html">
+         <namePart>Herodotus</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name authority="viaf"
+            type="personal"
+            authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/15511621/">
+         <namePart>Dietsch, Heinrich Rudolph</namePart>
+         <namePart type="date">1814-1875</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Book V-IX</tableOfContents>
+      <location displayLabel="HathiTrust">
+         <url>http://hdl.handle.net/2027/uc1.$b290209?urlappend=%3Bseq=390</url>
+      </location>
+      <location displayLabel="Worldcat">
+         <url>http://www.worldcat.org/oclc/71506267</url>
+      </location>
+      <note type="statement of responsibility" altRepGroup="00">edidit Henr. Rudolph. Dietsch ; </note>
+   </relatedItem>
+</mods>

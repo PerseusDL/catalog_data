@@ -1,153 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<modsCollection xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
-  <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atom="http://www.w3.org/2005/Atom" ID="mods1" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-    <mods:titleInfo xml:lang="en" type="uniform">
-      <mods:title>Letters to his Friends</mods:title>
-    </mods:titleInfo>
-    <mods:titleInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:title>Epistulae ad Familiares</mods:title>
-    </mods:titleInfo>
-    <mods:identifier type="phi">474.56</mods:identifier>
-    <mods:identifier type="stoa author-text">stoa0087-stoa026</mods:identifier>
-    <mods:identifier type="ctsurn">urn:cts:latinLit:phi0474.phi056.opp-lat10</mods:identifier>
-    <mods:tableOfContents xmlns="http://www.loc.gov/mods/v3">Fam. v. 1 - Fam. v. 2 (pg. 181-6) -- 
+<mods xmlns="http://www.loc.gov/mods/v3">
+   <identifier type="phi">474.56</identifier>
+   <identifier type="stoa author-text">stoa0087-stoa026</identifier>
+   <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi056.opp-lat10</identifier>
+   <titleInfo xml:lang="en" type="uniform">
+      <title>Letters to his Friends</title>
+    </titleInfo>
+   <titleInfo>
+      <title>Epistulae ad Familiares</title>
+    </titleInfo>
+   <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n79-32166.html">
+      <namePart>Cicero, Marcus Tullius</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+   <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n85-821139.html">
+      <namePart>Tyrrell, Robert Yelverton</namePart>
+      <namePart type="date">1844-1914</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+      </role>
+    </name>
+   <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n87-812510.html">
+      <namePart>Purser, Louis Claude</namePart>
+      <namePart type="date">1854-1932</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+      </role>
+    </name>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Letters to his Friends</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Epistulae ad Familiares</title>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-32166.html">
+         <namePart>Cicero, Marcus Tullius</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n85-821139.html">
+         <namePart>Tyrrell, Robert Yelverton</namePart>
+         <namePart type="date">1844-1914</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n87-812510.html">
+         <namePart>Purser, Louis Claude</namePart>
+         <namePart type="date">1854-1932</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Fam. v. 1 - Fam. v. 2 (pg. 181-6) -- 
             Fam. v. 5 (pg. 194-196)-- Fam. v. 7
             (pg. 187-8) -- Fam. v. 6 (pg. 188-190) --Fam xiii. 42 (pg. 347)-- Fam. xiii. 41 (pg.
             348) -- Fam. xiv. 4 (pg. 362--364) -- Fam. xiv. 2 (pg. 401-403)-- Fam. xiv. 1 (pg.
-            405-407) --Fam. xiv. 3 (pg. 411-12) -- Fam. v. 4 (pg. 420-422)</mods:tableOfContents>
-    <mods:location>
-      <mods:url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015069576794?urlappend=%3Bseq=202</mods:url>
-    </mods:location>
-    <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
-      <mods:titleInfo>
-        <mods:nonSort>The</mods:nonSort>
-        <mods:title>correspondence of M. Tullius Cicero</mods:title>
-        <mods:partNumber>Vol I</mods:partNumber>
-      </mods:titleInfo>
-      <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n79-32166.html">
-        <mods:namePart>Cicero, Marcus Tullius.</mods:namePart>
-        <mods:role>
-          <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-        </mods:role>
-      </mods:name>
-      <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n85-821139.html">
-        <mods:namePart>Tyrrell, Robert Yelverton</mods:namePart>
-        <mods:namePart type="date">1844-1914</mods:namePart>
-        <mods:role>
-          <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-        </mods:role>
-      </mods:name>
-      <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n87-812510.html">
-        <mods:namePart>Purser, Louis Claude</mods:namePart>
-        <mods:namePart type="date">1854-1932</mods:namePart>
-        <mods:role>
-          <mods:roleTerm authority="marcrelator" type="text">joint editor</mods:roleTerm>
-        </mods:role>
-      </mods:name>
-      <mods:typeOfResource>text</mods:typeOfResource>
-      <mods:originInfo>
-        <mods:place>
-          <mods:placeTerm type="code" authority="marccountry">ie</mods:placeTerm>
-        </mods:place>
-        <mods:place>
-          <mods:placeTerm type="text">Dublin</mods:placeTerm>
-        </mods:place>
-        <mods:publisher>Hodges &amp; Figgis</mods:publisher>
-        <mods:dateIssued>1904</mods:dateIssued>
-        <mods:edition>3rd</mods:edition>
-        <mods:issuance>monographic</mods:issuance>
-      </mods:originInfo>
-      <mods:language objectPart="text">
-        <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
-      </mods:language>
-      <mods:language objectPart="notes">
-        <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
-      </mods:language>
-      <mods:language objectPart="introduction">
-        <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
-      </mods:language>
-      <mods:physicalDescription>
-        <mods:form authority="marcform">print</mods:form>
-        <mods:extent>1 vol</mods:extent>
-        <digitalOrigin>digitized other analog</digitalOrigin>
-      </mods:physicalDescription>
-      <mods:note type="statement of responsibility">By Robert Yelverton Tyrrell..and Louis Claude Purser</mods:note>
-      <mods:note>Vols. 4-6 have series title at head of t.-p. Vol. 3 has title slightly different</mods:note>
-      <mods:note>Vol. 1: 3rd edition.</mods:note>
-      <mods:note>Vol. 7: Index.</mods:note>
-      <mods:subject>
-        <mods:geographicCode authority="marcgac">e------</mods:geographicCode>
-        <mods:geographicCode authority="marcgac">ff-----</mods:geographicCode>
-        <mods:geographicCode authority="marcgac">aw-----</mods:geographicCode>
-      </mods:subject>
-      <mods:subject authority="lcsh">
-        <mods:name authority="" type="personal">
-          <mods:namePart>Cicero, Marcus Tullius</mods:namePart>
-        </mods:name>
-        <mods:topic>Correspondence</mods:topic>
-      </mods:subject>
-      <mods:subject authority="lcsh">
-        <mods:topic>Statesmen</mods:topic>
-        <mods:geographic>Rome</mods:geographic>
-        <mods:topic>Correspondence</mods:topic>
-      </mods:subject>
-      <mods:subject authority="lcsh">
-        <mods:topic>Authors, Latin</mods:topic>
-        <mods:topic>Correspondence</mods:topic>
-      </mods:subject>
-      <mods:classification authority="lcc">PA6297</mods:classification>
-      <mods:identifier type="oclc">6525638</mods:identifier>
-      <mods:location>
-        <mods:url displayLabel="WorldCat">http://worldcat.org/oclc/6525638</mods:url>
-      </mods:location>
-      <mods:location>
-        <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=VB8DAAAAYAAJ</mods:url>
-      </mods:location>
-      <mods:location>
-        <mods:url displayLabel="HathiTurst">http://hdl.handle.net/2027/mdp.39015069576794</mods:url>
-      </mods:location>
-      <mods:recordInfo>
-        <mods:recordContentSource authority="marcorg">OCoLC</mods:recordContentSource>
-        <mods:recordCreationDate encoding="marc"/>
-        <mods:recordChangeDate encoding="iso8601"/>
-        <mods:recordIdentifier/>
-      </mods:recordInfo>
-    </mods:relatedItem>
-    <mods:language xmlns="http://www.loc.gov/mods/v3">
-      <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
-    </mods:language>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n79-32166.html">
-      <mods:namePart>Cicero, Marcus Tullius.</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n85-821139.html">
-      <mods:namePart>Tyrrell, Robert Yelverton</mods:namePart>
-      <mods:namePart type="date">1844-1914</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n87-812510.html">
-      <mods:namePart>Purser, Louis Claude</mods:namePart>
-      <mods:namePart type="date">1854-1932</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">joint editor</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-  </mods:mods>
-  <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atom="http://www.w3.org/2005/Atom" ID="mods2" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-    <mods:titleInfo xml:lang="en" type="uniform">
-      <mods:title>Letters to his Friends</mods:title>
-    </mods:titleInfo>
-    <mods:titleInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:title>Epistulae ad Familiares</mods:title>
-    </mods:titleInfo>
-    <mods:identifier type="phi">474.56</mods:identifier>
-    <mods:identifier type="stoa author-text">stoa0087-stoa026</mods:identifier>
-    <mods:identifier type="ctsurn">urn:cts:latinLit:phi0474.phi056.opp-lat10</mods:identifier>
-    <mods:tableOfContents xmlns="http://www.loc.gov/mods/v3">Fam VII. 26 (pg. 22-24) --Fam. I. 1-Fam. I. 5a (pg. 27-37) Fam. I. 5b- Fam.
+            405-407) --Fam. xiv. 3 (pg. 411-12) -- Fam. v. 4 (pg. 420-422)</tableOfContents>
+      <location displayLabel="HathiTrust">
+         <url>http://hdl.handle.net/2027/mdp.39015069576794?urlappend=%3Bseq=202</url>
+      </location>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Letters to his Friends</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Epistulae ad Familiares</title>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-32166.html">
+         <namePart>Cicero, Marcus Tullius</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n85-821139.html">
+         <namePart>Tyrrell, Robert Yelverton</namePart>
+         <namePart type="date">1844-1914</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n87-812510.html">
+         <namePart>Purser, Louis Claude</namePart>
+         <namePart type="date">1854-1932</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Fam VII. 26 (pg. 22-24) --Fam. I. 1-Fam. I. 5a (pg. 27-37) Fam. I. 5b- Fam.
             I. 6 (pg. 46-47) -- Fam. V. 12 (pg. 61-67) -- Fam. V. 3 (pg. 73) -- Fam. I. 7 (pg.
             74-80) -- Fam. XIII. 6a (pg. 81-82) -- Fam. XII. 6b (pg. 83)-- Fam. I. 8 (pg. 91-93) --
             Fam. VII. 1 (pg. 109-114) --Fam. XIII. 74 (pg. 115) -- Fam. XIII. 40 (pg. 115) --Fam. V.
@@ -160,141 +132,48 @@
             VII. 13 (pg. 245-247) -- Fam. VII. 14 (pg. 248) -- Fam. VII. 18 (pg. 249-251) -- Fam.
             VII. 15 (pg. 252) -- Fam. II. 4 (pg. 253-4) -- Fam. II. 5 (pg. 254-255) -- Fam. II. 6
             (pg. 255-258) -- Fam. XII. 75 (pg. 258) --Fam. V. 17 (pg. 260-262) -- Fam. V. 18 (pg.
-            263-4) -- Fam. III. 1 (pg. 264-266) -- Fam. VII. 2 (pg. 266-268) -- </mods:tableOfContents>
-    <mods:location>
-      <mods:url displayLabel="Google Books">https://books.google.com/books?id=Lx8DAAAAYAAJ&amp;pg=PA22#v=onepage</mods:url>
-    </mods:location>
-    <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
-      <mods:titleInfo>
-        <mods:nonSort>The</mods:nonSort>
-        <mods:title>correspondence of M. Tullius Cicero</mods:title>
-        <mods:partNumber>Vol II</mods:partNumber>
-      </mods:titleInfo>
-      <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n79-32166.html">
-        <mods:namePart>Cicero, Marcus Tullius.</mods:namePart>
-        <mods:role>
-          <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-        </mods:role>
-      </mods:name>
-      <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n85-821139.html">
-        <mods:namePart>Tyrrell, Robert Yelverton</mods:namePart>
-        <mods:namePart type="date">1844-1914</mods:namePart>
-        <mods:role>
-          <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-        </mods:role>
-      </mods:name>
-      <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n87-812510.html">
-        <mods:namePart>Purser, Louis Claude</mods:namePart>
-        <mods:namePart type="date">1854-1932</mods:namePart>
-        <mods:role>
-          <mods:roleTerm authority="marcrelator" type="text">joint editor</mods:roleTerm>
-        </mods:role>
-      </mods:name>
-      <mods:typeOfResource>text</mods:typeOfResource>
-      <mods:originInfo>
-        <mods:place>
-          <mods:placeTerm type="code" authority="marccountry">ie</mods:placeTerm>
-        </mods:place>
-        <mods:place>
-          <mods:placeTerm type="text">Dublin</mods:placeTerm>
-        </mods:place>
-        <mods:place>
-          <mods:placeTerm type="text">London</mods:placeTerm>
-        </mods:place>
-        <mods:publisher>Hodges &amp; Figgis</mods:publisher>
-        <mods:publisher>London</mods:publisher>
-        <mods:dateIssued>1906</mods:dateIssued>
-        <mods:edition>2nd</mods:edition>
-        <mods:issuance>monographic</mods:issuance>
-      </mods:originInfo>
-      <mods:language objectPart="text">
-        <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
-      </mods:language>
-      <mods:language objectPart="notes">
-        <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
-      </mods:language>
-      <mods:physicalDescription>
-        <mods:form authority="marcform">print</mods:form>
-        <mods:extent>1 vol</mods:extent>
-        <digitalOrigin>digitized other analog</digitalOrigin>
-      </mods:physicalDescription>
-      <mods:note type="statement of responsibility">By Robert Yelverton Tyrrell..and Louis Claude Purser</mods:note>
-      <mods:note>Vols. 4-6 have series title at head of t.-p. Vol. 3 has title slightly different</mods:note>
-      <mods:note>Vol. 1: 3rd edition.</mods:note>
-      <mods:note>Vol. 7: Index.</mods:note>
-      <mods:subject>
-        <mods:geographicCode authority="marcgac">e------</mods:geographicCode>
-        <mods:geographicCode authority="marcgac">ff-----</mods:geographicCode>
-        <mods:geographicCode authority="marcgac">aw-----</mods:geographicCode>
-      </mods:subject>
-      <mods:subject authority="lcsh">
-        <mods:name authority="" type="personal">
-          <mods:namePart>Cicero, Marcus Tullius</mods:namePart>
-        </mods:name>
-        <mods:topic>Correspondence</mods:topic>
-      </mods:subject>
-      <mods:subject authority="lcsh">
-        <mods:topic>Statesmen</mods:topic>
-        <mods:geographic>Rome</mods:geographic>
-        <mods:topic>Correspondence</mods:topic>
-      </mods:subject>
-      <mods:subject authority="lcsh">
-        <mods:topic>Authors, Latin</mods:topic>
-        <mods:topic>Correspondence</mods:topic>
-      </mods:subject>
-      <mods:classification authority="lcc">PA6297</mods:classification>
-      <mods:identifier type="oclc">6525638</mods:identifier>
-      <mods:location>
-        <mods:url displayLabel="WorldCat">http://worldcat.org/oclc/6525638 </mods:url>
-      </mods:location>
-      <mods:location>
-        <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=Lx8DAAAAYAAJ</mods:url>
-      </mods:location>
-      <mods:location>
-        <mods:url displayLabel="OpenContentAlliance" note="1886 printing-First Edition">http://www.archive.org/details/correspondenceof02ciceuoft</mods:url>
-      </mods:location>
-      <mods:recordInfo>
-        <mods:recordContentSource authority="marcorg">OCoLC</mods:recordContentSource>
-        <mods:recordCreationDate encoding="marc"/>
-        <mods:recordChangeDate encoding="iso8601"/>
-        <mods:recordIdentifier/>
-      </mods:recordInfo>
-    </mods:relatedItem>
-    <mods:language xmlns="http://www.loc.gov/mods/v3">
-      <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
-    </mods:language>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n79-32166.html">
-      <mods:namePart>Cicero, Marcus Tullius.</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n85-821139.html">
-      <mods:namePart>Tyrrell, Robert Yelverton</mods:namePart>
-      <mods:namePart type="date">1844-1914</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n87-812510.html">
-      <mods:namePart>Purser, Louis Claude</mods:namePart>
-      <mods:namePart type="date">1854-1932</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">joint editor</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-  </mods:mods>
-  <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atom="http://www.w3.org/2005/Atom" ID="mods3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-    <mods:titleInfo xml:lang="en" type="uniform">
-      <mods:title>Letters to his Friends</mods:title>
-    </mods:titleInfo>
-    <mods:titleInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:title>Epistulae ad Familiares</mods:title>
-    </mods:titleInfo>
-    <mods:identifier type="phi">474.56</mods:identifier>
-    <mods:identifier type="stoa author-text">stoa0087-stoa026</mods:identifier>
-    <mods:identifier type="ctsurn">urn:cts:latinLit:phi0474.phi056.opp-lat10</mods:identifier>
-    <mods:tableOfContents xmlns="http://www.loc.gov/mods/v3">Fam. III. 2 (pg 5-6) --Fam III. 3 (pg. 24-5) -- Famm. VII. 1 (pg. 25-29) --
+            263-4) -- Fam. III. 1 (pg. 264-266) -- Fam. VII. 2 (pg. 266-268) -- </tableOfContents>
+      <location displayLabel="Google Books">
+         <url>https://books.google.com/books?id=Lx8DAAAAYAAJ&amp;pg=PA22#v=onepage</url>
+      </location>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Letters to his Friends</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Epistulae ad Familiares</title>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-32166.html">
+         <namePart>Cicero, Marcus Tullius</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n85-821139.html">
+         <namePart>Tyrrell, Robert Yelverton</namePart>
+         <namePart type="date">1844-1914</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n87-812510.html">
+         <namePart>Purser, Louis Claude</namePart>
+         <namePart type="date">1854-1932</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Fam. III. 2 (pg 5-6) --Fam III. 3 (pg. 24-5) -- Famm. VII. 1 (pg. 25-29) --
             Fam. III. 4 (pg. 31-2) -- Fam. VIII. 2-Fam. VIII. 3 (Pg. 34-39) -- Fam. XIII. 1 (pg.
             43-47) -- Fam. II. 8 (pg. 51-53) -- Fam. III. 5 (pg. 60-62) -- Fam. VIII. 4 (pg. 62-66)
             -- Fam. VIII. 5 (pg. 72-74) --Fam. VIII. 9 (pg. 75-78) -- Fam. XV. 3 (pg. 79) -- Fam.
@@ -316,131 +195,45 @@
             251-255) -- Fam. II. 15 (pg. 255-257) -- Fam. XV. 11 (pg. 257-258) -- Fam. III. 12 (pg.
             258-260) --Fam. III. 13 (pg. 263-264) -- Fam. XV. 6 (pg. 264-266) -- Fam. VIII. 12 (pg.
             266-268) -- Fam. VIII. 14 (pg. 269-273)-- Fam. XIV. 5 (pg. 278-279)-- Fam. XIV. 1 -Fam.
-            XIV. 7 (pg. 285-291) -- Fam. XIV. 9 (pg. 291-293)-- </mods:tableOfContents>
-    <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
-      <mods:titleInfo>
-        <mods:nonSort>The</mods:nonSort>
-        <mods:title>correspondence of M. Tullius Cicero</mods:title>
-        <mods:partNumber>Vol III</mods:partNumber>
-      </mods:titleInfo>
-      <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n79-32166.html">
-        <mods:namePart>Cicero, Marcus Tullius.</mods:namePart>
-        <mods:role>
-          <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-        </mods:role>
-      </mods:name>
-      <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n85-821139.html">
-        <mods:namePart>Tyrrell, Robert Yelverton</mods:namePart>
-        <mods:namePart type="date">1844-1914</mods:namePart>
-        <mods:role>
-          <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-        </mods:role>
-      </mods:name>
-      <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n87-812510.html">
-        <mods:namePart>Purser, Louis Claude</mods:namePart>
-        <mods:namePart type="date">1854-1932</mods:namePart>
-        <mods:role>
-          <mods:roleTerm authority="marcrelator" type="text">joint editor</mods:roleTerm>
-        </mods:role>
-      </mods:name>
-      <mods:typeOfResource>text</mods:typeOfResource>
-      <mods:originInfo>
-        <mods:place>
-          <mods:placeTerm type="code" authority="marccountry">ie</mods:placeTerm>
-        </mods:place>
-        <mods:place>
-          <mods:placeTerm type="text">Dublin</mods:placeTerm>
-        </mods:place>
-        <mods:place>
-          <mods:placeTerm type="text">London</mods:placeTerm>
-        </mods:place>
-        <mods:publisher>Hodges &amp; Figgis</mods:publisher>
-        <mods:publisher>Longmans</mods:publisher>
-        <mods:dateIssued>1914</mods:dateIssued>
-        <mods:edition>2nd</mods:edition>
-        <mods:issuance>monographic</mods:issuance>
-      </mods:originInfo>
-      <mods:language objectPart="text">
-        <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
-      </mods:language>
-      <mods:language objectPart="notes">
-        <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
-      </mods:language>
-      <mods:language objectPart="introduction">
-        <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
-      </mods:language>
-      <mods:physicalDescription>
-        <mods:form authority="marcform">print</mods:form>
-        <mods:extent>1 vol.</mods:extent>
-        <digitalOrigin>digitized other analog</digitalOrigin>
-      </mods:physicalDescription>
-      <mods:note type="statement of responsibility">By Robert Yelverton Tyrrell..and Louis Claude Purser</mods:note>
-      <mods:note>Vols. 4-6 have series title at head of t.-p. Vol. 3 has title slightly different</mods:note>
-      <mods:note>Vol. 1: 3rd edition.</mods:note>
-      <mods:note>Vol. 7: Index.</mods:note>
-      <mods:subject>
-        <mods:geographicCode authority="marcgac">e------</mods:geographicCode>
-        <mods:geographicCode authority="marcgac">ff-----</mods:geographicCode>
-        <mods:geographicCode authority="marcgac">aw-----</mods:geographicCode>
-      </mods:subject>
-      <mods:subject authority="lcsh">
-        <mods:name authority="" type="personal">
-          <mods:namePart>Cicero, Marcus Tullius</mods:namePart>
-        </mods:name>
-        <mods:topic>Correspondence</mods:topic>
-      </mods:subject>
-      <mods:subject authority="lcsh">
-        <mods:topic>Statesmen</mods:topic>
-        <mods:geographic>Rome</mods:geographic>
-        <mods:topic>Correspondence</mods:topic>
-      </mods:subject>
-      <mods:subject authority="lcsh">
-        <mods:topic>Authors, Latin</mods:topic>
-        <mods:topic>Correspondence</mods:topic>
-      </mods:subject>
-      <mods:classification authority="lcc">PA6297</mods:classification>
-      <mods:recordInfo>
-        <mods:recordContentSource authority="marcorg">OCoLC</mods:recordContentSource>
-        <mods:recordCreationDate encoding="marc"/>
-        <mods:recordChangeDate encoding="iso8601"/>
-        <mods:recordIdentifier/>
-      </mods:recordInfo>
-    </mods:relatedItem>
-    <mods:language xmlns="http://www.loc.gov/mods/v3">
-      <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
-    </mods:language>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n79-32166.html">
-      <mods:namePart>Cicero, Marcus Tullius.</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n85-821139.html">
-      <mods:namePart>Tyrrell, Robert Yelverton</mods:namePart>
-      <mods:namePart type="date">1844-1914</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n87-812510.html">
-      <mods:namePart>Purser, Louis Claude</mods:namePart>
-      <mods:namePart type="date">1854-1932</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">joint editor</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-  </mods:mods>
-  <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atom="http://www.w3.org/2005/Atom" ID="mods4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-    <mods:titleInfo xml:lang="en" type="uniform">
-      <mods:title>Letters to his Friends</mods:title>
-    </mods:titleInfo>
-    <mods:titleInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:title>Epistulae ad Familiares</mods:title>
-    </mods:titleInfo>
-    <mods:identifier type="phi">474.56</mods:identifier>
-    <mods:identifier type="stoa author-text">stoa0087-stoa026</mods:identifier>
-    <mods:identifier type="ctsurn">urn:cts:latinLit:phi0474.phi056.opp-lat10</mods:identifier>
-    <mods:tableOfContents xmlns="http://www.loc.gov/mods/v3"> Fam. XVI. 11 (pg. 5-7) -- Fam. V. 20 (pg. 7-16) --Fam. XIV. 18 (pg. 24-25)
+            XIV. 7 (pg. 285-291) -- Fam. XIV. 9 (pg. 291-293)-- </tableOfContents>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Letters to his Friends</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Epistulae ad Familiares</title>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-32166.html">
+         <namePart>Cicero, Marcus Tullius</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n85-821139.html">
+         <namePart>Tyrrell, Robert Yelverton</namePart>
+         <namePart type="date">1844-1914</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n87-812510.html">
+         <namePart>Purser, Louis Claude</namePart>
+         <namePart type="date">1854-1932</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents> Fam. XVI. 11 (pg. 5-7) -- Fam. V. 20 (pg. 7-16) --Fam. XIV. 18 (pg. 24-25)
             -- Fam. XIV. 14 (pg. 30-31) --Fam. XVI. 12 (pg. 36-9) --Fam. XVI. 8 (pg. 40-1) --Fam.
             VIII. 15 (pg. 104-106) --Fam. IV. 1 (pg. 213-215) --Fam. IV. 2 (pg. 217-218) -- Fam. V.
             19 (pg. 219-220) --Fam. II. 16 (pg. 233-237) --Fam. XIV. 17 (pg. 262-264) --Fam. VIII.
@@ -470,147 +263,48 @@
             5 (pg. 528-530) -- Fam. VI. 18 (pg. 530-533) --Fam. IV. 14 (pg. 533-535) -- Fam. IV. 10
             (pg. 536) -- Fam. IX. 10 (pg. 537-539) -- Fam. VI. 1 (pg. 539-543) --Fam. VI. 3 - Fam.
             VI. 4 (pg. 544-549) -- Fam. XV. 17 (pg. 550-551) -- Fam. XV. 19 (pg. 552-554) -- Fam.
-            IX. 13 (pg. 554-555) --Fam. XIII. 16 (pg. 556-558) </mods:tableOfContents>
-    <mods:location>
-      <mods:url displayLabel="Open Content Alliance">https://archive.org/stream/correspondenceof04ciceuoft#page/4/mode/2up</mods:url>
-    </mods:location>
-    <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
-      <mods:titleInfo>
-        <mods:nonSort>The</mods:nonSort>
-        <mods:title>correspondence of M. Tullius Cicero</mods:title>
-        <mods:partNumber>Vol IV</mods:partNumber>
-      </mods:titleInfo>
-      <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n79-32166.html">
-        <mods:namePart>Cicero, Marcus Tullius.</mods:namePart>
-        <mods:role>
-          <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-        </mods:role>
-      </mods:name>
-      <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n85-821139.html">
-        <mods:namePart>Tyrrell, Robert Yelverton</mods:namePart>
-        <mods:namePart type="date">1844-1914</mods:namePart>
-        <mods:role>
-          <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-        </mods:role>
-      </mods:name>
-      <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n87-812510.html">
-        <mods:namePart>Purser, Louis Claude</mods:namePart>
-        <mods:namePart type="date">1854-1932</mods:namePart>
-        <mods:role>
-          <mods:roleTerm authority="marcrelator" type="text">joint editor</mods:roleTerm>
-        </mods:role>
-      </mods:name>
-      <mods:typeOfResource>text</mods:typeOfResource>
-      <mods:originInfo>
-        <mods:place>
-          <mods:placeTerm type="code" authority="marccountry">ie</mods:placeTerm>
-        </mods:place>
-        <mods:place>
-          <mods:placeTerm type="text">Dublin</mods:placeTerm>
-        </mods:place>
-        <mods:place>
-          <mods:placeTerm type="text">London</mods:placeTerm>
-        </mods:place>
-        <mods:publisher>Hodges &amp; Figgis</mods:publisher>
-        <mods:publisher>Longmans</mods:publisher>
-        <mods:dateIssued>1918</mods:dateIssued>
-        <mods:edition>2nd</mods:edition>
-        <mods:issuance>monographic</mods:issuance>
-      </mods:originInfo>
-      <mods:language objectPart="text">
-        <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
-      </mods:language>
-      <mods:language objectPart="introduction">
-        <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
-      </mods:language>
-      <mods:language objectPart="notes">
-        <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
-      </mods:language>
-      <mods:physicalDescription>
-        <mods:form authority="marcform">print</mods:form>
-        <mods:extent>1 vol</mods:extent>
-        <mods:digitalOrigin>digitized other analog</mods:digitalOrigin>
-      </mods:physicalDescription>
-      <mods:note type="statement of responsibility">By Robert Yelverton Tyrrell..and Louis Claude Purser</mods:note>
-      <mods:note>Vols. 4-6 have series title at head of t.-p. Vol. 3 has title slightly different</mods:note>
-      <mods:note>Vol. 1: 3rd edition.</mods:note>
-      <mods:note>Vol. 7: Index.</mods:note>
-      <mods:subject>
-        <mods:geographicCode authority="marcgac">e------</mods:geographicCode>
-        <mods:geographicCode authority="marcgac">ff-----</mods:geographicCode>
-        <mods:geographicCode authority="marcgac">aw-----</mods:geographicCode>
-      </mods:subject>
-      <mods:subject authority="lcsh">
-        <mods:name authority="" type="personal">
-          <mods:namePart>Cicero, Marcus Tullius</mods:namePart>
-        </mods:name>
-        <mods:topic>Correspondence</mods:topic>
-      </mods:subject>
-      <mods:subject authority="lcsh">
-        <mods:topic>Statesmen</mods:topic>
-        <mods:geographic>Rome</mods:geographic>
-        <mods:topic>Correspondence</mods:topic>
-      </mods:subject>
-      <mods:subject authority="lcsh">
-        <mods:topic>Authors, Latin</mods:topic>
-        <mods:topic>Correspondence</mods:topic>
-      </mods:subject>
-      <mods:classification authority="lcc">PA6297</mods:classification>
-      <mods:identifier type="oclc">6525638</mods:identifier>
-      <mods:location>
-        <mods:url displayLabel="WorldCat">http://worldcat.org/oclc/6525638 </mods:url>
-      </mods:location>
-      <mods:location>
-        <mods:url displayLabel="GoogleBooks" note="First Edition-1894 printing">http://books.google.com/books?id=drMNAAAAYAAJ</mods:url>
-      </mods:location>
-      <mods:location>
-        <mods:url displayLabel="Open Content Alliance">http://www.archive.org/details/correspondenceof04ciceuoft</mods:url>
-      </mods:location>
-      <mods:location>
-        <mods:url displayLabel="OpenLibrary">http://www.openlibrary.org/details/correspondenceof04ciceuoft</mods:url>
-      </mods:location>
-      <mods:recordInfo>
-        <mods:recordContentSource authority="marcorg">OCoLC</mods:recordContentSource>
-        <mods:recordCreationDate encoding="marc"/>
-        <mods:recordChangeDate encoding="iso8601"/>
-        <mods:recordIdentifier/>
-      </mods:recordInfo>
-    </mods:relatedItem>
-    <mods:language xmlns="http://www.loc.gov/mods/v3">
-      <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
-    </mods:language>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n79-32166.html">
-      <mods:namePart>Cicero, Marcus Tullius.</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n85-821139.html">
-      <mods:namePart>Tyrrell, Robert Yelverton</mods:namePart>
-      <mods:namePart type="date">1844-1914</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n87-812510.html">
-      <mods:namePart>Purser, Louis Claude</mods:namePart>
-      <mods:namePart type="date">1854-1932</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">joint editor</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-  </mods:mods>
-  <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atom="http://www.w3.org/2005/Atom" ID="mods5" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-    <mods:titleInfo xml:lang="en" type="uniform">
-      <mods:title>Letters to his Friends</mods:title>
-    </mods:titleInfo>
-    <mods:titleInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:title>Epistulae ad Familiares</mods:title>
-    </mods:titleInfo>
-    <mods:identifier type="phi">474.56</mods:identifier>
-    <mods:identifier type="stoa author-text">stoa0087-stoa026</mods:identifier>
-    <mods:identifier type="ctsurn">urn:cts:latinLit:phi0474.phi056.opp-lat10</mods:identifier>
-    <mods:tableOfContents xmlns="http://www.loc.gov/mods/v3"> Fam. IV. 5 (pg. 19-25) --Fam. XIII. 15 (pg. 49-50) -- Fam. V. 13 (pg.
+            IX. 13 (pg. 554-555) --Fam. XIII. 16 (pg. 556-558) </tableOfContents>
+      <location displayLabel="Open Content Alliance">
+         <url>https://archive.org/stream/correspondenceof04ciceuoft#page/4/mode/2up</url>
+      </location>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Letters to his Friends</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Epistulae ad Familiares</title>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-32166.html">
+         <namePart>Cicero, Marcus Tullius</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n85-821139.html">
+         <namePart>Tyrrell, Robert Yelverton</namePart>
+         <namePart type="date">1844-1914</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n87-812510.html">
+         <namePart>Purser, Louis Claude</namePart>
+         <namePart type="date">1854-1932</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents> Fam. IV. 5 (pg. 19-25) --Fam. XIII. 15 (pg. 49-50) -- Fam. V. 13 (pg.
             51-53) -- Fam. VI. 21 (pg. 53-55) -- Fam. IV. 6 (pg. 55-58) -- Fam. VI. 2 (pg. 58-59) --
             Fam. IX. 11 (pg. 60) --Fam. V. 14 (pg. 71-72) -- Fam. V. 15 (pg. 74-76) -- Fam. IV. 12
             (pg. 105-108)--Fam. VI. 11 (pg. 117-118) -- Fam. IX. 22 (pg. 134-8) --Fam. XIII. 77 (pg.
@@ -628,152 +322,51 @@
             318-320) --Fam. XI. 2 (pg. 326-327) -- Fam. VII. 21-Fam. VII. 22 (pg. 358-361) -- Fam.
             XI. 29 (pg. 361-362) -- Fam. VII. 20 (pg. 388-390) --Fam. VII. 19 (pg. 392-393) --Fam.
             XI. 3 (pg. 398-400) --Fam. XI. 27 (pg. 407-412) --Fam. XVI. 21 (pg. 416-420) --
-        </mods:tableOfContents>
-    <mods:location>
-      <mods:url displayLabel="Open Content Alliance">https://archive.org/stream/correspondenceof05ciceuoft#page/18/mode/2up</mods:url>
-    </mods:location>
-    <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
-      <mods:titleInfo>
-        <mods:nonSort>The</mods:nonSort>
-        <mods:title>correspondence of M. Tullius Cicero</mods:title>
-        <mods:partNumber>Vol V</mods:partNumber>
-      </mods:titleInfo>
-      <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n79-32166.html">
-        <mods:namePart>Cicero, Marcus Tullius.</mods:namePart>
-        <mods:role>
-          <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-        </mods:role>
-      </mods:name>
-      <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n85-821139.html">
-        <mods:namePart>Tyrrell, Robert Yelverton</mods:namePart>
-        <mods:namePart type="date">1844-1914</mods:namePart>
-        <mods:role>
-          <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-        </mods:role>
-      </mods:name>
-      <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n87-812510.html">
-        <mods:namePart>Purser, Louis Claude</mods:namePart>
-        <mods:namePart type="date">1854-1932</mods:namePart>
-        <mods:role>
-          <mods:roleTerm authority="marcrelator" type="text">joint editor</mods:roleTerm>
-        </mods:role>
-      </mods:name>
-      <mods:typeOfResource>text</mods:typeOfResource>
-      <mods:originInfo>
-        <mods:place>
-          <mods:placeTerm type="code" authority="marccountry">ie</mods:placeTerm>
-        </mods:place>
-        <mods:place>
-          <mods:placeTerm type="text">Dublin</mods:placeTerm>
-        </mods:place>
-        <mods:place>
-          <mods:placeTerm type="text">London</mods:placeTerm>
-        </mods:place>
-        <mods:publisher>Hodges &amp; Figgis</mods:publisher>
-        <mods:publisher>Longmans</mods:publisher>
-        <mods:dateIssued>1915</mods:dateIssued>
-        <mods:edition>2nd</mods:edition>
-        <mods:issuance>monographic</mods:issuance>
-      </mods:originInfo>
-      <mods:language objectPart="text">
-        <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
-      </mods:language>
-      <mods:language objectPart="notes">
-        <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
-      </mods:language>
-      <mods:language objectPart="introduction">
-        <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
-      </mods:language>
-      <mods:physicalDescription>
-        <mods:form authority="marcform">print</mods:form>
-        <mods:extent>1 vol.</mods:extent>
-        <mods:digitalOrigin>digitized other analog</mods:digitalOrigin>
-      </mods:physicalDescription>
-      <mods:note type="statement of responsibility">By Robert Yelverton Tyrrell..and Louis Claude Purser</mods:note>
-      <mods:note>Vols. 4-6 have series title at head of t.-p. Vol. 3 has title slightly different</mods:note>
-      <mods:note>Vol. 1: 3rd edition.</mods:note>
-      <mods:note>Vol. 7: Index.</mods:note>
-      <mods:subject>
-        <mods:geographicCode authority="marcgac">e------</mods:geographicCode>
-        <mods:geographicCode authority="marcgac">ff-----</mods:geographicCode>
-        <mods:geographicCode authority="marcgac">aw-----</mods:geographicCode>
-      </mods:subject>
-      <mods:subject authority="lcsh">
-        <mods:name authority="" type="personal">
-          <mods:namePart>Cicero, Marcus Tullius</mods:namePart>
-        </mods:name>
-        <mods:topic>Correspondence</mods:topic>
-      </mods:subject>
-      <mods:subject authority="lcsh">
-        <mods:topic>Statesmen</mods:topic>
-        <mods:geographic>Rome</mods:geographic>
-        <mods:topic>Correspondence</mods:topic>
-      </mods:subject>
-      <mods:subject authority="lcsh">
-        <mods:topic>Authors, Latin</mods:topic>
-        <mods:topic>Correspondence</mods:topic>
-      </mods:subject>
-      <mods:classification authority="lcc">PA6297</mods:classification>
-      <mods:identifier type="oclc">6525638</mods:identifier>
-      <mods:location>
-        <mods:url displayLabel="WorldCat">http://worldcat.org/oclc/6525638 </mods:url>
-      </mods:location>
-      <mods:location>
-        <mods:url displayLabel="Open Content Alliance">http://www.archive.org/details/correspondenceof05ciceuoft</mods:url>
-      </mods:location>
-      <mods:location>
-        <mods:url displayLabel="GoogleBooks" note="First Edition-1897">http://books.google.com/books?id=BrQNAAAAYAAJ</mods:url>
-      </mods:location>
-      <mods:recordInfo>
-        <mods:recordContentSource authority="marcorg">OCoLC</mods:recordContentSource>
-        <mods:recordCreationDate encoding="marc"/>
-        <mods:recordChangeDate encoding="iso8601"/>
-        <mods:recordIdentifier/>
-      </mods:recordInfo>
-    </mods:relatedItem>
-    <mods:language xmlns="http://www.loc.gov/mods/v3">
-      <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
-    </mods:language>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n79-32166.html">
-      <mods:namePart>Cicero, Marcus Tullius.</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n85-821139.html">
-      <mods:namePart>Tyrrell, Robert Yelverton</mods:namePart>
-      <mods:namePart type="date">1844-1914</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n87-812510.html">
-      <mods:namePart>Purser, Louis Claude</mods:namePart>
-      <mods:namePart type="date">1854-1932</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">joint editor</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-  </mods:mods>
-  <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atom="http://www.w3.org/2005/Atom" ID="mods6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-    <mods:titleInfo xml:lang="en" type="uniform">
-      <mods:title>Letters to his Friends</mods:title>
-    </mods:titleInfo>
-    <mods:part>
-      <mods:extent unit="words">
-        <mods:total>116442</mods:total>
-      </mods:extent>
-    </mods:part>
-    <mods:titleInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:title>Epistulae ad Familiares</mods:title>
-    </mods:titleInfo>
-    <mods:titleInfo xmlns="http://www.loc.gov/mods/v3" type="translated" lang="eng">
-      <mods:title>Letters to Friends</mods:title>
-    </mods:titleInfo>
-    <mods:identifier type="phi">474.56</mods:identifier>
-    <mods:identifier type="stoa author-text">stoa0087-stoa026</mods:identifier>
-    <mods:identifier type="ctsurn">urn:cts:latinLit:phi0474.phi056.opp-lat10</mods:identifier>
-    <mods:tableOfContents xmlns="http://www.loc.gov/mods/v3">Fam. X. 1 - Fam. X. 3 (pg. 5-11) --Fam. XII. 2 -Fam. XII. 3 (pg. 11-16) --
+        </tableOfContents>
+      <location displayLabel="Open Content Alliance">
+         <url>https://archive.org/stream/correspondenceof05ciceuoft#page/18/mode/2up</url>
+      </location>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Letters to his Friends</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Epistulae ad Familiares</title>
+      </titleInfo>
+      <titleInfo type="translated" lang="eng">
+         <title>Letters to Friends</title>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-32166.html">
+         <namePart>Cicero, Marcus Tullius</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n85-821139.html">
+         <namePart>Tyrrell, Robert Yelverton</namePart>
+         <namePart type="date">1844-1914</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n87-812510.html">
+         <namePart>Purser, Louis Claude</namePart>
+         <namePart type="date">1854-1932</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Fam. X. 1 - Fam. X. 3 (pg. 5-11) --Fam. XII. 2 -Fam. XII. 3 (pg. 11-16) --
             Fam. XII. 23 (pg. 17-19) -- Fam. XII. 25 (pg. 19-20) -- Fam. XI. 4 (pg. 25-6) --Fam.
             XVI. 24 (pg. 42-43) -- Fam. X. 4 (pg. 49-51) -- Fam. XI. 5 (pg. 51-53) -- Fam. X. 5 (pg.
             53-55) -- Fam. XI. 7 (pg. 55-56) --Fam. XI. 6, 1-3 (pg. 57-8) -- Fam. XII. 22, 1-2 (pg.
@@ -805,127 +398,6 @@
             326) -- Fam. XIII. 44- Fam. XIII. 46 (pg. 327-328) --Fam. XIII. 51 (pg. 329) --Fam. XVI.
             13-Fam. XVI. 15 (pg. 329-332) --Fam. XVI. 10 (pg. 332-333) -- Fam. XVI. 16 (pg.
             333-334)-- Fam. XIII. 47- Fam. XIII. 48 (pg. 334-336) -- Fam. XII. 20 (pg. 336) --Fam.
-            XIII. 52 (pg. 337) </mods:tableOfContents>
-    <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
-      <mods:titleInfo>
-        <mods:nonSort>The </mods:nonSort>
-        <mods:title>correspondence of M. Tullius Cicero</mods:title>
-        <mods:partNumber>Vol VI</mods:partNumber>
-      </mods:titleInfo>
-      <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n79-32166.html">
-        <mods:namePart>Cicero, Marcus Tullius.</mods:namePart>
-        <mods:role>
-          <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-        </mods:role>
-      </mods:name>
-      <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n85-821139.html">
-        <mods:namePart>Tyrrell, Robert Yelverton</mods:namePart>
-        <mods:namePart type="date">1844-1914</mods:namePart>
-        <mods:role>
-          <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-        </mods:role>
-      </mods:name>
-      <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n87-812510.html">
-        <mods:namePart>Purser, Louis Claude</mods:namePart>
-        <mods:namePart type="date">1854-1932</mods:namePart>
-        <mods:role>
-          <mods:roleTerm authority="marcrelator" type="text">joint editor</mods:roleTerm>
-        </mods:role>
-      </mods:name>
-      <mods:typeOfResource>text</mods:typeOfResource>
-      <mods:originInfo>
-        <mods:place>
-          <mods:placeTerm type="code" authority="marccountry">ie</mods:placeTerm>
-        </mods:place>
-        <mods:place>
-          <mods:placeTerm type="text">Dublin</mods:placeTerm>
-        </mods:place>
-        <mods:place>
-          <mods:placeTerm type="text">London</mods:placeTerm>
-        </mods:place>
-        <mods:publisher>Hodges &amp; Figgis</mods:publisher>
-        <mods:publisher>Longmans</mods:publisher>
-        <mods:dateIssued>1933</mods:dateIssued>
-        <mods:edition>2nd</mods:edition>
-        <mods:issuance>monographic</mods:issuance>
-      </mods:originInfo>
-      <mods:language objectPart="text">
-        <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
-      </mods:language>
-      <mods:language objectPart="introduction">
-        <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
-      </mods:language>
-      <mods:language objectPart="notes">
-        <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
-      </mods:language>
-      <mods:physicalDescription>
-        <mods:form authority="marcform">print</mods:form>
-        <mods:extent>sixth of seven volumes, 23 cm.</mods:extent>
-      </mods:physicalDescription>
-      <mods:note type="statement of responsibility">By Robert Yelverton Tyrrell..and Louis Claude Purser</mods:note>
-      <mods:note>Vols. 4-6 have series title at head of t.-p. Vol. 3 has title slightly different</mods:note>
-      <mods:note>Vol. 1: 3rd edition.</mods:note>
-      <mods:note>Vol. 7: Index.</mods:note>
-      <mods:subject>
-        <mods:geographicCode authority="marcgac">e------</mods:geographicCode>
-        <mods:geographicCode authority="marcgac">ff-----</mods:geographicCode>
-        <mods:geographicCode authority="marcgac">aw-----</mods:geographicCode>
-      </mods:subject>
-      <mods:subject authority="lcsh">
-        <mods:name authority="" type="personal">
-          <mods:namePart>Cicero, Marcus Tullius</mods:namePart>
-        </mods:name>
-        <mods:topic>Correspondence</mods:topic>
-      </mods:subject>
-      <mods:subject authority="lcsh">
-        <mods:topic>Statesmen</mods:topic>
-        <mods:geographic>Rome</mods:geographic>
-        <mods:topic>Correspondence</mods:topic>
-      </mods:subject>
-      <mods:subject authority="lcsh">
-        <mods:topic>Authors, Latin</mods:topic>
-        <mods:topic>Correspondence</mods:topic>
-      </mods:subject>
-      <mods:classification authority="lcc">PA6297</mods:classification>
-      <mods:identifier type="oclc">6525638</mods:identifier>
-      <mods:location>
-        <mods:url displayLabel="WorldCat">http://worldcat.org/oclc/6525638 </mods:url>
-      </mods:location>
-      <mods:location>
-        <mods:url displayLabel="GoogleBooks" note="First Edition-1899">http://books.google.com/books?id=Ys0NAAAAIAAJ</mods:url>
-      </mods:location>
-      <mods:location>
-        <mods:url displayLabel="GoogleBooks" note="First Edition-1899">http://www.archive.org/details/correspondence06ciceuoft</mods:url>
-      </mods:location>
-      <mods:recordInfo>
-        <mods:recordContentSource authority="marcorg">OCoLC</mods:recordContentSource>
-        <mods:recordCreationDate encoding="marc"/>
-        <mods:recordChangeDate encoding="iso8601"/>
-        <mods:recordIdentifier/>
-      </mods:recordInfo>
-    </mods:relatedItem>
-    <mods:language xmlns="http://www.loc.gov/mods/v3">
-      <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
-    </mods:language>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n79-32166.html">
-      <mods:namePart>Cicero, Marcus Tullius.</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n85-821139.html">
-      <mods:namePart>Tyrrell, Robert Yelverton</mods:namePart>
-      <mods:namePart type="date">1844-1914</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n87-812510.html">
-      <mods:namePart>Purser, Louis Claude</mods:namePart>
-      <mods:namePart type="date">1854-1932</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">joint editor</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-  </mods:mods>
-</modsCollection>
+            XIII. 52 (pg. 337) </tableOfContents>
+   </relatedItem>
+</mods>
