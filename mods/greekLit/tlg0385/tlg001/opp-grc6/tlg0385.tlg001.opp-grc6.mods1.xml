@@ -1,836 +1,625 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<modsCollection xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
-  <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atom="http://www.w3.org/2005/Atom" ID="mods1" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-    <mods:titleInfo xml:lang="en" type="uniform">
-      <mods:title>Historia Romana</mods:title>
-    </mods:titleInfo>
-    <mods:titleInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:title>Dio's Roman history</mods:title>
-      <mods:partNumber>Vol I</mods:partNumber>
-    </mods:titleInfo>
-    <mods:identifier type="tlg">0385.001</mods:identifier>
-    <mods:identifier type="lccn">14004947</mods:identifier>
-    <mods:identifier type="oclc">3370548</mods:identifier>
-    <mods:identifier type="oca">diosromanhistory01cassuoft</mods:identifier>
-    <mods:identifier type="ctsurn">urn:cts:greekLit:tlg0385.tlg001.opp-grc6</mods:identifier>
-    <mods:typeOfResource xmlns="http://www.loc.gov/mods/v3">text</mods:typeOfResource>
-    <mods:originInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:place>
-        <mods:placeTerm type="code" authority="marccountry">enk</mods:placeTerm>
-      </mods:place>
-      <mods:place>
-        <mods:placeTerm type="text">London</mods:placeTerm>
-      </mods:place>
-      <mods:place>
-        <mods:placeTerm type="text">New York</mods:placeTerm>
-      </mods:place>
-      <mods:publisher>W. Heinemann</mods:publisher>
-      <mods:publisher>The Macmillan co.</mods:publisher>
-      <mods:dateIssued>1914</mods:dateIssued>
-      <mods:issuance>monographic</mods:issuance>
-    </mods:originInfo>
-    <mods:physicalDescription xmlns="http://www.loc.gov/mods/v3">
-      <mods:form authority="marcform">print</mods:form>
-      <mods:extent>xxviii, 449 pg.</mods:extent>
-      <digitalOrigin>digitized other analog</digitalOrigin>
-    </mods:physicalDescription>
-    <mods:tableOfContents>Fragments Book I-Fragments Book XI</mods:tableOfContents>
-    <mods:note xmlns="http://www.loc.gov/mods/v3" type="statement of responsibility">with an English translation by Earnest Cary, PH. D., on
-            the basis of the version of Herbert Baldwin Foster, PH. D. In nine volumes.</mods:note>
-    <mods:note xmlns="http://www.loc.gov/mods/v3">Bibliography: v. 1, p. xxviii.</mods:note>
-    <mods:note xmlns="http://www.loc.gov/mods/v3">Greek and English on opposite pages.</mods:note>
-    <mods:classification xmlns="http://www.loc.gov/mods/v3" authority="lcc">PA3612 .C3 1914</mods:classification>
-    <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="series">
-      <mods:titleInfo>
-        <mods:title>The Loeb classical library</mods:title>
-      </mods:titleInfo>
-    </mods:relatedItem>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="LC Permalink">http://lccn.loc.gov/14004947</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="WorldCat">http://worldcat.org/oclc/3370548</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="Open Content Alliance">
-                http://www.archive.org/details/diosromanhistory01cassuoft</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="Open Library">http://www.openlibrary.org/details/diosromanhistory01cassuoft</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=0FaIMECEZgoC</mods:url>
-    </mods:location>
-    <mods:location>
-      <mods:url displayLabel="HathiTrust">http://hdl.handle.net/2027/umn.319510016685928</mods:url>
-    </mods:location>
-    <mods:recordInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:recordContentSource authority="marcorg">DLC</mods:recordContentSource>
-      <mods:recordCreationDate encoding="marc">820428</mods:recordCreationDate>
-      <mods:recordChangeDate encoding="iso8601">20020729102159.0</mods:recordChangeDate>
-      <mods:recordIdentifier>8236326</mods:recordIdentifier>
-    </mods:recordInfo>
-    <mods:language xmlns="http://www.loc.gov/mods/v3">
-      <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
-    </mods:language>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n79-84710.html">
-      <mods:namePart>Cassius Dio Cocceianus.</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n86-864629.html">
-      <mods:namePart>Foster, Herbert Baldwin</mods:namePart>
-      <mods:namePart type="date">1874-1906</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">original translator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n86-864627.html">
-      <mods:namePart>Cary, Earnest</mods:namePart>
-      <mods:namePart type="date">1879-</mods:namePart>
-      <mods:role xmlns="http://www.loc.gov/mods/v3">
-        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-  </mods:mods>
-  <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atom="http://www.w3.org/2005/Atom" ID="mods2" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-    <mods:titleInfo xml:lang="en" type="uniform">
-      <mods:title>Historia Romana</mods:title>
-    </mods:titleInfo>
-    <mods:titleInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:title>Dio's Roman history</mods:title>
-      <mods:partNumber>Vol II</mods:partNumber>
-    </mods:titleInfo>
-    <mods:identifier type="tlg">0385.001</mods:identifier>
-    <mods:identifier type="lccn">14004947</mods:identifier>
-    <mods:identifier type="oclc">3370548 </mods:identifier>
-    <mods:identifier type="oca">diosromanhistory02cassuoft</mods:identifier>
-    <mods:identifier type="ctsurn">urn:cts:greekLit:tlg0385.tlg001.opp-grc6</mods:identifier>
-    <mods:typeOfResource xmlns="http://www.loc.gov/mods/v3">text</mods:typeOfResource>
-    <mods:originInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:place>
-        <mods:placeTerm type="code" authority="marccountry">enk</mods:placeTerm>
-      </mods:place>
-      <mods:place>
-        <mods:placeTerm type="text">London</mods:placeTerm>
-      </mods:place>
-      <mods:place>
-        <mods:placeTerm type="text">New York</mods:placeTerm>
-      </mods:place>
-      <mods:publisher>W. Heinemann</mods:publisher>
-      <mods:publisher>The Macmillan co.</mods:publisher>
-      <mods:dateIssued>1914</mods:dateIssued>
-      <mods:issuance>monographic</mods:issuance>
-    </mods:originInfo>
-    <mods:physicalDescription xmlns="http://www.loc.gov/mods/v3">
-      <mods:form authority="marcform">print</mods:form>
-      <mods:extent>519 pg</mods:extent>
-      <digitalOrigin>digitized other analog</digitalOrigin>
-    </mods:physicalDescription>
-    <mods:tableOfContents>Fragments Book XII-Fragments Book XXXV, Fragments of Uncertain
-            Reference</mods:tableOfContents>
-    <mods:note xmlns="http://www.loc.gov/mods/v3" type="statement of responsibility">with an English translation by Earnest Cary, PH. D., on
-            the basis of the version of Herbert Baldwin Foster, PH. D. In nine volumes.</mods:note>
-    <mods:note xmlns="http://www.loc.gov/mods/v3">Vols. 4-9 have imprint: London, W. Heinemann; New York, G. P. Putnam's sons.</mods:note>
-    <mods:classification xmlns="http://www.loc.gov/mods/v3" authority="lcc">PA3612 .C3 1914</mods:classification>
-    <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="series">
-      <mods:titleInfo>
-        <mods:title>The Loeb classical library</mods:title>
-      </mods:titleInfo>
-    </mods:relatedItem>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="LC Permalink">http://lccn.loc.gov/14004947</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="WorldCat">http://worldcat.org/oclc/3370548</mods:url>
-    </mods:location>
-    <mods:location>
-      <mods:url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015008506415</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="Open Content Alliance">
-                http://www.archive.org/details/diosromanhistory02cassuoft</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="Open Library">http://www.openlibrary.org/details/diosromanhistory02cassuoft</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=B1FiAAAAMAAJ</mods:url>
-    </mods:location>
-    <mods:recordInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:recordContentSource authority="marcorg">DLC</mods:recordContentSource>
-      <mods:recordCreationDate encoding="marc">820428</mods:recordCreationDate>
-      <mods:recordChangeDate encoding="iso8601">20020729102159.0</mods:recordChangeDate>
-      <mods:recordIdentifier>8236326</mods:recordIdentifier>
-    </mods:recordInfo>
-    <mods:language xmlns="http://www.loc.gov/mods/v3">
-      <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
-    </mods:language>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n79-84710.html">
-      <mods:namePart>Cassius Dio Cocceianus.</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n86-864629.html">
-      <mods:namePart>Foster, Herbert Baldwin</mods:namePart>
-      <mods:namePart type="date">1874-1906</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">original translator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n86-864627.html">
-      <mods:namePart>Cary, Earnest</mods:namePart>
-      <mods:namePart type="date">1879-</mods:namePart>
-      <mods:role xmlns="http://www.loc.gov/mods/v3">
-        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-  </mods:mods>
-  <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atom="http://www.w3.org/2005/Atom" ID="mods3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-    <mods:titleInfo xml:lang="en" type="uniform">
-      <mods:title>Historia Romana</mods:title>
-    </mods:titleInfo>
-    <mods:titleInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:title>Dio's Roman history</mods:title>
-      <mods:partNumber>Vol III</mods:partNumber>
-    </mods:titleInfo>
-    <mods:identifier type="tlg">0385.001</mods:identifier>
-    <mods:identifier type="lccn">14004947</mods:identifier>
-    <mods:identifier type="oclc">3370548 </mods:identifier>
-    <mods:identifier type="oca">diosromanhistory03cassuoft</mods:identifier>
-    <mods:identifier type="ctsurn">urn:cts:greekLit:tlg0385.tlg001.opp-grc6</mods:identifier>
-    <mods:typeOfResource xmlns="http://www.loc.gov/mods/v3">text</mods:typeOfResource>
-    <mods:originInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:place>
-        <mods:placeTerm type="code" authority="marccountry">enk</mods:placeTerm>
-      </mods:place>
-      <mods:place>
-        <mods:placeTerm type="text">London</mods:placeTerm>
-      </mods:place>
-      <mods:place>
-        <mods:placeTerm type="text">New York</mods:placeTerm>
-      </mods:place>
-      <mods:publisher>W. Heinemann</mods:publisher>
-      <mods:publisher>The Macmillan co.</mods:publisher>
-      <mods:dateIssued>1914</mods:dateIssued>
-      <mods:issuance>monographic</mods:issuance>
-    </mods:originInfo>
-    <mods:physicalDescription xmlns="http://www.loc.gov/mods/v3">
-      <mods:form authority="marcform">print</mods:form>
-      <mods:extent>519 pg.</mods:extent>
-      <digitalOrigin>digitized other analog</digitalOrigin>
-    </mods:physicalDescription>
-    <mods:tableOfContents>Book XXXVI-Book XL</mods:tableOfContents>
-    <mods:note xmlns="http://www.loc.gov/mods/v3" type="statement of responsibility">with an English translation by Earnest Cary, PH. D., on
-            the basis of the version of Herbert Baldwin Foster, PH. D. In nine volumes.</mods:note>
-    <mods:note xmlns="http://www.loc.gov/mods/v3">Vols. 4-9 have imprint: London, W. Heinemann; New York, G. P. Putnam's sons.</mods:note>
-    <mods:note xmlns="http://www.loc.gov/mods/v3">Greek and English on opposite pages.</mods:note>
-    <mods:classification xmlns="http://www.loc.gov/mods/v3" authority="lcc">PA3612 .C3 1914</mods:classification>
-    <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="series">
-      <mods:titleInfo>
-        <mods:title>The Loeb classical library</mods:title>
-      </mods:titleInfo>
-    </mods:relatedItem>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="LC Permalink">http://lccn.loc.gov/14004947</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="WorldCat">http://worldcat.org/oclc/3370548</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="Open Content Alliance">
-                http://www.archive.org/details/diosromanhistory03cassuoft</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="Open Library">http://www.openlibrary.org/details/diosromanhistory03cassuoft</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=3EhhOznnQG0C</mods:url>
-    </mods:location>
-    <mods:location>
-      <mods:url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015004154368</mods:url>
-    </mods:location>
-    <mods:recordInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:recordContentSource authority="marcorg">DLC</mods:recordContentSource>
-      <mods:recordCreationDate encoding="marc">820428</mods:recordCreationDate>
-      <mods:recordChangeDate encoding="iso8601">20020729102159.0</mods:recordChangeDate>
-      <mods:recordIdentifier>8236326</mods:recordIdentifier>
-    </mods:recordInfo>
-    <mods:language xmlns="http://www.loc.gov/mods/v3">
-      <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
-    </mods:language>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n79-84710.html">
-      <mods:namePart>Cassius Dio Cocceianus.</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n86-864629.html">
-      <mods:namePart>Foster, Herbert Baldwin</mods:namePart>
-      <mods:namePart type="date">1874-1906</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">original translator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n86-864627.html">
-      <mods:namePart>Cary, Earnest</mods:namePart>
-      <mods:namePart type="date">1879-</mods:namePart>
-      <mods:role xmlns="http://www.loc.gov/mods/v3">
-        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-  </mods:mods>
-  <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atom="http://www.w3.org/2005/Atom" ID="mods4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-    <mods:titleInfo xml:lang="en" type="uniform">
-      <mods:title>Historia Romana</mods:title>
-    </mods:titleInfo>
-    <mods:titleInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:title>Dio's Roman history</mods:title>
-      <mods:partNumber>Vol IV</mods:partNumber>
-    </mods:titleInfo>
-    <mods:identifier type="tlg">0385.001</mods:identifier>
-    <mods:identifier type="lccn">14004947</mods:identifier>
-    <mods:identifier type="oclc">3370548 </mods:identifier>
-    <mods:identifier type="oca">diosromanhistory04cassuoft</mods:identifier>
-    <mods:identifier type="ctsurn">urn:cts:greekLit:tlg0385.tlg001.opp-grc6</mods:identifier>
-    <mods:typeOfResource xmlns="http://www.loc.gov/mods/v3">text</mods:typeOfResource>
-    <mods:originInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:place>
-        <mods:placeTerm type="code" authority="marccountry">enk</mods:placeTerm>
-      </mods:place>
-      <mods:place>
-        <mods:placeTerm type="text">London</mods:placeTerm>
-      </mods:place>
-      <mods:place>
-        <mods:placeTerm type="text">New York</mods:placeTerm>
-      </mods:place>
-      <mods:publisher>W. Heinemann</mods:publisher>
-      <mods:publisher>G. P. Putnam's Sons</mods:publisher>
-      <mods:dateIssued>1916</mods:dateIssued>
-      <mods:issuance>monographic</mods:issuance>
-    </mods:originInfo>
-    <mods:physicalDescription xmlns="http://www.loc.gov/mods/v3">
-      <mods:form authority="marcform">print</mods:form>
-      <mods:extent>502 pg.</mods:extent>
-      <digitalOrigin>digitized other analog</digitalOrigin>
-    </mods:physicalDescription>
-    <mods:tableOfContents>Book XLI-Book XLV</mods:tableOfContents>
-    <mods:note xmlns="http://www.loc.gov/mods/v3" type="statement of responsibility">with an English translation by Earnest Cary, PH. D., on
-            the basis of the version of Herbert Baldwin Foster, PH. D. In nine volumes.</mods:note>
-    <mods:note xmlns="http://www.loc.gov/mods/v3">Vols. 4-9 have imprint: London, W. Heinemann; New York, G. P. Putnam's sons.</mods:note>
-    <mods:classification xmlns="http://www.loc.gov/mods/v3" authority="lcc">PA3612 .C3 1914</mods:classification>
-    <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="series">
-      <mods:titleInfo>
-        <mods:title>The Loeb classical library.</mods:title>
-      </mods:titleInfo>
-    </mods:relatedItem>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="LC Permalink">http://lccn.loc.gov/14004947</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="WorldCat">http://worldcat.org/oclc/3370548</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="Open Content Alliance">
-                http://www.archive.org/details/diosromanhistory04cassuoft</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="Open Library">http://www.openlibrary.org/details/diosromanhistory04cassuoft</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=M8liAAAAMAAJ</mods:url>
-    </mods:location>
-    <mods:location>
-      <mods:url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015004154376</mods:url>
-    </mods:location>
-    <mods:recordInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:recordContentSource authority="marcorg">DLC</mods:recordContentSource>
-      <mods:recordCreationDate encoding="marc">820428</mods:recordCreationDate>
-      <mods:recordChangeDate encoding="iso8601">20020729102159.0</mods:recordChangeDate>
-      <mods:recordIdentifier>8236326</mods:recordIdentifier>
-    </mods:recordInfo>
-    <mods:language xmlns="http://www.loc.gov/mods/v3">
-      <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
-    </mods:language>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n79-84710.html">
-      <mods:namePart>Cassius Dio Cocceianus.</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n86-864629.html">
-      <mods:namePart>Foster, Herbert Baldwin</mods:namePart>
-      <mods:namePart type="date">1874-1906</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">original translator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n86-864627.html">
-      <mods:namePart>Cary, Earnest</mods:namePart>
-      <mods:namePart type="date">1879-</mods:namePart>
-      <mods:role xmlns="http://www.loc.gov/mods/v3">
-        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-  </mods:mods>
-  <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atom="http://www.w3.org/2005/Atom" ID="mods5" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-    <mods:titleInfo xml:lang="en" type="uniform">
-      <mods:title>Historia Romana</mods:title>
-    </mods:titleInfo>
-    <mods:titleInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:title>Dio's Roman history</mods:title>
-      <mods:partNumber>Vol V</mods:partNumber>
-    </mods:titleInfo>
-    <mods:identifier type="tlg">0385.001</mods:identifier>
-    <mods:identifier type="lccn">14004947</mods:identifier>
-    <mods:identifier type="oclc">3370548 </mods:identifier>
-    <mods:identifier type="oca">diosromanhistory05cassuoft</mods:identifier>
-    <mods:identifier type="ctsurn">urn:cts:greekLit:tlg0385.tlg001.opp-grc6</mods:identifier>
-    <mods:typeOfResource xmlns="http://www.loc.gov/mods/v3">text</mods:typeOfResource>
-    <mods:originInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:place>
-        <mods:placeTerm type="code" authority="marccountry">enk</mods:placeTerm>
-      </mods:place>
-      <mods:place>
-        <mods:placeTerm type="text">London</mods:placeTerm>
-      </mods:place>
-      <mods:place>
-        <mods:placeTerm type="text">Cambridge</mods:placeTerm>
-      </mods:place>
-      <mods:publisher>W. Heinemann</mods:publisher>
-      <mods:publisher>Harvard University Press</mods:publisher>
-      <mods:dateModified>1955</mods:dateModified>
-      <mods:edition>Reprint</mods:edition>
-      <mods:dateIssued>1917</mods:dateIssued>
-      <mods:issuance>monographic</mods:issuance>
-    </mods:originInfo>
-    <mods:physicalDescription xmlns="http://www.loc.gov/mods/v3">
-      <mods:form authority="marcform">print</mods:form>
-      <mods:extent>526 pg.</mods:extent>
-      <digitalOrigin>digitized other analog</digitalOrigin>
-    </mods:physicalDescription>
-    <mods:tableOfContents>Book XLVI-L</mods:tableOfContents>
-    <mods:note xmlns="http://www.loc.gov/mods/v3" type="statement of responsibility">with an English translation by Earnest Cary, PH. D., on
-            the basis of the version of Herbert Baldwin Foster, PH. D. In nine volumes.</mods:note>
-    <mods:note xmlns="http://www.loc.gov/mods/v3">Vols. 4-9 have imprint: London, W. Heinemann; New York, G. P. Putnam's sons.</mods:note>
-    <mods:classification xmlns="http://www.loc.gov/mods/v3" authority="lcc">PA3612 .C3 1914</mods:classification>
-    <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="series">
-      <mods:titleInfo>
-        <mods:title>The Loeb classical library</mods:title>
-      </mods:titleInfo>
-    </mods:relatedItem>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="LC Permalink">http://lccn.loc.gov/14004947</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="WorldCat">http://worldcat.org/oclc/3370548</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="Open Content Alliance">
-                http://www.archive.org/details/diosromanhistory05cassuoft</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="Open Library">http://www.openlibrary.org/details/diosromanhistory05cassuoft</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="GoogleBooks"/>
-    </mods:location>
-    <mods:recordInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:recordContentSource authority="marcorg">DLC</mods:recordContentSource>
-      <mods:recordCreationDate encoding="marc">820428</mods:recordCreationDate>
-      <mods:recordChangeDate encoding="iso8601">20020729102159.0</mods:recordChangeDate>
-      <mods:recordIdentifier>8236326</mods:recordIdentifier>
-    </mods:recordInfo>
-    <mods:language xmlns="http://www.loc.gov/mods/v3">
-      <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
-    </mods:language>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n79-84710.html">
-      <mods:namePart>Cassius Dio Cocceianus.</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n86-864629.html">
-      <mods:namePart>Foster, Herbert Baldwin</mods:namePart>
-      <mods:namePart type="date">1874-1906</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">original translator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n86-864627.html">
-      <mods:namePart>Cary, Earnest</mods:namePart>
-      <mods:namePart type="date">1879-</mods:namePart>
-      <mods:role xmlns="http://www.loc.gov/mods/v3">
-        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-  </mods:mods>
-  <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atom="http://www.w3.org/2005/Atom" ID="mods6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-    <mods:titleInfo xml:lang="en" type="uniform">
-      <mods:title>Historia Romana</mods:title>
-    </mods:titleInfo>
-    <mods:titleInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:title>Dio's Roman history</mods:title>
-      <mods:partNumber>Vol VI</mods:partNumber>
-    </mods:titleInfo>
-    <mods:identifier type="tlg">0385.001</mods:identifier>
-    <mods:identifier type="lccn">14004947</mods:identifier>
-    <mods:identifier type="oclc">3370548 </mods:identifier>
-    <mods:identifier type="oca">diosromanhistory06cassuoft</mods:identifier>
-    <mods:identifier type="ctsurn">urn:cts:greekLit:tlg0385.tlg001.opp-grc6</mods:identifier>
-    <mods:typeOfResource xmlns="http://www.loc.gov/mods/v3">text</mods:typeOfResource>
-    <mods:originInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:place>
-        <mods:placeTerm type="code" authority="marccountry">enk</mods:placeTerm>
-      </mods:place>
-      <mods:place>
-        <mods:placeTerm type="text">London</mods:placeTerm>
-      </mods:place>
-      <mods:place>
-        <mods:placeTerm type="text">Cambridge</mods:placeTerm>
-      </mods:place>
-      <mods:publisher>W. Heinemann</mods:publisher>
-      <mods:publisher>Harvard University Press</mods:publisher>
-      <mods:dateModified>1955</mods:dateModified>
-      <mods:edition>Reprint</mods:edition>
-      <mods:dateIssued>1917</mods:dateIssued>
-      <mods:issuance>monographic</mods:issuance>
-    </mods:originInfo>
-    <mods:physicalDescription xmlns="http://www.loc.gov/mods/v3">
-      <mods:form authority="marcform">print</mods:form>
-      <mods:extent>492 pg.</mods:extent>
-      <digitalOrigin>digitized other analog</digitalOrigin>
-    </mods:physicalDescription>
-    <mods:tableOfContents>Book LI-LV</mods:tableOfContents>
-    <mods:note xmlns="http://www.loc.gov/mods/v3" type="statement of responsibility">with an English translation by Earnest Cary, PH. D., on
-            the basis of the version of Herbert Baldwin Foster, PH. D. In nine volumes.</mods:note>
-    <mods:note xmlns="http://www.loc.gov/mods/v3">Vols. 4-9 have imprint: London, W. Heinemann; New York, G. P. Putnam's sons.</mods:note>
-    <mods:classification xmlns="http://www.loc.gov/mods/v3" authority="lcc">PA3612 .C3 1914</mods:classification>
-    <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="series">
-      <mods:titleInfo>
-        <mods:title>The Loeb classical library</mods:title>
-      </mods:titleInfo>
-    </mods:relatedItem>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="LC Permalink">http://lccn.loc.gov/14004947</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="WorldCat">http://worldcat.org/oclc/3370548</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="Open Content Alliance">
-                http://www.archive.org/details/diosromanhistory06cassuoft</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="Open Library">http://www.openlibrary.org/details/diosromanhistory06cassuoft</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=4lFiAAAAMAAJ</mods:url>
-    </mods:location>
-    <mods:recordInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:recordContentSource authority="marcorg">DLC</mods:recordContentSource>
-      <mods:recordCreationDate encoding="marc">820428</mods:recordCreationDate>
-      <mods:recordChangeDate encoding="iso8601">20020729102159.0</mods:recordChangeDate>
-      <mods:recordIdentifier>8236326</mods:recordIdentifier>
-    </mods:recordInfo>
-    <mods:language xmlns="http://www.loc.gov/mods/v3">
-      <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
-    </mods:language>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n79-84710.html">
-      <mods:namePart>Cassius Dio Cocceianus.</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n86-864629.html">
-      <mods:namePart>Foster, Herbert Baldwin</mods:namePart>
-      <mods:namePart type="date">1874-1906</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">original translator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n86-864627.html">
-      <mods:namePart>Cary, Earnest</mods:namePart>
-      <mods:namePart type="date">1879-</mods:namePart>
-      <mods:role xmlns="http://www.loc.gov/mods/v3">
-        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-  </mods:mods>
-  <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atom="http://www.w3.org/2005/Atom" ID="mods7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-    <mods:titleInfo xml:lang="en" type="uniform">
-      <mods:title>Historia Romana</mods:title>
-    </mods:titleInfo>
-    <mods:titleInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:title>Dio's Roman history</mods:title>
-      <mods:partNumber>Vol VII</mods:partNumber>
-    </mods:titleInfo>
-    <mods:identifier type="tlg">0385.001</mods:identifier>
-    <mods:identifier type="lccn">14004947</mods:identifier>
-    <mods:identifier type="oclc">3370548 </mods:identifier>
-    <mods:identifier type="oca">diosromanhistory07cassuoft</mods:identifier>
-    <mods:identifier type="ctsurn">urn:cts:greekLit:tlg0385.tlg001.opp-grc6</mods:identifier>
-    <mods:typeOfResource xmlns="http://www.loc.gov/mods/v3">text</mods:typeOfResource>
-    <mods:originInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:place>
-        <mods:placeTerm type="code" authority="marccountry">enk</mods:placeTerm>
-      </mods:place>
-      <mods:place>
-        <mods:placeTerm type="text">London</mods:placeTerm>
-      </mods:place>
-      <mods:place>
-        <mods:placeTerm type="text">Cambridge</mods:placeTerm>
-      </mods:place>
-      <mods:publisher>W. Heinemann</mods:publisher>
-      <mods:publisher>Harvard University Press</mods:publisher>
-      <mods:dateModified>1955</mods:dateModified>
-      <mods:edition>Reprint</mods:edition>
-      <mods:dateIssued>1924</mods:dateIssued>
-      <mods:issuance>monographic</mods:issuance>
-    </mods:originInfo>
-    <mods:physicalDescription xmlns="http://www.loc.gov/mods/v3">
-      <mods:form authority="marcform">print</mods:form>
-      <mods:extent>449 pg.</mods:extent>
-    </mods:physicalDescription>
-    <mods:tableOfContents>Book LVI-Book LX, Fragments of Book LVI and Book LVIII</mods:tableOfContents>
-    <mods:note xmlns="http://www.loc.gov/mods/v3" type="statement of responsibility">with an English translation by Earnest Cary, PH. D., on
-            the basis of the version of Herbert Baldwin Foster, PH. D. In nine volumes.</mods:note>
-    <mods:note xmlns="http://www.loc.gov/mods/v3">Vols. 4-9 have imprint: London, W. Heinemann; New York, G. P. Putnam's sons.</mods:note>
-    <mods:classification xmlns="http://www.loc.gov/mods/v3" authority="lcc">PA3612 .C3 1914</mods:classification>
-    <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="series">
-      <mods:titleInfo>
-        <mods:title>The Loeb classical library</mods:title>
-      </mods:titleInfo>
-    </mods:relatedItem>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="LC Permalink">http://lccn.loc.gov/14004947</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="WorldCat">http://worldcat.org/oclc/3370548</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="Open Content Alliance">
-                http://www.archive.org/details/diosromanhistory07cassuoft</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="Open Library">http://www.openlibrary.org/details/diosromanhistory07cassuoft</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="GoogleBooks"/>
-    </mods:location>
-    <mods:recordInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:recordContentSource authority="marcorg">DLC</mods:recordContentSource>
-      <mods:recordCreationDate encoding="marc">820428</mods:recordCreationDate>
-      <mods:recordChangeDate encoding="iso8601">20020729102159.0</mods:recordChangeDate>
-      <mods:recordIdentifier>8236326</mods:recordIdentifier>
-    </mods:recordInfo>
-    <mods:language xmlns="http://www.loc.gov/mods/v3">
-      <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
-    </mods:language>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n79-84710.html">
-      <mods:namePart>Cassius Dio Cocceianus.</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n86-864629.html">
-      <mods:namePart>Foster, Herbert Baldwin</mods:namePart>
-      <mods:namePart type="date">1874-1906</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">original translator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n86-864627.html">
-      <mods:namePart>Cary, Earnest</mods:namePart>
-      <mods:namePart type="date">1879-</mods:namePart>
-      <mods:role xmlns="http://www.loc.gov/mods/v3">
-        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-  </mods:mods>
-  <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atom="http://www.w3.org/2005/Atom" ID="mods8" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-    <mods:titleInfo xml:lang="en" type="uniform">
-      <mods:title>Historia Romana</mods:title>
-    </mods:titleInfo>
-    <mods:titleInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:title>Dio's Roman history</mods:title>
-      <mods:partNumber>Vol VIII</mods:partNumber>
-    </mods:titleInfo>
-    <mods:identifier type="tlg">0385.001</mods:identifier>
-    <mods:identifier type="lccn">14004947</mods:identifier>
-    <mods:identifier type="oclc">3370548 </mods:identifier>
-    <mods:identifier type="oca">diosromanhistory08cassuoft</mods:identifier>
-    <mods:identifier type="ctsurn">urn:cts:greekLit:tlg0385.tlg001.opp-grc6</mods:identifier>
-    <mods:typeOfResource xmlns="http://www.loc.gov/mods/v3">text</mods:typeOfResource>
-    <mods:originInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:place>
-        <mods:placeTerm type="code" authority="marccountry">enk</mods:placeTerm>
-      </mods:place>
-      <mods:place>
-        <mods:placeTerm type="text">London</mods:placeTerm>
-      </mods:place>
-      <mods:place>
-        <mods:placeTerm type="text">New York</mods:placeTerm>
-      </mods:place>
-      <mods:publisher>W. Heinemann</mods:publisher>
-      <mods:publisher>G. P. Putnam's Sons.</mods:publisher>
-      <mods:dateIssued>1925</mods:dateIssued>
-      <mods:issuance>monographic</mods:issuance>
-    </mods:originInfo>
-    <mods:physicalDescription xmlns="http://www.loc.gov/mods/v3">
-      <mods:form authority="marcform">print</mods:form>
-      <mods:extent>482 pg.</mods:extent>
-      <digitalOrigin>digitized other analog</digitalOrigin>
-    </mods:physicalDescription>
-    <mods:tableOfContents>Epitomes of Book LXI-LXX</mods:tableOfContents>
-    <mods:note xmlns="http://www.loc.gov/mods/v3" type="statement of responsibility">with an English translation by Earnest Cary, PH. D., on
-            the basis of the version of Herbert Baldwin Foster, PH. D. In nine volumes.</mods:note>
-    <mods:note xmlns="http://www.loc.gov/mods/v3">Vols. 4-9 have imprint: London, W. Heinemann; New York, G. P. Putnam's sons.</mods:note>
-    <mods:note xmlns="http://www.loc.gov/mods/v3">Greek and English on opposite pages.</mods:note>
-    <mods:classification xmlns="http://www.loc.gov/mods/v3" authority="lcc">PA3612 .C3 1914</mods:classification>
-    <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="series">
-      <mods:titleInfo>
-        <mods:title>The Loeb classical library</mods:title>
-      </mods:titleInfo>
-    </mods:relatedItem>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="LC Permalink">http://lccn.loc.gov/14004947</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="WorldCat">http://worldcat.org/oclc/3370548</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="Open Content Alliance">
-                http://www.archive.org/details/diosromanhistory08cassuoft</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="Open Library">http://www.openlibrary.org/details/diosromanhistory08cassuoft</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="GoogleBooks"/>
-    </mods:location>
-    <mods:recordInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:recordContentSource authority="marcorg">DLC</mods:recordContentSource>
-      <mods:recordCreationDate encoding="marc">820428</mods:recordCreationDate>
-      <mods:recordChangeDate encoding="iso8601">20020729102159.0</mods:recordChangeDate>
-      <mods:recordIdentifier>8236326</mods:recordIdentifier>
-    </mods:recordInfo>
-    <mods:language xmlns="http://www.loc.gov/mods/v3">
-      <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
-    </mods:language>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n79-84710.html">
-      <mods:namePart>Cassius Dio Cocceianus.</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n86-864629.html">
-      <mods:namePart>Foster, Herbert Baldwin</mods:namePart>
-      <mods:namePart type="date">1874-1906</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">original translator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n86-864627.html">
-      <mods:namePart>Cary, Earnest</mods:namePart>
-      <mods:namePart type="date">1879-</mods:namePart>
-      <mods:role xmlns="http://www.loc.gov/mods/v3">
-        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-  </mods:mods>
-  <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atom="http://www.w3.org/2005/Atom" ID="mods9" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-    <mods:titleInfo xml:lang="en" type="uniform">
-      <mods:title>Historia Romana</mods:title>
-    </mods:titleInfo>
-    <mods:titleInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:title>Dio's Roman history</mods:title>
-      <mods:partNumber>Vol IX</mods:partNumber>
-    </mods:titleInfo>
-    <mods:identifier type="tlg">0385.001</mods:identifier>
-    <mods:identifier type="lccn">14004947</mods:identifier>
-    <mods:identifier type="oclc">3370548</mods:identifier>
-    <mods:identifier type="oca">diosromanhistory09cassuoft</mods:identifier>
-    <mods:identifier type="ctsurn">urn:cts:greekLit:tlg0385.tlg001.opp-grc6</mods:identifier>
-    <mods:typeOfResource xmlns="http://www.loc.gov/mods/v3">text</mods:typeOfResource>
-    <mods:originInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:place>
-        <mods:placeTerm type="code" authority="marccountry">enk</mods:placeTerm>
-      </mods:place>
-      <mods:place>
-        <mods:placeTerm type="text">London</mods:placeTerm>
-      </mods:place>
-      <mods:place>
-        <mods:placeTerm type="text">New York</mods:placeTerm>
-      </mods:place>
-      <mods:publisher>W. Heinemann</mods:publisher>
-      <mods:publisher>Harvard University Press</mods:publisher>
-      <mods:edition>Reprint</mods:edition>
-      <mods:dateModified>1955</mods:dateModified>
-      <mods:dateIssued>1927</mods:dateIssued>
-      <mods:issuance>monographic</mods:issuance>
-    </mods:originInfo>
-    <mods:physicalDescription xmlns="http://www.loc.gov/mods/v3">
-      <mods:form authority="marcform">print</mods:form>
-      <mods:extent>572 pg.</mods:extent>
-      <digitalOrigin>digitized other analog</digitalOrigin>
-    </mods:physicalDescription>
-    <mods:tableOfContents>Epitome of Book LXXI-LXXX</mods:tableOfContents>
-    <mods:note xmlns="http://www.loc.gov/mods/v3" type="statement of responsibility">with an English translation by Earnest Cary, PH. D., on
-            the basis of the version of Herbert Baldwin Foster, PH. D. In nine volumes.</mods:note>
-    <mods:note xmlns="http://www.loc.gov/mods/v3">Vols. 4-9 have imprint: London, W. Heinemann; New York, G. P. Putnam's sons.</mods:note>
-    <mods:classification xmlns="http://www.loc.gov/mods/v3" authority="lcc">PA3612 .C3 1914</mods:classification>
-    <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="series">
-      <mods:titleInfo>
-        <mods:title>The Loeb classical library</mods:title>
-      </mods:titleInfo>
-    </mods:relatedItem>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="LC Permalink">http://lccn.loc.gov/14004947</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="WorldCat">http://worldcat.org/oclc/3370548</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="Open Content Alliance">
-                http://www.archive.org/details/diosromanhistory09cassuoft</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="Open Library">http://www.openlibrary.org/details/diosromanhistory09cassuoft</mods:url>
-    </mods:location>
-    <mods:location>
-      <mods:url displayLabel="HathiTrust">http://hdl.handle.net/2027/inu.30000042681696</mods:url>
-    </mods:location>
-    <mods:recordInfo xmlns="http://www.loc.gov/mods/v3">
-      <mods:recordContentSource authority="marcorg">DLC</mods:recordContentSource>
-      <mods:recordCreationDate encoding="marc">820428</mods:recordCreationDate>
-      <mods:recordChangeDate encoding="iso8601">20020729102159.0</mods:recordChangeDate>
-      <mods:recordIdentifier>8236326</mods:recordIdentifier>
-    </mods:recordInfo>
-    <mods:language xmlns="http://www.loc.gov/mods/v3">
-      <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
-    </mods:language>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n79-84710.html">
-      <mods:namePart>Cassius Dio Cocceianus.</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n86-864629.html">
-      <mods:namePart>Foster, Herbert Baldwin</mods:namePart>
-      <mods:namePart type="date">1874-1906</mods:namePart>
-      <mods:role>
-        <mods:roleTerm authority="marcrelator" type="text">original translator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n86-864627.html">
-      <mods:namePart>Cary, Earnest</mods:namePart>
-      <mods:namePart type="date">1879-</mods:namePart>
-      <mods:role xmlns="http://www.loc.gov/mods/v3">
-        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-  </mods:mods>
-</modsCollection>
+<mods xmlns="http://www.loc.gov/mods/v3">
+   <identifier type="tlg">0385.001</identifier>
+   <identifier type="lccn">14004947</identifier>
+   <identifier type="oclc">3370548</identifier>
+   <identifier type="oca">diosromanhistory01cassuoft</identifier>
+   <identifier type="ctsurn">urn:cts:greekLit:tlg0385.tlg001.opp-grc6</identifier>
+   <titleInfo xml:lang="en" type="uniform">
+      <title>Historia Romana</title>
+    </titleInfo>
+   <titleInfo>
+      <title>Dio's Roman history</title>
+      <partNumber>Vol I</partNumber>
+    </titleInfo>
+   <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n79-84710.html">
+      <namePart>Cassius Dio Cocceianus</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+   <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n86-864629.html">
+      <namePart>Foster, Herbert Baldwin</namePart>
+      <namePart type="date">1874-1906</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">original translator</roleTerm>
+      </role>
+    </name>
+   <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n86-864627.html">
+      <namePart>Cary, Earnest</namePart>
+      <namePart type="date">1879-</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+      </role>
+    </name>
+   <originInfo>
+      <place>
+        <placeTerm type="code" authority="marccountry">enk</placeTerm>
+      </place>
+      <place>
+        <placeTerm type="text">London</placeTerm>
+      </place>
+      <place>
+        <placeTerm type="text">New York</placeTerm>
+      </place>
+      <publisher>W. Heinemann</publisher>
+      <publisher>The Macmillan co.</publisher>
+      <dateIssued>1914</dateIssued>
+      <issuance>monographic</issuance>
+    </originInfo>
+   <typeOfResource>text</typeOfResource>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Historia Romana</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Dio's Roman history</title>
+         <partNumber>Vol I</partNumber>
+      </titleInfo>
+      <part>
+         <detail>
+            <caption>Vol I</caption>
+         </detail>
+      </part>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-84710.html">
+         <namePart>Cassius Dio Cocceianus</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n86-864629.html">
+         <namePart>Foster, Herbert Baldwin</namePart>
+         <namePart type="date">1874-1906</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">original translator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n86-864627.html">
+         <namePart>Cary, Earnest</namePart>
+         <namePart type="date">1879-</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Fragments Book I-Fragments Book XI</tableOfContents>
+      <location displayLabel="LC Permalink">
+         <url>http://lccn.loc.gov/14004947</url>
+      </location>
+      <location displayLabel="WorldCat">
+         <url>http://worldcat.org/oclc/3370548</url>
+      </location>
+      <location displayLabel="Open Content Alliance">
+         <url>http://www.archive.org/details/diosromanhistory01cassuoft</url>
+      </location>
+      <location displayLabel="Open Library">
+         <url>http://www.openlibrary.org/details/diosromanhistory01cassuoft</url>
+      </location>
+      <location displayLabel="GoogleBooks">
+         <url>http://books.google.com/books?id=0FaIMECEZgoC</url>
+      </location>
+      <location displayLabel="HathiTrust">
+         <url>http://hdl.handle.net/2027/umn.319510016685928</url>
+      </location>
+      <note type="statement of responsibility">with an English translation by Earnest Cary, PH. D., on
+            the basis of the version of Herbert Baldwin Foster, PH. D. In nine volumes.</note>
+      <note>Bibliography: v. 1, p. xxviii.</note>
+      <note>Greek and English on opposite pages.</note>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Historia Romana</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Dio's Roman history</title>
+         <partNumber>Vol II</partNumber>
+      </titleInfo>
+      <part>
+         <detail>
+            <caption>Vol II</caption>
+         </detail>
+      </part>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-84710.html">
+         <namePart>Cassius Dio Cocceianus</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n86-864629.html">
+         <namePart>Foster, Herbert Baldwin</namePart>
+         <namePart type="date">1874-1906</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">original translator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n86-864627.html">
+         <namePart>Cary, Earnest</namePart>
+         <namePart type="date">1879-</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Fragments Book XII-Fragments Book XXXV, Fragments of Uncertain
+            Reference</tableOfContents>
+      <location displayLabel="LC Permalink">
+         <url>http://lccn.loc.gov/14004947</url>
+      </location>
+      <location displayLabel="WorldCat">
+         <url>http://worldcat.org/oclc/3370548</url>
+      </location>
+      <location displayLabel="HathiTrust">
+         <url>http://hdl.handle.net/2027/mdp.39015008506415</url>
+      </location>
+      <location displayLabel="Open Content Alliance">
+         <url>http://www.archive.org/details/diosromanhistory02cassuoft</url>
+      </location>
+      <location displayLabel="Open Library">
+         <url>http://www.openlibrary.org/details/diosromanhistory02cassuoft</url>
+      </location>
+      <location displayLabel="GoogleBooks">
+         <url>http://books.google.com/books?id=B1FiAAAAMAAJ</url>
+      </location>
+      <note type="statement of responsibility">with an English translation by Earnest Cary, PH. D., on
+            the basis of the version of Herbert Baldwin Foster, PH. D. In nine volumes.</note>
+      <note>Vols. 4-9 have imprint: London, W. Heinemann; New York, G. P. Putnam's sons.</note>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Historia Romana</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Dio's Roman history</title>
+         <partNumber>Vol III</partNumber>
+      </titleInfo>
+      <part>
+         <detail>
+            <caption>Vol III</caption>
+         </detail>
+      </part>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-84710.html">
+         <namePart>Cassius Dio Cocceianus</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n86-864629.html">
+         <namePart>Foster, Herbert Baldwin</namePart>
+         <namePart type="date">1874-1906</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">original translator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n86-864627.html">
+         <namePart>Cary, Earnest</namePart>
+         <namePart type="date">1879-</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Book XXXVI-Book XL</tableOfContents>
+      <location displayLabel="LC Permalink">
+         <url>http://lccn.loc.gov/14004947</url>
+      </location>
+      <location displayLabel="WorldCat">
+         <url>http://worldcat.org/oclc/3370548</url>
+      </location>
+      <location displayLabel="Open Content Alliance">
+         <url>http://www.archive.org/details/diosromanhistory03cassuoft</url>
+      </location>
+      <location displayLabel="Open Library">
+         <url>http://www.openlibrary.org/details/diosromanhistory03cassuoft</url>
+      </location>
+      <location displayLabel="GoogleBooks">
+         <url>http://books.google.com/books?id=3EhhOznnQG0C</url>
+      </location>
+      <location displayLabel="HathiTrust">
+         <url>http://hdl.handle.net/2027/mdp.39015004154368</url>
+      </location>
+      <note type="statement of responsibility">with an English translation by Earnest Cary, PH. D., on
+            the basis of the version of Herbert Baldwin Foster, PH. D. In nine volumes.</note>
+      <note>Vols. 4-9 have imprint: London, W. Heinemann; New York, G. P. Putnam's sons.</note>
+      <note>Greek and English on opposite pages.</note>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Historia Romana</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Dio's Roman history</title>
+         <partNumber>Vol IV</partNumber>
+      </titleInfo>
+      <part>
+         <detail>
+            <caption>Vol IV</caption>
+         </detail>
+      </part>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-84710.html">
+         <namePart>Cassius Dio Cocceianus</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n86-864629.html">
+         <namePart>Foster, Herbert Baldwin</namePart>
+         <namePart type="date">1874-1906</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">original translator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n86-864627.html">
+         <namePart>Cary, Earnest</namePart>
+         <namePart type="date">1879-</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Book XLI-Book XLV</tableOfContents>
+      <location displayLabel="LC Permalink">
+         <url>http://lccn.loc.gov/14004947</url>
+      </location>
+      <location displayLabel="WorldCat">
+         <url>http://worldcat.org/oclc/3370548</url>
+      </location>
+      <location displayLabel="Open Content Alliance">
+         <url>http://www.archive.org/details/diosromanhistory04cassuoft</url>
+      </location>
+      <location displayLabel="Open Library">
+         <url>http://www.openlibrary.org/details/diosromanhistory04cassuoft</url>
+      </location>
+      <location displayLabel="GoogleBooks">
+         <url>http://books.google.com/books?id=M8liAAAAMAAJ</url>
+      </location>
+      <location displayLabel="HathiTrust">
+         <url>http://hdl.handle.net/2027/mdp.39015004154376</url>
+      </location>
+      <note type="statement of responsibility">with an English translation by Earnest Cary, PH. D., on
+            the basis of the version of Herbert Baldwin Foster, PH. D. In nine volumes.</note>
+      <note>Vols. 4-9 have imprint: London, W. Heinemann; New York, G. P. Putnam's sons.</note>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Historia Romana</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Dio's Roman history</title>
+         <partNumber>Vol V</partNumber>
+      </titleInfo>
+      <part>
+         <detail>
+            <caption>Vol V</caption>
+         </detail>
+      </part>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-84710.html">
+         <namePart>Cassius Dio Cocceianus</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n86-864629.html">
+         <namePart>Foster, Herbert Baldwin</namePart>
+         <namePart type="date">1874-1906</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">original translator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n86-864627.html">
+         <namePart>Cary, Earnest</namePart>
+         <namePart type="date">1879-</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Book XLVI-L</tableOfContents>
+      <location displayLabel="LC Permalink">
+         <url>http://lccn.loc.gov/14004947</url>
+      </location>
+      <location displayLabel="WorldCat">
+         <url>http://worldcat.org/oclc/3370548</url>
+      </location>
+      <location displayLabel="Open Content Alliance">
+         <url>http://www.archive.org/details/diosromanhistory05cassuoft</url>
+      </location>
+      <location displayLabel="Open Library">
+         <url>http://www.openlibrary.org/details/diosromanhistory05cassuoft</url>
+      </location>
+      <note type="statement of responsibility">with an English translation by Earnest Cary, PH. D., on
+            the basis of the version of Herbert Baldwin Foster, PH. D. In nine volumes.</note>
+      <note>Vols. 4-9 have imprint: London, W. Heinemann; New York, G. P. Putnam's sons.</note>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Historia Romana</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Dio's Roman history</title>
+         <partNumber>Vol VI</partNumber>
+      </titleInfo>
+      <part>
+         <detail>
+            <caption>Vol VI</caption>
+         </detail>
+      </part>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-84710.html">
+         <namePart>Cassius Dio Cocceianus</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n86-864629.html">
+         <namePart>Foster, Herbert Baldwin</namePart>
+         <namePart type="date">1874-1906</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">original translator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n86-864627.html">
+         <namePart>Cary, Earnest</namePart>
+         <namePart type="date">1879-</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Book LI-LV</tableOfContents>
+      <location displayLabel="LC Permalink">
+         <url>http://lccn.loc.gov/14004947</url>
+      </location>
+      <location displayLabel="WorldCat">
+         <url>http://worldcat.org/oclc/3370548</url>
+      </location>
+      <location displayLabel="Open Content Alliance">
+         <url>http://www.archive.org/details/diosromanhistory06cassuoft</url>
+      </location>
+      <location displayLabel="Open Library">
+         <url>http://www.openlibrary.org/details/diosromanhistory06cassuoft</url>
+      </location>
+      <location displayLabel="GoogleBooks">
+         <url>http://books.google.com/books?id=4lFiAAAAMAAJ</url>
+      </location>
+      <note type="statement of responsibility">with an English translation by Earnest Cary, PH. D., on
+            the basis of the version of Herbert Baldwin Foster, PH. D. In nine volumes.</note>
+      <note>Vols. 4-9 have imprint: London, W. Heinemann; New York, G. P. Putnam's sons.</note>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Historia Romana</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Dio's Roman history</title>
+         <partNumber>Vol VII</partNumber>
+      </titleInfo>
+      <part>
+         <detail>
+            <caption>Vol VII</caption>
+         </detail>
+      </part>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-84710.html">
+         <namePart>Cassius Dio Cocceianus</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n86-864629.html">
+         <namePart>Foster, Herbert Baldwin</namePart>
+         <namePart type="date">1874-1906</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">original translator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n86-864627.html">
+         <namePart>Cary, Earnest</namePart>
+         <namePart type="date">1879-</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Book LVI-Book LX, Fragments of Book LVI and Book LVIII</tableOfContents>
+      <location displayLabel="LC Permalink">
+         <url>http://lccn.loc.gov/14004947</url>
+      </location>
+      <location displayLabel="WorldCat">
+         <url>http://worldcat.org/oclc/3370548</url>
+      </location>
+      <location displayLabel="Open Content Alliance">
+         <url>http://www.archive.org/details/diosromanhistory07cassuoft</url>
+      </location>
+      <location displayLabel="Open Library">
+         <url>http://www.openlibrary.org/details/diosromanhistory07cassuoft</url>
+      </location>
+      <note type="statement of responsibility">with an English translation by Earnest Cary, PH. D., on
+            the basis of the version of Herbert Baldwin Foster, PH. D. In nine volumes.</note>
+      <note>Vols. 4-9 have imprint: London, W. Heinemann; New York, G. P. Putnam's sons.</note>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Historia Romana</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Dio's Roman history</title>
+         <partNumber>Vol VIII</partNumber>
+      </titleInfo>
+      <part>
+         <detail>
+            <caption>Vol VIII</caption>
+         </detail>
+      </part>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-84710.html">
+         <namePart>Cassius Dio Cocceianus</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n86-864629.html">
+         <namePart>Foster, Herbert Baldwin</namePart>
+         <namePart type="date">1874-1906</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">original translator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n86-864627.html">
+         <namePart>Cary, Earnest</namePart>
+         <namePart type="date">1879-</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Epitomes of Book LXI-LXX</tableOfContents>
+      <location displayLabel="LC Permalink">
+         <url>http://lccn.loc.gov/14004947</url>
+      </location>
+      <location displayLabel="WorldCat">
+         <url>http://worldcat.org/oclc/3370548</url>
+      </location>
+      <location displayLabel="Open Content Alliance">
+         <url>http://www.archive.org/details/diosromanhistory08cassuoft</url>
+      </location>
+      <location displayLabel="Open Library">
+         <url>http://www.openlibrary.org/details/diosromanhistory08cassuoft</url>
+      </location>
+      <note type="statement of responsibility">with an English translation by Earnest Cary, PH. D., on
+            the basis of the version of Herbert Baldwin Foster, PH. D. In nine volumes.</note>
+      <note>Vols. 4-9 have imprint: London, W. Heinemann; New York, G. P. Putnam's sons.</note>
+      <note>Greek and English on opposite pages.</note>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Historia Romana</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Dio's Roman history</title>
+         <partNumber>Vol IX</partNumber>
+      </titleInfo>
+      <part>
+         <detail>
+            <caption>Vol IX</caption>
+         </detail>
+      </part>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-84710.html">
+         <namePart>Cassius Dio Cocceianus</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n86-864629.html">
+         <namePart>Foster, Herbert Baldwin</namePart>
+         <namePart type="date">1874-1906</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">original translator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n86-864627.html">
+         <namePart>Cary, Earnest</namePart>
+         <namePart type="date">1879-</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Epitome of Book LXXI-LXXX</tableOfContents>
+      <location displayLabel="LC Permalink">
+         <url>http://lccn.loc.gov/14004947</url>
+      </location>
+      <location displayLabel="WorldCat">
+         <url>http://worldcat.org/oclc/3370548</url>
+      </location>
+      <location displayLabel="Open Content Alliance">
+         <url>http://www.archive.org/details/diosromanhistory09cassuoft</url>
+      </location>
+      <location displayLabel="Open Library">
+         <url>http://www.openlibrary.org/details/diosromanhistory09cassuoft</url>
+      </location>
+      <location displayLabel="HathiTrust">
+         <url>http://hdl.handle.net/2027/inu.30000042681696</url>
+      </location>
+      <note type="statement of responsibility">with an English translation by Earnest Cary, PH. D., on
+            the basis of the version of Herbert Baldwin Foster, PH. D. In nine volumes.</note>
+      <note>Vols. 4-9 have imprint: London, W. Heinemann; New York, G. P. Putnam's sons.</note>
+   </relatedItem>
+</mods>

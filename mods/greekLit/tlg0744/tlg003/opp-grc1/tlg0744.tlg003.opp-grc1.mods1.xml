@@ -1,241 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<modsCollection xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
-  <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atom="http://www.w3.org/2005/Atom" ID="mods1" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-    <mods:titleInfo lang="lat" type="uniform">
-      <mods:title xmlns="http://www.loc.gov/mods/v3">Therapeutica</mods:title>
-    </mods:titleInfo>
-    <mods:titleInfo xmlns="http://www.loc.gov/mods/v3" lang="grc">
-      <mods:title>ἈΛΕΞΆΝΔΡΟΥ ΤΡΑΛΛΙΑΝΟΥ̃ ΒΙΒΛΊΟΝ ΠΡΩ̃ΤΟΝ</mods:title>
-    </mods:titleInfo>
-    <mods:identifier type="tlg">0744.003</mods:identifier>
-    <mods:identifier type="ctsurn">urn:cts:greekLit:tlg0744.tlg003.opp-grc1</mods:identifier>
-    <mods:tableOfContents>Book I</mods:tableOfContents>
-    <mods:part xmlns="http://www.loc.gov/mods/v3">
-      <mods:extent unit="pages">
-        <mods:start>440</mods:start>
-        <mods:end>617</mods:end>
-      </mods:extent>
-    </mods:part>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=z6cIAAAAIAAJ&amp;pg=PA440</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="HathiTrust">http://babel.hathitrust.org/cgi/pt?id=inu.30000100820442;view=2up;seq=460</mods:url>
-    </mods:location>
-    <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
-      <mods:titleInfo>
-        <mods:title>Alexander von Tralles</mods:title>
-        <mods:partNumber>I. Band</mods:partNumber>
-      </mods:titleInfo>
-      <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n85-811814.html">
-        <mods:namePart>Alexander</mods:namePart>
-        <mods:namePart type="termsOfAddress">of Tralles</mods:namePart>
-        <mods:namePart type="date">ca. 525-ca. 605</mods:namePart>
-        <mods:role>
-          <mods:roleTerm type="text" authority="marcrelator">creator</mods:roleTerm>
-        </mods:role>
-      </mods:name>
-      <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n85-801320.html">
-        <mods:namePart>Puschmann, Th. (Theodor)</mods:namePart>
-        <mods:namePart type="date">1844-1899</mods:namePart>
-        <mods:role>
-          <mods:roleTerm type="text" authority="marcrelator">editor</mods:roleTerm>
-        </mods:role>
-        <mods:role>
-          <mods:roleTerm type="text" authority="marcrelator">translator</mods:roleTerm>
-        </mods:role>
-      </mods:name>
-      <mods:typeOfResource>text</mods:typeOfResource>
-      <mods:originInfo>
-        <mods:place>
-          <mods:placeTerm type="code" authority="marccountry">au</mods:placeTerm>
-        </mods:place>
-        <mods:place>
-          <mods:placeTerm type="text">Vienna</mods:placeTerm>
-        </mods:place>
-        <mods:publisher>Braumuller</mods:publisher>
-        <mods:dateIssued>1878</mods:dateIssued>
-        <mods:issuance>monographic</mods:issuance>
-      </mods:originInfo>
-      <mods:language objectPart="introduction">
-        <mods:languageTerm type="code" authority="iso639-2b">ger</mods:languageTerm>
-      </mods:language>
-      <mods:language objectPart="text">
-        <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
-      </mods:language>
-      <mods:physicalDescription>
-        <mods:form authority="marcform">print</mods:form>
-        <mods:extent>XII, 617 S.</mods:extent>
-        <digitalOrigin>digitized other analog</digitalOrigin>
-      </mods:physicalDescription>
-      <mods:note type="statement of responsibility">Original-Text und Übersetzung nebst einer einleitenden
-                Abhandlung. Ein Beitrag zur Geschichte der Medicin von Dr. Theodor Puschmann</mods:note>
-      <mods:note/>
-      <mods:subject authority="lcsh">
-        <mods:topic>Medicine, Greek and Roman</mods:topic>
-      </mods:subject>
-      <mods:classification authority="lcc">R126 .A44165</mods:classification>
-      <mods:identifier type="oclc">4792546</mods:identifier>
-      <mods:identifier type="lccn"/>
-      <mods:identifier type="oca"/>
-      <mods:location>
-        <mods:url displayLabel="LC Permalink"/>
-      </mods:location>
-      <mods:location>
-        <mods:url displayLabel="WorldCat">http://www.worldcat.org/oclc/4792546</mods:url>
-      </mods:location>
-      <mods:location>
-        <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=z6cIAAAAIAAJ</mods:url>
-      </mods:location>
-      <mods:location>
-        <mods:url displayLabel="BIUM">http://www.bium.univ-paris5.fr/histmed/medica/cote?44233x01</mods:url>
-      </mods:location>
-      <mods:location>
-        <mods:url displayLabel="HathiTrust">http://hdl.handle.net/2027/inu.30000100820442</mods:url>
-      </mods:location>
-      <mods:recordInfo>
-        <mods:descriptionStandard>aacr2</mods:descriptionStandard>
-        <mods:recordContentSource authority="marcorg"/>
-        <mods:recordCreationDate encoding="marc"/>
-        <mods:recordChangeDate encoding="iso8601"/>
-        <mods:recordIdentifier/>
-        <mods:recordOrigin/>
-      </mods:recordInfo>
-    </mods:relatedItem>
-    <mods:language xmlns="http://www.loc.gov/mods/v3" objectPart="text">
-      <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
-    </mods:language>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n85-811814.html">
-      <mods:namePart>Alexander</mods:namePart>
-      <mods:namePart type="termsOfAddress">of Tralles</mods:namePart>
-      <mods:namePart type="date">ca. 525-ca. 605</mods:namePart>
-      <mods:role>
-        <mods:roleTerm type="text" authority="marcrelator">creator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n85-801320.html">
-      <mods:namePart>Puschmann, Th. (Theodor)</mods:namePart>
-      <mods:namePart type="date">1844-1899</mods:namePart>
-      <mods:role>
-        <mods:roleTerm type="text" authority="marcrelator">editor</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-  </mods:mods>
-  <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atom="http://www.w3.org/2005/Atom" ID="mods2" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-    <mods:titleInfo lang="lat" type="uniform">
-      <mods:title xmlns="http://www.loc.gov/mods/v3">Therapeutica</mods:title>
-    </mods:titleInfo>
-    <mods:titleInfo xmlns="http://www.loc.gov/mods/v3" lang="grc">
-      <mods:title>ἈΛΕΞΆΝΔΡΟΥ ΤΡΑΛΛΙΑΝΟΥ̃ ΒΙΒΛΊΟΝ ΠΡΩ̃ΤΟΝ</mods:title>
-    </mods:titleInfo>
-    <mods:tableOfContents>Book II</mods:tableOfContents>
-    <mods:identifier type="tlg">0744.003</mods:identifier>
-    <mods:identifier type="ctsurn">urn:cts:greekLit:tlg0744.tlg003.opp-grc1</mods:identifier>
-    <mods:part xmlns="http://www.loc.gov/mods/v3">
-      <mods:extent unit="pages">
-        <mods:start>2</mods:start>
-        <mods:end>585</mods:end>
-      </mods:extent>
-    </mods:part>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=qqYIAAAAIAAJ&amp;pg=PA2</mods:url>
-    </mods:location>
-    <mods:location xmlns="http://www.loc.gov/mods/v3">
-      <mods:url displayLabel="HathiTrust">http://hdl.handle.net/2027/inu.30000100820327?urlappend=%3Bseq=21</mods:url>
-    </mods:location>
-    <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
-      <mods:titleInfo>
-        <mods:title>Alexander von Tralles</mods:title>
-        <mods:partNumber>II. Band</mods:partNumber>
-      </mods:titleInfo>
-      <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n85-811814.html">
-        <mods:namePart>Alexander</mods:namePart>
-        <mods:namePart type="termsOfAddress">of Tralles</mods:namePart>
-        <mods:namePart type="date">ca. 525-ca. 605</mods:namePart>
-        <mods:role>
-          <mods:roleTerm type="text" authority="marcrelator">creator</mods:roleTerm>
-        </mods:role>
-      </mods:name>
-      <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n85-801320.html">
-        <mods:namePart>Puschmann, Th. (Theodor)</mods:namePart>
-        <mods:namePart type="date">1844-1899</mods:namePart>
-        <mods:role>
-          <mods:roleTerm type="text" authority="marcrelator">editor</mods:roleTerm>
-        </mods:role>
-        <mods:role>
-          <mods:roleTerm type="text" authority="marcrelator">translator</mods:roleTerm>
-        </mods:role>
-      </mods:name>
-      <mods:typeOfResource>text</mods:typeOfResource>
-      <mods:originInfo>
-        <mods:place>
-          <mods:placeTerm type="code" authority="marccountry">au</mods:placeTerm>
-        </mods:place>
-        <mods:place>
-          <mods:placeTerm type="text">Vienna</mods:placeTerm>
-        </mods:place>
-        <mods:publisher>Braumuller</mods:publisher>
-        <mods:dateIssued>1879</mods:dateIssued>
-        <mods:issuance>monographic</mods:issuance>
-      </mods:originInfo>
-      <mods:language objectPart="introduction">
-        <mods:languageTerm type="code" authority="iso639-2b">ger</mods:languageTerm>
-      </mods:language>
-      <mods:language objectPart="text">
-        <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
-      </mods:language>
-      <mods:physicalDescription>
-        <mods:form authority="marcform">print</mods:form>
-        <mods:extent>vii, 620 pg.</mods:extent>
-        <digitalOrigin>digitized other analog</digitalOrigin>
-      </mods:physicalDescription>
-      <mods:note type="statement of responsibility">Original-Text und Übersetzung nebst einer einleitenden Abhandlung. Ein Beitrag zur Geschichte der Medicin von Dr. Theodor Puschmann</mods:note>
-      <mods:note/>
-      <mods:subject authority="lcsh">
-        <mods:topic>Medicine, Greek and Roman</mods:topic>
-      </mods:subject>
-      <mods:classification authority="lcc">R126 .A44165</mods:classification>
-      <mods:identifier type="oclc">4792546</mods:identifier>
-      <mods:identifier type="lccn"/>
-      <mods:identifier type="oca"/>
-      <mods:location>
-        <mods:url displayLabel="WorldCat">http://www.worldcat.org/oclc/4792546</mods:url>
-      </mods:location>
-      <mods:location>
-        <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=qqYIAAAAIAAJ</mods:url>
-      </mods:location>
-      <mods:location>
-        <mods:url displayLabel="BIUM">http://www.bium.univ-paris5.fr/histmed/medica/cote?44233x02 </mods:url>
-      </mods:location>
-      <mods:location>
-        <mods:url displayLabel="HathiTrust"/>
-      </mods:location>
-      <mods:recordInfo>
-        <mods:descriptionStandard>aacr2</mods:descriptionStandard>
-        <mods:recordContentSource authority="marcorg"/>
-        <mods:recordCreationDate encoding="marc"/>
-        <mods:recordChangeDate encoding="iso8601"/>
-        <mods:recordIdentifier/>
-        <mods:recordOrigin/>
-      </mods:recordInfo>
-    </mods:relatedItem>
-    <mods:language xmlns="http://www.loc.gov/mods/v3" objectPart="text">
-      <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
-    </mods:language>
-    <mods:name xmlns="http://www.loc.gov/mods/v3" xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n85-811814.html">
-      <mods:namePart>Alexander</mods:namePart>
-      <mods:namePart type="termsOfAddress">of Tralles</mods:namePart>
-      <mods:namePart type="date">ca. 525-ca. 605</mods:namePart>
-      <mods:role>
-        <mods:roleTerm type="text" authority="marcrelator">creator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n85-801320.html">
-      <mods:namePart>Puschmann, Th. (Theodor)</mods:namePart>
-      <mods:namePart type="date">1844-1899</mods:namePart>
-      <mods:role>
-        <mods:roleTerm type="text" authority="marcrelator">editor</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-  </mods:mods>
-</modsCollection>
+<mods xmlns="http://www.loc.gov/mods/v3">
+   <identifier type="tlg">0744.003</identifier>
+   <identifier type="ctsurn">urn:cts:greekLit:tlg0744.tlg003.opp-grc1</identifier>
+   <titleInfo lang="lat" type="uniform">
+      <title>Therapeutica</title>
+    </titleInfo>
+   <titleInfo lang="grc">
+      <title>ἈΛΕΞΆΝΔΡΟΥ ΤΡΑΛΛΙΑΝΟΥ̃ ΒΙΒΛΊΟΝ ΠΡΩ̃ΤΟΝ</title>
+    </titleInfo>
+   <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n85-811814.html">
+      <namePart>Alexander</namePart>
+      <namePart type="termsOfAddress">of Tralles</namePart>
+      <namePart type="date">ca. 525-ca. 605</namePart>
+      <role>
+        <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+      </role>
+    </name>
+   <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n85-801320.html">
+      <namePart>Puschmann, Th. (Theodor)</namePart>
+      <namePart type="date">1844-1899</namePart>
+      <role>
+        <roleTerm type="text" authority="marcrelator">editor</roleTerm>
+      </role>
+    </name>
+   <relatedItem type="constituent">
+      <titleInfo lang="lat" type="uniform">
+         <title>Therapeutica</title>
+      </titleInfo>
+      <titleInfo lang="grc">
+         <title>ἈΛΕΞΆΝΔΡΟΥ ΤΡΑΛΛΙΑΝΟΥ̃ ΒΙΒΛΊΟΝ ΠΡΩ̃ΤΟΝ</title>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n85-811814.html">
+         <namePart>Alexander</namePart>
+         <namePart type="termsOfAddress">of Tralles</namePart>
+         <namePart type="date">ca. 525-ca. 605</namePart>
+         <role>
+            <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n85-801320.html">
+         <namePart>Puschmann, Th. (Theodor)</namePart>
+         <namePart type="date">1844-1899</namePart>
+         <role>
+            <roleTerm type="text" authority="marcrelator">editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Book I</tableOfContents>
+      <location displayLabel="GoogleBooks">
+         <url>http://books.google.com/books?id=z6cIAAAAIAAJ&amp;pg=PA440</url>
+      </location>
+      <location displayLabel="HathiTrust">
+         <url>http://babel.hathitrust.org/cgi/pt?id=inu.30000100820442;view=2up;seq=460</url>
+      </location>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo lang="lat" type="uniform">
+         <title>Therapeutica</title>
+      </titleInfo>
+      <titleInfo lang="grc">
+         <title>ἈΛΕΞΆΝΔΡΟΥ ΤΡΑΛΛΙΑΝΟΥ̃ ΒΙΒΛΊΟΝ ΠΡΩ̃ΤΟΝ</title>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n85-811814.html">
+         <namePart>Alexander</namePart>
+         <namePart type="termsOfAddress">of Tralles</namePart>
+         <namePart type="date">ca. 525-ca. 605</namePart>
+         <role>
+            <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n85-801320.html">
+         <namePart>Puschmann, Th. (Theodor)</namePart>
+         <namePart type="date">1844-1899</namePart>
+         <role>
+            <roleTerm type="text" authority="marcrelator">editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Book II</tableOfContents>
+      <location displayLabel="GoogleBooks">
+         <url>http://books.google.com/books?id=qqYIAAAAIAAJ&amp;pg=PA2</url>
+      </location>
+      <location displayLabel="HathiTrust">
+         <url>http://hdl.handle.net/2027/inu.30000100820327?urlappend=%3Bseq=21</url>
+      </location>
+   </relatedItem>
+</mods>
