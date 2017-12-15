@@ -21,8 +21,8 @@
   
   <property name="xmldb.host" value="localhost" />
   <property name="xmldb.port" value="8080" />
-  <property name="xmldb.user" value="admin" />
-  <property name="xmldb.passwd" value="admin" />
+  <property name="xmldb.user" value="perseus" />
+  <property name="xmldb.passwd" value="perseus" />
   <property name="xmldb.url" value="xmldb:exist://${xmldb.host}:${xmldb.port}/exist/xmlrpc/db" />
   <property name="xmldb.approot" value="${xmldb.url}/${collectionName}" />
 
