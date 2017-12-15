@@ -1,78 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns="http://www.loc.gov/mods/v3">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xsi:schemaLocation="http://www.loc.gov/mods/v3 https://www.loc.gov/standards/mods/mods.xsd">
+
    <identifier type="lccn">38000042</identifier>
    <identifier type="oclc">311063</identifier>
    <identifier type="tlg">0081.001</identifier>
    <identifier type="ctsurn">urn:cts:greekLit:tlg0081.tlg001.opp-grc8</identifier>
    <titleInfo xml:lang="en" type="uniform">
       <title>Antiquitates Romanae</title>
-    </titleInfo>
+   </titleInfo>
    <titleInfo>
       <nonSort>The</nonSort>
       <title>Roman antiquities of Dionysius of Halicarnassus</title>
       <partNumber>Vol 1-7</partNumber>
-    </titleInfo>
-   <name xmlns:ns2="http://www.w3.org/1999/xlink"
-         authority="naf"
-         type="personal"
-         ns2:href="http://errol.oclc.org/laf/n50-82922.html">
+   </titleInfo>
+   <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n50-82922.html">
       <namePart>Dionysius</namePart>
       <namePart type="termsOfAddress">of Halicarnassus</namePart>
       <role>
-        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         <roleTerm authority="marcrelator" type="text">creator</roleTerm>
       </role>
-    </name>
-   <name xmlns:ns2="http://www.w3.org/1999/xlink"
-         authority="naf"
-         type="personal"
-         ns2:href="http://errol.oclc.org/laf/n85-89109.html">
+   </name>
+   <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n85-89109.html">
       <namePart>Spelman, Edward</namePart>
       <namePart type="date">d. 1767</namePart>
       <role>
-        <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         <roleTerm authority="marcrelator" type="text">editor</roleTerm>
       </role>
-    </name>
+   </name>
    <originInfo>
       <place>
-        <placeTerm type="code" authority="marccountry">mau</placeTerm>
+         <placeTerm type="code" authority="marccountry">mau</placeTerm>
       </place>
       <place>
-        <placeTerm type="text">Cambridge, Mass</placeTerm>
+         <placeTerm type="text">Cambridge, Mass</placeTerm>
       </place>
       <place>
-        <placeTerm type="text">London</placeTerm>
+         <placeTerm type="text">London</placeTerm>
       </place>
       <publisher>Harvard University Press</publisher>
       <publisher>W. Heinemann</publisher>
       <dateIssued>1937-1950</dateIssued>
-      <mods:dateModified xmlns:mods="http://www.loc.gov/mods/v3"
-                         xmlns:atom="http://www.w3.org/2005/Atom"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1968</mods:dateModified>
-      <mods:edition xmlns:mods="http://www.loc.gov/mods/v3"
-                    xmlns:atom="http://www.w3.org/2005/Atom"
-                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Reprint</mods:edition>
+      <dateModified>1968</dateModified>
+      <edition>Reprint</edition>
       <issuance>monographic</issuance>
-    </originInfo>
+   </originInfo>
    <typeOfResource>text</typeOfResource>
    <subject authority="lcsh">
       <geographic>Rome</geographic>
       <topic>History</topic>
-    </subject>
+   </subject>
    <subject authority="lcsh">
       <geographic>Rome</geographic>
       <topic>Antiquities</topic>
       <topic>Early works to 1800</topic>
-    </subject>
+   </subject>
    <subject authority="lcsh">
       <geographic>Rome</geographic>
       <topic>Politics and government</topic>
       <topic>Early works to 1800</topic>
-    </subject>
-    <relatedItem xmlns="http://www.loc.gov/mods/v3" type="series">
--      <titleInfo>
--        <title>Loeb classical library</title>
--      </mods:titleInfo>
--    </relatedItem>
+   </subject>
+   <relatedItem type="series">
+      <titleInfo>
+         <title>Loeb classical library</title>
+      </titleInfo>
+   </relatedItem>
    <relatedItem type="constituent">
       <titleInfo xml:lang="en" type="uniform">
          <title>Antiquitates Romanae</title>
@@ -87,20 +80,14 @@
             <caption>Vol I</caption>
          </detail>
       </part>
-      <name xmlns:ns2="http://www.w3.org/1999/xlink"
-            authority="naf"
-            type="personal"
-            ns2:href="http://errol.oclc.org/laf/n50-82922.html">
+      <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n50-82922.html">
          <namePart>Dionysius</namePart>
          <namePart type="termsOfAddress">of Halicarnassus</namePart>
          <role>
             <roleTerm authority="marcrelator" type="text">creator</roleTerm>
          </role>
       </name>
-      <name xmlns:ns2="http://www.w3.org/1999/xlink"
-            authority="naf"
-            type="personal"
-            ns2:href="http://errol.oclc.org/laf/n85-89109.html">
+      <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n85-89109.html">
          <namePart>Spelman, Edward</namePart>
          <namePart type="date">d. 1767</namePart>
          <role>
@@ -140,20 +127,14 @@
             <caption>Vol II</caption>
          </detail>
       </part>
-      <name xmlns:ns2="http://www.w3.org/1999/xlink"
-            authority="naf"
-            type="personal"
-            ns2:href="http://errol.oclc.org/laf/n50-82922.html">
+      <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n50-82922.html">
          <namePart>Dionysius</namePart>
          <namePart type="termsOfAddress">of Halicarnassus</namePart>
          <role>
             <roleTerm authority="marcrelator" type="text">creator</roleTerm>
          </role>
       </name>
-      <name xmlns:ns2="http://www.w3.org/1999/xlink"
-            authority="naf"
-            type="personal"
-            ns2:href="http://errol.oclc.org/laf/n85-89109.html">
+      <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n85-89109.html">
          <namePart>Spelman, Edward</namePart>
          <namePart type="date">d. 1767</namePart>
          <role>
@@ -192,20 +173,14 @@
             <caption>Vol III</caption>
          </detail>
       </part>
-      <name xmlns:ns2="http://www.w3.org/1999/xlink"
-            authority="naf"
-            type="personal"
-            ns2:href="http://errol.oclc.org/laf/n50-82922.html">
+      <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n50-82922.html">
          <namePart>Dionysius</namePart>
          <namePart type="termsOfAddress">of Halicarnassus</namePart>
          <role>
             <roleTerm authority="marcrelator" type="text">creator</roleTerm>
          </role>
       </name>
-      <name xmlns:ns2="http://www.w3.org/1999/xlink"
-            authority="naf"
-            type="personal"
-            ns2:href="http://errol.oclc.org/laf/n85-89109.html">
+      <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n85-89109.html">
          <namePart>Spelman, Edward</namePart>
          <namePart type="date">d. 1767</namePart>
          <role>
@@ -245,20 +220,14 @@
             <caption>Vol IV</caption>
          </detail>
       </part>
-      <name xmlns:ns2="http://www.w3.org/1999/xlink"
-            authority="naf"
-            type="personal"
-            ns2:href="http://errol.oclc.org/laf/n50-82922.html">
+      <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n50-82922.html">
          <namePart>Dionysius</namePart>
          <namePart type="termsOfAddress">of Halicarnassus</namePart>
          <role>
             <roleTerm authority="marcrelator" type="text">creator</roleTerm>
          </role>
       </name>
-      <name xmlns:ns2="http://www.w3.org/1999/xlink"
-            authority="naf"
-            type="personal"
-            ns2:href="http://errol.oclc.org/laf/n85-89109.html">
+      <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n85-89109.html">
          <namePart>Spelman, Edward</namePart>
          <namePart type="date">d. 1767</namePart>
          <role>
@@ -298,20 +267,14 @@
             <caption>Vol V</caption>
          </detail>
       </part>
-      <name xmlns:ns2="http://www.w3.org/1999/xlink"
-            authority="naf"
-            type="personal"
-            ns2:href="http://errol.oclc.org/laf/n50-82922.html">
+      <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n50-82922.html">
          <namePart>Dionysius</namePart>
          <namePart type="termsOfAddress">of Halicarnassus</namePart>
          <role>
             <roleTerm authority="marcrelator" type="text">creator</roleTerm>
          </role>
       </name>
-      <name xmlns:ns2="http://www.w3.org/1999/xlink"
-            authority="naf"
-            type="personal"
-            ns2:href="http://errol.oclc.org/laf/n85-89109.html">
+      <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n85-89109.html">
          <namePart>Spelman, Edward</namePart>
          <namePart type="date">d. 1767</namePart>
          <role>
@@ -351,20 +314,14 @@
             <caption>Vol VI</caption>
          </detail>
       </part>
-      <name xmlns:ns2="http://www.w3.org/1999/xlink"
-            authority="naf"
-            type="personal"
-            ns2:href="http://errol.oclc.org/laf/n50-82922.html">
+      <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n50-82922.html">
          <namePart>Dionysius</namePart>
          <namePart type="termsOfAddress">of Halicarnassus</namePart>
          <role>
             <roleTerm authority="marcrelator" type="text">creator</roleTerm>
          </role>
       </name>
-      <name xmlns:ns2="http://www.w3.org/1999/xlink"
-            authority="naf"
-            type="personal"
-            ns2:href="http://errol.oclc.org/laf/n85-89109.html">
+      <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n85-89109.html">
          <namePart>Spelman, Edward</namePart>
          <namePart type="date">d. 1767</namePart>
          <role>
@@ -404,20 +361,14 @@
             <caption>Vol VII</caption>
          </detail>
       </part>
-      <name xmlns:ns2="http://www.w3.org/1999/xlink"
-            authority="naf"
-            type="personal"
-            ns2:href="http://errol.oclc.org/laf/n50-82922.html">
+      <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n50-82922.html">
          <namePart>Dionysius</namePart>
          <namePart type="termsOfAddress">of Halicarnassus</namePart>
          <role>
             <roleTerm authority="marcrelator" type="text">creator</roleTerm>
          </role>
       </name>
-      <name xmlns:ns2="http://www.w3.org/1999/xlink"
-            authority="naf"
-            type="personal"
-            ns2:href="http://errol.oclc.org/laf/n85-89109.html">
+      <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n85-89109.html">
          <namePart>Spelman, Edward</namePart>
          <namePart type="date">d. 1767</namePart>
          <role>
