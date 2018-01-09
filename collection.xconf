@@ -16,6 +16,7 @@
       <text qname="mads:namePart"/>
       <text qname="mads:identifier"/>
       <text qname="mads:note"/>
+      <text qname="mads:url"/>
       
       <!-- Citation index -->
       <text qname="author"/>
@@ -36,10 +37,13 @@
 
       <!-- MADS -->
       <create qname="mads:identifier" type="xs:string"/>
+      <create qname="mads:url" type="xs:string"/>
       
       <!-- Citation Index -->
       <create qname="urn" type="xs:string"/>
       <create qname="canonical-id" type="xs:string"/>
+      <create qname="work" type="xs:string"/>
+      <create qname="version" type="xs:string"/>
     </range>
   </index>
 </collection>
