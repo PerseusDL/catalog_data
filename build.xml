@@ -83,5 +83,16 @@
       </fileset>
     </xdb:store>
   </target>
+
+  <target name="load-cite" description="load cite records">
+    <xdb:store url="${xmldb:approot/cite}"
+	       user="${xmldb.user}"
+	       password="${xmldb.passwd}"
+	       createcollection="true">
+      <fileset dir="./citecoll">
+	<include name="**/*.xml"/>
+      </fileset>
+    </xdb:store>
+  </target>
 </project>
 
