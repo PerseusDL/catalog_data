@@ -85,7 +85,7 @@
   </target>
 
   <target name="load-cite" description="load cite records">
-    <xdb:store url="${xmldb:approot/cite}"
+    <xdb:store uri="${xmldb.approot}/cite"
 	       user="${xmldb.user}"
 	       password="${xmldb.passwd}"
 	       createcollection="true">
