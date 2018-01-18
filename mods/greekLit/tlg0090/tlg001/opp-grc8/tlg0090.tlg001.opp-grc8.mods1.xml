@@ -12,11 +12,13 @@
       <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
     </mods:role>
   </mods:name>
-  <mods:name authority="none" type="personal">
-    <mods:namePart>P. Morellus</mods:namePart>
+  <mods:name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/251144783031698600113/">
+    <mods:namePart>Morellus, Petrus</mods:namePart>
+    <mods:namePart type="date">ca. 1520-16..?</mods:namePart>
     <mods:role>
       <mods:roleTerm authority="marcrelator" type="text">translator</mods:roleTerm>
     </mods:role>
+      <mods:displayForm>P. Morellus</mods:displayForm>
   </mods:name>
   <mods:name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/9870846">
     <mods:namePart>Holste, Lukas,</mods:namePart>
@@ -26,8 +28,9 @@
     </mods:role>
     <mods:displayForm>Lucas Holstenius</mods:displayForm>
   </mods:name>
+      <!--
   <mods:note>Exact attribution of P. Morellus is not possible at this time.  It is possible that the translator might be an unknown Paolo Morelli, but might also be
-        a wrong transcription of Fédéric Morel(http://viaf.org/viaf/100202707), who was a friend of Holstenius.</mods:note>
+        a wrong transcription of Fédéric Morel(http://viaf.org/viaf/100202707), who was a friend of Holstenius.</mods:note> -->
   <mods:language objectPart="text">
     <mods:languageTerm authority="iso639-2b" type="code">grc</mods:languageTerm>
   </mods:language>
