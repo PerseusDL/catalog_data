@@ -1,41 +1,46 @@
-<?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:mads="http://www.loc.gov/mads/v2"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
+           version="2.0">
   <mads:authority lang="lat">
-    <mads:name type="personal" authority="naf">
-      <mads:namePart>Maximianus</mads:namePart>
-      <mads:namePart type="date">6th cent</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="naf">
+         <mads:namePart>Maximianus</mads:namePart>
+         <mads:namePart type="date">6th cent</mads:namePart>
+      </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="ita">
-    <mads:name type="personal">
-      <mads:namePart>Massimiano</mads:namePart>
-      <mads:namePart type="date">6th cent</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Massimiano</mads:namePart>
+         <mads:namePart type="date">6th cent</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lr">
-    <mads:name type="personal">
-      <mads:namePart>Maximianus</mads:namePart>
-      <mads:namePart type="termsOfAddress">Etruscus</mads:namePart>
-      <mads:namePart type="date">6th cent</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Maximianus</mads:namePart>
+         <mads:namePart type="termsOfAddress">Etruscus</mads:namePart>
+         <mads:namePart type="date">6th cent</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant>
-    <mads:name type="personal">
-      <mads:namePart>Maximianus Etruscus</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Maximianus Etruscus</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Maximianus</mads:namePart>
-      <mads:namePart type="termsOfAddress">the Etruscan</mads:namePart>
-      <mads:namePart type="date">6th cent</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Maximianus</mads:namePart>
+         <mads:namePart type="termsOfAddress">the Etruscan</mads:namePart>
+         <mads:namePart type="date">6th cent</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="FRE">
-    <mads:name type="personal">
-      <mads:namePart>Maximien</mads:namePart>
-      <mads:namePart type="date">6th cent</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Maximien</mads:namePart>
+         <mads:namePart type="date">6th cent</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:note type="source">His Maximiani Elegiae, 1890</mads:note>
   <mads:note type="source">Seyffert, O. Dict. of classical antiquities, 1956 (Maximianus of Etruria; Latin poet in the beginning of the 6th cent.)</mads:note>
@@ -43,7 +48,7 @@
   <mads:note type="source">LC data base, 2/19/86 (hdg.: Maximianus Etruscus)</mads:note>
   <mads:note type="source">LC class. schedule: PA6511.M6 (Maximianus Etruscus, fl. ca. 550 A.D.)</mads:note>
   <mads:note type="source">InU/Wing STC files (usage: Massimiano; variants: Maximianus the Etruscan)</mads:note>
-  <mads:note type="source">Spaltenstein, F. Commentaire des Ele&#xCC;&#x81;gies de Maximien, 1983: p. 9 (Bertini claims was born about 495)</mads:note>
+  <mads:note type="source">Spaltenstein, F. Commentaire des EleÌ&#x81;gies de Maximien, 1983: p. 9 (Bertini claims was born about 495)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.904.1</mads:identifier>
   <mads:identifier type="lccn">n  85311132 </mads:identifier>
   <mads:identifier type="stoa author">stoa0196</mads:identifier>
@@ -56,13 +61,13 @@
   <mads:url displayLabel="Smith's Dictionary"/>
   <mads:url displayLabel="VIAF"/>
   <mads:extension>
-    <mads:description>List of related work identifiers</mads:description>
-    <mads:identifier type="stoa author-text">stoa0196-stoa001</mads:identifier>
+      <mads:description>List of related work identifiers</mads:description>
+      <mads:identifier type="stoa author-text">stoa0196-stoa001</mads:identifier>
   </mads:extension>
   <mads:recordInfo>
-    <mads:recordContentSource authority="marcorg">InU</mads:recordContentSource>
-    <mads:recordCreationDate encoding="marc">860424</mads:recordCreationDate>
-    <mads:recordChangeDate encoding="iso8601">19880302130301.7</mads:recordChangeDate>
-    <mads:recordIdentifier>oca01596089 </mads:recordIdentifier>
+      <mads:recordContentSource authority="marcorg">InU</mads:recordContentSource>
+      <mads:recordCreationDate encoding="marc">860424</mads:recordCreationDate>
+      <mads:recordChangeDate encoding="iso8601">19880302130301.7</mads:recordChangeDate>
+      <mads:recordIdentifier>oca01596089 </mads:recordIdentifier>
   </mads:recordInfo>
 </mads:mads>

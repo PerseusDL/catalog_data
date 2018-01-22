@@ -1,53 +1,60 @@
-<?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:mads="http://www.loc.gov/mads/v2"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
+           version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
-      <mads:namePart>Antonius Diogenes</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="naf">
+         <mads:namePart>Antonius Diogenes</mads:namePart>
+      </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="grc">
-    <mads:name type="personal">
-      <mads:namePart>A&#x3BD;&#x3C4;&#x3CE;&#x3BD;&#x3B9;&#x3BF;&#x3C2; &#x394;&#x3B9;&#x3BF;&#x3B3;&#x3AD;&#x3BD;&#x3B7;&#x3C2;</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Aντώνιος Διογένης</mads:namePart>
+      </mads:name>
   </mads:variant>
-  <mads:variant type="other" lang="ger" xlink:href="http://www.brillonline.nl/subscriber/entry?entry=bnp_e126040">
-    <mads:name type="personal">
-      <mads:namePart>Antonios Diogenes</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Diogenes, Antonius</mads:namePart>
-    </mads:name>
+  <mads:variant type="other"
+                 lang="ger"
+                 xlink:href="http://www.brillonline.nl/subscriber/entry?entry=bnp_e126040">
+      <mads:name type="personal">
+         <mads:namePart>Antonios Diogenes</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Diogene, Antonio</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Diogenes, Antonius</mads:namePart>
+      </mads:name>
+  </mads:variant>
+  <mads:variant type="other">
+      <mads:name type="personal">
+         <mads:namePart>Diogene, Antonio</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
-    <mads:name type="personal">
-      <mads:namePart>Antonio Diogene</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Antonio Diogene</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal" authority="tlg">
-      <mads:namePart>Antonius Diogenes</mads:namePart>
-      <mads:namePart>Scr. Erot.</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="tlg">
+         <mads:namePart>Antonius Diogenes</mads:namePart>
+         <mads:namePart>Scr. Erot.</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal" authority="lsj">
-      <mads:namePart>Antonius Diogenes </mads:namePart>
-      <mads:namePart type="termsOfAddress">Scriptor Eroticus</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="lsj">
+         <mads:namePart>Antonius Diogenes </mads:namePart>
+         <mads:namePart type="termsOfAddress">Scriptor Eroticus</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="abbreviation">
-    <mads:name type="personal" authority="lsj">
-      <mads:namePart>Ant. Diog.</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="lsj">
+         <mads:namePart>Ant. Diog.</mads:namePart>
+      </mads:name>
   </mads:variant>
-  <mads:fieldOfActivity>erotic writer</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Erotic Author</mads:fieldOfActivity>
   
   
   <mads:note type="source">Lex. der alten Welt, 1965 (Antonius Diogenes, prob. 2nd cent. A.D.)</mads:note>
@@ -60,13 +67,13 @@
   <mads:url>http://en.wikipedia.org/wiki/Antonius_Diogenes</mads:url>
   <mads:url>http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00001035</mads:url>
   <mads:extension>
-    <mads:description>List of related work identifiers</mads:description>
-    <mads:identifier type="tlg">1148.004</mads:identifier>
+      <mads:description>List of related work identifiers</mads:description>
+      <mads:identifier type="tlg">1148.004</mads:identifier>
   </mads:extension>
   <mads:recordInfo>
-    <mads:recordContentSource authority="marcorg">InU</mads:recordContentSource>
-    <mads:recordCreationDate encoding="marc">930720</mads:recordCreationDate>
-    <mads:recordChangeDate encoding="iso8601">19930723075353.2</mads:recordChangeDate>
-    <mads:recordIdentifier>oca03417004 </mads:recordIdentifier>
+      <mads:recordContentSource authority="marcorg">InU</mads:recordContentSource>
+      <mads:recordCreationDate encoding="marc">930720</mads:recordCreationDate>
+      <mads:recordChangeDate encoding="iso8601">19930723075353.2</mads:recordChangeDate>
+      <mads:recordIdentifier>oca03417004 </mads:recordIdentifier>
   </mads:recordInfo>
 </mads:mads>

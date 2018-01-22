@@ -1,61 +1,66 @@
-<?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd    http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:mads="http://www.loc.gov/mads/v2"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="2.0"
+           xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd    http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal" authority="tlg">
-      <mads:namePart>Aceratus</mads:namePart>
-      <mads:namePart type="termsOfAddress">Gramm.</mads:namePart>
-      <mads:namePart type="date">A.D. 1</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="tlg">
+         <mads:namePart>Aceratus</mads:namePart>
+         <mads:namePart type="termsOfAddress">Gramm.</mads:namePart>
+         <mads:namePart type="date">A.D. 1</mads:namePart>
+      </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="grc">
-    <mads:name type="personal">
-      <mads:namePart>A&#x3BA;h&#x3C1;&#x3B1;&#x3C4;&#x3BF;&#x3C2;</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Aκhρατος</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal" authority="lsj">
-      <mads:namePart>Aceratus</mads:namePart>
-      <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="lsj">
+         <mads:namePart>Aceratus</mads:namePart>
+         <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal" authority="dnb">
-      <mads:namePart>Aceratus</mads:namePart>
-      <mads:namePart type="termsOfAddress">Grammaticus</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="dnb">
+         <mads:namePart>Aceratus</mads:namePart>
+         <mads:namePart type="termsOfAddress">Grammaticus</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal" authority="Smith">
-      <mads:namePart>Ace'ratus</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="Smith">
+         <mads:namePart>Ace'ratus</mads:namePart>
+      </mads:name>
   </mads:variant>
-  <mads:fieldOfActivity>epigrammatist</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
   
-  <mads:note type="source">"Author of an epitymbion to Hector, who was for Troy &#x2018;a stronger bulwark
-      than the wall erected by the gods&#x2019; and at whose death &#x2018;Meonides&#x2019; himself felt he had to close
+  <mads:note type="source">"Author of an epitymbion to Hector, who was for Troy ‘a stronger bulwark
+      than the wall erected by the gods’ and at whose death ‘Meonides’ himself felt he had to close
       the Iliad (Anth. Pal. 7,138). There is no writer or grammarian known by this name but the
-      theme and style of the epigram are suggestive of the &#x2018;Garland&#x2019; of Philippus....", from
+      theme and style of the epigram are suggestive of the ‘Garland’ of Philippus....", from
       "Degani, Enzo (Bologna). "Aceratus Grammaticus." Brill's New Pauly. Antiquity volumes edited
       by: Hubert Cancik and Helmuth Schneider . Brill, 2007. Brill Online. Tufts University Library.
       20 July 2007.</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.7.1</mads:identifier>
   <mads:identifier type="tlg">0101</mads:identifier>
   <mads:extension>
-    <mads:description>List of related work identifiers</mads:description>
-    <mads:identifier type="tlg">0101.001</mads:identifier>
+      <mads:description>List of related work identifiers</mads:description>
+      <mads:identifier type="tlg">0101.001</mads:identifier>
   </mads:extension>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000021</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/37304143/</mads:url>
   <mads:recordInfo>
-    <mads:recordContentSource>Perseus Digital Library</mads:recordContentSource>
-    <mads:recordCreationDate encoding="iso8601">20070401</mads:recordCreationDate>
-    <mads:recordChangeDate encoding="iso8601">20071001</mads:recordChangeDate>
-    <mads:recordIdentifier source="DNB">DNB|10237791X</mads:recordIdentifier>
-    <mads:languageOfCataloging>
-      <mads:languageTerm authority="iso639-2b" type="code">ger</mads:languageTerm>
-    </mads:languageOfCataloging>
-    <mads:languageOfCataloging>
-      <mads:languageTerm authority="iso639-2b" type="code">eng</mads:languageTerm>
-    </mads:languageOfCataloging>
+      <mads:recordContentSource>Perseus Digital Library</mads:recordContentSource>
+      <mads:recordCreationDate encoding="iso8601">20070401</mads:recordCreationDate>
+      <mads:recordChangeDate encoding="iso8601">20071001</mads:recordChangeDate>
+      <mads:recordIdentifier source="DNB">DNB|10237791X</mads:recordIdentifier>
+      <mads:languageOfCataloging>
+         <mads:languageTerm authority="iso639-2b" type="code">ger</mads:languageTerm>
+      </mads:languageOfCataloging>
+      <mads:languageOfCataloging>
+         <mads:languageTerm authority="iso639-2b" type="code">eng</mads:languageTerm>
+      </mads:languageOfCataloging>
   </mads:recordInfo>
 </mads:mads>

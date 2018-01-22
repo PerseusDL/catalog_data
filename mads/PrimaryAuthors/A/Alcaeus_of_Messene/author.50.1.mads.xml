@@ -1,73 +1,78 @@
-<?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd    http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:mads="http://www.loc.gov/mads/v2"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="2.0"
+           xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd    http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal" authority="tlg">
-      <mads:namePart>Alcaeus</mads:namePart>
-      <mads:namePart type="termsOfAddress">Epigr.</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="tlg">
+         <mads:namePart>Alcaeus</mads:namePart>
+         <mads:namePart type="termsOfAddress">Epigr.</mads:namePart>
+      </mads:name>
   </mads:authority>
   <mads:variant lang="grc">
-    <mads:name type="personal">
-      <mads:namePart>A&#x3BB;&#x3BA;&#x3B1;i&#x3BF;&#x3C2;</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Aλκαiος</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal" authority="Smith">
-      <mads:namePart>Alcaeus</mads:namePart>
-      <mads:namePart type="termsOfAddress">of Messene</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="Smith">
+         <mads:namePart>Alcaeus</mads:namePart>
+         <mads:namePart type="termsOfAddress">of Messene</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="translation" lang="ger">
-    <mads:name type="personal">
-      <mads:namePart>Alka&#xEE;os</mads:namePart>
-      <mads:namePart type="termsOfAddress">von Messen</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Alkaîos</mads:namePart>
+         <mads:namePart type="termsOfAddress">von Messen</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Alcaeus</mads:namePart>
-      <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
-      <mads:namePart type="date">3./2. Jh. v. Chr</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Alcaeus</mads:namePart>
+         <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
+         <mads:namePart type="date">3./2. Jh. v. Chr</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Alkaios</mads:namePart>
-      <mads:namePart type="termsOfAddress">von Messene</mads:namePart>
-      <mads:namePart type="date">3./2. Jh. v. Chr</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Alkaios</mads:namePart>
+         <mads:namePart type="termsOfAddress">von Messene</mads:namePart>
+         <mads:namePart type="date">3./2. Jh. v. Chr</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Alceo</mads:namePart>
-      <mads:namePart type="termsOfAddress">di Messene</mads:namePart>
-      <mads:namePart type="date">3./2. Jh. v. Chr</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Alceo</mads:namePart>
+         <mads:namePart type="termsOfAddress">di Messene</mads:namePart>
+         <mads:namePart type="date">3./2. Jh. v. Chr</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Alceo</mads:namePart>
-      <mads:namePart type="termsOfAddress">Poeta Epigrammatico</mads:namePart>
-      <mads:namePart type="date">3./2. Jh. v. Chr</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Alceo</mads:namePart>
+         <mads:namePart type="termsOfAddress">Poeta Epigrammatico</mads:namePart>
+         <mads:namePart type="date">3./2. Jh. v. Chr</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other" xlink:href="http://www.stoa.org/abbreviations.html">
-    <mads:name type="personal" authority="lsj">
-      <mads:namePart>Alcaeus</mads:namePart>
-      <mads:namePart type="termsOfAddress">Messenius Epigrammaticus</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="lsj">
+         <mads:namePart>Alcaeus</mads:namePart>
+         <mads:namePart type="termsOfAddress">Messenius Epigrammaticus</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="abbreviation">
-    <mads:name type="personal" authority="lsj">
-      <mads:namePart>Alc.Mess.</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="lsj">
+         <mads:namePart>Alc.Mess.</mads:namePart>
+      </mads:name>
   </mads:variant>
-  <mads:fieldOfActivity>epigrammatist</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
   
   <mads:note type="source">"Alcaeus, of Messene, the author of a number of epigrams in the Greek
       anthology, from some of which his date may be easily fixed...." from Smith's Dictionary of
       Greek and Roman Biography and Mythology, Vol 1, 1867, p. 95.</mads:note>
-  <mads:note type="source">"Alcaeus, 6, of Messene, Significant epigram poet of the &#x2018;Garland&#x2019; of
+  <mads:note type="source">"Alcaeus, 6, of Messene, Significant epigram poet of the ‘Garland’ of
       Meleager (Anth. Pal. 4,1,13), the last representative of the Alexandrian school, embittered
       enemy of Philip V of Macedonia (221-179 BC)..... from Degani, Enzo (Bologna). "Alcaeus."
       Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and Helmuth Schneider . Brill,
@@ -79,13 +84,13 @@
   <mads:identifier type="citeurn">urn:cite:perseus:author.50.1</mads:identifier>
   <mads:identifier type="tlg">0106</mads:identifier>
   <mads:extension>
-    <mads:description>List of related work identifiers and titles</mads:description>
-    <mads:identifier type="tlg">0106.001</mads:identifier>
+      <mads:description>List of related work identifiers and titles</mads:description>
+      <mads:identifier type="tlg">0106.001</mads:identifier>
   </mads:extension>
   <mads:recordInfo>
-    <mads:recordContentSource>Perseus Digital Library</mads:recordContentSource>
-    <mads:recordCreationDate encoding="iso8601">20070322</mads:recordCreationDate>
-    <mads:recordChangeDate encoding="iso8601">20070905</mads:recordChangeDate>
-    <mads:recordIdentifier/>
+      <mads:recordContentSource>Perseus Digital Library</mads:recordContentSource>
+      <mads:recordCreationDate encoding="iso8601">20070322</mads:recordCreationDate>
+      <mads:recordChangeDate encoding="iso8601">20070905</mads:recordChangeDate>
+      <mads:recordIdentifier/>
   </mads:recordInfo>
 </mads:mads>

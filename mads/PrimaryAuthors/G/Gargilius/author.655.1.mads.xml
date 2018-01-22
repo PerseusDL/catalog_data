@@ -1,41 +1,46 @@
-<?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:mads="http://www.loc.gov/mads/v2"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
+           version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
-      <mads:namePart>Gargilius Martialis, Quintus</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="naf">
+         <mads:namePart>Gargilius Martialis, Quintus</mads:namePart>
+      </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="lat">
-    <mads:name type="personal">
-      <mads:namePart>Martialis, Gargilius</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Martialis, Gargilius</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
-    <mads:name type="personal">
-      <mads:namePart>Gargilio Marziale</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Gargilio Marziale</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
-    <mads:name type="personal">
-      <mads:namePart>Marziale, Gargilio</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Marziale, Gargilio</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Gargilius, Q. Martialis (Quintus Martialis)</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Gargilius, Q. Martialis (Quintus Martialis)</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Gargilius, Quintus Martialis</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Gargilius, Quintus Martialis</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="abbreviation">
-    <mads:name type="personal" authority="ls">
-      <mads:namePart>Gargil. Mart.</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="ls">
+         <mads:namePart>Gargil. Mart.</mads:namePart>
+      </mads:name>
   </mads:variant>
-  <mads:note type="source">Les reme&#xCC;&#x80;des tire&#xCC;&#x81;s des le&#xCC;&#x81;gumes et des
+  <mads:note type="source">Les remeÌ&#x80;des tireÌ&#x81;s des leÌ&#x81;gumes et des
         fruits, 2002: t.p. (Gargilius Martialis)</mads:note>
   <mads:note type="source">Encic. ital. (Marziale, Gargilio (Q. Gargilius Martialis))</mads:note>
   <mads:note type="source">Der kleine Pauly (Gargilius, Q. Martialis)</mads:note>
@@ -44,7 +49,7 @@
   <mads:identifier type="lccn">n 81092056 </mads:identifier>
   <mads:identifier type="lccn" invalid="yes">n 85827517 </mads:identifier>
   <mads:fieldOfActivity>Horticulturist</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Veterinarian</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Veterinary Author</mads:fieldOfActivity>
   <mads:fieldOfActivity>Biographer</mads:fieldOfActivity>
   
   
@@ -53,18 +58,18 @@
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0002.001;didno=ACL3129.0002.001;view=image;seq=00000974</mads:url>
   <mads:identifier type="stoa author">stoa0132</mads:identifier>
   <mads:extension>
-    <mads:description>List of related work identifiers</mads:description>
-    <mads:identifier type="stoa author-text">stoa0132-stoa001</mads:identifier>
-    <mads:identifier type="stoa author-text">stoa0132-stoa004</mads:identifier>
-    <mads:identifier type="stoa author-text">stoa0132-stoa003</mads:identifier>
+      <mads:description>List of related work identifiers</mads:description>
+      <mads:identifier type="stoa author-text">stoa0132-stoa001</mads:identifier>
+      <mads:identifier type="stoa author-text">stoa0132-stoa004</mads:identifier>
+      <mads:identifier type="stoa author-text">stoa0132-stoa003</mads:identifier>
   </mads:extension>
   <mads:recordInfo>
-    <mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource>
-    <mads:recordCreationDate encoding="marc">811014</mads:recordCreationDate>
-    <mads:recordChangeDate encoding="iso8601">20021213071322.0</mads:recordChangeDate>
-    <mads:recordIdentifier>oca00637246 </mads:recordIdentifier>
-    <mads:languageOfCataloging>
-      <mads:languageTerm type="code" authority="iso639-2b">eng</mads:languageTerm>
-    </mads:languageOfCataloging>
+      <mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource>
+      <mads:recordCreationDate encoding="marc">811014</mads:recordCreationDate>
+      <mads:recordChangeDate encoding="iso8601">20021213071322.0</mads:recordChangeDate>
+      <mads:recordIdentifier>oca00637246 </mads:recordIdentifier>
+      <mads:languageOfCataloging>
+         <mads:languageTerm type="code" authority="iso639-2b">eng</mads:languageTerm>
+      </mads:languageOfCataloging>
   </mads:recordInfo>
 </mads:mads>
