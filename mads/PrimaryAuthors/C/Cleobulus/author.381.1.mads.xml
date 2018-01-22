@@ -1,98 +1,103 @@
-<?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:mads="http://www.loc.gov/mads/v2"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="2.0"
+           xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal" authority="RAK-PND">
-      <mads:namePart>Cleobulus</mads:namePart>
-      <mads:namePart type="termsOfAddress">Lindius</mads:namePart>
-      <mads:namePart type="date">7./6. Jh. v. Chr</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="RAK-PND">
+         <mads:namePart>Cleobulus</mads:namePart>
+         <mads:namePart type="termsOfAddress">Lindius</mads:namePart>
+         <mads:namePart type="date">7./6. Jh. v. Chr</mads:namePart>
+      </mads:name>
   </mads:authority>
   <mads:related type="other">
-    <mads:name type="personal">
-      <mads:namePart>Septem Sapientes</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Septem Sapientes</mads:namePart>
+      </mads:name>
   </mads:related>
   <mads:related type="equivalent" lang="ger">
-    <mads:name type="personal" authority="Other Rules">
-      <mads:namePart>Kleobulos</mads:namePart>
-      <mads:namePart type="termsOfAddress">von Lindos</mads:namePart>
-      <mads:namePart type="date">7./6. Jh. v. Chr</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="Other Rules">
+         <mads:namePart>Kleobulos</mads:namePart>
+         <mads:namePart type="termsOfAddress">von Lindos</mads:namePart>
+         <mads:namePart type="date">7./6. Jh. v. Chr</mads:namePart>
+      </mads:name>
   </mads:related>
   <mads:variant type="other" lang="grc">
-    <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x39A;&#x3BB;&#x3B5;&#x3CC;&#x3B2;&#x3BF;&#x3C5;&#x3BB;&#x3BF;&#x3C2;</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="Brill">
+         <mads:namePart>Κλεόβουλος</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
-    <mads:name type="personal">
-      <mads:namePart>Cleobulus</mads:namePart>
-      <mads:namePart type="termsOfAddress">Lyricus</mads:namePart>
-      <mads:namePart type="date">7./6. Jh. v. Chr</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Cleobulus</mads:namePart>
+         <mads:namePart type="termsOfAddress">Lyricus</mads:namePart>
+         <mads:namePart type="date">7./6. Jh. v. Chr</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
-    <mads:name type="personal">
-      <mads:namePart>Cleobulus</mads:namePart>
-      <mads:namePart type="termsOfAddress">Epicus</mads:namePart>
-      <mads:namePart type="date">7./6. Jh. v. Chr</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Cleobulus</mads:namePart>
+         <mads:namePart type="termsOfAddress">Epicus</mads:namePart>
+         <mads:namePart type="date">7./6. Jh. v. Chr</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ara">
-    <mads:name type="personal" authority="wiki">
-      <mads:namePart>&#x643;&#x644;&#x64A;&#x648;&#x628;&#x648;&#x644;&#x648;&#x633;</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="wiki">
+         <mads:namePart>كليوبولوس</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="cat">
-    <mads:name type="personal">
-      <mads:namePart>Cle&#xF2;bul</mads:namePart>
-      <mads:namePart type="termsOfAddress">de Lindos</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Cleòbul</mads:namePart>
+         <mads:namePart type="termsOfAddress">de Lindos</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
-    <mads:name type="personal">
-      <mads:namePart>Cl&#xE9;obule</mads:namePart>
-      <mads:namePart type="termsOfAddress">de Lindos</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Cléobule</mads:namePart>
+         <mads:namePart type="termsOfAddress">de Lindos</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
-    <mads:name type="personal">
-      <mads:namePart>Kleobulos</mads:namePart>
-      <mads:namePart type="termsOfAddress">Lindos, Tyrann</mads:namePart>
-      <mads:namePart type="date">7./6. Jh. v. Chr</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Kleobulos</mads:namePart>
+         <mads:namePart type="termsOfAddress">Lindos, Tyrann</mads:namePart>
+         <mads:namePart type="date">7./6. Jh. v. Chr</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
-    <mads:name type="personal">
-      <mads:namePart>Cleobulo</mads:namePart>
-      <mads:namePart type="termsOfAddress">di Lindo</mads:namePart>
-      <mads:namePart type="date">7./6. Jh. v. Chr</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Cleobulo</mads:namePart>
+         <mads:namePart type="termsOfAddress">di Lindo</mads:namePart>
+         <mads:namePart type="date">7./6. Jh. v. Chr</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="spa">
-    <mads:name type="personal">
-      <mads:namePart>Cle&#xF2;bulo</mads:namePart>
-      <mads:namePart type="termsOfAddress">de Lindos</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Cleòbulo</mads:namePart>
+         <mads:namePart type="termsOfAddress">de Lindos</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal" authority="lsj">
-      <mads:namePart>Cleobulus</mads:namePart>
-      <mads:namePart type="termsOfAddress">Lyricus</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="lsj">
+         <mads:namePart>Cleobulus</mads:namePart>
+         <mads:namePart type="termsOfAddress">Lyricus</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="abbreviation">
-    <mads:name type="personal" authority="lsj">
-      <mads:namePart>Cleobul.</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="lsj">
+         <mads:namePart>Cleobul.</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:note type="nonpublic">TITAN</mads:note>
   <mads:note type="source">PAN; Kroh</mads:note>
-  <mads:note type="history">Griech. Politiker, Tyrann von Rhodos, za&#x308;hlt zu den Sieben Weisen</mads:note>
-  <mads:fieldOfActivity>epigrammatist</mads:fieldOfActivity>
-  <mads:fieldOfActivity>lyric poet</mads:fieldOfActivity>
-  <mads:fieldOfActivity>seven sages</mads:fieldOfActivity>
-  <mads:fieldOfActivity>septem sapientes</mads:fieldOfActivity>
+  <mads:note type="history">Griech. Politiker, Tyrann von Rhodos, zählt zu den Sieben Weisen</mads:note>
+  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Lyric Poet</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Septem Sapientes</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Septem Sapientes</mads:fieldOfActivity>
   <mads:note type="source">TLG Canon of Greek Authors and Works, pg. 102</mads:note>
   <mads:note type="source">"Cleobu'lus, one of the Seven Sages, was son of Evagoras and a citizen
       of Lindus in Rhodes......" Smith's Dictionary of Greek and Roman Biography and Mythology, Vol
@@ -112,19 +117,19 @@
   <mads:identifier type="citeurn">urn:cite:perseus:author.381.1</mads:identifier>
   <mads:identifier type="tlg">1274</mads:identifier>
   <mads:extension>
-    <note>List of related Work IDs</note>
-    <mads:identifier type="tlg">1274.001</mads:identifier>
-    <mads:identifier type="tlg">1274.002</mads:identifier>
-    <mads:identifier type="tlg">0622.001</mads:identifier>
-    <mads:identifier type="tlg">1667</mads:identifier>
+      <note>List of related Work IDs</note>
+      <mads:identifier type="tlg">1274.001</mads:identifier>
+      <mads:identifier type="tlg">1274.002</mads:identifier>
+      <mads:identifier type="tlg">0622.001</mads:identifier>
+      <mads:identifier type="tlg">1667</mads:identifier>
   </mads:extension>
   <mads:recordInfo>
-    <mads:recordContentSource authority="marcorg">0000</mads:recordContentSource>
-    <mads:recordCreationDate encoding="marc">930416</mads:recordCreationDate>
-    <mads:recordChangeDate encoding="iso8601">20061124161541.0</mads:recordChangeDate>
-    <mads:recordIdentifier source="DNB">DNB|102385106</mads:recordIdentifier>
-    <mads:languageOfCataloging>
-      <mads:languageTerm authority="iso639-2b" type="code">ger</mads:languageTerm>
-    </mads:languageOfCataloging>
+      <mads:recordContentSource authority="marcorg">0000</mads:recordContentSource>
+      <mads:recordCreationDate encoding="marc">930416</mads:recordCreationDate>
+      <mads:recordChangeDate encoding="iso8601">20061124161541.0</mads:recordChangeDate>
+      <mads:recordIdentifier source="DNB">DNB|102385106</mads:recordIdentifier>
+      <mads:languageOfCataloging>
+         <mads:languageTerm authority="iso639-2b" type="code">ger</mads:languageTerm>
+      </mads:languageOfCataloging>
   </mads:recordInfo>
 </mads:mads>

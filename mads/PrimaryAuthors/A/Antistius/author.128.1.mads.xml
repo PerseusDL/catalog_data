@@ -1,39 +1,44 @@
-<?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:mads="http://www.loc.gov/mads/v2"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="2.0"
+           xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
-      <mads:namePart>Antistius</mads:namePart>
-      <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
-      <mads:namePart type="date">1. Jh. n. Chr</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Antistius</mads:namePart>
+         <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
+         <mads:namePart type="date">1. Jh. n. Chr</mads:namePart>
+      </mads:name>
   </mads:authority>
   <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Antistius</mads:namePart>
-      <mads:namePart type="termsOfAddress">Vetus</mads:namePart>
-      <mads:namePart type="date">1. Jh. n. Chr</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Antistius</mads:namePart>
+         <mads:namePart type="termsOfAddress">Vetus</mads:namePart>
+         <mads:namePart type="date">1. Jh. n. Chr</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal" authority="tlg">
-      <mads:namePart>Antistius</mads:namePart>
-      <mads:namePart>Epigr.</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="tlg">
+         <mads:namePart>Antistius</mads:namePart>
+         <mads:namePart>Epigr.</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal" authority="lsj">
-      <mads:namePart>Antistius</mads:namePart>
-      <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="lsj">
+         <mads:namePart>Antistius</mads:namePart>
+         <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="abbreviation">
-    <mads:name type="personal" authority="lsj">
-      <mads:namePart>Antist.</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="lsj">
+         <mads:namePart>Antist.</mads:namePart>
+      </mads:name>
   </mads:variant>
-  <mads:fieldOfActivity>epigrammatist</mads:fieldOfActivity>
-  <mads:fieldOfActivity>epigrammatiker</mads:fieldOfActivity>
-  <mads:note type="history">AP 6.237; 7.366; 11.40; 16.243; Identita&#x308;t mit Antistius
+  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
+  <mads:note type="history">AP 6.237; 7.366; 11.40; 16.243; Identität mit Antistius
       &lt;Vetus&gt; umstritten</mads:note>
   <mads:note type="source">TLG Canon of Greek Authors and Works, p. 40</mads:note>
   <mads:note type="source">"Antis'tius, a writer of Greek Epigrams, though, as his name seems to
@@ -51,16 +56,16 @@
   <mads:identifier type="citeurn">urn:cite:perseus:author.128.1</mads:identifier>
   <mads:identifier type="tlg">0119</mads:identifier>
   <mads:extension>
-    <mads:description>List of related work identifiers</mads:description>
-    <mads:identifier type="tlg">0119.001</mads:identifier>
+      <mads:description>List of related work identifiers</mads:description>
+      <mads:identifier type="tlg">0119.001</mads:identifier>
   </mads:extension>
   <mads:recordInfo>
-    <mads:recordContentSource authority="marcorg">0000</mads:recordContentSource>
-    <mads:recordCreationDate encoding="marc">930416</mads:recordCreationDate>
-    <mads:recordChangeDate encoding="iso8601">19960808163924.0</mads:recordChangeDate>
-    <mads:recordIdentifier source="DNB">DNB|10238021X</mads:recordIdentifier>
-    <mads:languageOfCataloging>
-      <mads:languageTerm authority="iso639-2b" type="code">ger</mads:languageTerm>
-    </mads:languageOfCataloging>
+      <mads:recordContentSource authority="marcorg">0000</mads:recordContentSource>
+      <mads:recordCreationDate encoding="marc">930416</mads:recordCreationDate>
+      <mads:recordChangeDate encoding="iso8601">19960808163924.0</mads:recordChangeDate>
+      <mads:recordIdentifier source="DNB">DNB|10238021X</mads:recordIdentifier>
+      <mads:languageOfCataloging>
+         <mads:languageTerm authority="iso639-2b" type="code">ger</mads:languageTerm>
+      </mads:languageOfCataloging>
   </mads:recordInfo>
 </mads:mads>

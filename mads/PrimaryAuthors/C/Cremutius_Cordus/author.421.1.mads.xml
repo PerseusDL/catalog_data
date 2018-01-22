@@ -1,34 +1,39 @@
-<?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:mads="http://www.loc.gov/mads/v2"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
+           version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
-      <mads:namePart>Cremutius Cordus, A. (Aulus)</mads:namePart>
-      <mads:namePart type="date">d. 25</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="naf">
+         <mads:namePart>Cremutius Cordus, A. (Aulus)</mads:namePart>
+         <mads:namePart type="date">d. 25</mads:namePart>
+      </mads:name>
   </mads:authority>
   <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Cremutius Cordus, Aulus</mads:namePart>
-      <mads:namePart type="date">d. 25</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Cremutius Cordus, Aulus</mads:namePart>
+         <mads:namePart type="date">d. 25</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Cordus, Cremutius</mads:namePart>
-      <mads:namePart type="date">d. 25</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Cordus, Cremutius</mads:namePart>
+         <mads:namePart type="date">d. 25</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Cordus, A. Cremutius (Aulus Cremutius)</mads:namePart>
-      <mads:namePart type="date">d. 25</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Cordus, A. Cremutius (Aulus Cremutius)</mads:namePart>
+         <mads:namePart type="date">d. 25</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>A. Cremutius Cordus (Aulus Cremutius Cordus)</mads:namePart>
-      <mads:namePart type="date">d. 25</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>A. Cremutius Cordus (Aulus Cremutius Cordus)</mads:namePart>
+         <mads:namePart type="date">d. 25</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:note type="source">His Annales [CF] 1991: PHI CD ROM #5.3, Latin Canon, bibliographic
         screen (A. Cremutius Cordus)</mads:note>
@@ -44,7 +49,7 @@
   <mads:note type="notFound">NUC pre-56</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.421.1</mads:identifier>
   <mads:identifier type="lccn">nr 95029295 </mads:identifier>
-  <mads:fieldOfActivity>historiographer</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Historiographer</mads:fieldOfActivity>
   
   
   
@@ -53,16 +58,16 @@
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000866</mads:url>
   <mads:identifier type="phi">502</mads:identifier>
   <mads:extension>
-    <mads:description>List of related work identifiers</mads:description>
-    <mads:identifier type="phi">502.1</mads:identifier>
+      <mads:description>List of related work identifiers</mads:description>
+      <mads:identifier type="phi">502.1</mads:identifier>
   </mads:extension>
   <mads:recordInfo>
-    <mads:recordContentSource authority="marcorg">NNC</mads:recordContentSource>
-    <mads:recordCreationDate encoding="marc">950809</mads:recordCreationDate>
-    <mads:recordChangeDate encoding="iso8601">20001104070522.0</mads:recordChangeDate>
-    <mads:recordIdentifier>oca03896541 </mads:recordIdentifier>
-    <mads:languageOfCataloging>
-      <mads:languageTerm type="code" authority="iso639-2b">eng</mads:languageTerm>
-    </mads:languageOfCataloging>
+      <mads:recordContentSource authority="marcorg">NNC</mads:recordContentSource>
+      <mads:recordCreationDate encoding="marc">950809</mads:recordCreationDate>
+      <mads:recordChangeDate encoding="iso8601">20001104070522.0</mads:recordChangeDate>
+      <mads:recordIdentifier>oca03896541 </mads:recordIdentifier>
+      <mads:languageOfCataloging>
+         <mads:languageTerm type="code" authority="iso639-2b">eng</mads:languageTerm>
+      </mads:languageOfCataloging>
   </mads:recordInfo>
 </mads:mads>

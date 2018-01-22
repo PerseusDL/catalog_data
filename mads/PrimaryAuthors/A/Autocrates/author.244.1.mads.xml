@@ -1,44 +1,49 @@
-<?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:mads="http://www.loc.gov/mads/v2"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="2.0"
+           xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
-      <mads:namePart>Autocrates</mads:namePart>
-      <mads:namePart type="termsOfAddress">Comicus</mads:namePart>
-      <mads:namePart type="date">5./4. Jh. v. Chr</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Autocrates</mads:namePart>
+         <mads:namePart type="termsOfAddress">Comicus</mads:namePart>
+         <mads:namePart type="date">5./4. Jh. v. Chr</mads:namePart>
+      </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="grc">
-    <mads:name type="personal" authority="Brill">
-      <mads:namePart/>
-    </mads:name>
+      <mads:name type="personal" authority="Brill">
+         <mads:namePart/>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Autokrates</mads:namePart>
-      <mads:namePart type="termsOfAddress">von Athen</mads:namePart>
-      <mads:namePart type="date">5./4. Jh. v. Chr</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Autokrates</mads:namePart>
+         <mads:namePart type="termsOfAddress">von Athen</mads:namePart>
+         <mads:namePart type="date">5./4. Jh. v. Chr</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Autokrates</mads:namePart>
-      <mads:namePart type="termsOfAddress">Lustspieldichter</mads:namePart>
-      <mads:namePart type="date">5./4. Jh. v. Chr</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Autokrates</mads:namePart>
+         <mads:namePart type="termsOfAddress">Lustspieldichter</mads:namePart>
+         <mads:namePart type="date">5./4. Jh. v. Chr</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal" authority="lsj">
-      <mads:namePart>Autocrates</mads:namePart>
-      <mads:namePart type="termsOfAddress">Comicus</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="lsj">
+         <mads:namePart>Autocrates</mads:namePart>
+         <mads:namePart type="termsOfAddress">Comicus</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="abbreviation">
-    <mads:name type="personal" authority="lsj">
-      <mads:namePart>Autocr.</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="lsj">
+         <mads:namePart>Autocr.</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:note type="genre">Old Comedy</mads:note>
-  <mads:fieldOfActivity>comic poet</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Comic Poet</mads:fieldOfActivity>
   
   
   
@@ -48,16 +53,16 @@
   <mads:identifier type="citeurn">urn:cite:perseus:author.244.1</mads:identifier>
   <mads:identifier type="tlg">0423</mads:identifier>
   <mads:extension>
-    <mads:description>List of related work identifiers</mads:description>
-    <mads:identifier type="tlg">0423.001</mads:identifier>
+      <mads:description>List of related work identifiers</mads:description>
+      <mads:identifier type="tlg">0423.001</mads:identifier>
   </mads:extension>
   <mads:recordInfo>
-    <mads:recordContentSource authority="marcorg">0000</mads:recordContentSource>
-    <mads:recordCreationDate encoding="marc">930416</mads:recordCreationDate>
-    <mads:recordChangeDate encoding="iso8601">19960808164000.0</mads:recordChangeDate>
-    <mads:recordIdentifier source="DNB">DNB|102382751</mads:recordIdentifier>
-    <mads:languageOfCataloging>
-      <mads:languageTerm authority="iso639-2b" type="code">ger</mads:languageTerm>
-    </mads:languageOfCataloging>
+      <mads:recordContentSource authority="marcorg">0000</mads:recordContentSource>
+      <mads:recordCreationDate encoding="marc">930416</mads:recordCreationDate>
+      <mads:recordChangeDate encoding="iso8601">19960808164000.0</mads:recordChangeDate>
+      <mads:recordIdentifier source="DNB">DNB|102382751</mads:recordIdentifier>
+      <mads:languageOfCataloging>
+         <mads:languageTerm authority="iso639-2b" type="code">ger</mads:languageTerm>
+      </mads:languageOfCataloging>
   </mads:recordInfo>
 </mads:mads>

@@ -1,36 +1,41 @@
-<?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:mads="http://www.loc.gov/mads/v2"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="2.0"
+           xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
-      <mads:namePart>Demetrius</mads:namePart>
-      <mads:namePart type="termsOfAddress">Bithynius</mads:namePart>
-      <mads:namePart type="date">2. Jh. v. Chr</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Demetrius</mads:namePart>
+         <mads:namePart type="termsOfAddress">Bithynius</mads:namePart>
+         <mads:namePart type="date">2. Jh. v. Chr</mads:namePart>
+      </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="grc">
-    <mads:name type="personal">
-      <mads:namePart>&#x394;&#x3B7;&#x3BC;&#x3AE;&#x3C4;&#x3C1;&#x3B9;&#x3BF;&#x3C2;</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Δημήτριος</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Demetrius</mads:namePart>
-      <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
-      <mads:namePart type="date">2. Jh. v. Chr</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Demetrius</mads:namePart>
+         <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
+         <mads:namePart type="date">2. Jh. v. Chr</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal" authority="lsj">
-      <mads:namePart/>
-      <mads:namePart type="termsOfAddress"/>
-    </mads:name>
+      <mads:name type="personal" authority="lsj">
+         <mads:namePart/>
+         <mads:namePart type="termsOfAddress"/>
+      </mads:name>
   </mads:variant>
   <mads:variant type="abbreviation">
-    <mads:name type="personal" authority="lsj">
-      <mads:namePart/>
-    </mads:name>
+      <mads:name type="personal" authority="lsj">
+         <mads:namePart/>
+      </mads:name>
   </mads:variant>
-  <mads:fieldOfActivity>epigrammatist</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
   
   
   
@@ -40,17 +45,17 @@
   <mads:identifier type="citeurn">urn:cite:perseus:author.450.1</mads:identifier>
   <mads:identifier type="tlg">0159</mads:identifier>
   <mads:extension>
-    <mads:description>List of related work identifiers</mads:description>
-    <mads:identifier type="tlg">0159.001</mads:identifier>
+      <mads:description>List of related work identifiers</mads:description>
+      <mads:identifier type="tlg">0159.001</mads:identifier>
   </mads:extension>
   <mads:note type="history">AP 9.730-732</mads:note>
   <mads:recordInfo>
-    <mads:recordContentSource authority="marcorg">DE-12</mads:recordContentSource>
-    <mads:recordCreationDate encoding="marc">930416</mads:recordCreationDate>
-    <mads:recordChangeDate encoding="iso8601">20080405190806.0</mads:recordChangeDate>
-    <mads:recordIdentifier source="DNB">DNB|102390061</mads:recordIdentifier>
-    <mads:languageOfCataloging>
-      <mads:languageTerm authority="iso639-2b" type="code">ger</mads:languageTerm>
-    </mads:languageOfCataloging>
+      <mads:recordContentSource authority="marcorg">DE-12</mads:recordContentSource>
+      <mads:recordCreationDate encoding="marc">930416</mads:recordCreationDate>
+      <mads:recordChangeDate encoding="iso8601">20080405190806.0</mads:recordChangeDate>
+      <mads:recordIdentifier source="DNB">DNB|102390061</mads:recordIdentifier>
+      <mads:languageOfCataloging>
+         <mads:languageTerm authority="iso639-2b" type="code">ger</mads:languageTerm>
+      </mads:languageOfCataloging>
   </mads:recordInfo>
 </mads:mads>

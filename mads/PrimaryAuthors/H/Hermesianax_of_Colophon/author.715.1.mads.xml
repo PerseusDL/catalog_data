@@ -1,44 +1,49 @@
-<?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:mads="http://www.loc.gov/mads/v2"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
+           version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
-      <mads:namePart>Hermesianax</mads:namePart>
-      <mads:namePart type="termsOfAddress">of Colophon</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="naf">
+         <mads:namePart>Hermesianax</mads:namePart>
+         <mads:namePart type="termsOfAddress">of Colophon</mads:namePart>
+      </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="grc">
-    <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x1F19;&#x3C1;&#x3BC;&#x3B7;&#x3C3;&#x3B9;&#x3AC;&#x3BD;&#x3B1;&#x3BE;</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="Brill">
+         <mads:namePart>Ἑρμησιάναξ</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
-    <mads:name type="personal" authority="Brill">
-      <mads:namePart>Hermesianax</mads:namePart>
-      <mads:namePart type="termsOfAddress">Colophonius</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="Brill">
+         <mads:namePart>Hermesianax</mads:namePart>
+         <mads:namePart type="termsOfAddress">Colophonius</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
-    <mads:name type="personal" authority="viaf">
-      <mads:namePart>Ermesianatte</mads:namePart>
-      <mads:namePart type="termsOfAddress">di Colofone</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="viaf">
+         <mads:namePart>Ermesianatte</mads:namePart>
+         <mads:namePart type="termsOfAddress">di Colofone</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal" authority="lsj">
-      <mads:namePart>Hermesianax </mads:namePart>
-      <mads:namePart type="termsOfAddress">Elegiacus</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="lsj">
+         <mads:namePart>Hermesianax </mads:namePart>
+         <mads:namePart type="termsOfAddress">Elegiacus</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="abbreviation">
-    <mads:name type="personal" authority="lsj">
-      <mads:namePart>Hermesian.</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="lsj">
+         <mads:namePart>Hermesian.</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:note type="source">A stylistic commentary on Hermesianax, 1998</mads:note>
   <mads:note type="source">Oxford class. dict., 1949 (Hermesianax of Colophon, probably b. ca. 300 B.C.)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.715.1</mads:identifier>
   <mads:identifier type="lccn">n  99041141 </mads:identifier>
-  <mads:fieldOfActivity>Elegiac Poet</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Elegist</mads:fieldOfActivity>
   
   
   
@@ -48,16 +53,16 @@
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/36248173</mads:url>
   <mads:identifier type="tlg">0213</mads:identifier>
   <mads:extension>
-    <mads:description>List of related work identifiers</mads:description>
-    <mads:identifier type="tlg">0213.001</mads:identifier>
+      <mads:description>List of related work identifiers</mads:description>
+      <mads:identifier type="tlg">0213.001</mads:identifier>
   </mads:extension>
   <mads:recordInfo>
-    <mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource>
-    <mads:recordCreationDate encoding="marc">990602</mads:recordCreationDate>
-    <mads:recordChangeDate encoding="iso8601">19990602163202.7</mads:recordChangeDate>
-    <mads:recordIdentifier>oca04999818 </mads:recordIdentifier>
-    <mads:languageOfCataloging>
-      <mads:languageTerm type="code" authority="iso639-2b">eng</mads:languageTerm>
-    </mads:languageOfCataloging>
+      <mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource>
+      <mads:recordCreationDate encoding="marc">990602</mads:recordCreationDate>
+      <mads:recordChangeDate encoding="iso8601">19990602163202.7</mads:recordChangeDate>
+      <mads:recordIdentifier>oca04999818 </mads:recordIdentifier>
+      <mads:languageOfCataloging>
+         <mads:languageTerm type="code" authority="iso639-2b">eng</mads:languageTerm>
+      </mads:languageOfCataloging>
   </mads:recordInfo>
 </mads:mads>

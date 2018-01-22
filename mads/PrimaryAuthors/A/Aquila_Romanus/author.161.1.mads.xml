@@ -1,30 +1,35 @@
-<?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:mads="http://www.loc.gov/mads/v2"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
+           version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
-      <mads:namePart>Aquila</mads:namePart>
-      <mads:namePart type="termsOfAddress">Romanus</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="naf">
+         <mads:namePart>Aquila</mads:namePart>
+         <mads:namePart type="termsOfAddress">Romanus</mads:namePart>
+      </mads:name>
   </mads:authority>
   <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Rhomanus Aquila</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Rhomanus Aquila</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Romanus Aquila</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Romanus Aquila</mads:namePart>
+      </mads:name>
   </mads:variant>
-  <mads:fieldOfActivity>rhetorician</mads:fieldOfActivity>
-  <mads:fieldOfActivity>grammarian</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Rhetorician</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Grammarian</mads:fieldOfActivity>
   <mads:note type="source">Veterum aliquot de arte rhetorica traditiones, 1521: p. 30 (Rhomani
         Aquilae)</mads:note>
   <mads:note type="source">RLIN, 8/9/96 (hdg.: Aquila, Romanus; usage: Aquila Romanus, Romani
     Aquilae)</mads:note>
   
   <mads:note type="source">"Aquila Romanus, Orator of the second half of the 3rd cent. AD, writer
-        of the tract, De figuris sententiarum et elocutionis"... from Liebermann, Wolf-L&#xFC;der
+        of the tract, De figuris sententiarum et elocutionis"... from Liebermann, Wolf-Lüder
         (Bielefeld). "Aquila." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and
         Helmuth Schneider . Brill, 2007. Brill Online. Tufts University Library. 04 October 2007</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.161.1</mads:identifier>
@@ -34,13 +39,13 @@
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Aquila_Romanus</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000268</mads:url>
   <mads:extension>
-    <mads:description>List of related work identifiers</mads:description>
-    <mads:identifier type="stoa author-text">stoa0030b-stoa001</mads:identifier>
+      <mads:description>List of related work identifiers</mads:description>
+      <mads:identifier type="stoa author-text">stoa0030b-stoa001</mads:identifier>
   </mads:extension>
   <mads:recordInfo>
-    <mads:recordContentSource authority="marcorg">UPB</mads:recordContentSource>
-    <mads:recordCreationDate encoding="marc">960809</mads:recordCreationDate>
-    <mads:recordChangeDate encoding="iso8601">19961109051509.8</mads:recordChangeDate>
-    <mads:recordIdentifier>oca04204762 </mads:recordIdentifier>
+      <mads:recordContentSource authority="marcorg">UPB</mads:recordContentSource>
+      <mads:recordCreationDate encoding="marc">960809</mads:recordCreationDate>
+      <mads:recordChangeDate encoding="iso8601">19961109051509.8</mads:recordChangeDate>
+      <mads:recordIdentifier>oca04204762 </mads:recordIdentifier>
   </mads:recordInfo>
 </mads:mads>

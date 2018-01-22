@@ -1,55 +1,60 @@
-<?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:mads="http://www.loc.gov/mads/v2"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="2.0"
+           xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
-      <mads:namePart>Arabius</mads:namePart>
-      <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
-      <mads:namePart type="date">6. Jh</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Arabius</mads:namePart>
+         <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
+         <mads:namePart type="date">6. Jh</mads:namePart>
+      </mads:name>
   </mads:authority>
   <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Epigrammaticus, Arabius</mads:namePart>
-      <mads:namePart type="date">6. Jh</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Epigrammaticus, Arabius</mads:namePart>
+         <mads:namePart type="date">6. Jh</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Arabios</mads:namePart>
-      <mads:namePart type="date">6. Jh</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Arabios</mads:namePart>
+         <mads:namePart type="date">6. Jh</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Arabius</mads:namePart>
-      <mads:namePart type="termsOfAddress">Scholasticus</mads:namePart>
-      <mads:namePart type="date">6. Jh</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Arabius</mads:namePart>
+         <mads:namePart type="termsOfAddress">Scholasticus</mads:namePart>
+         <mads:namePart type="date">6. Jh</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal" authority="tlg">
-      <mads:namePart>Arabius</mads:namePart>
-      <mads:namePart type="termsOfAddress">Epigr.</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="tlg">
+         <mads:namePart>Arabius</mads:namePart>
+         <mads:namePart type="termsOfAddress">Epigr.</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="grc">
-    <mads:name type="personal">
-      <mads:namePart>&#x391;&#x3C1;&#x3B1;&#x3B2;&#x3B9;&#x3BF;&#x3C2; &#x3C3;&#x3C7;&#x3BF;&#x3BB;&#x3C3;&#x3C4;&#x3B9;&#x3BA;o&#x3C2; </mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Αραβιος σχολστικoς </mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal" authority="Smith">
-      <mads:namePart>Ara'bius </mads:namePart>
-      <mads:namePart type="termsOfAddress">Schola'sticus</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="Smith">
+         <mads:namePart>Ara'bius </mads:namePart>
+         <mads:namePart type="termsOfAddress">Schola'sticus</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="abbreviation">
-    <mads:name type="personal" authority="lsj">
-      <mads:namePart>Arab.</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="lsj">
+         <mads:namePart>Arab.</mads:namePart>
+      </mads:name>
   </mads:variant>
-  <mads:fieldOfActivity>epigrammatist</mads:fieldOfActivity>
-  <mads:fieldOfActivity>epigrammatiker</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
   
   <mads:note type="source">"Ara'bius Schola'sticus, the author of seven epigrams in the Greek
       Anthology, most of which are upon works of art, lived probably in the reign of Justinian."
@@ -64,16 +69,16 @@
   <mads:identifier type="citeurn">urn:cite:perseus:author.164.1</mads:identifier>
   <mads:identifier type="tlg">4035</mads:identifier>
   <mads:extension>
-    <mads:description>List of related work identifiers</mads:description>
-    <mads:identifier type="tlg">4035.001</mads:identifier>
+      <mads:description>List of related work identifiers</mads:description>
+      <mads:identifier type="tlg">4035.001</mads:identifier>
   </mads:extension>
   <mads:recordInfo>
-    <mads:recordContentSource authority="marcorg">0000</mads:recordContentSource>
-    <mads:recordCreationDate encoding="marc">920629</mads:recordCreationDate>
-    <mads:recordChangeDate encoding="iso8601">20061123230804.0</mads:recordChangeDate>
-    <mads:recordIdentifier source="DNB">DNB|10237077X</mads:recordIdentifier>
-    <mads:languageOfCataloging>
-      <mads:languageTerm authority="iso639-2b" type="code">ger</mads:languageTerm>
-    </mads:languageOfCataloging>
+      <mads:recordContentSource authority="marcorg">0000</mads:recordContentSource>
+      <mads:recordCreationDate encoding="marc">920629</mads:recordCreationDate>
+      <mads:recordChangeDate encoding="iso8601">20061123230804.0</mads:recordChangeDate>
+      <mads:recordIdentifier source="DNB">DNB|10237077X</mads:recordIdentifier>
+      <mads:languageOfCataloging>
+         <mads:languageTerm authority="iso639-2b" type="code">ger</mads:languageTerm>
+      </mads:languageOfCataloging>
   </mads:recordInfo>
 </mads:mads>

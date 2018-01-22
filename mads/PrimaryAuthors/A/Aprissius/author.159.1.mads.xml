@@ -1,9 +1,14 @@
-<?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:mads="http://www.loc.gov/mads/v2"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="2.0"
+           xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
-      <mads:namePart>Aprissius</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="naf">
+         <mads:namePart>Aprissius</mads:namePart>
+      </mads:name>
   </mads:authority>
   <mads:note type="source">His Fragmentum [CF] 1991: PHI CD ROM #5.3, Latin Canon, bibliographic
       screen (Aprissius)</mads:note>
@@ -21,13 +26,13 @@
   <mads:url displayLabel="Smith's Dictionary"/>
   <mads:identifier type="phi">410</mads:identifier>
   <mads:extension>
-    <mads:description>List of related work identifiers</mads:description>
-    <mads:identifier type="phi">410</mads:identifier>
+      <mads:description>List of related work identifiers</mads:description>
+      <mads:identifier type="phi">410</mads:identifier>
   </mads:extension>
   <mads:recordInfo>
-    <mads:recordContentSource authority="marcorg">NNC</mads:recordContentSource>
-    <mads:recordCreationDate encoding="marc">950823</mads:recordCreationDate>
-    <mads:recordChangeDate encoding="iso8601">19950825052815.6</mads:recordChangeDate>
-    <mads:recordIdentifier>oca03906188 </mads:recordIdentifier>
+      <mads:recordContentSource authority="marcorg">NNC</mads:recordContentSource>
+      <mads:recordCreationDate encoding="marc">950823</mads:recordCreationDate>
+      <mads:recordChangeDate encoding="iso8601">19950825052815.6</mads:recordChangeDate>
+      <mads:recordIdentifier>oca03906188 </mads:recordIdentifier>
   </mads:recordInfo>
 </mads:mads>

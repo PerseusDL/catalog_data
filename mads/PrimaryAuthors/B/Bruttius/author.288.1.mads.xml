@@ -1,24 +1,30 @@
-<?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:mads="http://www.loc.gov/mads/v2"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="2.0"
+           xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
-      <mads:namePart>Bruttius</mads:namePart>
-      <mads:namePart type="date">Person der Antike</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Bruttius</mads:namePart>
+         <mads:namePart type="date">Person der Antike</mads:namePart>
+      </mads:name>
   </mads:authority>
   <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Bruttius</mads:namePart>
-      <mads:namePart type="termsOfAddress">Historiker</mads:namePart>
-      <mads:namePart type="date">Person der Antike</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Bruttius</mads:namePart>
+         <mads:namePart type="termsOfAddress">Historiker</mads:namePart>
+         <mads:namePart type="date">Person der Antike</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal" authority="Smith">
-      <mads:namePart>Brutius</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="Smith">
+         <mads:namePart>Brutius</mads:namePart>
+      </mads:name>
   </mads:variant>
-  <mads:fieldOfActivity>historian</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
+    <mads:fieldOfActivity>Chronographer</mads:fieldOfActivity>
   <mads:note type="source">"Brutius, a historian and chronographer, is called by the writer of the
       Alexandrian chronicle (p. 90), who quotes some things from him respecting Danae and
       Perseus..." from. Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 1, 1867.
@@ -29,16 +35,16 @@
   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=brutius-bio-1</mads:url>
     <mads:url displayLabel="VIAF">http://viaf.org/viaf/7774697/</mads:url>
   <mads:extension>
-    <note>List of related Work IDs</note>
-    <mads:identifier type="stoa author-text">stoa0063b-stoa001</mads:identifier>
+      <note>List of related Work IDs</note>
+      <mads:identifier type="stoa author-text">stoa0063b-stoa001</mads:identifier>
   </mads:extension>
   <mads:recordInfo>
-    <mads:recordContentSource authority="marcorg">0000</mads:recordContentSource>
-    <mads:recordCreationDate encoding="marc">930416</mads:recordCreationDate>
-    <mads:recordChangeDate encoding="iso8601">19960808164008.0</mads:recordChangeDate>
-    <mads:recordIdentifier source="DNB">DNB|102383359</mads:recordIdentifier>
-    <mads:languageOfCataloging>
-      <mads:languageTerm authority="iso639-2b" type="code">ger</mads:languageTerm>
-    </mads:languageOfCataloging>
+      <mads:recordContentSource authority="marcorg">0000</mads:recordContentSource>
+      <mads:recordCreationDate encoding="marc">930416</mads:recordCreationDate>
+      <mads:recordChangeDate encoding="iso8601">19960808164008.0</mads:recordChangeDate>
+      <mads:recordIdentifier source="DNB">DNB|102383359</mads:recordIdentifier>
+      <mads:languageOfCataloging>
+         <mads:languageTerm authority="iso639-2b" type="code">ger</mads:languageTerm>
+      </mads:languageOfCataloging>
   </mads:recordInfo>
 </mads:mads>

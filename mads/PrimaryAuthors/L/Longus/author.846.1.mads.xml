@@ -1,54 +1,59 @@
-<?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:mads="http://www.loc.gov/mads/v2"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
+           version="2.0">
   <mads:authority lang="lat">
-    <mads:name type="personal" authority="naf">
-      <mads:namePart>Longus</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="naf">
+         <mads:namePart>Longus</mads:namePart>
+      </mads:name>
   </mads:authority>
   <mads:related type="equivalent" lang="grc">
-    <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x39B;&#x3CC;&#x3B3;&#x3B3;&#x3BF;&#x3C2;</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="Brill">
+         <mads:namePart>Λόγγος</mads:namePart>
+      </mads:name>
   </mads:related>
   <mads:variant type="other" lang="ger">
-    <mads:name type="personal">
-      <mads:namePart>Longos</mads:namePart>
-      <mads:namePart type="termsOfAddress">von Lesbos</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Longos</mads:namePart>
+         <mads:namePart type="termsOfAddress">von Lesbos</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="heb">
-    <mads:name type="personal">
-      <mads:namePart>&#x5DC;&#x5D5;&#x5E0;&#x5D2;&#x5D5;&#x5E1;</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>לונגוס</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="spa">
-    <mads:name type="personal">
-      <mads:namePart>Longo</mads:namePart>
-      <mads:namePart type="termsOfAddress">de Lesbos</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Longo</mads:namePart>
+         <mads:namePart type="termsOfAddress">de Lesbos</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Long</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Long</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal" authority="lsj">
-      <mads:namePart>Longus</mads:namePart>
-      <mads:namePart type="termsOfAddress">Scriptor Eroticus</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="lsj">
+         <mads:namePart>Longus</mads:namePart>
+         <mads:namePart type="termsOfAddress">Scriptor Eroticus</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="abbreviation">
-    <mads:name type="personal" authority="lsj">
-      <mads:namePart/>
-    </mads:name>
+      <mads:name type="personal" authority="lsj">
+         <mads:namePart/>
+      </mads:name>
   </mads:variant>
   <mads:note type="source">His A winter pastoral, 1946</mads:note>
   <mads:note type="source">Storie d'amore autiche, 1987: p. 409 (Longo sofista)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.846.1</mads:identifier>
   <mads:identifier type="lccn">n  50043501 </mads:identifier>
   <mads:fieldOfActivity>Novelist</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Erotic Poet</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Erotic Author</mads:fieldOfActivity>
   
   
   
@@ -57,16 +62,16 @@
   <mads:url displayLabel="Smith's Dictionary"/>
   <mads:identifier type="tlg">0561</mads:identifier>
   <mads:extension>
-    <mads:description>List of related work identifiers</mads:description>
-    <mads:identifier type="tlg">0561.001</mads:identifier>
+      <mads:description>List of related work identifiers</mads:description>
+      <mads:identifier type="tlg">0561.001</mads:identifier>
   </mads:extension>
   <mads:recordInfo>
-    <mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource>
-    <mads:recordCreationDate encoding="marc">800825</mads:recordCreationDate>
-    <mads:recordChangeDate encoding="iso8601">20011117072323.0</mads:recordChangeDate>
-    <mads:recordIdentifier>oca00078667 </mads:recordIdentifier>
-    <mads:languageOfCataloging>
-      <mads:languageTerm type="code" authority="iso639-2b">eng</mads:languageTerm>
-    </mads:languageOfCataloging>
+      <mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource>
+      <mads:recordCreationDate encoding="marc">800825</mads:recordCreationDate>
+      <mads:recordChangeDate encoding="iso8601">20011117072323.0</mads:recordChangeDate>
+      <mads:recordIdentifier>oca00078667 </mads:recordIdentifier>
+      <mads:languageOfCataloging>
+         <mads:languageTerm type="code" authority="iso639-2b">eng</mads:languageTerm>
+      </mads:languageOfCataloging>
   </mads:recordInfo>
 </mads:mads>
