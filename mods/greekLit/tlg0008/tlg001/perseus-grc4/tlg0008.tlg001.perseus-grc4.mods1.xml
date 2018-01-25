@@ -14,7 +14,7 @@
       <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
     </mods:role>
   </mods:name>
-  <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" xmlns="http://www.loc.gov/mods/v3" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n88-638071.html">
+  <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n88-638071.html">
     <mods:namePart>Gulick, Charles Burton</mods:namePart>
     <mods:namePart type="date">b. 1868</mods:namePart>
     <mods:role>
@@ -33,8 +33,8 @@
       <mods:roleTerm authority="marcrelator" type="text">encoder</mods:roleTerm>
     </mods:role>
   </mods:name>
-  <mods:typeOfResource xmlns="http://www.loc.gov/mods/v3">text</mods:typeOfResource>
-  <mods:originInfo xmlns="http://www.loc.gov/mods/v3">
+  <mods:typeOfResource>text</mods:typeOfResource>
+  <mods:originInfo>
     <mods:place>
       <mods:placeTerm type="code" authority="marccountry">mau</mods:placeTerm>
     </mods:place>
@@ -50,18 +50,18 @@
     <mods:dateModified>2014</mods:dateModified>
     <mods:edition>Epidoc Edition</mods:edition>
   </mods:originInfo>
-  <mods:language xmlns="http://www.loc.gov/mods/v3">
+  <mods:language>
     <mods:languageTerm authority="iso639-2b" type="code">grc</mods:languageTerm>
   </mods:language>
   <mods:physicalDescription>
     <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
   </mods:physicalDescription>
-  <mods:note xmlns="http://www.loc.gov/mods/v3">Vol. 7 has imprint: London, W. Heinemann, ltd.; Cambridge, Mass., Harvard University
+  <mods:note>Vol. 7 has imprint: London, W. Heinemann, ltd.; Cambridge, Mass., Harvard University
         Press.</mods:note>
-  <mods:note xmlns="http://www.loc.gov/mods/v3">Includes bibliographies.</mods:note>
-  <mods:classification xmlns="http://www.loc.gov/mods/v3" authority="lcc">PA3612 .A87 1927</mods:classification>
-  <mods:classification xmlns="http://www.loc.gov/mods/v3" authority="ddc">888</mods:classification>
-  <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="series">
+  <mods:note>Includes bibliographies.</mods:note>
+  <mods:classification authority="lcc">PA3612 .A87 1927</mods:classification>
+  <mods:classification authority="ddc">888</mods:classification>
+  <mods:relatedItem type="series">
     <mods:titleInfo>
       <mods:title>The Loeb classical library. [Greek authors]</mods:title>
     </mods:titleInfo>
@@ -72,10 +72,10 @@
   <mods:identifier type="tlg">0008.001</mods:identifier>
   <mods:identifier type="oclc">688821</mods:identifier>
   <mods:identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.perseus-grc4</mods:identifier>
-  <mods:location xmlns="http://www.loc.gov/mods/v3">
+  <mods:location>
     <mods:url displayLabel="Perseus Canonical">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0008/tlg001/tlg0008.tlg001.perseus-grc3.xml</mods:url>
   </mods:location>
-  <mods:recordInfo xmlns="http://www.loc.gov/mods/v3">
+  <mods:recordInfo>
     <mods:recordContentSource authority="marcorg">DLC</mods:recordContentSource>
     <mods:recordCreationDate encoding="marc">730913</mods:recordCreationDate>
     <mods:recordChangeDate encoding="iso8601">20000224113545.0</mods:recordChangeDate>
