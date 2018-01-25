@@ -34,10 +34,13 @@
 
       <!-- MODS -->
       <create qname="mods:identifier" type="xs:string"/>
+      <create qname="mods:topic" type="xs:string"/>
+      <create qname="mods:languageTerm" type="xs:string"/>
 
       <!-- MADS -->
       <create qname="mads:identifier" type="xs:string"/>
       <create qname="mads:url" type="xs:string"/>
+      <create qname="mads:fieldOfActivity" type="xs:string"/>
       
       <!-- Citation Index -->
       <create qname="urn" type="xs:string"/>
