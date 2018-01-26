@@ -1,38 +1,43 @@
-<?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:mads="http://www.loc.gov/mads/v2"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
+           version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
-      <mads:namePart>Synesius</mads:namePart>
-      <mads:namePart type="termsOfAddress">of Cyrene, Bishop of Ptolemais</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="naf">
+         <mads:namePart>Synesius</mads:namePart>
+         <mads:namePart type="termsOfAddress">of Cyrene, Bishop of Ptolemais</mads:namePart>
+      </mads:name>
   </mads:authority>
   <mads:related type="equivalent" lang="grc">
-    <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x3A3;&#x3C5;&#x3BD;&#x3AD;&#x3C3;&#x3B9;&#x3BF;&#x3C2;</mads:namePart>
-    </mads:name>
+      <mads:name type="personal" authority="Brill">
+         <mads:namePart>Συνέσιος</mads:namePart>
+      </mads:name>
   </mads:related>
   <mads:variant type="other" lang="lat">
-    <mads:name type="personal">
-      <mads:namePart>Synesius Cyrenaeus</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Synesius Cyrenaeus</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
-    <mads:name type="personal">
-      <mads:namePart>Synesios</mads:namePart>
-      <mads:namePart type="termsOfAddress">von Kyrene, Bishop of Ptolemais</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Synesios</mads:namePart>
+         <mads:namePart type="termsOfAddress">von Kyrene, Bishop of Ptolemais</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
-    <mads:name type="personal">
-      <mads:namePart>Sinesio</mads:namePart>
-      <mads:namePart type="termsOfAddress">di Cirene</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Sinesio</mads:namePart>
+         <mads:namePart type="termsOfAddress">di Cirene</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Synesius</mads:namePart>
-      <mads:namePart type="termsOfAddress">Cyrenaeus</mads:namePart>
-    </mads:name>
+      <mads:name type="personal">
+         <mads:namePart>Synesius</mads:namePart>
+         <mads:namePart type="termsOfAddress">Cyrenaeus</mads:namePart>
+      </mads:name>
   </mads:variant>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1356.1</mads:identifier>
   <mads:identifier type="lccn">n  81055375 </mads:identifier>
@@ -41,7 +46,7 @@
   <mads:fieldOfActivity>Neoplatonist</mads:fieldOfActivity>
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
   <mads:fieldOfActivity>Epistolary</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Neoplatonist</mads:fieldOfActivity>
+  
   
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Synesius</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n81-55375</mads:url>
@@ -49,14 +54,14 @@
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/102323982</mads:url>
   <mads:url displayLabel="ID.gov">http://id.loc.gov/authorities/names/n81055375</mads:url>
   <mads:extension>
-    <mads:description>List of related work identifiers</mads:description>
-    <mads:identifier type="tlg">2006.001</mads:identifier>
-    <mads:identifier type="tlg">2006.011</mads:identifier>
+      <mads:description>List of related work identifiers</mads:description>
+      <mads:identifier type="tlg">2006.001</mads:identifier>
+      <mads:identifier type="tlg">2006.011</mads:identifier>
   </mads:extension>
   <mads:recordInfo>
-    <mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource>
-    <mads:recordCreationDate encoding="marc">811023</mads:recordCreationDate>
-    <mads:recordChangeDate encoding="iso8601">20031016052514.0</mads:recordChangeDate>
-    <mads:recordIdentifier>oca00600853 </mads:recordIdentifier>
+      <mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource>
+      <mads:recordCreationDate encoding="marc">811023</mads:recordCreationDate>
+      <mads:recordChangeDate encoding="iso8601">20031016052514.0</mads:recordChangeDate>
+      <mads:recordIdentifier>oca00600853 </mads:recordIdentifier>
   </mads:recordInfo>
 </mads:mads>
