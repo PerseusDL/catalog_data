@@ -10,7 +10,7 @@
    <titleInfo>
       <nonSort>The</nonSort>
       <title>Roman antiquities of Dionysius of Halicarnassus</title>
-      <partNumber>Vol I</partNumber>
+      <partNumber>7 volumes</partNumber>
     </titleInfo>
    <name xmlns:ns2="http://www.w3.org/1999/xlink"
          authority="naf"
@@ -30,6 +30,9 @@
       <namePart type="date">1879-</namePart>
       <role>
         <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+      </role>
+           <role>
+        <roleTerm authority="marcrelator" type="text">editor</roleTerm>
       </role>
     </name>
    <name xmlns:ns2="http://www.w3.org/1999/xlink"
@@ -54,10 +57,10 @@
       </place>
       <publisher>Harvard University Press</publisher>
       <publisher>W. Heinemann</publisher>
-      <dateIssued>1937</dateIssued>
+      <dateIssued>1937-1950</dateIssued>
       <mods:dateModified xmlns:mods="http://www.loc.gov/mods/v3"
                          xmlns:atom="http://www.w3.org/2005/Atom"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1968</mods:dateModified>
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1968-1984</mods:dateModified>
       <mods:edition xmlns:mods="http://www.loc.gov/mods/v3"
                     xmlns:atom="http://www.w3.org/2005/Atom"
                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Reprint</mods:edition>
@@ -123,6 +126,31 @@
          </role>
       </name>
       <tableOfContents>Book I-Book II</tableOfContents>
+        <originInfo>
+      <place>
+        <placeTerm type="code" authority="marccountry">mau</placeTerm>
+      </place>
+      <place>
+        <placeTerm type="text">Cambridge, Mass</placeTerm>
+      </place>
+      <place>
+        <placeTerm type="text">London</placeTerm>
+      </place>
+      <publisher>Harvard University Press</publisher>
+      <publisher>W. Heinemann</publisher>
+      <dateIssued>1937</dateIssued>
+      <dateModified>1968</dateModified>
+      </originInfo>
+      <relatedItem xmlns="http://www.loc.gov/mods/v3" type="series">
+      <titleInfo>
+        <mods:title>Loeb classical library</title>
+        <partNumber>Volume 319</partNumber>
+      </titleInfo>
+      <titleInfo type="abbreviated">
+        <title>LCL</title>
+        <>319</mods:partNumber>
+      </titleInfo>
+</relatedItem>
       <location displayLabel="LC Permalink">
          <url>http://lccn.loc.gov/38000042</url>
       </location>
