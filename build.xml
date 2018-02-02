@@ -44,7 +44,8 @@
     <xdb:store uri="${xmldb.approot}/mods/arabicLit"
 	       user="${xmldb.user}"
 	       password="${xmldb.passwd}"
-	       createcollection="true">
+	       createcollection="true"
+	       createsubcollections="true">
       <fileset dir="./mods/arabicLit">
 	<include name="**/*.xml"/>
       </fileset>
@@ -55,7 +56,8 @@
     <xdb:store uri="${xmldb.approot}/mods/greekLit"
 	       user="${xmldb.user}"
 	       password="${xmldb.passwd}"
-	       createcollection="true">
+	       createcollection="true"
+	       createsubcollections="true">
       <fileset dir="./mods/greekLit">
 	<include name="**/*.xml"/>
       </fileset>
@@ -66,7 +68,8 @@
     <xdb:store uri="${xmldb.approot}/mods/latinLit"
 	       user="${xmldb.user}"
 	       password="${xmldb.passwd}"
-	       createcollection="true">
+	       createcollection="true"
+	       createsubcollections="true">
       <fileset dir="./mods/latinLit">
 	<include name="**/*.xml"/>
       </fileset>
@@ -77,7 +80,8 @@
     <xdb:store uri="${xmldb.approot}/mads"
 	       user="${xmldb.user}"
 	       password="${xmldb.passwd}"
-	       createcollection="true">
+	       createcollection="true"
+	       createsubcollections="true">
       <fileset dir="./mads">
 	<include name="**/*.xml"/>
       </fileset>
@@ -88,11 +92,29 @@
     <xdb:store uri="${xmldb.approot}/cite"
 	       user="${xmldb.user}"
 	       password="${xmldb.passwd}"
-	       createcollection="true">
+	       createcollection="true"
+	       createsubcollections="true">
       <fileset dir="./citecoll">
 	<include name="**/*.xml"/>
       </fileset>
     </xdb:store>
   </target>
+
+  <target name="re-index-subjects" description="re-index subjects">
+    <loadfile property="XQueryScript" srcFile="re-index-subjects.xq"/>
+    <xdb:xquery uri="${xmldb.url}"
+		user="${xmldb.user}"
+		password="${xmldb.passwd}"
+		query="${XQueryScript}"/>
+  </target>
+
+  <target name="re-index-works-by" description="re-create work-by-author indexs">
+    <loadfile property="XQueryScript" srcFile="re-index-works.xq"/>
+    <xdb:xquery uri="${xmldb.url}"
+		user="${xmldb.user}"
+		password="${xmldb.passwd}"
+		query="${XQueryScript}"/>
+  </target>
+  
 </project>
 

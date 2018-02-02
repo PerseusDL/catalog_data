@@ -10,6 +10,7 @@
       <text qname="mods:name"/>
       <text qname="mods:namePart"/>
       <text qname="mods:identifier"/>
+      <text qname="mods:subject"/>      
 
       <!-- MADS -->
       <text qname="mads:name"/>
@@ -35,6 +36,7 @@
       <!-- MODS -->
       <create qname="mods:identifier" type="xs:string"/>
       <create qname="mods:topic" type="xs:string"/>
+      <create qname="mods:subject" type="xs:string"/>
       <create qname="mods:languageTerm" type="xs:string"/>
 
       <!-- MADS -->
