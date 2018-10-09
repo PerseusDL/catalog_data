@@ -25002,7 +25002,7 @@ SO CAN HAVE IN NEW DATASET--><!-- NEED TO MERGE WITH LARGER Euripidis Tragoediae
     </mods>
 
 
-    <mods displayLabel="Vorsokratiker">
+    <mods displayLabel="Vorsokratiker=Weidmann-1922">
         <titleInfo>
             <title>Die fragmente der Vorsokratiker</title>
             <subTitle>Griechisch und deutsch</subTitle>
@@ -25036,7 +25036,7 @@ SO CAN HAVE IN NEW DATASET--><!-- NEED TO MERGE WITH LARGER Euripidis Tragoediae
         </language>
         <physicalDescription>
             <form authority="marcform">print</form>
-            <extent>xxxviii, 345 p.; 23 cm</extent>
+            <extent>3 volumes</extent>
             <digitalOrigin>digitized other analog</digitalOrigin>
         </physicalDescription>
         <subject authority="lcsh">
@@ -25055,39 +25055,20 @@ SO CAN HAVE IN NEW DATASET--><!-- NEED TO MERGE WITH LARGER Euripidis Tragoediae
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/755912</url>
         </location>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/uc1.31158010733896</url>
-        </location>
+
         <relatedItem type="constituent" otherType="structure" displayLabel="Vol. 1">
             <part type="volume">
                 <detail>
                     <number>1</number>
                 </detail>
             </part>
+            <location>
+                <url displayLabel="HathiTrust">http://hdl.handle.net/2027/uc1.31158010733896</url>
+            </location>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/290923996">
-                    <namePart>Thales</namePart>
-                    <namePart type="date">ca. 634-ca. 546 B.C.</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">1705.002</identifier>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1705.tlg002</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg1705.tlg002.opp-grc1</identifier>       
                 <part>
                     <extent unit="pages">
                         <start>1</start>
@@ -25098,32 +25079,12 @@ SO CAN HAVE IN NEW DATASET--><!-- NEED TO MERGE WITH LARGER Euripidis Tragoediae
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=53</url>
                 </location>
-
+                </relatedItem> 
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-                <titleInfo>
-                    <title>Fragmenta</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/290923996">
-                    <namePart>Thales</namePart>
-                    <namePart type="date">ca. 634-ca. 546 B.C.</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">1705.003</identifier>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1705.tlg003</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg1705.tlg003.opp-grc1</identifier>       
                 <part>
                     <extent unit="pages">
                         <start>12</start>
@@ -25134,12 +25095,12 @@ SO CAN HAVE IN NEW DATASET--><!-- NEED TO MERGE WITH LARGER Euripidis Tragoediae
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=64</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0725.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0725.tlg001.opp-grc1</identifier>       
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/280059448">
                     <namePart>Anaximander</namePart>
@@ -25148,18 +25109,6 @@ SO CAN HAVE IN NEW DATASET--><!-- NEED TO MERGE WITH LARGER Euripidis Tragoediae
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">0725.001</identifier>
                 <part>
                     <extent unit="pages">
                         <start>14</start>
@@ -25170,12 +25119,12 @@ SO CAN HAVE IN NEW DATASET--><!-- NEED TO MERGE WITH LARGER Euripidis Tragoediae
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=66</url>
                 </location>
-
+            </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-                <titleInfo>
-                    <title>Fragmenta</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0725.tlg002</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0725.tlg002.opp-grc1</identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/280059448">
                     <namePart>Anaximander</namePart>
@@ -25183,19 +25132,8 @@ SO CAN HAVE IN NEW DATASET--><!-- NEED TO MERGE WITH LARGER Euripidis Tragoediae
                     <role>
                         <roleTerm type="text">creator</roleTerm>
                     </role>
+                   
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">0725.002</identifier>
                 <part>
                     <extent unit="pages">
                         <start>21</start>
@@ -25206,32 +25144,12 @@ SO CAN HAVE IN NEW DATASET--><!-- NEED TO MERGE WITH LARGER Euripidis Tragoediae
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=72</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/315524572">
-                    <namePart>Anaximenes</namePart>
-                    <namePart type="termsOfAddress">Milesius</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">0617.001</identifier>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0617.tlg001</identifier>
+              <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">     
+                  <identifier type="ctsurn">urn:cts:greekLit:tlg0617.tlg001.opp-grc1</identifier>
                 <part>
                     <extent unit="pages">
                         <start>22</start>
@@ -25242,32 +25160,12 @@ SO CAN HAVE IN NEW DATASET--><!-- NEED TO MERGE WITH LARGER Euripidis Tragoediae
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=74</url>
                 </location>
-
+              </relatedItem>   
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-                <titleInfo>
-                    <title>Fragmenta</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/315524572">
-                    <namePart>Anaximenes</namePart>
-                    <namePart type="termsOfAddress">Milesius</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">0617.002</identifier>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0617.tlg002</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">     
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0617.tlg002.opp-grc1</identifier>            
                 <part>
                     <extent unit="pages">
                         <start>26</start>
@@ -25278,31 +25176,12 @@ SO CAN HAVE IN NEW DATASET--><!-- NEED TO MERGE WITH LARGER Euripidis Tragoediae
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=78</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/162237897">
-                    <namePart>Pythagoras</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">0632.006</identifier>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0632.tlg006</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0632.tlg006.opp-grc1</identifier>
                 <part>
                     <extent unit="pages">
                         <start>27</start>
@@ -25313,31 +25192,19 @@ SO CAN HAVE IN NEW DATASET--><!-- NEED TO MERGE WITH LARGER Euripidis Tragoediae
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=79</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonium">
-                <titleInfo>
-                    <title>Testimonium</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2286.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonium">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg2286.tlg001.opp-grc1</identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/5317624">
                     <namePart>Cercops</namePart>
                     <role>
                         <roleTerm type="text">creator</roleTerm>
                     </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">2286.001</identifier>
+                </name>             
                 <part>
                     <extent unit="pages">
                         <start>35</start>
@@ -25348,12 +25215,12 @@ SO CAN HAVE IN NEW DATASET--><!-- NEED TO MERGE WITH LARGER Euripidis Tragoediae
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=87</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonium">
-                <titleInfo>
-                    <title>Testimonium</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2247.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonium">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg2247.tlg001.opp-grc1</identifier>              
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/2858330">
                     <namePart>Petron</namePart>
@@ -25361,18 +25228,6 @@ SO CAN HAVE IN NEW DATASET--><!-- NEED TO MERGE WITH LARGER Euripidis Tragoediae
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">2247.001</identifier>
                 <part>
                     <extent unit="pages">
                         <start>35</start>
@@ -25383,31 +25238,19 @@ SO CAN HAVE IN NEW DATASET--><!-- NEED TO MERGE WITH LARGER Euripidis Tragoediae
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=87</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1230.tlg002</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg1230.tlg002.opp-grc1</identifier>    
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/22527622">
                     <namePart>Brotinus</namePart>
                     <role>
                         <roleTerm type="text">creator</roleTerm>
                     </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">1230.002</identifier>
+                </name>            
                 <part>
                     <extent unit="pages">
                         <start>35</start>
@@ -25418,12 +25261,12 @@ SO CAN HAVE IN NEW DATASET--><!-- NEED TO MERGE WITH LARGER Euripidis Tragoediae
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=87</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonium">
-                <titleInfo>
-                    <title>Testimonium</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2260.001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonium">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg2260.tlg001.opp-grc1</identifier>             
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/76706220">
                     <namePart>Hippasos</namePart>
@@ -25431,18 +25274,6 @@ SO CAN HAVE IN NEW DATASET--><!-- NEED TO MERGE WITH LARGER Euripidis Tragoediae
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">2260.001</identifier>
                 <part>
                     <extent unit="pages">
                         <start>36</start>
@@ -25453,12 +25284,12 @@ SO CAN HAVE IN NEW DATASET--><!-- NEED TO MERGE WITH LARGER Euripidis Tragoediae
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=88</url>
                 </location>
-
+            </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-                <titleInfo>
-                    <title>Fragmenta</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2218.001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg2218.tlg001.opp-grc1</identifier>  
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/24990168">
                     <namePart>Calliphon</namePart>
@@ -25466,18 +25297,6 @@ SO CAN HAVE IN NEW DATASET--><!-- NEED TO MERGE WITH LARGER Euripidis Tragoediae
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">2218.001</identifier>
                 <part>
                     <extent unit="pages">
                         <start>39</start>
@@ -25488,7 +25307,7 @@ SO CAN HAVE IN NEW DATASET--><!-- NEED TO MERGE WITH LARGER Euripidis Tragoediae
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=91</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
                 <titleInfo>
