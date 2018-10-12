@@ -1,124 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">      
-    
-    
-    
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
     
 
-    
-    <mods displayLabel="(Sophoniae) in parva naturalia commentarium">
-        <titleInfo xml:lang="lat" type="uniform">
-            <title>(Sophoniae) in parva naturalia commentarium</title>
-        </titleInfo>
-        <part>
-            <extent unit="words">
-                <total>15020</total>
-            </extent>
-        </part>
-        <titleInfo type="abbreviated" authority="lsj">
-            <title>Them. in PN</title>
-        </titleInfo>
-        <identifier type="oclc">301528012</identifier>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">gw</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Berlin</placeTerm>
-            </place>
-            <publisher>typ. et impensis G. Reimeri</publisher>
-            <dateIssued>1903</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/301528012</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance"
-                >https://archive.org/stream/commentariaina05pt46akaduoft#page/80/mode/2up</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks">http://books.google.com/books?id=kQ8OAAAAYAAJ</url>
-        </location>
-        <location>
-            <url displayLabel="First1KGreek"
-                >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg2001/tlg041/tlg2001.tlg041.opp-grc1.xml</url>
-        </location>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Commentaria in Aristotelem graeca</title>
-                <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
-                    borussicae</subTitle>
-                <partNumber>Vol 5</partNumber>
-                <partName>Pars VI</partName>
-            </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1903</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="commentary">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
-        </relatedItem>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n79-127090.html">
-            <namePart>Themistius</namePart>
-            <role>
-                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="naf" type="personal" xlink:href="http://viaf.org/viaf/2590252/">
-            <namePart>Wendland, Paul</namePart>
-            <namePart type="date">1864-1915</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <subject authority="lcsh">
-            <topic>Aristotle,</topic>
-            <temporal>384-322 B.C.</temporal>
-            <topic>Doctrine</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Aristoteles</topic>
-        </subject>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="(Sophoniae) in parva naturalia commentarium">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg2001.tlg041</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="(Sophoniae) in parva naturalia commentarium">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg2001.tlg041.opp-grc1</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
-    
     <!-- STILL TO DELETE AND REDO -->
     <mods displayLabel="Acts of the Apostles, Apocryphal">
         <!-- ERROR-This one is very different from the others, it contains page numbers
@@ -432,194 +316,23 @@
     <!-- END OF FILE TO DELETE AND REDO -->
 
 
-   
+
+
+
+
+
+
+
+
+
+
+
     
 
     
-    
-    
-    
 
-    
-    
-    
-    <mods displayLabel="Historia ecclesiastica">
-        <titleInfo type="uniform" lang="lat">
-            <title>Historia ecclesiastica</title>
-        </titleInfo>
-        <titleInfo type="translated" lang="ger">
-            <title>Gelasius Kirchengeschichte</title>
-        </titleInfo>
-        <name type="personal" usage="primary" authority="naf"
-            authorityURI="http://id.loc.gov/authorities/names/"
-            valueURI="http://id.loc.gov/authorities/names/no2002054614">
-            <namePart>Gelasius of Cyzicus</namePart>
-            <namePart type="date">active 475</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/10615927/">
-            <namePart>Loeschcke, Gerhard</namePart>
-            <namePart type="date">1880-1912</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/27453362">
-            <namePart>Heinemann, Margret</namePart>
-            <namePart type="date">1883-1968</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">gw</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Leipzig</placeTerm>
-            </place>
-            <publisher>J. C. Hinrichs</publisher>
-            <dateIssued>1918</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language objectPart="preface">
-            <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
-        </language>
-        <language objectPart="text">
-            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
-        </language>
 
-        <note type="statement of responsibility" altRepGroup="00">hrsg. im Auftrage der
-            Kirchenväter-Commission der Köngl. Preussischen Akademie der Wissenschaften, auf Grund
-            der nachgelassenen Papiere von Gerhard Loeschcke, durch Margret Heinemann.</note>
-        <subject authority="lcsh">
-            <topic>Church history</topic>
-            <temporal>Primitive and early church, ca. 30-600</temporal>
-        </subject>
-        <classification authority="lcc">BR60 .G7 Bd. 28</classification>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Die griechischen christlichen Schriftsteller der ersten drei
-                    Jahrhunderte</title>
-                <partNumber>28</partNumber>
-            </titleInfo>
-        </relatedItem>
-        <location>
-            <url displayLabel="Worldcat">http://www.worldcat.org/oclc/781927375</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance"
-                >https://archive.org/details/gelasiuskircheng28gelauoft</url>
-        </location>
-        <location>
-            <url displayLabel="First1KGreek"
-                >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg2768/tlg001/tlg2768.tlg001.opp-grc1.xml</url>
-        </location>
-        <identifier type="lccn">20023080</identifier>
-        <identifier type="oclc">1013775</identifier>
-        <relatedItem type="constituent" otherType="work" displayLabel="Historia ecclesiastica">
-            <identifier type="tlg">2768.001</identifier>
-            <identifier type="ctsurn">urn:cts:greekLit:tlg2768.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Historia ecclesiastica">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg2768.tlg001.opp-grc1</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
 
-    <mods displayLabel="Historiae Animalium Epitome subiunctis Aeliani Timothei aliorumque eclogis">
-        <titleInfo>
-            <title>Historiae Animalium Epitome subiunctis Aeliani Timothei aliorumque
-                eclogis</title>
-        </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/18013064">
-            <namePart>Aristophanes</namePart>
-            <namePart type="termsOfAddress">of Byzantium</namePart>
-            <namePart type="date">257 B.C. - 180 B.C.</namePart>
-            <role>
-                <roleTerm type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/36908473">
-            <namePart>Lampros, Spyridōn Paulou</namePart>
-            <namePart type="date">1851-1919</namePart>
-            <role>
-                <roleTerm type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">gw</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Berlin</placeTerm>
-            </place>
-            <publisher>Reimer</publisher>
-            <dateIssued>1885</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>xx, 282 p.; 26 cm</extent>
-        </physicalDescription>
-        <note type="statement of responsibility">consilio et auctoritate Academiae Litterarum Regiae
-            Borussicae ; edidit Spyridon P. Lambros.</note>
-        <note>Text in Greek; introduction in Latin.</note>
-        <note>Errata pages included.</note>
-        <subject authority="lcsh">
-            <topic>Zoology</topic>
-            <topic>Pre-Linnean works</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Aristotle</topic>
-            <topic>Historia animalium</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Zoology</topic>
-        </subject>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Supplementum Aristotelicum</title>
-                <partNumber>1 part 1</partNumber>
-            </titleInfo>
-        </relatedItem>
-        <identifier type="oclc">75481882</identifier>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/75481882</url>
-        </location>
-        <location>
-            <url displayLabel="UBL">https://katalog.ub.uni-leipzig.de/Record/0003006937</url>
-        </location>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/pst.000046011183</url>
-        </location>
-        <location displayLabel="First1K">
-            <url>https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0644/tlg001/tlg0644.tlg001.1st1K-grc1.xml</url>
-        </location>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Historiae Animalium Epitome subiunctis Aeliani Timothei aliorumque eclogis">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0644.tlg001</identifier>
-            <identifier type="tlg">0644.001</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Historiae Animalium Epitome subiunctis Aeliani Timothei aliorumque eclogis">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0644.tlg001.1st1K-grc1</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
-    
-
-    
     <mods displayLabel="Les actes de Pierre">
         <titleInfo>
             <title>Les actes de Pierre</title>
@@ -973,7 +686,7 @@
         </relatedItem>
     </mods>
 
-    <mods displayLabel="Fragmentele latine ale lui Philumenus si Philagrius">
+    <mods displayLabel="De Medicina-Philumenus-Bucharest-1910">
         <titleInfo>
             <title>Fragmentele latine ale lui Philumenus si Philagrius</title>
         </titleInfo>
@@ -1033,18 +746,18 @@
             </relatedItem>
         </relatedItem>
     </mods>
-    
 
-    
-    
 
-    
 
-    
 
-    
-    
 
-    
-    
+
+
+
+
+
+
+
+
+
 </modsCollection>
