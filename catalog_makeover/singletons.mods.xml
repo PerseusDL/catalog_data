@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <mods displayLabel="Ab excessu divi Marci libri octo-Herodianus-Bekker-Teubner-1855">
         <titleInfo>
             <title>Herodiani ab excessu divi Marci libri octo</title>
@@ -6855,7 +6855,7 @@
         </relatedItem>
     </mods>
 
-    <mods displayLabel="Apologia-Apuelius-Teubner-1912">
+    <mods displayLabel="Apologia-Apuelius-Teubner-Helm-1912">
         <!-- COMMENT -ONE EXAMPLE OF TWO MODS RECORDS-ONE FOR OCA SCAN ONE FOR PERSEUS EDITION THAT IDEALLY WOULD BE REPRESENTED
     IN ONE EXPRESSION WITH TWO MANIFESTATIONS?-->
         <titleInfo xml:lang="eng" type="uniform">
@@ -6914,7 +6914,7 @@
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/njp.32101060178538</url>
         </location>
-        <language>
+        <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
         <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n80-126286.html">
@@ -6937,7 +6937,7 @@
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Apologia-Apuleius-Teubner-1912-Perseus">
+    <mods displayLabel="Apologia-Apuleius-Teubner-Helm-1912-Perseus">
         <titleInfo>
             <title>Apologia</title>
         </titleInfo>
@@ -6990,10 +6990,7 @@
             </titleInfo>
         </relatedItem>
         <identifier>Perseus:text:2008.01.0501</identifier>
-        <identifier type="phi">1212.1</identifier>
-        <identifier type="stoa author-text">stoa0030-stoa001</identifier>
         <identifier type="lccn">tmp92004171</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:phi1212.phi001.perseus-lat1</identifier>
         <identifier type="oclc">11974670</identifier>
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/tmp92004171</url>
@@ -7008,12 +7005,6 @@
             <url displayLabel="Perseus"
                 >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0501</url>
         </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">DLC</recordContentSource>
-            <recordCreationDate encoding="marc">980210</recordCreationDate>
-            <recordChangeDate encoding="iso8601">20000825100942.0</recordChangeDate>
-            <recordIdentifier>8188666</recordIdentifier>
-        </recordInfo>
         <relatedItem type="constituent" otherType="work" displayLabel="Apologia">
             <identifier type="ctsurn">urn:cts:latinLit:phi1212.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Apologia">
@@ -14456,95 +14447,6 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Conlationes Patrum-John Cassian-Petschenig-CSEL 13">
-        <!-- MAY WANT TO COMBINE CASSIAN OPERA -->
-        <titleInfo>
-            <title>Johannis Cassiani Opera</title>
-            <partNumber>Pars 2</partNumber>
-            <partName>Conlationes XXIIII</partName>
-        </titleInfo>
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Conlationes Patrum (Collationibus)</title>
-        </titleInfo>
-        <titleInfo type="alternative">
-            <title>Collationes Patrum XXIV</title>
-        </titleInfo>
-        <name authority="naf" type="personal" authorityURI="http://id.loc.gov/authorities/names/"
-            valueURI="http://id.loc.gov/authorities/names/n82220110">
-            <namePart>Cassian, John</namePart>
-            <namePart type="date">ca. 360-ca. 435</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="naf" authorityURI="http://id.loc.gov/authorities/names/" type="personal"
-            valueURI="http://id.loc.gov/authorities/names/n82046962">
-            <namePart>Petschenig, Michael</namePart>
-            <namePart type="date">1845-1923</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">au</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Vindobonae</placeTerm>
-            </place>
-            <publisher>Gerold</publisher>
-            <dateIssued>1886</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
-        <physicalDescription>
-            <digitalOrigin>digitized other analog</digitalOrigin>
-            <extent>711 p. ; 23 cm.</extent>
-        </physicalDescription>
-        <note type="statement of responsibility">ex recensione Michaelis Petschenig.</note>
-        <note/>
-        <subject authority="lcsh">
-            <topic>Fathers of the church</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Fathers of the church, Latin</topic>
-        </subject>
-        <classification authority="lcc">BR60 .C6</classification>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Corpus scriptorum ecclesiasticorum Latinorum</title>
-                <partNumber>Volume 13</partNumber>
-            </titleInfo>
-        </relatedItem>
-        <identifier type="oclc">715184599</identifier>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/715184599</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks">http://books.google.com/books?id=lCEQAAAAYAAJ</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance"
-                >http://archive.org/stream/corpusscriptoru14wiengoog#page/n6/mode/2up</url>
-        </location>
-        <location>
-            <url displayLabel="Open Library"/>
-        </location>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/nyp.33433081640769</url>
-        </location>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Johannis Cassiani Opera Pars 2 Conlationes XXIIII">
-            <identifier type="ctsurn">urn:cts:latinLit:stoa0076c.stoa001</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Johannis Cassiani Opera Pars 2 Conlationes XXIIII">
-                <identifier type="ctsurn">urn:cts:latinLit:stoa0076c.stoa001.opp-lat2</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
     <mods displayLabel="Constitution of the Athenians-Aristotle-OCT-1951">
         <!-- COMMENT-NEED TO REPRESENT RELATIONSHIP BETWEEN THIS AND PERSEUS EDITION-EXACT SAME EDITION -->
         <titleInfo xml:lang="eng" type="uniform">
@@ -16182,7 +16084,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De Arboribus-Columella-Lundquist">
+    <mods displayLabel="De Arboribus-Columella-Lundstrom-Lundquist-1897">
         <titleInfo xml:lang="lat" type="uniform">
             <title>De Arboribus</title>
         </titleInfo>
@@ -16196,10 +16098,6 @@ but this is where the TLG has left off for numbering-->
             <partNumber>Fasciculus Primus</partNumber>
             <partName>Librum de Arboribus</partName>
         </titleInfo>
-        <identifier type="stoa author-text">stoa0094-stoa001</identifier>
-        <identifier type="phi">845.1</identifier>
-        <identifier type="oclc">812349</identifier>
-
         <identifier type="oca">livnimoderaticol1v8colu</identifier>
         <typeOfResource>text</typeOfResource>
         <originInfo>
@@ -16224,9 +16122,6 @@ but this is where the TLG has left off for numbering-->
                 <title>Collectio scriptorvm vetervm Vpsaliensis</title>
             </titleInfo>
         </relatedItem>
-        <location>
-            <url displayLabel="LC Permalink"/>
-        </location>
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/812349</url>
         </location>
@@ -17852,7 +17747,86 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De consolatione philosophiae-Boethius-CSEL 67-1934">
+    <mods displayLabel="De Consensu Evangelistarum-Augustine-Weirich-CSEL 43-1904">
+        <titleInfo>
+            <title>Sancti Aureli Augustini De consensu evangelistarum libri quattuor</title>
+        </titleInfo>
+        <titleInfo type="alternative">
+            <title>De consensu evangelistarum libri quattuor</title>
+        </titleInfo>
+        <name authority="naf" type="personal"
+            xlink:href="http://errol.oclc.org/laf/n80-126290.html ">
+            <namePart>Augustine</namePart>
+            <namePart type="termsOfAddress">Saint, Bishop of Hippo</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="naf" authorityURI="http://id.loc.gov/authorities/names/" type="personal"
+            valueURI="http://id.loc.gov/authorities/names/nr96043584">
+            <namePart>Weihrich, Franz,</namePart>
+            <namePart type="date">1845-</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">au</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Vindobonae</placeTerm>
+            </place>
+            <publisher>Gerold</publisher>
+            <dateIssued>1904</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <physicalDescription>
+            <digitalOrigin>digitized other analog</digitalOrigin>
+            <extent>xxxi, 467 pages ; 23 cm.</extent>
+        </physicalDescription>
+        <note type="statement of responsibility">ecensuit et commentario critico instruxit
+            Franciscus Weihrich.</note>
+        <note/>
+        <subject authority="lcsh">
+            <topic>Fathers of the church</topic>
+        </subject>
+        <subject authority="lcsh">
+            <topic>Bible</topic>
+            <topic>Gospels</topic>
+            <topic>Criticism, interpretation, etc.</topic>
+        </subject>
+        <classification authority="lcc">BR60 .C6</classification>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Corpus scriptorum ecclesiasticorum Latinorum</title>
+                <partNumber>43</partNumber>
+            </titleInfo>
+        </relatedItem>
+        <identifier type="oclc">59212026</identifier>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/59212026</url>
+        </location>
+        <location>
+            <url displayLabel="GoogleBooks">http://books.google.com/books?id=aygMAAAAIAAJ</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/nyp.33433081640884</url>
+        </location>
+        <relatedItem type="constituent" otherType="work"
+            displayLabel="Sancti Aureli Augustini De consensu evangelistarum libri quattuor">
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0040.stoa037</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Sancti Aureli Augustini De consensu evangelistarum libri quattuor">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0040.stoa037.opp-lat1</identifier>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods displayLabel="De Consolatione Philosophiae-Boethius-CSEL 67-1934">
         <titleInfo>
             <title>Anicii Manlii Severini Boethii Philosophiae consolationis libri quinque</title>
         </titleInfo>
@@ -18041,17 +18015,10 @@ but this is where the TLG has left off for numbering-->
         </location>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/3678655</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance"/>
-        </location>
-        <location>
-            <url displayLabel="Open Library"/>
-        </location>
+        </location>     
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=TM3oYlrGUHIC</url>
         </location>
-
         <language>
             <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
         </language>
@@ -18088,7 +18055,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De die natali-Censorinus-Teubner-1983">
+    <mods displayLabel="De Die Natali-Censorinus-Sallmannn-Teubner-1983">
         <titleInfo>
             <title>Censorini de die natali liber ad Q. Caerellium</title>
         </titleInfo>
@@ -18155,18 +18122,13 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De Excidio Troiae Historia-Teubner-1873">
-        <titleInfo xml:lang="eng" type="uniform">
+    <mods displayLabel="De Excidio Troiae Historia-Dares Phyrgius-Meister-Teubner-1873">
+        <titleInfo xml:lang="lat" type="uniform">
             <title>De excidio Troiae historia</title>
         </titleInfo>
         <titleInfo>
             <title>Daretis Phrygii De excidio Troiae historia</title>
         </titleInfo>
-        <identifier type="lccn">34013829</identifier>
-        <identifier type="stoa author-text">stoa0107-stoa001</identifier>
-        <identifier type="lccn">34013829</identifier>
-        <identifier type="oclc">1912307</identifier>
-        <identifier type="oca">daretisphrygiide00dareuoft</identifier>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -18191,6 +18153,8 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/34013829</url>
         </location>
+        <identifier type="lccn">34013829</identifier>
+        <identifier type="oclc">1912307</identifier>        
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/1912307</url>
         </location>
@@ -18208,7 +18172,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015011547158</url>
         </location>
-        <language>
+        <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
         </language>
         <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n83-33840.html">
@@ -18240,9 +18204,9 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De Finibus Bonorum et Malorum-Cicero-Loeb">
+    <mods displayLabel="De Finibus Bonorum et Malorum-Cicero-Rackham-Loeb">
         <titleInfo xml:lang="lat" type="uniform">
-            <title>de Finibus Bonorum et Malorum</title>
+            <title>De Finibus Bonorum et Malorum</title>
         </titleInfo>
         <part>
             <extent unit="words">
@@ -18308,10 +18272,10 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/definibusbonorum00cice</url>
         </location>
-        <language>
+        <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
-        <language>
+        <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
         <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n79-32166.html">
@@ -18349,7 +18313,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De Finibus Bonorum et Malorum-Cicero-Cambridge">
+    <mods displayLabel="De Finibus Bonorum et Malorum-Cicero-Reid-Cambridge-1883">
         <titleInfo xml:lang="lat" type="uniform">
             <title>De Finibus Bonorum et Malorum</title>
         </titleInfo>
@@ -19207,7 +19171,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De Litteris de Syllabis de Metris-Terentianus Maurus-1836">
+    <mods displayLabel="De Litteris de Syllabis de Metris-Terentianus Maurus-Lachmann-Reimer-1836">
         <titleInfo xml:lang="lat" type="uniform">
             <title>De Litteris de Syllabis de Metris</title>
         </titleInfo>
@@ -19222,8 +19186,6 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>De litteris, de syllabis, de metris</title>
         </titleInfo>
-        <identifier type="phi">1518.1</identifier>
-        <identifier type="oclc">310095027</identifier>
         <typeOfResource>text</typeOfResource>
         <genre authority="marcgt">bibliography</genre>
         <originInfo>
@@ -19245,9 +19207,7 @@ but this is where the TLG has left off for numbering-->
         <note type="statement of responsibility"> rec. Carolus Lachmann.</note>
         <classification authority="lcc">PA6754 .T6 </classification>
         <classification authority="ddc" edition="21">478.2/451</classification>
-        <location>
-            <url displayLabel="LC Permalink"/>
-        </location>
+        <identifier type="oclc">310095027</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/310095027</url>
         </location>
@@ -19269,7 +19229,7 @@ but this is where the TLG has left off for numbering-->
         </name>
         <name authority="naf" authorityURI="http://id.loc.gov/authorities/names/" type="personal"
             valueURI="http://id.loc.gov/authorities/names/n88618974">
-            <namePart>Lachmann, Karl, </namePart>
+            <namePart>Lachmann, Karl,</namePart>
             <namePart type="date">1793-1851</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
@@ -22805,7 +22765,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De Partibus animalium-Aristotle-Teubner-1868">
+    <mods displayLabel="De Partibus Animalium-Aristotle-Langkavel-Teubner-1868">
         <titleInfo xml:lang="lat" type="uniform">
             <title>De partibus animalium</title>
         </titleInfo>
@@ -22817,10 +22777,6 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Aristotelis De partibus animalium libri quattuor</title>
         </titleInfo>
-        <identifier type="lccn">34010809</identifier>
-        <identifier type="oclc">5197511</identifier>
-        <identifier type="oca">aristotelisdepar01arisuoft </identifier>
-        <identifier type="tlg">0086.030</identifier>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -22850,6 +22806,8 @@ but this is where the TLG has left off for numbering-->
                 <partNumber>Vol I</partNumber>
             </titleInfo>
         </relatedItem>
+        <identifier type="lccn">34010809</identifier>
+        <identifier type="oclc">5197511</identifier>
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/5197511 </url>
         </location>
@@ -22867,12 +22825,6 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="HathiTrust">https://hdl.handle.net/2027/hvd.hw42mp</url>
         </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">DLC</recordContentSource>
-            <recordCreationDate encoding="marc">790723</recordCreationDate>
-            <recordChangeDate encoding="iso8601">20050818182711.0</recordChangeDate>
-            <recordIdentifier>7355793</recordIdentifier>
-        </recordInfo>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
@@ -35957,7 +35909,7 @@ but this is where the TLG has left off for numbering-->
         <identifier type="oclc">882972965</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/882972965</url>
-        </location>     
+        </location>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Pamprepii Panopolitani carmina (P. Gr. Vindob. 29788 A-C)">
             <identifier type="ctsurn">urn:cts:greekLit:tlg4038.tlg001</identifier>
@@ -38135,7 +38087,7 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
 
-    
+
     <mods displayLabel="Griechische Poliorketiker-Apollodorus of Damascus-Schneider-Weidmann-1908">
         <titleInfo>
             <title>Griechische Poliorketiker</title>
@@ -50960,7 +50912,7 @@ but this is where the TLG has left off for numbering-->
 
 
 
-    
+
 
 
     <mods displayLabel="Ichnetuae-Sophocles-Mahoney-English-Perseus">
@@ -52292,7 +52244,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="in Aristotelis Categorias Commentarium-Dexippus-CAG 4.2-Busse-1888">
         <titleInfo xml:lang="lat" type="uniform">
             <title>in Aristotelis Categorias commentarium</title>
@@ -52544,7 +52496,8 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="In Aristotelis Categorias Commentarium-Philoponus-CAG 13.1-Busse-Reimer-1898">
+    <mods
+        displayLabel="In Aristotelis Categorias Commentarium-Philoponus-CAG 13.1-Busse-Reimer-1898">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Philoponi (olim Ammonii) in Aristotelis Categorias commentarium</title>
         </titleInfo>
@@ -54310,7 +54263,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods
         displayLabel="In Aristotelis Quattuor libros de caelo commentaria-SImplicius-CAG 7-Heiberg-1894">
         <titleInfo type="uniform" lang="lat">
@@ -54532,7 +54485,7 @@ but this is where the TLG has left off for numbering-->
         <subject authority="lcsh">
             <topic>Aristoteles</topic>
         </subject>
-        
+
         <relatedItem type="constituent" otherType="work"
             displayLabel="In Aristotelis sophisticos elenchos paraphrasis">
             <identifier type="ctsurn">urn:cts:greekLit:tlg4193.tlg012</identifier>
@@ -54665,7 +54618,7 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
 
-    
+
     <mods displayLabel="In Artem Donati minorem Commentum-Remigius-Fox-Teubner-1902">
         <titleInfo xml:lang="lat" type="uniform">
             <title>In Artem Donati minorem commentum</title>
@@ -55300,7 +55253,7 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
 
-    
+
     <mods displayLabel="In Librum de Sensu Commentarium-Alexander Aphrodisias-1901">
         <titleInfo xml:lang="lat" type="uniform">
             <title>in librum de sensu commentarium</title>
@@ -57114,7 +57067,6 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">New York</placeTerm>
             </place>
-            <dateModified>1969-</dateModified>
             <edition>Reprint</edition>
             <publisher>W. Heinemann</publisher>
             <publisher>Harvard University Press</publisher>
@@ -57137,7 +57089,7 @@ but this is where the TLG has left off for numbering-->
         </subject>
         <relatedItem type="series">
             <titleInfo>
-                <title>The Loeb classical library. [Latin authors]</title>
+                <title>The Loeb classical library</title>
                 <partNumber>124-127</partNumber>
             </titleInfo>
         </relatedItem>
@@ -57260,8 +57212,8 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Institutio Oratoria-Quintilian-Peterson-OCT-2nd edition-1958 reprint">
-        <titleInfo xml:lang="eng" type="uniform">
+    <mods displayLabel="Institutio Oratoria-Quintilian-Peterson-OCT-2nd_ed-(1958)">
+        <titleInfo xml:lang="lat" type="uniform">
             <title>Institutio oratoria</title>
         </titleInfo>
         <part>
@@ -57277,14 +57229,6 @@ but this is where the TLG has left off for numbering-->
             <title>Institutio Oratoria</title>
             <partNumber>Book X</partNumber>
         </titleInfo>
-        <relatedItem type="constituent" otherType="structure" displayLabel="Book 10">
-            <part>
-                <detail type="book">
-                    <caption>Book</caption>
-                    <number>10</number>
-                </detail>
-            </part>
-        </relatedItem>
         <identifier type="oclc">17407645</identifier>
         <typeOfResource>text</typeOfResource>
         <originInfo>
@@ -57351,24 +57295,24 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Institutio oratoria">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1002.phi001.opp-lat1</identifier>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Book 10">
+                    <part>
+                        <detail type="book">
+                            <caption>Book</caption>
+                            <number>10</number>
+                        </detail>
+                    </part>
+                </relatedItem>
             </relatedItem>
         </relatedItem>
     </mods>
     <mods displayLabel="Institutio Oratoriae-Quintilian-Winterbottom-OCT-1970">
-        <!-- MULTIVOLUME TO CONVERT -->
-        <identifier type="isbn">19814654X</identifier>
-        <identifier type="lccn">75514064</identifier>
-        <identifier type="phi">1002.1</identifier>
-        <identifier type="stoa author-text">stoa0240-stoa001</identifier>
-        <identifier type="oclc">868654509</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:phi1002.phi001.opp-lat8</identifier>
         <titleInfo>
             <title>M. Fabi Quintiliani Institutionis oratoriae libri duodecim</title>
-            <partNumber>Vol 1</partNumber>
-            <partNumber>Libri I-VI</partNumber>
+            <partNumber>Vol 1-2</partNumber>
         </titleInfo>
         <titleInfo type="uniform" nameTitleGroup="1">
-            <title>Institutiones oratoriae</title>
+            <title>Institutio oratoriae</title>
         </titleInfo>
         <name authority="viaf" type="personal" usage="primary" nameTitleGroup="1"
             authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/34451872">
@@ -57401,91 +57345,59 @@ but this is where the TLG has left off for numbering-->
             <topic>Oratory</topic>
             <topic>Early works to 1800</topic>
         </subject>
-        <relatedItem type="constituent">
+        <relatedItem type="series">
             <titleInfo>
-                <title>M. Fabi Quintiliani Institutionis oratoriae libri duodecim</title>
-                <partNumber>Vol 1</partNumber>
-                <partNumber>Libri I-VI</partNumber>
+                <title>Scriptorum classicorum bibliotheca Oxoniensis</title>
             </titleInfo>
-            <titleInfo type="uniform" nameTitleGroup="1">
-                <title>Institutiones oratoriae</title>
-            </titleInfo>
-            <part>
-                <detail>
-                    <caption>Vol 1</caption>
-                </detail>
-                <detail>
-                    <caption>Libri I-VI</caption>
-                </detail>
-            </part>
-            <name authority="viaf" type="personal" usage="primary" nameTitleGroup="1"
-                authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/34451872">
-                <namePart>Quintilian</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/109061371">
-                <namePart>Winterbottom, Michael</namePart>
-                <namePart type="date">1934-</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <location displayLabel="WorldCat">
-                <url>http://www.worldcat.org/oclc/868654509</url>
-            </location>
-            <location displayLabel="SLUB">
-                <url>http://digital.slub-dresden.de/id415658195</url>
-            </location>
-            <note type="bibliography">Bibliography: p. xvii-xxii</note>
         </relatedItem>
-        <relatedItem type="constituent">
-            <titleInfo>
-                <title>M. Fabi Quintiliani Institutionis oratoriae libri duodecim</title>
-                <partNumber>Vol 2</partNumber>
-                <partNumber>Libri VII-XII</partNumber>
-            </titleInfo>
-            <titleInfo type="uniform" nameTitleGroup="1">
-                <title>Institutiones oratoriae</title>
-            </titleInfo>
-            <part>
-                <detail>
-                    <caption>Vol 2</caption>
-                </detail>
-                <detail>
-                    <caption>Libri VII-XII</caption>
-                </detail>
-            </part>
-            <name authority="viaf" type="personal" usage="primary" nameTitleGroup="1"
-                authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/34451872">
-                <namePart>Quintilian</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/109061371">
-                <namePart>Winterbottom, Michael</namePart>
-                <namePart type="date">1934-</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <location displayLabel="WorldCat">
-                <url>http://www.worldcat.org/oclc/868654509</url>
-            </location>
-            <location displayLabel="SLUB">
-                <url>http://digital.slub-dresden.de/id415658500</url>
-            </location>
-        </relatedItem>
+        <identifier type="isbn">19814654X</identifier>
+        <identifier type="lccn">75514064</identifier>
+        <identifier type="oclc">868654509</identifier>
+        <location displayLabel="WorldCat">
+            <url>http://www.worldcat.org/oclc/868654509</url>
+        </location>
         <relatedItem type="constituent" otherType="work"
-            displayLabel="M. Fabi Quintiliani Institutionis oratoriae libri duodecim Vol 1 Libri I-VI">
+            displayLabel="M. Fabi Quintiliani Institutionis oratoriae">
             <identifier type="ctsurn">urn:cts:latinLit:phi1002.phi001</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="M. Fabi Quintiliani Institutionis oratoriae libri duodecim Vol 1 Libri I-VI">
+                displayLabel="M. Fabi Quintiliani Institutionis oratoriae">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1002.phi001.opp-lat8</identifier>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
+                    <part>
+                        <detail>
+                            <caption>Vol 1</caption>
+                        </detail>
+                    </part>
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-6">
+                        <part>
+                            <detail type="book">
+                                <caption>Book</caption>
+                                <number>1-6</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <location displayLabel="SLUB">
+                        <url>http://digital.slub-dresden.de/id415658195</url>
+                    </location>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
+                    <part>
+                        <detail>
+                            <caption>Vol 2</caption>
+                        </detail>
+                    </part>
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Book 7-12">
+                        <part>
+                            <detail type="book">
+                                <caption>Book</caption>
+                                <number>7-12</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <location displayLabel="SLUB">
+                        <url>http://digital.slub-dresden.de/id415658500</url>
+                    </location>
+                </relatedItem>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -57994,8 +57906,7 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
     <mods displayLabel="Interpretationes Vergilianae-Donatus-Georges-Teubner-1905">
-        <identifier displayLabel="isCommentaryOn" type="Perseus:abo">Perseus:abo:phi,0690,003</identifier>
-        <titleInfo xml:lang="eng" type="uniform">
+        <titleInfo xml:lang="lat" type="uniform">
             <title>Interpretationes Vergilianae</title>
         </titleInfo>
         <titleInfo type="alternative" authority="stoa">
@@ -58032,6 +57943,7 @@ but this is where the TLG has left off for numbering-->
                 <namePart>Virgil</namePart>
             </name>
         </subject>
+        <identifier displayLabel="isCommentaryOn" type="Perseus:abo">Perseus:abo:phi,0690,003</identifier>
         <identifier type="lccn">05041691</identifier>
         <identifier type="oclc">66125947</identifier>
         <location displayLabel="WorldCat">
@@ -62950,12 +62862,13 @@ but this is where the TLG has left off for numbering-->
         <subject authority="lcsh">
             <topic>Astronomy</topic>
             <topic>Works Until 1800</topic>
-        </subject><!-- Deleted urn:cts:latinLit:stoa0123a.stoa002.opp-lat1-was missed multivolume -->
+        </subject>
+        <!-- Deleted urn:cts:latinLit:stoa0123a.stoa002.opp-lat1-was missed multivolume -->
         <relatedItem type="constituent" otherType="work" displayLabel="Matheseos">
             <identifier type="ctsurn">urn:cts:latinLit:stoa0123a.stoa002</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Matheseos">
                 <identifier type="ctsurn">urn:cts:latinLit:stoa0123a.stoa002.opp-lat1</identifier>
-                <relatedItem type="constituent" otherType="volume" displayLabel="Volume 1">           
+                <relatedItem type="constituent" otherType="volume" displayLabel="Volume 1">
                     <part type="volume">
                         <detail>
                             <number>Fasciculus Prior</number>
@@ -62968,15 +62881,17 @@ but this is where the TLG has left off for numbering-->
                                 <number>1-4</number>
                             </detail>
                         </part>
-                    </relatedItem>  
+                    </relatedItem>
                     <location>
-                        <url displayLabel="GoogleBooks">http://books.google.com/books?id=uek9zdRWhM4C</url>
+                        <url displayLabel="GoogleBooks"
+                            >http://books.google.com/books?id=uek9zdRWhM4C</url>
                     </location>
                     <location>
-                        <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015028339458</url>
+                        <url displayLabel="HathiTrust"
+                            >http://hdl.handle.net/2027/mdp.39015028339458</url>
                     </location>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="volume" displayLabel="Volume 2">            
+                <relatedItem type="constituent" otherType="volume" displayLabel="Volume 2">
                     <part type="volume">
                         <detail>
                             <number>Fasciculus Alter</number>
@@ -62989,7 +62904,7 @@ but this is where the TLG has left off for numbering-->
                                 <number>5-8</number>
                             </detail>
                         </part>
-                    </relatedItem>              
+                    </relatedItem>
                     <location>
                         <url displayLabel="Open Content Alliance"
                             >http://www.archive.org/details/matheseoslibrivi02firmuoft</url>
@@ -63647,7 +63562,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
 
     <mods displayLabel="Menaechmi-Plautus-Goetz/Scholl-Teubner-1930">
         <titleInfo>
@@ -63982,7 +63897,7 @@ but this is where the TLG has left off for numbering-->
         <note>Includes index.</note>
         <note>First issued separately 1929</note>
         <classification authority="lcc">PA6519</classification>
-        <identifier type="oclc">9606258</identifier>        
+        <identifier type="oclc">9606258</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/9606258</url>
         </location>
@@ -64348,7 +64263,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="Perseus" note="Latin"
                 >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0029</url>
-        </location>   
+        </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Metamorphoses">
             <identifier type="ctsurn">urn:cts:latinLit:phi0959.phi006</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Metamorphoses">
@@ -64476,7 +64391,7 @@ but this is where the TLG has left off for numbering-->
         </location>
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015011822700</url>
-        </location>      
+        </location>
         <language>
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
@@ -64506,7 +64421,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods  displayLabel="Metamorphoses-Apuleius-Loeb-Adlington/Gaselee-1915-Perseus">
+    <mods displayLabel="Metamorphoses-Apuleius-Loeb-Adlington/Gaselee-1915-Perseus">
         <titleInfo type="uniform">
             <title>Metamorphoses. Latin.</title>
         </titleInfo>
@@ -64828,7 +64743,7 @@ but this is where the TLG has left off for numbering-->
                 <identifier type="ctsurn">urn:cts:latinLit:phi1212.phi002.opp-lat2</identifier>
             </relatedItem>
         </relatedItem>
-    </mods>    
+    </mods>
     <mods displayLabel="Metaphrasis in Theophrastum-Bywater-CAG-Reimer-1886">
         <titleInfo>
             <title>Metaphrasis in Theophrastum</title>
@@ -65308,7 +65223,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Myriobiblion sive Bibliotheca-Photius-Migne-1860">
         <titleInfo type="alternative">
             <title>Myriobiblion sive Bibliotheca</title>
@@ -67053,7 +66968,7 @@ but this is where the TLG has left off for numbering-->
             <topic>Civilization, Greco-Roman</topic>
             <topic>Sources</topic>
         </subject>
-        <identifier type="oclc">13479784</identifier>        
+        <identifier type="oclc">13479784</identifier>
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/27022450</url>
         </location>
@@ -67833,36 +67748,18 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
 
-    <mods displayLabel="Odyssey-Homer-Merry/Riddell-">
-        <!-- MULTIVOLUME TO CONSOLIDATE -->
-        <identifier type="oclc">5142747</identifier>
+    <mods displayLabel="Odyssey-Homer-Merry/Riddell-Clarendon-1886">
         <titleInfo type="uniform" nameTitleGroup="1">
             <title>Odyssey</title>
         </titleInfo>
         <titleInfo>
             <title>Homer's Odyssey</title>
-            <subTitle>Volume 1</subTitle>
+            <subTitle>Volume 1-2</subTitle>
         </titleInfo>
         <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n78-95639.html">
             <namePart>Homer</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/40903558">
-            <namePart>Merry, W. Walter (William Walter)</namePart>
-            <namePart type="date">1835-1918</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/100292610">
-            <namePart>Riddell, James</namePart>
-            <namePart type="date">1823-1866</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
         <originInfo>
@@ -67873,90 +67770,96 @@ but this is where the TLG has left off for numbering-->
                 <placeTerm type="text">Oxford</placeTerm>
             </place>
             <publisher>Clarendon Press</publisher>
-            <dateIssued>1886</dateIssued>
+            <dateIssued>1886-1901</dateIssued>
             <edition>Second Edition, Revised</edition>
             <issuance>monographic</issuance>
         </originInfo>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Clarendon Press Series</title>
+            </titleInfo>
+        </relatedItem>
+        <physicalDescription>
+            <extent>2 volumes</extent>
+        </physicalDescription>
         <typeOfResource>text</typeOfResource>
         <subject authority="lcsh">
             <topic>Odysseus (Greek mythology)</topic>
             <topic>Poetry</topic>
         </subject>
-        <relatedItem type="constituent">
-            <titleInfo type="uniform" nameTitleGroup="1">
-                <title>Odyssey</title>
-            </titleInfo>
-            <titleInfo>
-                <title>Homer's Odyssey</title>
-                <subTitle>Volume 1</subTitle>
-            </titleInfo>
-            <name authority="naf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n78-95639.html">
-                <namePart>Homer</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/40903558">
-                <namePart>Merry, W. Walter (William Walter)</namePart>
-                <namePart type="date">1835-1918</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100292610">
-                <namePart>Riddell, James</namePart>
-                <namePart type="date">1823-1866</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <tableOfContents>Books I-XII</tableOfContents>
-            <location displayLabel="Worldcat">
-                <url>http://www.worldcat.org/oclc/5142747</url>
-            </location>
-            <location displayLabel="HathiTrust">
-                <url>http://hdl.handle.net/2027/uc1.32106008448836</url>
-            </location>
-            <note type="statement of responsibility">edited with English notes, appendices, etc. by
-                W. Walter Merry and James Riddell.</note>
-        </relatedItem>
-        <relatedItem type="constituent">
-            <titleInfo type="uniform" nameTitleGroup="1">
-                <title>Odyssey</title>
-            </titleInfo>
-            <titleInfo>
-                <title>Homer's Odyssey</title>
-            </titleInfo>
-            <name authority="naf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n78-95639.html">
-                <namePart>Homer</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/49298159">
-                <namePart>Monro, D. B. (David Binning)</namePart>
-                <namePart type="date">1836-1905</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <tableOfContents>Books XIII-XXIV.</tableOfContents>
-            <location displayLabel="Worldcat">
-                <url>http://www.worldcat.org/oclc/5142747</url>
-            </location>
-            <location displayLabel="HathiTrust">
-                <url>http://hdl.handle.net/2027/uva.x000311078</url>
-            </location>
-        </relatedItem>
+        <note type="statement of responsibility">edited with English notes, appendices, etc. by
+            W. Walter Merry and James Riddell.  Vol. [2] ("edited with English notes and appendices by D.B. Monro")
+            --has no edition or series statement.</note>
+        <identifier type="oclc">5142747</identifier>
+        <location displayLabel="Worldcat">
+            <url>http://www.worldcat.org/oclc/5142747</url>
+        </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Odyssey">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0012.tlg002</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Odyssey">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0012.tlg002.opp-grc3</identifier>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
+                    <part>
+                        <detail>
+                            <caption>Volume 1</caption>
+                        </detail>
+                    </part>
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-12">
+                        <part>
+                            <detail type="book">
+                                <caption>Book</caption>
+                                <number>1-12</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                        valueURI="http://viaf.org/viaf/40903558">
+                        <namePart>Merry, W. Walter (William Walter)</namePart>
+                        <namePart type="date">1835-1918</namePart>
+                        <role>
+                            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+                        </role>
+                    </name>
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                        valueURI="http://viaf.org/viaf/100292610">
+                        <namePart>Riddell, James</namePart>
+                        <namePart type="date">1823-1866</namePart>
+                        <role>
+                            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+                        </role>
+                    </name>
+                    <tableOfContents>Books I-XII</tableOfContents>
+                    <location displayLabel="HathiTrust">
+                        <url>http://hdl.handle.net/2027/uc1.32106008448836</url>
+                    </location>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
+                    <part>
+                        <detail>
+                            <caption>Volume 2</caption>
+                        </detail>
+                    </part>
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Book 13-24">
+                        <part>
+                            <detail type="book">
+                                <caption>Book</caption>
+                                <number>13-24</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                        valueURI="http://viaf.org/viaf/49298159">
+                        <namePart>Monro, D. B. (David Binning)</namePart>
+                        <namePart type="date">1836-1905</namePart>
+                        <role>
+                            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+                        </role>
+                    </name>
+                    <tableOfContents>Books XIII-XXIV</tableOfContents>
+                    <location displayLabel="HathiTrust">
+                        <url>http://hdl.handle.net/2027/uva.x000311078</url>
+                    </location>
+                </relatedItem>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -69522,9 +69425,9 @@ but this is where the TLG has left off for numbering-->
 
 
 
-    
-    
-    
+
+
+
     <mods displayLabel="Parmenides-Plato-Dies-Les Belles Lettres-1956">
         <titleInfo>
             <title>Oeuvres complètes</title>
@@ -69900,7 +69803,7 @@ but this is where the TLG has left off for numbering-->
             </titleInfo>
         </relatedItem>
         <identifier type="lccn">24024120</identifier>
-        <identifier type="oclc">10115216</identifier>        
+        <identifier type="oclc">10115216</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/10115216 </url>
         </location>
@@ -69912,7 +69815,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Library"
                 >http://www.openlibrary.org/details/philodemiperipar00philuoft</url>
         </location>
-        
+
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
@@ -69938,7 +69841,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Peri tou kath' Hōmeron-Philodemus-Olivideri-Teubner-1909">
         <titleInfo lang="grc" type="uniform">
             <title>ΠΕΡΙ ΤΟΥ ΚΑΘ ΟΜΗΡΟΝ ΑΓΑΘΟΗΥ BACIΛEΩC</title>
@@ -70224,7 +70127,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Phormio-Terence-Dziatzko/Morgan-Harvard-1900">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Phormio</title>
@@ -70234,7 +70137,7 @@ but this is where the TLG has left off for numbering-->
                 <total>9313</total>
             </extent>
         </part>
-         <typeOfResource>text</typeOfResource>
+        <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
                 <placeTerm type="code" authority="marccountry">xx</placeTerm>
@@ -70271,7 +70174,7 @@ but this is where the TLG has left off for numbering-->
             </name>
         </relatedItem>
         <identifier type="lccn">04031915</identifier>
-        <identifier type="oclc">7884425</identifier>        
+        <identifier type="oclc">7884425</identifier>
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/7884425</url>
         </location>
@@ -70378,9 +70281,9 @@ but this is where the TLG has left off for numbering-->
             <titleInfo>
                 <title>The Students' series of Latin classics</title>
             </titleInfo>
-        </relatedItem>     
+        </relatedItem>
         <identifier type="lccn">12039265</identifier>
-        <identifier type="oclc">7884425</identifier>        
+        <identifier type="oclc">7884425</identifier>
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/12039265</url>
         </location>
@@ -70490,8 +70393,8 @@ but this is where the TLG has left off for numbering-->
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg031.opp-grc2</identifier>
             </relatedItem>
         </relatedItem>
-    </mods>    
-     
+    </mods>
+
     <mods displayLabel="Poetics-Aristotle-Bywater-OCT-1949">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Poetics</title>
@@ -71780,7 +71683,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Pythian-Perseus-Willett">
+    <mods displayLabel="Pythian-Pindar-Perseus-Willett">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Pythian</title>
         </titleInfo>
@@ -71827,148 +71730,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Quaestiones Convivales-Plutarch-Clement/Hoffleit/Minar-"><!-- Need to get details 
-    back in-->
-        <titleInfo xml:lang="lat" type="uniform">
-            <title>Quaestiones Convivales</title>
-        </titleInfo>
-        <titleInfo>
-            <title>Quaestionum Convivalium</title>
-            <partNumber>Books I-III</partNumber>
-        </titleInfo>
-        <titleInfo type="translated" lang="eng">
-            <title>Table-talk</title>
-            <partNumber>Books One to Three</partNumber>
-        </titleInfo>
-        <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n79-26763.html">
-            <namePart>Plutarch</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="naf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no2007-57626.html">
-            <namePart>Clement, Paul A</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-            </role>
-        </name>
-        <relatedItem type="constituent" otherType="work" displayLabel="Quaestiones Convivales">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg112</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Quaestiones Convivales">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg112.opp-grc2</identifier>
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg112.opp-eng2</identifier>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Quaestiones Convivales</title>
-            </titleInfo>
-            <titleInfo>
-                <title>Quaestionum Convivalium</title>
-                <partNumber>Books I-III</partNumber>
-            </titleInfo>
-            <titleInfo type="translated" lang="eng">
-                <title>Table-talk</title>
-                <partNumber>Books One to Three</partNumber>
-            </titleInfo>
-            <part>
-                <detail>
-                    <caption>Books I-III</caption>
-                </detail>
-                <detail>
-                    <caption>Books One to Three</caption>
-                </detail>
-            </part>
-            <name authority="naf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-26763.html">
-                <namePart>Plutarch</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="naf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/no2007-57626.html">
-                <namePart>Clement, Paul A</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-                </role>
-            </name>
-        </relatedItem>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Quaestiones Convivales</title>
-            </titleInfo>
-            <titleInfo>
-                <title>Quaestionum Convivalium</title>
-                <partNumber>Books IV-VI</partNumber>
-            </titleInfo>
-            <titleInfo type="translated" lang="eng">
-                <title>Table-talk</title>
-                <partNumber>Books Four to Six</partNumber>
-            </titleInfo>
-            <part>
-                <detail>
-                    <caption>Books IV-VI</caption>
-                </detail>
-                <detail>
-                    <caption>Books Four to Six</caption>
-                </detail>
-            </part>
-            <name authority="naf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-26763.html">
-                <namePart>Plutarch</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" xlink:href="http://www.viaf.org/viaf/29611917">
-                <namePart>Hoffleit, Herbert Benno</namePart>
-                <namePart type="date">1905-</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-                </role>
-            </name>
-        </relatedItem>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Quaestiones Convivales</title>
-            </titleInfo>
-            <titleInfo>
-                <title>Quaestionum Convivalium</title>
-                <partNumber>Book VII-Book VIII</partNumber>
-            </titleInfo>
-            <titleInfo type="translated" lang="eng">
-                <title>Table-talk</title>
-                <partNumber>Book Seven-Book Eight</partNumber>
-            </titleInfo>
-            <part>
-                <detail>
-                    <caption>Book VII-Book VIII</caption>
-                </detail>
-                <detail>
-                    <caption>Book Seven-Book Eight</caption>
-                </detail>
-            </part>
-            <name authority="naf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-26763.html">
-                <namePart>Plutarch</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="naf-inactive" type="personal">
-                <namePart>Minar, Edwin L</namePart>
-                <namePart type="termsOfAddress">Jr</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-                </role>
-            </name>
-        </relatedItem>
-            </relatedItem>
-        </relatedItem>
-    </mods>
-    
-    <mods>
+    <mods displayLabel="Quaestionum Homericarum ad Odysseam-Porphyry-Schrader-Teubner-1890">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Quaestionum Homericarum ad Odysseam pertinentium reliquiae</title>
         </titleInfo>
@@ -71983,12 +71745,7 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated" authority="lsj">
             <title>Porph. ad Od.</title>
         </titleInfo>
-        <identifier type="tlg">2034.016</identifier>
         <identifier displayLabel="isCommentaryOn" type="tlg">0012.002</identifier>
-        <identifier type="lccn">02001735</identifier>
-        <identifier type="oclc">7319563</identifier>
-
-        <identifier type="ctsurn">urn:cts:greekLit:tlg2034.tlg016.opp-grc1</identifier>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -72014,6 +71771,8 @@ but this is where the TLG has left off for numbering-->
             </titleInfo>
         </relatedItem>
         <classification authority="lcc">PA4035 .P72</classification>
+        <identifier type="lccn">02001735</identifier>
+        <identifier type="oclc">7319563</identifier>
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/02001735</url>
         </location>
@@ -72024,22 +71783,8 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=OGqS245XmkcC</url>
         </location>
         <location>
-            <url displayLabel="Open Content Alliance"/>
-        </location>
-        <location>
-            <url displayLabel="Open Library"/>
-        </location>
-        <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/coo.31924026668677</url>
         </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">DLC</recordContentSource>
-            <recordCreationDate encoding="marc">840621</recordCreationDate>
-            <recordChangeDate encoding="iso8601">20030930181057.0</recordChangeDate>
-            <recordIdentifier>6320590</recordIdentifier>
-            <recordOrigin>Converted from MARCXML to MODS version 3.4 using MARC21slim2MODS3-4.xsl
-                (Revision 1.85 2013/03/07)</recordOrigin>
-        </recordInfo>
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
         </language>
@@ -72075,15 +71820,9 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods>
-        <identifier type="tlg">2034.014</identifier>
-        <identifier type="ctsurn">urn:cts:greekLit:tlg2034.tlg014.opp-grc1</identifier>
-        <identifier type="lccn">02001736</identifier>
-        <identifier type="oclc">235006750</identifier>
-
+    <mods displayLabel="Quaestionum Homericarum ad Iliadam-Porphyry-Schrader-Teubner-1880">
         <titleInfo>
             <title>Quaestionum homericarum ad Iliadem pertinentium</title>
-            <partNumber>Fasc I</partNumber>
         </titleInfo>
         <titleInfo type="abbreviated" authority="lsj">
             <title>Porph. ad Il.</title>
@@ -72111,10 +71850,30 @@ but this is where the TLG has left off for numbering-->
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
             <publisher>in aedibus B. G. Teubneri</publisher>
-            <dateIssued>1880</dateIssued>
+            <dateIssued>1880-1882</dateIssued>
             <dateIssued point="start" encoding="marc">1880</dateIssued>
+            <dateIssued point="end" encoding="marc">1882</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
+        <note type="statement of responsiblity">reliquias collegit disposuit edidit Hermannus
+            Schrader</note>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
+            </titleInfo>
+            <titleInfo type="abbreviated">
+                <title>Teubner</title>
+            </titleInfo>
+        </relatedItem>
+        <language objectPart="preface">
+            <languageTerm type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code">grc</languageTerm>
+        </language>
+        <physicalDescription>
+            <extent>2 volumes</extent>
+        </physicalDescription>
         <typeOfResource>text</typeOfResource>
         <subject authority="lcsh">
             <name type="personal">
@@ -72124,97 +71883,44 @@ but this is where the TLG has left off for numbering-->
                 <title>Iliad</title>
             </titleInfo>
         </subject>
-        <relatedItem type="constituent">
-            <titleInfo>
-                <title>Quaestionum homericarum ad Iliadem pertinentium</title>
-                <partNumber>Fasc I</partNumber>
-            </titleInfo>
-            <titleInfo type="abbreviated" authority="lsj">
-                <title>Porph. ad Il.</title>
-            </titleInfo>
-            <part>
-                <detail>
-                    <caption>Fasc I</caption>
-                </detail>
-            </part>
-            <name authority="naf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n81-124456.html">
-                <namePart>Porphyry</namePart>
-                <namePart type="date">ca. 234-ca. 305</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="naf" type="personal"
-                authorityURI="http://id.loc.gov/authorities/names/"
-                valueURI="http://id.loc.gov/authorities/names/n89666021">
-                <namePart>Schrader, Hermann</namePart>
-                <namePart type="date">b. 1841</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <location displayLabel="LC Permalink">
-                <url>http://lccn.loc.gov/02001736</url>
-            </location>
-            <location displayLabel="WorldCat">
-                <url>http://www.worldcat.org/oclc/23506750</url>
-            </location>
-            <location displayLabel="GoogleBooks">
-                <url>http://books.google.com/books?id=hgEVAAAAQAAJ</url>
-            </location>
-            <location displayLabel="HathiTrust">
-                <url>http://hdl.handle.net/2027/coo.31924026668651</url>
-            </location>
-            <note type="statement of responsiblity">reliquias collegit disposuit edidit Hermannus
-                Schrader</note>
-        </relatedItem>
-        <relatedItem type="constituent">
-            <titleInfo>
-                <title>Quaestionum homericarum ad Iliadem pertinentium</title>
-                <partNumber>Fasc II</partNumber>
-            </titleInfo>
-            <part>
-                <detail>
-                    <caption>Fasc II</caption>
-                </detail>
-            </part>
-            <name authority="naf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n81-124456.html">
-                <namePart>Porphyry</namePart>
-                <namePart type="date">ca. 234-ca. 305</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="naf" type="personal"
-                authorityURI="http://id.loc.gov/authorities/names/"
-                valueURI="http://id.loc.gov/authorities/names/n89666021">
-                <namePart>Schrader, Hermann</namePart>
-                <namePart type="date">b. 1841</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <tableOfContents>pg. 183-278</tableOfContents>
-            <location displayLabel="LC Permalink">
-                <url>http://lccn.loc.gov/02001736</url>
-            </location>
-            <location displayLabel="WorldCat">
-                <url>http://www.worldcat.org/oclc/23506750</url>
-            </location>
-            <location displayLabel="HathiTrust">
-                <url>http://hdl.handle.net/2027/coo.31924026668651?urlappend=%3Bseq=203</url>
-            </location>
-            <note type="statement of responsiblity">reliquias collegit disposuit edidit Hermannus
-                Schrader</note>
-        </relatedItem>
+        <identifier type="lccn">02001736</identifier>
+        <identifier type="oclc">235006750</identifier>
+        <location displayLabel="LC Permalink">
+            <url>http://lccn.loc.gov/02001736</url>
+        </location>
+        <location displayLabel="WorldCat">
+            <url>http://www.worldcat.org/oclc/23506750</url>
+        </location>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Quaestionum homericarum ad Iliadem pertinentium Fasc I">
             <identifier type="ctsurn">urn:cts:greekLit:tlg2034.tlg014</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Quaestionum homericarum ad Iliadem pertinentium Fasc I">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg2034.tlg014.opp-grc1</identifier>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
+                    <part>
+                        <detail>
+                            <caption>Fasc I</caption>
+                        </detail>
+                    </part>
+                    <location displayLabel="GoogleBooks">
+                        <url>http://books.google.com/books?id=hgEVAAAAQAAJ</url>
+                    </location>
+                    <location displayLabel="HathiTrust">
+                        <url>http://hdl.handle.net/2027/coo.31924026668651</url>
+                    </location>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
+                    <part>
+                        <detail>
+                            <caption>Fasc II</caption>
+                        </detail>
+                    </part>
+                    <tableOfContents>pg. 183-278</tableOfContents>
+                    <location displayLabel="HathiTrust">
+                        <url>http://hdl.handle.net/2027/coo.31924026668651?urlappend=%3Bseq=203</url>
+                    </location>
+                </relatedItem>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -72307,7 +72013,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Rerum Gestarum-Ammianus Marcellinus-Loeb-Perseus-Latin">
+    <mods displayLabel="Rerum Gestarum-Ammianus Marcellinus-Rolfe-Loeb-Perseus-Latin">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Rerum Gestarum</title>
         </titleInfo>
@@ -72347,9 +72053,9 @@ but this is where the TLG has left off for numbering-->
         </language>
         <physicalDescription>
             <form authority="marcform">print</form>
-            <extent>l, 583 pg.</extent>
-            <note>Parallel Latin text and English translation.</note>
+            <extent>3 volumes</extent>
         </physicalDescription>
+        <note>Parallel Latin text and English translation.</note>
         <subject>
             <geographicCode authority="marcgac">e------</geographicCode>
             <geographicCode authority="marcgac">ff-----</geographicCode>
@@ -72386,7 +72092,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Rerum Gestarum-Ammaianus Marcellinus-Loeb-Perseus-English">
+    <mods displayLabel="Rerum Gestarum-Ammaianus Marcellinus-Rolfe-Loeb-Perseus-English">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Rerum Gestarum</title>
         </titleInfo>
@@ -72426,7 +72132,7 @@ but this is where the TLG has left off for numbering-->
         </language>
         <physicalDescription>
             <form authority="marcform">print</form>
-            <extent>l, 583 pg.</extent>
+            <extent>3 volumes</extent>
             <note>Parallel Latin text and English translation.</note>
         </physicalDescription>
         <subject>
@@ -72932,7 +72638,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Rerum Rusticarum">
+    <mods displayLabel="Rerum Rusticarum-Varro-Lloyd_Storr-Bell-1912">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Rerum Rusticarum</title>
         </titleInfo>
@@ -72948,11 +72654,8 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Res Rusticae</title>
         </titleInfo>
-        <identifier type="phi">684.2</identifier>
-        <identifier type="stoa author-text">stoa0286-stoa004</identifier>
         <identifier type="lccn">a 13001147</identifier>
         <identifier type="oclc">5252353</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:phi0684.phi002.opp-eng1</identifier>
         <typeOfResource>text</typeOfResource>
         <genre authority="marc">bibliography</genre>
         <originInfo>
@@ -72992,22 +72695,16 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/5252353</url>
         </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">California. Univ. Libr.</recordContentSource>
-            <recordCreationDate encoding="marc">790808</recordCreationDate>
-            <recordChangeDate encoding="iso8601">20050724183719.0</recordChangeDate>
-            <recordIdentifier>8233165</recordIdentifier>
-        </recordInfo>
         <language>
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
-        <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n79-60808.html">
-            <namePart>Varro, Marcus Terentius.</namePart>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/100219311/">
+            <namePart>Varro, Marcus Terentius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="oclc" type="personal">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/306213093">
             <namePart>Storr-Best, Lloyd</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">translator</roleTerm>
@@ -73027,8 +72724,83 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods>
-        <titleInfo xml:lang="eng" type="uniform">
+    <mods displayLabel="Rerum Rusticarum-Varro-Keil-Teubner-1889">
+        <titleInfo xml:lang="lat" type="uniform">
+            <title>Rerum Rusticarum</title>
+        </titleInfo>
+        <part>
+            <extent unit="words">
+                <total>37220</total>
+            </extent>
+        </part>
+        <titleInfo>
+            <title>Rerum rusticaram libri tres</title>
+        </titleInfo>
+        <titleInfo type="alternative">
+            <title>Res Rusticae</title>
+        </titleInfo>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Lipsiae</placeTerm>
+            </place>
+            <publisher>in aedibvs B. G. Tevbneri</publisher>
+            <dateIssued>1889</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
+            </titleInfo>
+            <titleInfo type="abbreviated">
+                <title>Teubner</title>
+            </titleInfo>
+        </relatedItem>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>x, 173 p. 18 cm.</extent>
+        </physicalDescription>
+        <language objectPart="text">
+            <languageTerm type="code">lat</languageTerm>
+        </language>
+        <note type="statement of responsibility">Recognovit Henricus Keil.</note>
+        <classification authority="lcc">PA6104</classification>
+        <identifier type="oclc">39062410</identifier>
+        <location>
+            <url displayLabel="GoogleBooks">http://books.google.com/books?id=RoiWHcDPWxAC</url>
+        </location>
+        <location>
+            <url displayLabel="WorldCat">http://worldcat.org/oclc/39062410</url>
+        </location>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/100219311/">
+            <namePart>Varro, Marcus Terentius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n89-634657.html">
+            <namePart>Keil, Heinrich</namePart>
+            <namePart type="date">1822-1894</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <subject authority="lcsh">
+            <topic>Agriculture</topic>
+            <geographic>Rome</geographic>
+        </subject>
+        <relatedItem type="constituent" otherType="work" displayLabel="Rerum Rusticarum">
+            <identifier type="ctsurn">urn:cts:latinLit:phi0684.phi002</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Rerum Rusticarum">
+                <identifier type="ctsurn">urn:cts:latinLit:phi0684.phi002.opp-lat2</identifier>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods displayLabel="Rerum Rusticarum-Varro-Keil/Goetz-Teubner-1912">
+        <titleInfo xml:lang="lat" type="uniform">
             <title>Rerum Rusticarum</title>
         </titleInfo>
         <part>
@@ -73042,12 +72814,6 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Res Rusticae</title>
         </titleInfo>
-        <identifier type="phi">684.2</identifier>
-        <identifier type="stoa author-text">stoa0286-stoa004</identifier>
-        <identifier type="oclc">5540223</identifier>
-
-        <identifier type="oca">rerumrusticaruml00varruoft</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:phi0684.phi002.opp-lat1</identifier>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -73064,12 +72830,18 @@ but this is where the TLG has left off for numbering-->
             <form authority="marcform">print</form>
             <extent>xvi, 162 p.</extent>
         </physicalDescription>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
+            </titleInfo>
+            <titleInfo type="abbreviated">
+                <title>Teubner</title>
+            </titleInfo>
+        </relatedItem>
         <note type="statement of responsibility">post Henricum Keil, iterum edidit Georgius
             Goetz.</note>
         <classification authority="lcc">PA6104</classification>
-        <location>
-            <url displayLabel="LC Permalink"/>
-        </location>
+        <identifier type="oclc">5540223</identifier>        
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/5540223</url>
         </location>
@@ -73080,23 +72852,12 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="Open Library"
                 >http://openlibrary.org/details/rerumrusticaruml00varruoft</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks"/>
-        </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">OTU</recordContentSource>
-            <recordCreationDate encoding="marc">730213</recordCreationDate>
-            <recordIdentifier>1057503</recordIdentifier>
-            <languageOfCataloging>
-                <languageTerm authority="iso639-2b" type="code">ENG</languageTerm>
-            </languageOfCataloging>
-        </recordInfo>
-        <language>
+        </location>     
+        <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name type="personal">
-            <namePart>Varro, Marcus Terentius.</namePart>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/100219311/">
+            <namePart>Varro, Marcus Terentius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
@@ -73126,91 +72887,15 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods>
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Rerum Rusticarum</title>
-        </titleInfo>
-        <part>
-            <extent unit="words">
-                <total>37220</total>
-            </extent>
-        </part>
-        <titleInfo>
-            <title>Rerum rusticaram libri tres</title>
-        </titleInfo>
-        <titleInfo type="alternative">
-            <title>Res Rusticae</title>
-        </titleInfo>
-        <identifier type="oclc">39062410</identifier>
-        <identifier type="phi">684.2</identifier>
-        <identifier type="stoa author-text">stoa0286-stoa004</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:phi0684.phi002.opp-lat2</identifier>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">gw</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Lipsiae</placeTerm>
-            </place>
-            <publisher>in aedibvs B. G. Tevbneri</publisher>
-            <dateIssued>1889</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>x, 173 p. 18 cm.</extent>
-        </physicalDescription>
-        <note type="statement of responsibility">Recognovit Henricus Keil.</note>
-        <classification authority="lcc">PA6104</classification>
-        <location>
-            <url displayLabel="GoogleBooks">http://books.google.com/books?id=RoiWHcDPWxAC</url>
-        </location>
-        <location>
-            <url displayLabel="WorldCat">http://worldcat.org/oclc/39062410</url>
-        </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">OCoLC</recordContentSource>
-            <recordCreationDate encoding="marc"/>
-            <recordChangeDate encoding="iso8601"/>
-            <recordIdentifier/>
-        </recordInfo>
-        <language>
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
-        <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n79-60808.html">
-            <namePart>Varro, Marcus Terentius.</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n89-634657.html">
-            <namePart>Keil, Heinrich</namePart>
-            <namePart type="date">1822-1894</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <subject authority="lcsh">
-            <topic>Agriculture</topic>
-            <geographic>Rome</geographic>
-        </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Rerum Rusticarum">
-            <identifier type="ctsurn">urn:cts:latinLit:phi0684.phi002</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Rerum Rusticarum">
-                <identifier type="ctsurn">urn:cts:latinLit:phi0684.phi002.opp-lat2</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
-    <mods>
+    <mods displayLabel="Rerum Rusticarum-Varro-Keil/Goetz-Teubner-1929 (new edition)">
         <titleInfo>
             <title>Rerum rusticarum libri tres</title>
         </titleInfo>
         <titleInfo type="alternative">
             <title>Res Rusticae</title>
         </titleInfo>
-        <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n79-60808.html">
-            <namePart>Varro, Marcus Terentius.</namePart>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/100219311/">
+            <namePart>Varro, Marcus Terentius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
@@ -73242,7 +72927,7 @@ but this is where the TLG has left off for numbering-->
             <edition>Editio nova correctior</edition>
             <issuance>monographic</issuance>
         </originInfo>
-        <language>
+        <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
         <physicalDescription>
@@ -73257,30 +72942,17 @@ but this is where the TLG has left off for numbering-->
         </subject>
         <relatedItem type="series">
             <titleInfo>
-                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana. [Scriptores
-                    Romani]</title>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
             </titleInfo>
         </relatedItem>
         <classification authority="lcc">PA6104</classification>
-        <identifier type="phi">684.2</identifier>
-        <identifier type="stoa author-text">stoa0286-stoa004</identifier>
         <identifier type="oclc">894733432</identifier>
-
-        <identifier type="ctsurn">urn:cts:latinLit:phi0684.phi002.opp-lat3</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/894733432</url>
         </location>
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id415467926</url>
         </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">OTU</recordContentSource>
-            <recordCreationDate encoding="marc">730213</recordCreationDate>
-            <recordIdentifier>1057503</recordIdentifier>
-            <languageOfCataloging>
-                <languageTerm authority="iso639-2b" type="code">ENG</languageTerm>
-            </languageOfCataloging>
-        </recordInfo>
         <relatedItem type="constituent" otherType="work" displayLabel="Rerum rusticarum libri tres">
             <identifier type="ctsurn">urn:cts:latinLit:phi0684.phi002</identifier>
             <relatedItem type="constituent" otherType="expression"
@@ -73289,8 +72961,8 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods>
-        <titleInfo xml:lang="eng" type="uniform">
+    <mods displayLabel="Res Gestae-Augustus-Brunt/Moore-Oxford-1967-Perseus-Latin">
+        <titleInfo xml:lang="lat" type="uniform">
             <title>Res Gestae</title>
         </titleInfo>
         <part>
@@ -73306,11 +72978,8 @@ but this is where the TLG has left off for numbering-->
         </titleInfo>
         <identifier type="lccn">68082890</identifier>
         <identifier type="oclc">458746</identifier>
-        <identifier type="phi">1221.7</identifier>
-        <identifier type="stoa author-text">stoa0041-stoa002</identifier>
         <identifier type="abo">Perseus:abo:phi,1221,007</identifier>
         <identifier>1999.02.0127</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:phi1221.phi007.perseus-lat1</identifier>
         <typeOfResource>text</typeOfResource>
         <genre authority="marc">bibliography</genre>
         <originInfo>
@@ -73340,12 +73009,6 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Perseus" note="Latin"
                 >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.02.0127</url>
         </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">DLC</recordContentSource>
-            <recordCreationDate encoding="marc">680301</recordCreationDate>
-            <recordChangeDate encoding="iso8601">19870806000000.0 </recordChangeDate>
-            <recordIdentifier>3596466 </recordIdentifier>
-        </recordInfo>
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
@@ -73381,19 +73044,16 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods>
-        <titleInfo xml:lang="eng" type="uniform">
+    <mods displayLabel="Res Gestae Alexandri Macedonis-JuliusValerius_Callisthenes-Kubler-Teubner-1888">
+        <titleInfo xml:lang="lat" type="uniform">
             <title>Res gestae Alexandri Macedonis</title>
         </titleInfo>
         <titleInfo>
             <title>Res gestae Alexandri Macedonis translatae ex Aesopo graeco</title>
         </titleInfo>
-        <identifier type="phi">1672.2</identifier>
         <identifier displayLabel="isTranslationOf" type="tlg">1386.001</identifier>
         <identifier type="oclc">2294608</identifier>
         <identifier type="lccn">34038229</identifier>
-
-        <identifier type="ctsurn">urn:cts:latinLit:phi1672.phi002.opp-lat1</identifier>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -73425,24 +73085,9 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=QMRLAAAAMAAJ</url>
         </location>
         <location>
-            <url displayLabel="Open Content Alliance"/>
-        </location>
-        <location>
-            <url displayLabel="Open Library"/>
-        </location>
-        <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015051098773</url>
         </location>
-
-        <recordInfo>
-            <recordContentSource authority="marcorg">DLC</recordContentSource>
-            <recordCreationDate encoding="marc">840418</recordCreationDate>
-            <recordChangeDate encoding="iso8601">20060315163106.0</recordChangeDate>
-            <recordIdentifier>7358264</recordIdentifier>
-            <recordOrigin>Converted from MARCXML to MODS version 3.4 using MARC21slim2MODS3-4.xsl
-                (Revision 1.84 2013/02/01)</recordOrigin>
-        </recordInfo>
-        <language>
+        <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
         </language>
         <name authority="viaf" type="personal" authorityURI="http://id.loc.gov/authorities/names/"
@@ -73489,8 +73134,8 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods>
-        <titleInfo xml:lang="eng" type="uniform">
+    <mods displayLabel="Res Gestae Divi Augusti-Velleius Paterculus-Ellis-OCT-1898">
+        <titleInfo xml:lang="lat" type="uniform">
             <title>Res gestae divi Augusti</title>
         </titleInfo>
         <part>
@@ -73501,11 +73146,6 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Vellei Paterculi ad M. Vinicium libri duo</title>
         </titleInfo>
-        <identifier type="phi">1044.1</identifier>
-        <identifier type="stoa author-text">stoa0289-stoa001</identifier>
-        <identifier type="lccn">29020755</identifier>
-        <identifier type="oclc">68166886</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:phi1044.phi001.opp-lat1</identifier>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -73533,6 +73173,9 @@ but this is where the TLG has left off for numbering-->
                 <title>Oxford Classical Texts</title>
             </titleInfo>
         </relatedItem>
+        <identifier type="lccn">29020755</identifier>
+        <identifier type="oclc">68166886</identifier>
+        
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/29020755</url>
         </location>
@@ -73546,12 +73189,6 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/admvinciumlibrid00velluoft</url>
         </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg"/>
-            <recordCreationDate encoding="marc"/>
-            <recordChangeDate encoding="iso8601"/>
-            <recordIdentifier/>
-        </recordInfo>
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
@@ -73636,7 +73273,7 @@ but this is where the TLG has left off for numbering-->
         </location>
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id416602126</url>
-        </location>       
+        </location>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Platonis Rei publicae libri decem">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0059.tlg030</identifier>
@@ -74058,7 +73695,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Res Rustica-Columella-Loeb">
+    <mods displayLabel="Res Rustica-Columella-Ash-Loeb">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Res Rustica</title>
         </titleInfo>
@@ -74092,7 +73729,7 @@ but this is where the TLG has left off for numbering-->
         <classification authority="lcc">PA6156</classification>
         <relatedItem type="series">
             <titleInfo>
-                <title>The Loeb classical library. [Latin authors]</title>
+                <title>The Loeb classical library</title>
             </titleInfo>
         </relatedItem>
         <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n80-56875.html">
@@ -74204,8 +73841,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Res Rustica-Columella-Loeb-Perseus">
-        <!-- NEED TO REVIEW -->
+    <mods displayLabel="Res Rustica-Columella-Loeb-Perseus-Complete Canonical Work">
         <titleInfo type="translated" lang="eng">
             <title>On agriculture</title>
         </titleInfo>
@@ -74290,11 +73926,11 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="expression"
                     displayLabel="Res Rustica Book I-X">
                     <identifier type="ctsurn">urn:cts:latinLit:phi0845.phi002.perseus-lat3</identifier>
-                </relatedItem>
+                </relatedItem><!-- New URN created for XML file that contains whole work -->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Rhesus-Euripides-Murray-Oxford-Perseus">
+    <mods displayLabel="Rhesus-Euripides-Murray-Oxford-Perseus-English-2">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Rhesus</title>
         </titleInfo>
@@ -74304,7 +73940,7 @@ but this is where the TLG has left off for numbering-->
             </extent>
         </part>
         <titleInfo>
-            <nonSort>The </nonSort>
+            <nonSort>The</nonSort>
             <title>Rhesus of Euripides</title>
         </titleInfo>
         <identifier type="lccn">13017345</identifier>
@@ -74382,9 +74018,6 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>The Art of Rhetoric</title>
         </titleInfo>
-        <identifier type="lccn">27002022</identifier>
-        <identifier type="oclc">4891804</identifier>
-        <identifier>Perseus:text:1999.01.0060</identifier>
         <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n79-4182.html">
             <namePart>Aristotle</namePart>
             <role>
@@ -74430,6 +74063,10 @@ but this is where the TLG has left off for numbering-->
                 <title>The Loeb classical library</title>
             </titleInfo>
         </relatedItem>
+        <identifier type="lccn">27002022</identifier>
+        <identifier type="oclc">4891804</identifier>
+        <identifier>Perseus:text:1999.01.0060</identifier>
+        
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/27002022</url>
         </location>
@@ -74594,125 +74231,8 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods>
-        <titleInfo lang="lat" type="uniform">
-            <title>Rhetorica ad Alexandrum</title>
-        </titleInfo>
-        <part>
-            <extent unit="words">
-                <total>19010</total>
-            </extent>
-        </part>
-        <titleInfo lang="grc">
-            <title>ΑΝΑΞΙΜΕΝΟΥΣ ΤΕΧΝΗ ΡΗΤΟΡΙΚΗ</title>
-        </titleInfo>
-        <titleInfo type="abbreviated" authority="lsj">
-            <title>Arist.Rh.Al.</title>
-        </titleInfo>
-        <titleInfo>
-            <title>Aristotelis opera</title>
-            <partNumber>Volumen Secundum</partNumber>
-            <partName>Aristoteles Graece ex Recognitione Immanuelis Bekkeri</partName>
-            <partNumber>Volumen Alterum</partNumber>
-        </titleInfo>
-        <identifier type="tlg">0547.001</identifier>
-
-        <identifier type="oclc">14545118</identifier>
-        <identifier type="lccn">10002755</identifier>
-        <identifier type="oca">aristotelisopera02arisrich</identifier>
-        <identifier type="ctsurn">urn:cts:greekLit:tlg0547.tlg001.opp-grc1</identifier>
-        <part>
-            <extent unit="pages">
-                <start>1420a</start>
-                <end>1447a</end>
-            </extent>
-        </part>
-        <location>
-            <url displayLabel="GoogleBooks"
-                >http://books.google.com/books?id=6KIkUz7WvwkC&amp;pg=PA1420</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance"
-                >http://www.archive.org/stream/aristotelisopera02arisrich#page/1420/mode/2up</url>
-        </location>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">gw</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Berolini</placeTerm>
-            </place>
-            <publisher>apud G. Reimerum</publisher>
-            <dateIssued>1831</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>pg. 791-1462</extent>
-        </physicalDescription>
-        <note type="statement of responsibility">edidit Academia Regia Borussica.</note>
-        <classification authority="lcc">PA3890</classification>
-        <classification authority="ddc">881</classification>
-        <location>
-            <url displayLabel="LC Permalink">http://lccn.loc.gov/10002755</url>
-        </location>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/14545118</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance"
-                >http://www.archive.org/details/aristotelisopera02arisrich</url>
-        </location>
-        <location>
-            <url displayLabel="Open Library"
-                >http://openlibrary.org/ia/aristotelisopera02arisrich</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks">http://books.google.com/books?id=6KIkUz7WvwkC</url>
-        </location>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n84-134246.html">
-            <namePart>Anaximenes,</namePart>
-            <namePart type="termsOfAddress">of Lampsacus</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n86-112270.html">
-            <namePart>Bekker, Immanuel</namePart>
-            <namePart type="date">1785-1871</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n79-4182.html">
-            <namePart>Aristotle.</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n86-112270.html">
-            <namePart>Bekker, Immanuel</namePart>
-            <namePart type="date">1785-1871</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <relatedItem type="constituent" otherType="work" displayLabel="Rhetorica ad Alexandrum">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0547.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Rhetorica ad Alexandrum">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0547.tlg001.opp-grc1</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
-    <mods>
+    
+    <mods displayLabel="Rhetorica ad Herennium-Pseudo_Cicero-Caplan-Loeb">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Rhetorica ad Herennium [sp.]</title>
         </titleInfo>
@@ -74724,11 +74244,6 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Cicero Rhetorica ad Herennium</title>
         </titleInfo>
-        <identifier type="lccn">55002621</identifier>
-        <identifier type="oclc"> 2917316</identifier>
-        <identifier type="phi">474.73</identifier>
-        <identifier type="stoa author-text">stoa0344</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi073.opp-eng1</identifier>
         <typeOfResource>text</typeOfResource>
         <genre authority="marc">bibliography</genre>
         <originInfo>
@@ -74739,7 +74254,7 @@ but this is where the TLG has left off for numbering-->
                 <placeTerm type="text">Cambridge</placeTerm>
             </place>
             <publisher>Harvard University Press</publisher>
-            <dateModified>2004</dateModified>
+            <dateModified>1964</dateModified>
             <edition>Reprint</edition>
             <dateIssued>1954</dateIssued>
             <issuance>monographic</issuance>
@@ -74770,6 +74285,8 @@ but this is where the TLG has left off for numbering-->
                 <partNumber>1</partNumber>
             </titleInfo>
         </relatedItem>
+        <identifier type="lccn">55002621</identifier>
+        <identifier type="oclc">2917316</identifier>
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/55002621</url>
         </location>
@@ -74777,19 +74294,9 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="WorldCat">http://worldcat.org/oclc/2917316</url>
         </location>
         <location>
-            <url displayLabel="GoogleBooks" note="Snippet         View"
-                >http://books.google.com/books?vid=LCCN55002621</url>
-        </location>
-        <location>
             <url displayLabel="Open Content Alliance"
-                >http://www.archive.org/details/adcherenniumdera00capluoft </url>
+                >http://www.archive.org/details/adcherenniumdera00capluoft</url>
         </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">DLC</recordContentSource>
-            <recordCreationDate encoding="marc">770426</recordCreationDate>
-            <recordChangeDate encoding="iso8601">20050805110854.0</recordChangeDate>
-            <recordIdentifier>7924061</recordIdentifier>
-        </recordInfo>
         <language>
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
@@ -74813,112 +74320,14 @@ but this is where the TLG has left off for numbering-->
                 displayLabel="Rhetorica ad Herennium [sp.]">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi073.opp-eng1</identifier>
             </relatedItem>
-        </relatedItem>
-    </mods>
-    <mods>
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Rhetorica ad Herennium [sp.]</title>
-        </titleInfo>
-        <part>
-            <extent unit="words">
-                <total>31489</total>
-            </extent>
-        </part>
-        <titleInfo>
-            <title>Cicero Rhetorica ad Herennium</title>
-        </titleInfo>
-        <identifier type="lccn">55002621</identifier>
-        <identifier type="oclc"> 2917316</identifier>
-        <identifier type="phi">474.73</identifier>
-        <identifier type="stoa author-text">stoa0344</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi073.opp-lat1</identifier>
-        <typeOfResource>text</typeOfResource>
-        <genre authority="marc">bibliography</genre>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">enk</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Cambridge</placeTerm>
-            </place>
-            <publisher>Harvard University Press</publisher>
-            <dateModified>2004</dateModified>
-            <edition>Reprint</edition>
-            <dateIssued>1954</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>lviii, 433 p. diagrs. 17 cm.</extent>
-        </physicalDescription>
-        <note type="statement of responsibility">With an English translation by Harry Caplan.</note>
-        <note>Bibliography: p. xli-xliv.</note>
-        <classification authority="lcc">PA6156 .R4</classification>
-        <classification authority="ddc">875.2</classification>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>The Loeb classical library</title>
-                <partNumber>403</partNumber>
-            </titleInfo>
-            <titleInfo type="abbreviated">
-                <title>Loeb 403</title>
-            </titleInfo>
-            <titleInfo type="abbreviated">
-                <title>LCL 403</title>
-            </titleInfo>
-        </relatedItem>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Cicero in twenty eight volumes</title>
-                <partNumber>1</partNumber>
-            </titleInfo>
-        </relatedItem>
-        <location>
-            <url displayLabel="LC Permalink">http://lccn.loc.gov/55002621</url>
-        </location>
-        <location>
-            <url displayLabel="WorldCat">http://worldcat.org/oclc/2917316</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks" note="Snippet         View"
-                >http://books.google.com/books?vid=LCCN55002621</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance"
-                >http://www.archive.org/details/adcherenniumdera00capluoft </url>
-        </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">DLC</recordContentSource>
-            <recordCreationDate encoding="marc">770426</recordCreationDate>
-            <recordChangeDate encoding="iso8601">20050805110854.0</recordChangeDate>
-            <recordIdentifier>7924061</recordIdentifier>
-        </recordInfo>
-        <language>
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
-        <name authority="naf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n79-32166.html             ">
-            <namePart>Cicero, Marcus Tullius.</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">attributed author</roleTerm>
-            </role>
-        </name>
-        <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/nr91-25244.html">
-            <namePart>Caplan, Harry</namePart>
-            <namePart type="date">1896-1980</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text"> translator</roleTerm>
-            </role>
-        </name>
-        <relatedItem type="constituent" otherType="work" displayLabel="Rhetorica ad Herennium [sp.]">
-            <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi073</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Rhetorica ad Herennium [sp.]">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi073.opp-lat1</identifier>
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods>
+    
+    <mods displayLabel="Rudens-Plautus-Sonnenschein-Oxford-1937">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Rudens</title>
         </titleInfo>
@@ -74930,13 +74339,6 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>T. Macci Plauti Rudens</title>
         </titleInfo>
-        <identifier type="oclc">47735476</identifier>
-        <identifier type="phi">119.17</identifier>
-        <identifier type="stoa author-text">stoa0231-stoa017</identifier>
-        <identifier type="oclc">47735476</identifier>
-
-
-        <identifier type="ctsurn">urn:cts:latinLit:phi0119.phi017.opp-lat1</identifier>
         <typeOfResource>text</typeOfResource>
         <genre authority="marc">bibliography</genre>
         <originInfo>
@@ -74958,9 +74360,7 @@ but this is where the TLG has left off for numbering-->
         </physicalDescription>
         <classification authority="lcc">PA6568</classification>
         <classification authority="ddc">872/.01</classification>
-        <location>
-            <url displayLabel="LC Permalink"/>
-        </location>
+        <identifier type="oclc">47735476</identifier>        
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/47735476</url>
         </location>
@@ -74969,18 +74369,9 @@ but this is where the TLG has left off for numbering-->
                 >http://www.archive.org/details/tmacciplavtirvde00plauiala</url>
         </location>
         <location>
-            <url displayLabel="Open Library"/>
-        </location>
-        <location>
             <url displayLabel="GoogleBooks" note="1891 edition"
                 >http://books.google.com/books?id=wpcCAAAAMAAJ</url>
         </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">OCoLC</recordContentSource>
-            <recordCreationDate encoding="marc"/>
-            <recordChangeDate encoding="iso8601"/>
-            <recordIdentifier/>
-        </recordInfo>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
@@ -75005,8 +74396,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-
-    <mods>
+    <mods displayLabel="Samia-Menander of Athens-Jacques-Les Belles Lettres-1971">
         <titleInfo type="uniform">
             <title>Samia</title>
         </titleInfo>
@@ -75061,23 +74451,13 @@ but this is where the TLG has left off for numbering-->
             </titleInfo>
         </relatedItem>
         <identifier type="lccn">72585475</identifier>
-        <identifier type="tlg">0541.029</identifier>
         <identifier type="oclc">270836</identifier>
-        <identifier type="ctsurn">urn:cts:greekLit:tlg0541.tlg029.opp-grc2</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/270836</url>
         </location>
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id416158285</url>
         </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">DLC</recordContentSource>
-            <recordCreationDate encoding="marc">720327</recordCreationDate>
-            <recordChangeDate encoding="iso8601">20050830100327.0</recordChangeDate>
-            <recordIdentifier>6647346</recordIdentifier>
-            <recordOrigin>Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5.xsl
-                (Revision 1.106 2014/12/19)</recordOrigin>
-        </recordInfo>
         <relatedItem type="constituent" otherType="work" displayLabel="Samia">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0541.tlg029</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Samia">
@@ -75085,99 +74465,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods>
-        <titleInfo>
-            <title>Sancti Aureli Augustini De consensu evangelistarum libri quattuor</title>
-        </titleInfo>
-        <titleInfo type="alternative">
-            <title>De consensu evangelistarum libri quattuor</title>
-        </titleInfo>
-        <name authority="naf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n80-126290.html ">
-            <namePart>Augustine</namePart>
-            <namePart type="termsOfAddress">Saint, Bishop of Hippo</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="naf" authorityURI="http://id.loc.gov/authorities/names/" type="personal"
-            valueURI="http://id.loc.gov/authorities/names/nr96043584">
-            <namePart>Weihrich, Franz,</namePart>
-            <namePart type="date">1845-</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">au</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Vindobonae</placeTerm>
-            </place>
-            <publisher>Gerold</publisher>
-            <dateIssued>1904</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language>
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
-        <physicalDescription>
-            <digitalOrigin>digitized other analog</digitalOrigin>
-            <extent>xxxi, 467 pages ; 23 cm.</extent>
-        </physicalDescription>
-        <note type="statement of responsibility">ecensuit et commentario critico instruxit
-            Franciscus Weihrich.</note>
-        <note/>
-        <subject authority="lcsh">
-            <topic>Fathers of the church</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Bible</topic>
-            <topic>Gospels</topic>
-            <topic>Criticism, interpretation, etc.</topic>
-        </subject>
-        <classification authority="lcc">BR60 .C6</classification>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Corpus scriptorum ecclesiasticorum Latinorum</title>
-                <partNumber>43</partNumber>
-            </titleInfo>
-        </relatedItem>
-        <identifier type="oclc">59212026</identifier>
-        <identifier type="stoa author-text">stoa0040-stoa037</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:stoa0040.stoa037.opp-lat1</identifier>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/59212026</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks">http://books.google.com/books?id=aygMAAAAIAAJ</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance"/>
-        </location>
-        <location>
-            <url displayLabel="Open Library"/>
-        </location>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/nyp.33433081640884</url>
-        </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">OCoLC</recordContentSource>
-            <recordCreationDate encoding="marc"/>
-            <recordChangeDate encoding="iso8601"/>
-            <recordIdentifier/>
-        </recordInfo>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Sancti Aureli Augustini De consensu evangelistarum libri quattuor">
-            <identifier type="ctsurn">urn:cts:latinLit:stoa0040.stoa037</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Sancti Aureli Augustini De consensu evangelistarum libri quattuor">
-                <identifier type="ctsurn">urn:cts:latinLit:stoa0040.stoa037.opp-lat1</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
+    
     <mods>
         <titleInfo>
             <title>Sancti Aurelii Augustini Opera</title>
