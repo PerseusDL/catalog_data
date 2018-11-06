@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <mods displayLabel="Ab excessu divi Marci libri octo-Herodianus-Bekker-Teubner-1855">
         <titleInfo>
             <title>Herodiani ab excessu divi Marci libri octo</title>
@@ -7566,7 +7566,7 @@
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Argonautica-Vlaerius Flaccus-Weidmann-1871">
+    <mods displayLabel="Argonautica-Valerius Flaccus-Weidmann-1871">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Argonautica</title>
         </titleInfo>
@@ -7578,12 +7578,6 @@
         <titleInfo>
             <title>C. Valeri Flacci Setini Balbi Argonauticon libri octo</title>
         </titleInfo>
-
-        <identifier type="oclc">185545555</identifier>
-        <identifier type="Perseus:abo">Perseus:abo:phi,1035,001</identifier>
-        <identifier type="phi">1035.1</identifier>
-        <identifier type="stoa author-text">stoa0284-stoa001</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:phi1035.phi001.opp-lat2</identifier>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -7603,9 +7597,8 @@
         <note type="statement of responsibility"/>
         <classification authority="lcc">PA6104</classification>
         <classification authority="ddc">873.3</classification>
-        <location>
-            <url displayLabel="LC Permalink"/>
-        </location>
+        <identifier type="oclc">185545555</identifier>
+       
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/185545555</url>
         </location>
@@ -7615,12 +7608,7 @@
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/uc1.$b649509</url>
         </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">OCoLC</recordContentSource>
-            <recordCreationDate encoding="marc"/>
-            <recordChangeDate encoding="iso8601"/>
-            <recordIdentifier>=</recordIdentifier>
-        </recordInfo>
+
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
@@ -7733,9 +7721,6 @@
         </relatedItem>
         <identifier type="lccn">72527578</identifier>
         <identifier type="oclc">323165</identifier>
-        <identifier type="phi">1035.1</identifier>
-        <identifier type="stoa author-text">stoa0284-stoa001</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:phi1035.phi001.opp-lat3</identifier>
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id405311133</url>
         </location>
@@ -7745,14 +7730,6 @@
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/72527578/</url>
         </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">DLC</recordContentSource>
-            <recordCreationDate encoding="marc">720602</recordCreationDate>
-            <recordChangeDate encoding="iso8601">20150203172749.0</recordChangeDate>
-            <recordIdentifier>6178879</recordIdentifier>
-            <recordOrigin>Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5.xsl
-                (Revision 1.106 2014/12/19)</recordOrigin>
-        </recordInfo>
         <relatedItem type="constituent" otherType="work" displayLabel="Argonauticon libri octo">
             <identifier type="ctsurn">urn:cts:latinLit:phi1035.phi001</identifier>
             <relatedItem type="constituent" otherType="expression"
@@ -7762,8 +7739,7 @@
         </relatedItem>
     </mods>
 
-
-    <mods displayLabel="Aristophanis cantica">
+    <mods displayLabel="Aristophanis cantica-Schroeder-Teubner-1930">
         <titleInfo>
             <title>Aristophanis cantica</title>
         </titleInfo>
@@ -7793,7 +7769,7 @@
             <dateIssued>1930</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
-        <language>
+        <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
         </language>
         <physicalDescription>
@@ -7807,8 +7783,6 @@
         </relatedItem>
         <classification authority="lcc">PA3404.A7 A2 1909</classification>
         <identifier type="oclc">4997982</identifier>
-        <identifier type="tlg">0019.030</identifier>
-        <identifier type="ctsurn">urn:cts:greekLit:tlg0019.tlg030.opp-grc1</identifier>
         <!-- This is not technically correct, there is no TLG for this "work"
 but this is where the TLG has left off for numbering-->
         <location>
@@ -7821,13 +7795,6 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="Worldcat">http://www.worldcat.org/oclc/4997982</url>
         </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">OColC</recordContentSource>
-            <recordCreationDate encoding="marc"/>
-            <recordChangeDate encoding="iso8601"/>
-            <recordIdentifier/>
-            <recordOrigin/>
-        </recordInfo>
         <relatedItem type="constituent" otherType="work" displayLabel="Aristophanis cantica">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0019.tlg030</identifier>
             <relatedItem type="constituent" otherType="expression"
@@ -7967,10 +7934,7 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
 
-
-
-
-    <mods displayLabel="Ars Astronomica-Eudoxus-Teubner-Blass">
+    <mods displayLabel="Ars Astronomica-Eudoxus-Teubner-Blass-1887">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Ars astronomica</title>
         </titleInfo>
@@ -7983,7 +7947,6 @@ but this is where the TLG has left off for numbering-->
             <title>Eudoxi ars astronomica qualis in charta Aegyptiaca superest</title>
         </titleInfo>
         <identifier type="oclc">23541404</identifier>
-        <identifier type="tlg">1358.003</identifier>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -8002,9 +7965,6 @@ but this is where the TLG has left off for numbering-->
             <extent>25 p. ; 28 cm.</extent>
         </physicalDescription>
         <classification authority="lcc">QB 21 .E86 </classification>
-        <location>
-            <url displayLabel="LC Permalink"/>
-        </location>
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015035133225</url>
         </location>
@@ -8198,9 +8158,6 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Ars grammatica</title>
         </titleInfo>
-        <identifier type="tlg">4096.001</identifier>
-        <identifier type="oclc">14171248</identifier>
-        <identifier type="oca">arsgrammaticarec00dosiuoft</identifier>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -8219,6 +8176,8 @@ but this is where the TLG has left off for numbering-->
         <note type="language">Greek text with a translation and commentary in Latin</note>
         <note type="statement of responsibliity">Recensuit Ioannes Tolkiehn</note>
         <classification authority="lcc">PA2082 D6 1913</classification>
+        <identifier type="oclc">14171248</identifier>
+        <identifier type="oca">arsgrammaticarec00dosiuoft</identifier>        
         <location>
             <url displayLabel="Open Content Alliance"
                 >http://archive.org/details/arsgrammaticarec00dosiuoft</url>
@@ -8328,9 +8287,7 @@ but this is where the TLG has left off for numbering-->
                 <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
             </titleInfo>
         </relatedItem>
-        <identifier type="tlg">0547.001</identifier>
         <identifier type="oclc">879604289</identifier>
-        <identifier type="ctsurn">urn:cts:greekLit:tlg0547.tlg001.opp-grc2</identifier>
         <location>
             <url displayLabel="Worldcat"> http://www.worldcat.org/oclc/879604289 </url>
         </location>
@@ -8346,7 +8303,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Ars Rhetorica-Aristides-Teubner-1926">
+    <mods displayLabel="Ars Rhetorica-Aristides-Schmid-Teubner-1926">
         <titleInfo type="uniform">
             <title>Ars Rhetorica</title>
         </titleInfo>
@@ -8412,26 +8369,13 @@ but this is where the TLG has left off for numbering-->
             </titleInfo>
         </relatedItem>
         <identifier type="oclc">885395011</identifier>
-        <identifier type="tlg">0284.056</identifier>
-        <identifier type="ctsurn">urn:cts:greekLit:tlg0284.tlg056.opp-grc1</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/885395011</url>
         </location>
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id40897172X</url>
         </location>
-        <recordInfo>
-            <descriptionStandard>aacr</descriptionStandard>
-            <recordContentSource authority="marcorg"/>
-            <recordCreationDate encoding="marc"/>
-            <recordChangeDate encoding="iso8601"/>
-            <recordIdentifier source="DE-576"/>
-            <recordOrigin/>
-            <languageOfCataloging>
-                <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-            </languageOfCataloging>
-        </recordInfo>
-        <relatedItem type="constituent" otherType="work" displayLabel="Ars Rhetorica">
+              <relatedItem type="constituent" otherType="work" displayLabel="Ars Rhetorica">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0284.tlg056</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Ars Rhetorica">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0284.tlg056.opp-grc1</identifier>
@@ -8506,9 +8450,7 @@ but this is where the TLG has left off for numbering-->
             </titleInfo>
         </relatedItem>
         <identifier type="lccn">81122031</identifier>
-        <identifier type="stoa author-text">stoa0166b-stoa001</identifier>
         <identifier type="oclc">882973008</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:stoa0166b.stoa001.opp-lat2</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/882973008</url>
         </location>
@@ -8571,12 +8513,6 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="HathiTrust"> http://hdl.handle.net/2027/njp.32101059175636 </url>
         </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">DLC</recordContentSource>
-            <recordCreationDate encoding="marc">831209</recordCreationDate>
-            <recordChangeDate encoding="iso8601">20051003133745.0</recordChangeDate>
-            <recordIdentifier>9695343</recordIdentifier>
-        </recordInfo>
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
@@ -8685,7 +8621,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Astronomica-Hyginus-Weigel">
+    <mods displayLabel="Astronomica-Hyginus-Bunte-Weigel-1875">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Astronomica</title>
         </titleInfo>
@@ -8998,17 +8934,15 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
     <mods displayLabel="Aulularia-Plautus-Peiper-Teubner-1875">
-        <titleInfo xml:lang="eng" type="uniform">
+        <titleInfo xml:lang="lat" type="uniform">
             <title>Aulularia</title>
         </titleInfo>
         <titleInfo>
             <title>Aulularia sive Querolus</title>
             <subTitle>sive Querolus</subTitle>
         </titleInfo>
-        <identifier type="stoa author-text">stoa0238a-stoa001</identifier>
         <identifier type="lccn">34019059</identifier>
         <identifier type="oclc">18701684</identifier>
-        <identifier type="oca">aululariasiveque00peipuoft</identifier>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -9021,6 +8955,14 @@ but this is where the TLG has left off for numbering-->
             <dateIssued>1875</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
+            </titleInfo>
+            <titleInfo type="abbreviated">
+                <title>Teubner</title>
+            </titleInfo>
+        </relatedItem>        
         <physicalDescription>
             <form authority="marcform">print</form>
             <extent>xi, 68 p. 18 cm.</extent>
@@ -9138,25 +9080,14 @@ but this is where the TLG has left off for numbering-->
                 <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
             </titleInfo>
         </relatedItem>
-        <identifier type="lccn">83215890</identifier>
-        <identifier type="tlg">0006.017</identifier>
+        <identifier type="lccn">83215890</identifier>        
         <identifier type="oclc">882972877</identifier>
-        <identifier type="ctsurn">urn:cts:greekLit:tlg0006.tlg017.opp-grc3</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/882972877</url>
         </location>
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id408039949</url>
         </location>
-        <recordInfo>
-            <descriptionStandard>aacr</descriptionStandard>
-            <recordContentSource authority="marcorg">DLC</recordContentSource>
-            <recordCreationDate encoding="marc">840511</recordCreationDate>
-            <recordChangeDate encoding="iso8601">20140502114731.0</recordChangeDate>
-            <recordIdentifier>3780518</recordIdentifier>
-            <recordOrigin>Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5.xsl
-                (Revision 1.106 2014/12/19)</recordOrigin>
-        </recordInfo>
         <relatedItem type="constituent" otherType="work" displayLabel="Bacchae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0006.tlg017</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Bacchae">
@@ -9164,7 +9095,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Belopoeica-Hero of Alexandria-Diels Schram-1918">
+    <mods displayLabel="Belopoeica-Hero of Alexandria-Diels/Schram-Reimer-1918">
         <titleInfo type="uniform" lang="lat">
             <title>Belopoeica</title>
         </titleInfo>
@@ -9262,7 +9193,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Bellum Punicum-Naevius-Teubner-1964">
+    <mods displayLabel="Bellum Punicum-Naevius-Strzelecki-Teubner-1964">
         <titleInfo>
             <title>Belli Punici carminis quae supersunt</title>
         </titleInfo>
@@ -9319,21 +9250,10 @@ but this is where the TLG has left off for numbering-->
             </titleInfo>
         </relatedItem>
         <identifier type="lccn">68132218</identifier>
-        <identifier type="phi">112.1</identifier>
-        <identifier type="stoa author-text">stoa0206-stoa001</identifier>
         <identifier type="oclc">879601064</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:phi0112.phi001.opp-lat5</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/879601064</url>
         </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">DLC</recordContentSource>
-            <recordCreationDate encoding="marc">740304</recordCreationDate>
-            <recordChangeDate encoding="iso8601">20130503105501.0</recordChangeDate>
-            <recordIdentifier>6157098</recordIdentifier>
-            <recordOrigin>Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5.xsl
-                (Revision 1.106 2014/12/19)</recordOrigin>
-        </recordInfo>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Belli Punici carminis quae supersunt">
             <identifier type="ctsurn">urn:cts:latinLit:phi0112.phi001</identifier>
@@ -9361,8 +9281,6 @@ but this is where the TLG has left off for numbering-->
         <titleInfo authority="stoa" type="alternative">
             <title>De bello Iugurthino</title>
         </titleInfo>
-        <identifier type="oclc">41715623</identifier>
-        <identifier type="oca">iugurtha00salluoft</identifier>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -9382,9 +9300,6 @@ but this is where the TLG has left off for numbering-->
         <note type="statement of responsibility">edited with introduction, notes and index by W.C.
             Summers.</note>
         <location>
-            <url displayLabel="LC Permalink"/>
-        </location>
-        <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/41715623</url>
         </location>
         <location>
@@ -9393,9 +9308,6 @@ but this is where the TLG has left off for numbering-->
         </location>
         <location>
             <url displayLabel="Open Library">http://openlibrary.org/ia/iugurtha00salluoft</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks"/>
         </location>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
@@ -10572,7 +10484,7 @@ but this is where the TLG has left off for numbering-->
             <title>Anacreontea</title>
         </titleInfo>
         <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n83-15407.html">
-            <namePart>Anacreon.</namePart>
+            <namePart>Anacreon</namePart>
             <role>
                 <roleTerm type="text">attributed author</roleTerm>
             </role>
@@ -10626,11 +10538,9 @@ but this is where the TLG has left off for numbering-->
             <titleInfo>
                 <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
             </titleInfo>
-        </relatedItem>
-        <identifier type="tlg">4150.001</identifier>
+        </relatedItem>        
         <identifier type="lccn">85205311</identifier>
         <identifier type="oclc">222451079</identifier>
-        <identifier type="ctsurn">urn:cts:greekLit:tlg4150.tlg001.opp-grc6</identifier>
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/85205311</url>
         </location>
@@ -10640,15 +10550,6 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id408079479</url>
         </location>
-        <recordInfo>
-            <descriptionStandard>aacr</descriptionStandard>
-            <recordContentSource authority="marcorg">DLC</recordContentSource>
-            <recordCreationDate encoding="marc">850916</recordCreationDate>
-            <recordChangeDate encoding="iso8601">19940826151312.8</recordChangeDate>
-            <recordIdentifier>2396695</recordIdentifier>
-            <recordOrigin>Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5.xsl
-                (Revision 1.106 2014/12/19)</recordOrigin>
-        </recordInfo>
         <relatedItem type="constituent" otherType="work" displayLabel="Carmina Anacreontea">
             <identifier type="ctsurn">urn:cts:greekLit:tlg4150.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression"
@@ -10710,29 +10611,18 @@ but this is where the TLG has left off for numbering-->
         <relatedItem type="series">
             <titleInfo>
                 <title>Tusculum-Bücher</title>
+                <partNumber>9</partNumber>
             </titleInfo>
         </relatedItem>
         <classification authority="lcc">PA6274 .A2</classification>
         <identifier type="lccn">af 48000813</identifier>
-        <identifier type="phi">472.1</identifier>
-        <identifier type="stoa author-text">stoa0081-stoa001</identifier>
         <identifier type="oclc">897171349</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:phi0472.phi001.opp-lat8</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/897171349</url>
         </location>
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id416764304</url>
         </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">Harvard University
-                Library</recordContentSource>
-            <recordCreationDate encoding="marc">781019</recordCreationDate>
-            <recordChangeDate encoding="iso8601">20040301134213.0</recordChangeDate>
-            <recordIdentifier>9756171</recordIdentifier>
-            <recordOrigin>Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5.xsl
-                (Revision 1.106 2014/12/19)</recordOrigin>
-        </recordInfo>
         <relatedItem type="constituent" otherType="work" displayLabel="C. Valerii Catulli carmina">
             <identifier type="ctsurn">urn:cts:latinLit:phi0472.phi001</identifier>
             <relatedItem type="constituent" otherType="expression"
@@ -10861,7 +10751,6 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="LC Permalink"/>
         </location>
         <identifier type="oclc">219559839</identifier>
-
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/219559839</url>
         </location>
@@ -10869,10 +10758,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/carminamue00catuuoft</url>
         </location>
-        <location>
-            <url displayLabel="Open Library"/>
-        </location>
-        <location>
+          <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=GOcIAAAAQAAJ</url>
         </location>
 
@@ -10947,23 +10833,12 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
         <identifier type="lccn">58001178</identifier>
         <identifier type="oclc">321516</identifier>
-        <identifier type="phi">472.1</identifier>
-        <identifier type="stoa author-text">stoa0081-stoa001</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:phi0472.phi001.opp-lat7</identifier>
         <location>
             <url displayLabel="Worldcat">http://www.worldcat.org/oclc/321516</url>
         </location>
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id416199798</url>
         </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">DLC</recordContentSource>
-            <recordCreationDate encoding="marc">720531</recordCreationDate>
-            <recordChangeDate encoding="iso8601">20071026125706.0</recordChangeDate>
-            <recordIdentifier>6069944</recordIdentifier>
-            <recordOrigin>Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5.xsl
-                (Revision 1.106 2014/12/19)</recordOrigin>
-        </recordInfo>
         <relatedItem type="constituent" otherType="work" displayLabel="Carmina">
             <identifier type="ctsurn">urn:cts:latinLit:phi0472.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Carmina">
@@ -10971,7 +10846,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Carmina-Catullus-Burton-1894-Perseus">
+    <mods displayLabel="Carmina-Catullus-Burton-1894-Perseus-Latin">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Carmina</title>
         </titleInfo>
@@ -11079,7 +10954,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Carmina-Catullus-Merill-Cambridge-Perseus">
+    <mods displayLabel="Carmina-Catullus-Merill-Cambridge-Perseus-Latin">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Carmina</title>
         </titleInfo>
@@ -11220,9 +11095,7 @@ but this is where the TLG has left off for numbering-->
         <identifier type="lccn">05015039</identifier>
         <identifier type="oclc">878062</identifier>
         <identifier type="ctsurn">urn:cts:latinLit:phi0472.phi001.perseus-eng2</identifier>
-        <identifier>Perseus:text:1999.02.0006</identifier>
-        <identifier type="phi">472.1</identifier>
-        <identifier type="stoa author-text">stoa0081-stoa001</identifier>
+        <identifier>Perseus:text:1999.02.0006</identifier> 
         <identifier type="Perseus:abo">Perseus:abo:phi,0472,001</identifier>
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/uc2.ark:/13960/t5q81d82b</url>
@@ -11237,12 +11110,6 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Perseus" note="English"
                 >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.02.0006</url>
         </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">DLC</recordContentSource>
-            <recordCreationDate encoding="marc">740503</recordCreationDate>
-            <recordChangeDate encoding="iso8601">20040301132808.0 </recordChangeDate>
-            <recordIdentifier>7267146 </recordIdentifier>
-        </recordInfo>
         <relatedItem type="constituent" otherType="work"
             displayLabel="The Carmina of Caius Valerius Catullus">
             <identifier type="ctsurn">urn:cts:latinLit:phi0472.phi001</identifier>
@@ -11304,23 +11171,12 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
         <identifier type="lccn">51353336</identifier>
         <identifier type="oclc">882986081</identifier>
-        <identifier type="phi">472.1</identifier>
-        <identifier type="stoa author-text">stoa0081-stoa001</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:phi0472.phi001.opp-lat6</identifier>
         <location>
             <url displayLabel="Worldcat">http://www.worldcat.org/oclc/882986081</url>
         </location>
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id408369957</url>
         </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">DLC</recordContentSource>
-            <recordCreationDate encoding="marc">810903</recordCreationDate>
-            <recordChangeDate encoding="iso8601">20011231084349.0</recordChangeDate>
-            <recordIdentifier>8841359</recordIdentifier>
-            <recordOrigin>Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5.xsl
-                (Revision 1.106 2014/12/19)</recordOrigin>
-        </recordInfo>
         <relatedItem type="constituent" otherType="work" displayLabel="Catulli Veronensis Liber">
             <identifier type="ctsurn">urn:cts:latinLit:phi0472.phi001</identifier>
             <relatedItem type="constituent" otherType="expression"
@@ -11385,24 +11241,12 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
         <identifier type="lccn">84230602</identifier>
         <identifier type="oclc">10529807</identifier>
-        <identifier type="phi">472.1</identifier>
-        <identifier type="stoa author-text">stoa0081-stoa001</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:phi0472.phi001.opp-lat4</identifier>
         <location>
             <url displayLabel="Worldcat">http://www.worldcat.org/oclc/10529807</url>
         </location>
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id408081929</url>
         </location>
-        <recordInfo>
-            <descriptionStandard>aacr</descriptionStandard>
-            <recordContentSource authority="marcorg">DLC</recordContentSource>
-            <recordCreationDate encoding="marc">860103</recordCreationDate>
-            <recordChangeDate encoding="iso8601">19860124000000.0</recordChangeDate>
-            <recordIdentifier>4745578</recordIdentifier>
-            <recordOrigin>Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5.xsl
-                (Revision 1.106 2014/12/19)</recordOrigin>
-        </recordInfo>
         <relatedItem type="constituent" otherType="work" displayLabel="Catulli Veronensis Liber">
             <identifier type="ctsurn">urn:cts:latinLit:phi0472.phi001</identifier>
             <relatedItem type="constituent" otherType="expression"
@@ -11472,23 +11316,12 @@ but this is where the TLG has left off for numbering-->
         <identifier type="isbn">3519011336</identifier>
         <identifier type="lccn">73367334</identifier>
         <identifier type="oclc">879596009</identifier>
-        <identifier type="phi">472.1</identifier>
-        <identifier type="stoa author-text">stoa0081-stoa001</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:phi0472.phi001.opp-lat5</identifier>
         <location>
             <url displayLabel="Worldcat">http://www.worldcat.org/oclc/879596009</url>
         </location>
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id403647835</url>
         </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">DLC</recordContentSource>
-            <recordCreationDate encoding="marc">770125</recordCreationDate>
-            <recordChangeDate encoding="iso8601">19920407093642.0</recordChangeDate>
-            <recordIdentifier>1258128</recordIdentifier>
-            <recordOrigin>Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5.xsl
-                (Revision 1.106 2014/12/19)</recordOrigin>
-        </recordInfo>
         <relatedItem type="constituent" otherType="work" displayLabel="Catulli Veronensis carmina">
             <identifier type="ctsurn">urn:cts:latinLit:phi0472.phi001</identifier>
             <relatedItem type="constituent" otherType="expression"
@@ -11608,7 +11441,7 @@ but this is where the TLG has left off for numbering-->
         <classification authority="lcc">PA6955.C3</classification>
         <classification authority="ddc">873.1</classification>
         <location>
-            <url displayLabel="WorldCat">http://worldcat.org/oclc/30874971 </url>
+            <url displayLabel="WorldCat">http://worldcat.org/oclc/30874971</url>
         </location>
         <location>
             <url displayLabel="Open Content Alliance"
@@ -11616,6 +11449,9 @@ but this is where the TLG has left off for numbering-->
         </location>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
         <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/nr96-29799.html">
             <namePart>Birt, Theodore.</namePart>
@@ -12291,7 +12127,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Characters-Theoprhastus-Diels-OCT-1909">
+    <mods displayLabel="Characters-Theophrastus-Diels-OCT-1909">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Characters</title>
         </titleInfo>
@@ -12304,9 +12140,7 @@ but this is where the TLG has left off for numbering-->
             <title>Characteres</title>
         </titleInfo>
         <identifier type="oclc"> 498452</identifier>
-        <identifier type="tlg">0093.009</identifier>
         <identifier type="Perseus:abo">Perseus:abo:tlg,0093,009</identifier>
-        <identifier type="ctsurn">urn:cts:greekLit:tlg0093.tlg009.opp-grc1</identifier>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -43301,8 +43135,8 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <!-- LEFT OFF HERE -->
-    <mods displayLabel="Historiae-Thucydides-Classen-Weidmann-1879-">
+    
+    <mods displayLabel="Historiae-Thucydides-Classen-Weidmann-1879-Greek">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Histories</title>
         </titleInfo>
@@ -43323,6 +43157,13 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
+        <name authority="naf" type="personal" xlink:href="http://viaf.org/viaf/42610125/">
+            <namePart>Steup, Julius</namePart>
+            <namePart type="date">1847-1925</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>        
         <originInfo>
             <place>
                 <placeTerm type="code" authority="marccountry">gw</placeTerm>
@@ -43341,353 +43182,186 @@ but this is where the TLG has left off for numbering-->
             <topic>History</topic>
             <temporal>Peloponnesian War, 431-404 B.C</temporal>
         </subject>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Histories</title>
-            </titleInfo>
-            <titleInfo>
-                <title>Thukydides</title>
-                <partNumber>Volume I</partNumber>
-            </titleInfo>
+        <physicalDescription>
+            <extent>8 volumes</extent>
+        </physicalDescription>
+        <location displayLabel="WorldCat">
+            <url>http://www.worldcat.org/oclc/24368548</url>
+        </location>        
+        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc43</identifier>
+        <relatedItem type="constituent" otherType="volume" displayLabel="Volume 1">
             <part>
                 <detail>
                     <caption>Volume I</caption>
                 </detail>
             </part>
-            <name authority="naf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-21175.html">
-                <namePart>Thucydides</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="naf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n84-174325.html">
-                <namePart>Classen, Johannes</namePart>
-                <namePart type="date">1805-1891</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
+            <relatedItem type="constituent" otherType="structure" displayLabel="Book 1">
+                <part>
+                    <detail type="book">
+                        <caption>Book</caption>
+                        <number>1</number>
+                    </detail>
+                </part>
+            </relatedItem> 
             <tableOfContents>Liber I</tableOfContents>
-            <location displayLabel="WorldCat">
-                <url>http://www.worldcat.org/title/thukydides/oclc/24368548</url>
-            </location>
             <location displayLabel="Open Content Alliance">
                 <url>http://www.archive.org/details/thukydides01thuc</url>
             </location>
-            <location displayLabel="Open Library">
-                <url>http://openlibrary.org/ia/thukydides01thuc</url>
-            </location>
             <location displayLabel="GoogleBooks">
                 <url>http://books.google.com/books?id=3T9JAAAAYAAJ</url>
-            </location>
-            <note type="statement of responsbility">erklärt von J. Classen ...</note>
+            </location>      
         </relatedItem>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Histories</title>
-            </titleInfo>
-            <titleInfo>
-                <title>Thukydides</title>
-                <partNumber>Volume II</partNumber>
-            </titleInfo>
+        <relatedItem type="constituent" otherType="volume" displayLabel="Volume 2">
             <part>
                 <detail>
                     <caption>Volume II</caption>
                 </detail>
             </part>
-            <name authority="naf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-21175.html">
-                <namePart>Thucydides</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="naf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n84-174325.html">
-                <namePart>Classen, Johannes</namePart>
-                <namePart type="date">1805-1891</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <name authority="naf" type="personal" xlink:href="http://viaf.org/viaf/42610125/">
-                <namePart>Steup, Julius</namePart>
-                <namePart type="date">1847-1925</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
+            <relatedItem type="constituent" otherType="structure" displayLabel="Book 2">
+                <part>
+                    <detail type="book">
+                        <caption>Book</caption>
+                        <number>2</number>
+                    </detail>
+                </part>
+            </relatedItem> 
             <tableOfContents>Liber II</tableOfContents>
-            <location displayLabel="WorldCat">
-                <url>http://www.worldcat.org/title/thukydides/oclc/24368548</url>
-            </location>
             <location displayLabel="Open Content Alliance">
                 <url>http://www.archive.org/details/thukydides02thuc</url>
-            </location>
-            <location displayLabel="Open Library">
-                <url>http://openlibrary.org/ia/thukydides02thuc</url>
             </location>
             <location displayLabel="GoogleBooks">
                 <url>http://books.google.com/books?id=WeXfAAAAMAAJ</url>
             </location>
-            <note type="statement of responsbility">erklärt von J. Classen ...</note>
         </relatedItem>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Histories</title>
-            </titleInfo>
-            <titleInfo>
-                <title>Thukydides</title>
-                <partNumber>Volume III</partNumber>
-            </titleInfo>
+        <relatedItem type="constituent" otherType="volume" displayLabel="Volume 3">
             <part>
                 <detail>
                     <caption>Volume III</caption>
                 </detail>
             </part>
-            <name authority="naf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-21175.html">
-                <namePart>Thucydides</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="naf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n84-174325.html">
-                <namePart>Classen, Johannes</namePart>
-                <namePart type="date">1805-1891</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
+            <relatedItem type="constituent" otherType="structure" displayLabel="Book 3">
+                <part>
+                    <detail type="book">
+                        <caption>Book</caption>
+                        <number>3</number>
+                    </detail>
+                </part>
+            </relatedItem> 
             <tableOfContents>Liber III</tableOfContents>
-            <location displayLabel="WorldCat">
-                <url>http://www.worldcat.org/title/thukydides/oclc/10231628</url>
-            </location>
             <location displayLabel="HathiTrust">
                 <url>http://hdl.handle.net/2027/chi.23763584</url>
             </location>
-            <note type="statement of responsbility">erklärt von J. Classen ...</note>
         </relatedItem>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Histories</title>
-            </titleInfo>
-            <titleInfo>
-                <title>Thukydides</title>
-                <partNumber>Volume IV</partNumber>
-            </titleInfo>
+        <relatedItem type="constituent" otherType="volume" displayLabel="Volume 4">
             <part>
                 <detail>
                     <caption>Volume IV</caption>
                 </detail>
             </part>
-            <name authority="naf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-21175.html">
-                <namePart>Thucydides</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="naf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n84-174325.html">
-                <namePart>Classen, Johannes</namePart>
-                <namePart type="date">1805-1891</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
+            <relatedItem type="constituent" otherType="structure" displayLabel="Book 4">
+                <part>
+                    <detail type="book">
+                        <caption>Book</caption>
+                        <number>4</number>
+                    </detail>
+                </part>
+            </relatedItem> 
             <tableOfContents>Liber IV</tableOfContents>
-            <location displayLabel="WorldCat">
-                <url>http://www.worldcat.org/title/thukydides/oclc/10231628</url>
-            </location>
             <location displayLabel="HathiTrust">
                 <url>http://hdl.handle.net/2027/hvd.hn27xs</url>
             </location>
             <location displayLabel="GoogleBooks">
                 <url>http://books.google.com/books?id=HdxGAAAAIAAJ&amp;pg=PP5</url>
             </location>
-            <note type="statement of responsbility">erklärt von J. Classen ...</note>
         </relatedItem>
-        <relatedItem type="constituent">
-            <titleInfo>
-                <title>Thukydides</title>
-                <partNumber>Volume V</partNumber>
-            </titleInfo>
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Histories</title>
-            </titleInfo>
+        <relatedItem type="constituent" otherType="volume" displayLabel="Volume 5">
             <part>
                 <detail>
                     <caption>Volume V</caption>
                 </detail>
             </part>
-            <name authority="naf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-21175.html">
-                <namePart>Thucydides</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="naf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n84-174325.html">
-                <namePart>Classen, Johannes</namePart>
-                <namePart type="date">1805-1891</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <name authority="naf" type="personal" xlink:href="http://viaf.org/viaf/42610125/">
-                <namePart>Steup, Julius</namePart>
-                <namePart type="date">1847-1925</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
+            <relatedItem type="constituent" otherType="structure" displayLabel="Book 5">
+                <part>
+                    <detail type="book">
+                        <caption>Book</caption>
+                        <number>5</number>
+                    </detail>
+                </part>
+            </relatedItem> 
             <tableOfContents>Liber V</tableOfContents>
-            <location displayLabel="WorldCat">
-                <url>http://www.worldcat.org/title/thukydides/oclc/34089351</url>
-            </location>
             <location displayLabel="Open Content Alliance">
                 <url>http://www.archive.org/stream/thukydides5v6thuc#page/n3/mode/2up</url>
-            </location>
-            <location displayLabel="Open Library">
-                <url>http://openlibrary.org/ia/thukydides5v6thuc</url>
             </location>
             <location displayLabel="GoogleBooks">
                 <url>http://books.google.com/books?id=fObfAAAAMAAJ</url>
             </location>
-            <note type="statement of responsbility">erklärt von J. Classen ...</note>
         </relatedItem>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Histories</title>
-            </titleInfo>
-            <titleInfo>
-                <title>Thukydides</title>
-                <partNumber>Volume VI</partNumber>
-            </titleInfo>
+        <relatedItem type="constituent" otherType="volume" displayLabel="Volume 6">     
             <part>
                 <detail>
                     <caption>Volume VI</caption>
                 </detail>
             </part>
-            <name authority="naf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-21175.html">
-                <namePart>Thucydides</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="naf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n84-174325.html">
-                <namePart>Classen, Johannes</namePart>
-                <namePart type="date">1805-1891</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
+            <relatedItem type="constituent" otherType="structure" displayLabel="Book 6">
+                <part>
+                    <detail type="book">
+                        <caption>Book</caption>
+                        <number>6</number>
+                    </detail>
+                </part>
+            </relatedItem> 
             <tableOfContents>Liber VI</tableOfContents>
-            <location displayLabel="WorldCat">
-                <url>http://www.worldcat.org/title/thukydides/oclc/16162596</url>
-            </location>
             <location displayLabel="Open Content Alliance">
                 <url>http://www.archive.org/stream/thukydides5v6thuc#page/n207/mode/2up</url>
-            </location>
-            <location displayLabel="Open Library">
-                <url>http://openlibrary.org/ia/thukydides5v6thuc</url>
             </location>
             <location displayLabel="GoogleBooks">
                 <url>http://books.google.com/books?id=Yo5OAAAAYAAJ</url>
             </location>
-            <note type="statement of responsbility">erklärt von J. Classen ...</note>
         </relatedItem>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Histories</title>
-            </titleInfo>
-            <titleInfo>
-                <title>Thukydides</title>
-                <partNumber>Volume VII</partNumber>
-            </titleInfo>
+        <relatedItem type="constituent" otherType="volume" displayLabel="Volume 7">
             <part>
                 <detail>
                     <caption>Volume VII</caption>
                 </detail>
             </part>
-            <name authority="naf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-21175.html">
-                <namePart>Thucydides</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="naf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n84-174325.html">
-                <namePart>Classen, Johannes</namePart>
-                <namePart type="date">1805-1891</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
+            <relatedItem type="constituent" otherType="structure" displayLabel="Book 7">
+                <part>
+                    <detail type="book">
+                        <caption>Book</caption>
+                        <number>7</number>
+                    </detail>
+                </part>
+            </relatedItem> 
             <tableOfContents>Liber VII</tableOfContents>
-            <location displayLabel="WorldCat">
-                <url>http://www.worldcat.org/title/thukydides/oclc/16162596</url>
-            </location>
             <location displayLabel="Open Content Alliance">
                 <url>http://www.archive.org/stream/thukydides7v8thuc#page/n187/mode/2up</url>
-            </location>
-            <location displayLabel="Open Library">
-                <url>http://openlibrary.org/ia/thukydides7v8thuc</url>
             </location>
             <location displayLabel="GoogleBooks">
                 <url>http://books.google.com/books?id=Y45OAAAAYAAJ</url>
             </location>
-            <note type="statement of responsbility">erklärt von J. Classen ...</note>
         </relatedItem>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Histories</title>
-            </titleInfo>
-            <titleInfo>
-                <title>Thukydides</title>
-                <partNumber>Volume VIII</partNumber>
-            </titleInfo>
+        <relatedItem type="constituent" otherType="volume" displayLabel="Volume 8">
             <part>
                 <detail>
                     <caption>Volume VIII</caption>
                 </detail>
             </part>
-            <name authority="naf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-21175.html">
-                <namePart>Thucydides</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="naf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n84-174325.html">
-                <namePart>Classen, Johannes</namePart>
-                <namePart type="date">1805-1891</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
+            <relatedItem type="constituent" otherType="structure" displayLabel="Book 8">
+                <part>
+                    <detail type="book">
+                        <caption>Book</caption>
+                        <number>8</number>
+                    </detail>
+                </part>
+            </relatedItem> 
             <tableOfContents>Liber VIII</tableOfContents>
-            <location displayLabel="WorldCat">
-                <url>http://www.worldcat.org/title/thukydides/oclc/16162596</url>
-            </location>
             <location displayLabel="GoogleBooks">
                 <url>http://books.google.com/books?id=EZ9OAAAAYAAJ</url>
             </location>
-            <note type="statement of responsbility">erklärt von J. Classen ...</note>
         </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc43</identifier>
             </relatedItem>
         </relatedItem>
     </mods>
