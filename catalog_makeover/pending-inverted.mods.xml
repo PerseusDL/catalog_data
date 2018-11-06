@@ -481,33 +481,24 @@
             <location>
                 <url displayLabel="HathiTrust">http://hdl.handle.net/2027/uva.x002076159</url>
             </location>
-            <!-- LEFT OFF HERE FOR EDITING AND URN CONVERSION WORK -->
             <relatedItem type="constituent" otherType="work" displayLabel="Catholica">
-                <titleInfo>
-                    <title>Catholica</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0248c.stoa002</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Catholica">
+                    <identifier type="ctsurn">urn:cts:latinLit:stoa0248c.stoa002.opp-lat1</identifier>
                 <titleInfo type="alternative">
                     <nonSort>De</nonSort>
                     <title>Catholicis</title>
                 </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/7775452">
-                    <namePart>Sacerdos, Marius Plotius,</namePart>
-                    <namePart type="date">active 3rd century</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
+                <!-- 
+                  <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                  valueURI="http://viaf.org/viaf/90633449">
+                  <namePart>Probus, Marcus Valerius</namePart>
+                  <role>
+                   <roleTerm type="text">attributed author</roleTerm>
                     </role>
                 </name>
-                <!-- 
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/90633449">
-            <namePart>Probus, Marcus Valerius</namePart>
-            <role>
-                <roleTerm type="text">attributed author</roleTerm>
-            </role>
-        </name>
          -->
-                <identifier type="stoa author-text">stoa0248c-stoa002</identifier>
                 <part>
                     <extent unit="pages">
                         <start>3</start>
@@ -518,12 +509,13 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uva.x002076159?urlappend=%3Bseq=58</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Instituta Artium">
-                <titleInfo>
-                    <title>Instituta Artium</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0217d.stoa001</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Instituta Artium">
+                    <identifier type="ctsurn">urn:cts:latinLit:stoa00217d.stoa001.opp-lat1</identifier>
                 <name authority="Brill" type="personal">
                     <namePart>Palladius</namePart>
                     <role>
@@ -537,7 +529,6 @@
                         <roleTerm type="text">attributed author</roleTerm>
                     </role>
                 </name>
-                <identifier type="stoa author-text">stoa0217d-stoa001</identifier>
                 <part>
                     <extent unit="pages">
                         <start>45</start>
@@ -548,31 +539,13 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uva.x002076159?urlappend=%3Bseq=102</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Appendix Proba">
-                <titleInfo>
-                    <title>Appendix Proba</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/90633449">
-                    <namePart>Probus, Marcus Valerius</namePart>
-                    <role>
-                        <roleTerm type="text">attributed author</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/2604826">
-                    <namePart>Keil, Heinrich</namePart>
-                    <namePart type="date">1822-1894</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <identifier type="phi">996.5</identifier>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-                </language>
+                <identifier type="ctsurn">urn:cts:latinLit:phi0996.phi005</identifier>
+             <relatedItem type="constituent" otherType="expression" displayLabel="Appendix Proba">
+                 <identifier type="ctsurn">urn:cts:latinLit:phi0996.phi005.opp-lat1</identifier>
+             </relatedItem>         
                 <part>
                     <extent unit="pages">
                         <start>193</start>
@@ -583,31 +556,11 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/nyp.33433082313622?urlappend=%3Bseq=254</url>
                 </location>
-
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="De Nomine Excerpta">
-                <titleInfo>
-                    <title>De Nomine Excerpta</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/90633449">
-                    <namePart>Probus, Marcus Valerius</namePart>
-                    <role>
-                        <roleTerm type="text">attributed author</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/2604826">
-                    <namePart>Keil, Heinrich</namePart>
-                    <namePart type="date">1822-1894</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <identifier type="phi">996.6</identifier>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-                </language>
+                <identifier type="ctsurn">urn:cts:latinLit:phi0996.phi006</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="De Nomine Excerpta">
+                    <identifier type="ctsurn">urn:cts:latinLit:phi0996.phi006.opp-lat1</identifier>
                 <part>
                     <extent unit="pages">
                         <start>205</start>
@@ -618,32 +571,13 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uva.x002076159?urlappend=%3Bseq=262</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work"
                 displayLabel="De Ultimis Syllabis liber Ad Caelestinum">
-                <titleInfo>
-                    <title>De Ultimis Syllabis liber Ad Caelestinum</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/90633449">
-                    <namePart>Probus, Marcus Valerius</namePart>
-                    <role>
-                        <roleTerm type="text">attributed author</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/2604826">
-                    <namePart>Keil, Heinrich</namePart>
-                    <namePart type="date">1822-1894</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <identifier type="phi">996.7</identifier>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-                </language>
+                <identifier type="ctsurn">urn:cts:latinLit:phi0996.phi007</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="De Ultimis Syllabis liber Ad Caelestinum">
+                    <identifier type="ctsurn">urn:cts:latinLit:phi0996.phi007.opp-lat1</identifier>
                 <part>
                     <extent unit="pages">
                         <start>217</start>
@@ -654,19 +588,12 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uva.x002076159?urlappend=%3Bseq=274</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Notae Iuris">
-                <titleInfo>
-                    <title>Notae Iuris</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/90633449">
-                    <namePart>Probus, Marcus Valerius</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
+                <identifier type="ctsurn">urn:cts:latinLit:phi0996.phi002</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Notae Iuris">
+                    <identifier type="ctsurn">urn:cts:latinLit:phi0996.phi002.opp-lat1</identifier>
                 <name authority="viaf" type="personal" usage="primary"
                     authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/2604826">
                     <namePart>Keil, Heinrich</namePart>
@@ -683,10 +610,6 @@
                         <roleTerm type="text">editor</roleTerm>
                     </role>
                 </name>
-                <identifier type="phi">996.2</identifier>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-                </language>
                 <part>
                     <extent unit="pages">
                         <start>267</start>
@@ -697,8 +620,9 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uva.x002076159?urlappend=%3Bseq=324</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
+            <!-- No way to add at this point 
             <relatedItem type="constituent" otherType="work" displayLabel="Notarum Laterculi">
                 <titleInfo>
                     <title>Notarum Laterculi</title>
@@ -711,9 +635,9 @@
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <tableOfContents>Notae Lugdunenses (pg. 277-281) -- Notae ex. dod. Regina (pg.
-                    282-284) --Notae Magnonianae et Lindenbrogianae (pg. 285-300) -- Notae Vaticanae
-                    (pg. 301-314) -- Notae Papianae et Einsidlenses (pg. 315-330) -- </tableOfContents>
+                <tableOfContents>Notae Lugdunenses (pg. 277-281) - Notae ex. dod. Regina (pg.
+                    282-284) - Notae Magnonianae et Lindenbrogianae (pg. 285-300) - Notae Vaticanae
+                    (pg. 301-314) - Notae Papianae et Einsidlenses (pg. 315-330) - </tableOfContents>
                 <name authority="viaf" type="personal" usage="primary"
                     authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/2604826">
                     <namePart>Keil, Heinrich</namePart>
@@ -731,13 +655,12 @@
                         <end>330</end>
                     </extent>
                 </part>
-
-            </relatedItem>
+            </relatedItem> -->
             <relatedItem type="constituent" otherType="work"
                 displayLabel="Notae Litterarum More Vetusto">
-                <titleInfo>
-                    <title>Notae Litterarum More Vetusto</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0227b.stoa003</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Notae Litterarum More Vetusto">
+                    <identifier type="ctsurn">urn:cts:latinLit:stoa0227b.stoa003.opp-lat1</identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/205824099">
                     <namePart>Petrus Diaconus</namePart>
@@ -760,11 +683,7 @@
                     <role>
                         <roleTerm type="text">editor</roleTerm>
                     </role>
-                </name>
-                <identifier type="stoa author-text">stoa0227b-stoa003</identifier>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-                </language>
+                </name>                
                 <part>
                     <extent unit="pages">
                         <start>331</start>
@@ -775,28 +694,16 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uva.x002076159?urlappend=%3Bseq=388</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work"
                 displayLabel="De Probi qui dicitur notarum laterculo alphabetico">
+                <identifier type="ctsurn">urn:cts:latinLit:phi0996.phi008</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="De Probi qui dicitur notarum laterculo alphabetico">
+                    <identifier type="ctsurn">urn:cts:latinLit:phi0996.phi008.opp-lat1</identifier>
                 <titleInfo>
                     <title>De Probi qui dicitur notarum laterculo alphabetico</title>
                 </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/90633449">
-                    <namePart>Probus, Marcus Valerius</namePart>
-                    <role>
-                        <roleTerm type="text">attributed author</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/2604826">
-                    <namePart>Keil, Heinrich</namePart>
-                    <namePart type="date">1822-1894</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
                 <name authority="viaf" type="personal" usage="primary"
                     authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/7402506">
                     <namePart>Mommsen, Theodor</namePart>
@@ -805,10 +712,6 @@
                         <roleTerm type="text">editor</roleTerm>
                     </role>
                 </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-                </language>
-                <identifier type="phi">996.8</identifier>
                 <part>
                     <extent unit="pages">
                         <start>347</start>
@@ -819,28 +722,13 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uva.x002076159?urlappend=%3Bseq=404</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work"
                 displayLabel="Ars Minor De Partibus Orationis">
-                <titleInfo>
-                    <title>Ars Minor De Partibus Orationis</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/37012417">
-                    <namePart>Donatus, Aelius</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/2604826">
-                    <namePart>Keil, Heinrich</namePart>
-                    <namePart type="date">1822-1894</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0110.stoa001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Ars Minor De Partibus Orationis">
+                    <identifier type="ctsurn">urn:cts:latinLit:stoa0110.stoa001.opp-lat1</identifier>
                 <name authority="viaf" type="personal" usage="primary"
                     authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/7402506">
                     <namePart>Mommsen, Theodor</namePart>
@@ -849,10 +737,6 @@
                         <roleTerm type="text">editor</roleTerm>
                     </role>
                 </name>
-                <identifier type="stoa author-text">stoa0110-stoa001</identifier>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-                </language>
                 <part>
                     <extent unit="pages">
                         <start>355</start>
@@ -863,28 +747,13 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uva.x002076159?urlappend=%3Bseq=412</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="De Barbarismo">
-                <titleInfo>
-                    <title>De Barbarismo</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/37012417">
-                    <namePart>Donatus, Aelius</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/2604826">
-                    <namePart>Keil, Heinrich</namePart>
-                    <namePart type="date">1822-1894</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0110.stoa003</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="De Barbarismo">
+                    <identifier type="ctsurn">urn:cts:latinLit:stoa0110.stoa003.opp-lat1</identifier> 
+                    <name authority="viaf" type="personal" usage="primary"
                     authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/7402506">
                     <namePart>Mommsen, Theodor</namePart>
                     <namePart type="date">1817-1903</namePart>
@@ -892,10 +761,6 @@
                         <roleTerm type="text">editor</roleTerm>
                     </role>
                 </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-                </language>
-                <identifier type="stoa author-text">stoa0110-stoa003</identifier>
                 <part>
                     <extent unit="pages">
                         <start>392</start>
@@ -906,27 +771,12 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uva.x002076159?urlappend=%3Bseq=450</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="De Soloecismo">
-                <titleInfo>
-                    <title>De Soloecismo</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/37012417">
-                    <namePart>Donatus, Aelius</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/2604826">
-                    <namePart>Keil, Heinrich</namePart>
-                    <namePart type="date">1822-1894</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0110.stoa007</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="De Soloecismo">
+                    <identifier type="ctsurn">urn:cts:latinLit:stoa0110.stoa007.opp-lat1</identifier>                
                 <name authority="viaf" type="personal" usage="primary"
                     authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/7402506">
                     <namePart>Mommsen, Theodor</namePart>
@@ -934,11 +784,7 @@
                     <role>
                         <roleTerm type="text">editor</roleTerm>
                     </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-                </language>
-                <identifier type="stoa author-text">stoa0110-stoa007</identifier>
+                </name>               
                 <part>
                     <extent unit="pages">
                         <start>393</start>
@@ -949,27 +795,12 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uva.x002076159?urlappend=%3Bseq=450</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="De Ceteris Vitiis">
-                <titleInfo>
-                    <title>De Ceteris Vitiis</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/37012417">
-                    <namePart>Donatus, Aelius</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/2604826">
-                    <namePart>Keil, Heinrich</namePart>
-                    <namePart type="date">1822-1894</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0110.stoa004</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="De Ceteris Vitiis">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0110.stoa004.opp-lat1</identifier>   
                 <name authority="viaf" type="personal" usage="primary"
                     authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/7402506">
                     <namePart>Mommsen, Theodor</namePart>
@@ -978,10 +809,6 @@
                         <roleTerm type="text">editor</roleTerm>
                     </role>
                 </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-                </language>
-                <identifier type="stoa author-text">stoa0110-stoa004</identifier>
                 <part>
                     <extent unit="pages">
                         <start>394</start>
@@ -992,27 +819,12 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uva.x002076159?urlappend=%3Bseq=452</url>
                 </location>
-
             </relatedItem>
+        </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="De Metaplasmo">
-                <titleInfo>
-                    <title>De Metaplasmo</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/37012417">
-                    <namePart>Donatus, Aelius</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/2604826">
-                    <namePart>Keil, Heinrich</namePart>
-                    <namePart type="date">1822-1894</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0110.stoa005</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="De Metaplasmo">
+                    <identifier type="ctsurn">urn:cts:latinLit:stoa0110.stoa005.opp-lat1</identifier>   
                 <name authority="viaf" type="personal" usage="primary"
                     authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/7402506">
                     <namePart>Mommsen, Theodor</namePart>
@@ -1021,10 +833,6 @@
                         <roleTerm type="text">editor</roleTerm>
                     </role>
                 </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-                </language>
-                <identifier type="stoa author-text">stoa0110-stoa005</identifier>
                 <part>
                     <extent unit="pages">
                         <start>395</start>
@@ -1035,27 +843,12 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uva.x002076159?urlappend=%3Bseq=452</url>
                 </location>
-
+            </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="De Schematibus">
-                <titleInfo>
-                    <title>De Schematibus</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/37012417">
-                    <namePart>Donatus, Aelius</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/2604826">
-                    <namePart>Keil, Heinrich</namePart>
-                    <namePart type="date">1822-1894</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0110.stoa006</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="De Schematibus">
+                    <identifier type="ctsurn">urn:cts:latinLit:stoa0110.stoa006.opp-lat1</identifier>   
                 <name authority="viaf" type="personal" usage="primary"
                     authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/7402506">
                     <namePart>Mommsen, Theodor</namePart>
@@ -1064,9 +857,6 @@
                         <roleTerm type="text">editor</roleTerm>
                     </role>
                 </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-                </language>
                 <identifier type="stoa author-text">stoa0110-stoa006</identifier>
                 <part>
                     <extent unit="pages">
@@ -1078,27 +868,12 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uva.x002076159?urlappend=%3Bseq=454</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="De Tropis">
-                <titleInfo>
-                    <title>De Tropis</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/37012417">
-                    <namePart>Donatus, Aelius</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/2604826">
-                    <namePart>Keil, Heinrich</namePart>
-                    <namePart type="date">1822-1894</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0110.stoa008</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="De Tropis">
+                    <identifier type="ctsurn">urn:cts:latinLit:stoa0110.stoa008.opp-lat1</identifier>                 
                 <name authority="viaf" type="personal" usage="primary"
                     authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/7402506">
                     <namePart>Mommsen, Theodor</namePart>
@@ -1107,10 +882,6 @@
                         <roleTerm type="text">editor</roleTerm>
                     </role>
                 </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-                </language>
-                <identifier type="stoa author-text">stoa0110-stoa008</identifier>
                 <part>
                     <extent unit="pages">
                         <start>399</start>
@@ -1121,29 +892,13 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uva.x002076159?urlappend=%3Bseq=456</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work"
                 displayLabel="Commentarius in Artem Donati">
-                <titleInfo>
-                    <title>Commentarius in Artem Donati</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/10970700">
-                    <namePart>Servius,</namePart>
-                    <namePart type="date">active 4th cent.</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/2604826">
-                    <namePart>Keil, Heinrich</namePart>
-                    <namePart type="date">1822-1894</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
+                <identifier type="ctsurn">urn:cts:latinLit:phi2349.phi002</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Commentarius in Artem Donati">
+                    <identifier type="ctsurn">urn:cts:latinLit:phi2349.phi002.opp-lat1</identifier>
                 <name authority="viaf" type="personal" usage="primary"
                     authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/7402506">
                     <namePart>Mommsen, Theodor</namePart>
@@ -1152,11 +907,6 @@
                         <roleTerm type="text">editor</roleTerm>
                     </role>
                 </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-                </language>
-                <identifier type="stoa author-text">stoa0259-stoa001</identifier>
-                <identifier type="phi">2349.2</identifier>
                 <part>
                     <extent unit="pages">
                         <start>405</start>
@@ -1167,28 +917,12 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uva.x002076159?urlappend=%3Bseq=462</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="De Finalibus">
-                <titleInfo>
-                    <title>De Finalibus</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/10970700">
-                    <namePart>Servius,</namePart>
-                    <namePart type="date">active 4th cent.</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/2604826">
-                    <namePart>Keil, Heinrich</namePart>
-                    <namePart type="date">1822-1894</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
+                <identifier type="ctsurn">urn:cts:latinLit:phi2349.phi003</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="De Finalibus">
+                    <identifier type="ctsurn">urn:cts:latinLit:phi2349.phi003.opp-lat1</identifier>              
                 <name authority="viaf" type="personal" usage="primary"
                     authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/7402506">
                     <namePart>Mommsen, Theodor</namePart>
@@ -1196,11 +930,7 @@
                     <role>
                         <roleTerm type="text">editor</roleTerm>
                     </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-                </language>
-                <identifier type="phi">2349.3</identifier>
+                </name>            
                 <part>
                     <extent unit="pages">
                         <start>449</start>
@@ -1211,28 +941,12 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uva.x002076159?urlappend=%3Bseq=506</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Ars De Centum Metris">
-                <titleInfo>
-                    <title>Ars De Centum Metris</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/10970700">
-                    <namePart>Servius,</namePart>
-                    <namePart type="date">active 4th cent.</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/2604826">
-                    <namePart>Keil, Heinrich</namePart>
-                    <namePart type="date">1822-1894</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
+                <identifier type="ctsurn">urn:cts:latinLit:phi2349.phi001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Ars De Centum Metris">
+                    <identifier type="ctsurn">urn:cts:latinLit:phi2349.phi001.opp-lat1</identifier>                
                 <name authority="viaf" type="personal" usage="primary"
                     authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/7402506">
                     <namePart>Mommsen, Theodor</namePart>
@@ -1240,12 +954,7 @@
                     <role>
                         <roleTerm type="text">editor</roleTerm>
                     </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-                </language>
-                <identifier type="stoa author-text">stoa0259-stoa003</identifier>
-                <identifier type="phi">2349.1</identifier>
+                </name>              
                 <part>
                     <extent unit="pages">
                         <start>456</start>
@@ -1256,41 +965,20 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uva.x002076159?urlappend=%3Bseq=514</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="De Metris Horatianis">
-                <titleInfo>
-                    <title>De Metris Horatianis</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/10970700">
-                    <namePart>Servius,</namePart>
-                    <namePart type="date">active 4th cent.</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/2604826">
-                    <namePart>Keil, Heinrich</namePart>
-                    <namePart type="date">1822-1894</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/7402506">
-                    <namePart>Mommsen, Theodor</namePart>
-                    <namePart type="date">1817-1903</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-                </language>
-                <identifier type="stoa author-text">stoa0259-stoa004</identifier>
-                <identifier type="phi">2349.4</identifier>
+                <identifier type="ctsurn">urn:cts:latinLit:phi2349.phi004</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="De Metris Horatianis">
+                    <identifier type="ctsurn">urn:cts:latinLit:phi2349.phi004.opp-lat1</identifier>    
+                    <name authority="viaf" type="personal" usage="primary"
+                        authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/7402506">
+                        <namePart>Mommsen, Theodor</namePart>
+                        <namePart type="date">1817-1903</namePart>
+                        <role>
+                            <roleTerm type="text">editor</roleTerm>
+                        </role>
+                    </name> 
                 <part>
                     <extent unit="pages">
                         <start>468</start>
@@ -1301,13 +989,13 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uva.x002076159?urlappend=%3Bseq=526</url>
                 </location>
-
+            </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work"
                 displayLabel="Explanationem in Artem Donatem">
-                <titleInfo>
-                    <title>Explanationem in Artem Donatem</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0258a.stoa001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Explanationem in Artem Donatem">
+                    <identifier type="ctsurn">urn:cts:latinLit:stoa0258a.stoa001.opp-lat1</identifier>    
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/77945772">
                     <namePart>Sergius</namePart>
@@ -1316,15 +1004,7 @@
                     <role>
                         <roleTerm type="text">creator</roleTerm>
                     </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/2604826">
-                    <namePart>Keil, Heinrich</namePart>
-                    <namePart type="date">1822-1894</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
+                </name>              
                 <name authority="viaf" type="personal" usage="primary"
                     authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/7402506">
                     <namePart>Mommsen, Theodor</namePart>
@@ -1332,11 +1012,7 @@
                     <role>
                         <roleTerm type="text">editor</roleTerm>
                     </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-                </language>
-                <identifier type="stoa">stoa0258a-stoa001</identifier>
+                </name>               
                 <part>
                     <extent unit="pages">
                         <start>473</start>
@@ -1347,24 +1023,16 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uva.x002076159?urlappend=%3Bseq=530</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta Parisina">
-                <titleInfo>
-                    <title>Fragmenta Parisina</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0361a.stoa001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta Parisina">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0361a.stoa001.opp-lat1</identifier>
                 <name authority="stoa" type="corporate">
                     <namePart>Anonymi Grammatici</namePart>
                     <role>
                         <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/2604826">
-                    <namePart>Keil, Heinrich</namePart>
-                    <namePart type="date">1822-1894</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
                     </role>
                 </name>
                 <name authority="viaf" type="personal" usage="primary"
@@ -1376,10 +1044,6 @@
                     </role>
                 </name>
                 <tableOfContents>De Idiomatibus Casuum</tableOfContents>
-                <identifier type="stoa author-text">stoa0361a-stoa001</identifier>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-                </language>
                 <part>
                     <extent unit="pages">
                         <start>566</start>
@@ -1390,6 +1054,7 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uva.x002076159?urlappend=%3Bseq=624</url>
                 </location>
+            </relatedItem>
             </relatedItem>
             <!-- 
     <relatedItem type="constituent">
@@ -1428,7 +1093,7 @@
     </relatedItem>
      -->
         </relatedItem>
-
+        <!-- LEFT OFF HERE FOR ADDING IN CTS URNS -->
         <relatedItem type="constituent" otherType="structure" displayLabel="vol. 5">
             <part type="volume">
                 <detail type="volume">
@@ -1453,9 +1118,9 @@
                 <url displayLabel="HathiTrust">http://hdl.handle.net/2027/inu.30000006661189</url>
             </location>
             <relatedItem type="constituent" otherType="work" displayLabel="Ars Grammatica">
-                <titleInfo>
-                    <title>Ars Grammatica</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:latinLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://www.viaf.org/54504026">
                     <namePart>Cledonius</namePart>
@@ -1475,11 +1140,12 @@
                         >http://hdl.handle.net/2027/inu.30000006661189?urlappend=%3Bseq=10</url>
                 </location>
             </relatedItem>
+            </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Commentum Artis Donati">
-                <titleInfo>
-                    <title>Commentum Artis Donati</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                <identifier type="ctsurn">urn:cts:latinLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Commentum Artis Donati">
+                    <identifier type="ctsurn"></identifier>
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/251044515">
                     <namePart>Pompeius</namePart>
                     <role>
@@ -1498,12 +1164,13 @@
                         >http://hdl.handle.net/2027/inu.30000006661189?urlappend=%3Bseq=90</url>
                 </location>
             </relatedItem>
+            </relatedItem>
             <relatedItem type="constituent" otherType="work"
-                displayLabel="Excerpta ex Commentariis in Donatum">
-                <titleInfo>
-                    <title>Excerpta ex Commentariis in Donatum</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                displayLabel="Excerpta ex Commentariis in Donatum">   
+                <identifier type="ctsurn">urn:cts:latinLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="">
+                    <identifier type="ctsurn"></identifier>           
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/54299000">
                     <namePart>Julianus,</namePart>
                     <namePart type="termsOfAddress">Saint, Bishop of Toledo</namePart>
@@ -1524,9 +1191,12 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/inu.30000006661189?urlappend=%3Bseq=322</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="De nomine et Verbo">
+                <identifier type="ctsurn">urn:cts:latinLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="De nomine et Verbo">
+                    <identifier type="ctsurn"></identifier> 
                 <titleInfo>
                     <title>De nomine et Verbo</title>
                 </titleInfo>
@@ -1548,13 +1218,13 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/inu.30000006661189?urlappend=%3Bseq=338</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work"
                 displayLabel="De Barbarismis et Metaplasmis">
-                <titleInfo>
-                    <title>De Barbarismis et Metaplasmis</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:latinLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="De Barbarismis et Metaplasmis">
+                    <identifier type="ctsurn"></identifier> 
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/49613849">
                     <namePart>Consentius</namePart>
@@ -1573,13 +1243,13 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/inu.30000006661189?urlappend=%3Bseq=396</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Ars De Nomine Et Verbo">
-                <titleInfo>
-                    <title>Ars De Nomine Et Verbo</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                <identifier type="ctsurn">urn:cts:latinLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Ars De Nomine Et Verbo">
+                    <identifier type="ctsurn"></identifier>
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/264079000">
                     <namePart>Phocas</namePart>
                     <role>
@@ -1597,12 +1267,12 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/inu.30000006661189?urlappend=%3Bseq=414</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="De Aspiratione">
-                <titleInfo>
-                    <title>De Aspiratione</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:latinLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="De Aspiratione">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/264079000">
                     <namePart>Phocas</namePart>
@@ -1622,10 +1292,11 @@
                         >http://hdl.handle.net/2027/inu.30000006661189?urlappend=%3Bseq=448</url>
                 </location>
             </relatedItem>
+            </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Ars de Verbo">
-                <titleInfo>
-                    <title>Ars de Verbo</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:latinLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Ars de Verbo">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/52494468">
                     <namePart>Eutyches</namePart>
@@ -1644,19 +1315,12 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/inu.30000006661189?urlappend=%3Bseq=452</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Ars Breviata">
-                <titleInfo>
-                    <title>Ars Breviata</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI=" http://viaf.org/viaf/66806872">
-                    <namePart>Augustinus</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
+                <identifier type="ctsurn">urn:cts:latinLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Ars Breviata">
+                    <identifier type="ctsurn"></identifier>
                 <identifier type="stoa author-text">stoa0040-stoa0012a</identifier>
                 <part>
                     <extent unit="pages">
@@ -1668,7 +1332,7 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/inu.30000006661189?urlappend=%3Bseq=504</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Grammatica">
                 <titleInfo>
@@ -3225,7 +2889,7 @@
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uva.x004065207?urlappend=%3Bseq=548</url>
                 </location>
-            </relatedItem>
+            </relatedItem>            
         </relatedItem>
     </mods>
 
