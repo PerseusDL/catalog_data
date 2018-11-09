@@ -3,8 +3,9 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
     xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <!-- Decided to combine singleton MODS records for Perseus Loeb-editions-maybe move to inverted?
-Can retrieve Perseus specific information from catalog-data-as is expression specific-Will continue
-moving Perseus info from top level MODS records to expression constituent -->
+Can retrieve Perseus specific information from catalog-data-as is expression specific
+-Will continue moving Perseus info from top level MODS records to expression constituent (make sure don't have two 
+    works encoded only two expressions)-->
 
     <mods displayLabel="Ab excessu divi Marci libri octo-Herodianus-Bekker-Teubner-1855">
         <titleInfo>
@@ -11297,6 +11298,88 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
+    <mods displayLabel="Carmina-Paulinus of Nola-Hartel-CSEL-1894">
+        <titleInfo>
+            <title>Sancti Pontii Meropii Paulini Carmina</title>
+        </titleInfo>
+        <titleInfo type="uniform">
+            <title>Carmina</title>
+        </titleInfo>
+        <name authority="viaf" authorityURI="http://id.loc.gov/authorities/names/" type="personal"
+            valueURI="http://id.loc.gov/authorities/names/n50080430">
+            <namePart>Paulinus</namePart>
+            <namePart type="termsOfAddress">of Nola, Saint</namePart>
+            <namePart type="date">approximately 353-431</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" authorityURI="http://id.loc.gov/authorities/names/" type="personal"
+            valueURI="http://id.loc.gov/authorities/names/n81111916">
+            <namePart>Hartel, Wilhelm August, Ritter von,</namePart>
+            <namePart type="date">1839-1907</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">au</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Vindobonae</placeTerm>
+            </place>
+            <publisher>Gerold</publisher>
+            <dateIssued>1894</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <physicalDescription>
+            <digitalOrigin>digitized other analog</digitalOrigin>
+            <extent>XXXXII, [2], 453, [1] S.</extent>
+        </physicalDescription>
+        <note type="statement of responsibility">recensuit et commentario critico instruxit
+            Guilelmvs de Hartel</note>
+        <note/>
+        <subject authority="lcsh">
+            <topic>Fathers of the church</topic>
+        </subject>
+        <subject authority="lcsh">
+            <topic>Fathers of the church, Latin</topic>
+        </subject>
+        <classification authority="lcc">BR60 .C6</classification>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Corpus scriptorum ecclesiasticorum Latinorum</title>
+                <partNumber>Volume 30</partNumber>
+            </titleInfo>
+        </relatedItem>
+        <identifier type="oclc">61942508</identifier>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/61942508</url>
+        </location>
+        <location>
+            <url displayLabel="GoogleBooks">http://books.google.com/books?id=YSMQAAAAYAAJ</url>
+        </location>
+        <location>
+            <url displayLabel="Open Content Alliance"
+                >https://archive.org/details/corpusscriptoru25wiengoog</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/nyp.33433081640819</url>
+        </location>
+        <relatedItem type="constituent" otherType="work"
+            displayLabel="Sancti Pontii Meropii Paulini Carmina">
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0223.stoa001</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Sancti Pontii Meropii Paulini Carmina">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0223.stoa001.opp-lat1</identifier>
+            </relatedItem>
+        </relatedItem>
+    </mods>
     <mods displayLabel="Carminum Reliquiae-Lucilius-Marx-Teubner">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Carminum Reliquiae </title>
@@ -12061,8 +12144,8 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
         </language>
-        <language objectPart="introduction">
-            <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
         </language>
         <name authority="viaf" type="personal"
             xlink:href="http://errol.oclc.org/laf/n79-108364.html">
@@ -18252,7 +18335,7 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
 
-    <mods displayLabel="De Fluminibus-Vibius Sequester-1778">
+    <mods displayLabel="De Fluminibus-Vibius Sequester-Oberlin-Argentori-1778">
         <titleInfo xml:lang="lat" type="uniform">
             <title>De fluminibus</title>
         </titleInfo>
@@ -18326,7 +18409,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De Fluminibus-Vibius Sequester-1867">
+    <mods displayLabel="De Fluminibus-Vibius Sequester-Bursian-Zurich-1867">
         <titleInfo xml:lang="lat" type="uniform">
             <title>De fluminibus</title>
         </titleInfo>
@@ -18486,7 +18569,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De Legibus-Cicero-Perseus-Plinval-1959">
+    <mods displayLabel="De Legibus-Cicero-Plinval-Les Belles Lettres-1959-Perseus">
         <titleInfo xml:lang="eng" type="uniform">
             <title>De Legibus</title>
         </titleInfo>
@@ -18560,7 +18643,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De Libro Medicinali-Serenus Sammnonicus-1957">
+    <mods displayLabel="De Libro Medicinali-Serenus Sammnonicus-Cimino-Buffalo-1957">
         <titleInfo>
             <title>De libro medicinali Quinti Sereni Sammonici</title>
         </titleInfo>
@@ -18801,8 +18884,8 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De magistratibus populi romani-Lydus-Teubner-1903">
-        <titleInfo xml:lang="eng" type="uniform">
+    <mods displayLabel="De Magistratibus populi romani-Lydus-Wunsch-Teubner-1903">
+        <titleInfo xml:lang="lat" type="uniform">
             <title>De magistratibus populi romani</title>
         </titleInfo>
         <part>
@@ -19184,6 +19267,9 @@ but this is where the TLG has left off for numbering-->
             <issuance>monographic</issuance>
         </originInfo>
         <language>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        </language>
+        <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
         <physicalDescription>
@@ -19221,9 +19307,6 @@ but this is where the TLG has left off for numbering-->
                 </location>
                 <!-- Do I need this info here it could be retrieved from catalog_data -->
             </relatedItem>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="De Medicina">
-            <identifier type="ctsurn">urn:cts:latinLit:phi0836.phi002</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="De Medicina">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0836.phi002.perseus-eng1</identifier>
                 <identifier>Perseus:text:1999.02.0142</identifier>
@@ -19401,7 +19484,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De Medicina-Celsus-Daremberg=Teubner-1891-Perseus-Latin">
+    <mods displayLabel="De Medicina-Celsus-Daremberg-Teubner-1891-Perseus-Latin-2">
         <titleInfo xml:lang="lat" type="uniform">
             <title>De Medicina</title>
         </titleInfo>
@@ -19487,7 +19570,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De Medicina-Celsus-Marx-Teubner-Perseus-Latin-2">
+    <mods displayLabel="De Medicina-Celsus-Marx-Teubner-Perseus-Latin-3">
         <titleInfo xml:lang="lat" type="uniform">
             <title>De Medicina</title>
         </titleInfo>
@@ -19501,8 +19584,6 @@ but this is where the TLG has left off for numbering-->
         </titleInfo>
         <identifier type="lccn">36014222</identifier>
         <identifier type="oclc">14778258</identifier>
-        <identifier type="phi">836.2</identifier>
-        <identifier>Perseus:text:2007.01.0088</identifier>
         <name authority="viaf" type="personal" xlink:href="http://errol.oclc.org/laf/n50-34315.html">
             <namePart>Celsus, Aulus Cornelius.</namePart>
             <role>
@@ -19565,15 +19646,15 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="CRL">https://dds.crl.edu/crldelivery/4605</url>
         </location>
-        <location>
-            <url displayLabel="Perseus" note="Latin"
-                >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0088</url>
-        </location>
-
         <relatedItem type="constituent" otherType="work" displayLabel="De Medicina">
             <identifier type="ctsurn">urn:cts:latinLit:phi0836.phi002</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="De Medicina">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0836.phi002.perseus-lat3</identifier>
+                <identifier>Perseus:text:2007.01.0088</identifier>
+                <location>
+                    <url displayLabel="Perseus" note="Latin"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0088</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -20147,7 +20228,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De munitionibus castrorum-Hyginus-Gottingen-1848">
+    <mods displayLabel="De munitionibus castrorum-Hyginus-Lange-Gottingen-1848">
         <titleInfo xml:lang="lat" type="uniform">
             <title>De munitionibus castrorum</title>
         </titleInfo>
@@ -20160,8 +20241,6 @@ but this is where the TLG has left off for numbering-->
             <title>Hygini Gromatici Liber de munitionibus castrorum</title>
         </titleInfo>
         <identifier type="oclc">29859517</identifier>
-        <identifier type="phi">1266.5</identifier>
-        <identifier type="stoa author-text">stoa0156-stoa005</identifier>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -21305,9 +21384,6 @@ but this is where the TLG has left off for numbering-->
                         >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0256</url>
                 </location>
             </relatedItem>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="De naturalibus facultatibus">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg010</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="De naturalibus facultatibus">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg010.perseus-grc1</identifier>
@@ -21881,9 +21957,6 @@ but this is where the TLG has left off for numbering-->
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0048</url>
                 </location>
             </relatedItem>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="De Officiis">
-            <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi055</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="De Officiis">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi055.perseus-lat1</identifier>
                 <identifier>Perseus:text:2007.01.0047</identifier>
@@ -22838,7 +22911,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De Rerum Natura-Lucretius-OCT-1974-Bailey">
+    <mods displayLabel="De Rerum Natura-Lucretius-Bailey-OCT-1974">
         <titleInfo xml:lang="lat" type="uniform">
             <title>De Rerum Natura</title>
         </titleInfo>
@@ -22914,7 +22987,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De Rerum Natura-Lucretius-Reimer-1871">
+    <mods displayLabel="De Rerum Natura-Lucretius-Lachmann-Reimer-1871">
         <titleInfo xml:lang="lat" type="uniform">
             <title>De Rerum Natura</title>
         </titleInfo>
@@ -22947,7 +23020,6 @@ but this is where the TLG has left off for numbering-->
             <extent>252 p. 23 cm.</extent>
         </physicalDescription>
         <classification authority="lcc">PA6482 .A2 1871</classification>
-
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/247369278</url>
         </location>
@@ -23924,7 +23996,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De Temperamentis-Galen-Teubner-1969">
+    <mods displayLabel="De Temperamentis-Galen-Helmreich-Teubner-1969">
         <titleInfo lang="grc" transliteration="rom">
             <title>Peri kraseōn</title>
         </titleInfo>
@@ -30087,7 +30159,80 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-
+    <mods displayLabel="Epistula ad Philocratem-Aristeas-Pelletier-Cerf-1962">
+        <titleInfo>
+            <title>Lettre d'Aristée à Philocrate</title>
+        </titleInfo>
+        <titleInfo type="translated" lang="lat">
+            <title>Epistula ad Philocratem</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/100002553">
+            <namePart>Aristeas</namePart>
+            <role>
+                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/18358734">
+            <namePart>Pelletier, André</namePart>
+            <namePart type="date">1902-1985</namePart>
+            <role>
+                <roleTerm type="text" authority="marcrelator">editor</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">fr</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Paris</placeTerm>
+            </place>
+            <publisher>Éd. du Cerf</publisher>
+            <dateIssued>1962</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <language objectPart="notes">
+            <languageTerm authority="iso639-2b" type="code">fre</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>324 S. : Ill.</extent>
+        </physicalDescription>
+        <note type="statement of responsibility" altRepGroup="00">introduction, texte critique,
+            traduction et notes, index complet des mots grecs par André Pelletier</note>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Sources chrétiennes</title>
+                <partNumber>89</partNumber>
+            </titleInfo>
+        </relatedItem>
+        <subject authority="lcsh">
+            <topic>Bible</topic>
+            <topic>Old Testament.</topic>
+            <topic>Versions</topic>
+            <topic>Septuagint</topic>
+        </subject>
+        <identifier type="oclc">860084</identifier>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/860084</url>
+        </location>
+        <location>
+            <url displayLabel="SLUB">http://digital.slub-dresden.de/id41711074X</url>
+        </location>
+        <relatedItem type="constituent" otherType="work"
+            displayLabel="Lettre d'Aristée à Philocrate">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg1183.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Lettre d'Aristée à Philocrate">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1183.tlg001.opp-grc1</identifier>
+            </relatedItem>
+        </relatedItem>
+    </mods>
     <mods displayLabel="Epistulae-Alciphron-Heimeran-Teubner-1942">
         <titleInfo>
             <title>Hetärenbriefe</title>
@@ -30766,6 +30911,157 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
+    <mods displayLabel="Epistulae-Jerome-Hilberg-CSEL-1910-1918">
+        <titleInfo>
+            <title>Sancti Eusebii Hieronymi Epistulae</title>
+        </titleInfo>
+        <titleInfo type="uniform">
+            <title>Epistolae</title>
+        </titleInfo>
+        <name authority="viaf" type="personal"
+            xlink:href="http://errol.oclc.org/laf/n79-124709.html">
+            <namePart>Jerome</namePart>
+            <namePart type="termsOfAddress">Saint</namePart>
+            <namePart type="date">d. 419 or 20</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" authorityURI="http://id.loc.gov/authorities/names/" type="personal"
+            valueURI="http://id.loc.gov/authorities/names/n89668634">
+            <namePart>Hilberg, Isidorus</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">au</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Vindobonae</placeTerm>
+            </place>
+            <publisher>Gerold</publisher>
+            <dateIssued>1910-1918</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language>
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <physicalDescription>
+            <digitalOrigin>digitized other analog</digitalOrigin>
+            <extent>3 volumes</extent>
+        </physicalDescription>
+        <note type="statement of responsibility">Recensvit Isidorvs Hilberg</note>
+        <note>.</note>
+        <subject authority="lcsh">
+            <topic>Fathers of the church</topic>
+        </subject>
+        <subject authority="lcsh">
+            <topic>Fathers of the church, Latin</topic>
+        </subject>
+        <subject authority="lcsh">
+            <topic>Jerome, Saint, 419 or 420</topic>
+            <topic>Correspondence</topic>
+        </subject>
+        <subject authority="lcsh">
+            <topic>Church History</topic>
+            <topic>Primitive and early church</topic>
+            <topic>ca. 30-600</topic>
+        </subject>
+        <classification authority="lcc">BR60 .C6</classification>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Corpus scriptorum ecclesiasticorum Latinorum</title>
+                <partNumber>Volume 54-56</partNumber>
+            </titleInfo>
+        </relatedItem>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/878696</url>
+        </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="Epistulae">
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0162.stoa004</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Epistulae">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0162.stoa004.opp-lat1</identifier>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
+                    <part type="volume">
+                        <detail>
+                            <number>Pars I</number>
+                        </detail>
+                    </part>
+                    <relatedItem type="constituent" otherType="structure"
+                        displayLabel="Epistulae 1-70">
+                        <part>
+                            <detail type="Epistulae">
+                                <caption>Epistulae</caption>
+                                <number>1-70</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <tableOfContents>Epistulae I-LXX</tableOfContents>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://archive.org/stream/corpusscriptorum54stuoft</url>
+                    </location>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >http://hdl.handle.net/2027/mdp.39015008465935</url>
+                    </location>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
+                    <part type="volume">
+                        <detail>
+                            <number>Pars II</number>
+                        </detail>
+                    </part>
+                    <relatedItem type="constituent" otherType="structure"
+                        displayLabel="Epistulae 71-120">
+                        <part>
+                            <detail type="Epistulae">
+                                <caption>Epistulae</caption>
+                                <number>71-120</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <tableOfContents>Epistulae LXXI-CXX</tableOfContents>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://archive.org/stream/corpusscriptorum55stuoft</url>
+                    </location>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >http://hdl.handle.net/2027/mdp.39015008465927</url>
+                    </location>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
+                    <part type="volume">
+                        <detail>
+                            <number>Pars III</number>
+                        </detail>
+                    </part>
+                    <relatedItem type="constituent" otherType="structure"
+                        displayLabel="Epistulae 121-154">
+                        <part>
+                            <detail type="Epistulae">
+                                <caption>Epistulae</caption>
+                                <number>121-154</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <tableOfContents>Epistulae CXXI-CLIV</tableOfContents>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://archive.org/stream/CSEL56</url>
+                    </location>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >http://hdl.handle.net/2027/mdp.39015008469556</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+        </relatedItem>
+    </mods>
     <mods displayLabel="Epistulae-Jerome-Loeb-Perseus-Latin">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Epistulae</title>
@@ -30976,6 +31272,88 @@ but this is where the TLG has left off for numbering-->
             <identifier type="ctsurn">urn:cts:latinLit:phi0959.phi002</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Epistulae">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0959.phi002.perseus-eng1</identifier>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods displayLabel="Epistulae-Paulinus of Nola-Hartel-1894">
+        <titleInfo>
+            <title>Sancti Pontii Meropii Paulini Epistulae</title>
+        </titleInfo>
+        <titleInfo type="uniform">
+            <title>Epistulae</title>
+        </titleInfo>
+        <name authority="viaf" authorityURI="http://id.loc.gov/authorities/names/" type="personal"
+            valueURI="http://id.loc.gov/authorities/names/n50080430">
+            <namePart>Paulinus</namePart>
+            <namePart type="termsOfAddress">of Nola, Saint</namePart>
+            <namePart type="date">approximately 353-431</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" authorityURI="http://id.loc.gov/authorities/names/" type="personal"
+            valueURI="http://id.loc.gov/authorities/names/n81111916">
+            <namePart>Hartel, Wilhelm August, Ritter von,</namePart>
+            <namePart type="date">1839-1907</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">au</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Vindobonae</placeTerm>
+            </place>
+            <publisher>Gerold</publisher>
+            <dateIssued>1894</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language>
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <physicalDescription>
+            <digitalOrigin>digitized other analog</digitalOrigin>
+            <extent>xxvii, 462 pages : diagram ; 23 cm.</extent>
+        </physicalDescription>
+        <note type="statement of responsibility">recensuit et commentario critico instruxit
+            Guilelmvs de Hartel</note>
+        <note/>
+        <subject authority="lcsh">
+            <topic>Fathers of the church</topic>
+        </subject>
+        <subject authority="lcsh">
+            <topic>Fathers of the church, Latin</topic>
+        </subject>
+        <classification authority="lcc">BR60 .C6</classification>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Corpus scriptorum ecclesiasticorum Latinorum</title>
+                <partNumber>Volume 29</partNumber>
+            </titleInfo>
+        </relatedItem>
+        <identifier type="oclc">643788670</identifier>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/643788670</url>
+        </location>
+        <location>
+            <url displayLabel="GoogleBooks">http://books.google.com/books?id=KCARAAAAYAAJ</url>
+        </location>
+        <location>
+            <url displayLabel="Open Content Alliance"
+                >http://archive.org/details/CorpusScriptorumEcclesiasticorumLatinorum29</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/uva.x001179948</url>
+        </location>
+        <relatedItem type="constituent" otherType="work"
+            displayLabel="Sancti Pontii Meropii Paulini Epistulae">
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0223.stoa002</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Sancti Pontii Meropii Paulini Epistulae">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0223.stoa002.opp-lat1</identifier>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -33434,10 +33812,7 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated">
             <title>Fabulae</title>
         </titleInfo>
-        <identifier>Perseus:text:1999.02.0118</identifier>
-        <identifier type="phi">975.1</identifier>
         <identifier type="oclc">255408650</identifier>
-
         <name authority="viaf" type="personal" xlink:href="http://errol.oclc.org/laf/n50-47685.html">
             <namePart>Phaedrus</namePart>
             <role>
@@ -33485,31 +33860,21 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
         <classification authority="lcc">PA6563</classification>
         <location>
-            <url displayLabel="Perseus" note="Latin"
-                >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.02.0118</url>
-        </location>
-        <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/255408650</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance"/>
-        </location>
-        <location>
-            <url displayLabel="Open Library"/>
         </location>
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=bakNAAAAIAAJ</url>
         </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">OCoLC</recordContentSource>
-            <recordCreationDate encoding="marc"/>
-            <recordChangeDate encoding="iso8601"/>
-            <recordIdentifier/>
-        </recordInfo>
         <relatedItem type="constituent" otherType="work" displayLabel="Fables">
             <identifier type="ctsurn">urn:cts:latinLit:phi0975.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Fables">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0975.phi001.perseus-lat1</identifier>
+                <identifier>Perseus:text:1999.02.0118</identifier>
+                <location>
+                    <url displayLabel="Perseus" note="Latin"
+                        >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.02.0118</url>
+                </location>
+
             </relatedItem>
         </relatedItem>
     </mods>
@@ -40903,12 +41268,6 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Perseus" note="Latin"
                 >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0079</url>
         </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">DLC</recordContentSource>
-            <recordCreationDate encoding="marc">820104</recordCreationDate>
-            <recordChangeDate encoding="iso8601">20020418163719.0</recordChangeDate>
-            <recordIdentifier>6353041</recordIdentifier>
-        </recordInfo>
         <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:latinLit:phi1351.phi004</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
@@ -42481,6 +42840,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
+
     <mods displayLabel="Historiae-Thucydides-Frost-Macmillan-1901-Greek-Book 6 and 7">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Histories</title>
@@ -42560,6 +42920,415 @@ but this is where the TLG has left off for numbering-->
                             <number>6-7</number>
                         </detail>
                     </part>
+                </relatedItem>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods displayLabel="Historiae-Thucydides-Smith-Ginn-Greek-Book 6-7">
+        <titleInfo xml:lang="eng" type="uniform">
+            <title>Histories</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/95161463/">
+            <namePart>Thucydides</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal"
+            xlink:href="http://errol.oclc.org/laf/n86-839410.html">
+            <namePart>Smith, Charles Forster</namePart>
+            <namePart type="date">1852-1931</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">mau</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Boston</placeTerm>
+            </place>
+            <publisher>Ginn</publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>College Series of Greek Authors</title>
+            </titleInfo>
+        </relatedItem>
+        <typeOfResource>text</typeOfResource>
+        <location displayLabel="WorldCat">
+            <url>http://www.worldcat.org/oclc/463172340</url>
+        </location>
+        <note type="statement of responsibility">edited on the basis of Classen's edition, by
+            Charles Forster Smith.</note>
+        <subject authority="lcsh">
+            <geographic>Greece</geographic>
+            <topic>History</topic>
+            <temporal>Peloponnesian War, 431-404 B.C</temporal>
+        </subject>
+        <language objectPart="text">
+            <languageTerm type="code">grc</languageTerm>
+        </language>
+        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc6</identifier>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
+                    <titleInfo>
+                        <title>Book VI</title>
+                    </titleInfo>
+                    <originInfo>
+                        <dateIssued>1913</dateIssued>
+                    </originInfo>
+                    <location displayLabel="Open Content Alliance">
+                        <url>http://www.archive.org/details/bookviit00thucuoft</url>
+                    </location>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
+                    <titleInfo>
+                        <title>Book VII</title>
+                    </titleInfo>
+                    <originInfo>
+                        <dateIssued>1888</dateIssued>
+                    </originInfo>
+                    <location displayLabel="GoogleBooks">
+                        <url>http://books.google.com/books?id=wg9CAAAAIAAJ</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods displayLabel="Historiae-Thucydides-Foulis-Glasgow-Speeches-1755-Greek/Latin">
+        <titleInfo xml:lang="eng" type="uniform">
+            <title>Histories</title>
+        </titleInfo>
+        <part>
+            <extent unit="words">
+                <total>153260</total>
+            </extent>
+        </part>
+        <titleInfo>
+            <title>Ex Thucydide</title>
+            <subTitle>institutum funebris orationis apud Athenienses; Periclis oratio funebris; item
+                Pestis atheniensis. Omnia ordine ex libro secundo Historiae</subTitle>
+        </titleInfo>
+        <titleInfo type="alternative">
+            <title>Institutum funebris orationis apud athenienses</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/95161463/">
+            <namePart>Thucydides</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <identifier type="oclc">224496912</identifier>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">stk</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Glasguae</placeTerm>
+            </place>
+            <publisher>In aedibus academicis, excudebant R. et A. Foulis, academiae
+                typographi</publisher>
+            <dateIssued>1755</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>[5], iv, 102 p. port.</extent>
+        </physicalDescription>
+        <note>Added t.p. in Greek.</note>
+        <note>Greek text followed by Latin translation.</note>
+        <location>
+            <url displayLabel="WorldCat">http://worldcat.org/oclc/224496912</url>
+        </location>
+        <location>
+            <url displayLabel="Open Content Alliance"
+                >http://www.archive.org/details/exthucydideinsti00thucuoft </url>
+        </location>
+        <location>
+            <url displayLabel="Open Library"
+                >http://www.openlibrary.org/details/exthucydideinsti00thucuoft</url>
+        </location>
+        <language>
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <language>
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <name authority="viaf" type="corporate">
+            <namePart>Foulis Press</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">printer</roleTerm>
+            </role>
+        </name>
+        <subject authority="lcsh">
+            <name type="personal">
+                <namePart>Pericles</namePart>
+                <namePart type="date">499-429 B.C</namePart>
+            </name>
+        </subject>
+        <subject authority="lcsh">
+            <topic>Funeral orations</topic>
+        </subject>
+        <subject authority="lcsh">
+            <topic>Plague</topic>
+            <topic>Athens</topic>
+        </subject>
+        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc67</identifier>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-lat15</identifier>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods displayLabel="Historiae-Thucydides-Marchant/Graves-Macmillan-Book 1-6-Greek">
+        <titleInfo xml:lang="eng" type="uniform">
+            <title>Histories</title>
+        </titleInfo>
+        <titleInfo>
+            <title>Thucydides</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/95161463/">
+            <namePart>Thucydides</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">enk</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">London</placeTerm>
+            </place>
+            <publisher>Macmillan</publisher>
+            <publisher>St. Martin's Press</publisher>
+            <edition>Reprint</edition>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Macmillan's classical series for colleges &amp; schools</title>
+            </titleInfo>
+        </relatedItem>
+        <location>
+            <url displayLabel="Worldcat">http://www.worldcat.org/oclc/23672125</url>
+        </location>
+        <identifier type="oclc">23672125</identifier>
+        <typeOfResource>text</typeOfResource>
+        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc60</identifier>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
+                    <part>
+                        <detail>
+                            <caption>Book I</caption>
+                        </detail>
+                    </part>
+                    <name authority="viaf" type="personal"
+                        xlink:href="http://errol.oclc.org/laf/n86-69828.html">
+                        <namePart>Marchant, E. C. (Edgar Cardew)</namePart>
+                        <namePart type="date">1864-1960</namePart>
+                        <role>
+                            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+                        </role>
+                    </name>
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Book 1">
+                        <part>
+                            <detail type="book">
+                                <caption>Book</caption>
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <originInfo>
+                        <dateIssued>1905</dateIssued>
+                        <dateModified>1950</dateModified>
+                    </originInfo>
+                    <location displayLabel="Open Content Alliance">
+                        <url>http://www.archive.org/details/histories01thucuoft</url>
+                    </location>
+                    <location displayLabel="GoogleBooks">
+                        <url>http://books.google.com/books?id=9dMNAAAAIAAJ</url>
+                    </location>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
+                    <part>
+                        <detail>
+                            <caption>Book II</caption>
+                        </detail>
+                    </part>
+                    <name authority="viaf" type="personal"
+                        xlink:href="http://errol.oclc.org/laf/n86-69828.html">
+                        <namePart>Marchant, E. C. (Edgar Cardew)</namePart>
+                        <namePart type="date">1864-1960</namePart>
+                        <role>
+                            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+                        </role>
+                    </name>
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Book 2">
+                        <part>
+                            <detail type="book">
+                                <caption>Book</caption>
+                                <number>2</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <originInfo>
+                        <dateIssued>1891</dateIssued>
+                        <dateModified>1966</dateModified>
+                    </originInfo>
+                    <location displayLabel="Open Content Alliance">
+                        <url>http://www.archive.org/details/histories02thucuoft</url>
+                    </location>
+                    <location displayLabel="GoogleBooks">
+                        <url>http://books.google.com/books?id=9gFgAAAAMAAJ</url>
+                    </location>
+                    <note type="statement of responsibility">edited by E. C. Marchant.</note>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
+                    <part>
+                        <detail>
+                            <caption>Book III</caption>
+                        </detail>
+                    </part>
+                    <name authority="viaf" type="personal"
+                        xlink:href="http://errol.oclc.org/laf/n86-69828.html">
+                        <namePart>Marchant, E. C. (Edgar Cardew)</namePart>
+                        <namePart type="date">1864-1960</namePart>
+                        <role>
+                            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+                        </role>
+                    </name>
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Book 3">
+                        <part>
+                            <detail type="book">
+                                <caption>Book</caption>
+                                <number>3</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <originInfo>
+                        <dateIssued>1909</dateIssued>
+                        <dateModified>1952</dateModified>
+                    </originInfo>
+                    <location displayLabel="Open Content Alliance">
+                        <url>http://www.archive.org/details/histories03thucuoft</url>
+                    </location>
+                    <location displayLabel="Open Library">
+                        <url>http://openlibrary.org/details/histories03thucuoft</url>
+                    </location>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 4">
+                    <part>
+                        <detail>
+                            <caption>Book IV</caption>
+                        </detail>
+                    </part>
+                    <name authority="viaf" type="personal"
+                        xlink:href="http://errol.oclc.org/laf/n85-808765.html">
+                        <namePart>Graves, C. E. (Charles Edward)</namePart>
+                        <namePart type="date">1839-1920</namePart>
+                        <role>
+                            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+                        </role>
+                    </name>
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Book 4">
+                        <part>
+                            <detail type="book">
+                                <caption>Book</caption>
+                                <number>4</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <originInfo>
+                        <dateIssued>1888</dateIssued>
+                        <dateModified>1949</dateModified>
+                    </originInfo>
+                    <location displayLabel="Open Content Alliance">
+                        <url>http://www.archive.org/details/histories04thucuoft</url>
+                    </location>
+                    <location displayLabel="GoogleBooks">
+                        <url>http://books.google.com/books?id=rvUVAAAAYAAJ</url>
+                    </location>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 5">
+                    <part>
+                        <detail>
+                            <caption>Book V</caption>
+                        </detail>
+                    </part>
+                    <name authority="viaf" type="personal"
+                        xlink:href="http://errol.oclc.org/laf/n85-808765.html">
+                        <namePart>Graves, C. E. (Charles Edward)</namePart>
+                        <namePart type="date">1839-1920</namePart>
+                        <role>
+                            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+                        </role>
+                    </name>
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Book 4">
+                        <part>
+                            <detail type="book">
+                                <caption>Book</caption>
+                                <number>5</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <originInfo>
+                        <dateIssued>1891</dateIssued>
+                        <dateModified>1949</dateModified>
+                    </originInfo>
+                    <location displayLabel="Open Library">
+                        <url>http://archive.org/details/histories05thucuoft</url>
+                    </location>
+                    <location displayLabel="GoogleBooks">
+                        <url>http://books.google.com/books?id=odJDDS3Q054C</url>
+                    </location>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 6">
+                    <part>
+                        <detail>
+                            <caption>Book VI</caption>
+                        </detail>
+                    </part>
+                    <name authority="viaf" type="personal"
+                        xlink:href="http://errol.oclc.org/laf/n86-69828.html">
+                        <namePart>Marchant, E. C. (Edgar Cardew)</namePart>
+                        <namePart type="date">1864-1960</namePart>
+                        <role>
+                            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+                        </role>
+                    </name>
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Book">
+                        <part>
+                            <detail type="book">
+                                <caption>Book</caption>
+                                <number>6</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <originInfo>
+                        <dateIssued>1897</dateIssued>
+                        <dateModified>1931</dateModified>
+                    </originInfo>
+                    <location displayLabel="Open Content Alliance">
+                        <url>http://www.archive.org/details/histories06thucuoft</url>
+                    </location>
+                    <location displayLabel="Open Library">
+                        <url>http://openlibrary.org/details/histories06thucuoft</url>
+                    </location>
                 </relatedItem>
             </relatedItem>
         </relatedItem>
@@ -43771,7 +44540,119 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-
+    <mods displayLabel="Historiae-Thucydides-Gottleber/Bauer-Priestley-Greek">
+        <titleInfo xml:lang="eng" type="uniform">
+            <title>Histories</title>
+        </titleInfo>
+        <titleInfo>
+            <title>De bello Peloponnesiaco libri VIII</title>
+            <partNumber>3 volumes</partNumber>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/95161463/">
+            <namePart>Thucydides</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal"
+            xlink:href="http://errol.oclc.org/laf/no96-65067.html">
+            <namePart>Gottleber, Johann Cristoph</namePart>
+            <namePart type="date">1733-1785</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal"
+            xlink:href="http://errol.oclc.org/laf/n87-104653.html">
+            <namePart>Bauer, Karl Ludwig</namePart>
+            <namePart type="date">1730-1799</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/12739365/>" xlink:href="http://viaf.org/viaf/12739365/">
+            <namePart>Benedict, Traugott Friedrich,</namePart>
+            <namePart type="date">1756-1833</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <language objectPart="text">
+            <languageTerm type="code">grc</languageTerm>
+        </language>
+        <language objectPart="notes">
+            <languageTerm type="code">lat</languageTerm>
+        </language>
+        <physicalDescription>
+            <extent>3 volumes</extent>
+        </physicalDescription>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">enk</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">London</placeTerm>
+            </place>
+            <publisher>Priestley</publisher>
+            <dateIssued>1819</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <note type="statement of responsibility">cum versione latina, scholiis graecis, et
+            virorum doctorum animadversionibus, ex editione J.C. Gottleberi, C.L. Baveri,
+            accedunt commentarii critici a T.F. Benedict conscripti et observationes criticae
+            E.F. Poppo.</note>
+        <location displayLabel="WorldCat">
+            <url>http://www.worldcat.org/oclc/12129377</url>
+        </location>
+        <typeOfResource>text</typeOfResource>
+        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc65</identifier>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
+                    <part>
+                        <detail>
+                            <caption>Volumen Primum</caption>
+                        </detail>
+                    </part>
+                    <location displayLabel="GoogleBooks">
+                        <url>https://books.google.com/books?id=gq1SAAAAcAAJ</url>
+                    </location>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
+                    <part>
+                        <detail>
+                            <caption>Volumen Secundum</caption>
+                        </detail>
+                    </part>
+                    <location displayLabel="Open Content Alliance">
+                        <url>http://www.archive.org/details/debellopelopon02thucuoft</url>
+                    </location>
+                    <location displayLabel="Open Library">
+                        <url>http://www.openlibrary.org/details/debellopelopon02thucuoft</url>
+                    </location>
+                    <location displayLabel="HathiTrust">
+                        <url>http://hdl.handle.net/2027/njp.32101066088632</url>
+                    </location>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
+                    <part>
+                        <detail>
+                            <caption>Volumen Tertium</caption>
+                        </detail>
+                    </part>
+                    <location displayLabel="Open Content Alliance">
+                        <url>http://www.archive.org/details/debellopelopon03thucuoft</url>
+                    </location>
+                    <location displayLabel="HathiTrust">
+                        <url>http://hdl.handle.net/2027/chi.096756681</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+        </relatedItem>
+    </mods>
     <mods displayLabel="Historiae-Thucydides-Kruger-Berlin-1858-Greek">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Histories</title>
@@ -44429,725 +45310,12 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
+
+
+
+
     <!-- LEFT OFF HERE -->
-    <mods displayLabel="Historiae-Thucydides-Smith-Ginn-Greek-Book 6-7">
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Histories</title>
-        </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/95161463/">
-            <namePart>Thucydides</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n86-839410.html">
-            <namePart>Smith, Charles Forster</namePart>
-            <namePart type="date">1852-1931</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">mau</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Boston</placeTerm>
-            </place>
-            <publisher>Ginn</publisher>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>College Series of Greek Authors</title>
-            </titleInfo>
-        </relatedItem>
-        <typeOfResource>text</typeOfResource>
-        <location displayLabel="WorldCat">
-            <url>http://www.worldcat.org/oclc/463172340</url>
-        </location>
-        <note type="statement of responsibility">edited on the basis of Classen's edition, by
-            Charles Forster Smith.</note>
-        <subject authority="lcsh">
-            <geographic>Greece</geographic>
-            <topic>History</topic>
-            <temporal>Peloponnesian War, 431-404 B.C</temporal>
-        </subject>
-        <language objectPart="text">
-            <languageTerm type="code">grc</languageTerm>
-        </language>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc6</identifier>
-                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
-                    <titleInfo>
-                        <title>Book VI</title>
-                    </titleInfo>
-                    <originInfo>
-                        <dateIssued>1913</dateIssued>
-                    </originInfo>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/bookviit00thucuoft</url>
-                    </location>
-                </relatedItem>
-                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
-                    <titleInfo>
-                        <title>Book VII</title>
-                    </titleInfo>
-                    <originInfo>
-                        <dateIssued>1888</dateIssued>
-                    </originInfo>
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=wg9CAAAAIAAJ</url>
-                    </location>
-                </relatedItem>
-            </relatedItem>
-        </relatedItem>
-    </mods>
-    <mods>
-        <identifier type="tlg">0003.001</identifier>
-        <identifier type="Perseus:abo">Perseus:abo:tlg,0003,001</identifier>
-        <identifier type="oclc">221390827</identifier>
 
-        <identifier type="oca">histories01thucuoft</identifier>
-        <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc60</identifier>
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Histories</title>
-        </titleInfo>
-        <titleInfo>
-            <title>Thucydides</title>
-            <partNumber>Book I</partNumber>
-        </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/95161463/">
-            <namePart>Thucydides</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" xlink:href="http://errol.oclc.org/laf/n86-69828.html">
-            <namePart>Marchant, E. C. (Edgar Cardew)</namePart>
-            <namePart type="date">1864-1960</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">enk</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">London</placeTerm>
-            </place>
-            <publisher>Macmillan</publisher>
-            <dateIssued>1905</dateIssued>
-            <dateModified>1950</dateModified>
-            <edition>Reprint</edition>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <typeOfResource>text</typeOfResource>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Histories</title>
-            </titleInfo>
-            <titleInfo>
-                <title>Thucydides</title>
-                <partNumber>Book I</partNumber>
-            </titleInfo>
-            <part>
-                <detail>
-                    <caption>Book I</caption>
-                </detail>
-            </part>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-21175.html">
-                <namePart>Thucydides</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n86-69828.html">
-                <namePart>Marchant, E. C. (Edgar Cardew)</namePart>
-                <namePart type="date">1864-1960</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <location displayLabel="WorldCat">
-                <url>http://www.worldcat.org/oclc/221390827</url>
-            </location>
-            <location displayLabel="Open Content Alliance">
-                <url>http://www.archive.org/details/histories01thucuoft</url>
-            </location>
-            <location displayLabel="Open Library">
-                <url>http://openlibrary.org/details/histories01thucuoft</url>
-            </location>
-            <location displayLabel="GoogleBooks">
-                <url>http://books.google.com/books?id=9dMNAAAAIAAJ</url>
-            </location>
-            <note type="statement of responsibility">edited by E. C. Marchant.</note>
-        </relatedItem>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Histories</title>
-            </titleInfo>
-            <titleInfo>
-                <title>Thucydides</title>
-                <partNumber>Book II</partNumber>
-            </titleInfo>
-            <part>
-                <detail>
-                    <caption>Book II</caption>
-                </detail>
-            </part>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-21175.html">
-                <namePart>Thucydides</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n86-69828.html">
-                <namePart>Marchant, E. C. (Edgar Cardew)</namePart>
-                <namePart type="date">1864-1960</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <location displayLabel="WorldCat">
-                <url>http://www.worldcat.org/oclc/681382</url>
-            </location>
-            <location displayLabel="Open Content Alliance">
-                <url>http://www.archive.org/details/histories02thucuoft</url>
-            </location>
-            <location displayLabel="Open Library">
-                <url>http://openlibrary.org/details/histories02thucuoft</url>
-            </location>
-            <location displayLabel="GoogleBooks">
-                <url>http://books.google.com/books?id=9gFgAAAAMAAJ</url>
-            </location>
-            <note type="statement of responsibility">edited by E. C. Marchant.</note>
-        </relatedItem>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Histories</title>
-            </titleInfo>
-            <titleInfo>
-                <title>Thucydides</title>
-                <partNumber>Book III</partNumber>
-            </titleInfo>
-            <part>
-                <detail>
-                    <caption>Book III</caption>
-                </detail>
-            </part>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-21175.html">
-                <namePart>Thucydides</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n86-69828.html">
-                <namePart>Marchant, E. C. (Edgar Cardew)</namePart>
-                <namePart type="date">1864-1960</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <location displayLabel="WorldCat">
-                <url>http://www.worldcat.org/oclc/2677668</url>
-            </location>
-            <location displayLabel="Open Content Alliance">
-                <url>http://www.archive.org/details/histories03thucuoft</url>
-            </location>
-            <location displayLabel="Open Library">
-                <url>http://openlibrary.org/details/histories03thucuoft</url>
-            </location>
-            <note type="statement of responsibility">edited by E. C. Marchant.</note>
-        </relatedItem>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Histories</title>
-            </titleInfo>
-            <titleInfo>
-                <title>Thucydides</title>
-                <partNumber>Book VI</partNumber>
-            </titleInfo>
-            <part>
-                <detail>
-                    <caption>Book VI</caption>
-                </detail>
-            </part>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-21175.html">
-                <namePart>Thucydides</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n86-69828.html">
-                <namePart>Marchant, E. C. (Edgar Cardew)</namePart>
-                <namePart type="date">1864-1960</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <location displayLabel="Open Content Alliance">
-                <url>http://www.archive.org/details/histories06thucuoft</url>
-            </location>
-            <location displayLabel="Open Library">
-                <url>http://openlibrary.org/details/histories06thucuoft</url>
-            </location>
-            <note type="statement of responsibility">edited by E. C. Marchant.</note>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc60</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
-    <mods>
-        <identifier type="tlg">0003.001</identifier>
-        <identifier type="Perseus:abo">Perseus:abo:tlg,0003,001</identifier>
-        <identifier type="oclc">2677687</identifier>
-
-        <identifier type="oca">histories04thucuoft</identifier>
-        <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc62</identifier>
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Histories</title>
-        </titleInfo>
-        <titleInfo>
-            <title>The Fourth Book of Thucydides</title>
-        </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/95161463/">
-            <namePart>Thucydides</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n85-808765.html">
-            <namePart>Graves, C. E. (Charles Edward)</namePart>
-            <namePart type="date">1839-1920</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">enk</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">London</placeTerm>
-            </place>
-            <publisher>Macmillan</publisher>
-            <dateIssued>1888</dateIssued>
-            <dateModified>1949</dateModified>
-            <edition>Reprint</edition>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <typeOfResource>text</typeOfResource>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Histories</title>
-            </titleInfo>
-            <titleInfo>
-                <title>The Fourth Book of Thucydides</title>
-            </titleInfo>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-21175.html">
-                <namePart>Thucydides</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n85-808765.html">
-                <namePart>Graves, C. E. (Charles Edward)</namePart>
-                <namePart type="date">1839-1920</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <location displayLabel="WorldCat">
-                <url>http://www.worldcat.org/oclc/2677687</url>
-            </location>
-            <location displayLabel="Open Content Alliance">
-                <url>http://www.archive.org/details/histories04thucuoft</url>
-            </location>
-            <location displayLabel="Open Library">
-                <url>http://openlibrary.org/details/histories04thucuoft</url>
-            </location>
-            <location displayLabel="GoogleBooks">
-                <url>http://books.google.com/books?id=rvUVAAAAYAAJ</url>
-            </location>
-            <note type="statement of responsibility">edited by E. C. Marchant.</note>
-        </relatedItem>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Histories</title>
-            </titleInfo>
-            <titleInfo>
-                <title>The Fifth Book of Thucydides</title>
-            </titleInfo>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-21175.html">
-                <namePart>Thucydides</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n85-808765.html">
-                <namePart>Graves, C. E. (Charles Edward)</namePart>
-                <namePart type="date">1839-1920</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <location displayLabel="WorldCat">
-                <url>http://www.worldcat.org/oclc/26690085</url>
-            </location>
-            <location displayLabel="Open Content Alliance">
-                <url>http://www.archive.org/details/histories05thucuoft</url>
-            </location>
-            <location displayLabel="Open Library">
-                <url>http://openlibrary.org/details/histories05thucuoft</url>
-            </location>
-            <location displayLabel="GoogleBooks">
-                <url>http://books.google.com/books?id=odJDDS3Q054C</url>
-            </location>
-            <note type="statement of responsibility">edited by E. C. Marchant.</note>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc62</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
-    <mods>
-        <identifier type="tlg">0003.001</identifier>
-        <identifier type="Perseus:abo">Perseus:abo:tlg,0003,001</identifier>
-        <identifier type="oclc">12129377</identifier>
-        <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc65</identifier>
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Histories</title>
-        </titleInfo>
-        <titleInfo>
-            <title>De bello Peloponnesiaco libri VIII</title>
-            <partNumber>Volumen Primum</partNumber>
-        </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/95161463/">
-            <namePart>Thucydides</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no96-65067.html">
-            <namePart>Gottleber, Johann Cristoph</namePart>
-            <namePart type="date">1733-1785</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n87-104653.html">
-            <namePart>Bauer, Karl Ludwig</namePart>
-            <namePart type="date">1730-1799</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">enk</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">London</placeTerm>
-            </place>
-            <publisher>Priestley</publisher>
-            <dateIssued>1819</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <typeOfResource>text</typeOfResource>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Histories</title>
-            </titleInfo>
-            <titleInfo>
-                <title>De bello Peloponnesiaco libri VIII</title>
-                <partNumber>Volumen Primum</partNumber>
-            </titleInfo>
-            <part>
-                <detail>
-                    <caption>Volumen Primum</caption>
-                </detail>
-            </part>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-21175.html">
-                <namePart>Thucydides</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/no96-65067.html">
-                <namePart>Gottleber, Johann Cristoph</namePart>
-                <namePart type="date">1733-1785</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n87-104653.html">
-                <namePart>Bauer, Karl Ludwig</namePart>
-                <namePart type="date">1730-1799</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <location displayLabel="WorldCat">
-                <url>http://www.worldcat.org/oclc/12129377</url>
-            </location>
-            <location displayLabel="GoogleBooks">
-                <url>https://books.google.com/books?id=gq1SAAAAcAAJ</url>
-            </location>
-            <note type="statement of responsibility">cum versione latina, scholiis graecis, et
-                virorum doctorum animadversionibus, ex editione J.C. Gottleberi, C.L. Baveri,
-                accedunt commentarii critici a T.F. Benedict conscripti et observationes criticae
-                E.F. Poppo.</note>
-        </relatedItem>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Histories</title>
-            </titleInfo>
-            <titleInfo>
-                <title>De bello Peloponnesiaco libri VIII</title>
-                <partNumber>Volumen Secundum</partNumber>
-            </titleInfo>
-            <part>
-                <detail>
-                    <caption>Volumen Secundum</caption>
-                </detail>
-            </part>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-21175.html">
-                <namePart>Thucydides</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/no96-65067.html">
-                <namePart>Gottleber, Johann Cristoph</namePart>
-                <namePart type="date">1733-1785</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n87-104653.html">
-                <namePart>Bauer, Karl Ludwig</namePart>
-                <namePart type="date">1730-1799</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <location displayLabel="WorldCat">
-                <url>http://www.worldcat.org/oclc/12129377</url>
-            </location>
-            <location displayLabel="Open Content Alliance">
-                <url>http://www.archive.org/details/debellopelopon02thucuoft</url>
-            </location>
-            <location displayLabel="Open Library">
-                <url>http://www.openlibrary.org/details/debellopelopon02thucuoft</url>
-            </location>
-            <location displayLabel="HathiTrust">
-                <url>http://hdl.handle.net/2027/njp.32101066088632</url>
-            </location>
-            <note type="statement of responsibility">cum versione latina, scholiis graecis, et
-                virorum doctorum animadversionibus, ex editione J.C. Gottleberi, C.L. Baveri,
-                accedunt commentarii critici a T.F. Benedict conscripti et observationes criticae
-                E.F. Poppo.</note>
-        </relatedItem>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Histories</title>
-            </titleInfo>
-            <titleInfo>
-                <title>De bello Peloponnesiaco libri VIII</title>
-                <partNumber>Volumen Tertium</partNumber>
-            </titleInfo>
-            <part>
-                <detail>
-                    <caption>Volumen Tertium</caption>
-                </detail>
-            </part>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-21175.html">
-                <namePart>Thucydides</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/no96-65067.html">
-                <namePart>Gottleber, Johann Cristoph</namePart>
-                <namePart type="date">1733-1785</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n87-104653.html">
-                <namePart>Bauer, Karl Ludwig</namePart>
-                <namePart type="date">1730-1799</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <location displayLabel="WorldCat">
-                <url>http://www.worldcat.org/oclc/12129377</url>
-            </location>
-            <location displayLabel="Open Content Alliance">
-                <url>http://www.archive.org/details/debellopelopon03thucuoft</url>
-            </location>
-            <location displayLabel="Open Library">
-                <url>http://www.openlibrary.org/details/debellopelopon03thucuoft</url>
-            </location>
-            <location displayLabel="HathiTrust">
-                <url>http://hdl.handle.net/2027/chi.096756681</url>
-            </location>
-            <note type="statement of responsibility">cum versione latina, scholiis graecis, et
-                virorum doctorum animadversionibus, ex editione J.C. Gottleberi, C.L. Baveri,
-                accedunt commentarii critici a T.F. Benedict conscripti et observationes criticae
-                E.F. Poppo.</note>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc65</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
-    <mods>
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Histories</title>
-        </titleInfo>
-        <part>
-            <extent unit="words">
-                <total>153260</total>
-            </extent>
-        </part>
-        <titleInfo>
-            <title>Ex Thucydide</title>
-            <subTitle>institutum funebris orationis apud Athenienses; Periclis oratio funebris; item
-                Pestis atheniensis. Omnia ordine ex libro secundo Historiae</subTitle>
-        </titleInfo>
-        <titleInfo type="alternative">
-            <title>Institutum funebris orationis apud athenienses</title>
-        </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/95161463/">
-            <namePart>Thucydides</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <identifier type="tlg">0003.001</identifier>
-        <identifier type="Perseus:abo">Perseus:abo:tlg,0003,001 </identifier>
-        <identifier type="oclc">224496912</identifier>
-        <identifier type="oca"> exthucydideinsti00thucuoft</identifier>
-        <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc67</identifier>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">stk</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Glasguae</placeTerm>
-            </place>
-            <publisher>In aedibus academicis, excudebant R. et A. Foulis, academiae
-                typographi</publisher>
-            <dateIssued>1755</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>[5], iv, 102 p. port.</extent>
-        </physicalDescription>
-        <note>Added t.p. in Greek.</note>
-        <note>Greek text followed by Latin translation.</note>
-        <location>
-            <url displayLabel="WorldCat">http://worldcat.org/oclc/224496912</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance"
-                >http://www.archive.org/details/exthucydideinsti00thucuoft </url>
-        </location>
-        <location>
-            <url displayLabel="Open Library"
-                >http://www.openlibrary.org/details/exthucydideinsti00thucuoft</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks" note="Snippet View"
-                >http://books.google.com/books?id=hbZDGwAACAAJ</url>
-        </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">otu</recordContentSource>
-            <recordCreationDate encoding="marc">840426</recordCreationDate>
-            <languageOfCataloging>
-                <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-            </languageOfCataloging>
-        </recordInfo>
-        <language>
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <name authority="viaf" type="personal" xlink:href="http://errol.oclc.org/laf/n79-21175.html">
-            <namePart>Thucydides.</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="corporate">
-            <namePart>Foulis Press</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">printer</roleTerm>
-            </role>
-        </name>
-        <subject authority="lcsh">
-            <name type="personal">
-                <namePart>Pericles</namePart>
-                <namePart type="date">499-429 B.C</namePart>
-            </name>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Funeral orations</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Plague</topic>
-            <topic>Athens</topic>
-        </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc67</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
     <mods>
         <identifier type="tlg">0003.001</identifier>
         <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc70</identifier>
@@ -47000,105 +47168,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods>
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Histories</title>
-        </titleInfo>
-        <part>
-            <extent unit="words">
-                <total>153260</total>
-            </extent>
-        </part>
-        <titleInfo>
-            <title>Ex Thucydide</title>
-            <subTitle>institutum funebris orationis apud Athenienses; Periclis oratio funebris; item
-                Pestis atheniensis. Omnia ordine ex libro secundo Historiae</subTitle>
-        </titleInfo>
-        <titleInfo type="alternative">
-            <title>Institutum funebris orationis apud athenienses</title>
-        </titleInfo>
 
-        <identifier type="tlg">0003.001</identifier>
-        <identifier type="Perseus:abo">Perseus:abo:tlg,0003,001 </identifier>
-        <identifier type="oclc">224496912</identifier>
-        <identifier type="oca"> exthucydideinsti00thucuoft</identifier>
-        <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-lat15</identifier>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">stk</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Glasguae</placeTerm>
-            </place>
-            <publisher>In aedibus academicis, excudebant R. et A. Foulis, academiae
-                typographi</publisher>
-            <dateIssued>1755</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>[5], iv, 102 p. port.</extent>
-        </physicalDescription>
-        <note>Added t.p. in Greek.</note>
-        <note>Greek text followed by Latin translation.</note>
-        <location>
-            <url displayLabel="WorldCat">http://worldcat.org/oclc/224496912</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance"
-                >http://www.archive.org/details/exthucydideinsti00thucuoft </url>
-        </location>
-        <location>
-            <url displayLabel="Open Library"
-                >http://www.openlibrary.org/details/exthucydideinsti00thucuoft</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks" note="Snippet View"
-                >http://books.google.com/books?id=hbZDGwAACAAJ</url>
-        </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">otu</recordContentSource>
-            <recordCreationDate encoding="marc">840426</recordCreationDate>
-            <languageOfCataloging>
-                <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-            </languageOfCataloging>
-        </recordInfo>
-        <language>
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
-        <name authority="viaf" type="personal" xlink:href="http://errol.oclc.org/laf/n79-21175.html">
-            <namePart>Thucydides.</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="corporate">
-            <namePart>Foulis Press</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">printer</roleTerm>
-            </role>
-        </name>
-        <subject authority="lcsh">
-            <name type="personal">
-                <namePart>Pericles</namePart>
-                <namePart type="date">499-429 B.C</namePart>
-            </name>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Funeral orations</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Plague</topic>
-            <topic>Athens</topic>
-        </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-lat15</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
     <mods>
         <titleInfo xml:lang="eng" type="uniform">
             <title>Histories</title>
@@ -54848,7 +54918,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="In Porphyrii Isagogen sive V voces-Ammonius-CAG 4.3">
+    <mods displayLabel="In Porphyrii Isagogen sive V voces-Ammonius-Busse-CAG 4.3">
         <titleInfo xml:lang="lat" type="uniform">
             <title>In Porphyrii Isagogen sive V voces</title>
         </titleInfo>
@@ -57151,13 +57221,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-
-    <mods>
-        <identifier type="oclc">40320058</identifier>
-        <identifier type="phi">474.57</identifier>
-        <identifier type="stoa author-text">stoa0087-stoa024</identifier>
-        <identifier type="Perseus:abo">Perseus:abo:phi,0474,057</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi057.opp-eng3</identifier>
+    <mods displayLabel="Epistulae ad Atticum-Cicero-Winstedt-Loeb">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Letters to Atticus</title>
         </titleInfo>
@@ -57166,7 +57230,7 @@ but this is where the TLG has left off for numbering-->
         </titleInfo>
         <titleInfo xml:lang="eng" type="alternative">
             <title>Letters to Atticus</title>
-            <partName>Volume 1</partName>
+            <partName>Volume 1-3</partName>
         </titleInfo>
         <name authority="viaf" type="personal" xlink:href="http://errol.oclc.org/laf/n79-32166.html">
             <namePart>Cicero, Marcus Tullius</namePart>
@@ -57196,11 +57260,15 @@ but this is where the TLG has left off for numbering-->
             </place>
             <publisher>Harvard University Press</publisher>
             <publisher>W. Heinemann</publisher>
-            <dateIssued>1912</dateIssued>
-            <dateModified>1956</dateModified>
+            <dateIssued>1912-1918</dateIssued>
             <edition>Reprint</edition>
             <issuance>monographic</issuance>
         </originInfo>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Loeb classical library</title>
+            </titleInfo>
+        </relatedItem>
         <typeOfResource>text</typeOfResource>
         <subject authority="lcsh">
             <name authority="" type="personal">
@@ -57208,141 +57276,85 @@ but this is where the TLG has left off for numbering-->
             </name>
             <topic>Translations into English</topic>
         </subject>
+        <note>First printed 1912-1918</note>
+        <note>Latin and English on opposite pages</note>
         <subject authority="lcsh">
             <name authority="" type="personal">
                 <namePart>Atticus, Titus Pomponius</namePart>
             </name>
         </subject>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Letters to Atticus</title>
-            </titleInfo>
-            <titleInfo type="translated" lang="lat">
-                <title>Epistulae Ad Atticum</title>
-            </titleInfo>
-            <titleInfo xml:lang="eng" type="alternative">
-                <title>Letters to Atticus</title>
-                <partName>Volume 1</partName>
-            </titleInfo>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-32166.html">
-                <namePart>Cicero, Marcus Tullius</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n88-606327.html">
-                <namePart>Winstedt, Eric Otto</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-                </role>
-            </name>
-            <tableOfContents>Books I-VI</tableOfContents>
-            <location displayLabel="WorldCat">
-                <url>http://www.worldcat.org/oclc/40320058</url>
-            </location>
-            <location displayLabel="Open Content Alliance">
-                <url>http://www.archive.org/details/letterstoatticus01ciceuoft</url>
-            </location>
-            <location displayLabel="OpenLibrary">
-                <url>http://www.openlibrary.org/details/letterstoatticus01ciceuoft</url>
-            </location>
-            <note>First printed 1912-1918</note>
-            <note>Latin and English on opposite pages</note>
-        </relatedItem>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Letters to Atticus</title>
-            </titleInfo>
-            <titleInfo type="translated">
-                <title>Epistulae Ad Atticum</title>
-            </titleInfo>
-            <titleInfo xml:lang="eng" type="alternative">
-                <title>Letters to Atticus</title>
-                <partName>Volume 2</partName>
-            </titleInfo>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-32166.html">
-                <namePart>Cicero, Marcus Tullius</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n88-606327.html">
-                <namePart>Winstedt, Eric Otto</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">translator </roleTerm>
-                </role>
-            </name>
-            <tableOfContents>Books VII-XI</tableOfContents>
-            <location displayLabel="WorldCat">
-                <url>http://www.worldcat.org/oclc/40320058</url>
-            </location>
-            <location displayLabel="GoogleBooks">
-                <url>http://books.google.com/books?id=dMyx1LfFZoQC</url>
-            </location>
-            <location displayLabel="Open Content Alliance">
-                <url>http://www.archive.org/details/letterstoatticus02ciceuoft</url>
-            </location>
-            <location displayLabel="Open Content Alliance">
-                <url>http://www.archive.org/details/letterstoatticu02ciceuoft</url>
-            </location>
-            <note>First printed 1912-1918</note>
-            <note>Latin and English on opposite pages</note>
-        </relatedItem>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Letters to Atticus</title>
-            </titleInfo>
-            <titleInfo type="translated">
-                <title>Epistulae Ad Atticum</title>
-            </titleInfo>
-            <titleInfo xml:lang="eng" type="alternative">
-                <title>Letters to Atticus</title>
-                <partName>Volume 3</partName>
-            </titleInfo>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-32166.html">
-                <namePart>Cicero, Marcus Tullius</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n88-606327.html">
-                <namePart>Winstedt, Eric Otto</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">translator </roleTerm>
-                </role>
-            </name>
-            <tableOfContents>Books XII-XVI</tableOfContents>
-            <location displayLabel="WorldCat">
-                <url>http://www.worldcat.org/oclc/40320058</url>
-            </location>
-            <location displayLabel="Open Content  Alliance">
-                <url>http://www.archive.org/details/letterstoatticus03ciceuoft</url>
-            </location>
-            <location displayLabel="Open Content Alliance">
-                <url>http://www.archive.org/details/letterstoatticuswins03ciceuoft</url>
-            </location>
-            <note>First printed 1912-1918</note>
-            <note>Latin and English on opposite pages</note>
-        </relatedItem>
+        <identifier type="oclc">40320058</identifier>
+        <location displayLabel="WorldCat">
+            <url>http://www.worldcat.org/oclc/40320058</url>
+        </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Letters to Atticus">
             <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi057</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Letters to Atticus">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi057.opp-eng3</identifier>
+                <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi057.opp-lat5</identifier>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
+                    <part type="volume">
+                        <detail>
+                            <number>1</number>
+                        </detail>
+                    </part>
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-6">
+                        <part>
+                            <detail type="book">
+                                <caption>Book</caption>
+                                <number>1-6</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <tableOfContents>Books I-VI</tableOfContents>
+                    <location displayLabel="Open Content Alliance">
+                        <url>http://www.archive.org/details/letterstoatticus01ciceuoft</url>
+                    </location>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
+                    <part type="volume">
+                        <detail>
+                            <number>2</number>
+                        </detail>
+                    </part>
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Book 7-11">
+                        <part>
+                            <detail type="book">
+                                <caption>Book</caption>
+                                <number>7-11</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <tableOfContents>Books VII-XI</tableOfContents>
+                    <location displayLabel="GoogleBooks">
+                        <url>http://books.google.com/books?id=dMyx1LfFZoQC</url>
+                    </location>
+                    <location displayLabel="Open Content Alliance">
+                        <url>http://www.archive.org/details/letterstoatticus02ciceuoft</url>
+                    </location>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
+                    <part type="volume">
+                        <detail>
+                            <number>3</number>
+                        </detail>
+                    </part>
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Book 12-16">
+                        <part>
+                            <detail type="book">
+                                <caption>Book</caption>
+                                <number>12-16</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <tableOfContents>Books XII-XVI</tableOfContents>
+                    <location displayLabel="Open Content  Alliance">
+                        <url>http://www.archive.org/details/letterstoatticus03ciceuoft</url>
+                    </location>
+                    <location displayLabel="Open Content Alliance">
+                        <url>http://www.archive.org/details/letterstoatticuswins03ciceuoft</url>
+                    </location>
+                </relatedItem>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -57843,178 +57855,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods>
-        <identifier type="oclc">40320058</identifier>
-        <identifier type="phi">474.57</identifier>
-        <identifier type="stoa author-text">stoa0087-stoa024</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi057.opp-lat5</identifier>
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Letters to Atticus</title>
-        </titleInfo>
-        <titleInfo type="translated" lang="lat">
-            <title>Epistulae Ad Atticum</title>
-        </titleInfo>
-        <titleInfo xml:lang="eng" type="alternative">
-            <title>Letters to Atticus</title>
-            <partName>Volume 1</partName>
-        </titleInfo>
-        <name authority="viaf" type="personal" xlink:href="http://errol.oclc.org/laf/n79-32166.html">
-            <namePart>Cicero, Marcus Tullius</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n88-606327.html">
-            <namePart>Winstedt, Eric Otto</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">mau</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Cambridge</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">London</placeTerm>
-            </place>
-            <publisher>Harvard University Press</publisher>
-            <publisher>W. Heinemann</publisher>
-            <dateIssued>1912</dateIssued>
-            <dateModified>1956</dateModified>
-            <edition>Reprint</edition>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <typeOfResource>text</typeOfResource>
-        <subject authority="lcsh">
-            <name authority="" type="personal">
-                <namePart>Atticus, Titus Pomponius. [from old catalog]</namePart>
-            </name>
-        </subject>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Letters to Atticus</title>
-            </titleInfo>
-            <titleInfo type="translated" lang="lat">
-                <title>Epistulae Ad Atticum</title>
-            </titleInfo>
-            <titleInfo xml:lang="eng" type="alternative">
-                <title>Letters to Atticus</title>
-                <partName>Volume 1</partName>
-            </titleInfo>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-32166.html">
-                <namePart>Cicero, Marcus Tullius</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n88-606327.html">
-                <namePart>Winstedt, Eric Otto</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <tableOfContents>Books I-VI</tableOfContents>
-            <location displayLabel="WorldCat">
-                <url>http://www.worldcat.org/oclc/40320058</url>
-            </location>
-            <location displayLabel="Open Content Alliance">
-                <url>http://www.archive.org/details/letterstoatticus01ciceuoft</url>
-            </location>
-            <location displayLabel="OpenLibrary">
-                <url>http://www.openlibrary.org/details/letterstoatticus01ciceuoft</url>
-            </location>
-            <note>First printed 1912-1918</note>
-            <note>Latin and English on opposite pages</note>
-        </relatedItem>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Letters to Atticus</title>
-            </titleInfo>
-            <titleInfo type="translated">
-                <title>Epistulae Ad Atticum</title>
-            </titleInfo>
-            <titleInfo xml:lang="eng" type="alternative">
-                <title>Letters to Atticus</title>
-                <partName>Volume 2</partName>
-            </titleInfo>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-32166.html">
-                <namePart>Cicero, Marcus Tullius</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n88-606327.html">
-                <namePart>Winstedt, Eric Otto</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <tableOfContents>Books VII-XI</tableOfContents>
-            <location displayLabel="WorldCat">
-                <url>http://www.worldcat.org/oclc/40320058</url>
-            </location>
-            <location displayLabel="GoogleBooks">
-                <url>http://books.google.com/books?id=dMyx1LfFZoQC</url>
-            </location>
-            <location displayLabel="Open Content Alliance">
-                <url>http://www.archive.org/details/letterstoatticus02ciceuoft</url>
-            </location>
-            <location displayLabel="Open Content Alliance">
-                <url>http://www.archive.org/details/letterstoatticu02ciceuoft</url>
-            </location>
-            <note>First printed 1912-1918</note>
-            <note>Latin and English on opposite pages</note>
-        </relatedItem>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Letters to Atticus</title>
-            </titleInfo>
-            <titleInfo type="translated">
-                <title>Epistulae Ad Atticum</title>
-            </titleInfo>
-            <titleInfo xml:lang="eng" type="alternative">
-                <title>Letters to Atticus</title>
-                <partName>Volume 3</partName>
-            </titleInfo>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-32166.html">
-                <namePart>Cicero, Marcus Tullius</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n88-606327.html">
-                <namePart>Winstedt, Eric Otto</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <tableOfContents>Books XII-XVI</tableOfContents>
-            <location displayLabel="WorldCat">
-                <url>http://www.worldcat.org/oclc/40320058</url>
-            </location>
-            <location displayLabel="Open Content Alliance">
-                <url>http://www.archive.org/details/letterstoatticuswins03ciceuoft</url>
-            </location>
-            <note>First printed 1912-1918</note>
-            <note>Latin and English on opposite pages</note>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Letters to Atticus">
-            <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi057</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Letters to Atticus">
-                <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi057.opp-lat5</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
+
     <mods>
         <titleInfo xml:lang="eng" type="uniform">
             <title>Letters to Atticus</title>
@@ -59516,91 +59357,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods>
-        <titleInfo>
-            <title>Lettre d'Aristée à Philocrate</title>
-        </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/100002553">
-            <namePart>Aristeas</namePart>
-            <role>
-                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/18358734">
-            <namePart>Pelletier, André</namePart>
-            <namePart type="date">1902-1985</namePart>
-            <role>
-                <roleTerm type="text" authority="marcrelator">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">fr</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Paris</placeTerm>
-            </place>
-            <publisher>Éd. du Cerf</publisher>
-            <dateIssued>1962</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <language objectPart="notes">
-            <languageTerm authority="iso639-2b" type="code">fre</languageTerm>
-        </language>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>324 S. : Ill.</extent>
-        </physicalDescription>
-        <note type="statement of responsibility" altRepGroup="00">introduction, texte critique,
-            traduction et notes, index complet des mots grecs par André Pelletier</note>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Sources chrétiennes</title>
-                <partNumber>89</partNumber>
-            </titleInfo>
-        </relatedItem>
-        <subject authority="lcsh">
-            <topic>Bible</topic>
-            <topic>Old Testament.</topic>
-            <topic>Versions</topic>
-            <topic>Septuagint</topic>
-        </subject>
-        <identifier type="tlg">1183.001</identifier>
-        <identifier type="oclc">860084</identifier>
-        <identifier type="ctsurn">urn:cts:greekLit:tlg1183.tlg001.opp-grc1</identifier>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/860084</url>
-        </location>
-        <location>
-            <url displayLabel="SLUB">http://digital.slub-dresden.de/id41711074X</url>
-        </location>
-        <recordInfo>
-            <descriptionStandard>AACR</descriptionStandard>
-            <recordContentSource authority="marcorg"/>
-            <recordCreationDate encoding="marc"/>
-            <recordChangeDate encoding="iso8601"/>
-            <recordIdentifier source="DE-576"/>
-            <recordOrigin>Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5.xsl
-                (Revision 1.102 2014/08/12)</recordOrigin>
-            <languageOfCataloging>
-                <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-            </languageOfCataloging>
-        </recordInfo>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Lettre d'Aristée à Philocrate">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1183.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Lettre d'Aristée à Philocrate">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg1183.tlg001.opp-grc1</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
+
     <mods>
         <titleInfo>
             <title>Lettres</title>
@@ -65793,9 +65550,6 @@ but this is where the TLG has left off for numbering-->
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0072</url>
                 </location>
             </relatedItem>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Noctes Atticae">
-            <identifier type="ctsurn">urn:cts:latinLit:phi1254.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Noctes Atticae">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1254.phi001.perseus-lat1</identifier>
                 <identifier>Perseus:text:2007.01.0071</identifier>
@@ -65806,8 +65560,6 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-
-
 
     <mods displayLabel="Occupatio-Odo of Cheriton-Swoboda-Teubner-1900">
         <titleInfo xml:lang="lat" type="uniform">
@@ -66469,7 +66221,6 @@ but this is where the TLG has left off for numbering-->
                 <total>87765</total>
             </extent>
         </part>
-        <identifier type="Perseus:abo">Perseus:abo:tlg,0012,002</identifier>
         <identifier type="lccn">19016044</identifier>
         <identifier type="oclc">22584673</identifier>
         <name authority="viaf" type="personal" xlink:href="http://errol.oclc.org/laf/n78-95639.html">
@@ -66556,9 +66307,6 @@ but this is where the TLG has left off for numbering-->
                         >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0135</url>
                 </location>
             </relatedItem>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Odyssey">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0012.tlg002</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Odyssey">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0012.tlg002.perseus-eng1</identifier>
                 <identifier>Perseus:text:1999.01.0136</identifier>
@@ -66568,6 +66316,7 @@ but this is where the TLG has left off for numbering-->
                 </location>
             </relatedItem>
         </relatedItem>
+
     </mods>
 
     <mods displayLabel="Odyssey-Butler/Power/Nagy/-Perseus-1900-English-2">
@@ -66647,7 +66396,7 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
 
-    <mods displayLabel="Oeconomica--Aristotle-WartellleLes Belles-1968">
+    <mods displayLabel="Oeconomica--Aristotle-Wartellle-Les Belles-1968">
         <titleInfo>
             <title>Économique</title>
         </titleInfo>
@@ -66964,7 +66713,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Onirocriticon-Artemidorus Daldianus-Pack=Teubner-1963">
+    <mods displayLabel="Onirocriticon-Artemidorus Daldianus-Pack-Teubner-1963">
         <titleInfo>
             <title>Onirocriticon libri V</title>
         </titleInfo>
@@ -70561,7 +70310,7 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
     <mods displayLabel="Rerum Gestarum-Ammianus Marcellinus-Rolfe-Loeb-Perseus-Latin/English">
-        <titleInfo xml:lang="eng" type="uniform">
+        <titleInfo xml:lang="lat" type="uniform">
             <title>Rerum Gestarum</title>
         </titleInfo>
         <titleInfo>
@@ -70640,9 +70389,6 @@ but this is where the TLG has left off for numbering-->
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0081</url>
                 </location>
             </relatedItem>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Rerum Gestarum">
-            <identifier type="ctsurn">urn:cts:latinLit:stoa0023.stoa001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Rerum Gestarum">
                 <identifier type="ctsurn">urn:cts:latinLit:stoa0023.stoa001.perseus-eng1</identifier>
                 <identifier>Perseus:text:2007.01.0082</identifier>
@@ -72972,498 +72718,6 @@ but this is where the TLG has left off for numbering-->
 
 
 
-    <mods>
-        <titleInfo>
-            <title>Sancti Eusebii Hieronymi Epistulae</title>
-            <partNumber>Pars I</partNumber>
-            <partNumber>Epistulae I-LXX</partNumber>
-        </titleInfo>
-        <titleInfo type="uniform">
-            <title>Epistolae</title>
-        </titleInfo>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n79-124709.html">
-            <namePart>Jerome</namePart>
-            <namePart type="termsOfAddress">Saint</namePart>
-            <namePart type="date">d. 419 or 20</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" authorityURI="http://id.loc.gov/authorities/names/" type="personal"
-            valueURI="http://id.loc.gov/authorities/names/n89668634">
-            <namePart>Hilberg, Isidorus</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">au</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Vindobonae</placeTerm>
-            </place>
-            <publisher>Gerold</publisher>
-            <dateIssued>1910</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language>
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
-        <physicalDescription>
-            <digitalOrigin>digitized other analog</digitalOrigin>
-            <extent>vi, 708 pg</extent>
-        </physicalDescription>
-        <note type="statement of responsibility">Recensvit Isidorvs Hilberg</note>
-        <note>.</note>
-        <subject authority="lcsh">
-            <topic>Fathers of the church</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Fathers of the church, Latin</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Jerome, Saint, 419 or 420</topic>
-            <topic>Correspondence</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Church History</topic>
-            <topic>Primitive and early church</topic>
-            <topic>ca. 30-600</topic>
-        </subject>
-        <classification authority="lcc">BR60 .C6</classification>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Corpus scriptorum ecclesiasticorum Latinorum</title>
-                <partNumber>Volume 54</partNumber>
-            </titleInfo>
-        </relatedItem>
-        <identifier type="stoa author-text">stoa0162-stoa004</identifier>
-        <identifier type="oclc">878696</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:stoa0162.stoa004.opp-lat1</identifier>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/878696</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks"/>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance"
-                >http://archive.org/stream/corpusscriptorum54stuoft</url>
-        </location>
-        <location>
-            <url displayLabel="Open Library"/>
-        </location>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015008465935</url>
-        </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">OCoLC</recordContentSource>
-            <recordCreationDate encoding="marc"/>
-            <recordChangeDate encoding="iso8601"/>
-            <recordIdentifier/>
-        </recordInfo>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Sancti Eusebii Hieronymi Epistulae Pars I Epistulae I-LXX">
-            <identifier type="ctsurn">urn:cts:latinLit:stoa0162.stoa004</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Sancti Eusebii Hieronymi Epistulae Pars I Epistulae I-LXX">
-                <identifier type="ctsurn">urn:cts:latinLit:stoa0162.stoa004.opp-lat1</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
-    <mods>
-        <titleInfo>
-            <title>Sancti Eusebii Hieronymi Epistulae</title>
-            <partNumber>Pars II</partNumber>
-            <partNumber>Epistulae LXXI-CXX</partNumber>
-        </titleInfo>
-        <titleInfo type="uniform">
-            <title>Epistolae</title>
-        </titleInfo>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n79-124709.html">
-            <namePart>Jerome</namePart>
-            <namePart type="termsOfAddress">Saint</namePart>
-            <namePart type="date">d. 419 or 20</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" authorityURI="http://id.loc.gov/authorities/names/" type="personal"
-            valueURI="http://id.loc.gov/authorities/names/n89668634">
-            <namePart>Hilberg, Isidorus</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">au</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Vindobonae</placeTerm>
-            </place>
-            <publisher>Gerold</publisher>
-            <dateIssued>1912</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language>
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
-        <physicalDescription>
-            <digitalOrigin>digitized other analog</digitalOrigin>
-            <extent>515 pg.</extent>
-        </physicalDescription>
-        <note type="statement of responsibility">Recensvit Isidorvs Hilberg</note>
-        <note/>
-        <subject authority="lcsh">
-            <topic>Fathers of the church</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Fathers of the church, Latin</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Jerome, Saint, 419 or 420</topic>
-            <topic>Correspondence</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Church History</topic>
-            <topic>Primitive and early church</topic>
-            <topic>ca. 30-600</topic>
-        </subject>
-        <classification authority="lcc">BR60 .C6</classification>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Corpus scriptorum ecclesiasticorum Latinorum</title>
-                <partNumber>Volume 55</partNumber>
-            </titleInfo>
-        </relatedItem>
-        <identifier type="stoa author-text">stoa0162-stoa004</identifier>
-        <identifier type="oclc">878696</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:stoa0162.stoa004.opp-lat2</identifier>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/878696</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks"/>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance"
-                >http://archive.org/stream/corpusscriptorum55stuoft</url>
-        </location>
-        <location>
-            <url displayLabel="Open Library"/>
-        </location>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015008465927</url>
-        </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">OCoLC</recordContentSource>
-            <recordCreationDate encoding="marc"/>
-            <recordChangeDate encoding="iso8601"/>
-            <recordIdentifier/>
-        </recordInfo>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Sancti Eusebii Hieronymi Epistulae Pars II Epistulae LXXI-CXX">
-            <identifier type="ctsurn">urn:cts:latinLit:stoa0162.stoa004</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Sancti Eusebii Hieronymi Epistulae Pars II Epistulae LXXI-CXX">
-                <identifier type="ctsurn">urn:cts:latinLit:stoa0162.stoa004.opp-lat2</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
-    <mods>
-        <titleInfo>
-            <title>Sancti Eusebii Hieronymi Epistulae</title>
-            <partNumber>Pars III</partNumber>
-            <partNumber>Epistulae CXXI-CLIV</partNumber>
-        </titleInfo>
-        <titleInfo type="uniform">
-            <title>Epistolae</title>
-        </titleInfo>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n79-124709.html">
-            <namePart>Jerome</namePart>
-            <namePart type="termsOfAddress">Saint</namePart>
-            <namePart type="date">d. 419 or 20</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" authorityURI="http://id.loc.gov/authorities/names/" type="personal"
-            valueURI="http://id.loc.gov/authorities/names/n89668634">
-            <namePart>Hilberg, Isidorus</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">au</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Vindobonae</placeTerm>
-            </place>
-            <publisher>Gerold</publisher>
-            <dateIssued>1918</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language>
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
-        <physicalDescription>
-            <digitalOrigin>digitized other analog</digitalOrigin>
-            <extent>368 pg.</extent>
-        </physicalDescription>
-        <note type="statement of responsibility">Recensvit Isidorvs Hilberg</note>
-        <note/>
-        <subject authority="lcsh">
-            <topic>Fathers of the church</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Fathers of the church, Latin</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Jerome, Saint, 419 or 420</topic>
-            <topic>Correspondence</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Church History</topic>
-            <topic>Primitive and early church</topic>
-            <topic>ca. 30-600</topic>
-        </subject>
-        <classification authority="lcc">BR60 .C6</classification>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Corpus scriptorum ecclesiasticorum Latinorum</title>
-                <partNumber>Volume 56</partNumber>
-            </titleInfo>
-        </relatedItem>
-        <identifier type="stoa author-text">stoa0162-stoa004</identifier>
-        <identifier type="oclc">878696</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:stoa0162.stoa004.opp-lat3</identifier>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/878696</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks"/>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance">http://archive.org/stream/CSEL56</url>
-        </location>
-        <location>
-            <url displayLabel="Open Library"/>
-        </location>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015008469556</url>
-        </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">OCoLC</recordContentSource>
-            <recordCreationDate encoding="marc"/>
-            <recordChangeDate encoding="iso8601"/>
-            <recordIdentifier/>
-        </recordInfo>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Sancti Eusebii Hieronymi Epistulae Pars III Epistulae CXXI-CLIV">
-            <identifier type="ctsurn">urn:cts:latinLit:stoa0162.stoa004</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Sancti Eusebii Hieronymi Epistulae Pars III Epistulae CXXI-CLIV">
-                <identifier type="ctsurn">urn:cts:latinLit:stoa0162.stoa004.opp-lat3</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
-    <mods>
-        <titleInfo>
-            <title>Sancti Pontii Meropii Paulini Carmina</title>
-        </titleInfo>
-        <titleInfo type="uniform">
-            <title>Carmina</title>
-        </titleInfo>
-        <name authority="viaf" authorityURI="http://id.loc.gov/authorities/names/" type="personal"
-            valueURI="http://id.loc.gov/authorities/names/n50080430">
-            <namePart>Paulinus</namePart>
-            <namePart type="termsOfAddress">of Nola, Saint</namePart>
-            <namePart type="date">approximately 353-431</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" authorityURI="http://id.loc.gov/authorities/names/" type="personal"
-            valueURI="http://id.loc.gov/authorities/names/n81111916">
-            <namePart>Hartel, Wilhelm August, Ritter von,</namePart>
-            <namePart type="date">1839-1907</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">au</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Vindobonae</placeTerm>
-            </place>
-            <publisher>Gerold</publisher>
-            <dateIssued>1894</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language>
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
-        <physicalDescription>
-            <digitalOrigin>digitized other analog</digitalOrigin>
-            <extent>XXXXII, [2], 453, [1] S.</extent>
-        </physicalDescription>
-        <note type="statement of responsibility">recensuit et commentario critico instruxit
-            Guilelmvs de Hartel</note>
-        <note/>
-        <subject authority="lcsh">
-            <topic>Fathers of the church</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Fathers of the church, Latin</topic>
-        </subject>
-        <classification authority="lcc">BR60 .C6</classification>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Corpus scriptorum ecclesiasticorum Latinorum</title>
-                <partNumber>Volume 30</partNumber>
-            </titleInfo>
-        </relatedItem>
-        <identifier type="oclc">61942508</identifier>
-        <identifier type="stoa author-text">stoa0223-stoa001</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:stoa0223.stoa001.opp-lat1</identifier>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/61942508</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks">http://books.google.com/books?id=YSMQAAAAYAAJ</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance"
-                >https://archive.org/details/corpusscriptoru25wiengoog</url>
-        </location>
-        <location>
-            <url displayLabel="Open Library"/>
-        </location>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/nyp.33433081640819</url>
-        </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">OCoLC</recordContentSource>
-            <recordCreationDate encoding="marc"/>
-            <recordChangeDate encoding="iso8601"/>
-            <recordIdentifier/>
-        </recordInfo>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Sancti Pontii Meropii Paulini Carmina">
-            <identifier type="ctsurn">urn:cts:latinLit:stoa0223.stoa001</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Sancti Pontii Meropii Paulini Carmina">
-                <identifier type="ctsurn">urn:cts:latinLit:stoa0223.stoa001.opp-lat1</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
-    <mods>
-        <titleInfo>
-            <title>Sancti Pontii Meropii Paulini Epistulae</title>
-        </titleInfo>
-        <titleInfo type="uniform">
-            <title>Epistulae</title>
-        </titleInfo>
-        <name authority="viaf" authorityURI="http://id.loc.gov/authorities/names/" type="personal"
-            valueURI="http://id.loc.gov/authorities/names/n50080430">
-            <namePart>Paulinus</namePart>
-            <namePart type="termsOfAddress">of Nola, Saint</namePart>
-            <namePart type="date">approximately 353-431</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" authorityURI="http://id.loc.gov/authorities/names/" type="personal"
-            valueURI="http://id.loc.gov/authorities/names/n81111916">
-            <namePart>Hartel, Wilhelm August, Ritter von,</namePart>
-            <namePart type="date">1839-1907</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">au</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Vindobonae</placeTerm>
-            </place>
-            <publisher>Gerold</publisher>
-            <dateIssued>1894</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language>
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
-        <physicalDescription>
-            <digitalOrigin>digitized other analog</digitalOrigin>
-            <extent>xxvii, 462 pages : diagram ; 23 cm.</extent>
-        </physicalDescription>
-        <note type="statement of responsibility">recensuit et commentario critico instruxit
-            Guilelmvs de Hartel</note>
-        <note/>
-        <subject authority="lcsh">
-            <topic>Fathers of the church</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Fathers of the church, Latin</topic>
-        </subject>
-        <classification authority="lcc">BR60 .C6</classification>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Corpus scriptorum ecclesiasticorum Latinorum</title>
-                <partNumber>Volume 29</partNumber>
-            </titleInfo>
-        </relatedItem>
-        <identifier type="oclc">643788670</identifier>
-        <identifier type="stoa author-text">stoa0223-stoa002</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:stoa0223.stoa002.opp-lat1</identifier>
-        <location>
-            <url displayLabel="WorldCat"
-                >http://www.worldcat.org/title/sancti-pontii-meropii-paulini-nolani-opera/oclc/643788670</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks">http://books.google.com/books?id=KCARAAAAYAAJ</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance"
-                >http://archive.org/details/CorpusScriptorumEcclesiasticorumLatinorum29</url>
-        </location>
-        <location>
-            <url displayLabel="Open Library"/>
-        </location>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/uva.x001179948</url>
-        </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">OCoLC</recordContentSource>
-            <recordCreationDate encoding="marc"/>
-            <recordChangeDate encoding="iso8601"/>
-            <recordIdentifier/>
-        </recordInfo>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Sancti Pontii Meropii Paulini Epistulae">
-            <identifier type="ctsurn">urn:cts:latinLit:stoa0223.stoa002</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Sancti Pontii Meropii Paulini Epistulae">
-                <identifier type="ctsurn">urn:cts:latinLit:stoa0223.stoa002.opp-lat1</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
 
     <mods displayLabel="Satirae-Horace-Doderlein-Teubner-1860">
         <titleInfo>
@@ -77121,9 +76375,6 @@ but this is where the TLG has left off for numbering-->
                         >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0257</url>
                 </location>
             </relatedItem>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Vitae philosophorum">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0004.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Vitae philosophorum">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0004.tlg001.perseus-eng1</identifier>
