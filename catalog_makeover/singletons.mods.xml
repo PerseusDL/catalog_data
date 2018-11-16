@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <!-- Decided to combine singleton MODS records for Perseus Loeb with two languages-editions-maybe move to inverted?
 Can retrieve Perseus specific information from catalog-data-as is expression specific
 -Will continue moving Perseus info from top level MODS records to expression constituent (make sure don't have two 
@@ -22638,8 +22638,7 @@ but this is where the TLG has left off for numbering-->
                 <identifier type="ctsurn">urn:cts:latinLit:phi1002.phi003.opp-lat2</identifier>
             </relatedItem>
         </relatedItem>
-    </mods>
-    <mods displayLabel="Declamationes Maiores-Quintilian-Teubner-Lehnert-1905">
+    </mods><mods displayLabel="Declamationes Maiores-Quintilian-Lehnert-Teubner-1905">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Declamationes Maiores [sp.]</title>
         </titleInfo>
@@ -22722,6 +22721,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
+    
     <mods displayLabel="Declmationes Minores-Quintilian-Teubner-Ritter-1884">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Declamationes Minores</title>
@@ -22809,7 +22809,7 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
     
-    <mods displayLabel="Deipnosophistae-Athenaeus-Teubner-Kaibel-1887-1890"><!-- LEFT OFF HERE FOR MERGING PERSEUS/OPP -->
+    <mods displayLabel="Deipnosophistae-Athenaeus-Teubner-Kaibel-1887-1890-OPP\Perseus\Epidoc">
         <titleInfo>
             <title>Athenaei Navcratitae Dipnosophistarvm libri XV</title>
         </titleInfo>
@@ -22840,7 +22840,7 @@ but this is where the TLG has left off for numbering-->
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
             <publisher>in aedibus B. G. Teubneri</publisher>
-            <dateIssued>1887-1890</dateIssued>
+            <dateIssued>1887-1892</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
         <physicalDescription>
@@ -22870,6 +22870,39 @@ but this is where the TLG has left off for numbering-->
         <relatedItem type="constituent" otherType="work"
             displayLabel="Athenaei Navcratitae Dipnosophistarvm libri XV">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Athenaei Naucratitae Dipnosophistarum libri XV">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.perseus-grc2</identifier>
+                <identifier>Perseus:text:2013.01.0001</identifier>
+                <location>
+                    <url displayLabel="Perseus"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2013.01.0001</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Athenaei Naucratitae Dipnosophistarum libri XV Epidoc Edition.">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.perseus-grc3</identifier>
+                <name authority="" type="personal">
+                    <namePart>Franzini, Greta</namePart>
+                    <role>
+                        <roleTerm authority="marcrelator" type="text">encoder</roleTerm>
+                    </role>
+                </name>
+                <originInfo>
+                    <dateModified>2015</dateModified>
+                    <edition>Epidoc edition</edition>
+                </originInfo>
+                <name authority="" type="personal">
+                    <namePart>Stoyanova, Simona</namePart>
+                    <role>
+                        <roleTerm authority="marcrelator" type="text">encoder</roleTerm>
+                    </role>
+                </name>
+                <location>
+                    <url displayLabel="Perseus Canonical"
+                        >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0008/tlg001/tlg0008.tlg001.perseus-grc3.xml</url>
+                </location>
+            </relatedItem>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Athenaei Navcratitae Dipnosophistarvm libri XV">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.opp-grc11</identifier>
@@ -22942,251 +22975,8 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Deipnosophistae-Athenaeus-Teubner-Kaibel-Perseus">
-        <titleInfo>
-            <title>Athenaei Naucratitae Dipnosophistarum libri XV</title>
-        </titleInfo>
-        <titleInfo type="uniform">
-            <title>Deipnosophistae</title>
-        </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n80-51703.html">
-            <namePart>Athenaeus</namePart>
-            <namePart type="termsOfAddress">of Naucratis</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n87-903452.html">
-            <namePart>Kaibel, Georg</namePart>
-            <namePart type="date">1849-1901</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">gw</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Lipsiae</placeTerm>
-            </place>
-            <publisher>in aedibus B. G. Teubneri</publisher>
-            <dateIssued>1887-1892</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language objectPart="text">
-            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
-        </language>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>3 vols</extent>
-        </physicalDescription>
-        <note type="statement of responsibility">recensvit Georgivs Kaibel.</note>
-        <subject authority="lcsh">
-            <topic>Aphorisms and apothegms</topic>
-            <genre>Early works to 1800</genre>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Anecdotes</topic>
-            <genre>Early works to 1800</genre>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Gastronomy</topic>
-            <genre>Early works to 1800</genre>
-        </subject>
-        <classification authority="lcc">PA3404 .A96 1887</classification>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
-            </titleInfo>
-        </relatedItem>
-        <relatedItem type="series">
-            <titleInfo type="abbreviated">
-                <title>Teubner</title>
-            </titleInfo>
-        </relatedItem>
-        <identifier type="lccn">34010800</identifier>
-        <identifier type="oclc">3288753</identifier>
-        <location>
-            <url displayLabel="LC Permalink">http://lccn.loc.gov/34010800</url>
-        </location>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/3288753</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks" note="Volume 1"
-                >http://books.google.com/books?id=WGVBAAAAMAAJ</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance" note="Volume 1"
-                >http://www.archive.org/details/athenaeinavcrati01atheuoft</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks" note="Volume 2"
-                >http://books.google.com/books?id=ejFBAAAAMAAJ</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance" note="Volume 2"
-                >http://www.archive.org/details/athenaeinavcrati02atheuoft</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks" note="Volume 3"
-                >http://books.google.com/books?id=kB1BAAAAMAAJ</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance" note="Volume3"
-                >http://www.archive.org/details/athenaeinavcrati03atheuoft</url>
-        </location>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Athenaei Naucratitae Dipnosophistarum libri XV">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Athenaei Naucratitae Dipnosophistarum libri XV">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.perseus-grc2</identifier>
-                <identifier>Perseus:text:2013.01.0001</identifier>
-                <location>
-                    <url displayLabel="Perseus"
-                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2013.01.0001</url>
-                </location>
-            </relatedItem>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Athenaei Naucratitae Dipnosophistarum libri XV Epidoc Edition.">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.perseus-grc3</identifier>
-                <name authority="" type="personal">
-                    <namePart>Franzini, Greta</namePart>
-                    <role>
-                        <roleTerm authority="marcrelator" type="text">encoder</roleTerm>
-                    </role>
-                </name>
-                <name authority="" type="personal">
-                    <namePart>Stoyanova, Simona</namePart>
-                    <role>
-                        <roleTerm authority="marcrelator" type="text">encoder</roleTerm>
-                    </role>
-                </name>
-                <location>
-                    <url displayLabel="Perseus Canonical"
-                        >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0008/tlg001/tlg0008.tlg001.perseus-grc3.xml</url>
-                </location>
-            </relatedItem>
-        </relatedItem>
-    </mods>
-    <mods displayLabel="Deipnosophistae-Athenaeus-Gulick-Loeb-Perseus">
-        <titleInfo xml:lang="lat" type="uniform">
-            <title>Deipnosophistae</title>
-        </titleInfo>
-        <part>
-            <extent unit="words">
-                <total>288522</total>
-            </extent>
-        </part>
-        <titleInfo>
-            <nonSort>The</nonSort>
-            <title>Deipnosophists</title>
-        </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n80-51703.html">
-            <namePart>Athenaeus</namePart>
-            <namePart type="termsOfAddress">of Naucratis</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n88-638071.html">
-            <namePart>Gulick, Charles Burton</namePart>
-            <namePart type="date">b. 1868</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <genre authority="marc">bibliography</genre>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">mau</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Cambridge</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">London</placeTerm>
-            </place>
-            <publisher>Heinemann</publisher>
-            <publisher>Harvard University</publisher>
-            <dateIssued>1927-1941</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language>
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>7 v.</extent>
-        </physicalDescription>
-        <note>Vol. 7 has imprint: London, W. Heinemann, ltd.; Cambridge, Mass., Harvard University
-            Press.</note>
-        <note>Includes bibliographies.</note>
-        <classification authority="lcc">PA3612 .A87 1927</classification>
-        <classification authority="ddc">888</classification>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>The Loeb classical library. [Greek authors]</title>
-            </titleInfo>
-            <titleInfo type="abbreviated">
-                <title>Loeb</title>
-            </titleInfo>
-        </relatedItem>
-        <identifier type="lccn">28004492</identifier>
-        <identifier type="oclc">688821</identifier>
-        <location>
-            <url displayLabel="LC Permalink">http://lccn.loc.gov/28004492</url>
-        </location>
-        <location>
-            <url displayLabel="WorldCat">http://worldcat.org/oclc/688821</url>
-        </location>
-
-        <relatedItem type="constituent" otherType="work" displayLabel="Deipnosophistae">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Deipnosophistae">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.perseus-grc1</identifier>
-                <identifier>Perseus:text:2008.01.0405</identifier>
-                <location>
-                    <url displayLabel="Perseus" note="Greek"
-                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0405</url>
-                </location>
-            </relatedItem>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="expression"
-            displayLabel="Athenaei Naucratitae Dipnosophistarum libri XV Epidoc Edition.">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.perseus-grc4</identifier>
-            <name authority="" type="personal">
-                <namePart>Franzini, Greta</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">encoder</roleTerm>
-                </role>
-            </name>
-            <name authority="" type="personal">
-                <namePart>Stoyanova, Simona</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">encoder</roleTerm>
-                </role>
-            </name>
-            <originInfo>
-                <dateModified>2014</dateModified>
-                <edition>Epidoc Edition</edition>
-            </originInfo>
-            <location>
-                <url displayLabel="Perseus Canonical"
-                    >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0008/tlg001/tlg0008.tlg001.perseus-grc4.xml</url>
-            </location>
-        </relatedItem>
-    </mods>
-
-    <mods displayLabel="Deipnosophistae-Athenaeus-Gulick-Loeb">
+    
+    <mods displayLabel="Deipnosophistae-Athenaeus-Gulick-Loeb-OPP\Perseus\Epidoc">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Deipnosophistae</title>
         </titleInfo>
@@ -23247,10 +23037,10 @@ but this is where the TLG has left off for numbering-->
         <note>Includes bibliographies.</note>
         <note type="statement of responsibility">with an English translation by Charles Burton
             Gulick ...</note>
-        <language>
+        <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
-        <language>
+        <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
         <identifier type="lccn">28004492</identifier>
@@ -23264,6 +23054,38 @@ but this is where the TLG has left off for numbering-->
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Deipnosophistae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Deipnosophistae">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.perseus-grc1</identifier>
+                <identifier>Perseus:text:2008.01.0405</identifier>
+                <location>
+                    <url displayLabel="Perseus" note="Greek"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0405</url>
+                </location>
+            </relatedItem>
+        <relatedItem type="constituent" otherType="expression"
+            displayLabel="Athenaei Naucratitae Dipnosophistarum libri XV Epidoc Edition.">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.perseus-grc4</identifier>
+            <name authority="" type="personal">
+                <namePart>Franzini, Greta</namePart>
+                <role>
+                    <roleTerm authority="marcrelator" type="text">encoder</roleTerm>
+                </role>
+            </name>
+            <name authority="" type="personal">
+                <namePart>Stoyanova, Simona</namePart>
+                <role>
+                    <roleTerm authority="marcrelator" type="text">encoder</roleTerm>
+                </role>
+            </name>
+            <originInfo>
+                <dateModified>2014</dateModified>
+                <edition>Epidoc Edition</edition>
+            </originInfo>
+            <location>
+                <url displayLabel="Perseus Canonical"
+                    >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0008/tlg001/tlg0008.tlg001.perseus-grc4.xml</url>
+            </location>
+        </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Deipnosophistae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.opp-eng4</identifier>
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.opp-grc6</identifier>
@@ -23421,7 +23243,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Deiponsophisate-Athenaeus-Bohn-Yonge">
+    <mods displayLabel="Deiponsophisate-Athenaeus-Bohn-Yonge-OPP\Perseus\Epidoc">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Deipnosophistae</title>
         </titleInfo>
@@ -23437,7 +23259,7 @@ but this is where the TLG has left off for numbering-->
             <title>Banquet of the learned of Athenaeus</title>
         </titleInfo>
         <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n80-51703.html             ">
+            xlink:href="http://errol.oclc.org/laf/n80-51703.html">
             <namePart>Athenaeus</namePart>
             <namePart type="termsOfAddress">of Naucratis</namePart>
             <role>
@@ -23445,7 +23267,7 @@ but this is where the TLG has left off for numbering-->
             </role>
         </name>
         <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n86-829770.html             ">
+            xlink:href="http://errol.oclc.org/laf/n86-829770.html">
             <namePart>Yonge, Charles Duke</namePart>
             <namePart type="date">1812-1891</namePart>
             <role>
@@ -23488,6 +23310,39 @@ but this is where the TLG has left off for numbering-->
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Deipnosophistae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="The Deipnosophists">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.perseus-eng1</identifier>
+                <identifier>Perseus:text:2013.01.0003</identifier>
+                <location>
+                    <url displayLabel="Perseus"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2013.01.0003</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="The Deipnosophists Epidoc Edition.">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.perseus-eng2</identifier>
+                <name authority="" type="personal">
+                    <namePart>Franzini, Greta</namePart>
+                    <role>
+                        <roleTerm authority="marcrelator" type="text">encoder</roleTerm>
+                    </role>
+                </name>
+                <name authority="" type="personal">
+                    <namePart>Stoyanova, Simona</namePart>
+                    <role>
+                        <roleTerm authority="marcrelator" type="text">encoder</roleTerm>
+                    </role>
+                </name>
+                <originInfo>
+                    <issuance>monographic</issuance>
+                    <edition>Epidoc Edition</edition>
+                    <dateModified>2015</dateModified>
+                </originInfo>
+                <location>
+                    <url displayLabel="Perseus Canonical"
+                        >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0008/tlg001/tlg0008.tlg001.perseus-eng2.xml</url>
+                </location>
+            </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Deipnosophistae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.opp-eng5</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
@@ -23571,138 +23426,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Deipnosophiste-Athenaeus-Bohn-Yonge-Perseus">
-        <titleInfo>
-            <nonSort>The</nonSort>
-            <title>Deipnosophists</title>
-        </titleInfo>
-        <name authority="viaf" type="personal" xlink:href="http://errol.oclc.org/laf/n80-51703.html">
-            <namePart>Athenaeus</namePart>
-            <namePart type="termsOfAddress">of Naucratis</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n86-829770.html">
-            <namePart>Yonge, Charles Duke</namePart>
-            <namePart type="date">1812-1891</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">enk</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">London</placeTerm>
-            </place>
-            <publisher>Henry G. Bohn</publisher>
-            <dateIssued>1854</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language>
-            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-        </language>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>3 vols</extent>
-        </physicalDescription>
-        <note type="statement of responsibility">literally translated by C.D. Yonge ; with an
-            appendix of poetical fragments rendered into English verse by various authors, and a
-            general index.</note>
-        <note>Includes index.</note>
-        <note>Each volume issued with Catalogue of Bohn's libraries, 23 p. at end, dated Feb.
-            1891.</note>
-        <classification authority="lcc">PA3937 .A6 1854</classification>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Bohn's classical library</title>
-            </titleInfo>
-        </relatedItem>
-        <identifier type="lccn">2002554451</identifier>
-        <identifier type="oclc">49415755</identifier>
-        <location>
-            <url displayLabel="LC Permalink">http://lccn.loc.gov/2002554451</url>
-        </location>
-        <location>
-            <url displayLabel="WorldCat">http://worldcat.org/oclc/49415755</url>
-        </location>
-        <location>
-            <url displayLabel="OpenLibrary"
-                >http://www.archive.org/details/deipnosophistsor01atheuoft</url>
-        </location>
-
-        <location>
-            <url displayLabel="GoogleBooks" note="Vol 1"
-                >http://books.google.com/books?id=A0_lgVLT0lsC</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks" note="Vol 2"
-                >http://books.google.com/books?id=T98IAAAAQAAJ</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks" note="Vol 3"
-                >http://books.google.com/books?id=g98IAAAAQAAJ</url>
-        </location>
-        <location>
-            <url displayLabel="HathiTrust" note="Vol 1"
-                >http://hdl.handle.net/2027/mdp.39015008740469</url>
-        </location>
-        <location>
-            <url displayLabel="HathiTrust" note="Vol 2"
-                >http://hdl.handle.net/2027/mdp.39015005167203</url>
-        </location>
-        <location>
-            <url displayLabel="HathiTrust" note="Vol 3"
-                >http://hdl.handle.net/2027/mdp.39015005266773</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance" note="Vol 2"
-                >http://www.archive.org/details/deipnosophistsor02atheuoft</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance" note="Vol 3"
-                >http://www.archive.org/details/deipnosophistsor03atheuoft</url>
-        </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="The Deipnosophists">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="The Deipnosophists">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.perseus-eng1</identifier>
-                <identifier>Perseus:text:2013.01.0003</identifier>
-                <location>
-                    <url displayLabel="Perseus"
-                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2013.01.0003</url>
-                </location>
-            </relatedItem>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="The Deipnosophists Epidoc Edition.">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.perseus-eng2</identifier>
-                <name authority="" type="personal">
-                    <namePart>Franzini, Greta</namePart>
-                    <role>
-                        <roleTerm authority="marcrelator" type="text">encoder</roleTerm>
-                    </role>
-                </name>
-                <name authority="" type="personal">
-                    <namePart>Stoyanova, Simona</namePart>
-                    <role>
-                        <roleTerm authority="marcrelator" type="text">encoder</roleTerm>
-                    </role>
-                </name>
-                <originInfo>
-                    <issuance>monographic</issuance>
-                    <edition>Epidoc Edition</edition>
-                </originInfo>
-                <location>
-                    <url displayLabel="Perseus Canonical"
-                        >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0008/tlg001/tlg0008.tlg001.perseus-eng2.xml</url>
-                </location>
-            </relatedItem>
-        </relatedItem>
-    </mods>
+    
 
     <mods displayLabel="Description of Greece-Pausanias-Hitzig/Blumner-Reisland-1896">
         <titleInfo xml:lang="eng" type="uniform">
@@ -23901,7 +23625,6 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Pausanias Description of Greece</title>
         </titleInfo>
-        <identifier>1999.01.0160</identifier>
         <identifier type="oclc">10818363</identifier>
         <typeOfResource>text</typeOfResource>
         <genre authority="marc">biography</genre>
@@ -23937,10 +23660,6 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/10818363</url>
-        </location>
-        <location>
-            <url displayLabel="Perseus" note="English"
-                >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0160</url>
         </location>
         <language>
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
@@ -23995,10 +23714,15 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Description of Greece">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0525.tlg001.perseus-eng1</identifier>
+                <identifier>1999.01.0160</identifier>
+                <location>
+                    <url displayLabel="Perseus" note="English"
+                        >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0160</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Description of Greece-Pausanias-Spiro-Teubner-1903">
+    <mods displayLabel="Description of Greece-Pausanias-Spiro-Teubner-1903-Perseus-Greek">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Description of Greece</title>
         </titleInfo>
@@ -24011,8 +23735,6 @@ but this is where the TLG has left off for numbering-->
             <title>Graeciae descriptio</title>
         </titleInfo>
         <identifier type="oclc">16685758</identifier>
-        <identifier>1999.01.0159</identifier>
-        <identifier type="Perseus:abo">Perseus:abo:tlg,0525,001</identifier>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -24041,10 +23763,6 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
         <location>
             <url displayLabel="Worldcat">http://worldcat.org/oclc/16685758</url>
-        </location>
-        <location>
-            <url displayLabel="Perseus" note="Greek"
-                >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0159</url>
         </location>
         <location>
             <url displayLabel="GoogleBooks" note="Vol 1"
@@ -24097,6 +23815,13 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Description of Greece">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0525.tlg001.perseus-grc1</identifier>
+                <identifier>1999.01.0159</identifier>
+                <identifier type="Perseus:abo">Perseus:abo:tlg,0525,001</identifier>
+                <location>
+                    <url displayLabel="Perseus" note="Greek"
+                        >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0159</url>
+                </location>
+                
             </relatedItem>
         </relatedItem>
     </mods>
@@ -24366,13 +24091,12 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Dionysiaca-Nonnus of Panopolis-Rose/Lind/Rouse-Loeb-1940">
+    <mods displayLabel="Dionysiaca-Nonnus of Panopolis-Rose/Lind/Rouse-Loeb-1940-1942-OPP/Perseus">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Dionysiaca</title>
         </titleInfo>
-        <titleInfo xml:lang="eng" type="alternative">
+        <titleInfo type="alternative">
             <title>Nonnos Dionysiaca</title>
-            <partNumber>Volume 1-3</partNumber>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             xlink:href="http://errol.oclc.org/laf/n81-94864.html">
@@ -24417,7 +24141,7 @@ but this is where the TLG has left off for numbering-->
                 <placeTerm type="text">Cambridge, Mass</placeTerm>
             </place>
             <publisher>Harvard University Press</publisher>
-            <dateIssued>1940</dateIssued>
+            <dateIssued>1940-1942</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
         <physicalDescription>
@@ -24429,7 +24153,6 @@ but this is where the TLG has left off for numbering-->
         <note>Greek and English on opposite pages.</note>
         <note>Bibliography: v. 1, p. xlv-xlvii.</note>
         <note>Includes index.</note>
-
         <typeOfResource>text</typeOfResource>
         <subject authority="lcsh">
             <topic>Dionysius (Greek deity)</topic>
@@ -24446,6 +24169,14 @@ but this is where the TLG has left off for numbering-->
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Dionysiaca">
             <identifier type="ctsurn">urn:cts:greekLit:tlg2045.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Dionysiaca">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2045.tlg001.perseus-grc1</identifier>
+                <identifier>Perseus:text:2008.01.0485</identifier>
+                <location>
+                    <url displayLabel="Perseus" note="Greek"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0485</url>
+                </location>
+            </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Dionysiaca">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg2045.tlg001.opp-eng1</identifier>
                 <identifier type="ctsurn">urn:cts:greekLit:tlg2045.tlg001.opp-grc1</identifier>
@@ -24518,92 +24249,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Dionysiaca-Nonnus of Panopolis-Rouse-Loeb-Perseus-Greek">
-        <titleInfo xml:lang="lat" type="uniform">
-            <title>Dionysiaca</title>
-        </titleInfo>
-        <part>
-            <extent unit="words">
-                <total>129061</total>
-            </extent>
-        </part>
-        <identifier type="oclc">685107</identifier>
-        <identifier>Perseus:text:2008.01.0485</identifier>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n81-94864.html">
-            <namePart>Nonnus,</namePart>
-            <namePart>of Panopolis</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n50-49973.html">
-            <namePart>Rouse, W. H. D. (William Henry Denham)</namePart>
-            <namePart type="date">1863-1950</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">mau</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Cambridge, Mass</placeTerm>
-            </place>
-            <publisher>Harvard University Press</publisher>
-            <dateIssued>1940-1942</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <digitalOrigin>digitized other analog</digitalOrigin>
-        </physicalDescription>
-        <classification authority="lcc">PA3612 N6 1940</classification>
-        <subject authority="lcsh">
-            <topic>Dionysius (Greek deity)</topic>
-            <topic>Poetry</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Epic poetry, Greek</topic>
-            <topic>Translations into English</topic>
-        </subject>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Loeb classical library</title>
-            </titleInfo>
-        </relatedItem>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/685107</url>
-        </location>
-        <location>
-            <url displayLabel="Perseus" note="Greek"
-                >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0485</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance" note="Vol 1"
-                >http://www.archive.org/details/dionysiaca01nonnuoft</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance" note="Vol 2"
-                >http://www.archive.org/details/dionysiaca02nonnuoft</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance" note="Vol 3"
-                >http://www.archive.org/details/dionysiaca03nonnuoft</url>
-        </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Dionysiaca">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg2045.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Dionysiaca">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg2045.tlg001.perseus-grc1</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
+
     <mods displayLabel="Dionysiaca-Nonnus of Panopolis-Ludwich-Teubner-1909">
         <titleInfo nameTitleGroup="1" xml:lang="lat" type="uniform">
             <title>Dionysiaca</title>
@@ -24796,7 +24442,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Dissertationes-Maximus Tyre-Teubner-1910">
+    <mods displayLabel="Dissertationes-Maximus Tyre-Teubner-Hobein-1910">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Dissertationes</title>
         </titleInfo>
@@ -24942,7 +24588,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Divus Julius-Suetonius-Clarendon-1927">
+    <mods displayLabel="Divus Julius-Suetonius-Butler/Cary-Clarendon-1927">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Divus Julius</title>
         </titleInfo>
@@ -25085,7 +24731,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Dyscolus-Menander of Athens-OCT-1960">
+    <mods displayLabel="Dyscolus-Menander of Athens-Lloyd-Jones-OCT-1960">
         <titleInfo>
             <title>Menandri Dyscolus</title>
         </titleInfo>
@@ -25227,7 +24873,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Electra-Euripides-Allen-1905">
+    <mods displayLabel="Electra-Euripides-Murray-Allen-1905">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Electra</title>
         </titleInfo>
@@ -25307,7 +24953,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Elegiae-Sulpicia-Perseus-English">
+    <mods displayLabel="Elegiae-Sulpicia-Mahoney-Perseus-Latin\English">
         <titleInfo>
             <title>Elegiae</title>
         </titleInfo>
@@ -25332,6 +24978,9 @@ but this is where the TLG has left off for numbering-->
             </role>
         </name>
         <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
         <originInfo>
@@ -25352,42 +25001,6 @@ but this is where the TLG has left off for numbering-->
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0071</url>
                 </location>
             </relatedItem>
-        </relatedItem>
-    </mods>
-    <mods displayLabel="Elegiae-Sulpicia-Perseus-Latin">
-        <titleInfo>
-            <title>Elegiae</title>
-        </titleInfo>
-        <titleInfo type="alternative" lang="eng">
-            <title>Poems</title>
-        </titleInfo>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n92-14232.html         ">
-            <namePart>Sulpicia</namePart>
-            <namePart type="date">1st cent. B.C.</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">attributed author</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/7623582">
-            <namePart>Mahoney, Anne</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
-        <originInfo>
-            <dateCreated>2000</dateCreated>
-            <publisher>Perseus Digital Library</publisher>
-            <place>
-                <placeTerm>Tufts University</placeTerm>
-                <placeTerm>Medford, MA</placeTerm>
-            </place>
-        </originInfo>
-        <relatedItem type="constituent" otherType="work" displayLabel="Elegiae">
-            <identifier type="ctsurn">urn:cts:latinLit:phi0660.phi003</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Elegiae">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0660.phi003.perseus-lat1</identifier>
                 <identifier>Perseus:text:1999.02.0070</identifier>
@@ -25398,6 +25011,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
+    
     <mods displayLabel="Elegies-Propertius-Butler-Loeb-1912">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Elegies</title>
@@ -25610,7 +25224,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Elegies-Propertius-Katz-Sun-Moon-1995">
+    <mods displayLabel="Elegies-Propertius-Katz-Sun-Moon-1995-OPP\Perseus-Latin1\English1">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Elegies</title>
         </titleInfo>
@@ -25710,206 +25324,26 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression" displayLabel="Elegies">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001.opp-lat4</identifier>
             </relatedItem>
-        </relatedItem>
-    </mods>
-    <mods displayLabel="Elegies-Propertius-Katz-Perseus-Latin">
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Elegies</title>
-        </titleInfo>
-        <part>
-            <extent unit="words">
-                <total>25490</total>
-            </extent>
-        </part>
-        <identifier>Perseus:text:1999.02.0066</identifier>
-        <identifier type="isbn">1557132240 (acid-free paper)</identifier>
-        <identifier type="lccn">95032096</identifier>
-        <identifier type="Perseus:abo">Perseus:abo:phi,0620,001</identifier>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-42233.htm">
-            <namePart>Propertius, Sextus.</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n92-83828.html">
-            <namePart>Katz, Vincent</namePart>
-            <namePart type="date">1960-</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">cau</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Los Angeles</placeTerm>
-            </place>
-            <publisher>Sun &amp; Moon Press</publisher>
-            <dateIssued>1995</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>151 p. ; 19 cm.</extent>
-        </physicalDescription>
-        <note type="statement of responsibility">Sextus Propertius ; translated, and with an
-            introduction by Vincent Katz ; with a foreword by W.R. Johnson.</note>
-        <note>Includes bibliographical references (p. [145]-151).</note>
-        <subject>
-            <geographicCode authority="marcgac">e------</geographicCode>
-            <geographicCode authority="marcgac">ff-----</geographicCode>
-            <geographicCode authority="marcgac">aw-----</geographicCode>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Elegiac poetry, Latin</topic>
-            <topic>Translations into English</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Love poetry, Latin</topic>
-            <topic>Translations into English</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Man-woman relationships</topic>
-            <geographic>Rome</geographic>
-            <topic>Poetry</topic>
-        </subject>
-        <classification authority="lcc">PA6645.E5 K35 1995</classification>
-        <classification authority="ddc" edition="20">874/.01</classification>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Sun &amp; Moon classics</title>
-            </titleInfo>
-        </relatedItem>
-        <location>
-            <url displayLabel="Perseus" note="Latin"
-                >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0066</url>
-        </location>
-        <location>
-            <url displayLabel="LC Permalink">http://lccn.loc.gov/95032096</url>
-        </location>
-        <location>
-            <url displayLabel="Worldcat">http://www.worldcat.org/oclc/32969451</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks" note="Snippet View"
-                >http://books.google.com/books?id=59llQgAACAAJ</url>
-        </location>
-        <recordInfo>
-            <recordContentSource authority="marcorg">DLC</recordContentSource>
-            <recordCreationDate encoding="marc">950725</recordCreationDate>
-            <recordChangeDate encoding="iso8601">19960711111223.9</recordChangeDate>
-            <recordIdentifier>3506461</recordIdentifier>
-        </recordInfo>
-        <relatedItem type="constituent" otherType="work" displayLabel="Elegies">
-            <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Elegies">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001.perseus-lat1</identifier>
+                <identifier>Perseus:text:1999.02.0066</identifier>                
+                <location>
+                    <url displayLabel="Perseus" note="Latin"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0066</url>
+                </location>
             </relatedItem>
-        </relatedItem>
-    </mods>
-    <mods displayLabel="Elegies-Propertius-Katz-Perseus-English">
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Elegies</title>
-        </titleInfo>
-        <part>
-            <extent unit="words">
-                <total>25490</total>
-            </extent>
-        </part>
-        <identifier>Perseus:text:1999.02.0067</identifier>
-        <identifier type="isbn">1557132240 (acid-free paper)</identifier>
-        <identifier type="lccn">95032096</identifier>
-        <identifier type="Perseus:abo">Perseus:abo:phi,0620,001</identifier>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-42233.htm">
-            <namePart>Propertius, Sextus.</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n92-83828.html">
-            <namePart>Katz, Vincent</namePart>
-            <namePart type="date">1960-</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">cau</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Los Angeles</placeTerm>
-            </place>
-            <publisher>Sun &amp; Moon Press</publisher>
-            <dateIssued>1995</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-        </language>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>151 p. ; 19 cm.</extent>
-        </physicalDescription>
-        <note type="statement of responsibility">Sextus Propertius ; translated, and with an
-            introduction by Vincent Katz ; with a foreword by W.R. Johnson.</note>
-        <note>Includes bibliographical references (p. [145]-151).</note>
-        <subject>
-            <geographicCode authority="marcgac">e------</geographicCode>
-            <geographicCode authority="marcgac">ff-----</geographicCode>
-            <geographicCode authority="marcgac">aw-----</geographicCode>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Elegiac poetry, Latin</topic>
-            <topic>Translations into English</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Love poetry, Latin</topic>
-            <topic>Translations into English</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Man-woman relationships</topic>
-            <geographic>Rome</geographic>
-            <topic>Poetry</topic>
-        </subject>
-        <classification authority="lcc">PA6645.E5 K35 1995</classification>
-        <classification authority="ddc" edition="20">874/.01</classification>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Sun &amp; Moon classics</title>
-            </titleInfo>
-        </relatedItem>
-        <location>
-            <url displayLabel="Perseus" note="English"
-                >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0067</url>
-        </location>
-        <location>
-            <url displayLabel="LC Permalink">http://lccn.loc.gov/95032096</url>
-        </location>
-        <location>
-            <url displayLabel="Worldcat">http://www.worldcat.org/oclc/32969451</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks" note="Snippet View"
-                >http://books.google.com/books?id=59llQgAACAAJ</url>
-        </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Elegies">
-            <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Elegies">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001.perseus-eng1</identifier>
+                <identifier>Perseus:text:1999.02.0067</identifier>
+                <location>
+                    <url displayLabel="Perseus" note="English"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0067</url>
+                </location>                
             </relatedItem>
         </relatedItem>
     </mods>
+    
+    
 
     <mods displayLabel="Elegies-Propertius-Baehrens-Teubner-1880">
         <titleInfo xml:lang="eng" type="uniform">
@@ -25988,6 +25422,89 @@ but this is where the TLG has left off for numbering-->
             <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Elegies">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001.opp-lat3</identifier>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods displayLabel="Elegies-Propertius-Fedeli-Teubner-1984">
+        <titleInfo>
+            <title>Sex. Propertii Elegiarum libri IV</title>
+        </titleInfo>
+        <titleInfo type="uniform" nameTitleGroup="1">
+            <title>Elegiae</title>
+        </titleInfo>
+        <titleInfo type="alternative">
+            <title>Elegiarum libri IV</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" usage="primary"
+            nameTitleGroup="1" valueURI="http://viaf.org/viaf/100907186">
+            <namePart>Propertius, Sextus</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/9861849">
+            <namePart>Fedeli, Paolo</namePart>
+            <namePart type="date">1939-</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <genre authority="marcgt">bibliography</genre>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Stutgardiae</placeTerm>
+            </place>
+            <publisher>Teubner</publisher>
+            <dateIssued>1984</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>xxxv, 352 p.; 21 cm</extent>
+            <digitalOrigin>digitized other analog</digitalOrigin>
+        </physicalDescription>
+        <note type="statement of responsibility" altRepGroup="00">edidit Paulus Fedeli</note>
+        <note>Includes indexes</note>
+        <note type="bibliography">Bibliography: p. xxv-xxxv</note>
+        <subject authority="lcsh">
+            <topic>Man-woman relationships</topic>
+            <geographic>Rome</geographic>
+            <topic>Poetry</topic>
+        </subject>
+        <subject authority="lcsh">
+            <topic>Elegiac poetry, Latin</topic>
+        </subject>
+        <subject authority="lcsh">
+            <topic>Love poetry, Latin</topic>
+        </subject>
+        <classification authority="lcc">PA6644 .A2 1984</classification>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
+            </titleInfo>
+        </relatedItem>
+        <identifier type="isbn">3519017393</identifier>
+        <identifier type="isbn">3519017407 (pbk.)</identifier>
+        <identifier type="oclc">882983902</identifier>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/882983902</url>
+        </location>
+        <location>
+            <url displayLabel="SLUB">http://digital.slub-dresden.de/id408341491</url>
+        </location>
+        <relatedItem type="constituent" otherType="work"
+            displayLabel="Sex. Propertii Elegiarum libri IV">
+            <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Sex. Propertii Elegiarum libri IV">
+                <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001.opp-lat9</identifier>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -26303,89 +25820,6 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Elegies-Propertius-Fedeli-Teubner-1984">
-        <titleInfo>
-            <title>Sex. Propertii Elegiarum libri IV</title>
-        </titleInfo>
-        <titleInfo type="uniform" nameTitleGroup="1">
-            <title>Elegiae</title>
-        </titleInfo>
-        <titleInfo type="alternative">
-            <title>Elegiarum libri IV</title>
-        </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" usage="primary"
-            nameTitleGroup="1" valueURI="http://viaf.org/viaf/100907186">
-            <namePart>Propertius, Sextus</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/9861849">
-            <namePart>Fedeli, Paolo</namePart>
-            <namePart type="date">1939-</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <genre authority="marcgt">bibliography</genre>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">gw</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Stutgardiae</placeTerm>
-            </place>
-            <publisher>Teubner</publisher>
-            <dateIssued>1984</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language objectPart="text">
-            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
-        </language>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>xxxv, 352 p.; 21 cm</extent>
-            <digitalOrigin>digitized other analog</digitalOrigin>
-        </physicalDescription>
-        <note type="statement of responsibility" altRepGroup="00">edidit Paulus Fedeli</note>
-        <note>Includes indexes</note>
-        <note type="bibliography">Bibliography: p. xxv-xxxv</note>
-        <subject authority="lcsh">
-            <topic>Man-woman relationships</topic>
-            <geographic>Rome</geographic>
-            <topic>Poetry</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Elegiac poetry, Latin</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Love poetry, Latin</topic>
-        </subject>
-        <classification authority="lcc">PA6644 .A2 1984</classification>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
-            </titleInfo>
-        </relatedItem>
-        <identifier type="isbn">3519017393</identifier>
-        <identifier type="isbn">3519017407 (pbk.)</identifier>
-        <identifier type="oclc">882983902</identifier>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/882983902</url>
-        </location>
-        <location>
-            <url displayLabel="SLUB">http://digital.slub-dresden.de/id408341491</url>
-        </location>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Sex. Propertii Elegiarum libri IV">
-            <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Sex. Propertii Elegiarum libri IV">
-                <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001.opp-lat9</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
     <mods displayLabel="Elegiae-Propertius-Schuster-Teubner-1954">
         <titleInfo>
             <title>Sex. Propertii Elegiarum libri IV</title>
@@ -26675,7 +26109,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Elementa Harmonica-Aristoxenus-Clarendon-1902">
+    <mods displayLabel="Elementa Harmonica-Aristoxenus-Macran--Clarendon-1902">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Elementa Harmonica</title>
         </titleInfo>
@@ -26829,7 +26263,8 @@ but this is where the TLG has left off for numbering-->
                 <placeTerm type="text">New York</placeTerm>
             </place>
             <publisher>Dover</publisher>
-            <dateIssued>[1968-]</dateIssued>
+            <dateIssued>1908</dateIssued>
+            <dateModified>1968</dateModified>
             <issuance>monographic</issuance>
         </originInfo>
         <language objectPart="text">
@@ -26852,6 +26287,15 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/40542855</url>
         </location>
+        <location>
+            <url displayLabel="HathiTrust" note="Volume 1">https://hdl.handle.net/2027/umn.31951000479889w</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust" note="Volume 2">https://hdl.handle.net/2027/umn.31951000479890b</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust" note="Volume 3">https://hdl.handle.net/2027/hvd.hxnx4h</url>
+        </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Elements">
             <identifier type="ctsurn">urn:cts:greekLit:tlg1799.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Elements">
@@ -26864,7 +26308,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Elements-Euclid-Teubner-Perseus">
+    <mods displayLabel="Elements-Euclid-Heiberg-Teubner-Perseus-Greek">
         <titleInfo lang="eng" type="uniform">
             <title>Elements</title>
         </titleInfo>
@@ -26922,19 +26366,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/4055199</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Elements">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1799.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Elements">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg1799.tlg001.perseus-grc1</identifier>
-                <identifier>Perseus:text:1999.01.0085</identifier>
-                <location>
-                    <url displayLabel="Perseus" note="Greek"
-                        >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0085</url>
-                </location>
-            </relatedItem>
-        </relatedItem>
+       
     </mods>
-    <mods displayLabel="Enneades-Plotinus-Les Belles-1925">
+    <mods displayLabel="Enneades-Plotinus-Brehier-Les Belles-1925">
         <titleInfo type="translated" lang="fre">
             <title>Ennéades</title>
             <subTitle>Band III</subTitle>
@@ -27133,7 +26567,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Epicurei Fragmenta-Metrodorus-Teubner-1890">
+    <mods displayLabel="Epicurei Fragmenta-Metrodorus-Korte-Teubner-1890">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Epicurei Fragmenta</title>
         </titleInfo>
@@ -27182,10 +26616,9 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance">
                 http://www.archive.org/details/metrodoriepicure00metruoft</url>
         </location>
-        <location>
-            <url displayLabel="Open Library"
-                >http://www.openlibrary.org/details/metrodoriepicure00metruoft</url>
-        </location>
+        <language objectPart="notes">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
         </language>
@@ -27831,7 +27264,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Epistulae-Augustine-Baxter-Loeb-Perseus-Latin">
+    <mods displayLabel="Epistulae-Augustine-Baxter-Loeb-Perseus-Latin"><!-- LEFT OFF HERE FOR PERSEUS MERGING -->
         <titleInfo>
             <title>Epistulae</title>
         </titleInfo>
