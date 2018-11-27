@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <!-- Decided to combine singleton MODS records for Perseus Loeb with two languages-editions-maybe move to inverted?
 Can retrieve Perseus specific information from catalog-data-as is expression specific
 -Will continue moving Perseus info from top level MODS records to expression constituent (make sure don't have two 
@@ -33555,7 +33555,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Greek Anthology-Perseus-5 volumes-Greek only"><!-- LEFT OFF HERE -->
+    <mods displayLabel="Greek Anthology-Perseus-5 volumes-Greek only">
         <titleInfo>
             <nonSort>The</nonSort>
             <title>Greek anthology</title>
@@ -33620,17 +33620,12 @@ but this is where the TLG has left off for numbering-->
             <originInfo>
                 <dateIssued>1916</dateIssued>
             </originInfo>
-            <identifier>Perseus:text:2008.01.0472</identifier>
             <location>
                 <url displayLabel="GoogleBooks">http://books.google.com/books?id=XFKEAAAAIAAJ</url>
             </location>
             <location>
                 <url displayLabel="Open Content Alliance"
                     >http://www.archive.org/details/greekanthology01newyuoft</url>
-            </location>
-            <location>
-                <url displayLabel="Perseus" note="Greek"
-                    >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0472</url>
             </location>
             <location>
                 <url displayLabel="Open Library"
@@ -33642,6 +33637,11 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="expression"
                     displayLabel="The Greek anthology Vol I">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg7000.tlg001.perseus-grc1</identifier>
+                    <identifier>Perseus:text:2008.01.0472</identifier>
+                    <location>
+                        <url displayLabel="Perseus" note="Greek"
+                            >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0472</url>
+                    </location>
                 </relatedItem>
             </relatedItem>
         </relatedItem>
@@ -33654,7 +33654,6 @@ but this is where the TLG has left off for numbering-->
             <originInfo>
                 <dateIssued>1917</dateIssued>
             </originInfo>
-            <identifier>Perseus:text:2008.01.0473</identifier>
             <location>
                 <url displayLabel="Open Content Alliance"
                     >http://www.archive.org/details/greekanthology02newyuoft</url>
@@ -33666,16 +33665,17 @@ but this is where the TLG has left off for numbering-->
             <location>
                 <url displayLabel="GoogleBooks">http://books.google.com/books?id=hBQOAAAAYAAJ</url>
             </location>
-            <location>
-                <url displayLabel="Perseus" note="Greek"
-                    >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0473</url>
-            </location>
             <relatedItem type="constituent" otherType="work"
                 displayLabel="The Greek anthology Vol II">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg7000.tlg001</identifier>
                 <relatedItem type="constituent" otherType="expression"
                     displayLabel="The Greek anthology Vol II">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg7000.tlg001.perseus-grc2</identifier>
+                    <identifier>Perseus:text:2008.01.0473</identifier>
+                    <location>
+                        <url displayLabel="Perseus" note="Greek"
+                            >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0473</url>
+                    </location>                    
                 </relatedItem>
             </relatedItem>
         </relatedItem>
@@ -33688,7 +33688,6 @@ but this is where the TLG has left off for numbering-->
             <originInfo>
                 <dateIssued>1915</dateIssued>
             </originInfo>
-            <identifier>Perseus:text:2008.01.0474</identifier>
             <location>
                 <url displayLabel="Open Content Alliance"
                     >http://www.archive.org/details/greekanthology03newyuoft</url>
@@ -33696,16 +33695,17 @@ but this is where the TLG has left off for numbering-->
             <location>
                 <url displayLabel="GoogleBooks">http://books.google.com/books?id=EhwOAAAAYAAJ</url>
             </location>
-            <location>
-                <url displayLabel="Perseus" note="Greek"
-                    >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0474</url>
-            </location>
             <relatedItem type="constituent" otherType="work"
                 displayLabel="The Greek anthology Vol III">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg7000.tlg001</identifier>
                 <relatedItem type="constituent" otherType="expression"
                     displayLabel="The Greek anthology Vol III">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg7000.tlg001.perseus-grc3</identifier>
+                    <identifier>Perseus:text:2008.01.0474</identifier>
+                    <location>
+                        <url displayLabel="Perseus" note="Greek"
+                            >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0474</url>
+                    </location>
                 </relatedItem>
             </relatedItem>
         </relatedItem>
@@ -33719,7 +33719,6 @@ but this is where the TLG has left off for numbering-->
                 <dateIssued>1918</dateIssued>
                 <dateModified>1926</dateModified>
             </originInfo>
-            <identifier>Perseus:text:2008.01.0476</identifier>
             <location>
                 <url displayLabel="Open Content Alliance"
                     >http://www.archive.org/details/greekanthology04newyuoft</url>
@@ -33731,16 +33730,17 @@ but this is where the TLG has left off for numbering-->
             <location>
                 <url displayLabel="GoogleBooks">http://books.google.com/books?id=F41fAAAAMAAJ</url>
             </location>
-            <location>
-                <url displayLabel="Perseus" note="Greek"
-                    >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0475</url>
-            </location>
             <relatedItem type="constituent" otherType="work"
                 displayLabel="The Greek anthology Vol IV">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg7000.tlg001</identifier>
                 <relatedItem type="constituent" otherType="expression"
                     displayLabel="The Greek anthology Vol IV">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg7000.tlg001.perseus-grc4</identifier>
+                    <identifier>Perseus:text:2008.01.0475</identifier>
+                    <location>
+                        <url displayLabel="Perseus" note="Greek"
+                            >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0475</url>
+                    </location>                    
                 </relatedItem>
             </relatedItem>
         </relatedItem>
@@ -33753,7 +33753,6 @@ but this is where the TLG has left off for numbering-->
             <originInfo>
                 <dateIssued>1927</dateIssued>
             </originInfo>
-            <identifier>Perseus:text:2008.01.0476</identifier>
             <location>
                 <url displayLabel="Open Content Alliance"
                     >http://www.archive.org/details/greekanthology05newyuoft</url>
@@ -33765,16 +33764,17 @@ but this is where the TLG has left off for numbering-->
             <location>
                 <url displayLabel="GoogleBooks">http://books.google.com/books?id=RIxfAAAAMAAJ</url>
             </location>
-            <location>
-                <url displayLabel="Perseus" note="Greek"
-                    >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0476</url>
-            </location>
             <relatedItem type="constituent" otherType="work"
                 displayLabel="The Greek anthology Vol V">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg7000.tlg001</identifier>
                 <relatedItem type="constituent" otherType="expression"
                     displayLabel="The Greek anthology Vol V">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg7000.tlg001.perseus-grc5</identifier>
+                    <identifier>Perseus:text:2008.01.0476</identifier>
+                    <location>
+                        <url displayLabel="Perseus" note="Greek"
+                            >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0476</url>
+                    </location>
                 </relatedItem>
             </relatedItem>
         </relatedItem>
@@ -34666,8 +34666,7 @@ but this is where the TLG has left off for numbering-->
                 <title>Procopii Caesariensis Opera omnia</title>
                 <partNumber>Volume V</partNumber>
             </titleInfo>
-        </relatedItem>
-        <identifier>Perseus:text:2008.01.0669</identifier>
+        </relatedItem> 
         <identifier type="oclc">568646845</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/568646845</url>
@@ -34675,14 +34674,15 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015069901448</url>
         </location>
-        <location>
-            <url displayLabel="Perseus" note="Greek"
-                >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0669</url>
-        </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Historia Arcana">
             <identifier type="ctsurn">urn:cts:greekLit:tlg4029.tlg002</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Historia Arcana">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg4029.tlg002.perseus-grc1</identifier>
+                <identifier>Perseus:text:2008.01.0669</identifier>
+                <location>
+                    <url displayLabel="Perseus" note="Greek"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0669</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -34698,7 +34698,6 @@ but this is where the TLG has left off for numbering-->
         </titleInfo>
         <identifier type="lccn">26005867</identifier>
         <identifier type="oclc">60310713</identifier>
-        <identifier>Perseus:text:1999.02.0135</identifier>
         <identifier type="Perseus:abo">Perseus:abo:bede,001</identifier>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             xlink:href="http://errol.oclc.org/laf/n80-39744.html">
@@ -34729,7 +34728,7 @@ but this is where the TLG has left off for numbering-->
             <dateIssued>1896</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
-        <language>
+        <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
         </language>
         <physicalDescription>
@@ -34765,10 +34764,6 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/60310713</url>
         </location>
         <location>
-            <url displayLabel="Perseus" note="Latin"
-                >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.02.0135</url>
-        </location>
-        <location>
             <url displayLabel="GoogleBooks" note="Volume 1"
                 >http://books.google.com/books?id=ql48HJgCYFMC</url>
         </location>
@@ -34782,6 +34777,11 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Historia Ecclesiastica">
                 <identifier type="ctsurn">urn:cts:latinLit:stoa0054.stoa006.perseus-lat1</identifier>
+                <identifier>Perseus:text:1999.02.0135</identifier>
+                <location>
+                    <url displayLabel="Perseus" note="Latin"
+                        >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.02.0135</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -34882,7 +34882,7 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
         <!-- Deleted urn:cts:latinLit:stoa0054.stoa006.opp-eng1 as invalid -->
     </mods>
-    <mods displayLabel="Historia Ecclesiastica-Eusebius-Lake/Oulton--Loeb">
+    <mods displayLabel="Historia Ecclesiastica-Eusebius-Lake/Oulton-Loeb-Perseus\OPP">
         <titleInfo type="uniform">
             <title>Historia Ecclesiastica</title>
         </titleInfo>
@@ -34952,6 +34952,15 @@ but this is where the TLG has left off for numbering-->
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="The Ecclesiastical history">
             <identifier type="ctsurn">urn:cts:greekLit:tlg2018.tlg002</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Historia Ecclesiastica">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2018.tlg002.perseus-grc1</identifier>
+                <identifier>Perseus:text:2008.01.0640</identifier>
+                <location>
+                    <url displayLabel="Perseus" note="Greek"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0640</url>
+                </location>
+            </relatedItem>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="The Ecclesiastical history">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg2018.tlg002.opp-eng1</identifier>
@@ -35028,108 +35037,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Historia Ecclesiastica-Eusebius-Loeb-Perseus-Greek">
-        <titleInfo type="uniform">
-            <title>Historia Ecclesiastica</title>
-        </titleInfo>
-        <titleInfo type="translated" lang="eng">
-            <title>Ecclesiastical History</title>
-        </titleInfo>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n79-150225.html">
-            <namePart>Eusebius</namePart>
-            <namePart type="termsOfAddress">of Caesarea, Bishop of Caesarea</namePart>
-            <namePart type="date">ca. 260-ca. 340</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n88-663360.html">
-            <namePart>Lake, Kirsopp</namePart>
-            <namePart type="date">1872-1946</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n88-663395.html">
-            <namePart>Oulton, John Ernest Leonard</namePart>
-            <namePart type="date">b. 1886</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no92-30881.html">
-            <namePart>Lawlor, Hugh Jackson</namePart>
-            <namePart type="date">1860-1938</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">enk</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">London</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">New York</placeTerm>
-            </place>
-            <publisher>W. Heinemann</publisher>
-            <publisher>G.P. Putnam's Sons</publisher>
-            <dateIssued>1926-1942</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>2 vols</extent>
-        </physicalDescription>
-        <subject authority="lcsh">
-            <topic>Church history</topic>
-            <temporal>Primitive and early church, ca. 30-600</temporal>
-        </subject>
-        <classification authority="lcc">BR160.E4 L3 1926</classification>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Loeb classical library</title>
-            </titleInfo>
-        </relatedItem>
-        <identifier type="lccn">27002020</identifier>
-        <identifier type="oclc">4860687</identifier>
-        <location>
-            <url displayLabel="LC Permalink">http://lccn.loc.gov/27002020</url>
-        </location>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/4860687</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance" note="Volume 1"
-                >http://www.archive.org/details/ecclesiasticalhi01euseuoft</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance" note="Volume 2"
-                >http://www.archive.org/details/ecclesiasticalhi02euseuoft</url>
-        </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Historia Ecclesiastica">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg2018.tlg002</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Historia Ecclesiastica">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg2018.tlg002.perseus-grc1</identifier>
-                <identifier>Perseus:text:2008.01.0640</identifier>
-                <location>
-                    <url displayLabel="Perseus" note="Greek"
-                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0640</url>
-                </location>
-            </relatedItem>
-        </relatedItem>
-    </mods>
+    
     <mods displayLabel="Historia Ecclesiastica-Gelasius-Loeschke-Hinrichs-1918">
         <titleInfo type="uniform" lang="lat">
             <title>Historia ecclesiastica</title>
@@ -35613,84 +35521,8 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Historia Romana-Cassius Dio-Foster/Cary-Loeb-Perseus-Greek">
-        <titleInfo>
-            <title>Historiae Romana</title>
-        </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-84710.html">
-            <namePart>Cassius Dio Cocceianus.</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n86-864627.html">
-            <namePart>Cary, Earnest</namePart>
-            <namePart type="date">1879- </namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n86-864629.html">
-            <namePart>Foster, Herbert Baldwin</namePart>
-            <namePart type="date">1874-1906</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">enk</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">London</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">New York</placeTerm>
-            </place>
-            <publisher>W. Heinemann</publisher>
-            <publisher>The Macmillan co.</publisher>
-            <dateIssued>1914-1927</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language objectPart="text">
-            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
-        </language>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>9 volumes</extent>
-            <digitalOrigin>digitized other analog</digitalOrigin>
-        </physicalDescription>
-        <classification authority="lcc">PA3612 .C3</classification>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>The Loeb classical library</title>
-            </titleInfo>
-        </relatedItem>
-        <identifier type="lccn">14004947</identifier>
-        <identifier type="oclc">3370548</identifier>
-        <location>
-            <url displayLabel="LC Permalink">http://lccn.loc.gov/14004947</url>
-        </location>
-        <location>
-            <url displayLabel="WorldCat">http://worldcat.org/oclc/3370548</url>
-        </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Historiae Romanae">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0385.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae Romanae">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0385.tlg001.perseus-grc1</identifier>
-                <identifier>Perseus:text:2008.01.0593</identifier>
-                <location>
-                    <url displayLabel="Perseus" note="Greek"
-                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0593</url>
-                </location>
-            </relatedItem>
-        </relatedItem>
-    </mods>
-    <mods displayLabel="Historia Romana-Cassius Dio-Foster/Cary-Loeb-1914-1925">
+    
+    <mods displayLabel="Historia Romana-Cassius Dio-Foster/Cary-Loeb-1914-1925-Perseus\OPP">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Historia Romana</title>
         </titleInfo>
@@ -35739,6 +35571,12 @@ but this is where the TLG has left off for numbering-->
             <dateIssued>1914-1927</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
+        <language objectPart="text">
+            <languageTerm type="code">eng</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code">grc</languageTerm>
+        </language>
         <relatedItem type="series">
             <titleInfo>
                 <title>Loeb classical library</title>
@@ -35762,6 +35600,14 @@ but this is where the TLG has left off for numbering-->
         <typeOfResource>text</typeOfResource>
         <relatedItem type="constituent" otherType="work" displayLabel="Historia Romana">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0385.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae Romanae">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0385.tlg001.perseus-grc1</identifier>
+                <identifier>Perseus:text:2008.01.0593</identifier>
+                <location>
+                    <url displayLabel="Perseus" note="Greek"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0593</url>
+                </location>
+            </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Historia Romana">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0385.tlg001.opp-eng7</identifier>
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0385.tlg001.opp-grc6</identifier>
@@ -37016,12 +36862,12 @@ but this is where the TLG has left off for numbering-->
             </extent>
         </part>
         <titleInfo>
-            <nonSort>The </nonSort>
+            <nonSort>The</nonSort>
             <title>Histories of Polybius</title>
         </titleInfo>
         <name type="personal" authorityURI="https://viaf.org/viaf/" authority="naf"
             xlink:href="http://errol.oclc.org/laf/n79-6487.html">
-            <namePart>Polybius.</namePart>
+            <namePart>Polybius</namePart>
             <role>
                 <roleTerm type="text" authority="marcrelator">creator</roleTerm>
             </role>
@@ -37073,7 +36919,7 @@ but this is where the TLG has left off for numbering-->
         <classification authority="lcc">D58 .P7</classification>
         <identifier type="lccn">03011758</identifier>
         <identifier type="oclc">1534237</identifier>
-        <identifier type="lccn">http://lccn.loc.gov/03011758</identifier>
+        <identifier type="lccn">/03011758</identifier>
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/03011758</url>
         </location>
@@ -37092,6 +36938,11 @@ but this is where the TLG has left off for numbering-->
             <identifier type="ctsurn">urn:cts:greekLit:tlg0543.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0543.tlg001.perseus-eng1</identifier>
+                <identifier>Perseus:text:1999.01.0234</identifier>
+                <location>
+                    <url displayLabel="Perseus" note="English">
+                        http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0234</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -37156,15 +37007,11 @@ but this is where the TLG has left off for numbering-->
             <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
         </language>
         <physicalDescription>
-            <extent>5 v. 18 cm.</extent>
+            <extent>5 volumes</extent>
             <digitalOrigin>digitized other analog</digitalOrigin>
         </physicalDescription>
         <note>Romanized.</note>
         <classification authority="lcc">PA3404 .P76 1882</classification>
-        <location>
-            <url displayLabel="Perseus" note="Greek"
-                >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0233</url>
-        </location>
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/05000123</url>
         </location>
@@ -37195,6 +37042,11 @@ but this is where the TLG has left off for numbering-->
             <identifier type="ctsurn">urn:cts:greekLit:tlg0543.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0543.tlg001.perseus-grc1</identifier>
+                <identifier>Perseus:text:1999.01.0233</identifier>
+                <location>
+                    <url displayLabel="Perseus" note="Greek"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0233</url>
+                </location>                
             </relatedItem>
         </relatedItem>
     </mods>
@@ -37264,8 +37116,8 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Historiae-Tacitus-Fisher-OCT-1910">
-        <!-- ANOTHER 1:1 PERSEUS EDITION -->
+    <mods displayLabel="Historiae-Tacitus-Fisher-OCT-1910-Perseus\OPP">
+        
         <titleInfo xml:lang="lat" type="uniform">
             <title>Historiae</title>
         </titleInfo>
@@ -37340,86 +37192,17 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1351.phi004.opp-lat2</identifier>
             </relatedItem>
-        </relatedItem>
-    </mods>
-    <mods displayLabel="Historiae-Tacitus-Fisher-OCT-Perseus">
-        <titleInfo xml:lang="lat" type="uniform">
-            <title>Historiae</title>
-        </titleInfo>
-        <part>
-            <extent unit="words">
-                <total>53873</total>
-            </extent>
-        </part>
-        <titleInfo>
-            <title>Cornelli Taciti Historiarvm libri</title>
-        </titleInfo>
-        <identifier type="lccn">11004965</identifier>
-        <identifier>Perseus:text:1999.02.0079</identifier>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n80-145600.html">
-            <namePart>Tacitus, Cornelius</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/nr96-34250.html">
-            <namePart>Fisher, C. D. (Charles Dennis)</namePart>
-            <namePart type="date">d. 1916</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">xx</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Oxonii</placeTerm>
-            </place>
-            <publisher>e typographeo Clarendoniano</publisher>
-            <dateIssued>[1910]</dateIssued>
-            <dateIssued encoding="marc">1910</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language>
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>2 p. l., [iii]-viii, [262] p. 19 cm.</extent>
-        </physicalDescription>
-        <note type="statement of responsibility">recognovit breviqve adnotatione critica instrvxit
-            C.D. Fisher.</note>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Scriptorum classicorum bibliotheca Oxoniensis</title>
-            </titleInfo>
-            <titleInfo type="translated" lang="eng">
-                <title>Oxford Classical Texts</title>
-            </titleInfo>
-        </relatedItem>
-        <classification authority="lcc">PA6105.S8</classification>
-        <classification authority="lcc">PA6705</classification>
-        <location>
-            <url displayLabel="LC Permalink">http://lccn.loc.gov/11004965</url>
-        </location>
-        <location>
-            <url displayLabel="WorldCat">http://worldcat.org/oclc/2011572</url>
-        </location>
-        <location>
-            <url displayLabel="Perseus" note="Latin"
-                >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0079</url>
-        </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
-            <identifier type="ctsurn">urn:cts:latinLit:phi1351.phi004</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1351.phi004.perseus-lat1</identifier>
+                <identifier>Perseus:text:1999.02.0079</identifier>                
+                <location>
+                    <url displayLabel="Perseus" note="Latin"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0079</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
+    
 
 
 
@@ -41779,6 +41562,7 @@ but this is where the TLG has left off for numbering-->
         <physicalDescription>
             <extent>4 volumes in 11</extent>
         </physicalDescription>
+        <note>This catalog record is for the work found in Pars 2 Only</note>
         <tableOfContents> 	Pars I. Prolegomena complectens: v. 1. De Thucydidis historia iudicum. 1821.--v. 2. 
             In Thucydidem commentarii politici, geographici, chronologici. 1823.--Pars II. Contextus verborum cum scholiis et scripturae discrepantiis: 
             v. 1. Thucydidis liber I., cum disputatione: de artis criticae apud Thucydidem exercendae ratione et subsidiis. 1825.--v. 2. 
@@ -42109,288 +41893,6 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-
-    <!-- THIS IS COMMENTARY-NOT NEED OWN URN-DELETE-ADD TO FILE ABOVE> -->
-    <mods displayLabel="Historiae-Thucydides-Poppo/Duker-Fleischer-1831">
-        <identifier type="oclc">6394034</identifier>
-        <identifier type="oca">p3debellopelopo01thucuoft</identifier>
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Histories</title>
-        </titleInfo>
-        <titleInfo>
-            <title>De bello Peloponnesiaco libri octo</title>
-            <partNumber>Pars III-Vol I</partNumber>
-            <partName>Commentarii</partName>
-        </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-21175.html">
-            <namePart>Thucydides</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n87-940387.html">
-            <namePart>Poppo, Ernest Friedrich</namePart>
-            <namePart type="date">1794-1866</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no97-50145.html">
-            <namePart>Duker, Carolus Andreas</namePart>
-            <namePart type="date">1660-1752</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">gw</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Lipsiae</placeTerm>
-            </place>
-            <publisher>Fleischer</publisher>
-            <dateIssued>1831</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <typeOfResource>text</typeOfResource>
-        <subject authority="lcsh">
-            <geographic>Greece</geographic>
-            <topic>History</topic>
-            <temporal>Peloponnesian War, 431-404 B.C</temporal>
-        </subject>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Histories</title>
-            </titleInfo>
-            <titleInfo>
-                <title>De bello Peloponnesiaco libri octo</title>
-                <partNumber>Pars III-Vol I</partNumber>
-                <partName>Commentarii</partName>
-            </titleInfo>
-            <part>
-                <detail>
-                    <caption>Pars III-Vol I</caption>
-                </detail>
-            </part>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-21175.html">
-                <namePart>Thucydides</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n87-940387.html">
-                <namePart>Poppo, Ernest Friedrich</namePart>
-                <namePart type="date">1794-1866</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/no97-50145.html">
-                <namePart>Duker, Carolus Andreas</namePart>
-                <namePart type="date">1660-1752</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <tableOfContents> Commentarii Adnotata Ad Librum I. Cum Stephani
-                Proparasceue</tableOfContents>
-            <location displayLabel="WorldCat">
-                <url>http://worldcat.org/oclc/6394034</url>
-            </location>
-            <location displayLabel="Open Content Alliance">
-                <url>http://www.archive.org/details/p3debellopelopo01thucuoft</url>
-            </location>
-            <location displayLabel="Open Library">
-                <url>http://www.openlibrary.org/details/p3debellopelopo01thucuoft</url>
-            </location>
-            <note type="statement of responsibility">de arte hujus scriptoris historica exposuit,
-                ejus vitas a veteribus grammaticis conscriptas addidit, codicum rationem atque
-                auctoritatem examinavit, graeca ex iis emendavit, scripturae diversitates omnes,
-                commentarios rerum geographicarum, scholia graeca et notas tum Dukeri omnes atque
-                aliorum selectas tum suas, denique indices rerum et verborum locupletissimos
-                subjecit E.F. Poppo.</note>
-        </relatedItem>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Histories</title>
-            </titleInfo>
-            <titleInfo>
-                <title>De bello Peloponnesiaco libri octo</title>
-                <partNumber>Pars III-Vol II</partNumber>
-                <partName>Commentarii</partName>
-            </titleInfo>
-            <part>
-                <detail>
-                    <caption>Pars III-Vol II</caption>
-                </detail>
-            </part>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-21175.html">
-                <namePart>Thucydides</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n87-940387.html">
-                <namePart>Poppo, Ernest Friedrich</namePart>
-                <namePart type="date">1794-1866</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/no97-50145.html">
-                <namePart>Duker, Carolus Andreas</namePart>
-                <namePart type="date">1660-1752</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <tableOfContents> Commentarii Adnotata Ad Libros II et. III.</tableOfContents>
-            <location displayLabel="WorldCat">
-                <url>http://worldcat.org/oclc/6394034</url>
-            </location>
-            <location displayLabel="Open Content Alliance">
-                <url>http://www.archive.org/details/p3debellopelopo02thucuoft</url>
-            </location>
-            <location displayLabel="Open Library">
-                <url>http://www.openlibrary.org/details/p3debellopelopo02thucuoft</url>
-            </location>
-            <location displayLabel="GoogleBooks">
-                <url>http://books.google.com/books?id=4LkAAAAAYAAJ&amp;printsec=frontcover</url>
-            </location>
-            <note type="statement of responsibility">de arte hujus scriptoris historica exposuit,
-                ejus vitas a veteribus grammaticis conscriptas addidit, codicum rationem atque
-                auctoritatem examinavit, graeca ex iis emendavit, scripturae diversitates omnes,
-                commentarios rerum geographicarum, scholia graeca et notas tum Dukeri omnes atque
-                aliorum selectas tum suas, denique indices rerum et verborum locupletissimos
-                subjecit E.F. Poppo.</note>
-        </relatedItem>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Histories</title>
-            </titleInfo>
-            <titleInfo>
-                <title>De bello Peloponnesiaco libri octo</title>
-                <partNumber>Pars III-Vol III</partNumber>
-                <partName>Commentarii</partName>
-            </titleInfo>
-            <part>
-                <detail>
-                    <caption>Pars III-Vol III</caption>
-                </detail>
-            </part>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-21175.html">
-                <namePart>Thucydides</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n87-940387.html">
-                <namePart>Poppo, Ernest Friedrich</namePart>
-                <namePart type="date">1794-1866</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/no97-50145.html">
-                <namePart>Duker, Carolus Andreas</namePart>
-                <namePart type="date">1660-1752</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <tableOfContents> Commentarii Adnotata Ad Libros IV et V</tableOfContents>
-            <location displayLabel="WorldCat">
-                <url>http://worldcat.org/oclc/6394034</url>
-            </location>
-            <location displayLabel="Open Content Alliance">
-                <url>http://www.archive.org/details/p3debellopelopo03thucuoft</url>
-            </location>
-            <location displayLabel="Open Library">
-                <url>http://www.openlibrary.org/details/p3debellopelopo03thucuoft</url>
-            </location>
-            <note type="statement of responsibility">de arte hujus scriptoris historica exposuit,
-                ejus vitas a veteribus grammaticis conscriptas addidit, codicum rationem atque
-                auctoritatem examinavit, graeca ex iis emendavit, scripturae diversitates omnes,
-                commentarios rerum geographicarum, scholia graeca et notas tum Dukeri omnes atque
-                aliorum selectas tum suas, denique indices rerum et verborum locupletissimos
-                subjecit E.F. Poppo.</note>
-        </relatedItem>
-        <relatedItem type="constituent">
-            <titleInfo xml:lang="eng" type="uniform">
-                <title>Histories</title>
-            </titleInfo>
-            <titleInfo>
-                <title>De bello Peloponnesiaco libri octo</title>
-                <partNumber>Pars III-Vol IV</partNumber>
-                <partName>Commentarii</partName>
-            </titleInfo>
-            <part>
-                <detail>
-                    <caption>Pars III-Vol IV</caption>
-                </detail>
-            </part>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n79-21175.html">
-                <namePart>Thucydides</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/n87-940387.html">
-                <namePart>Poppo, Ernest Friedrich</namePart>
-                <namePart type="date">1794-1866</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal"
-                xlink:href="http://errol.oclc.org/laf/no97-50145.html">
-                <namePart>Duker, Carolus Andreas</namePart>
-                <namePart type="date">1660-1752</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-            </name>
-            <tableOfContents> Commentarii Adnotata Ad Libros VI. -- VIII.</tableOfContents>
-            <location displayLabel="WorldCat">
-                <url>http://worldcat.org/oclc/6394034</url>
-            </location>
-            <location displayLabel="Open Content Alliance">
-                <url>http://www.archive.org/details/p3debellopelopo04thucuoft</url>
-            </location>
-            <location displayLabel="Open Library">
-                <url>http://www.openlibrary.org/details/p3debellopelopo04thucuoft</url>
-            </location>
-            <note type="statement of responsibility">de arte hujus scriptoris historica exposuit,
-                ejus vitas a veteribus grammaticis conscriptas addidit, codicum rationem atque
-                auctoritatem examinavit, graeca ex iis emendavit, scripturae diversitates omnes,
-                commentarios rerum geographicarum, scholia graeca et notas tum Dukeri omnes atque
-                aliorum selectas tum suas, denique indices rerum et verborum locupletissimos
-                subjecit E.F. Poppo.</note>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-lat8</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
-
-
     <mods displayLabel="Historiae Phillipicae-Pompeius Trogus-Jeep-Teubner-1859">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Historiae Phillipicae</title>
@@ -42692,7 +42194,15 @@ but this is where the TLG has left off for numbering-->
         <physicalDescription>
             <form authority="marcform">print</form>
             <extent>x, 404 p. 17 cm.</extent>
-        </physicalDescription>
+        </physicalDescription>        
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
+            </titleInfo>
+            <titleInfo type="abbreviated">
+                <title>Teubner</title>
+            </titleInfo>
+        </relatedItem>
         <identifier type="lccn">09002033</identifier>
         <identifier type="oclc">5022807</identifier>
         <classification authority="lcc">PA6104 .C9 1908</classification>
@@ -42747,89 +42257,18 @@ but this is where the TLG has left off for numbering-->
                 displayLabel="Historiarum Alexandri Magni">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0860.phi001.opp-lat2</identifier>
             </relatedItem>
-        </relatedItem>
-    </mods>
-    <mods displayLabel="Historiarum Alexandri Magni-Curtius Rufus-Hedicke-Teubner-1908-Perseus">
-        <!-- SAME AS ABOVE -->
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Historiarum Alexandri Magni</title>
-        </titleInfo>
-        <part>
-            <extent unit="words">
-                <total>77396</total>
-            </extent>
-        </part>
-        <titleInfo>
-            <title>Historiarum Alexandri Magni Macedonis libri qui supersunt</title>
-        </titleInfo>
-        <identifier type="lccn">09002033</identifier>
-        <identifier type="oclc">5022807</identifier>
-        <identifier>2008.01.0536</identifier>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">gw</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Lipsiae</placeTerm>
-            </place>
-            <publisher>in aedibus B.G. Teubneri</publisher>
-            <dateIssued>1908</dateIssued>
-            <edition>Editio maior</edition>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>x, 404 p. 17 cm.</extent>
-        </physicalDescription>
-        <classification authority="lcc">PA6104 .C9 1908</classification>
-        <location>
-            <url displayLabel="LC Permalink">http://lccn.loc.gov/09002033</url>
-        </location>
-        <location>
-            <url displayLabel="WorldCat">http://worldcat.org/oclc/5022807</url>
-        </location>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/wu.89083276956</url>
-        </location>
-        <location>
-            <url displayLabel="Perseus"
-                >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0536</url>
-        </location>
-
-        <language>
-            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
-        </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n50-34703.html">
-            <namePart>Curtius Rufus, Quintus.</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n89-673272.html">
-            <namePart>Hedicke, Edmund</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <subject authority="lcsh">
-            <name type="personal">
-                <namePart>Alexander</namePart>
-                <namePart type="termsOfAddress">the Great</namePart>
-                <namePart type="date">356-323 B.C</namePart>
-            </name>
-            <genre>Early works to 1800</genre>
-        </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Historiarum Alexandri Magni">
-            <identifier type="ctsurn">urn:cts:latinLit:phi0860.phi001</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Historiarum Alexandri Magni">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0860.phi001.perseus-lat1</identifier>
+                <identifier>Perseus:text:2008.01.0536</identifier>
+                <location>
+                    <url displayLabel="Perseus"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0536</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
+    
     <mods displayLabel="Ichnetuae-Sophocles-Mahoney-English-Perseus">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Ichneutae</title>
@@ -42983,8 +42422,7 @@ but this is where the TLG has left off for numbering-->
         </titleInfo>
         <identifier type="isbn">0891976361</identifier>
         <identifier type="lccn">79018756</identifier>
-        <identifier type="oclc">5264322</identifier>
-        <identifier displayLabel="isCommentaryOn" type="Perseus:abo">Perseus:abo:tlg,0012,001</identifier>
+        <identifier type="oclc">5264322</identifier>        
         <typeOfResource>text</typeOfResource>
         <genre authority="marc">bibliography</genre>
         <originInfo>
@@ -42995,8 +42433,8 @@ but this is where the TLG has left off for numbering-->
                 <placeTerm type="text">New York</placeTerm>
             </place>
             <publisher>Irvington Publishers</publisher>
-            <dateIssued>1979, c1903</dateIssued>
-            <dateIssued encoding="marc">1979</dateIssued>
+          <dateModified>1979</dateModified>
+            <dateIssued>1903</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
         <physicalDescription>
@@ -43160,7 +42598,6 @@ but this is where the TLG has left off for numbering-->
                 <total>115477</total>
             </extent>
         </part>
-        <identifier>Perseus:text:1999.01.0134</identifier>
         <identifier type="lccn">25004962</identifier>
         <identifier type="oclc">38101377</identifier>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
@@ -43196,7 +42633,7 @@ but this is where the TLG has left off for numbering-->
             <dateIssued encoding="marc" point="end">1925</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
-        <language>
+        <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
         <physicalDescription>
@@ -43222,10 +42659,6 @@ but this is where the TLG has left off for numbering-->
             </titleInfo>
         </relatedItem>
         <location>
-            <url displayLabel="Perseus" note="English"
-                >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0134</url>
-        </location>
-        <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/38101377</url>
         </location>
         <location>
@@ -43236,6 +42669,11 @@ but this is where the TLG has left off for numbering-->
             <identifier type="ctsurn">urn:cts:greekLit:tlg0012.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Iliad">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0012.tlg001.perseus-eng1</identifier>
+                <identifier>Perseus:text:1999.01.0134</identifier>
+                <location>
+                    <url displayLabel="Perseus" note="English"
+                        >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0134</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -43255,7 +42693,6 @@ but this is where the TLG has left off for numbering-->
                 original</subTitle>
         </titleInfo>
         <identifier type="oclc">4862646</identifier>
-        <identifier>Perseus:text:1999.01.0217</identifier>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             xlink:href="http://errol.oclc.org/laf/n78-95639.html">
             <namePart>Homer</namePart>
@@ -43286,7 +42723,7 @@ but this is where the TLG has left off for numbering-->
             <dateIssued>1898</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
-        <language>
+        <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
         <physicalDescription>
@@ -43306,10 +42743,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://http://www.worldcat.org/oclc/4862646</url>
         </location>
-        <location>
-            <url displayLabel="Perseus" note="English"
-                >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0217</url>
-        </location>
+
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/nyp.33433082228473</url>
         </location>
@@ -43317,6 +42751,11 @@ but this is where the TLG has left off for numbering-->
             <identifier type="ctsurn">urn:cts:greekLit:tlg0012.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Iliad">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0012.tlg001.perseus-eng2</identifier>
+                <identifier>Perseus:text:1999.01.0217</identifier>
+                <location>
+                    <url displayLabel="Perseus" note="English"
+                        >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0217</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -46181,7 +45620,7 @@ but this is where the TLG has left off for numbering-->
     </mods>
 
     <mods
-        displayLabel="In Aristotelis Quattuor libros de caelo commentaria-SImplicius-CAG 7-Heiberg-1894">
+        displayLabel="In Aristotelis Quattuor libros de caelo commentaria-Simplicius-CAG 7-Heiberg-1894">
         <titleInfo type="uniform" lang="lat">
             <title>In Aristotelis quattuor libros de caelo commentaria</title>
         </titleInfo>
@@ -46557,7 +45996,15 @@ but this is where the TLG has left off for numbering-->
         <physicalDescription>
             <form authority="marcform">print</form>
             <extent>xi, [1], 99, [1] p. 18 cm.</extent>
-        </physicalDescription>
+        </physicalDescription>        
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
+            </titleInfo>
+            <titleInfo type="abbreviated">
+                <title>Teubner</title>
+            </titleInfo>
+        </relatedItem>
         <classification authority="lcc">PA6104 .R4 1902</classification>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/4997829</url>
@@ -46603,7 +46050,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="In Demosthenem Commenta-Didymus-Teubner-1983">
+    <mods displayLabel="In Demosthenem Commenta-Didymus-Pearson/Stephens-Teubner-1983">
         <titleInfo>
             <title>Didymi In Demosthenem commenta</title>
         </titleInfo>
@@ -48448,201 +47895,8 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="In Vergilii Aeneidos Libros-Servius-Teubner-Thilo">
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>In Vergilii Aeneidos Libros</title>
-        </titleInfo>
-        <part>
-            <extent unit="words">
-                <total>293816</total>
-            </extent>
-        </part>
-        <titleInfo>
-            <title>In Vergilii carmina commentarii</title>
-        </titleInfo>
-        <titleInfo type="translated" lang="eng">
-            <title>Commentary on the Aeneid of Virgil</title>
-        </titleInfo>
-        <identifier type="Perseus:abo">Perseus:abo:phi,2349,005</identifier>
-        <identifier displayLabel="isCommentaryOn" type="phi">690.3</identifier>
-        <identifier displayLabel="isCommentaryOn" type="Perseus:abo">Perseus:abo:phi,0690,003</identifier>
-        <identifier type="oclc">8848556</identifier>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">gw</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Lipsia</placeTerm>
-            </place>
-            <publisher>Teubner</publisher>
-            <dateIssued>1881-1884</dateIssued>
-            <dateIssued encoding="marc" point="start">1881</dateIssued>
-            <dateIssued encoding="marc" point="end">1884</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>2 vols</extent>
-        </physicalDescription>
-        <tableOfContents>Vol. 1. Aeneidos librorum I-V commentarii recens. Georgius Thilo.- Vol. 2.
-            Aeneidos librorum VI-XII, commentarii, recens. Georgius Thilo.</tableOfContents>
-        <note type="statement of responsibility">recensuerunt Georgius Thilo et Hermannus
-            Hagen.</note>
-        <location>
-            <url displayLabel="LC Permalink"/>
-        </location>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/8848556</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance" note="Vol 1"
-                >http://www.archive.org/details/invergiliicarmin01servuoft</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance" note="Vol 2"
-                >http://www.archive.org/details/invergiliicarmin02servuoft</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks"/>
-        </location>
-        <language>
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n82-221524.html">
-            <namePart>Servius</namePart>
-            <namePart type="date">4th cent</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no98-61986.html">
-            <namePart>Thilo, Georg</namePart>
-            <namePart type="date">1831-1893</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n84-52402.html">
-            <namePart>Hagen, Hermann</namePart>
-            <namePart type="date">1844-1898</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <subject authority="lcsh">
-            <name type="personal">
-                <namePart>Virgil</namePart>
-            </name>
-        </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="In Vergilii Aeneidos Libros">
-            <identifier type="ctsurn">urn:cts:latinLit:phi2349.phi005</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="In Vergilii Aeneidos Libros">
-                <identifier type="ctsurn">urn:cts:latinLit:phi2349.phi005.opp-lat1</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
-    <mods displayLabel="In Vergilii carmina commentarii-Servius-Teubner-Thilo">
-        <titleInfo>
-            <title>In Vergilii carmina commentarii</title>
-        </titleInfo>
-        <titleInfo type="translated" lang="eng">
-            <title>Commentary on the Aeneid of Virgil</title>
-        </titleInfo>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n82-221524.html">
-            <namePart>Servius</namePart>
-            <namePart type="date">4th cent</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no98-61986.html">
-            <namePart>Thilo, Georg</namePart>
-            <namePart type="date">1831-1893</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n84-52402.html">
-            <namePart>Hagen, Hermann</namePart>
-            <namePart type="date">1844-1898</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">gw</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Lipsia</placeTerm>
-            </place>
-            <publisher>Teubner</publisher>
-            <dateIssued>1881-1884</dateIssued>
-            <dateIssued encoding="marc" point="start">1881</dateIssued>
-            <dateIssued encoding="marc" point="end">1884</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language>
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>2 vols</extent>
-        </physicalDescription>
-        <tableOfContents>Vol. 1. Aeneidos librorum I-V commentarii recens. Georgius Thilo.- Vol. 2.
-            Aeneidos librorum VI-XII, commentarii, recens. Georgius Thilo.</tableOfContents>
-        <note type="statement of responsibility">recensuerunt Georgius Thilo et Hermannus
-            Hagen.</note>
-        <subject authority="lcsh">
-            <name type="personal">
-                <namePart>Virgil</namePart>
-            </name>
-        </subject>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
-            </titleInfo>
-        </relatedItem>
-        <identifier type="phi" displayLabel="isCommentaryOn">690.3</identifier>
-        <identifier type="oclc">8848556</identifier>
-        <location>
-            <url displayLabel="Perseus" note="Latin"
-                >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0053</url>
-        </location>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/8848556</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance" note="Vol 1"
-                >http://www.archive.org/details/invergiliicarmin01servuoft</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance" note="Vol 2"
-                >http://www.archive.org/details/invergiliicarmin02servuoft</url>
-        </location>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="In Vergilii carmina commentarii">
-            <identifier type="ctsurn">urn:cts:latinLit:phi2349.phi005</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="In Vergilii carmina commentarii">
-                <identifier type="ctsurn">urn:cts:latinLit:phi2349.phi005.perseus-lat1</identifier>
-                <identifier>Perseus:text:1999.02.0053</identifier>
-                <location>
-                    <url displayLabel="Perseus" note="Latin"
-                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0053</url>
-                </location>
-            </relatedItem>
-        </relatedItem>
-    </mods>
+    
+    
     <mods displayLabel="Institutio Logica-Galen-Teubner-Kalbfleish-1896">
         <titleInfo type="uniform">
             <title>Institutio Logica</title>
@@ -48820,7 +48074,7 @@ but this is where the TLG has left off for numbering-->
                 </relatedItem>
             </relatedItem>
         </relatedItem>
-    </mods>
+    </mods><!-- LEFT OFF HERE FOR PERSEUS EDITING -->
     <mods displayLabel="Institutio oratoria of Quintilian-Loeb-Perseus-Latin/English">
         <!-- 4 PERSEUS URLS-ONE MODS -->
         <titleInfo>
