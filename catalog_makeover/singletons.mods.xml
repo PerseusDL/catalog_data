@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <!-- Decided to combine singleton MODS records for Perseus Loeb with two languages-editions-maybe move to inverted?
 Can retrieve Perseus specific information from catalog-data-as is expression specific
 -Will continue moving Perseus info from top level MODS records to expression constituent (make sure don't have two 
     works encoded only two expressions)
     -->
-
     <mods displayLabel="Ab excessu divi Marci libri octo-Herodianus-Bekker-Teubner-1855">
         <titleInfo>
             <title>Herodiani ab excessu divi Marci libri octo</title>
@@ -3852,9 +3851,6 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
         <classification authority="lcc">PA4495.A5</classification>
         <classification authority="ddc">888.3</classification>
         <location>
-            <url displayLabel="LC Permalink"/>
-        </location>
-        <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/9468963</url>
         </location>
         <location>
@@ -3870,7 +3866,7 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n80-36673.html">
+            valueURI="https://viaf.org/viaf/89597697/">
             <namePart>Xenophon</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -3954,7 +3950,7 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n80-36673.html">
+            valueURI="https://viaf.org/viaf/89597697/">
             <namePart>Xenophon</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -4067,7 +4063,7 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n80-36673.html">
+            valueURI="https://viaf.org/viaf/89597697/">
             <namePart>Xenophon</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -4188,7 +4184,8 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
         <titleInfo type="alternative">
             <title>Anabasis</title>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/89597697">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/89597697/">
             <namePart>Xenophon</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -8342,7 +8339,8 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="uniform">
             <title>Atheniensium respublica</title>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/89597697">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/89597697/">
             <namePart>Xenophon</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -26333,9 +26331,9 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="uniform">
             <title>Ephesiaca</title>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/83987541">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/89597697/">
             <namePart>Xenophon</namePart>
-            <namePart type="termsOfAddress">of Ephesus</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
@@ -33790,7 +33788,8 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="uniform" nameTitleGroup="1">
             <title>Hellenica</title>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/89597697">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/89597697/">
             <namePart>Xenophon</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -33863,7 +33862,8 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Hellenica</title>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/89597697">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/89597697/">
             <namePart>Xenophon</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -51089,7 +51089,8 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="uniform" nameTitleGroup="1">
             <title>Memorabilia</title>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/89597697">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/89597697/">
             <namePart>Xenophon</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -55162,7 +55163,8 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="translated" lang="lat">
             <title>Oeconomicus</title>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/89597697">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/89597697/">
             <namePart>Xenophon</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
