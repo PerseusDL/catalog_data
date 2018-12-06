@@ -2,11 +2,6 @@
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
     xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
-    <!-- Decided to combine singleton MODS records for Perseus Loeb with two languages-editions-maybe move to inverted?
-Can retrieve Perseus specific information from catalog-data-as is expression specific
--Will continue moving Perseus info from top level MODS records to expression constituent (make sure don't have two 
-    works encoded only two expressions)
-    -->
     <mods displayLabel="Ab excessu divi Marci libri octo-Herodianus-Bekker-Teubner-1855">
         <titleInfo>
             <title>Herodiani ab excessu divi Marci libri octo</title>
@@ -18,7 +13,8 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/44387193/">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/44387193/">
             <namePart>Bekker, Immanuel</namePart>
             <namePart type="date">1785-1871</namePart>
             <role>
@@ -164,16 +160,11 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Ab Urbe Condita-Livy-Church-Macmillan-1901">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Ab Urbe Condita</title>
         </titleInfo>
-        <part>
-            <extent unit="words">
-                <total>516947</total>
-            </extent>
-        </part>
         <titleInfo>
             <title>Livy</title>
             <partNumber>Books XXI and XXV</partNumber>
@@ -231,15 +222,15 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n50-41178.html">
+            valueURI="https://viaf.org/viaf/45233331/">
             <namePart>Church, Alfred John</namePart>
             <namePart type="date">1829-1912</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">translator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n90-719391.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/76716202/">
             <namePart>Brodribb, William Jackson</namePart>
             <namePart type="date">1829-1905</namePart>
             <role>
@@ -259,11 +250,17 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
             <identifier type="ctsurn">urn:cts:latinLit:phi0914.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Ab Urbe Condita">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0914.phi001.opp-eng12</identifier>
-                <relatedItem type="constituent" otherType="structure" displayLabel="Book 21-25">
+                <relatedItem type="constituent" otherType="structure" displayLabel="Book 21, 25">
                     <part>
                         <detail type="book">
                             <caption>Book</caption>
-                            <number>21-25</number>
+                            <number>21</number>
+                        </detail>
+                    </part>
+                    <part>
+                        <detail type="book">
+                            <caption>Book</caption>
+                            <number>25</number>
                         </detail>
                     </part>
                 </relatedItem>
@@ -329,8 +326,8 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n89-657994.html">
+        <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/"
+            authorityURI="https://viaf.org/viaf/6545290/">
             <namePart>Egbert, J. C. (James Chidester)</namePart>
             <namePart type="date">1859-1948</namePart>
             <role>
@@ -435,8 +432,8 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
                             <number>1</number>
                         </detail>
                     </part>
-                    <name authority="viaf" type="personal"
-                        xlink:href="http://errol.oclc.org/laf/n88-284968.html">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/49261690/">
                         <namePart>Foster, B. O.</namePart>
                         <role>
                             <roleTerm authority="marcrelator" type="text">editor</roleTerm>
@@ -469,8 +466,8 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
                             <number>2</number>
                         </detail>
                     </part>
-                    <name authority="viaf" type="personal"
-                        xlink:href="http://errol.oclc.org/laf/n88-284968.html">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/49261690/">
                         <namePart>Foster, B. O.</namePart>
                         <role>
                             <roleTerm authority="marcrelator" type="text">editor</roleTerm>
@@ -508,8 +505,8 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
                             <number>3</number>
                         </detail>
                     </part>
-                    <name authority="viaf" type="personal"
-                        xlink:href="http://errol.oclc.org/laf/n88-284968.html">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/49261690/">
                         <namePart>Foster, B. O.</namePart>
                         <role>
                             <roleTerm authority="marcrelator" type="text">editor</roleTerm>
@@ -539,8 +536,8 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
                             <number>4</number>
                         </detail>
                     </part>
-                    <name authority="viaf" type="personal"
-                        xlink:href="http://errol.oclc.org/laf/n88-284968.html">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/49261690/">
                         <namePart>Foster, B. O.</namePart>
                         <role>
                             <roleTerm authority="marcrelator" type="text">editor</roleTerm>
@@ -570,8 +567,8 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
                             <number>5</number>
                         </detail>
                     </part>
-                    <name authority="viaf" type="personal"
-                        xlink:href="http://errol.oclc.org/laf/n88-284968.html">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/49261690/">
                         <namePart>Foster, B. O.</namePart>
                         <role>
                             <roleTerm authority="marcrelator" type="text">editor</roleTerm>
@@ -2305,7 +2302,7 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/78769600/">        
+            valueURI="https://viaf.org/viaf/78769600/">
             <namePart>Cicero, Marcus Tullius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -2481,8 +2478,7 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015017667885</url>
         </location>
 
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Adversus nationes Libri VII">
+        <relatedItem type="constituent" otherType="work" displayLabel="Adversus nationes Libri VII">
             <identifier type="ctsurn">urn:cts:latinLit:stoa0034.stoa001</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Adversus nationes Libri VII">
@@ -2498,7 +2494,7 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
             <extent unit="words">
                 <total>83676</total>
             </extent>
-        </part>        
+        </part>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/8194433/">
             <namePart>Virgil</namePart>
@@ -2506,11 +2502,8 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name xmlns:ns2="http://www.w3.org/1999/xlink"
-            xmlns="http://www.loc.gov/mods/v3"
-            authority="naf"
-            type="personal"
-            ns2:href="http://errol.oclc.org/laf/n79-6406.html">
+        <name xmlns:ns2="http://www.w3.org/1999/xlink" xmlns="http://www.loc.gov/mods/v3"
+            authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n79-6406.html">
             <namePart>Dryden, John</namePart>
             <namePart type="date">1631-1700</namePart>
             <role>
@@ -2526,10 +2519,11 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
                 <identifier type="ctsurn">urn:cts:latinLit:phi0690.phi003.perseus-eng1</identifier>
                 <identifier>Perseus:text:1999.02.0052</identifier>
                 <location xmlns="http://www.loc.gov/mods/v3">
-                    <url displayLabel="Perseus" note="English">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0052</url>
+                    <url displayLabel="Perseus" note="English"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0052</url>
                 </location>
             </relatedItem>
-        </relatedItem>        
+        </relatedItem>
     </mods>
     <mods displayLabel="Aeneid-Virgil-Janell-Teubner-1939-Editio minor">
         <titleInfo>
@@ -2664,7 +2658,7 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
             <title>Aeneis</title>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-           valueURI="https://viaf.org/viaf/8194433/">
+            valueURI="https://viaf.org/viaf/8194433/">
             <namePart>Virgil</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -2777,13 +2771,14 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
         <identifier type="lccn">10008062</identifier>
         <identifier type="oclc">313514</identifier>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-           valueURI="https://viaf.org/viaf/8194433/">
+            valueURI="https://viaf.org/viaf/8194433/">
             <namePart>Virgil</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="naf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/41406150"> 
+        <name authority="naf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/41406150">
             <namePart>Williams, Theodore Chickering</namePart>
             <namePart type="date">1855-1915</namePart>
             <role>
@@ -3101,9 +3096,9 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n80-145600.html ">
-            <namePart>Tacitus, Cornelius.</namePart>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100226923/">
+            <namePart>Tacitus, Cornelius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
@@ -4711,9 +4706,9 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
             <partNumber>Tomus Prior</partNumber>
             <partName>Annales</partName>
         </titleInfo>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n80-145600.html">
-            <namePart>Tacitus, Cornelius.</namePart>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100226923/">
+            <namePart>Tacitus, Cornelius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
@@ -4773,8 +4768,8 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
             <subTitle>Annals of Tacitus</subTitle>
             <partNumber>Vol I-II</partNumber>
         </titleInfo>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n80-145600.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100226923/">
             <namePart>Tacitus, Cornelius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -4965,8 +4960,8 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n80-145600.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100226923/">
             <namePart>Tacitus, Cornelius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -7034,7 +7029,7 @@ Can retrieve Perseus specific information from catalog-data-as is expression spe
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
 
     <mods displayLabel="Argonautica-Valerius Flaccus-Weidmann-1871">
         <titleInfo xml:lang="eng" type="uniform">
@@ -8758,8 +8753,10 @@ but this is where the TLG has left off for numbering-->
                 <identifier type="ctsurn">urn:cts:latinLit:phi0631.phi002.perseus-lat2</identifier>
                 <identifier>Perseus:text:1999.02.0123</identifier>
                 <location>
-                    <url displayLabel="Perseus" note="Latin">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0125
-                    </url></location>
+                    <url displayLabel="Perseus" note="Latin"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0125
+                    </url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -9218,7 +9215,7 @@ but this is where the TLG has left off for numbering-->
                             <number>1-5</number>
                         </detail>
                     </part>
-                </relatedItem> 
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Diodori Bibliotheca historica Books XVIII-XX">
@@ -9235,11 +9232,11 @@ but this is where the TLG has left off for numbering-->
                             <number>18-20</number>
                         </detail>
                     </part>
-                </relatedItem> 
+                </relatedItem>
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Bibliotheca Historica-Loeb-Fragments">
         <titleInfo xml:lang="eng" type="translated">
             <title>Historical Library</title>
@@ -10934,7 +10931,8 @@ but this is where the TLG has left off for numbering-->
                 <identifier type="ctsurn">urn:cts:latinLit:phi0631.phi001.perseus-lat2</identifier>
                 <identifier>Perseus:text:1999.02.0123</identifier>
                 <location>
-                <url displayLabel="Perseus" note="Latin">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0123</url>
+                    <url displayLabel="Perseus" note="Latin"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0123</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -11095,8 +11093,7 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n80-3987.html">
+        <name authority="viaf" type="personal" xlink:href="http://errol.oclc.org/laf/n80-3987.html">
             <namePart>Greenough, J. B. (James Bradstreet)</namePart>
             <namePart type="date">1833-1901</namePart>
             <role>
@@ -11629,7 +11626,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Christus Patiens-Gregory Nazianzenus-Brambs-Teubner-1885">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Christus Patiens</title>
@@ -12411,7 +12408,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
 
 
     <mods displayLabel="Civil Wars-Appian-Mendelsohn/Viereck-Teubner-1905">
@@ -12509,7 +12506,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-        
+
     <mods displayLabel="Collectanea Rerum Memorabilium-Solinus-Mommsen-Weidmann-1895">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Collectanea Rerum Memorabilium</title>
@@ -12680,7 +12677,7 @@ but this is where the TLG has left off for numbering-->
         <identifier type="oclc">54042337</identifier>
         <classification authority="lcc">PA6104 .B54 1877</classification>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-29805.html">
+            valueURI="https://viaf.org/viaf/100218964/">
             <namePart>Boethius</namePart>
             <namePart type="date">d. 524</namePart>
             <role>
@@ -13301,7 +13298,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Contra Julianum-Cyril-Burguiere/Evieux-Cerf-1985">
         <titleInfo>
             <title>Contre Julien</title>
@@ -13402,11 +13399,11 @@ but this is where the TLG has left off for numbering-->
                             <number>1-2</number>
                         </detail>
                     </part>
-                </relatedItem> 
+                </relatedItem>
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
 
     <mods displayLabel="Cynegetica-Oppian-Boudreaux-Champion-1908">
         <titleInfo lang="lat" type="uniform">
@@ -15095,7 +15092,7 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
             </relatedItem>
-            
+
         </relatedItem>
     </mods>
     <mods displayLabel="De Beneficiis-Seneca-Stewart-Bohn-1887">
@@ -15599,7 +15596,7 @@ but this is where the TLG has left off for numbering-->
                 </relatedItem>
             </relatedItem>
         </relatedItem>
-    </mods>    
+    </mods>
     <mods displayLabel="De Compendiosa Doctrina-Nonius Marcellinus-Lindsay-Teubner">
         <titleInfo xml:lang="en" type="uniform">
             <title>De compendiosa doctrina</title>
@@ -15926,7 +15923,7 @@ but this is where the TLG has left off for numbering-->
             <title>De consolatione philosophiae</title>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-29805.html">
+            valueURI="https://viaf.org/viaf/100218964/">
             <namePart>Boethius</namePart>
             <namePart type="date">d. 524</namePart>
             <role>
@@ -15999,7 +15996,7 @@ but this is where the TLG has left off for numbering-->
             <title>Consolatio philosophiae</title>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-29805.html">
+            valueURI="https://viaf.org/viaf/100218964/">
             <namePart>Boethius</namePart>
             <namePart type="date">d. 524</namePart>
             <role>
@@ -16110,7 +16107,7 @@ but this is where the TLG has left off for numbering-->
             <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
         </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-29805.html">
+            valueURI="https://viaf.org/viaf/100218964/">
             <namePart>Boethius</namePart>
             <namePart type="date">d. 524</namePart>
             <role>
@@ -16590,7 +16587,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="De Finibus Bonorum et Malorum-Cicero-Arnold-1909">
         <titleInfo xml:lang="lat" type="uniform">
             <title>De Finibus Bonorum et Malorum</title>
@@ -16830,7 +16827,7 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
 
-    
+
     <mods displayLabel="De Legibus-Cicero-Plinval-Les Belles Lettres-1959-Perseus">
         <titleInfo xml:lang="eng" type="uniform">
             <title>De Legibus</title>
@@ -17553,7 +17550,7 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/11127895</url>
-        </location>    
+        </location>
         <relatedItem type="constituent" otherType="work" displayLabel="De Medicina">
             <identifier type="ctsurn">urn:cts:latinLit:phi0836.phi002</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="De Medicina">
@@ -17611,7 +17608,7 @@ but this is where the TLG has left off for numbering-->
             <titleInfo>
                 <title>Bibliotheca scriptorum graecorum et romanorum Teubneriana</title>
             </titleInfo>
-        </relatedItem>        
+        </relatedItem>
         <relatedItem type="series">
             <titleInfo type="abbreviated">
                 <title>Teubner</title>
@@ -17668,7 +17665,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="De Medicina-Celsus-Marx-Teubner-Perseus-Latin-3">
         <titleInfo xml:lang="lat" type="uniform">
             <title>De Medicina</title>
@@ -18761,8 +18758,8 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
 
-    
-    
+
+
     <mods displayLabel="De Natura Deorum-Cicero-Teubner-Plasberg-1917-OPP\Perseus">
         <titleInfo xml:lang="lat" type="uniform">
             <title>De Natura Deorum</title>
@@ -18862,7 +18859,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="De Natura Deorum-Cicero-Weidmann-1857">
         <titleInfo xml:lang="lat" type="uniform">
             <title>De Natura Deorum</title>
@@ -18990,7 +18987,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/cornutitheologia00cornuoft</url>
-        </location>        
+        </location>
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=9JIOAAAAQAAJ</url>
         </location>
@@ -19131,7 +19128,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="De nugis philosophorum-Balbus-Wolfflin-Schweighauser-1855">
         <titleInfo>
             <title>De nugis philosophorum</title>
@@ -19616,7 +19613,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
 
     <mods displayLabel="De Opificio mundi-Philoponus-Recihardt-Teubner-1897">
         <titleInfo xml:lang="lat" type="uniform">
@@ -20186,13 +20183,14 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n84-238685.html">
-            <namePart>Apicius.</namePart>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/191439325/">
+            <namePart>Apicius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
+
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             xlink:href="http://viaf.org/viaf/59853483/">
             <namePart>Schuch, Christian Theophil</namePart>
@@ -20256,18 +20254,14 @@ but this is where the TLG has left off for numbering-->
                 >http://www.archive.org/details/apicicaelidereco00apicrich</url>
         </location>
         <location>
-            <url displayLabel="Open Library"
-                >http://openlibrary.org/ia/apicicaelidereco00apicrich</url>
-        </location>
-        <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=BBU9AAAAcAAJ</url>
         </location>
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n84-238685.html">
-            <namePart>Apicius.</namePart>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/191439325/">
+            <namePart>Apicius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
@@ -20288,95 +20282,6 @@ but this is where the TLG has left off for numbering-->
             <identifier type="ctsurn">urn:cts:latinLit:phi2003.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="De Re Coquinaria">
                 <identifier type="ctsurn">urn:cts:latinLit:phi2003.phi001.opp-lat2</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
-    <mods displayLabel="De Re Coquinaria-Apicius-Vollmer-Teubner-1922">
-        <titleInfo xml:lang="lat" type="uniform">
-            <title>De Re Coquinaria</title>
-        </titleInfo>
-        <part>
-            <extent unit="words">
-                <total>16008</total>
-            </extent>
-        </part>
-        <titleInfo>
-            <title>Apicii librorum x qui dicuntur De re coquinaria quae extant</title>
-        </titleInfo>
-        <identifier type="oclc">5034572 </identifier>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">gw</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Lipsiae</placeTerm>
-            </place>
-            <publisher>In aedibus B. G. Teubneri</publisher>
-            <dateIssued>1922</dateIssued>
-            <dateIssued encoding="marc">1922</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>95 p. 17 cm.</extent>
-        </physicalDescription>
-        <classification authority="lcc">PA6104</classification>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
-            </titleInfo>
-            <titleInfo type="alternative">
-                <title>Teubner</title>
-            </titleInfo>
-        </relatedItem>
-        <location>
-            <url displayLabel="WorldCat">http://worldcat.org/oclc/5034572</url>
-        </location>
-        <location>
-            <url displayLabel="SLUB">http://digital.slub-dresden.de/id412927675</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance">
-                http://www.archive.org/details/apiciilibrorvmxq00apicuoft</url>
-        </location>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015028339862</url>
-        </location>
-        <language>
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n84-238685.html">
-            <namePart>Apicius.</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no2005-82998.html">
-            <namePart>Giarratano, Caesar</namePart>
-            <namePart type="date">b. 1880</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-82343.html">
-            <namePart>Vollmer, Friedrich</namePart>
-            <namePart type="date">1867-1923</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <subject authority="lcsh">
-            <topic>Cookery, Roman</topic>
-            <topic>Early works to 1800</topic>
-        </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="De Re Coquinaria">
-            <identifier type="ctsurn">urn:cts:latinLit:phi2003.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="De Re Coquinaria">
-                <identifier type="ctsurn">urn:cts:latinLit:phi2003.phi001.opp-lat3</identifier>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -20590,8 +20495,8 @@ but this is where the TLG has left off for numbering-->
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-33010.html">
-            <namePart>Lucretius Carus, Titus.</namePart>
+            xlink:href="https://viaf.org/viaf/106388020/">
+            <namePart>Lucretius Carus, Titus</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
@@ -20662,8 +20567,8 @@ but this is where the TLG has left off for numbering-->
             <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
         </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-33010.html">
-            <namePart>Lucretius Carus, Titus.</namePart>
+            xlink:href="https://viaf.org/viaf/106388020/">
+            <namePart>Lucretius Carus, Titus</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
@@ -20700,8 +20605,8 @@ but this is where the TLG has left off for numbering-->
         </titleInfo>
         <identifier type="oclc">83010210</identifier>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-33010.html">
-            <namePart>Lucretius Carus, Titus.</namePart>
+            xlink:href="https://viaf.org/viaf/106388020/">
+            <namePart>Lucretius Carus, Titus</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
@@ -20759,7 +20664,7 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
     <mods displayLabel="De Rerum Natura-Perseus-Latin-Unknown">
-        <titleInfo xml:lang="eng" type="uniform">
+        <titleInfo xml:lang="lat" type="uniform">
             <title>De Rerum Natura</title>
         </titleInfo>
         <part>
@@ -20771,8 +20676,8 @@ but this is where the TLG has left off for numbering-->
             <title>De rerum natura</title>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-33010.html">
-            <namePart>Lucretius Carus, Titus.</namePart>
+            xlink:href="https://viaf.org/viaf/106388020/">
+            <namePart>Lucretius Carus, Titus</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
@@ -20823,11 +20728,11 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>De rerum natura</title>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/106388020">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            xlink:href="https://viaf.org/viaf/106388020/">
             <namePart>Lucretius Carus, Titus</namePart>
-            <namePart type="date">97-55</namePart>
             <role>
-                <roleTerm type="text">creator</roleTerm>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
         <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/103244">
@@ -21503,7 +21408,7 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
 
-    
+
     <mods displayLabel="De Temperamentis-Galen-Helmreich-Teubner-1969">
         <titleInfo lang="grc" transliteration="rom">
             <title>Peri kraseōn</title>
@@ -22417,7 +22322,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id403637163</url>
         </location>
-        
+
         <relatedItem type="constituent" otherType="work"
             displayLabel="Declamationes XIX maiores Quintiliano falso ascriptae">
             <identifier type="ctsurn">urn:cts:latinLit:phi1002.phi003</identifier>
@@ -22426,7 +22331,8 @@ but this is where the TLG has left off for numbering-->
                 <identifier type="ctsurn">urn:cts:latinLit:phi1002.phi003.opp-lat2</identifier>
             </relatedItem>
         </relatedItem>
-    </mods><mods displayLabel="Declamationes Maiores-Quintilian-Lehnert-Teubner-1905">
+    </mods>
+    <mods displayLabel="Declamationes Maiores-Quintilian-Lehnert-Teubner-1905">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Declamationes Maiores [sp.]</title>
         </titleInfo>
@@ -22509,7 +22415,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Declmationes Minores-Quintilian-Teubner-Ritter-1884">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Declamationes Minores</title>
@@ -22596,7 +22502,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Deipnosophistae-Athenaeus-Teubner-Kaibel-1887-1890-OPP\Perseus\Epidoc">
         <titleInfo>
             <title>Athenaei Navcratitae Dipnosophistarvm libri XV</title>
@@ -22763,7 +22669,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Deipnosophistae-Athenaeus-Gulick-Loeb-OPP\Perseus\Epidoc">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Deipnosophistae</title>
@@ -22850,30 +22756,30 @@ but this is where the TLG has left off for numbering-->
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0405</url>
                 </location>
             </relatedItem>
-        <relatedItem type="constituent" otherType="expression"
-            displayLabel="Athenaei Naucratitae Dipnosophistarum libri XV Epidoc Edition.">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.perseus-grc4</identifier>
-            <name authority="" type="personal">
-                <namePart>Franzini, Greta</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">encoder</roleTerm>
-                </role>
-            </name>
-            <name authority="" type="personal">
-                <namePart>Stoyanova, Simona</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">encoder</roleTerm>
-                </role>
-            </name>
-            <originInfo>
-                <dateModified>2014</dateModified>
-                <edition>Epidoc Edition</edition>
-            </originInfo>
-            <location>
-                <url displayLabel="Perseus Canonical"
-                    >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0008/tlg001/tlg0008.tlg001.perseus-grc4.xml</url>
-            </location>
-        </relatedItem>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Athenaei Naucratitae Dipnosophistarum libri XV Epidoc Edition.">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.perseus-grc4</identifier>
+                <name authority="" type="personal">
+                    <namePart>Franzini, Greta</namePart>
+                    <role>
+                        <roleTerm authority="marcrelator" type="text">encoder</roleTerm>
+                    </role>
+                </name>
+                <name authority="" type="personal">
+                    <namePart>Stoyanova, Simona</namePart>
+                    <role>
+                        <roleTerm authority="marcrelator" type="text">encoder</roleTerm>
+                    </role>
+                </name>
+                <originInfo>
+                    <dateModified>2014</dateModified>
+                    <edition>Epidoc Edition</edition>
+                </originInfo>
+                <location>
+                    <url displayLabel="Perseus Canonical"
+                        >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0008/tlg001/tlg0008.tlg001.perseus-grc4.xml</url>
+                </location>
+            </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Deipnosophistae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.opp-eng4</identifier>
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.opp-grc6</identifier>
@@ -23046,8 +22952,7 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Banquet of the learned of Athenaeus</title>
         </titleInfo>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n80-51703.html">
+        <name authority="viaf" type="personal" xlink:href="http://errol.oclc.org/laf/n80-51703.html">
             <namePart>Athenaeus</namePart>
             <namePart type="termsOfAddress">of Naucratis</namePart>
             <role>
@@ -23214,7 +23119,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
 
     <mods displayLabel="Description of Greece-Pausanias-Hitzig/Blumner-Reisland-1896">
         <titleInfo xml:lang="eng" type="uniform">
@@ -23609,7 +23514,7 @@ but this is where the TLG has left off for numbering-->
                     <url displayLabel="Perseus" note="Greek"
                         >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0159</url>
                 </location>
-                
+
             </relatedItem>
         </relatedItem>
     </mods>
@@ -23678,9 +23583,9 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n80-145600.html">
-            <namePart>Tacitus, Cornelius.</namePart>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100226923/">
+            <namePart>Tacitus, Cornelius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
@@ -23743,9 +23648,9 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n80-145600.html">
-            <namePart>Tacitus, Cornelius.</namePart>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100226923/">
+            <namePart>Tacitus, Cornelius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
@@ -24687,7 +24592,8 @@ but this is where the TLG has left off for numbering-->
                 <identifier type="ctsurn">urn:cts:latinLit:phi0690.phi001.perseus-eng1</identifier>
                 <identifier>Perseus:text:1999.02.0057</identifier>
                 <location xmlns="http://www.loc.gov/mods/v3">
-                    <url displayLabel="Perseus" note="English">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0057</url>
+                    <url displayLabel="Perseus" note="English"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0057</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -24830,7 +24736,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Elegies-Propertius-Butler-Loeb-1912">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Elegies</title>
@@ -25145,7 +25051,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Elegies">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001.perseus-lat1</identifier>
-                <identifier>Perseus:text:1999.02.0066</identifier>                
+                <identifier>Perseus:text:1999.02.0066</identifier>
                 <location>
                     <url displayLabel="Perseus" note="Latin"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0066</url>
@@ -25157,12 +25063,12 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Perseus" note="English"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0067</url>
-                </location>                
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
-    
-    
+
+
 
     <mods displayLabel="Elegies-Propertius-Baehrens-Teubner-1880">
         <titleInfo xml:lang="eng" type="uniform">
@@ -26107,13 +26013,16 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="WorldCat">http://worldcat.org/oclc/40542855</url>
         </location>
         <location>
-            <url displayLabel="HathiTrust" note="Volume 1">https://hdl.handle.net/2027/umn.31951000479889w</url>
+            <url displayLabel="HathiTrust" note="Volume 1"
+                >https://hdl.handle.net/2027/umn.31951000479889w</url>
         </location>
         <location>
-            <url displayLabel="HathiTrust" note="Volume 2">https://hdl.handle.net/2027/umn.31951000479890b</url>
+            <url displayLabel="HathiTrust" note="Volume 2"
+                >https://hdl.handle.net/2027/umn.31951000479890b</url>
         </location>
         <location>
-            <url displayLabel="HathiTrust" note="Volume 3">https://hdl.handle.net/2027/hvd.hxnx4h</url>
+            <url displayLabel="HathiTrust" note="Volume 3"
+                >https://hdl.handle.net/2027/hvd.hxnx4h</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Elements">
             <identifier type="ctsurn">urn:cts:greekLit:tlg1799.tlg001</identifier>
@@ -26185,7 +26094,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/4055199</url>
         </location>
-       
+
     </mods>
     <mods displayLabel="Enneades-Plotinus-Brehier-Les Belles-1925">
         <titleInfo type="translated" lang="fre">
@@ -27166,7 +27075,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Epistulae-Basil-Courtonne-Les Belles Lettres-1966">
         <titleInfo>
             <title>Lettres</title>
@@ -27903,7 +27812,8 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Epistulae</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/108159964">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/108159964">
             <namePart>Plato</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -28479,7 +28389,7 @@ but this is where the TLG has left off for numbering-->
                 </relatedItem>
             </relatedItem>
         </relatedItem>
-    </mods>    
+    </mods>
     <mods displayLabel="Epistulae-Seneca-Gummmere-Loeb-OPP\Perseus">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Epistulae Morales ad Lucilium</title>
@@ -28566,7 +28476,8 @@ but this is where the TLG has left off for numbering-->
                 <identifier type="ctsurn">urn:cts:latinLit:phi1017.phi015.perseus-lat1</identifier>
                 <identifier>Perseus:text:2007.01.0080</identifier>
                 <location>
-                    <url displayLabel="Perseus" note="Latin">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0080</url>
+                    <url displayLabel="Perseus" note="Latin"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0080</url>
                 </location>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression"
@@ -29956,8 +29867,8 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
-    
+
+
 
 
     <mods displayLabel="Fabulae-Phaedrus-Muller-Teubner-1903-Editio Stereotypis-Perseus">
@@ -30560,7 +30471,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Fasti-Ovid-Frazer-Loeb-Perseus\OPP\Epidoc">
         <titleInfo>
             <title>Fasti</title>
@@ -30681,7 +30592,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Florida-Apuleius-Helm-Teubner-1921-Perseus\OPP">
         <titleInfo>
             <title>Florida</title>
@@ -32464,7 +32375,8 @@ but this is where the TLG has left off for numbering-->
             <nonSort>The</nonSort>
             <title>geography of Strabo</title>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/" authorityURI="https://viaf.org/viaf/100219883/">
+        <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/"
+            authorityURI="https://viaf.org/viaf/100219883/">
             <namePart>Strabo</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -32634,7 +32546,8 @@ but this is where the TLG has left off for numbering-->
             <title>Strabo</title>
             <subTitle>The geography of Strabo</subTitle>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/" authorityURI="https://viaf.org/viaf/100219883/">
+        <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/"
+            authorityURI="https://viaf.org/viaf/100219883/">
             <namePart>Strabo</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -32700,7 +32613,7 @@ but this is where the TLG has left off for numbering-->
         <subject authority="lcsh">
             <topic>Geography</topic>
             <topic>Early works to 1800</topic>
-        </subject>        
+        </subject>
         <relatedItem type="constituent" otherType="work" displayLabel="Geography">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0099.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Geography">
@@ -32926,7 +32839,7 @@ but this is where the TLG has left off for numbering-->
                 </relatedItem>
             </relatedItem>
         </relatedItem>
-    </mods>    
+    </mods>
     <mods displayLabel="Geography-Strabo-Teubner-Perseus-Greek">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Geography</title>
@@ -32941,12 +32854,13 @@ but this is where the TLG has left off for numbering-->
         </titleInfo>
         <identifier type="lccn">16008666</identifier>
         <identifier type="oclc">84053377</identifier>
-        <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/" authorityURI="https://viaf.org/viaf/100219883/">
+        <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/"
+            authorityURI="https://viaf.org/viaf/100219883/">
             <namePart>Strabo</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
-        </name>        
+        </name>
         <name authority="viaf" type="personal"
             xlink:href="http://errol.oclc.org/laf/n88-181640.html">
             <namePart>Meineke, August</namePart>
@@ -33027,7 +32941,7 @@ but this is where the TLG has left off for numbering-->
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
-        </name>   
+        </name>
         <note>Unknown source edition</note>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
@@ -33037,10 +32951,12 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression" displayLabel="Georgics">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0690.phi002.perseus-eng1</identifier>
                 <identifier>Perseus:text:1999.02.0058</identifier>
-                <location><url displayLabel="Perseus" note="English">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0058</url>
+                <location>
+                    <url displayLabel="Perseus" note="English"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0058</url>
                 </location>
             </relatedItem>
-        </relatedItem>        
+        </relatedItem>
     </mods>
     <mods displayLabel="Germania-Tacitus-Reeb-Teubner-1930">
         <titleInfo>
@@ -33049,8 +32965,9 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="uniform" lang="lat">
             <title>Germania</title>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/100226923">
-            <namePart>Tacitus</namePart>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100226923/">
+            <namePart>Tacitus, Cornelius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
@@ -33115,13 +33032,14 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Germania</title>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/100226923">
-            <namePart>Tacitus</namePart>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100226923/">
+            <namePart>Tacitus, Cornelius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/54273523">
+        <name authority="viaf" type="personal"  authorityURI="https://viaf.org/viaf" valueURI="http://viaf.org/viaf/54273523">
             <namePart>Halm, Karl</namePart>
             <namePart type="date">1809-1882</namePart>
             <role>
@@ -33448,7 +33366,7 @@ but this is where the TLG has left off for numbering-->
                     <location>
                         <url displayLabel="Perseus" note="Greek"
                             >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0473</url>
-                    </location>                    
+                    </location>
                 </relatedItem>
             </relatedItem>
         </relatedItem>
@@ -33513,7 +33431,7 @@ but this is where the TLG has left off for numbering-->
                     <location>
                         <url displayLabel="Perseus" note="Greek"
                             >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0475</url>
-                    </location>                    
+                    </location>
                 </relatedItem>
             </relatedItem>
         </relatedItem>
@@ -34441,7 +34359,7 @@ but this is where the TLG has left off for numbering-->
                 <title>Procopii Caesariensis Opera omnia</title>
                 <partNumber>Volume V</partNumber>
             </titleInfo>
-        </relatedItem> 
+        </relatedItem>
         <identifier type="oclc">568646845</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/568646845</url>
@@ -34812,7 +34730,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Historia Ecclesiastica-Gelasius-Loeschke-Hinrichs-1918">
         <titleInfo type="uniform" lang="lat">
             <title>Historia ecclesiastica</title>
@@ -35296,7 +35214,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Historia Romana-Cassius Dio-Foster/Cary-Loeb-1914-1925-Perseus\OPP">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Historia Romana</title>
@@ -36821,7 +36739,7 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Perseus" note="Greek"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0233</url>
-                </location>                
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -36837,8 +36755,9 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Historiarum Libri</title>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/100226923">
-            <namePart>Tacitus</namePart>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100226923/">
+            <namePart>Tacitus, Cornelius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
@@ -36892,7 +36811,7 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
     <mods displayLabel="Historiae-Tacitus-Fisher-OCT-1910-Perseus\OPP">
-        
+
         <titleInfo xml:lang="lat" type="uniform">
             <title>Historiae</title>
         </titleInfo>
@@ -36947,8 +36866,8 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/uc1.b4636993</url>
         </location>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n80-145600.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100226923/">
             <namePart>Tacitus, Cornelius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -36969,7 +36888,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1351.phi004.perseus-lat1</identifier>
-                <identifier>Perseus:text:1999.02.0079</identifier>                
+                <identifier>Perseus:text:1999.02.0079</identifier>
                 <location>
                     <url displayLabel="Perseus" note="Latin"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0079</url>
@@ -36977,7 +36896,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
 
 
 
@@ -40892,7 +40811,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Historiae-Thucydides-Kruger-Berlin-1858-Greek">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Histories</title>
@@ -41849,7 +41768,7 @@ but this is where the TLG has left off for numbering-->
         <physicalDescription>
             <form authority="marcform">print</form>
             <extent>x, 404 p. 17 cm.</extent>
-        </physicalDescription>        
+        </physicalDescription>
         <relatedItem type="series">
             <titleInfo>
                 <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
@@ -41923,7 +41842,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Ichnetuae-Sophocles-Mahoney-English-Perseus">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Ichneutae</title>
@@ -42077,7 +41996,7 @@ but this is where the TLG has left off for numbering-->
         </titleInfo>
         <identifier type="isbn">0891976361</identifier>
         <identifier type="lccn">79018756</identifier>
-        <identifier type="oclc">5264322</identifier>        
+        <identifier type="oclc">5264322</identifier>
         <typeOfResource>text</typeOfResource>
         <genre authority="marc">bibliography</genre>
         <originInfo>
@@ -42088,7 +42007,7 @@ but this is where the TLG has left off for numbering-->
                 <placeTerm type="text">New York</placeTerm>
             </place>
             <publisher>Irvington Publishers</publisher>
-          <dateModified>1979</dateModified>
+            <dateModified>1979</dateModified>
             <dateIssued>1903</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -42732,7 +42651,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/69690096/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/69690096/">
             <namePart>Manitius, Karl</namePart>
             <namePart type="date">1848-1921</namePart>
             <role>
@@ -45651,7 +45571,7 @@ but this is where the TLG has left off for numbering-->
         <physicalDescription>
             <form authority="marcform">print</form>
             <extent>xi, [1], 99, [1] p. 18 cm.</extent>
-        </physicalDescription>        
+        </physicalDescription>
         <relatedItem type="series">
             <titleInfo>
                 <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
@@ -47379,7 +47299,7 @@ but this is where the TLG has left off for numbering-->
             <title>In Porphyrii Isagogen commentarii</title>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-29805.html">
+            valueURI="https://viaf.org/viaf/100218964/">
             <namePart>Boethius</namePart>
             <namePart type="date">d. 524</namePart>
             <role>
@@ -47550,8 +47470,8 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
-    
+
+
     <mods displayLabel="Institutio Logica-Galen-Teubner-Kalbfleish-1896">
         <titleInfo type="uniform">
             <title>Institutio Logica</title>
@@ -47730,8 +47650,9 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
-    <mods displayLabel="Institutio oratoria-Quintilian-Loeb-Butler-Perseus\OPP"><!-- Need to rethink-
+
+    <mods displayLabel="Institutio oratoria-Quintilian-Loeb-Butler-Perseus\OPP">
+        <!-- Need to rethink-
     four Perseus URLs-->
         <titleInfo xml:lang="lat" type="uniform">
             <title>Institutio oratoria</title>
@@ -47819,20 +47740,20 @@ but this is where the TLG has left off for numbering-->
                 <identifier>Perseus:text:2007.01.0066</identifier>
                 <identifier>Perseus:text:2007.01.0069</identifier>
                 <location>
-                    <url displayLabel="Perseus" 
-                        note="Books I-III">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0060</url>
+                    <url displayLabel="Perseus" note="Books I-III"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0060</url>
                 </location>
                 <location>
-                    <url displayLabel="Perseus" 
-                        note="Books IV-VI">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0063</url>
+                    <url displayLabel="Perseus" note="Books IV-VI"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0063</url>
                 </location>
                 <location>
-                    <url displayLabel="Perseus" 
-                        note="Books VII-IX">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0066</url>
+                    <url displayLabel="Perseus" note="Books VII-IX"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0066</url>
                 </location>
                 <location>
-                    <url displayLabel="Perseus"
-                        note="Books X-XII">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0069</url>
+                    <url displayLabel="Perseus" note="Books X-XII"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0069</url>
                 </location>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression"
@@ -47852,20 +47773,20 @@ but this is where the TLG has left off for numbering-->
                 <identifier>Perseus:text:2007.01.0065</identifier>
                 <identifier>Perseus:text:2007.01.0068</identifier>
                 <location>
-                    <url displayLabel="Perseus" 
-                        note="Books I-III">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0059</url>
+                    <url displayLabel="Perseus" note="Books I-III"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0059</url>
                 </location>
                 <location>
-                    <url displayLabel="Perseus" 
-                        note="Books IV-VI">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0062</url>
+                    <url displayLabel="Perseus" note="Books IV-VI"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0062</url>
                 </location>
                 <location>
-                    <url displayLabel="Perseus"
-                        note="Books VII-IX">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0065</url>
+                    <url displayLabel="Perseus" note="Books VII-IX"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0065</url>
                 </location>
                 <location>
-                    <url displayLabel="Perseus" 
-                        note="Books X-XII">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0068</url>
+                    <url displayLabel="Perseus" note="Books X-XII"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0068</url>
                 </location>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression"
@@ -49224,7 +49145,7 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Perseus" note="English"
                         >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0252</url>
-                </location>       
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -49239,7 +49160,8 @@ but this is where the TLG has left off for numbering-->
             <nonSort>Les</nonSort>
             <title>Lois</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/108159964">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/108159964">
             <namePart>Plato</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -49682,7 +49604,7 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Lexicon in decem oratores Atticos">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg1389.tlg001.perseus-grc1</identifier>
-                <identifier>Perseus:text:2013.01.0002</identifier>                
+                <identifier>Perseus:text:2013.01.0002</identifier>
                 <location>
                     <url displayLabel="Perseus"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2013.01.0002</url>
@@ -50007,7 +49929,8 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Libro de Elocutione-Demetrius of Phaleron-Roberts-Cambridge-1902-OPP\Perseus">
+    <mods
+        displayLabel="Libro de Elocutione-Demetrius of Phaleron-Roberts-Cambridge-1902-OPP\Perseus">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Libro de Elocutione</title>
         </titleInfo>
@@ -50099,7 +50022,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
 
 
     <mods displayLabel="Lysistrata-Aristophanes-Lindsay-Perseus-English-1\2">
@@ -50158,7 +50081,7 @@ but this is where the TLG has left off for numbering-->
             </originInfo>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Martyrium Petri-Acta Petri-Vouax-Paris-1922">
         <titleInfo>
             <title>Les actes de Pierre</title>
@@ -50596,7 +50519,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Meditations-Marcus Aurelius-Leopold-OCT-1908-OPP\Perseus">
         <titleInfo type="uniform" lang="eng">
             <title>Meditations</title>
@@ -51418,7 +51341,7 @@ but this is where the TLG has left off for numbering-->
         <identifier type="lccn">22012850</identifier>
         <identifier type="oclc">24965574</identifier>
 
-         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             xlink:href="http://errol.oclc.org/laf/n79-41738.html">
             <namePart>Ovid</namePart>
             <namePart type="date">43 B.C.-17 or 18 A.D</namePart>
@@ -51665,7 +51588,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Metamorphoses-Apuleius-Adlington-Richards-1913">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Metamorphoses</title>
@@ -51736,7 +51659,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Metamorphoses-Apuleius-Loeb-Adlington/Gaselee-1915-Perseus\OPP">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Metamorphoses</title>
@@ -53080,7 +53003,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Naturalis Historia-Pliny the Elder-Bostock/Riley-Bohn-1855-1857-Perseus\OPP">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Naturalis Historia</title>
@@ -53547,7 +53470,7 @@ but this is where the TLG has left off for numbering-->
         <physicalDescription>
             <form authority="marcform">print</form>
             <extent/>
-        </physicalDescription>        
+        </physicalDescription>
         <location>
             <url displayLabel="WorldCat"/>
         </location>
@@ -53955,7 +53878,7 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Perseus" note="English"
                         >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0054</url>
-                </location>  
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -54003,8 +53926,8 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/100198334/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100198334/">
             <namePart>Gellius, Aulus</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -54139,8 +54062,8 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/100198334/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100198334/">
             <namePart>Gellius, Aulus</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -54248,7 +54171,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
 
     <mods displayLabel="Occupatio-Odo of Cheriton-Swoboda-Teubner-1900">
         <titleInfo xml:lang="lat" type="uniform">
@@ -55020,7 +54943,7 @@ but this is where the TLG has left off for numbering-->
             <subTitle>Revised by Timothy Power and Gregory Nagy</subTitle>
         </titleInfo>
         <identifier type="oclc">7405645</identifier>
-        
+
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             xlink:href="http://errol.oclc.org/laf/n78-95639.html">
             <namePart>Homer</namePart>
@@ -56377,7 +56300,8 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="uniform" lang="lat">
             <title>Parmenides</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/108159964">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/108159964">
             <namePart>Plato</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -57670,7 +57594,7 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Perseus" note="English"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058</url>
-                </location> 
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -57756,7 +57680,7 @@ but this is where the TLG has left off for numbering-->
                 </location>
             </relatedItem>
         </relatedItem>
-    </mods>    
+    </mods>
     <mods displayLabel="Posthomerica-Quintus Smyrnaeus-Loeb-Way-1913-Perseus\OPP">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Posthomerica</title>
@@ -57839,16 +57763,13 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name xmlns:ns2="http://www.w3.org/1999/xlink"
-        xmlns="http://www.loc.gov/mods/v3"
-        authority="naf"
-        type="personal"
-        ns2:href="http://errol.oclc.org/laf/n81-12085.html">
-        <namePart>Way, Arthur Sanders</namePart>
-        <namePart type="date">1847-1930</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-        </role>
+        <name xmlns:ns2="http://www.w3.org/1999/xlink" xmlns="http://www.loc.gov/mods/v3"
+            authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n81-12085.html">
+            <namePart>Way, Arthur Sanders</namePart>
+            <namePart type="date">1847-1930</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
         </name>
         <subject authority="lcsh">
             <topic>Epic poetry, Greek</topic>
@@ -58095,7 +58016,7 @@ but this is where the TLG has left off for numbering-->
                     <url displayLabel="Perseus" note="English"
                         >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.02.0023</url>
                 </location>
-                
+
             </relatedItem>
         </relatedItem>
     </mods>
@@ -58610,7 +58531,7 @@ but this is where the TLG has left off for numbering-->
                     <url displayLabel="Perseus" note="English"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0223</url>
                 </location>
-                
+
             </relatedItem>
         </relatedItem>
     </mods>
@@ -58897,7 +58818,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Rerum Gestarum-Ammianus Marcellinus-Rolfe-Loeb-1935-Perseus\OPP">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Rerum Gestarum</title>
@@ -59997,7 +59918,8 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Respublica</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/108159964">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/108159964">
             <namePart>Plato</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -60060,7 +59982,8 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Res publica</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/108159964">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/108159964">
             <namePart>Plato</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -60117,7 +60040,7 @@ but this is where the TLG has left off for numbering-->
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0059.tlg030.opp-grc3</identifier>
             </relatedItem>
         </relatedItem>
-    </mods>       
+    </mods>
     <mods displayLabel="Rhesus-Euripides-Murray-Oxford-Perseus-English-2">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Rhesus</title>
@@ -60215,8 +60138,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/61582402/">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/61582402/">
             <namePart>Freese, John Henry</namePart>
             <namePart type="date">1852-1930</namePart>
             <role>
@@ -61404,7 +61327,8 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/22130553/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/22130553/">
             <namePart>Publilius</namePart>
             <namePart type="termsOfAddress">Syrus</namePart>
             <namePart type="date">1st cent. B.C</namePart>
@@ -61412,7 +61336,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/282756245">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/282756245">
             <namePart>Bickford-Smith, Roandeu Albert Henry</namePart>
             <namePart type="date">1895-</namePart>
             <role>
@@ -61481,7 +61406,8 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/22130553/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/22130553/">
             <namePart>Publilius</namePart>
             <namePart type="termsOfAddress">Syrus</namePart>
             <namePart type="date">1st cent. B.C</namePart>
@@ -61586,7 +61512,8 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Sententiae ad intelligibilia ducentes</title>
         </titleInfo>
-        <name authority="viaf" type="personal"  authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/64016141">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/64016141">
             <namePart>Porphyry</namePart>
             <namePart type="date">234-305</namePart>
             <role>
@@ -61694,14 +61621,16 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
-        <name authority="viaf" type="personal"  authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/64016141">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/64016141">
             <namePart>Porphyry</namePart>
             <namePart type="date">234-305</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"  authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/157982909">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/157982909">
             <namePart>Mommert, Bruno</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
@@ -62165,7 +62094,8 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Convivium</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/108159964">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/108159964">
             <namePart>Plato</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -62468,7 +62398,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/69690096/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/69690096/">
             <namePart>Manitius, Karl</namePart>
             <namePart type="date">1848-1921</namePart>
             <role>
@@ -62654,11 +62585,11 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Perseus" note="Greek"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0636</url>
-                </location>                
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Theaetetus-Plato-Dies-Les Belles Lettres-1955">
         <titleInfo>
             <title>Oeuvres complètes</title>
@@ -62668,13 +62599,15 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="uniform" lang="lat">
             <title>Theaetetus</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/108159964">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/108159964">
             <namePart>Plato</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"  authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/64004648">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/64004648">
             <namePart>Dies, Auguste</namePart>
             <namePart type="date">1875-1958</namePart>
             <role>
@@ -63013,7 +62946,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf" valueURI="http://viaf.org/viaf/114433983">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf"
+            valueURI="http://viaf.org/viaf/114433983">
             <namePart>Biehl, Werner</namePart>
             <namePart type="date">1911-1995</namePart>
             <role>
@@ -63326,7 +63260,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Tusculanae Disputationes-Cicero-Dougan-Cambridge-1905">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Tusculanae Disputationes</title>
@@ -63633,7 +63567,8 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Vita Barlaam et Joasaph-John of Damascus-Woodward/Mattingly-Loeb-1914-Perseus\OPP">
+    <mods
+        displayLabel="Vita Barlaam et Joasaph-John of Damascus-Woodward/Mattingly-Loeb-1914-Perseus\OPP">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Vita Barlaam et Joasaph</title>
         </titleInfo>
@@ -63644,7 +63579,8 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="uniform">
             <title>Barlaam and Joasaph</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf" valueURI="http://viaf.org/viaf/44435485/">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf"
+            valueURI="http://viaf.org/viaf/44435485/">
             <namePart>John,</namePart>
             <namePart type="termsOfAddress">of Damascus, Saint</namePart>
             <role>
@@ -63741,12 +63677,12 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Perseus" note="Greek"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0666</url>
-                </location>  
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
 
-    
+
     <mods displayLabel="Vitae Caesarum (Whole Work)-Suetonius-Butler/Cary-OCT-1927">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Vitae Caesarum</title>
@@ -63980,7 +63916,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Vita Porphyrii episcopi gazensis-Marcus Diaconus-Teubner-1895">
         <titleInfo type="uniform" lang="lat">
             <title>Vita Porphyrii episcopi gazensis</title>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
-        <!-- COMMENT-THIS IS A RECORD FOR ANTHOLOGIA LATINA WITH LOTS OF CONSTITUENT WORK RECORDS FOR WORKS WITHOUT IDS IN IT -NOT SURE WHAT TO DO WITH
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+        <!-- COMMENT-THIS IS A RECORD FOR ANTHOLOGIA LATINA FASC I WITH LOTS OF CONSTITUENT WORK RECORDS
+            FOR WORKS WITHOUT IDS IN IT -NOT SURE WHAT TO DO WITH
     THIS-PERHAPS CREATE GENERIC IDS-HAVE REMOVED FROM LARGER FILE TO DEAL WITH LATER-->
         <titleInfo xml:lang="eng" type="uniform">
             <title>Anthologia Latina</title>
@@ -58,6 +59,14 @@
                 <title>Teubner</title>
             </titleInfo>
         </relatedItem>
+    <relatedItem type="constituent" otherType="work"
+        displayLabel="De concubitu Martis et Veneris">
+        <identifier type="ctsurn">urn:cts:latinLit:stoa0242.stoa001</identifier>
+        <relatedItem type="constituent" otherType="expression"
+            displayLabel="De concubitu Martis et Veneris">
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0242.stoa001.opp-lat4</identifier>
+        </relatedItem>
+    </relatedItem>
         <relatedItem type="constituent" displayLabel="Carmina Codicis Vergiliani Vaticani 3867">
             <relatedItem type="constituent" displayLabel="Work 1">
                 <titleInfo>
@@ -13028,10 +13037,5 @@
         <subject authority="lcsh">
             <topic>Epigrams, Latin</topic>
         </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Anthologia Latina">
-            <identifier type="ctsurn">urn:cts:latinLit:stoa0299.stoa001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Anthologia Latina">
-                <identifier type="ctsurn">urn:cts:latinLit:stoa0299.stoa001.opp-lat1</identifier>
-            </relatedItem>
-        </relatedItem>
+
  </mods>
