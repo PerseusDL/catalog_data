@@ -2,12 +2,19 @@
 <!--Generated from pending-embedded.mods.xml with invertedhosts2.xq on 12/07/2018 -->
 <!-- Pulled all reference works-->
 <modsCollection xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.loc.gov/mods/v3">
-    
-    <mods displayLabel="Ambrose-Opera Omnia-Patrologia Latina 14-Opera Vol 1">
+    <mods displayLabel="Sancti Ambrose-Opera Omnia-Patrologia Latina">
         <titleInfo>
             <title>Sancti Ambrosii Mediolanensis Episcopi opera omnia</title>
-            <partNumber>Tomus Primus, Pars Prior</partNumber>
         </titleInfo>
+        <name authority="viaf" authorityURI="https://viaf.org/viaf/" type="personal"
+            valueURI="https://viaf.org/viaf/100227669/">
+            <namePart>Ambrose</namePart>
+            <namePart type="termsOfAddress">Saint, Bishop of Milan</namePart>
+            <namePart type="date">-397</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
         <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/64009375">
             <namePart>Migne, Jacques Paul</namePart>
@@ -25,1797 +32,840 @@
                 <placeTerm type="text">Parisiis</placeTerm>
             </place>
             <publisher>Sirou</publisher>
-            <dateIssued>1845</dateIssued>
+            <dateIssued/>
             <issuance>monographic</issuance>
         </originInfo>
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
         </language>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>1192 columns; 28 cm</extent>
-            <digitalOrigin>digitized other analog</digitalOrigin>
-        </physicalDescription>
         <note type="statement of responsibility" altRepGroup="00">Accurante J.-P. Migne</note>
         <note>Subtitle varies.</note>
-        <classification authority="lcc">BR60 .M4</classification>
-        <identifier type="lccn">70235380</identifier>
-        <identifier type="oclc">64827596</identifier>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/64827596</url>
-        </location>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/hvd.32044015471303</url>
-        </location>
         <relatedItem type="series">
             <titleInfo>
                 <title>Patrologiae cursus completus</title>
                 <subTitle>Series Prima [Latina]</subTitle>
-                <partNumber>Tomus XIV</partNumber>
+                <partNumber>Tomus 14-17</partNumber>
             </titleInfo>
         </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Exameron">
-            <titleInfo type="uniform">
-                <title>Exameron</title>
-            </titleInfo>
-            <titleInfo type="alternative">
-                <title>Hexaëmeron</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa054</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>123</start>
-                    <end>274</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=66</url>
-            </location>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="De Paradiso">
-            <titleInfo>
-                <title>De Paradiso</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa042</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>275</start>
-                    <end>314</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=142</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="De Cain et Abel">
-            <titleInfo>
-                <title>De Cain et Abel</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa021</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>315</start>
-                    <end>360</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=160</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="De Noe et Arca">
-            <titleInfo>
-                <title>De Noe et Arca</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa039</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>361</start>
-                    <end>416</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=184</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="De Abraham">
-            <titleInfo>
-                <title>De Abraham</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa018</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>417</start>
-                    <end>500</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=214</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="De Isaac et Anima">
-            <titleInfo>
-                <title>De Isaac et Anima</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa033</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>501</start>
-                    <end>538</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=254</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="De Bono Mortis">
-            <titleInfo>
-                <title>De Bono Mortis</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa020</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>539</start>
-                    <end>568</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=274</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="De Fuga Saeculi">
-            <titleInfo>
-                <title>De Fuga Saeculi</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa029</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>569</start>
-                    <end>596</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=288</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="De Jacob et Vita Beata">
-            <titleInfo>
-                <title>De Jacob et Vita Beata</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa034</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>597</start>
-                    <end>640</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=302</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="De Joseph Patriarcha">
-            <titleInfo>
-                <title>De Joseph Patriarcha</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa035</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>641</start>
-                    <end>671</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=324</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="De Benedictionibus Patriarcharum">
-            <titleInfo>
-                <title>De Benedictionibus Patriarcharum</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa019</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>673</start>
-                    <end>696</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=340</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="De Elia et Jejunio">
-            <titleInfo>
-                <title>De Elia et Jejunio</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa025</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>697</start>
-                    <end>730</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=352</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="De Nabuthe Jezraelita">
-            <titleInfo>
-                <title>De Nabuthe Jezraelita</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa038</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>731</start>
-                    <end>758</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=370</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="De Tobia">
-            <titleInfo>
-                <title>De Tobia</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa044</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>759</start>
-                    <end>796</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=384</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="De Interpellatione Job Et David Liber Quatuor">
-            <titleInfo>
-                <title>De Interpellatione Job Et David Liber Quatuor</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa032</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>797</start>
-                    <end>852</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=402</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Apologia Prophetae David Ad Theodosium Augustum">
-            <titleInfo>
-                <title>Apologia Prophetae David Ad Theodosium Augustum</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa015</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>851</start>
-                    <end>888</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=430</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Apologia Altera Prophetae David">
-            <titleInfo>
-                <title>Apologia Altera Prophetae David</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa014</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>887</start>
-                    <end>916</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=448</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Enarrationes in XII Paslmos">
-            <titleInfo>
-                <title>Enarrationes in XII Paslmos</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa048</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>921</start>
-                    <end>1179</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=464</url>
-            </location>
-        </relatedItem>
-    </mods>
-    <mods displayLabel="Ambrose-Opera Omnia-Patrologia Latina 15-Opera Volume 1-Part 2">
-        <titleInfo>
-            <title>Sancti Ambrosii Mediolanensis Episcopi opera omnia</title>
-            <partNumber>Tomus Primus, Pars Posterior</partNumber>
-        </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/64009375">
-            <namePart>Migne, Jacques Paul</namePart>
-            <namePart type="date">1800-1875</namePart>
-            <role>
-                <roleTerm type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">fr</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Parisiis</placeTerm>
-            </place>
-            <publisher>Sirou</publisher>
-            <dateIssued>1845</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language objectPart="text">
-            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
-        </language>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>1112 columns; 28 cm</extent>
-            <digitalOrigin>digitized other analog</digitalOrigin>
-        </physicalDescription>
-        <note type="statement of responsibility" altRepGroup="00">Accurante J.-P. Migne</note>
-        <note>Subtitle varies.</note>
         <classification authority="lcc">BR60 .M4</classification>
         <identifier type="lccn">70235380</identifier>
         <identifier type="oclc">64827596</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/64827596</url>
         </location>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/hvd.32044015471311</url>
-        </location>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Patrologiae cursus completus</title>
-                <subTitle>Series Prima [Latina]</subTitle>
-                <partNumber>Tomus XV</partNumber>
-            </titleInfo>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Expositio Psalmi CXVIII">
-            <titleInfo>
-                <title>Expositio Psalmi CXVIII</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa052</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>1197</start>
-                    <end>1526</end>
-                </extent>
+        <relatedItem type="constituent" otherType="volume" displayLabel="Volume 1">
+            <part type="volume">
+                <detail>
+                    <number>Tomus Primus, Pars Prior</number>
+                </detail>
             </part>
+            <originInfo>
+                <dateIssued>1845</dateIssued>
+            </originInfo>
+            <location>
+                <url displayLabel="HathiTrust">http://hdl.handle.net/2027/hvd.32044015471303</url>
+            </location>
+            <relatedItem type="series">
+                <titleInfo>
+                    <title>Patrologiae cursus completus</title>
+                    <subTitle>Series Prima [Latina]</subTitle>
+                    <partNumber>Tomus XIV</partNumber>
+                </titleInfo>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Exameron">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0022.stoa054</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Exameron">
+                    <identifier type="ctsurn">urn:cts:latinLit:stoa0022.stoa054.opp-lat2</identifier>                    
+                <part>
+                    <extent unit="columns">
+                        <start>123</start>
+                        <end>274</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=66</url>
+                </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="De Paradiso">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0022.stoa042</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="De Paradiso">
+                    <identifier type="ctsurn">urn:cts:latinLit:stoa0022.stoa042.opp-lat2</identifier>               
+                    <part>
+                    <extent unit="columns">
+                        <start>275</start>
+                        <end>314</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=142</url>
+                </location>
+            </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="De Cain et Abel">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0022.stoa021</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="De Cain et Abel">
+                    <identifier type="ctsurn">urn:cts:latinLit:stoa0022.stoa021.opp-lat2</identifier>  
+                <part>
+                    <extent unit="columns">
+                        <start>315</start>
+                        <end>360</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=160</url>
+                </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="De Noe et Arca">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0022.stoa039</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="De Cain et Abel">
+                    <identifier type="ctsurn">urn:cts:latinLit:stoa0022.stoa039.opp-lat2</identifier>  
+                <part>
+                    <extent unit="columns">
+                        <start>361</start>
+                        <end>416</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=184</url>
+                </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="De Abraham">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0022.stoa018</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="De Abraham">
+                    <identifier type="ctsurn">urn:cts:latinLit:stoa0022.stoa018.opp-lat2</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>417</start>
+                        <end>500</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=214</url>
+                </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="De Isaac et Anima">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0022.stoa033</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="De Isaac et Anima">
+                    <identifier type="ctsurn">urn:cts:latinLit:stoa0022.stoa033.opp-lat</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>501</start>
+                        <end>538</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=254</url>
+                </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="De Bono Mortis">
+                <identifier type="ctsurn">urn:cts:latinLit:</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="">
+                    <identifier type="ctsurn"></identifier>
+                <identifier type="stoa author-text">stoa0022-stoa020</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>539</start>
+                        <end>568</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=274</url>
+                </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="De Fuga Saeculi">
+                <identifier type="ctsurn">urn:cts:latinLit:</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="">
+                    <identifier type="ctsurn"></identifier>           
+                    <identifier type="stoa author-text">stoa0022-stoa029</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>569</start>
+                        <end>596</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=288</url>
+                </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="De Jacob et Vita Beata">
+                <identifier type="ctsurn">urn:cts:latinLit:</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="">
+                    <identifier type="ctsurn"></identifier>     
+                    <identifier type="stoa author-text">stoa0022-stoa034</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>597</start>
+                        <end>640</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=302</url>
+                </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="De Joseph Patriarcha">
+                <identifier type="ctsurn">urn:cts:latinLit:</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="">
+                    <identifier type="ctsurn"></identifier>
+                <identifier type="stoa author-text">stoa0022-stoa035</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>641</start>
+                        <end>671</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=324</url>
+                </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="De Benedictionibus Patriarcharum">
+                <identifier type="ctsurn">urn:cts:latinLit:</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="">
+                    <identifier type="ctsurn"></identifier>
+                <identifier type="stoa author-text">stoa0022-stoa019</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>673</start>
+                        <end>696</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=340</url>
+                </location>
+            </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="De Elia et Jejunio">
+                <identifier type="ctsurn">urn:cts:latinLit:</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="">
+                    <identifier type="ctsurn"></identifier>
+                <identifier type="stoa author-text">stoa0022-stoa025</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>697</start>
+                        <end>730</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=352</url>
+                </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="De Nabuthe Jezraelita">
+                <identifier type="ctsurn">urn:cts:latinLit:</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="">
+                    <identifier type="ctsurn"></identifier>
+                <identifier type="stoa author-text">stoa0022-stoa038</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>731</start>
+                        <end>758</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=370</url>
+                </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="De Tobia">
+                <identifier type="ctsurn">urn:cts:latinLit:</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="De Tobias">
+                    <identifier type="ctsurn"></identifier>
+
+                <identifier type="stoa author-text">stoa0022-stoa044</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>759</start>
+                        <end>796</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=384</url>
+                </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="De Interpellatione Job Et David Liber Quatuor">
+                <identifier type="ctsurn">urn:cts:latinLit:</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="">
+                    <identifier type="ctsurn"></identifier>
+                <identifier type="stoa author-text">stoa0022-stoa032</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>797</start>
+                        <end>852</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=402</url>
+                </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="Apologia Prophetae David Ad Theodosium Augustum">
+                <identifier type="ctsurn">urn:cts:latinLit:</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="">
+                    <identifier type="ctsurn"></identifier>
+                <identifier type="stoa author-text">stoa0022-stoa015</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>851</start>
+                        <end>888</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=430</url>
+                </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="Apologia Altera Prophetae David">
+                <identifier type="ctsurn">urn:cts:latinLit:</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="">
+                    <identifier type="ctsurn"></identifier>        
+                <part>
+                    <extent unit="columns">
+                        <start>887</start>
+                        <end>916</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=448</url>
+                </location>
+            </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="Enarrationes in XII Paslmos">
+                <identifier type="ctsurn">urn:cts:latinLit:</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="">
+                    <identifier type="ctsurn"></identifier>
+                    <identifier type="stoa author-text">stoa0022-stoa048</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>921</start>
+                        <end>1179</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/hvd.32044015471303?urlappend=%3Bseq=464</url>
+                </location>
+            </relatedItem>
+            </relatedItem>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1-Part 2">
+            <part type="volume">
+                <detail>
+                    <number>Tomus Primus, Pars Posterior</number>
+                </detail>
+            </part>
+            <originInfo>
+                <dateIssued>1845</dateIssued>
+            </originInfo>
+            <location>
+                <url displayLabel="HathiTrust">http://hdl.handle.net/2027/hvd.32044015471311</url>
+            </location>
+            <relatedItem type="series">
+                <titleInfo>
+                    <title>Patrologiae cursus completus</title>
+                    <subTitle>Series Prima [Latina]</subTitle>
+                    <partNumber>Tomus XV</partNumber>
+                </titleInfo>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Expositio Psalmi CXVIII">
+                <titleInfo>
+                    <title>Expositio Psalmi CXVIII</title>
+                </titleInfo>
+                <identifier type="stoa author-text">stoa0022-stoa052</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>1197</start>
+                        <end>1526</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/hvd.32044015471311?urlappend=%3Bseq=10</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="Expositio Evangelii Secundum Lucam">
+                <titleInfo>
+                    <title>Expositio Evangelii Secundum Lucam</title>
+                </titleInfo>
+                <identifier type="stoa author-text">stoa0022-stoa051</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>1527</start>
+                        <end>1850</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/hvd.32044015471311?urlappend=%3Bseq=176</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="Commentarius In Cantica Canticorum">
+                <titleInfo>
+                    <title>Commentarius In Cantica Canticorum</title>
+                </titleInfo>
+                <identifier type="stoa author-text">stoa0022-stoa017</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>1851</start>
+                        <end>1962</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/hvd.32044015471311?urlappend=%3Bseq=338</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="De Excidio Urbis Hierosolymitanae Libri Quinque">
+                <titleInfo>
+                    <title>De Excidio Urbis Hierosolymitanae Libri Quinque</title>
+                </titleInfo>
+                <identifier type="stoa author-text">stoa0022-stoa026</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>1961</start>
+                        <end>2206</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/hvd.32044015471311?urlappend=%3Bseq=388</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="Historia De Excidio Hierosolymitanae Urbis Anacephalaeosis">
+                <titleInfo>
+                    <title>Historia De Excidio Hierosolymitanae Urbis Anacephalaeosis</title>
+                </titleInfo>
+                <identifier type="stoa author-text">stoa0022-stoa054a</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>2205</start>
+                        <end>2218</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/hvd.32044015471311?urlappend=%3Bseq=510</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+
+        <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2-Part 1">
+            <part type="volume">
+                <detail>
+                    <number>Tomus Secundi et Ultimi, Pars Prior</number>
+                </detail>
+            </part>
+            <relatedItem type="series">
+                <titleInfo>
+                    <title>Patrologiae cursus completus</title>
+                    <subTitle>Series Prima [Latina]</subTitle>
+                    <partNumber>Tomus XVI</partNumber>
+                </titleInfo>
+            </relatedItem>
             <location>
                 <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/hvd.32044015471311?urlappend=%3Bseq=10</url>
+                    >http://hdl.handle.net/2027/uva.x000826550</url>
             </location>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="De Officiis Ministrorum Libri Tres">
+                <titleInfo>
+                    <title>De Officiis Ministrorum Libri Tres</title>
+                </titleInfo>             
+                <identifier type="stoa author-text">stoa0022-stoa004</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>23</start>
+                        <end>184</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=18</url>
+                </location>
 
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="De Virginibus Ad Marcellinam Sororem Sua Libri Tres">
+                <titleInfo>
+                    <title>De Virginibus Ad Marcellinam Sororem Sua Libri Tres</title>
+                </titleInfo>
+             
+                <identifier type="stoa author-text">stoa0022-stoa008</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>187</start>
+                        <end>232</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=100</url>
+                </location>
+
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="De Viduis Liber Unus">
+                <titleInfo>
+                    <title>De Viduis Liber Unus</title>
+                </titleInfo>
+                <identifier type="stoa author-text">stoa0022-stoa007</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>233</start>
+                        <end>262</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=122</url>
+                </location>
+
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="De Virginitate Liber Unus">
+                <titleInfo>
+                    <title>De Virginitate Liber Unus</title>
+                </titleInfo>             
+                <identifier type="stoa author-text">stoa0022-stoa046</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>265</start>
+                        <end>302</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=138</url>
+                </location>
+
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="De Institutione Virginis Et Sanctae Mariae Virginitate Perpetua">
+                <titleInfo>
+                    <title>De Institutione Virginis Et Sanctae Mariae Virginitate Perpetua</title>
+                </titleInfo>            
+                <identifier type="stoa author-text">stoa0022-stoa031</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>305</start>
+                        <end>334</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=158</url>
+                </location>
+
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="Exhortatio Virginitatis Liber Unus">
+                <titleInfo>
+                    <title>Exhortatio Virginitatis Liber Unus</title>
+                </titleInfo>
+             
+                <identifier type="stoa author-text">stoa0022-stoa027</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>335</start>
+                        <end>364</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=174</url>
+                </location>
+
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="De Lapsu Virginis Consecratae Liber Unus">
+                <titleInfo>
+                    <title>De Lapsu Virginis Consecratae Liber Unus</title>
+                </titleInfo>
+                <identifier type="stoa author-text">stoa0022-stoa036</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>367</start>
+                        <end>384</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=190</url>
+                </location>
+
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="De Mysteriis Liber Unus">
+                <titleInfo>
+                    <title>De Mysteriis Liber Unus</title>
+                </titleInfo>              
+                <identifier type="stoa author-text">stoa0022-stoa003</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>389</start>
+                        <end>410</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=200</url>
+                </location>
+
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="De Sacramentis Liber Sex">
+                <titleInfo>
+                    <title>De Sacramentis Liber Sex</title>
+                </titleInfo>
+           
+                <identifier type="stoa author-text">stoa0022-stoa043</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>417</start>
+                        <end>462</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=214</url>
+                </location>
+
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="De Poenitentia Libri Duo">
+                <titleInfo>
+                    <title>De Poenitentia Libri Duo</title>
+                </titleInfo>              
+                <identifier type="stoa author-text">stoa0022-stoa005</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>465</start>
+                        <end>524</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=238</url>
+                </location>
+
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="De Fide Ad Gratianum Augustum Libri Quinque">
+                <titleInfo>
+                    <title>De Fide Ad Gratianum Augustum Libri Quinque</title>
+                </titleInfo>
+             
+                <identifier type="stoa author-text">stoa0022-stoa002</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>527</start>
+                        <end>698</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=270</url>
+                </location>
+
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="De Spiritu Sancto Libri Tres">
+                <titleInfo>
+                    <title>De Spiritu Sancto Libri Tres</title>
+                </titleInfo>               
+                <identifier type="stoa author-text">stoa0022-stoa006</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>703</start>
+                        <end>816</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=358</url>
+                </location>
+
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="De Incarnationis Dominicae Sacramento Liber Unus">
+                <titleInfo>
+                    <title>De Incarnationis Dominicae Sacramento Liber Unus</title>
+               </titleInfo>             
+                <identifier type="stoa author-text">stoa0022-stoa030</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>817</start>
+                        <end>846</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=414</url>
+                </location>
+
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Epistolae Prima Classis">
+                <titleInfo>
+                    <title>Epistolae Prima Classis</title>
+                </titleInfo>           
+                <identifier type="stoa author-text">stoa0022-stoa009</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>875</start>
+                        <end>1220</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=444</url>
+                </location>
+
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="Epistolae Secunda Classis">
+                <titleInfo>
+                    <title>Epistolae Secunda Classis</title>
+                </titleInfo>               
+                <identifier type="stoa author-text">stoa0022-stoa009a</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>1219</start>
+                        <end>1286</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=616</url>
+                </location>
+
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="De Excessu Fratris Sui Satyri Libri Duo">
+                <titleInfo>
+                    <title>De Excessu Fratris Sui Satyri Libri Duo</title>
+                </titleInfo>          
+                <identifier type="stoa author-text">stoa0022-stoa001</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>1289</start>
+                        <end>1354</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=650</url>
+                </location>
+
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="De Obitu Valentiniani Consolatio">
+                <titleInfo>
+                    <title>De Obitu Valentiniani Consolatio</title>
+                </titleInfo>               
+                <identifier type="stoa author-text">stoa0022-stoa041</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>1357</start>
+                        <end>1384</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=684</url>
+                </location>
+
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="De Obitu Theodosii Oratio">
+                <titleInfo>
+                    <title>De Obitu Theodosii Oratio</title>
+                </titleInfo>
+            
+                <identifier type="stoa author-text">stoa0022-stoa040</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>1385</start>
+                        <end>1406</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=698</url>
+                </location>
+
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Hymni">
+                <titleInfo>
+                    <title>Hymni</title>
+                </titleInfo>              
+                <identifier type="stoa author-text">stoa0022-stoa010</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>1409</start>
+                        <end>1412</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=710</url>
+                </location>
+            </relatedItem>
         </relatedItem>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Expositio Evangelii Secundum Lucam">
-            <titleInfo>
-                <title>Expositio Evangelii Secundum Lucam</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa051</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>1527</start>
-                    <end>1850</end>
-                </extent>
+        <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2-Part 2">
+            <part type="volume">
+                <detail>
+                    <number>Tomus Secundi et Ultimi, Pars Posterior</number>
+                </detail>
             </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/hvd.32044015471311?urlappend=%3Bseq=176</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Commentarius In Cantica Canticorum">
-            <titleInfo>
-                <title>Commentarius In Cantica Canticorum</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa017</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>1851</start>
-                    <end>1962</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/hvd.32044015471311?urlappend=%3Bseq=338</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="De Excidio Urbis Hierosolymitanae Libri Quinque">
-            <titleInfo>
-                <title>De Excidio Urbis Hierosolymitanae Libri Quinque</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa026</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>1961</start>
-                    <end>2206</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/hvd.32044015471311?urlappend=%3Bseq=388</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Historia De Excidio Hierosolymitanae Urbis Anacephalaeosis">
-            <titleInfo>
-                <title>Historia De Excidio Hierosolymitanae Urbis Anacephalaeosis</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa054a</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>2205</start>
-                    <end>2218</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/hvd.32044015471311?urlappend=%3Bseq=510</url>
-            </location>
-
-        </relatedItem>
-        <recordInfo>
-            <recordContentSource authority="marcorg">DLC</recordContentSource>
-            <recordCreationDate encoding="marc">850910</recordCreationDate>
-            <recordChangeDate encoding="iso8601">19930518161152.5</recordChangeDate>
-            <recordIdentifier>3600734</recordIdentifier>
-            <recordOrigin>Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5.xsl
-                (Revision 1.106 2014/12/19)</recordOrigin>
-        </recordInfo>
-    </mods>
-    <mods displayLabel="Ambrose-Opera Omnia-Patrologia Latina 16-Opera Volume 2-Part 1">
-        <titleInfo>
-            <title>Sancti Ambrosii Mediolanensis Episcopi opera omnia</title>
-            <partNumber>Tomus Secundi et Ultimi, Pars Prior</partNumber>
-        </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/64009375">
-            <namePart>Migne, Jacques Paul</namePart>
-            <namePart type="date">1800-1875</namePart>
-            <role>
-                <roleTerm type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">fr</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Parisiis</placeTerm>
-            </place>
-            <publisher>Sirou</publisher>
-            <dateIssued>1845</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language objectPart="text">
-            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
-        </language>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>1544 columns; 28 cm</extent>
-            <digitalOrigin>digitized other analog</digitalOrigin>
-        </physicalDescription>
-        <note type="statement of responsibility" altRepGroup="00">Accurante J.-P. Migne</note>
-        <note>Subtitle varies.</note>
-        <classification authority="lcc">BR60 .M4</classification>
-        <identifier type="lccn">70235380</identifier>
-        <identifier type="oclc">64827596</identifier>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/64827596</url>
-        </location>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/uva.x000826550</url>
-        </location>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Patrologiae cursus completus</title>
-                <subTitle>Series Prima [Latina]</subTitle>
-                <partNumber>Tomus XVI</partNumber>
-            </titleInfo>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="De Officiis Ministrorum Libri Tres">
-            <titleInfo>
-                <title>De Officiis Ministrorum Libri Tres</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa004</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>23</start>
-                    <end>184</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=18</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="De Virginibus Ad Marcellinam Sororem Sua Libri Tres">
-            <titleInfo>
-                <title>De Virginibus Ad Marcellinam Sororem Sua Libri Tres</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa008</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>187</start>
-                    <end>232</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=100</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="De Viduis Liber Unus">
-            <titleInfo>
-                <title>De Viduis Liber Unus</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa007</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>233</start>
-                    <end>262</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=122</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="De Virginitate Liber Unus">
-            <titleInfo>
-                <title>De Virginitate Liber Unus</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa046</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>265</start>
-                    <end>302</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=138</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="De Institutione Virginis Et Sanctae Mariae Virginitate Perpetua">
-            <titleInfo>
-                <title>De Institutione Virginis Et Sanctae Mariae Virginitate Perpetua</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa031</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>305</start>
-                    <end>334</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=158</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Exhortatio Virginitatis Liber Unus">
-            <titleInfo>
-                <title>Exhortatio Virginitatis Liber Unus</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa027</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>335</start>
-                    <end>364</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=174</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="De Lapsu Virginis Consecratae Liber Unus">
-            <titleInfo>
-                <title>De Lapsu Virginis Consecratae Liber Unus</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa036</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>367</start>
-                    <end>384</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=190</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="De Mysteriis Liber Unus">
-            <titleInfo>
-                <title>De Mysteriis Liber Unus</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa003</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>389</start>
-                    <end>410</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=200</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="De Sacramentis Liber Sex">
-            <titleInfo>
-                <title>De Sacramentis Liber Sex</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa043</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>417</start>
-                    <end>462</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=214</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="De Poenitentia Libri Duo">
-            <titleInfo>
-                <title>De Poenitentia Libri Duo</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa005</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>465</start>
-                    <end>524</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=238</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="De Fide Ad Gratianum Augustum Libri Quinque">
-            <titleInfo>
-                <title>De Fide Ad Gratianum Augustum Libri Quinque</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa002</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>527</start>
-                    <end>698</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=270</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="De Spiritu Sancto Libri Tres">
-            <titleInfo>
-                <title>De Spiritu Sancto Libri Tres</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa006</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>703</start>
-                    <end>816</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=358</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="De Incarnationis Dominicae Sacramento Liber Unus">
-            <titleInfo>
-                <title>De Incarnationis Dominicae Sacramento Liber Unus</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa030</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>817</start>
-                    <end>846</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=414</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Epistolae Prima Classis">
-            <titleInfo>
-                <title>Epistolae Prima Classis</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa009</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>875</start>
-                    <end>1220</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=444</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Epistolae Secunda Classis">
-            <titleInfo>
-                <title>Epistolae Secunda Classis</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa009a</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>1219</start>
-                    <end>1286</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=616</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="De Excessu Fratris Sui Satyri Libri Duo">
-            <titleInfo>
-                <title>De Excessu Fratris Sui Satyri Libri Duo</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa001</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>1289</start>
-                    <end>1354</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=650</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="De Obitu Valentiniani Consolatio">
-            <titleInfo>
-                <title>De Obitu Valentiniani Consolatio</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa041</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>1357</start>
-                    <end>1384</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=684</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="De Obitu Theodosii Oratio">
-            <titleInfo>
-                <title>De Obitu Theodosii Oratio</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa040</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>1385</start>
-                    <end>1406</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=698</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Hymni">
-            <titleInfo>
-                <title>Hymni</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100227669">
-                <namePart>Ambrose</namePart>
-                <namePart type="termsOfAddress">Saint</namePart>
-                <namePart type="termsOfAddress">Bishop of Milan</namePart>
-                <namePart type="date">d. 397</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0022-stoa010</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>1409</start>
-                    <end>1412</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uva.x000826550?urlappend=%3Bseq=710</url>
-            </location>
-
-        </relatedItem>
-    </mods>
-    <mods displayLabel="Ambrose-Opera Omnia-Patrologia Latina 18-Opera Volume 2-Part 2">
-        <titleInfo>
-            <title>Sancti Ambrosii Mediolanensis Episcopi opera omnia</title>
-            <partNumber>Tomus Secundi et Ultimi Pars Posterior</partNumber>
-        </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/64009375">
-            <namePart>Migne, Jacques Paul</namePart>
-            <namePart type="date">1800-1875</namePart>
-            <role>
-                <roleTerm type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">fr</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Parisiis</placeTerm>
-            </place>
-            <publisher>Sirou</publisher>
-            <dateIssued>1845</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language objectPart="text">
-            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
-        </language>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>1256 columns; 28 cm</extent>
-            <digitalOrigin>digitized other analog</digitalOrigin>
-        </physicalDescription>
-        <note type="statement of responsibility" altRepGroup="00">Accurante J.-P. Migne</note>
-        <note>Subtitle varies.</note>
-        <classification authority="lcc">BR60 .M4</classification>
-        <identifier type="lccn">70235380</identifier>
-        <identifier type="oclc">64827596</identifier>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/64827596</url>
-        </location>
-        <location>
+             <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/hvd.32044015471329</url>
         </location>
         <relatedItem type="series">
@@ -2553,10 +1603,10 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/hvd.32044015471329?urlappend=%3Bseq=590</url>
             </location>
-
         </relatedItem>
+        </relatedItem>
+        <!-- END OF AMBROSE OPERA -->
     </mods>
-
 
     <mods displayLabel="Comicorum Graecorum Fragmenta">
         <titleInfo>
