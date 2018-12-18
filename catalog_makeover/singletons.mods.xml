@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <mods displayLabel="Ab excessu divi Marci libri octo-Herodianus-Bekker-Teubner-1855">
         <titleInfo>
             <title>Herodiani ab excessu divi Marci libri octo</title>
@@ -506,7 +506,7 @@
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n80-3987.html">
+            valueURI="https://viaf.org/viaf/39744457/">
             <namePart>Greenough, J. B. (James Bradstreet)</namePart>
             <namePart type="date">1833-1901</namePart>
             <role>
@@ -602,7 +602,7 @@
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n80-3987.html">
+            valueURI="https://viaf.org/viaf/39744457/">
             <namePart>Greenough, J. B. (James Bradstreet)</namePart>
             <namePart type="date">1833-1901</namePart>
             <role>
@@ -645,7 +645,6 @@
         <identifier type="isbn">0198146612 (v.1) :</identifier>
         <identifier type="lccn">75582345</identifier>
         <identifier type="oclc">1188312</identifier>
-        <identifier type="Perseus:abo">Perseus:abo:phi,0914,001</identifier>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -689,10 +688,9 @@
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n50-25053.html             ">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/110076320/">
             <namePart>Ogilvie, R. M. (Robert Maxwell)</namePart>
-            <namePart type="date">1932-</namePart>
+            <namePart type="date">1932-1981</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
@@ -726,39 +724,6 @@
         <titleInfo>
             <title>Titi Livi Ab Urbe condita</title>
         </titleInfo>
-        <identifier type="lccn">14014418</identifier>
-        <identifier type="oclc">826880</identifier>
-        <typeOfResource>text</typeOfResource>
-        <genre authority="marc">bibliography</genre>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">enk</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Oxonii</placeTerm>
-            </place>
-            <publisher>E Typographeo Clarendoniano</publisher>
-            <dateModified/>
-            <dateIssued>1914-</dateIssued>
-            <edition>Reprint</edition>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <physicalDescription>
-            <extent>4 vols</extent>
-        </physicalDescription>
-        <classification authority="lcc">PA6105.S8 L5 </classification>
-        <classification authority="ddc">937/.007/2</classification>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Scriptorum classicorum bibliotheca Oxoniensis</title>
-            </titleInfo>
-            <titleInfo type="translated" lang="eng">
-                <title>Oxford Classical Texts</title>
-            </titleInfo>
-        </relatedItem>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/76310470/">
             <namePart>Livy</namePart>
@@ -782,6 +747,37 @@
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
+        <typeOfResource>text</typeOfResource>
+        <genre authority="marc">bibliography</genre>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">enk</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Oxonii</placeTerm>
+            </place>
+            <publisher>E Typographeo Clarendoniano</publisher>
+            <dateModified>1951-1970</dateModified>
+            <dateIssued>1914-1968</dateIssued>
+            <edition>Reprint</edition>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <physicalDescription>
+            <extent>4 vols</extent>
+        </physicalDescription>
+        <classification authority="lcc">PA6105.S8 L5 </classification>
+        <classification authority="ddc">937/.007/2</classification>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Scriptorum classicorum bibliotheca Oxoniensis</title>
+            </titleInfo>
+            <titleInfo type="translated" lang="eng">
+                <title>Oxford Classical Texts</title>
+            </titleInfo>
+        </relatedItem>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
         <subject>
             <geographicCode authority="marcgac">e-it---</geographicCode>
         </subject>
@@ -789,6 +785,8 @@
             <geographic>Rome</geographic>
             <topic>History</topic>
         </subject>
+        <identifier type="lccn">14014418</identifier>
+        <identifier type="oclc">826880</identifier>
         <location>
             <url displayLabel="Worldcat">http://www.worldcat.org/oclc/826880</url>
         </location>
@@ -5933,7 +5931,7 @@
             <title>Apulei Platonici Madaurensis, Pro se de magia liber (Apologia)</title>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n80-126286.html">
+            valueURI="https://viaf.org/viaf/32115433/">
             <namePart>Apuleius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -10462,11 +10460,12 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" xlink:href="http://errol.oclc.org/laf/n80-3987.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/39744457/">
             <namePart>Greenough, J. B. (James Bradstreet)</namePart>
             <namePart type="date">1833-1901</namePart>
             <role>
-                <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
         <name authority="viaf" type="personal"
@@ -29882,8 +29881,8 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Florida</title>
         </titleInfo>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n80-126286.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/32115433/">
             <namePart>Apuleius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -50915,8 +50914,8 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n80-126286.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/32115433/">
             <namePart>Apuleius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -51010,8 +51009,8 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n80-126286.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/32115433/">
             <namePart>Apuleius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -51112,8 +51111,8 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n80-126286.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/32115433/">
             <namePart>Apuleius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -51189,8 +51188,8 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n80-126286.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/32115433/">
             <namePart>Apuleius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -51214,8 +51213,7 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Metaphrasis in Theophrastum</title>
         </titleInfo>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n2007-41361.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/262066509/">
             <namePart>Priscianus,</namePart>
             <namePart type="termsOfAddress">Lydus,</namePart>
             <namePart type="date">6th cent.</namePart>
@@ -51223,9 +51221,9 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://id.loc.gov/authorities/names/n79138649">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/76391283/">
             <namePart>Bywater, Ingram</namePart>
+            <namePart type="date">1840-1914</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
@@ -52912,8 +52910,7 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n79-138649.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/76391283/">
             <namePart>Bywater, Ingram</namePart>
             <namePart type="date">1840-1914</namePart>
             <role>
@@ -53050,8 +53047,7 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n79-138649.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/76391283/">
             <namePart>Bywater, Ingram</namePart>
             <namePart type="date">1840-1914</namePart>
             <role>
@@ -56373,9 +56369,9 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">translator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n80-3987.html             ">
-            <namePart>Greenough, James Bradstreet</namePart>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/39744457/">
+            <namePart>Greenough, J. B. (James Bradstreet)</namePart>
             <namePart type="date">1833-1901</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">author of introduction</roleTerm>
@@ -56610,7 +56606,7 @@ but this is where the TLG has left off for numbering-->
             </titleInfo>
         </relatedItem>
         <location>
-            <url displayLabel="WorldCat">http://worldcat.org/oclc/1561845 </url>
+            <url displayLabel="WorldCat">http://worldcat.org/oclc/1561845</url>
         </location>
         <location>
             <url displayLabel="Open Content Alliance"
@@ -56626,8 +56622,7 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n79-138649.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/76391283/">
             <namePart>Bywater, Ingram</namePart>
             <namePart type="date">1840-1914</namePart>
             <role>
