@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <mods displayLabel="Ab excessu divi Marci libri octo-Herodianus-Bekker-Teubner-1855">
         <titleInfo>
             <title>Herodiani ab excessu divi Marci libri octo</title>
@@ -346,8 +346,8 @@
             </relatedItem>
         </relatedItem>
     </mods>
-    
- 
+
+
     <mods displayLabel="Ab Urbe Condita-Livy-Dimsdale-Pitt-1888">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Ab Urbe Condita</title>
@@ -629,7 +629,7 @@
         </relatedItem>
     </mods>
     <mods displayLabel="Ab Urbe Condita-Livy-OCT-Ogilvie-1974">
-        <titleInfo xml:lang="eng" type="uniform">
+        <titleInfo xml:lang="lat" type="uniform">
             <title>Ab Urbe Condita</title>
         </titleInfo>
         <part>
@@ -642,7 +642,7 @@
             <partNumber>Tomus I</partNumber>
             <partNumber>Libri I-IV</partNumber>
         </titleInfo>
-        <identifier type="isbn">0198146612 (v.1) :</identifier>
+        <identifier type="isbn">0198146612 (v.1)</identifier>
         <identifier type="lccn">75582345</identifier>
         <identifier type="oclc">1188312</identifier>
         <typeOfResource>text</typeOfResource>
@@ -688,7 +688,8 @@
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/110076320/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/110076320/">
             <namePart>Ogilvie, R. M. (Robert Maxwell)</namePart>
             <namePart type="date">1932-1981</namePart>
             <role>
@@ -732,15 +733,15 @@
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n50-32107.html">
+            valueURI="https://viaf.org/viaf/24678152/">
             <namePart>Conway, Robert Seymour</namePart>
             <namePart type="date">1864-1933</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no2005-81631.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/208476017/">
             <namePart>Walters, C. Flamstead (Charles Flamstead)</namePart>
             <namePart type="date">d. 1927</namePart>
             <role>
@@ -892,7 +893,8 @@
                             <roleTerm authority="marcrelator" type="text">editor</roleTerm>
                         </role>
                     </name>
-                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/49300267/">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/49300267/">
                         <namePart>Johnson, Stephen Keymer </namePart>
                         <role>
                             <roleTerm authority="marcrelator" type="text">co-editor </roleTerm>
@@ -919,9 +921,8 @@
             </relatedItem>
         </relatedItem>
     </mods>
-
     <mods displayLabel="Ab Urbe Condita-Baker-Wardle-1836-1839">
-        <titleInfo xml:lang="en" type="uniform">
+        <titleInfo xml:lang="lat" type="uniform">
             <title>Ab Urbe Condita</title>
         </titleInfo>
         <titleInfo>
@@ -1065,14 +1066,16 @@
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/117151321/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/117151321/">
             <namePart>Müller, Moritz</namePart>
             <namePart type="date">b. 1854</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/51764444/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/51764444/">
             <namePart>Weissenborn, Wilhelm</namePart>
             <namePart type="date">1803-1878</namePart>
             <role>
@@ -1195,7 +1198,8 @@
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/51764444/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/51764444/">
             <namePart>Weissenborn, Wilhelm</namePart>
             <namePart type="date">1803-1878</namePart>
             <role>
@@ -1220,7 +1224,8 @@
                         </detail>
                     </part>
                     <!-- SHOULD I BE PUTTING IN A GERMAN PART TWO SINCE SEPARATE TITLES ARE IN GERMAN -->
-                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/51764444/">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/51764444/">
                         <namePart>Weissenborn, Wilhelm</namePart>
                         <namePart type="date">1803-1878</namePart>
                         <role>
@@ -1255,7 +1260,8 @@
                             <number>2</number>
                         </detail>
                     </part>
-                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/51764444/">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/51764444/">
                         <namePart>Weissenborn, Wilhelm</namePart>
                         <namePart type="date">1803-1878</namePart>
                         <role>
@@ -1290,7 +1296,8 @@
                             <number>3</number>
                         </detail>
                     </part>
-                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/51764444/">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/51764444/">
                         <namePart>Weissenborn, Wilhelm</namePart>
                         <namePart type="date">1803-1878</namePart>
                         <role>
@@ -1329,7 +1336,8 @@
                             <number>4</number>
                         </detail>
                     </part>
-                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/51764444/">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/51764444/">
                         <namePart>Weissenborn, Wilhelm</namePart>
                         <namePart type="date">1803-1878</namePart>
                         <role>
@@ -1368,7 +1376,8 @@
                             <number>5</number>
                         </detail>
                     </part>
-                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/51764444/">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/51764444/">
                         <namePart>Weissenborn, Wilhelm</namePart>
                         <namePart type="date">1803-1878</namePart>
                         <role>
@@ -1407,7 +1416,8 @@
                             <number>6</number>
                         </detail>
                     </part>
-                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/51764444/">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/51764444/">
                         <namePart>Weissenborn, Wilhelm</namePart>
                         <namePart type="date">1803-1878</namePart>
                         <role>
@@ -1447,7 +1457,8 @@
                             <number>Part One-Two</number>
                         </detail>
                     </part>
-                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/51764444/">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/51764444/">
                         <namePart>Weissenborn, Wilhelm</namePart>
                         <namePart type="date">1803-1878</namePart>
                         <role>
@@ -1491,7 +1502,8 @@
                             <number>8</number>
                         </detail>
                     </part>
-                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/51764444/">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/51764444/">
                         <namePart>Weissenborn, Wilhelm</namePart>
                         <namePart type="date">1803-1878</namePart>
                         <role>
@@ -1528,7 +1540,8 @@
                             <number>Part One-Two</number>
                         </detail>
                     </part>
-                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/51764444/">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/51764444/">
                         <namePart>Weissenborn, Wilhelm</namePart>
                         <namePart type="date">1803-1878</namePart>
                         <role>
@@ -1564,7 +1577,8 @@
                             <number>Part One-Two</number>
                         </detail>
                     </part>
-                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/51764444/">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/51764444/">
                         <namePart>Weissenborn, Wilhelm</namePart>
                         <namePart type="date">1803-1878</namePart>
                         <role>
@@ -1668,7 +1682,8 @@
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/24689933/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/24689933/">
             <namePart>Reid, James S.</namePart>
             <namePart type="date">1846-1926</namePart>
             <role>
@@ -1755,7 +1770,8 @@
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/12437909/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/12437909/">
             <namePart>Klotz, Alfred</namePart>
             <namePart type="date">1874-1956</namePart>
             <role>
@@ -1777,14 +1793,16 @@
         <titleInfo>
             <title>Arnobii adversus nationes Libri VII</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/100902203/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100902203/">
             <namePart>Arnobius,</namePart>
             <namePart type="termsOfAddress">of Sicca</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/66457783/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/66457783/">
             <namePart>Reifferscheid, August</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
@@ -1858,7 +1876,8 @@
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/68937979/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/68937979/">
             <namePart>Dryden, John</namePart>
             <namePart type="date">1631-1700</namePart>
             <role>
@@ -1894,7 +1913,8 @@
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/33004300">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/33004300">
             <namePart>Janell, Walther</namePart>
             <namePart type="date">1877-1932</namePart>
             <role>
@@ -2005,7 +2025,7 @@
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Aeneid-Virgil-Williams-English-Perseus-2">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Aeneid</title>
@@ -2028,7 +2048,7 @@
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="naf" type="personal" authorityURI="http://viaf.org/viaf/"
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/41406150">
             <namePart>Williams, Theodore Chickering</namePart>
             <namePart type="date">1855-1915</namePart>
@@ -2160,7 +2180,7 @@
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
         <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/nr95-22107.html">
+            authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/172388543/">
             <namePart>Lucilius Iunior</namePart>
             <namePart type="date">fl. 4-64</namePart>
             <role>
@@ -2168,14 +2188,14 @@
             </role>
         </name>
         <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n84-208759.html">
+            authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/24146332838818730292/">
             <namePart>Appendix Vergiliana</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
         <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n87-110884.html">
+            valueURI="https://viaf.org/viaf/"  authorityURI="https://viaf.org/viaf/8163894/">
             <namePart>Sudhaus, Siegfried</namePart>
             <namePart type="date">1863-1914</namePart>
             <role>
@@ -2211,15 +2231,14 @@
         <titleInfo type="abbreviated">
             <title>Contra Apionem</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n80-15583.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/22143666/">
             <namePart>Josephus, Flavius.</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" authorityURI="http://id.loc.gov/authorities/names/" type="personal"
-            valueURI="http://id.loc.gov/authorities/names/n90632399">
+        <name authority="viaf" authorityURI="https://viaf.org/viaf/" type="personal"
+            valueURI="https://viaf.org/viaf/30286690">
             <namePart>Boysen, K. (Karl),</namePart>
             <namePart type="date">1852-1922</namePart>
             <role>
@@ -2354,7 +2373,8 @@
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/" authorityURI="https://viaf.org/viaf/47161437/">
+        <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/"
+            authorityURI="https://viaf.org/viaf/47161437/">
             <namePart>Furneaux, Henry</namePart>
             <namePart type="date">1829-1900</namePart>
             <role>
@@ -2395,7 +2415,7 @@
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" 
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/27081575">
             <namePart>Garzya, Antonio</namePart>
             <namePart type="date">1927-2012</namePart>
@@ -2588,7 +2608,7 @@
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-43229.html">
+            valueURI="https://viaf.org/viaf/69007721/">
             <namePart>Murray, Gilbert</namePart>
             <namePart type="date">1866-1957</namePart>
             <role>
@@ -4026,7 +4046,8 @@
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/" authorityURI="https://viaf.org/viaf/47161437/">
+        <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/"
+            authorityURI="https://viaf.org/viaf/47161437/">
             <namePart>Furneaux, Henry</namePart>
             <namePart type="date">1829-1900</namePart>
             <role>
@@ -4081,7 +4102,8 @@
                             </detail>
                         </part>
                     </relatedItem>
-                    <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/" authorityURI="https://viaf.org/viaf/47161437/">
+                    <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/"
+                        authorityURI="https://viaf.org/viaf/47161437/">
                         <namePart>Furneaux, Henry</namePart>
                         <namePart type="date">1829-1900</namePart>
                         <role>
@@ -4113,7 +4135,8 @@
                             </detail>
                         </part>
                     </relatedItem>
-                    <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/" authorityURI="https://viaf.org/viaf/47161437/">
+                    <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/"
+                        authorityURI="https://viaf.org/viaf/47161437/">
                         <namePart>Furneaux, Henry</namePart>
                         <namePart type="date">1829-1900</namePart>
                         <role>
@@ -5947,7 +5970,7 @@
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n80-8541.html">
+            valueURI="https://viaf.org/viaf/264822785/">
             <namePart>Apollonius,</namePart>
             <namePart type="termsOfAddress">Rhodius</namePart>
             <role>
@@ -6030,7 +6053,7 @@
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n80-8541.html">
+            valueURI="https://viaf.org/viaf/264822785/">
             <namePart>Apollonius,</namePart>
             <namePart type="termsOfAddress">Rhodius</namePart>
             <role>
@@ -6071,7 +6094,7 @@
         </titleInfo>
         <identifier type="oclc">4348547</identifier>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n80-8541.html">
+            valueURI="https://viaf.org/viaf/264822785/">
             <namePart>Apollonius,</namePart>
             <namePart type="termsOfAddress">Rhodius</namePart>
             <role>
@@ -6207,8 +6230,8 @@
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n84-216357.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100899421/">
             <namePart>Valerius Flaccus, Gaius</namePart>
             <namePart type="date">1st cent</namePart>
             <role>
@@ -6316,20 +6339,19 @@
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/uc1.$b649509</url>
         </location>
-
-        <language>
+        <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n84-216357.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100899421/">
             <namePart>Valerius Flaccus, Gaius</namePart>
             <namePart type="date">1st cent</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="http://id.loc.gov/authorities/names/"
-            valueURI="http://id.loc.gov/authorities/names/n81111918">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/12523146">
             <namePart>Schenkl, Karl,</namePart>
             <namePart type="date">1827-1900</namePart>
             <role>
@@ -6366,8 +6388,8 @@
         <titleInfo type="uniform" nameTitleGroup="1">
             <title>Argonautica</title>
         </titleInfo>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n84-216357.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100899421/">
             <namePart>Valerius Flaccus, Gaius</namePart>
             <namePart type="date">1st cent</namePart>
             <role>
@@ -6475,7 +6497,7 @@
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Tevbneri</publisher>
+            <publisher>in aedibvs B. G. Teubneri</publisher>
             <dateIssued>1930</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -6690,7 +6712,7 @@ but this is where the TLG has left off for numbering-->
             <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
         </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n85-11976.html">
+            valueURI="https://viaf.org/viaf/10637157/">
             <namePart>Eudoxus</namePart>
             <namePart type="termsOfAddress">of Cnidus</namePart>
             <namePart type="date">ca. 400-ca. 350 B.C</namePart>
@@ -6699,7 +6721,7 @@ but this is where the TLG has left off for numbering-->
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n86-46008.html">
+            valueURI="https://viaf.org/viaf/24690108/">
             <namePart>Blass, Friedrich</namePart>
             <namePart type="date">1843-1907</namePart>
             <role>
@@ -7189,7 +7211,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Tevbneri</publisher>
+            <publisher>in aedibvs B. G. Teubneri</publisher>
             <dateIssued>1892</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -7659,7 +7681,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Tevbneri</publisher>
+            <publisher>in aedibvs B. G. Teubneri</publisher>
             <dateIssued>1875</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -8831,7 +8853,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Tevbneri</publisher>
+            <publisher>in aedibvs B. G. Teubneri</publisher>
             <dateIssued>1887</dateIssued>
             <dateIssued encoding="marc">1887</dateIssued>
             <issuance>monographic</issuance>
@@ -11334,7 +11356,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Tevbneri</publisher>
+            <publisher>in aedibvs B. G. Teubneri</publisher>
             <dateIssued>1892</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -13085,7 +13107,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Tevbneri</publisher>
+            <publisher>in aedibvs B. G. Teubneri</publisher>
             <dateIssued>1922</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -13177,7 +13199,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Tevbneri</publisher>
+            <publisher>in aedibvs B. G. Teubneri</publisher>
             <dateIssued>1895</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -14390,14 +14412,16 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/90637919/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/90637919/">
             <namePart>Seneca, Lucius Annaeus</namePart>
             <namePart type="date">ca. 4 B.C.-65 A.D</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/26180619/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/26180619/">
             <namePart>Stewart, Aubrey</namePart>
             <namePart type="date">1844-</namePart>
             <role>
@@ -14855,7 +14879,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Tevbneri</publisher>
+            <publisher>in aedibvs B. G. Teubneri</publisher>
             <dateIssued>1903</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -16730,8 +16754,8 @@ but this is where the TLG has left off for numbering-->
             <title>De medicina</title>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n50-34315.html">
-            <namePart>Celsus, Aulus Cornelius.</namePart>
+            valueURI="https://viaf.org/viaf/100172872/">
+            <namePart>Celsus, Aulus Cornelius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
@@ -16878,8 +16902,8 @@ but this is where the TLG has left off for numbering-->
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n50-34315.html">
-            <namePart>Celsus, Aulus Cornelius.</namePart>
+            valueURI="https://viaf.org/viaf/100172872/">
+            <namePart>Celsus, Aulus Cornelius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
@@ -16926,14 +16950,14 @@ but this is where the TLG has left off for numbering-->
         <identifier type="lccn">36014222</identifier>
         <identifier type="oclc">14778258</identifier>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n50-34315.html">
-            <namePart>Celsus, Aulus Cornelius.</namePart>
+            valueURI="https://viaf.org/viaf/100172872/">
+            <namePart>Celsus, Aulus Cornelius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n81-111913.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/44427282/">
             <namePart>Marx, Friedrich</namePart>
             <namePart type="date">1859-1941</namePart>
             <role>
@@ -16948,7 +16972,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae et Berolini</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Tevbneri</publisher>
+            <publisher>in aedibus B. G. Teubneri</publisher>
             <dateIssued>1915</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -17839,7 +17863,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Tevbneri</publisher>
+            <publisher>in aedibvs B. G. Teubneri</publisher>
             <dateIssued>1884</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -18208,7 +18232,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B.G. Tevbneri</publisher>
+            <publisher>in aedibvs B.G. Teubneri</publisher>
             <dateIssued>1881</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -21458,7 +21482,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B.G. Tevbneri</publisher>
+            <publisher>in aedibvs B.G. Teubneri</publisher>
             <dateIssued>1903</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -27642,7 +27666,8 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Ad Lucilium epistulae morales</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/90637919/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/90637919/">
             <namePart>Seneca, Lucius Annaeus</namePart>
             <namePart type="date">ca. 4 B.C.-65 A.D</namePart>
             <role>
@@ -27851,7 +27876,8 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/90637919/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/90637919/">
             <namePart>Seneca, Lucius Annaeus</namePart>
             <namePart type="date">ca. 4 B.C.-65 A.D</namePart>
             <role>
@@ -27939,7 +27965,8 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/90637919/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/90637919/">
             <namePart>Seneca, Lucius Annaeus</namePart>
             <namePart type="date">ca. 4 B.C.-65 A.D</namePart>
             <role>
@@ -28783,8 +28810,8 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Gai Vetti Aquilini Iuvenci Evangeliorum libri quattuor</title>
         </titleInfo>
-        <name authority="viaf" type="personal"
-            authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/4522150085882715060006/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/4522150085882715060006/">
             <namePart>Juvencus, Caius Vettius Aquilinus.</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -28910,8 +28937,8 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/4522150085882715060006/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/4522150085882715060006/">
             <namePart>Juvencus, Caius Vettius Aquilinus.</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -32197,7 +32224,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"  authorityURI="https://viaf.org/viaf" valueURI="http://viaf.org/viaf/54273523">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf"
+            valueURI="http://viaf.org/viaf/54273523">
             <namePart>Halm, Karl</namePart>
             <namePart type="date">1809-1882</namePart>
             <role>
@@ -32277,7 +32305,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Tevbneri</publisher>
+            <publisher>in aedibvs B. G. Teubneri</publisher>
             <dateIssued>1875</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -33385,7 +33413,8 @@ but this is where the TLG has left off for numbering-->
             <title>Historiae Animalium Epitome subiunctis Aeliani Timothei aliorumque
                 eclogis</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf" valueURI="http://viaf.org/viaf/18013064">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf"
+            valueURI="http://viaf.org/viaf/18013064">
             <namePart>Aristophanes</namePart>
             <namePart type="termsOfAddress">of Byzantium</namePart>
             <namePart type="date">257 B.C. - 180 B.C.</namePart>
@@ -34845,7 +34874,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/4973853/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/4973853/">
             <namePart>Dindorf, Ludwig August</namePart>
             <namePart type="date">1805-1871</namePart>
             <role>
@@ -35815,7 +35845,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm type="text" authority="marcrelator">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/4973853/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/4973853/">
             <namePart>Dindorf, Ludwig August</namePart>
             <namePart type="date">1805-1871</namePart>
             <role>
@@ -41059,7 +41090,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/" authorityURI="https://viaf.org/viaf/22184611/">
+        <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/"
+            authorityURI="https://viaf.org/viaf/22184611/">
             <namePart>Dindorf, Wilhelm</namePart>
             <namePart type="date">1802-1883</namePart>
             <role>
@@ -41666,7 +41698,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Tevbneri</publisher>
+            <publisher>in aedibvs B. G. Teubneri</publisher>
             <dateIssued>1893</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -46020,7 +46052,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Tevbneri</publisher>
+            <publisher>in aedibvs B. G. Teubneri</publisher>
             <dateIssued>1908</dateIssued>
             <dateIssued encoding="marc">1908</dateIssued>
             <issuance>monographic</issuance>
@@ -46132,7 +46164,7 @@ but this is where the TLG has left off for numbering-->
         <classification authority="ddc">888.4 (880.82)</classification>
         <relatedItem type="series">
             <titleInfo>
-                <title>Bibliotheca scriptorvm graecorvm et romanorvm Tevbneriana</title>
+                <title>Bibliotheca scriptorvm graecorvm et romanorvm Teubneriana</title>
             </titleInfo>
         </relatedItem>
         <identifier type="lccn">37039566</identifier>
@@ -46713,7 +46745,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/40557713/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/40557713/">
             <namePart>Watson, J. S. (John Selby)</namePart>
             <namePart type="date">1804-1884</namePart>
             <role>
@@ -47914,7 +47947,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Tevbneri</publisher>
+            <publisher>in aedibvs B. G. Teubneri</publisher>
             <dateIssued>1866</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -48717,7 +48750,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/" authorityURI="https://viaf.org/viaf/22184611/">
+        <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/"
+            authorityURI="https://viaf.org/viaf/22184611/">
             <namePart>Dindorf, Wilhelm</namePart>
             <namePart type="date">1802-1883</namePart>
             <role>
@@ -48800,7 +48834,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae et Berolini</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Tevbneri</publisher>
+            <publisher>in aedibvs B. G. Teubneri</publisher>
             <dateIssued>1916</dateIssued>
             <dateIssued encoding="marc">1916</dateIssued>
             <issuance>monographic</issuance>
@@ -48884,7 +48918,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>sumptibvs et typis B. G. Tevbneri</publisher>
+            <publisher>sumptibvs et typis B. G. Teubneri</publisher>
             <dateIssued>1854</dateIssued>
             <dateIssued encoding="marc">1854</dateIssued>
             <issuance>monographic</issuance>
@@ -51095,7 +51129,8 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Metaphrasis in Theophrastum</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/262066509/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/262066509/">
             <namePart>Priscianus,</namePart>
             <namePart type="termsOfAddress">Lydus,</namePart>
             <namePart type="date">6th cent.</namePart>
@@ -51103,7 +51138,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/76391283/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/76391283/">
             <namePart>Bywater, Ingram</namePart>
             <namePart type="date">1840-1914</namePart>
             <role>
@@ -51813,7 +51849,8 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/90637919/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/90637919/">
             <namePart>Seneca, Lucius Annaeus</namePart>
             <namePart type="date">ca. 4 B.C.-65 A.D</namePart>
             <role>
@@ -51919,7 +51956,8 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/90637919/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/90637919/">
             <namePart>Seneca, Lucius Annaeus</namePart>
             <namePart type="date">ca. 4 B.C.-65 A.D</namePart>
             <role>
@@ -52790,7 +52828,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/76391283/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/76391283/">
             <namePart>Bywater, Ingram</namePart>
             <namePart type="date">1840-1914</namePart>
             <role>
@@ -52927,7 +52966,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/76391283/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/76391283/">
             <namePart>Bywater, Ingram</namePart>
             <namePart type="date">1840-1914</namePart>
             <role>
@@ -53065,7 +53105,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Stutgardiae</placeTerm>
             </place>
-            <publisher>in aedibus B. G. Tevbneri</publisher>
+            <publisher>in aedibus B. G. Teubneri</publisher>
             <dateModified>1967</dateModified>
             <edition>Editio stereotypa editionis prioris (1903)</edition>
             <dateIssued>1903</dateIssued>
@@ -53351,7 +53391,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Tevbneri</publisher>
+            <publisher>in aedibvs B. G. Teubneri</publisher>
             <dateIssued>1900</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -53366,7 +53406,7 @@ but this is where the TLG has left off for numbering-->
         <classification authority="ddc">879.8</classification>
         <relatedItem type="series">
             <titleInfo>
-                <title>Bibliotheca scriptorvm medii aevi Tevbneriana</title>
+                <title>Bibliotheca scriptorvm medii aevi Teubneriana</title>
             </titleInfo>
             <titleInfo type="abbreviated">
                 <title>Teubner</title>
@@ -54313,7 +54353,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/" authorityURI="https://viaf.org/viaf/22184611/">
+        <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/"
+            authorityURI="https://viaf.org/viaf/22184611/">
             <namePart>Dindorf, Wilhelm</namePart>
             <namePart type="date">1802-1883</namePart>
             <role>
@@ -54581,7 +54622,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B.G. Tevbneri</publisher>
+            <publisher>in aedibvs B.G. Teubneri</publisher>
             <dateIssued>1900</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -55644,7 +55685,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Tevbneri</publisher>
+            <publisher>in aedibvs B. G. Teubneri</publisher>
             <dateIssued>1905</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -56501,7 +56542,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/76391283/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/76391283/">
             <namePart>Bywater, Ingram</namePart>
             <namePart type="date">1840-1914</namePart>
             <role>
@@ -57659,7 +57701,8 @@ but this is where the TLG has left off for numbering-->
             <title>Pythian 4</title>
         </titleInfo>
         <identifier type="Perseus:abo">Perseus:abo:tlg,0033,002</identifier>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/100181283/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100181283/">
             <namePart>Pindar</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -58585,7 +58628,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Tevbneri</publisher>
+            <publisher>in aedibvs B. G. Teubneri</publisher>
             <dateIssued>1889</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -61101,7 +61144,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibus B. G. Tevbneri</publisher>
+            <publisher>in aedibus B. G. Teubneri</publisher>
             <dateIssued>1888</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -61936,7 +61979,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Tevbneri</publisher>
+            <publisher>in aedibvs B. G. Teubneri</publisher>
             <dateIssued>1908</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
