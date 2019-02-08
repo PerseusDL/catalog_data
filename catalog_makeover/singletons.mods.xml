@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <mods displayLabel="Ab excessu divi Marci libri octo-Herodianus-Bekker-Teubner-1855">
         <titleInfo>
             <title>Herodiani ab excessu divi Marci libri octo</title>
@@ -14953,7 +14953,7 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
     <mods displayLabel="De Compendiosa Doctrina-Nonius Marcellinus-Lindsay-Teubner">
-        <titleInfo xml:lang="en" type="uniform">
+        <titleInfo xml:lang="lat" type="uniform">
             <title>De compendiosa doctrina</title>
         </titleInfo>
         <identifier type="oclc">62066283</identifier>
@@ -14994,8 +14994,7 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n86-113590.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/59182520/">
             <namePart>Nonius Marcellus</namePart>
             <namePart type="date">4th cent</namePart>
             <role>
@@ -15003,7 +15002,7 @@ but this is where the TLG has left off for numbering-->
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n50-50877.html">
+            valueURI="https://viaf.org/viaf/44378479/">
             <namePart>Lindsay, W. M. (Wallace Martin)</namePart>
             <namePart type="date">1858-1937</namePart>
             <role>
@@ -15237,7 +15236,8 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
         </language>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/12310254">
+        <name authority="viaf" authorityURI="http://viaf.org/viaf/" type="personal"
+            valueURI="http://viaf.org/viaf/12310254">
             <namePart>Iamblichus</namePart>
             <namePart type="date">ca. 250-ca. 330</namePart>
             <role>
@@ -15724,10 +15724,13 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/nr89-5316.html             ">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/51722041/">
             <namePart>Rackham, H. (Harris)</namePart>
             <namePart type="date">1868-1944</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
@@ -16322,7 +16325,7 @@ but this is where the TLG has left off for numbering-->
             <partNumber>Volume 1-2</partNumber>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-60808.html">
+            valueURI="https://viaf.org/viaf/100219311/">
             <namePart>Varro, Marcus Terentius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -16348,6 +16351,12 @@ but this is where the TLG has left off for numbering-->
             <dateIssued encoding="marc" point="start">1938</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
+        <language objectPart="text">
+            <languageTerm type="code">eng</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code">lat</languageTerm>
+        </language>
         <relatedItem type="series">
             <titleInfo>
                 <title>Loeb classical library</title>
@@ -17016,96 +17025,6 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Perseus" note="Latin"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0086</url>
-                </location>
-            </relatedItem>
-        </relatedItem>
-    </mods>
-
-    <mods displayLabel="De Medicina-Celsus-Marx-Teubner-Perseus-Latin-3">
-        <titleInfo xml:lang="lat" type="uniform">
-            <title>De Medicina</title>
-        </titleInfo>
-        <part>
-            <extent unit="words">
-                <total>106845</total>
-            </extent>
-        </part>
-        <titleInfo>
-            <title>A. Cornelii Celsi quae supersunt</title>
-        </titleInfo>
-        <identifier type="lccn">36014222</identifier>
-        <identifier type="oclc">14778258</identifier>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/100172872/">
-            <namePart>Celsus, Aulus Cornelius</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/44427282/">
-            <namePart>Marx, Friedrich</namePart>
-            <namePart type="date">1859-1941</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry"/>
-            </place>
-            <place>
-                <placeTerm type="text">Lipsiae et Berolini</placeTerm>
-            </place>
-            <publisher>in aedibus B. G. Teubneri</publisher>
-            <dateIssued>1915</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Bibliotheca scriptorum graecorum et romanorum Teubneriana</title>
-            </titleInfo>
-        </relatedItem>
-        <relatedItem type="series">
-            <titleInfo type="abbreviated">
-                <title>Teubner</title>
-            </titleInfo>
-        </relatedItem>
-        <language>
-            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
-        </language>
-        <relatedItem type="series">
-            <titleInfo type="abbreviated">
-                <title>Teubner</title>
-            </titleInfo>
-        </relatedItem>
-        <physicalDescription>
-            <digitalOrigin>digitized other analog</digitalOrigin>
-            <form authority="marcform">print</form>
-            <extent>p. cm.</extent>
-        </physicalDescription>
-        <subject authority="lcsh">
-            <topic>Medicine, Greek and Roman</topic>
-        </subject>
-        <classification authority="lcc">R127.A1 C6 vol. 1</classification>
-        <location>
-            <url displayLabel="LC Permalink">http://lccn.loc.gov/36014222</url>
-        </location>
-        <location>
-            <url displayLabel="WorldCat">http://worldcat.org/oclc/14778258</url>
-        </location>
-        <location>
-            <url displayLabel="CRL">https://dds.crl.edu/crldelivery/4605</url>
-        </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="De Medicina">
-            <identifier type="ctsurn">urn:cts:latinLit:phi0836.phi002</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="De Medicina">
-                <identifier type="ctsurn">urn:cts:latinLit:phi0836.phi002.perseus-lat3</identifier>
-                <identifier>Perseus:text:2007.01.0088</identifier>
-                <location>
-                    <url displayLabel="Perseus" note="Latin"
-                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0088</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -17978,7 +17897,8 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
         </language>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/12310254">
+        <name authority="viaf" authorityURI="http://viaf.org/viaf/" type="personal"
+            valueURI="http://viaf.org/viaf/12310254">
             <namePart>Iamblichus</namePart>
             <namePart type="date">ca. 250-ca. 330</namePart>
             <role>
@@ -21239,7 +21159,8 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>De vita Pythagorica liber</title>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/12310254">
+        <name authority="viaf" authorityURI="http://viaf.org/viaf/" type="personal"
+            valueURI="http://viaf.org/viaf/12310254">
             <namePart>Iamblichus</namePart>
             <namePart type="date">ca. 250-ca. 330</namePart>
             <role>
@@ -21306,77 +21227,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De vita pythagorica-Iamblichus-Nauck-Eggers-1884">
-        <titleInfo>
-            <title>De vita pythagorica liber</title>
-        </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/12310254">
-            <namePart>Iamblichus</namePart>
-            <namePart type="date">ca. 250-ca. 330</namePart>
-            <role>
-                <roleTerm authority="marcrelator">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/73941797/">
-            <namePart>Nauck, August</namePart>
-            <namePart type="date">1822-1892</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">ge</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="code" authority="marccountry">rus</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Lipsiae</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Petropolis</placeTerm>
-            </place>
-            <publisher>Eggers &amp; S. Et I. Glausnof</publisher>
-            <publisher>Haessel</publisher>
-            <dateIssued>1884</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <note type="statement of responsibility">Ad fidem codicis florentini recensuit Augustus
-            Nauck. Accedit epimetrum de Pythagorae Aureo carmine.</note>
-        <language objectPart="text">
-            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
-        </language>
-        <language objectPart="preface">
-            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
-        </language>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>xxxv, 369 p. facsim. 25 cm.</extent>
-        </physicalDescription>
-        <subject authority="lcsh">
-            <topic>Pythagoras and Pythagorean school</topic>
-        </subject>
-        <classification authority="lcc">PA3404 .J2 </classification>
-        <identifier type="oclc">9886137</identifier>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/9886137</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks">http://books.google.com/books?id=RIEwAQAAMAAJ</url>
-        </location>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/uc1.b4765701</url>
-        </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="De vita pythagorica liber">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg2023.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="De vita pythagorica liber">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg2023.tlg001.opp-grc1</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
+    
     <mods displayLabel="Declamationes-Calpurnius Flaccus-Hakanson-Teubner-1978">
         <titleInfo type="uniform" lang="lat">
             <title>Declamationes</title>
@@ -53005,11 +52856,14 @@ but this is where the TLG has left off for numbering-->
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/nr89-5316.html">
+            valueURI="https://viaf.org/viaf/51722041/">
             <namePart>Rackham, H. (Harris)</namePart>
             <namePart type="date">1868-1944</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
         <typeOfResource>text</typeOfResource>
@@ -56715,11 +56569,14 @@ but this is where the TLG has left off for numbering-->
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/nr89-5316.html">
+            valueURI="https://viaf.org/viaf/51722041/">
             <namePart>Rackham, H. (Harris)</namePart>
             <namePart type="date">1868-1944</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
         <typeOfResource>text</typeOfResource>
@@ -57413,7 +57270,8 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
         </language>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/12310254">
+        <name authority="viaf" authorityURI="http://viaf.org/viaf/" type="personal"
+            valueURI="http://viaf.org/viaf/12310254">
             <namePart>Iamblichus</namePart>
             <namePart type="date">ca. 250-ca. 330</namePart>
             <role>
@@ -58616,8 +58474,7 @@ but this is where the TLG has left off for numbering-->
                 >http://www.archive.org/details/rerumrusticaruml00varruoft</url>
         </location>
         <location>
-            <url displayLabel="Open Library"
-                >http://openlibrary.org/details/rerumrusticaruml00varruoft</url>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/uc1.32106001548673</url>
         </location>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
@@ -58629,16 +58486,14 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no95-14233.html">
+        <name authority="viaf" type="personal"  authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/49984473/">
             <namePart>Goetz, Georg</namePart>
             <namePart type="date">1849-1932</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n89-634657.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/2604826/">
             <namePart>Keil, Heinrich</namePart>
             <namePart type="date">1822-1894</namePart>
             <role>
@@ -58670,16 +58525,14 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no95-14233.html">
+        <name authority="viaf" type="personal"  authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/49984473/">
             <namePart>Goetz, Georg</namePart>
             <namePart type="date">1849-1932</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n89-634657.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/2604826/">
             <namePart>Keil, Heinrich</namePart>
             <namePart type="date">1822-1894</namePart>
             <role>
