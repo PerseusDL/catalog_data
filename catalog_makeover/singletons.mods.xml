@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <mods displayLabel="Ab excessu divi Marci libri octo-Herodianus-Bekker-Teubner-1855">
         <titleInfo>
             <title>Herodiani ab excessu divi Marci libri octo</title>
@@ -48,8 +48,8 @@
             recogniti.</note>
         <subject authority="lcsh">
             <name type="personal">
-                <namePart type="termsOfAddress">Emperor of Rome</namePart>
                 <namePart>Marcus Aurelius</namePart>
+                <namePart type="termsOfAddress">Emperor of Rome</namePart>
                 <namePart type="date">121-180</namePart>
             </name>
         </subject>
@@ -30533,7 +30533,67 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-
+    <mods displayLabel="Frogs-Aristophanes-Dillon-Routledge-Perseus-1994">
+        <titleInfo>
+            <title>Ancient Greece</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/38112821/">
+            <namePart>Dillon, Matthew</namePart>
+            <namePart type="date">1963-</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/"
+            authorityURI="https://viaf.org/viaf/71490376/">
+            <namePart>Garland, Lynda</namePart>
+            <namePart type="date">1955-</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">enk</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">London</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">New York</placeTerm>
+            </place>
+            <publisher>Routledge</publisher>
+            <dateIssued>1994</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language objectPart="text">
+            <languageTerm type="code">eng</languageTerm>
+        </language>
+        <identifier type="isbn">0415113660 (hbk.)</identifier>
+        <identifier type="isbn">0415113679 (pbk.)</identifier>
+        <identifier type="lccn">94020490</identifier>
+        <classification authority="lcc">DF75 .D55 1994</classification>
+        <classification authority="ddc" edition="20">938</classification>
+        <subject>
+            <geographicCode authority="marcgac">e-gr---</geographicCode>
+        </subject>
+        <subject authority="lcsh">
+            <geographic>Greece</geographic>
+            <topic>Civilization</topic>
+            <temporal>To 146 B.C</temporal>
+            <topic>Sources</topic>
+        </subject>
+        <location>
+            <url displayLabel="WorldCat"> http://worldcat.org/oclc/30511867</url>
+        </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="Frogs">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0019.tlg009</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Frogs">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0019.tlg009.perseus-eng1</identifier>
+            </relatedItem>
+        </relatedItem>
+    </mods>
     <mods displayLabel="Gallic War-Caesar-Shuckburgh-Cambridge-1912 (1953 reprint)">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Gallic War</title>
