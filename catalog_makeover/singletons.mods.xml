@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <mods displayLabel="Ab excessu divi Marci libri octo-Herodianus-Bekker-Teubner-1855">
         <titleInfo>
             <title>Herodiani ab excessu divi Marci libri octo</title>
@@ -1619,6 +1619,7 @@
             </relatedItem>
         </relatedItem>
     </mods>
+    
     <mods displayLabel="Academica-Cicero-Reid-Macmillan-1885">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Academica</title>
@@ -1698,6 +1699,63 @@
             <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi045</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Academica">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi045.opp-lat1</identifier>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods displayLabel="Acharnians-Aristophanes-Liveright-Unknown-Perseus-English">
+        <!-- Only one work cataloged in this edition-Perseus edition -->
+        <titleInfo>
+            <title>Eleven comedies</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            xlink:href="https://viaf.org/viaf/20962036/">
+            <namePart>Aristophanes</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">nyu</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">New York</placeTerm>
+            </place>
+            <publisher>Pub. for subscribers only by H. Liveright</publisher>
+            <dateIssued>[192-?]</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <identifier type="oclc">9315192</identifier>
+        <classification authority="lcc">PA3877.A1 A82</classification>
+        <subject authority="lcsh">
+            <name type="personal">
+                <namePart>Aristophanes</namePart>
+            </name>
+            <genre>Translations into English</genre>
+        </subject>
+        <subject authority="lcsh">
+            <geographic>Athens (Greece)</geographic>
+            <genre>Drama</genre>
+        </subject>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/9315192</url>
+        </location>
+        <relatedItem type="constituent" otherType="volume" displayLabel="Vol I">
+            <part type="volume">
+                <detail type="volume">
+                    <title>Vol I</title>
+                </detail>
+            </part>
+            <location>
+                <url displayLabel="Open Content Alliance"
+                    >http://www.archive.org/details/elevencomedies00arisuoft</url>
+            </location>
+            
+            <relatedItem type="constituent" otherType="work" displayLabel="Acharnians">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0019.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Acharnians">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0019.tlg001.perseus-eng1</identifier>
+                </relatedItem>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -11762,7 +11820,73 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-
+    <mods displayLabel="Clouds-Aristophanes-Hickie-Bohn-Perseus">
+        <titleInfo>
+            <title>Comedies of Aristophanes</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            xlink:href="https://viaf.org/viaf/20962036/">
+            <namePart>Aristophanes</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal"  authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/11030523/">
+            <namePart>Hickie, William James</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">enk</placeTerm>
+            </place>
+            <publisher>Bohn</publisher>
+            <dateIssued>1853</dateIssued>
+            <issuance>monographic</issuance>
+            <place>
+                <placeTerm type="text">London</placeTerm>
+            </place>
+        </originInfo>
+        <identifier type="oclc">66159785</identifier>
+        <classification authority="lcc">PA3877.A1 H5 1874</classification>
+        <subject authority="lcsh">
+            <name type="personal">
+                <namePart>Aristophanes</namePart>
+            </name>
+            <genre>Translations into English</genre>
+        </subject>
+        <subject authority="lcsh">
+            <geographic>Athens (Greece)</geographic>
+            <genre>Drama</genre>
+        </subject>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/66159785</url>
+        </location>
+        <relatedItem type="constituent" otherType="volume" displayLabel="Vol I">
+            <part type="volume">
+                <detail type="volume">
+                    <title>Vol I</title>
+                </detail>
+            </part>
+            <location>
+                <url displayLabel="GoogleBooks">http://books.google.com/books?id=Cm4NAAAAYAAJ</url>
+            </location>
+            <relatedItem type="constituent" otherType="work" displayLabel="Clouds">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0019.tlg003</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Clouds">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0019.tlg003.perseus-eng1</identifier>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Clouds Epidoc Edition">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0019.tlg003.perseus-eng2</identifier>
+                </relatedItem>
+            </relatedItem>
+        </relatedItem>
+    </mods>
     <mods displayLabel="Collectanea Rerum Memorabilium-Solinus-Mommsen-Weidmann-1895">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Collectanea Rerum Memorabilium</title>
@@ -25412,8 +25536,8 @@ but this is where the TLG has left off for numbering-->
             <title>M. Valerii Martialis Epigrammata</title>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n82-13667.html">
-            <namePart>Martial.</namePart>
+            valueURI="https://viaf.org/viaf/8099277/">
+            <namePart>Martial</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
@@ -28335,8 +28459,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n50-50877.html             ">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/44378479/">
             <namePart>Lindsay, W. M. (Wallace Martin)</namePart>
             <namePart type="date">1858-1937</namePart>
             <role>
@@ -28883,7 +29007,77 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Fabulae-Phaedrus-Muller-1876-Perseus">
+    <mods displayLabel="Fabulae-Phaedrus-Riley/Smart-Bohn-Perseus-English">
+        <!-- Did not catalog Terence works as edition used for single work of Phaedrus -->
+        <titleInfo>
+            <title>Comedies of Terence and the fables of Phaedrus</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            xlink:href="https://viaf.org/viaf/66462384/">
+            <namePart>Terence</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100219094/">
+            <namePart>Phaedrus</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/34556234/">
+            <namePart>Riley, Henry T. (Henry Thomas)</namePart>
+            <namePart type="date">1816-1878</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+        </name>
+        <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n50-51100.html">
+            <namePart>Smart, Christopher</namePart>
+            <namePart type="date">1722-1771</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">enk</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">London</placeTerm>
+            </place>
+            <publisher>G. Bell &amp; Sons</publisher>
+            <dateIssued>1908</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <identifier type="oclc">225544332</identifier>
+        <classification authority="lcc">PA6756.A1 R5 1891</classification>        
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/225544332</url>
+        </location>
+          <location>
+              <url displayLabel="HathiTrust">https://hdl.handle.net/2027/njp.32101074943018</url>
+          </location>              
+        <relatedItem type="constituent" otherType="work" displayLabel="Fables">
+            <identifier type="ctsurn">urn:cts:latinLit:phi0975.phi001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Fables">
+                <identifier type="ctsurn">urn:cts:latinLit:phi0975.phi001.perseus-eng1</identifier>
+                <identifier>Perseus:text:1999.02.0119</identifier>
+                <location>
+                    <url displayLabel="Perseus" note="English">http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.02.0119</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods displayLabel="Fabulae-Phaedrus-Muller-1876-Perseus-Latin">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Fabulae Aesopiae</title>
         </titleInfo>
@@ -49911,9 +50105,8 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n80-14980.html">
-            <namePart>Plautus, Titus Maccius.</namePart>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/66462281/">
+            <namePart>Plautus, Titus Maccius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
@@ -55895,7 +56088,7 @@ but this is where the TLG has left off for numbering-->
                 <title>Mss. (Cod vat. lat. 3868) [from old catalog]</title>
             </titleInfo>
             <name authority="" type="personal">
-                <namePart>Terence.</namePart>
+                <namePart>Terence</namePart>
             </name>
         </relatedItem>
         <identifier type="lccn">04031915</identifier>
@@ -55914,8 +56107,8 @@ but this is where the TLG has left off for numbering-->
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-66715.html">
-            <namePart>Terence.</namePart>
+            xlink:href="https://viaf.org/viaf/66462384/">
+            <namePart>Terence</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
@@ -56026,8 +56219,8 @@ but this is where the TLG has left off for numbering-->
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-66715.html">
-            <namePart>Terence.</namePart>
+            xlink:href="https://viaf.org/viaf/66462384/">
+            <namePart>Terence</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
@@ -59233,9 +59426,8 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n80-14980.html">
-            <namePart>Plautus, Titus Maccius.</namePart>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/66462281/">
+            <namePart>Plautus, Titus Maccius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
