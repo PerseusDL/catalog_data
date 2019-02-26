@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <mods displayLabel="Ab excessu divi Marci libri octo-Herodianus-Bekker-Teubner-1855">
         <titleInfo>
             <title>Herodiani ab excessu divi Marci libri octo</title>
@@ -53768,8 +53768,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n86-852297.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/46839882/">
             <namePart>Rolfe, John Carew</namePart>
             <namePart type="date">1859-1943</namePart>
             <role>
@@ -58479,15 +58479,15 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name type="personal" authorityURI="https://viaf.org/viaf/" authority="naf"
-            xlink:href="http://errol.oclc.org/laf/n86-852297.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/46839882/">
             <namePart>Rolfe, John Carew</namePart>
             <namePart type="date">1859-1943</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">translator</roleTerm>
             </role>
             <role>
-                <roleTerm authority="marcrleator" type="text">editor</roleTerm>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
         <originInfo>
@@ -58522,6 +58522,12 @@ but this is where the TLG has left off for numbering-->
                 <title>Loeb classical library</title>
             </titleInfo>
         </relatedItem>
+        <language objectPart="text">
+            <languageTerm type="code">eng</languageTerm>
+        </language>        
+        <language objectPart="text">
+            <languageTerm type="code">lat</languageTerm>
+        </language>        
         <identifier type="lccn">36002106</identifier>
         <identifier type="oclc">1005221</identifier>
         <location displayLabel="LC Permalink">
@@ -58529,7 +58535,7 @@ but this is where the TLG has left off for numbering-->
         </location>
         <location displayLabel="WorldCat">
             <url>http://worldcat.org/oclc/1005221</url>
-        </location>
+        </location>        
         <relatedItem type="constituent" otherType="work" displayLabel="Res Gestae">
             <identifier type="ctsurn">urn:cts:latinLit:stoa0023.stoa001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Res Gestae">
@@ -58596,7 +58602,7 @@ but this is where the TLG has left off for numbering-->
                         <part>
                             <detail type="book">
                                 <caption>Book</caption>
-                                <number>Book 27-331</number>
+                                <number>Book 27-31</number>
                             </detail>
                         </part>
                     </relatedItem>
@@ -60570,9 +60576,24 @@ but this is where the TLG has left off for numbering-->
             </extent>
         </part>
         <titleInfo>
-            <nonSort>The </nonSort>
+            <nonSort>The</nonSort>
             <title>Satyricon of Petronius Arbiter</title>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/95155909/">
+            <namePart>Pétronius Arbiter</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/34464414/s">
+            <namePart>Wilde, Oscar</namePart>
+            <namePart type="date">1854-1900</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">attributed translator</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <genre authority="marc">biography</genre>
         <originInfo>
@@ -60594,7 +60615,6 @@ but this is where the TLG has left off for numbering-->
         <classification authority="ddc">877</classification>
         <identifier type="lccn">43020815</identifier>
         <identifier type="oclc">2584112</identifier>
-
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/43020815</url>
         </location>
@@ -60604,21 +60624,6 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n79-142770.html">
-            <namePart>Petronius Arbiter.</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-42038.html">
-            <namePart>Wilde, Oscar</namePart>
-            <namePart type="date">1854-1900</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">attributed translator</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Satire, Latin</topic>
             <topic>Translations into English</topic>
@@ -60645,7 +60650,24 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Petronius, leader of fashion</title>
         </titleInfo>
-        <identifier type="oclc">751328</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/95155909/">
+            <namePart>Pétronius Arbiter</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/67400998/">
+            <namePart>Mitchell, J. M. (John Malcolm),</namePart>
+            <namePart type="date">1879-1940</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <genre authority="marc">bibliography</genre>
         <originInfo>
@@ -60681,6 +60703,7 @@ but this is where the TLG has left off for numbering-->
                 <title>Broadway translation</title>
             </titleInfo>
         </relatedItem>
+        <identifier type="oclc">751328</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/751328</url>
         </location>
@@ -60691,21 +60714,6 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n79-142770.html">
-            <namePart>Petronius Arbiter.</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/nr98-11648.html">
-            <namePart>Mitchell, J. M. (John Malcolm)</namePart>
-            <namePart type="date">1879-</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-            </role>
-        </name>
         <relatedItem type="constituent" otherType="work" displayLabel="Satyricon">
             <identifier type="ctsurn">urn:cts:latinLit:phi0972.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Satyricon">
@@ -60726,7 +60734,22 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Cena Trimalchionis</title>
         </titleInfo>
-        <identifier type="oclc">29570775</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/95155909/">
+            <namePart>Pétronius Arbiter</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/74933794/">
+            <namePart>Waters, William E. (William Everett)</namePart>
+            <namePart type="date">1856-1924</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -60755,6 +60778,7 @@ but this is where the TLG has left off for numbering-->
                 <title>The students' series of Latin classics</title>
             </titleInfo>
         </relatedItem>
+        <identifier type="oclc">29570775</identifier>
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/02013245</url>
         </location>
@@ -60762,26 +60786,19 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/2060822</url>
         </location>
         <location>
+            <url displayLabel="HathiTrust"
+                >https://hdl.handle.net/2027/uc2.ark:/13960/t1mg7s13j</url>
+        </location>
+        <location>
+            <url displayLabel="Open Content Alliance"
+                >https://archive.org/details/cenatrimalchioni00petrrich/</url>
+        </location>
+        <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=DNmN8hrHVAcC</url>
         </location>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n79-142770.html">
-            <namePart>Petronius Arbiter.</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no96-37191.html             ">
-            <namePart>Waters, William E. (William Everett)</namePart>
-            <namePart type="date">1856-1924</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <relatedItem type="constituent" otherType="work" displayLabel="Satyricon">
             <identifier type="ctsurn">urn:cts:latinLit:phi0972.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Satyricon">
@@ -63348,92 +63365,6 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
 
-
-    <mods displayLabel="Vitae Caesarum (Whole Work)-Suetonius-Butler/Cary-OCT-1927">
-        <titleInfo xml:lang="lat" type="uniform">
-            <title>Vitae Caesarum</title>
-        </titleInfo>
-        <part>
-            <extent unit="words">
-                <total>73414</total>
-            </extent>
-        </part>
-        <titleInfo>
-            <title>Divus Iulius</title>
-        </titleInfo>
-        <titleInfo type="translated" lang="eng">
-            <title>Life of Julius Caesar</title>
-        </titleInfo>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">enk</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Oxford</placeTerm>
-            </place>
-            <publisher>Clarendon Press</publisher>
-            <dateIssued>1927</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>xxiv, 163 p. 19 cm.</extent>
-        </physicalDescription>
-        <note type="statement of responsibility">Edited with an introduction and commentary by H.E.
-            Butler and M. Cary.</note>
-        <classification authority="lcc">PA6700</classification>
-        <classification authority="ddc">870</classification>
-        <identifier type="oclc">1197574</identifier>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/1197574</url>
-        </location>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/89599270/">
-            <namePart>Suetonius</namePart>
-            <namePart type="date">ca. 69-ca. 122</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n86-808009.html">
-            <namePart>Butler, Harold Edgeworth</namePart>
-            <namePart type="date">1878-1951</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n50-56217.html">
-            <namePart>Cary, M. (Max)</namePart>
-            <namePart type="date">1881-1958</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <subject authority="lcsh">
-            <topic>Emperors</topic>
-            <geographic>Rome</geographic>
-            <topic>Biography</topic>
-            <topic>Early works to 1800</topic>
-        </subject>
-        <subject authority="lcsh">
-            <name type="personal">
-                <namePart>Caesar, Julius</namePart>
-            </name>
-        </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Vitae Caesarum">
-            <identifier type="ctsurn">urn:cts:latinLit:phi1348.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Vitae Caesarum">
-                <identifier type="ctsurn">urn:cts:latinLit:phi1348.phi001.opp-lat2</identifier>
-            </relatedItem>
-        </relatedItem>
-        <!-- ONLY HAVE RECORD FOR WHOLE WORK RATHER THAN INDIVIDUAL LIVES AS NO ONLINE COPIES TO CATALOG -->
-    </mods>
     <mods displayLabel="Vitae Philosophorum-Diogenes Laertius-Hicks-Loeb-1925-Perseus\OPP ">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Vitae philosophorum</title>
@@ -63455,7 +63386,7 @@ but this is where the TLG has left off for numbering-->
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n86-23503.html">
+            valueURI="https://viaf.org/viaf/95328383/">
             <namePart>Hicks, Robert Drew</namePart>
             <namePart type="date">1850-1929</namePart>
             <role>
@@ -63550,6 +63481,10 @@ but this is where the TLG has left off for numbering-->
                             <number>1</number>
                         </detail>
                     </part>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >https://archive.org/details/livesofeminentph01dioguoft</url>
+                    </location>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-5">
                         <part>
                             <detail type="book">
@@ -63566,6 +63501,10 @@ but this is where the TLG has left off for numbering-->
                             <number>2</number>
                         </detail>
                     </part>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >https://archive.org/details/livesofeminentph02dioguoft</url>
+                    </location>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 6-10">
                         <part>
                             <detail type="book">
