@@ -3970,14 +3970,13 @@
         <titleInfo type="alternative">
             <title>Reliquiae</title>
         </titleInfo>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n82-239287.html">
+        <name authority="viaf" type="personal"  authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/69006862/">
             <namePart>Granius Licinianus</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/76362661">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/76362661">
             <namePart>Criniti, Nicola.</namePart>
             <namePart type="date">1939-</namePart>
             <role>
@@ -4046,9 +4045,22 @@
         <titleInfo>
             <title>Grani Liciniani quae supersunt</title>
         </titleInfo>
+        <name authority="viaf" type="personal"  authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/69006862/">
+            <namePart>Granius Licinianus</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            xlink:href="http://viaf.org/viaf/100515078/">
+            <namePart>Flemisch, Michael</namePart>
+            <namePart type="date">1873-</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <identifier type="lccn">04031899</identifier>
         <identifier type="oclc">3569626</identifier>
-        <identifier type="oca">granilicinianiqu00liciuoft </identifier>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -4070,7 +4082,7 @@
         <classification authority="lcc">PA6104 .L4</classification>
         <relatedItem type="series">
             <titleInfo>
-                <title>Bibliotheca scriptorum graecorum et romanorum Teubneriana. [S. r.]</title>
+                <title>Bibliotheca scriptorum graecorum et romanorum Teubneriana</title>
             </titleInfo>
         </relatedItem>
         <location>
@@ -4081,100 +4093,18 @@
                 >http://www.archive.org/details/granilicinianiqu00liciuoft</url>
         </location>
         <location>
-            <url displayLabel="Open Library"
-                >http://www.openlibrary.org/details/granilicinianiqu00liciuoft</url>
-        </location>
-        <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=1xjWAAAAMAAJ</url>
         </location>
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/inu.30000011317140</url>
         </location>
-
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n82-239287.html">
-            <namePart>Granius Licinianus</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://viaf.org/viaf/100515078/">
-            <namePart>Flemisch, Michael</namePart>
-            <namePart type="date">1873-</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <relatedItem type="constituent" otherType="work" displayLabel="Annales">
             <identifier type="ctsurn">urn:cts:latinLit:phi1257.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Annales">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1257.phi001.opp-lat1</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
-    <mods displayLabel="Annales-Tacitus-Teubner-1881">
-        <titleInfo lang="lat" type="uniform">
-            <title>Annales</title>
-        </titleInfo>
-        <titleInfo>
-            <title>Cornelii Taciti libri qui supersunt</title>
-            <partNumber>Tomus Prior</partNumber>
-            <partName>Annales</partName>
-        </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/100226923/">
-            <namePart>Tacitus, Cornelius</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n86-825147.html">
-            <namePart>Halm, Karl Felix von</namePart>
-            <namePart type="date">1809-1882</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">ge</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Lipsiae</placeTerm>
-            </place>
-            <publisher>B. G. Teubner</publisher>
-            <dateIssued>1881</dateIssued>
-            <edition>Tertium</edition>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language>
-            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
-        </language>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>lii, 330 pg.</extent>
-        </physicalDescription>
-        <note type="statement of responsibility" altRepGroup="00"/>
-        <classification authority="lcc">PA6705 .A2 1881</classification>
-        <identifier type="oclc">9670197</identifier>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/9670197</url>
-        </location>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/njp.32101059045458</url>
-        </location>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Cornelii Taciti libri qui supersunt Tomus Prior Annales">
-            <identifier type="ctsurn">urn:cts:latinLit:phi1351.phi005</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Cornelii Taciti libri qui supersunt Tomus Prior Annales">
-                <identifier type="ctsurn">urn:cts:latinLit:phi1351.phi005.opp-lat6</identifier>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -4360,7 +4290,7 @@
             <titleInfo type="translated" lang="eng">
                 <title>Oxford Classical Texts</title>
             </titleInfo>
-        </relatedItem>
+        </relatedItem>        
         <classification authority="lcc">PA6105.S8</classification>
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/07000512</url>
@@ -49047,6 +48977,25 @@ but this is where the TLG has left off for numbering-->
                 <total>43440</total>
             </extent>
         </part>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/89002230/">
+            <namePart>Achilles Tatius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/54163116/">
+            <namePart>Gaselee, Stephen</namePart>
+            <namePart type="termsOfAddress">Sir</namePart>
+            <namePart type="date">1882-1943</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <genre authority="marc">bibliography</genre>
         <originInfo>
@@ -49094,11 +49043,7 @@ but this is where the TLG has left off for numbering-->
         </location>
         <location>
             <url displayLabel="Open Content Alliance"
-                >http://www.openlibrary.org/details/achillestatiuswi00achiuoft</url>
-        </location>
-        <location>
-            <url displayLabel="Open Library"
-                >http://www.openlibrary.org/details/achillestatiuswi00achiuoft</url>
+                >http://www.archive.org/details/achillestatiuswi00achiuoft</url>
         </location>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
@@ -49106,25 +49051,6 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n80-9786.html">
-            <namePart>Achilles Tatius.</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n91-56884.html">
-            <namePart>Gaselee, Stephen</namePart>
-            <namePart type="termsOfAddress">Sir</namePart>
-            <namePart type="date">1882-1943</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-            </role>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Love stories, Greek</topic>
             <topic>Translations into English</topic>
@@ -51518,9 +51444,13 @@ but this is where the TLG has left off for numbering-->
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n91-56884.html">
-            <namePart>Gaselee, S. (Stephen)</namePart>
+            valueURI="https://viaf.org/viaf/54163116/">
+            <namePart>Gaselee, Stephen</namePart>
+            <namePart type="termsOfAddress">Sir</namePart>
             <namePart type="date">1882-1943</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
@@ -58001,12 +57931,91 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
+    <mods displayLabel="Punica-Silius Italicus-Postgate/Summers-1905-Perseus-Latin">
+        <!-- ONLY PARTIALLY CATALOGED-USED FOR ONE PERSEUS WORK -->
+        <titleInfo>
+            <title>Corpus Poetarum Latinorum</title>
+        </titleInfo>
+        <name authority="viaf" type="personal"  authorityURI="https://viaf.org/viaf/"  valueURI="https://viaf.org/viaf/79393284/">
+            <namePart>Summers, Walter C. (Walter Coventry)</namePart>
+            <namePart type="date">1869-1937</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/49261366/">
+            <namePart>Postgate, J. P. (John Percival)</namePart>
+            <namePart type="date">1853- 1926</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">enk</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">London</placeTerm>
+            </place>
+            <publisher>Sumptibus G. Bell et Filiorum</publisher>
+            <dateIssued>1905</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <identifier type="oclc">763031515</identifier>
+        <classification authority="lcc"/>
+        <classification authority="ddc"/>
+        <subject authority="lcsh">
+            <topic/>
+            <topic/>
+        </subject>
+        <location>
+            <url displayLabel="WorldCat">www.worldcat.org/oclc/763031515</url>
+        </location>
+        <relatedItem type="constituent" otherType="volume" displayLabel="Vol 2">
+            <part type="volume">
+                <detail type="volume">
+                    <title>Vol 2</title>
+                </detail>
+            </part>
+            <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/27071645/"> 
+                <namePart>Silius Italicus, Tiberius Catius</namePart>
+                <role>
+                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                </role>
+            </name>
+            <location>
+                <url displayLabel="Gallica">http://gallica.bnf.fr/ark:/12148/bpt6k5699091j</url>
+            </location>
+            <relatedItem type="constituent" otherType="work" displayLabel="Punica">
+                <identifier type="ctsurn">urn:cts:latinLit:phi1345.phi001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Punica">
+                    <identifier type="ctsurn">urn:cts:latinLit:phi1345.phi001.perseus-lat1</identifier>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Punica Epidoc Edition">
+                    <identifier type="ctsurn">urn:cts:latinLit:phi1345.phi001.perseus-lat2</identifier>
+                </relatedItem>
+            </relatedItem>
+        </relatedItem>
+    </mods>
     <mods displayLabel="Punica-Silius Italicus-Bauer-Teubner-1890-1892">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Punica</title>
         </titleInfo>
-        <identifier type="lccn">34019055</identifier>
-        <identifier type="oclc">6614617</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/27071645/"> 
+            <namePart>Silius Italicus, Tiberius Catius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal"  authorityURI="https://viaf.org/viaf/"  valueURI="https://viaf.org/viaf/85974992/">
+            <namePart>Bauer, Ludwig,</namePart>
+            <namePart type="date">fl. 1883-1892</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -58034,21 +58043,8 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n79-120267.html">
-            <namePart>Silius Italicus, Tiberius Catius</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no2003-50352.html">
-            <namePart>Bauer, Ludwig,</namePart>
-            <namePart type="date">fl. 1883-1892</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
+        <identifier type="lccn">34019055</identifier>
+        <identifier type="oclc">6614617</identifier>
         <subject authority="lcsh">
             <topic>Punic War, 2nd, 218-201 B.C</topic>
             <topic>Poetry</topic>
@@ -58129,9 +58125,23 @@ but this is where the TLG has left off for numbering-->
         <titleInfo xml:lang="lat">
             <title>Punica</title>
         </titleInfo>
-        <identifier type="lccn">34017332</identifier>
-        <identifier type="oclc">4156319</identifier>
-        <identifier type="oca">punicasi01siliuoft</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/27071645/"> 
+            <namePart>Silius Italicus, Tiberius Catius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            xlink:href="http://errol.oclc.org/laf/n50-26939.html">
+            <namePart>Duff, J. D. (James Duff)</namePart>
+            <namePart type="date">1860-1940</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -58153,7 +58163,7 @@ but this is where the TLG has left off for numbering-->
         <classification authority="ddc">873.4</classification>
         <relatedItem type="series">
             <titleInfo>
-                <title>The Loeb classical library. [Latin authors]</title>
+                <title>The Loeb classical library</title>
             </titleInfo>
         </relatedItem>
         <language objectPart="text">
@@ -58162,28 +58172,12 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n79-120267.html">
-            <namePart>Silius Italicus, Tiberius Catius</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n50-26939.html">
-            <namePart>Duff, J. D. (James Duff)</namePart>
-            <namePart type="date">1860-1940</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-            <role>
-                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Punic war, 2nd, 218-210 B.C</topic>
             <topic>Poetry</topic>
         </subject>
+        <identifier type="lccn">34017332</identifier>
+        <identifier type="oclc">4156319</identifier>        
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/4156319</url>
         </location>
