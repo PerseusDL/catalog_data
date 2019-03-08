@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <!-- Delete all OpenLibrary URLs-no longer relevant -->
     <!-- Continue converting author and editor names to linked data format -->
     <!-- Check on displayLabel consistency for placement under URL not location  -->
@@ -41506,21 +41506,22 @@ but this is where the TLG has left off for numbering-->
             <title>Iliad</title>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n78-95639.html">
+            valueURI="https://viaf.org/viaf/224924963/">
             <namePart>Homer</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/"
-            authorityURI="https://viaf.org/viaf/22184611/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/22184611/">
             <namePart>Dindorf, Wilhelm</namePart>
             <namePart type="date">1802-1883</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/53138545">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/53138545">
             <namePart>Hentze, Karl</namePart>
             <namePart type="date">1863-1908</namePart>
             <role>
@@ -41543,6 +41544,20 @@ but this is where the TLG has left off for numbering-->
             <edition>Editio Stereotypis</edition>
             <issuance>monographic</issuance>
         </originInfo>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
+            </titleInfo>
+            <titleInfo type="abbreviated">
+                <title>Teubner</title>
+            </titleInfo>
+        </relatedItem>
+        <language objectPart="preface">
+            <languageTerm type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code">grc</languageTerm>
+        </language>
         <typeOfResource>text</typeOfResource>
         <subject authority="lcsh">
             <topic>Achilles (Mythological character)</topic>
@@ -41603,9 +41618,20 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Selections from Homer's Iliad</title>
         </titleInfo>
-        <identifier type="isbn">0891976361</identifier>
-        <identifier type="lccn">79018756</identifier>
-        <identifier type="oclc">5264322</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/224924963/">
+            <namePart>Homer</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/54227242/">
+            <namePart>Benner, Allen Rogers</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <genre authority="marc">bibliography</genre>
         <originInfo>
@@ -41637,11 +41663,14 @@ but this is where the TLG has left off for numbering-->
                 <title>Twentieth century text-books</title>
             </titleInfo>
         </relatedItem>
+        <identifier type="isbn">0891976361</identifier>
+        <identifier type="lccn">79018756</identifier>
+        <identifier type="oclc">5264322</identifier>
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/79018756</url>
         </location>
         <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/5264322 </url>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/5264322</url>
         </location>
         <location>
             <url displayLabel="GoogleBooks" note="1910 edition"
@@ -41650,20 +41679,6 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n78-95639.html">
-            <namePart>Homer</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-65031.html">
-            <namePart>Benner, Allen Rogers.</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Greek language</topic>
             <topic>Readers</topic>
@@ -41683,16 +41698,16 @@ but this is where the TLG has left off for numbering-->
             <title>Homeri Ilias</title>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n78-95639.html">
+            valueURI="https://viaf.org/viaf/224924963/">
             <namePart>Homer</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/nr91-18023.html">
-            <namePart>Allen, Thomas W. (Thomas William)</namePart>
-            <namePart type="date">b. 1862</namePart>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/113122402/">
+            <namePart>Allen, Thomas W. (Thomas William),</namePart>
+            <namePart type="date">1862-1950</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
@@ -41711,6 +41726,17 @@ but this is where the TLG has left off for numbering-->
         <physicalDescription>
             <extent>3 volumes</extent>
         </physicalDescription>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Scriptorum classicorum bibliotheca Oxoniensis</title>
+            </titleInfo>
+        </relatedItem>
+        <language objectPart="notes">
+            <languageTerm type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code">grc</languageTerm>
+        </language>
         <typeOfResource>text</typeOfResource>
         <location displayLabel="LC Permalink">
             <url>http://lccn.loc.gov/32008655</url>
@@ -41781,17 +41807,15 @@ but this is where the TLG has left off for numbering-->
                 <total>115477</total>
             </extent>
         </part>
-        <identifier type="lccn">25004962</identifier>
-        <identifier type="oclc">38101377</identifier>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n78-95639.html">
+            valueURI="https://viaf.org/viaf/224924963/">
             <namePart>Homer</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n88-615458.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/14845278/">
             <namePart>Murray, A. T. (Augustus Taber)</namePart>
             <namePart type="date">1866-1940</namePart>
             <role>
@@ -41841,6 +41865,14 @@ but this is where the TLG has left off for numbering-->
                 <title>The Loeb classical library</title>
             </titleInfo>
         </relatedItem>
+        <language objectPart="text">
+            <languageTerm type="code">grc</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code">eng</languageTerm>
+        </language>
+        <identifier type="lccn">25004962</identifier>
+        <identifier type="oclc">38101377</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/38101377</url>
         </location>
@@ -41877,14 +41909,14 @@ but this is where the TLG has left off for numbering-->
         </titleInfo>
         <identifier type="oclc">4862646</identifier>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n78-95639.html">
+            valueURI="https://viaf.org/viaf/224924963/">
             <namePart>Homer</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-56643.html">
+            valueURI="https://viaf.org/viaf/49578292/">
             <namePart>Butler, Samuel</namePart>
             <namePart type="date">1835-1902</namePart>
             <role>
@@ -49487,7 +49519,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"  authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/49975164">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/49975164">
             <namePart>Assmann, Erwin</namePart>
             <namePart type="date">1908-1984</namePart>
             <role>
@@ -53798,13 +53831,15 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="uniform" nameTitleGroup="1">
             <title>Octavius</title>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/61540251">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/61540251">
             <namePart>Minucius Felix, Marcus</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/45199363">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/45199363">
             <namePart>Waltzing, Jean Pierre</namePart>
             <namePart type="date">1857-1929</namePart>
             <role>
@@ -53865,13 +53900,15 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="uniform" nameTitleGroup="1">
             <title>Octavius</title>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/61540251">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/61540251">
             <namePart>Minucius Felix, Marcus</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/9860616">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/9860616">
             <namePart>Kytzler, Bernhard</namePart>
             <namePart type="date">1929-</namePart>
             <role>
@@ -53935,9 +53972,6 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Octavius</title>
         </titleInfo>
-        <identifier type="lccn">04031890</identifier>
-        <identifier type="oclc">1247527</identifier>
-        <identifier type="oca">octavius00minuuoft</identifier>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -53966,16 +54000,15 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/04031890</url>
         </location>
+        <identifier type="lccn">04031890</identifier>
+        <identifier type="oclc">1247527</identifier>
+
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/1247527</url>
         </location>
         <location>
             <url displayLabel="Open Content Alliance">
-                http://www.archive.org/details/octavius00minuuoft </url>
-        </location>
-        <location>
-            <url displayLabel="OpenLibrary"
-                >http://www.openlibrary.org/details/octavius00minuuoft</url>
+                http://www.archive.org/details/octavius00minuuoft</url>
         </location>
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=IMeeu1wk-moC</url>
@@ -53983,15 +54016,17 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n83-165536.html">
-            <namePart>Minucius Felix, Marcus.</namePart>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/61540251">
+            <namePart>Minucius Felix, Marcus</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/168507353/">
             <namePart>Boenig, Hermann</namePart>
+            <namePart type="date">1860-</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
@@ -54010,13 +54045,15 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="uniform">
             <title>Odyssey</title>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/224924963">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/224924963/">
             <namePart>Homer</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/39393478">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/39393478">
             <namePart>von der Mühll, Peter</namePart>
             <namePart type="date">1885-1970</namePart>
             <role>
@@ -54124,7 +54161,7 @@ but this is where the TLG has left off for numbering-->
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n78-95639.html">
+            valueURI="https://viaf.org/viaf/224924963/">
             <namePart>Homer</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -54202,7 +54239,7 @@ but this is where the TLG has left off for numbering-->
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n78-95639.html">
+            valueURI="https://viaf.org/viaf/224924963/">
             <namePart>Homer</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -54249,7 +54286,7 @@ but this is where the TLG has left off for numbering-->
             <subTitle>Volume 1-2</subTitle>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n78-95639.html">
+            valueURI="https://viaf.org/viaf/224924963/">
             <namePart>Homer</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -54365,7 +54402,7 @@ but this is where the TLG has left off for numbering-->
         <identifier type="lccn">19016044</identifier>
         <identifier type="oclc">22584673</identifier>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n78-95639.html">
+            valueURI="https://viaf.org/viaf/224924963/">
             <namePart>Homer</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -54480,7 +54517,7 @@ but this is where the TLG has left off for numbering-->
         <identifier type="oclc">7405645</identifier>
 
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n78-95639.html">
+            valueURI="https://viaf.org/viaf/224924963/">
             <namePart>Homer</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -54547,21 +54584,24 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="uniform" nameTitleGroup="1">
             <title>Oeconomica</title>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/7524651">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/7524651">
             <namePart>Aristotle</namePart>
             <namePart type="date">384-322</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/22136865">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/22136865">
             <namePart>Groningen, B.A. van (Bernhard Abraham),</namePart>
             <namePart type="date">1894-1987</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/68937135">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/68937135">
             <namePart>Wartelle, André</namePart>
             <namePart type="date">1930-2001</namePart>
             <role>
@@ -54695,8 +54735,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no2009-7449.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/54299852/">
             <namePart>Mekler, Siegfried</namePart>
             <namePart type="date">1852-1912</namePart>
             <role>
@@ -54713,6 +54753,9 @@ but this is where the TLG has left off for numbering-->
             <issuance>monographic</issuance>
             <edition>Editio Stereotypa Quam Curavit</edition>
         </originInfo>
+        <language objectPart="notes">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
@@ -54824,11 +54867,14 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/hvd.hxjtu3</url>
         </location>
+        <language objectPart="preface">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
         </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n50-74037.html">
+            valueURI="https://viaf.org/viaf/61683125/">
             <namePart>Artemidorus</namePart>
             <namePart type="termsOfAddress">Daldianus</namePart>
             <role>
@@ -54861,14 +54907,15 @@ but this is where the TLG has left off for numbering-->
             <title>Oneirocritica</title>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n50-74037.html">
+            valueURI="https://viaf.org/viaf/61683125/">
             <namePart>Artemidorus</namePart>
             <namePart type="termsOfAddress">Daldianus</namePart>
             <role>
                 <roleTerm type="text" authority="marcrelator">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/37354374">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/37354374">
             <namePart>Pack, Roger Ambrose</namePart>
             <namePart type="date">1907-1993</namePart>
             <role>
@@ -54889,6 +54936,9 @@ but this is where the TLG has left off for numbering-->
         </originInfo>
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+        </language>
+        <language objectPart="preface">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
         </language>
         <physicalDescription>
             <form authority="marcform">print</form>
