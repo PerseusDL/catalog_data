@@ -19831,6 +19831,7 @@ SO CAN HAVE IN NEW DATASET-->
             <title>Die fragmente der Vorsokratiker</title>
             <subTitle>Griechisch und deutsch</subTitle>
         </titleInfo>
+        <!-- Check when creating expression level URNs that each author has an authority record -->
         <name authority="viaf" type="personal" usage="primary" authorityURI="http://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/36987838">
             <namePart>Diels, Hermann</namePart>
@@ -19892,7 +19893,7 @@ SO CAN HAVE IN NEW DATASET-->
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg1705.tlg002</identifier>
                 <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg1705.tlg002.opp-grc1</identifier>
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg1705.tlg002.opp-grc2</identifier>
                     <part>
                         <extent unit="pages">
                             <start>1</start>
@@ -19908,7 +19909,7 @@ SO CAN HAVE IN NEW DATASET-->
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg1705.tlg003</identifier>
                 <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg1705.tlg003.opp-grc1</identifier>
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg1705.tlg003.opp-grc2</identifier>
                     <part>
                         <extent unit="pages">
                             <start>12</start>
@@ -20048,6 +20049,8 @@ SO CAN HAVE IN NEW DATASET-->
                     <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                         valueURI="http://viaf.org/viaf/2858330">
                         <namePart>Petron</namePart>
+                        <namePart type="termsOfAddress">Himeraeus</namePart>
+                        <namePart type="date">v6. Jh.</namePart>
                         <role>
                             <roleTerm type="text">creator</roleTerm>
                         </role>
@@ -20088,7 +20091,7 @@ SO CAN HAVE IN NEW DATASET-->
                 </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonium">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg2260.001</identifier>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2260.tlg001</identifier>
                 <relatedItem type="constituent" otherType="expression" displayLabel="Testimonium">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg2260.tlg001.opp-grc1</identifier>
                     <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
@@ -20111,12 +20114,13 @@ SO CAN HAVE IN NEW DATASET-->
                 </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg2218.001</identifier>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2218.tlg001</identifier>
                 <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg2218.tlg001.opp-grc1</identifier>
                     <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                         valueURI="http://viaf.org/viaf/24990168">
                         <namePart>Calliphon</namePart>
+                        <namePart type="termsOfAddress">Cnidius</namePart>
                         <role>
                             <roleTerm type="text">creator</roleTerm>
                         </role>
@@ -20134,28 +20138,16 @@ SO CAN HAVE IN NEW DATASET-->
                 </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-                <titleInfo>
-                    <title>Fragmenta</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg2218a.tlg001</identifier>
+                    <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                        <identifier type="ctsurn">urn:cts:greekLit:tlg2218a.tlg001.opp-grc1</identifier>
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/39766715">
                     <namePart>Democedes</namePart>
                     <role>
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">2218a.001</identifier>
                 <part>
                     <extent unit="pages">
                         <start>39</start>
@@ -20166,67 +20158,35 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=91</url>
                 </location>
-
+                    </relatedItem>                    
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2225.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg2225.tlg001.opp-grc1</identifier>
                 <name authority="tlg" type="personal">
                     <namePart>Parmeniscus</namePart>
                     <role>
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                     <displayForm>Parmiscus</displayForm>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
+                </name>              
                 <part>
                     <extent unit="pages">
                         <start>41</start>
                         <end>42</end>
                     </extent>
                 </part>
-                <identifier type="tlg">2225.001</identifier>
                 <location>
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=93</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/100175475">
-                    <namePart>Xenophanes</namePart>
-                    <namePart type="date">ca. 570-ca. 478 B.C.</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">0267.005</identifier>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0267.tlg005</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0267.tlg005.opp-grc1</identifier>
                 <part>
                     <extent unit="pages">
                         <start>42</start>
@@ -20237,32 +20197,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=94</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-                <titleInfo>
-                    <title>Fragmenta</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/100175475">
-                    <namePart>Xenophanes</namePart>
-                    <namePart type="date">ca. 570-ca. 478 B.C.</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">0267.006</identifier>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0267.tlg006</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0267.tlg006.opp-grc3</identifier>
                 <part>
                     <extent unit="pages">
                         <start>54</start>
@@ -20273,32 +20213,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=106</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/89803406">
-                    <namePart>Heraclitus</namePart>
-                    <namePart type="termsOfAddress">of Ephesus</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">0626.001</identifier>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0626.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0626.tlg001.opp-grc1</identifier>
                 <part>
                     <extent unit="pages">
                         <start>67</start>
@@ -20309,32 +20229,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=119</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/89803406">
-                    <namePart>Heraclitus</namePart>
-                    <namePart type="termsOfAddress">of Ephesus</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">0626.002</identifier>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0626.tlg002</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg626.tlg002.opp-grc2</identifier>
                 <part>
                     <extent unit="pages">
                         <start>77</start>
@@ -20345,32 +20245,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=128</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/29503201">
-                    <namePart>Epicharmus</namePart>
-                    <namePart type="date">5th cent. B.C.</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">0521.007</identifier>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0521.tlg007</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0521.tlg007.opp-grc1</identifier>
                 <part>
                     <extent unit="pages">
                         <start>113</start>
@@ -20381,33 +20261,13 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=165</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-                <titleInfo>
-                    <title>Fragmenta</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/29503201">
-                    <namePart>Epicharmus</namePart>
-                    <namePart type="date">5th cent. B.C.</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">0521.008</identifier>
-                <part>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0521.tlg008</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0521.tlg008.opp-grc4</identifier>
+                    <part>
                     <extent unit="pages">
                         <start>115</start>
                         <end>131</end>
@@ -20417,12 +20277,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=166</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0766.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0766.tlg001.opp-grc1</identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/63054916">
                     <namePart>Alcmaeon</namePart>
@@ -20432,18 +20292,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">0766.001</identifier>
                 <part>
                     <extent unit="pages">
                         <start>131</start>
@@ -20454,12 +20302,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=183</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-                <titleInfo>
-                    <title>Fragmenta</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0766.tlg002</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0766.tlg002.opp-grc1</identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/63054916">
                     <namePart>Alcmaeon</namePart>
@@ -20469,18 +20317,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">0766.002</identifier>
                 <part>
                     <extent unit="pages">
                         <start>135</start>
@@ -20491,31 +20327,21 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=186</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2226.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg2226.tlg001.opp-grc1</identifier>
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/2858041">
                     <namePart>Iccus</namePart>
+                        <namePart type="termsOfAddress">Tarentinus</namePart>
+                        <namePart type="date">6. Jh. </namePart>
                     <role>
                         <roleTerm type="text">creator</roleTerm>
                     </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">2226.001</identifier>
+                </name>             
                 <part>
                     <extent unit="pages">
                         <start>137</start>
@@ -20526,12 +20352,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=189</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonium">
-                <titleInfo>
-                    <title>Testimonium</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2227.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonium">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg2227.tlg001.opp-grc1</identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/10236525">
                     <namePart>Paron</namePart>
@@ -20539,18 +20365,7 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">2227.001</identifier>
+                 <identifier type="tlg">2227.001</identifier>
                 <part>
                     <extent unit="pages">
                         <start>137</start>
@@ -20561,31 +20376,21 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=189</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-                <titleInfo>
-                    <title>Fragmenta</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:vor001.vor001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                    <identifier type="ctsurn">urn:cts:greekLit:vor001.vor001.opp-grc1</identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/76705820">
                     <namePart>Aminias</namePart>
+                    <namePart type="termsOfAddress">Philosophus</namePart>
+                    <namePart type="date">v6./5. Jh.‏</namePart>
                     <role>
                         <roleTerm type="text">creator</roleTerm>
                     </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <identifier type="vor">vor0001.vor001</identifier>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
+                </name>             
                 <part>
                     <extent unit="pages">
                         <start>137</start>
@@ -20596,32 +20401,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=189</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/104174673">
-                    <namePart>Parmenides</namePart>
-                    <namePart type="date">ca. 540-470 B.C.</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">1562.001</identifier>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1562.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg1562.tlg001.opp-grc2</identifier>     
                 <part>
                     <extent unit="pages">
                         <start>138</start>
@@ -20632,31 +20417,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=190</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-                <titleInfo>
-                    <title>Fragmenta</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/104174673">
-                    <namePart>Parmenides</namePart>
-                    <namePart type="date">ca. 540-470 B.C.</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1562.tlg002</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg1562.tlg002.opp-grc2</identifier>     
                 <identifier type="tlg">1562.002</identifier>
                 <part>
                     <extent unit="pages">
@@ -20668,12 +20434,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=198</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0595.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0595.tlg001.opp-grc1</identifier>     
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/16003086">
                     <namePart>Zeno</namePart>
@@ -20682,18 +20448,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">0595.001</identifier>
                 <part>
                     <extent unit="pages">
                         <start>165</start>
@@ -20704,12 +20458,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=217</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-                <titleInfo>
-                    <title>Fragmenta</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0595.tlg002</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0595.tlg002.opp-grc1</identifier>    
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/16003086">
                     <namePart>Zeno</namePart>
@@ -20717,19 +20471,7 @@ SO CAN HAVE IN NEW DATASET-->
                     <role>
                         <roleTerm type="text">creator</roleTerm>
                     </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">0595.002</identifier>
+                </name>             
                 <part>
                     <extent unit="pages">
                         <start>173</start>
@@ -20740,12 +20482,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=224</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1494.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg1494.tlg001.opp-grc1</identifier>  
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/219221325">
                     <namePart>Melissus</namePart>
@@ -20753,18 +20495,7 @@ SO CAN HAVE IN NEW DATASET-->
                     <role>
                         <roleTerm type="text">creator</roleTerm>
                     </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
+                </name>             
                 <identifier type="tlg">1494.001</identifier>
                 <part>
                     <extent unit="pages">
@@ -20776,12 +20507,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=228</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-                <titleInfo>
-                    <title>Fragmenta</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1494.tlg002</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg1494.tlg002.opp-grc1</identifier>  
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/219221325">
                     <namePart>Melissus</namePart>
@@ -20790,18 +20521,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">1494.002</identifier>
                 <part>
                     <extent unit="pages">
                         <start>185</start>
@@ -20812,31 +20531,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=236</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/297576907">
-                    <namePart>Empedocles</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">1342.003</identifier>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1342.tlg003</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg1342.tlg003.opp-grc1</identifier>  
                 <part>
                     <extent unit="pages">
                         <start>193</start>
@@ -20847,31 +20547,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=245</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-                <titleInfo>
-                    <title>Fragmenta</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/297576907">
-                    <namePart>Empedocles</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">1342.004</identifier>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1342.tlg004</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg1342.tlg004.opp-grc5</identifier>  
                 <part>
                     <extent unit="pages">
                         <start>223</start>
@@ -20882,31 +20563,21 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=274</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2228.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg2228.tlg001.opp-grc1</identifier>  
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/24990609">
                     <namePart>Menestor</namePart>
+                    <namePart type="termsOfAddress">Sibarita</namePart>
+                    <namePart type="date">v 5. Jh.‏ </namePart>
                     <role>
                         <roleTerm type="text">creator</roleTerm>
                     </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <identifier type="tlg">2228.001</identifier>
+                </name>               
                 <part>
                     <extent unit="pages">
                         <start>283</start>
@@ -20917,30 +20588,21 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=335</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2229.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg2229.tlg001.opp-grc1</identifier>  
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/71784127">
                     <namePart>Xuthos</namePart>
+                    <namePart type="termsOfAddress">Crotoniensis</namePart>
+                    <namePart type="date">v5. Jh.</namePart>
                     <role>
                         <roleTerm type="text">creator</roleTerm>
                     </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
+                </name>            
                 <identifier type="tlg">2229.001</identifier>
                 <part>
                     <extent unit="pages">
@@ -20952,30 +20614,19 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=336</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonium">
-                <titleInfo>
-                    <title>Testimonium</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2230.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonium">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg2230.tlg001.opp-grc1</identifier>  
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/37304307">
                     <namePart>Boidas</namePart>
                     <role>
                         <roleTerm type="text">creator</roleTerm>
                     </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
+                </name>            
                 <identifier type="tlg">2230.001</identifier>
                 <part>
                     <extent unit="pages">
@@ -20987,12 +20638,13 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=336</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
+            <!-- LEFT OFF HERE-2 -->
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/284726704">
                     <namePart>Ion</namePart>
@@ -21001,17 +20653,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">0308.008</identifier>
                 <part>
                     <extent unit="pages">
@@ -21023,12 +20664,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=337</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-                <titleInfo>
-                    <title>Fragmenta</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/284726704">
                     <namePart>Ion</namePart>
@@ -21037,17 +20678,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">0308.009</identifier>
                 <part>
                     <extent unit="pages">
@@ -21059,12 +20689,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=338</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/7041070">
                     <namePart>Hippon</namePart>
@@ -21073,17 +20703,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">1437.001</identifier>
                 <part>
                     <extent unit="pages">
@@ -21095,12 +20714,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=340</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/7041070">
                     <namePart>Hippon</namePart>
@@ -21109,17 +20728,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">1437.002</identifier>
                 <part>
                     <extent unit="pages">
@@ -21131,30 +20739,19 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=342</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/65318710">
                     <namePart>Hippodamus</namePart>
                     <role>
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">1436.002</identifier>
                 <part>
                     <extent unit="pages">
@@ -21166,30 +20763,19 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=345</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/44692802">
                     <namePart>Phaleas</namePart>
                     <role>
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="vor">vor0002.vor001</identifier>
                 <part>
                     <extent unit="pages">
@@ -21201,30 +20787,19 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=345</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/807647">
                     <namePart>Polyclitus</namePart>
                     <role>
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">1625.001</identifier>
                 <part>
                     <extent unit="pages">
@@ -21236,12 +20811,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=346</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-                <titleInfo>
-                    <title>Fragmenta</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/807647">
                     <namePart>Polyclitus</namePart>
@@ -21249,17 +20824,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">1625.002</identifier>
                 <part>
                     <extent unit="pages">
@@ -21271,12 +20835,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=346</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/2858297">
                     <namePart>Oenopides</namePart>
@@ -21284,17 +20848,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">2234.001</identifier>
                 <part>
                     <extent unit="pages">
@@ -21306,12 +20859,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=348</url>
                 </location>
-
+            </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/42631297">
                     <namePart>Hippocrates</namePart>
@@ -21328,17 +20881,6 @@ SO CAN HAVE IN NEW DATASET-->
             </role>
         </name>
         -->
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">2235.001</identifier>
                 <part>
                     <extent unit="pages">
@@ -21350,12 +20892,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=350</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/306058175">
                     <namePart>Theodorus</namePart>
@@ -21363,17 +20905,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">2237.001</identifier>
                 <part>
                     <extent unit="pages">
@@ -21385,12 +20916,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=352</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/50021495">
                     <namePart>Philolaus</namePart>
@@ -21400,17 +20931,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">1596.001</identifier>
                 <part>
                     <extent unit="pages">
@@ -21422,12 +20942,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=352</url>
                 </location>
-
+            </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-                <titleInfo>
-                    <title>Fragmenta</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/50021495">
                     <namePart>Philolaus</namePart>
@@ -21437,17 +20957,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">1596.002</identifier>
                 <part>
                     <extent unit="pages">
@@ -21459,30 +20968,19 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=360</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/32386410">
                     <namePart>Eurytus</namePart>
                     <role>
                         <roleTerm type="text">creator</roleTerm>
                     </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
+                </name>             
                 <identifier type="tlg">1362.002</identifier>
                 <part>
                     <extent unit="pages">
@@ -21494,13 +20992,13 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=372</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/56956295">
                     <namePart>Lysis</namePart>
                     <role>
@@ -21514,17 +21012,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">0633.002</identifier>
                 <part>
                     <extent unit="pages">
@@ -21536,12 +21023,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=373</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/39766394">
                     <namePart>Archippus</namePart>
@@ -21549,17 +21036,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="vor">vor0003.vor001</identifier>
                 <part>
                     <extent unit="pages">
@@ -21571,12 +21047,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=373</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/40191578">
                     <namePart>Archytas</namePart>
@@ -21584,18 +21060,7 @@ SO CAN HAVE IN NEW DATASET-->
                     <role>
                         <roleTerm type="text">creator</roleTerm>
                     </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
+                </name>               
                 <identifier type="tlg">0620.001</identifier>
                 <part>
                     <extent unit="pages">
@@ -21607,12 +21072,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=374</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-                <titleInfo>
-                    <title>Fragmenta</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/40191578">
                     <namePart>Archytas</namePart>
@@ -21621,17 +21086,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">0620.002</identifier>
                 <part>
                     <extent unit="pages">
@@ -21643,12 +21097,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=382</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/86435125">
                     <namePart>Ocellus</namePart>
@@ -21657,17 +21111,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">1545.003</identifier>
                 <part>
                     <extent unit="pages">
@@ -21679,12 +21122,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=390</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/100906904">
                     <namePart>Timaeus</namePart>
@@ -21693,17 +21136,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">1734.002</identifier>
                 <part>
                     <extent unit="pages">
@@ -21715,12 +21147,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=391</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/57001677">
                     <namePart>Hicetas</namePart>
@@ -21728,17 +21160,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">2240.001</identifier>
                 <part>
                     <extent unit="pages">
@@ -21750,12 +21171,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=392</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/158032288">
                     <namePart>Ecphantus</namePart>
@@ -21763,17 +21184,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">1341.002</identifier>
                 <part>
                     <extent unit="pages">
@@ -21785,12 +21195,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=392</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/286144647697369582607">
                     <namePart>Xenophilus</namePart>
@@ -21798,17 +21208,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">2241.001</identifier>
                 <part>
                     <extent unit="pages">
@@ -21820,12 +21219,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=393</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/7774989">
                     <namePart>Echecrates</namePart>
@@ -21833,17 +21232,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">2242.001</identifier>
                 <tableOfContents>Auctores alii nominantur Diocles, Polymnastus, Phanto et
                     Arion</tableOfContents>
@@ -21857,12 +21245,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=393</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/27455232">
                     <namePart>Clinias</namePart>
@@ -21870,17 +21258,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">1277.002</identifier>
                 <part>
                     <extent unit="pages">
@@ -21892,12 +21269,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=394</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/64395892">
                     <namePart>Prorus</namePart>
@@ -21905,17 +21282,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">2729.002</identifier>
                 <part>
                     <extent unit="pages">
@@ -21927,30 +21293,19 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=394</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/47152428">
                     <namePart>Amyclas</namePart>
                     <role>
                         <roleTerm type="text">creator</roleTerm>
                     </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
+                </name>       
                 <identifier type="tlg">0223.001</identifier>
                 <part>
                     <extent unit="pages">
@@ -21962,12 +21317,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=394</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonium">
-                <titleInfo>
-                    <title>Testimonium</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonium">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/50423330">
                     <namePart>Damon et Phintias</namePart>
@@ -21975,17 +21330,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">2244.001</identifier>
                 <part>
                     <extent unit="pages">
@@ -21997,12 +21341,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=394</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-                <titleInfo>
-                    <title>Fragmenta</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/5318283">
                     <namePart>Simus</namePart>
@@ -22010,17 +21354,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">2245.001</identifier>
                 <tableOfContents>Auctores alli nominantur Myonides et Euphrantor</tableOfContents>
                 <part>
@@ -22033,12 +21366,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=395</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/49614134">
                     <namePart>Lycon</namePart>
@@ -22046,17 +21379,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">2246.001</identifier>
                 <part>
                     <extent unit="pages">
@@ -22068,29 +21390,18 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=395</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-                <titleInfo>
-                    <title>Fragmenta</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="tlg" type="corporate">
                     <namePart>Pythagoristae</namePart>
                     <role>
                         <roleTerm type="text">creator</roleTerm>
                     </role>
-                </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
+                </name>              
                 <identifier type="tlg">2239.001</identifier>
                 <tableOfContents>A. Katalog des Iamblichus (pg. 344) -- B. Anonymus Pythagoreus (pg.
                     345-357) -- C. Ἀκούσματα καὶ σύμβολα (pg. 357-361) -- D. Ἐκ τῶν Ἀριστοξένου
@@ -22106,12 +21417,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=396</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/24645587">
                     <namePart>Anaxagoras</namePart>
@@ -22119,17 +21430,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">0713.001</identifier>
                 <part>
                     <extent unit="pages">
@@ -22141,12 +21441,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=427</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-                <titleInfo>
-                    <title>Fragmenta</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/24645587">
                     <namePart>Anaxagoras</namePart>
@@ -22154,17 +21454,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">0713.002</identifier>
                 <part>
                     <extent unit="pages">
@@ -22176,12 +21465,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=427</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-                <titleInfo>
-                    <title>Fragmenta</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/2857568">
                     <namePart>Archelaus</namePart>
@@ -22189,17 +21478,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">2303.002</identifier>
                 <part>
                     <extent unit="pages">
@@ -22211,12 +21489,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=462</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/64395790">
                     <namePart>Metrodorus</namePart>
@@ -22226,17 +21504,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">1811.001</identifier>
                 <part>
                     <extent unit="pages">
@@ -22248,29 +21515,18 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=466</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="tlg" type="personal">
                     <namePart>Clidemus</namePart>
                     <role>
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">2305.001</identifier>
                 <part>
                     <extent unit="pages">
@@ -22282,12 +21538,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=467</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonium">
-                <titleInfo>
-                    <title>Testimonium</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonium">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/71783744">
                     <namePart>Idaeus</namePart>
@@ -22295,17 +21551,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">2304.001</identifier>
                 <part>
                     <extent unit="pages">
@@ -22317,13 +21562,13 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=467</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/177095580">
                     <namePart>Diogenes</namePart>
                     <namePart type="termsOfAddress">of Apollonia</namePart>
@@ -22332,17 +21577,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">1319.001</identifier>
                 <part>
                     <extent unit="pages">
@@ -22354,12 +21588,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=468</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-                <titleInfo>
-                    <title>Fragmenta</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/177095580">
                     <namePart>Diogenes</namePart>
@@ -22369,17 +21603,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">1319.002</identifier>
                 <part>
                     <extent unit="pages">
@@ -22391,12 +21614,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=475</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                     valueURI="http://viaf.org/viaf/47152640">
                     <namePart>Cratylus</namePart>
@@ -22404,17 +21627,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">2291.001</identifier>
                 <part>
                     <extent unit="pages">
@@ -22426,12 +21638,12 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=484</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Testimonia">
-                <titleInfo>
-                    <title>Testimonia</title>
-                </titleInfo>
+                <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Testimonia">
+                    <identifier type="ctsurn"></identifier>
                 <name authority="tlg" type="personal">
                     <namePart>Antisthenes</namePart>
                     <namePart type="date"/>
@@ -22439,17 +21651,6 @@ SO CAN HAVE IN NEW DATASET-->
                         <roleTerm type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name authority="viaf" type="personal" usage="primary"
-                    authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/36987838">
-                    <namePart>Diels, Hermann</namePart>
-                    <namePart type="date">1848-1922</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
                 <identifier type="tlg">2313.001</identifier>
                 <part>
                     <extent unit="pages">
@@ -22461,7 +21662,7 @@ SO CAN HAVE IN NEW DATASET-->
                     <url displayLabel="HathiTrust"
                         >http://hdl.handle.net/2027/uc1.b4708580?urlappend=%3Bseq=486</url>
                 </location>
-
+                </relatedItem>
             </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="structure" displayLabel="Vol. 2">

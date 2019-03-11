@@ -4,6 +4,7 @@
   xsi:schemaLocation="http://www.loc.gov/mods/v3 https://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
   <!-- SIGH WILL PROBABLY NEED TO ADD PAGE DATA AND URLS BACK IN FOR THE FHG DATA THAT WAS IN CATALOG PENDING
   HAD FAILED TO CONSIDER THAT THERE WERE NO URNS-NO WAY TO RETRIEVE THE DATA ENCODED THERE-->
+  <!-- Also need to double check that all authors on this list made it into AAE -->
   <mods>
     <titleInfo>
       <title>Fragmenta historicorum graecorum</title>
@@ -8478,23 +8479,37 @@
         <relatedItem type="constituent" otherType="section"
           displayLabel="Echemenes Cretensis ca. 3.Jh.n.Chr.">
           <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg2230.tlg001</identifier>
-            <titleInfo>
+            <identifier type="ctsurn">urn:cts:greekLit:tlg2320.tlg001</identifier>
+            <titleInfo>          <!-- Fixed the TLG IDs-it is tlg2320 not tlg 2230 -->
+              <!-- Also added in page numbers and links here as deleted invalid files and no
+              longer updating the MODS directories with new versions-->
               <title>Fragmenta</title>
             </titleInfo>
             <name>
               <namePart>Echemenes Cretensis ca. 3.Jh.n.Chr.</namePart>
-              <nameIdentifier type="ctsurn">urn:cts:greekLit:tlg2230</nameIdentifier>
+              <nameIdentifier type="ctsurn">urn:cts:greekLit:tlg2320</nameIdentifier>
               <role>
                 <roleTerm type="text" authority="marcrelator">creator</roleTerm>
               </role>
             </name>
             <relatedItem type="constituent" otherType="expression">
-              <identifier type="ctsurn">urn:cts:greekLit:tlg2230.tlg001.opp-grc1</identifier>
+              <identifier type="ctsurn">urn:cts:greekLit:tlg2320.tlg001.opp-grc1</identifier>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression">
-              <identifier type="ctsurn">urn:cts:greekLit:tlg2230.tlg001.opp-lat1</identifier>
+              <identifier type="ctsurn">urn:cts:greekLit:tlg2320.tlg001.opp-lat1</identifier>
             </relatedItem>
+            <part>
+              <extent unit="pages">
+                <start>403</start>
+                <end>403</end>
+              </extent>
+            </part>
+            <location>
+              <url displayLabel="GoogleBooks">http://books.google.com/books?id=lz0OAAAAYAAJ&amp;pg=PA403</url>
+            </location>
+            <location>
+              <url displayLabel="Open Content Alliance">http://www.archive.org/stream/fragmentahistori04mueluoft#page/402/mode/2up</url>
+            </location>
           </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="section"
