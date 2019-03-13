@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <!-- Delete all OpenLibrary URLs-no longer relevant -->
     <!-- Continue converting author and editor names to linked data format -->
     <!-- Check on displayLabel consistency for placement under URL not location  -->
@@ -1829,6 +1829,386 @@
             <identifier type="ctsurn">urn:cts:latinLit:phi1020.phi003</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Achilleis">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1020.phi003.opp-lat1</identifier>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods displayLabel="Acta Thomae-Apocrypha anecdota II-Rhodes-Cambridge-1897">
+        <titleInfo>
+            <title>Apocrypha anecdota</title>
+            <subTitle>second series</subTitle>
+        </titleInfo>
+        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/88882890">
+            <namePart>James, Montague Rhodes</namePart>
+            <namePart type="date">1862-1936</namePart>
+            <role>
+                <roleTerm type="text">editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">enk</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Cambridge</placeTerm>
+            </place>
+            <publisher>Cambridge University Press</publisher>
+            <dateIssued>1897</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource>text</typeOfResource>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>276 p.</extent>
+            <digitalOrigin>digitized other analog</digitalOrigin>
+        </physicalDescription>
+        <subject authority="lcsh">
+            <topic>Bible</topic>
+            <topic>Apocrypha</topic>
+            <genre>Criticism, interpretation, etc.</genre>
+        </subject>
+        <identifier type="oclc">606047080</identifier>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/606047080</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/njp.32101068766748</url>
+        </location>
+        <!-- None of this should be structure anyways as these are all works -->
+        <!-- 
+        <relatedItem type="constituent" otherType="structure" displayLabel="Introductions">
+            <part type="section">
+                <detail>
+                    <title>Introductions</title>
+                </detail>
+            </part>
+            <relatedItem type="constituent" otherType="structure"
+                displayLabel="A fragment of the Acts of John">
+                <part type="section">
+                    <detail>
+                        <title>A fragment of the Acts of John</title>
+                    </detail>
+                </part>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="structure"
+                displayLabel="A fragment of the Acts of John">
+                <part type="section">
+                    <detail>
+                        <title>A fragment of the Acts of John</title>
+                    </detail>
+                </part>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="structure" displayLabel="The Acts of Thomas">
+                <part type="section">
+                    <detail>
+                        <title>The Acts of Thomas</title>
+                    </detail>
+                </part>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="structure"
+                displayLabel="Letters of Herod and Pilate">
+                <part type="section">
+                    <detail>
+                        <title>Letters of Herod and Pilate</title>
+                    </detail>
+                </part>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="structure"
+                displayLabel="Letter of Tiberius to Pilate">
+                <part type="section">
+                    <detail>
+                        <title>Letter of Tiberius to Pilate</title>
+                    </detail>
+                </part>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="structure"
+                displayLabel="The Apocalypse of Baruch">
+                <part type="section">
+                    <detail>
+                        <title>The Apocalypse of Baruch</title>
+                    </detail>
+                </part>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="structure"
+                displayLabel="The Testament of Job">
+                <part type="section">
+                    <detail>
+                        <title>The Testament of Job</title>
+                    </detail>
+                </part>
+            </relatedItem>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="structure" displayLabel="Texts">
+            <part type="section">
+                <detail>
+                    <title>Texts</title>
+                </detail>
+            </part>
+            <relatedItem type="constituent" otherType="structure"
+                displayLabel="Actorum Iohannis a Leucio conscriptorum fragmentum">
+                <part type="section">
+                    <detail>
+                        <title>Actorum Iohannis a Leucio conscriptorum fragmentum</title>
+                    </detail>
+                </part>
+            </relatedItem>
+         <relatedItem type="constituent" otherType="structure"
+                displayLabel="Epistolae Pilati et Herodis">
+                <part type="section">
+                    <detail>
+                        <title>Epistolae Pilati et Herodis</title>
+                    </detail>
+                </part>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="structure"
+                displayLabel="Epistola Tiberii ad Pilatum">
+                <part type="section">
+                    <detail>
+                        <title>Epistola Tiberii ad Pilatum</title>
+                    </detail>
+                </part>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="structure"
+                displayLabel="Apocalypsis Baruchi tertia Graece">
+                <part type="section">
+                    <detail>
+                        <title>Apocalypsis Baruchi tertia Graece</title>
+                    </detail>
+                </part>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="structure" displayLabel="Testamentum Iobi">
+                <part type="section">
+                    <detail>
+                        <title>Testamentum Iobi</title>
+                    </detail>
+                </part>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="structure" displayLabel="Additional Notes">
+                <part type="section">
+                    <detail>
+                        <title>Additional Notes</title>
+                    </detail>
+                </part>
+            </relatedItem>-->
+        <relatedItem type="constituent" otherType="work"
+            displayLabel="Acta Thomae (ex Cod. Brit. Mus. Add. 10,073)">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg2038.tlg006</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Acta Thomae (ex Cod. Brit. Mus. Add. 10,073)">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2038.tlg006.opp-grc1</identifier>
+                <titleInfo>
+                    <title>Acta Thomae (ex Cod. Brit. Mus. Add. 10,073)</title>
+                </titleInfo>
+                <part>
+                    <extent unit="pages">
+                        <start>28</start>
+                        <end>45</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/njp.32101068766748?urlappend=%3Bseq=148</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods displayLabel="Acta Xanthippae et Polyxenae-Apocrypha Ancedota-Cambridge-1893">
+        <titleInfo>
+            <title>Apocrypha anecdota</title>
+            <subTitle>a collection of thirteen apocryphal books and fragments</subTitle>
+        </titleInfo>
+        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/88882890">
+            <namePart>James, Montague Rhodes</namePart>
+            <namePart type="date">1862-1936</namePart>
+            <role>
+                <roleTerm type="text">editor</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">enk</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Cambridge</placeTerm>
+            </place>
+            <publisher>Cambridge University Press</publisher>
+            <dateIssued>1893</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>225 p.</extent>
+        </physicalDescription>
+        <note type="statement of responsibility">now first edited from manuscripts, by Montague
+            Rhodes James.</note>
+        <subject authority="lcsh">
+            <topic>Apocryphal books (Old Testament)</topic>
+        </subject>
+        <subject authority="lcsh">
+            <topic>Apocryphal books (New Testament)</topic>
+        </subject>
+        <identifier type="oclc">4568528</identifier>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/4568528</url>
+        </location>
+        <location>
+            <url displayLabel="UBL">https://katalog.ub.uni-leipzig.de/Record/0003112801</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/njp.32101068766680</url>
+        </location>
+        <!-- None of this should be structure anyways as these are all works -->
+        <!--  <relatedItem type="constituent" otherType="structure" 
+            displayLabel="On the Latin Version of the Viso Pauli">
+            <part type="section">
+                <detail>
+                    <title>On the Latin Version of the Viso Pauli</title>
+                </detail>
+            </part>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="structure" displayLabel="Visio Pauli">
+            <part type="section">
+                <detail>
+                    <title>Visio Pauli</title>
+                </detail>
+            </part>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="structure"
+            displayLabel="Introduction to the Acts of Xanthippe and Polyxena">
+            <part type="section">
+                <detail>
+                    <title>Introduction to the Acts of Xanthippe and Polyxena</title>
+                </detail>
+            </part>
+        </relatedItem> 
+           <relatedItem type="constituent" otherType="structure" displayLabel="On the Story of Zosimus">
+            <part type="section">
+                <detail>
+                    <title>On the Story of Zosimus</title>
+                </detail>
+            </part>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="structure" displayLabel="Narratio Zosimi">
+            <part type="section">
+                <detail>
+                    <title>Narratio Zosimi</title>
+                </detail>
+            </part>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="structure"
+            displayLabel="On the Apocalypse of the Virgin">
+            <part type="section">
+                <detail>
+                    <title>On the Apocalypse of the Virgin</title>
+                </detail>
+            </part>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="structure"
+            displayLabel="Apocalypsis Mariae Virginis">
+            <part type="section">
+                <detail>
+                    <title>Apocalypsis Mariae Virginis</title>
+                </detail>
+            </part>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="structure"
+            displayLabel="On the Apocalypse of Sedrach">
+            <part type="section">
+                <detail>
+                    <title>On the Apocalypse of Sedrach</title>
+                </detail>
+            </part>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="structure" displayLabel="Apocalypsis Sedrach">
+            <part type="section">
+                <detail>
+                    <title>Apocalypsis Sedrach</title>
+                </detail>
+            </part>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="structure"
+            displayLabel="A Fragment of the Apocalypse of Adam in Greek">
+            <part type="section">
+                <detail>
+                    <title>A Fragment of the Apocalypse of Adam in Greek</title>
+                </detail>
+            </part>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="structure"
+            displayLabel="A Fragment of the Book in Enoch in Latin">
+            <part type="section">
+                <detail>
+                    <title>A Fragment of the Book in Enoch in Latin</title>
+                </detail>
+            </part>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="structure"
+            displayLabel="A Description of Antichrist in Latin">
+            <part type="section">
+                <detail>
+                    <title>A Description of Antichrist in Latin</title>
+                </detail>
+            </part>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="structure"
+            displayLabel="on supplements to the Acts of Philip">
+            <part type="section">
+                <detail>
+                    <title>on supplements to the Acts of Philip</title>
+                </detail>
+            </part>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="structure" displayLabel="Translatio Philippi">
+            <part type="section">
+                <detail>
+                    <title>Translatio Philippi</title>
+                </detail>
+            </part>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="structure"
+            displayLabel="Four Apocryphal Fragments in Latin">
+            <part type="section">
+                <detail>
+                    <title>Four Apocryphal Fragments in Latin</title>
+                </detail>
+            </part>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="structure" displayLabel="Additional Notes">
+            <part type="section">
+                <detail>
+                    <title>Additional Notes</title>
+                </detail>
+            </part>
+        </relatedItem>-->
+        <relatedItem type="constituent" otherType="work"
+            displayLabel="Βίος καὶ πολιτεία τῶν ὁσίων Γγναικῶν Ξανθίππης Πολγξένης καὶ Ῥεβέκκας">
+            <!-- Only cataloged work in catalog pending -->
+            <identifier type="ctsurn">urn:cts:greekLit:tlg2248.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Βίος καὶ πολιτεία τῶν ὁσίων Γγναικῶν Ξανθίππης Πολγξένης καὶ Ῥεβέκκας">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2248.tlg001.opp-grc1</identifier>
+                <name type="corporate" authority="tlg">
+                    <namePart>Acta Xanthippae et Polyxenae</namePart>
+                    <role>
+                        <roleTerm type="text">creator</roleTerm>
+                    </role>
+                </name>
+                <part>
+                    <extent unit="pages">
+                        <start>58</start>
+                        <end>85</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/njp.32101068766680?urlappend=%3Bseq=76</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -5519,12 +5899,12 @@
             </relatedItem>
         </relatedItem>
     </mods>
-    <!-- LEFT OFF HERE FOR SECOND PASS -->
     <mods displayLabel="Apocalypsis Joannis-Nau-Paris-1914">
         <titleInfo>
             <title>Une deuxième apocalypse apocryphe grecque de saint Jean</title>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/22216393">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/22216393">
             <namePart>Nau, François</namePart>
             <namePart type="date">1864-1931</namePart>
             <role>
@@ -5590,387 +5970,6 @@
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Apocrypha anecdota II">
-        <titleInfo>
-            <title>Apocrypha anecdota</title>
-            <subTitle>second series</subTitle>
-        </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/88882890">
-            <namePart>James, Montague Rhodes</namePart>
-            <namePart type="date">1862-1936</namePart>
-            <role>
-                <roleTerm type="text">editor</roleTerm>
-            </role>
-        </name>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">enk</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Cambridge</placeTerm>
-            </place>
-            <publisher>Cambridge University Press</publisher>
-            <dateIssued>1897</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <typeOfResource>text</typeOfResource>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>276 p.</extent>
-            <digitalOrigin>digitized other analog</digitalOrigin>
-        </physicalDescription>
-        <subject authority="lcsh">
-            <topic>Bible</topic>
-            <topic>Apocrypha</topic>
-            <genre>Criticism, interpretation, etc.</genre>
-        </subject>
-        <identifier type="oclc">606047080</identifier>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/606047080</url>
-        </location>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/njp.32101068766748</url>
-        </location>
-        <!-- None of this should be structure anyways as these are all works -->
-        <!-- 
-        <relatedItem type="constituent" otherType="structure" displayLabel="Introductions">
-            <part type="section">
-                <detail>
-                    <title>Introductions</title>
-                </detail>
-            </part>
-            <relatedItem type="constituent" otherType="structure"
-                displayLabel="A fragment of the Acts of John">
-                <part type="section">
-                    <detail>
-                        <title>A fragment of the Acts of John</title>
-                    </detail>
-                </part>
-            </relatedItem>
-            <relatedItem type="constituent" otherType="structure"
-                displayLabel="A fragment of the Acts of John">
-                <part type="section">
-                    <detail>
-                        <title>A fragment of the Acts of John</title>
-                    </detail>
-                </part>
-            </relatedItem>
-            <relatedItem type="constituent" otherType="structure" displayLabel="The Acts of Thomas">
-                <part type="section">
-                    <detail>
-                        <title>The Acts of Thomas</title>
-                    </detail>
-                </part>
-            </relatedItem>
-            <relatedItem type="constituent" otherType="structure"
-                displayLabel="Letters of Herod and Pilate">
-                <part type="section">
-                    <detail>
-                        <title>Letters of Herod and Pilate</title>
-                    </detail>
-                </part>
-            </relatedItem>
-            <relatedItem type="constituent" otherType="structure"
-                displayLabel="Letter of Tiberius to Pilate">
-                <part type="section">
-                    <detail>
-                        <title>Letter of Tiberius to Pilate</title>
-                    </detail>
-                </part>
-            </relatedItem>
-            <relatedItem type="constituent" otherType="structure"
-                displayLabel="The Apocalypse of Baruch">
-                <part type="section">
-                    <detail>
-                        <title>The Apocalypse of Baruch</title>
-                    </detail>
-                </part>
-            </relatedItem>
-            <relatedItem type="constituent" otherType="structure"
-                displayLabel="The Testament of Job">
-                <part type="section">
-                    <detail>
-                        <title>The Testament of Job</title>
-                    </detail>
-                </part>
-            </relatedItem>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="structure" displayLabel="Texts">
-            <part type="section">
-                <detail>
-                    <title>Texts</title>
-                </detail>
-            </part>
-            <relatedItem type="constituent" otherType="structure"
-                displayLabel="Actorum Iohannis a Leucio conscriptorum fragmentum">
-                <part type="section">
-                    <detail>
-                        <title>Actorum Iohannis a Leucio conscriptorum fragmentum</title>
-                    </detail>
-                </part>
-            </relatedItem>
-         <relatedItem type="constituent" otherType="structure"
-                displayLabel="Epistolae Pilati et Herodis">
-                <part type="section">
-                    <detail>
-                        <title>Epistolae Pilati et Herodis</title>
-                    </detail>
-                </part>
-            </relatedItem>
-            <relatedItem type="constituent" otherType="structure"
-                displayLabel="Epistola Tiberii ad Pilatum">
-                <part type="section">
-                    <detail>
-                        <title>Epistola Tiberii ad Pilatum</title>
-                    </detail>
-                </part>
-            </relatedItem>
-            <relatedItem type="constituent" otherType="structure"
-                displayLabel="Apocalypsis Baruchi tertia Graece">
-                <part type="section">
-                    <detail>
-                        <title>Apocalypsis Baruchi tertia Graece</title>
-                    </detail>
-                </part>
-            </relatedItem>
-            <relatedItem type="constituent" otherType="structure" displayLabel="Testamentum Iobi">
-                <part type="section">
-                    <detail>
-                        <title>Testamentum Iobi</title>
-                    </detail>
-                </part>
-            </relatedItem>
-            <relatedItem type="constituent" otherType="structure" displayLabel="Additional Notes">
-                <part type="section">
-                    <detail>
-                        <title>Additional Notes</title>
-                    </detail>
-                </part>
-            </relatedItem>-->
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Acta Thomae (ex Cod. Brit. Mus. Add. 10,073)">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg2038.tlg006</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Acta Thomae (ex Cod. Brit. Mus. Add. 10,073)">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg2038.tlg006.opp-grc1</identifier>
-                <titleInfo>
-                    <title>Acta Thomae (ex Cod. Brit. Mus. Add. 10,073)</title>
-                </titleInfo>
-                <part>
-                    <extent unit="pages">
-                        <start>28</start>
-                        <end>45</end>
-                    </extent>
-                </part>
-                <location>
-                    <url displayLabel="HathiTrust"
-                        >https://hdl.handle.net/2027/njp.32101068766748?urlappend=%3Bseq=148</url>
-                </location>
-            </relatedItem>
-        </relatedItem>
-    </mods>
-    <mods displayLabel="Apocrypha Ancedota (collection of 13 books and fragments)">
-        <titleInfo>
-            <title>Apocrypha anecdota</title>
-            <subTitle>a collection of thirteen apocryphal books and fragments</subTitle>
-        </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/88882890">
-            <namePart>James, Montague Rhodes</namePart>
-            <namePart type="date">1862-1936</namePart>
-            <role>
-                <roleTerm type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">enk</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Cambridge</placeTerm>
-            </place>
-            <publisher>Cambridge University Press</publisher>
-            <dateIssued>1893</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>225 p.</extent>
-        </physicalDescription>
-        <note type="statement of responsibility">now first edited from manuscripts, by Montague
-            Rhodes James.</note>
-        <subject authority="lcsh">
-            <topic>Apocryphal books (Old Testament)</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Apocryphal books (New Testament)</topic>
-        </subject>
-        <identifier type="oclc">4568528</identifier>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/4568528</url>
-        </location>
-        <location>
-            <url displayLabel="UBL">https://katalog.ub.uni-leipzig.de/Record/0003112801</url>
-        </location>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/njp.32101068766680</url>
-        </location>
-        <!-- None of this should be structure anyways as these are all works -->
-        <!--  <relatedItem type="constituent" otherType="structure" 
-            displayLabel="On the Latin Version of the Viso Pauli">
-            <part type="section">
-                <detail>
-                    <title>On the Latin Version of the Viso Pauli</title>
-                </detail>
-            </part>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="structure" displayLabel="Visio Pauli">
-            <part type="section">
-                <detail>
-                    <title>Visio Pauli</title>
-                </detail>
-            </part>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="structure"
-            displayLabel="Introduction to the Acts of Xanthippe and Polyxena">
-            <part type="section">
-                <detail>
-                    <title>Introduction to the Acts of Xanthippe and Polyxena</title>
-                </detail>
-            </part>
-        </relatedItem> 
-           <relatedItem type="constituent" otherType="structure" displayLabel="On the Story of Zosimus">
-            <part type="section">
-                <detail>
-                    <title>On the Story of Zosimus</title>
-                </detail>
-            </part>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="structure" displayLabel="Narratio Zosimi">
-            <part type="section">
-                <detail>
-                    <title>Narratio Zosimi</title>
-                </detail>
-            </part>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="structure"
-            displayLabel="On the Apocalypse of the Virgin">
-            <part type="section">
-                <detail>
-                    <title>On the Apocalypse of the Virgin</title>
-                </detail>
-            </part>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="structure"
-            displayLabel="Apocalypsis Mariae Virginis">
-            <part type="section">
-                <detail>
-                    <title>Apocalypsis Mariae Virginis</title>
-                </detail>
-            </part>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="structure"
-            displayLabel="On the Apocalypse of Sedrach">
-            <part type="section">
-                <detail>
-                    <title>On the Apocalypse of Sedrach</title>
-                </detail>
-            </part>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="structure" displayLabel="Apocalypsis Sedrach">
-            <part type="section">
-                <detail>
-                    <title>Apocalypsis Sedrach</title>
-                </detail>
-            </part>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="structure"
-            displayLabel="A Fragment of the Apocalypse of Adam in Greek">
-            <part type="section">
-                <detail>
-                    <title>A Fragment of the Apocalypse of Adam in Greek</title>
-                </detail>
-            </part>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="structure"
-            displayLabel="A Fragment of the Book in Enoch in Latin">
-            <part type="section">
-                <detail>
-                    <title>A Fragment of the Book in Enoch in Latin</title>
-                </detail>
-            </part>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="structure"
-            displayLabel="A Description of Antichrist in Latin">
-            <part type="section">
-                <detail>
-                    <title>A Description of Antichrist in Latin</title>
-                </detail>
-            </part>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="structure"
-            displayLabel="on supplements to the Acts of Philip">
-            <part type="section">
-                <detail>
-                    <title>on supplements to the Acts of Philip</title>
-                </detail>
-            </part>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="structure" displayLabel="Translatio Philippi">
-            <part type="section">
-                <detail>
-                    <title>Translatio Philippi</title>
-                </detail>
-            </part>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="structure"
-            displayLabel="Four Apocryphal Fragments in Latin">
-            <part type="section">
-                <detail>
-                    <title>Four Apocryphal Fragments in Latin</title>
-                </detail>
-            </part>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="structure" displayLabel="Additional Notes">
-            <part type="section">
-                <detail>
-                    <title>Additional Notes</title>
-                </detail>
-            </part>
-        </relatedItem>-->
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Βίος καὶ πολιτεία τῶν ὁσίων Γγναικῶν Ξανθίππης Πολγξένης καὶ Ῥεβέκκας">
-            <!-- Only cataloged work in catalog pending -->
-            <identifier type="ctsurn">urn:cts:greekLit:tlg2248.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Βίος καὶ πολιτεία τῶν ὁσίων Γγναικῶν Ξανθίππης Πολγξένης καὶ Ῥεβέκκας">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg2248.tlg001.opp-grc1</identifier>
-                <name type="corporate" authority="tlg">
-                    <namePart>Acta Xanthippae et Polyxenae</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <part>
-                    <extent unit="pages">
-                        <start>58</start>
-                        <end>85</end>
-                    </extent>
-                </part>
-                <location>
-                    <url displayLabel="HathiTrust"
-                        >https://hdl.handle.net/2027/njp.32101068766680?urlappend=%3Bseq=76</url>
-                </location>
-            </relatedItem>
-        </relatedItem>
-    </mods>
-
 
     <mods displayLabel="Argonautica-Apollonius Rhodius-Coleridge-Bohn-1889">
         <titleInfo xml:lang="lat" type="uniform">
@@ -6004,6 +6003,14 @@
                 <roleTerm authority="marcrelator" type="text">translator</roleTerm>
             </role>
         </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/27414156/">
+            <namePart>Merkel, Rudolf</namePart>
+            <namePart type="date">1811-1885</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">original editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -6014,7 +6021,6 @@
             </place>
             <publisher>George Bell and Sons</publisher>
             <dateIssued>1889</dateIssued>
-            <edition/>
             <issuance>monographic</issuance>
         </originInfo>
         <physicalDescription>
@@ -6037,6 +6043,10 @@
         <location>
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/theargonauticaof00apoliala</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust"
+                >https://hdl.handle.net/2027/uc2.ark:/13960/t03x8577n</url>
         </location>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
@@ -6121,6 +6131,9 @@
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id41697032X</url>
         </location>
+        <language objectPart="preface">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
@@ -6148,7 +6161,6 @@
             <nonSort>The</nonSort>
             <title>Argonautica of Apollonius Rhodius</title>
         </titleInfo>
-        <identifier type="oclc">4348547</identifier>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/264822785/">
             <namePart>Apollonius,</namePart>
@@ -6177,7 +6189,6 @@
             </place>
             <publisher>Longmans, Green</publisher>
             <dateIssued>1912</dateIssued>
-            <edition/>
             <issuance>monographic</issuance>
         </originInfo>
         <language objectPart="text">
@@ -6208,12 +6219,16 @@
                 <title>Bohn Classical Library</title>
             </titleInfo>
         </relatedItem>
+        <identifier type="oclc">4348547</identifier>
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/4348547</url>
         </location>
         <location>
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/argonauticaedite00apoluoft</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/mdp.39015004069715</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Argonautica">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0001.tlg001</identifier>
@@ -6239,8 +6254,6 @@
         <titleInfo>
             <title>C. Valeri Flacci Setini Balbi Argonauticon libri octo</title>
         </titleInfo>
-        <identifier type="lccn">13006940</identifier>
-        <identifier type="oclc">2011538</identifier>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -6270,15 +6283,13 @@
                 <title>Teubner</title>
             </titleInfo>
         </relatedItem>
+        <identifier type="lccn">13006940</identifier>
+        <identifier type="oclc">2011538</identifier>
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/13006940</url>
         </location>
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/2011538</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks" note="Snippet View"
-                >http://books.google.com/books?id=IAIplAQIZo0C</url>
         </location>
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015031909750</url>
@@ -6354,7 +6365,7 @@
 
 
     <mods displayLabel="Argonautica-Valerius Flaccus-Weidmann-1871">
-        <titleInfo xml:lang="eng" type="uniform">
+        <titleInfo xml:lang="lat" type="uniform">
             <title>Argonautica</title>
         </titleInfo>
         <part>
@@ -6365,6 +6376,22 @@
         <titleInfo>
             <title>C. Valeri Flacci Setini Balbi Argonauticon libri octo</title>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100899421/">
+            <namePart>Valerius Flaccus, Gaius</namePart>
+            <namePart type="date">1st cent</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/12523146">
+            <namePart>Schenkl, Karl,</namePart>
+            <namePart type="date">1827-1900</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -6398,22 +6425,6 @@
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/100899421/">
-            <namePart>Valerius Flaccus, Gaius</namePart>
-            <namePart type="date">1st cent</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/12523146">
-            <namePart>Schenkl, Karl,</namePart>
-            <namePart type="date">1827-1900</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Epic poetry, Latin</topic>
         </subject>
@@ -6452,7 +6463,8 @@
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/108478616">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/108478616">
             <namePart>Courtney, E. (Edward)</namePart>
             <namePart type="date">1932-</namePart>
             <role>
@@ -6502,8 +6514,7 @@
         <classification authority="lcc">PA6104 .V2 1970</classification>
         <relatedItem type="series">
             <titleInfo>
-                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana. [Scriptores
-                    Romani]</title>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
             </titleInfo>
         </relatedItem>
         <identifier type="lccn">72527578</identifier>
@@ -6537,8 +6548,8 @@
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no2004-1134.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/62316992/">
             <namePart>Schroeder, Otto</namePart>
             <namePart type="date">1851-1937</namePart>
             <role>
@@ -6606,8 +6617,20 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated" authority="lsj">
             <title>Them. in APo</title>
         </titleInfo>
-        <identifier type="oclc">222433766</identifier>
-        <identifier displayLabel="isCommentaryOn" type="tlg">0086.001</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100219934/">
+            <namePart>Themistius</namePart>
+            <role>
+                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            xlink:href="http://viaf.org/viaf/5048928/">
+            <namePart>Wallies, Maximilian</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -6625,6 +6648,9 @@ but this is where the TLG has left off for numbering-->
             <extent>xvi, 88p.</extent>
         </physicalDescription>
         <classification authority="lcc">PA3902 A25</classification>
+        <identifier type="oclc">222433766</identifier>
+        <!-- NOT SURE HOW WANT TO HANDLE THESE IDS -->
+        <identifier displayLabel="isCommentaryOn" type="tlg">0086.001</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/222433766</url>
         </location>
@@ -6659,12 +6685,6 @@ but this is where the TLG has left off for numbering-->
                 <dateIssued>1900</dateIssued>
                 <issuance>monographic</issuance>
             </originInfo>
-            <language>
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language>
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
             <physicalDescription>
                 <form authority="marcform">print</form>
             </physicalDescription>
@@ -6678,23 +6698,12 @@ but this is where the TLG has left off for numbering-->
             </subject>
             <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
+        <language objectPart="preface">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n79-127090.html">
-            <namePart>Themistius</namePart>
-            <role>
-                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://viaf.org/viaf/5048928/">
-            <namePart>Wallies, Maximilian</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
             <temporal>384-322 B.C.</temporal>
@@ -6728,7 +6737,23 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Eudoxi ars astronomica qualis in charta Aegyptiaca superest</title>
         </titleInfo>
-        <identifier type="oclc">23541404</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/10637157/">
+            <namePart>Eudoxus</namePart>
+            <namePart type="termsOfAddress">of Cnidus</namePart>
+            <namePart type="date">ca. 400-ca. 350 B.C</namePart>
+            <role>
+                <roleTerm type="text" authority="marcrelator">attributed author</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/24690108/">
+            <namePart>Blass, Friedrich</namePart>
+            <namePart type="date">1843-1907</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -6747,6 +6772,7 @@ but this is where the TLG has left off for numbering-->
             <extent>25 p. ; 28 cm.</extent>
         </physicalDescription>
         <classification authority="lcc">QB 21 .E86 </classification>
+        <identifier type="oclc">23541404</identifier>
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015035133225</url>
         </location>
@@ -6759,23 +6785,6 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/10637157/">
-            <namePart>Eudoxus</namePart>
-            <namePart type="termsOfAddress">of Cnidus</namePart>
-            <namePart type="date">ca. 400-ca. 350 B.C</namePart>
-            <role>
-                <roleTerm type="text" authority="marcrelator">attributed author</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/24690108/">
-            <namePart>Blass, Friedrich</namePart>
-            <namePart type="date">1843-1907</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <relatedItem type="constituent" otherType="work" displayLabel="Ars astronomica">
             <identifier type="ctsurn">urn:cts:greekLit:tlg1358.tlg003</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Ars astronomica">
@@ -6870,14 +6879,15 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Artis grammaticae libri V</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" usage="primary"
-            nameTitleGroup="1" valueURI="http://viaf.org/viaf/2629440">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/2629440">
             <namePart>Charisius, Flavius Sosipater</namePart>
             <role>
                 <roleTerm type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/34615433">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/34615433">
             <namePart>Barwick, Karl</namePart>
             <role>
                 <roleTerm type="text">editor</roleTerm>
@@ -6939,6 +6949,22 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Ars grammatica</title>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/187782399/">
+            <namePart>Dositheus,</namePart>
+            <namePart type="termsOfAddress">Magister</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/35232993/">
+            <namePart>Tolkiehn, Johannes</namePart>
+            <namePart type="date">1865-1933</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -6958,7 +6984,9 @@ but this is where the TLG has left off for numbering-->
         <note type="statement of responsibliity">Recensuit Ioannes Tolkiehn</note>
         <classification authority="lcc">PA2082 D6 1913</classification>
         <identifier type="oclc">14171248</identifier>
-        <identifier type="oca">arsgrammaticarec00dosiuoft</identifier>
+        <location>
+            <url displayLabel="Worldcat">http://worldcat.org/oclc/14171248</url>
+        </location>
         <location>
             <url displayLabel="Open Content Alliance"
                 >http://archive.org/details/arsgrammaticarec00dosiuoft</url>
@@ -6969,22 +6997,9 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="http://id.loc.gov/authorities/names/"
-            valueURI="http://id.loc.gov/authorities/names/nr2004036962">
-            <namePart>Dositheus,</namePart>
-            <namePart type="termsOfAddress">Magister</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="http://id.loc.gov/authorities/names/"
-            valueURI="http://id.loc.gov/authorities/names/nb2009012564">
-            <namePart>Tolkiehn, Johannes</namePart>
-            <namePart type="date">1865-1933</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
         <subject authority="lcsh">
             <topic>Latin language</topic>
             <topic>Grammar</topic>
@@ -7013,15 +7028,16 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated" authority="lsj">
             <title>Arist.Rh.Al.</title>
         </titleInfo>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n84-134246.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/87346566/">
             <namePart>Anaximenes,</namePart>
             <namePart type="termsOfAddress">of Lampsacus</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/108371006">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/108371006">
             <namePart>Fuhrmann, Manfred</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
@@ -7067,7 +7083,7 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
         <identifier type="oclc">879604289</identifier>
         <location>
-            <url displayLabel="WorldCat"> http://www.worldcat.org/oclc/879604289 </url>
+            <url displayLabel="WorldCat"> http://www.worldcat.org/oclc/879604289</url>
         </location>
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id403946891</url>
@@ -7089,13 +7105,14 @@ but this is where the TLG has left off for numbering-->
             <title>Qui feruntur libri rhetorici 2</title>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n50-30692.html">
+            valueURI="https://viaf.org/viaf/89043754/">
             <namePart>Aristides, Aelius</namePart>
             <role>
                 <roleTerm type="text" authority="marcrelator">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/95206594">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/95206594">
             <namePart>Schmid, Wilhelm</namePart>
             <namePart type="date">1859 -1951</namePart>
             <role>
@@ -7170,20 +7187,23 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Ars rhetorica</title>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/62127463">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/62127463">
             <namePart>Julius Victor, C. (Gaius), </namePart>
             <namePart type="date">active 4th century</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/61594645">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/61594645">
             <namePart>Giomini, Remo</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/19809923">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/19809923">
             <namePart>Celentano, Maria Silvana</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
@@ -7241,13 +7261,28 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Ars Veterinaria-Pelagonius-Teubner-1892">
+    <mods displayLabel="Ars Veterinaria-Pelagonius-Ihm-Teubner-1892">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Ars Veterinaria</title>
         </titleInfo>
         <titleInfo>
             <title>Pelagonii artis veterinariae quae extant</title>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/286870507/">
+            <namePart>Pelagonius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/64137726/">
+            <namePart>Ihm, Max</namePart>
+            <namePart type="date">1863-1909</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -7266,6 +7301,14 @@ but this is where the TLG has left off for numbering-->
         </physicalDescription>
         <note type="statement of responsibility">recensuit praefatus commentatus est Maximilianus
             Ihm </note>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
+            </titleInfo>
+            <titleInfo type="abbreviated">
+                <title>Teubner</title>
+            </titleInfo>
+        </relatedItem>
         <classification authority="lcc">PA6104.P3</classification>
         <identifier type="lccn">33030503</identifier>
         <identifier type="oclc">8690484</identifier>
@@ -7280,26 +7323,11 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=9x4IAAAAIAAJ</url>
         </location>
         <location>
-            <url displayLabel="HathiTrust"> http://hdl.handle.net/2027/njp.32101059175636 </url>
+            <url displayLabel="HathiTrust"> http://hdl.handle.net/2027/njp.32101059175636</url>
         </location>
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n82-19932.html">
-            <namePart>Pelagonius.</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n84-233298.html">
-            <namePart>Ihm, Max</namePart>
-            <namePart type="date">1863-1909</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Veterinary medicine</topic>
             <temporal>Early works to 1800.</temporal>
@@ -7323,14 +7351,15 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Poetica astronomica</title>
         </titleInfo>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n84-175578.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100956061/">
             <namePart>Hyginus, C. Julius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/39379691/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/39379691/">
             <namePart>Le Bœuffle, André</namePart>
             <namePart type="date">1924-2006</namePart>
             <role>
@@ -7346,7 +7375,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Paris</placeTerm>
             </place>
-            <publisher>"Les Belles Lettres"</publisher>
+            <publisher>Les Belles Lettres</publisher>
             <dateIssued>1983</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -7358,7 +7387,7 @@ but this is where the TLG has left off for numbering-->
         </language>
         <physicalDescription>
             <form authority="marcform">print</form>
-            <extent>Text only</extent>
+            <extent>Latin text only</extent>
             <digitalOrigin>digitized other analog</digitalOrigin>
         </physicalDescription>
         <note type="statement of responsibility" altRepGroup="00">Hygin ; texte établi et traduit
@@ -7379,7 +7408,6 @@ but this is where the TLG has left off for numbering-->
         <identifier type="isbn">2251013210</identifier>
         <identifier type="lccn">83228645</identifier>
         <identifier type="oclc">895032125</identifier>
-
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/895032125</url>
         </location>
@@ -7408,7 +7436,20 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Hygini Astronomica</title>
         </titleInfo>
-        <identifier type="oclc">5032368</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100956061/">
+            <namePart>Hyginus, C. Julius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            xlink:href="http://viaf.org/viaf/37312756/">
+            <namePart>Bunte, Bernhardt</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -7428,9 +7469,7 @@ but this is where the TLG has left off for numbering-->
         <note type="statement of responsibility">Recensuit Bernardus bunte, accedunt Prolegomena,
             Commentarius, Excerpta et Codicibus, Index, Epimetron</note>
         <classification authority="lcc">PA6445.H8</classification>
-        <location>
-            <url displayLabel="LC Permalink"/>
-        </location>
+        <identifier type="oclc">5032368</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/5032368</url>
         </location>
@@ -7443,20 +7482,6 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n84-175578.html">
-            <namePart>Hyginus, C. Julius.</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://viaf.org/viaf/37312756/">
-            <namePart>Bunte, Bernhardt</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Astronomy</topic>
             <genre>Early Works to 1800</genre>
@@ -7514,6 +7539,9 @@ but this is where the TLG has left off for numbering-->
             <topic>Astrology</topic>
             <topic>Poetry</topic>
         </subject>
+        <language objectPart="text">
+            <languageTerm type="code">lat</languageTerm>
+        </language>
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/36025484</url>
         </location>
@@ -7544,14 +7572,15 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Astronomica</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" usage="primary"
-            nameTitleGroup="1" valueURI="http://viaf.org/viaf/22137113">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/22137113">
             <namePart>Manilius, Marcus</namePart>
             <role>
                 <roleTerm type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/108603663">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/108603663">
             <namePart>Goold, George Patrick</namePart>
             <namePart type="date">1922-2001</namePart>
             <role>
@@ -7633,14 +7662,16 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Athēnaiōn politeia</title>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/7524651">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/7524651">
             <namePart>Aristotle</namePart>
             <namePart type="date">384-322</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/29575314">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/29575314">
             <namePart>Oppermann, Hans</namePart>
             <namePart type="date">1895-1982</namePart>
             <role>
@@ -7657,11 +7688,13 @@ but this is where the TLG has left off for numbering-->
             </place>
             <publisher>Teubner</publisher>
             <dateIssued>1928</dateIssued>
-            <edition/>
             <issuance>monographic</issuance>
         </originInfo>
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+        </language>
+        <language objectPart="notes">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
         </language>
         <physicalDescription>
             <form authority="marcform">print</form>
@@ -7697,6 +7730,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
+    <!-- LEFT OFF HERE FOR FINAL PASS -->
     <mods
         displayLabel="Atheniensium Respublica-Xenophon-Kalinka-Teubner-1961 (1914 edition reprint)">
         <titleInfo>
@@ -18695,13 +18729,15 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="uniform">
             <title>De nuptiis Philologiae et Mercuri</title>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/95152094">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/95152094">
             <namePart>Martianus Capella</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/115773125">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/115773125">
             <namePart>Dick, Adolf</namePart>
             <namePart type="date">1860-</namePart>
             <role>
@@ -20728,14 +20764,16 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Libellus de sublimitate</title>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/281851250">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/281851250">
             <namePart>Longinus</namePart>
             <namePart type="date">1st cent</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/27140616">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/27140616">
             <namePart>Russell, Donald Andrew</namePart>
             <namePart type="date">1920-</namePart>
             <role>
@@ -25465,8 +25503,7 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="uniform">
             <title>Enneades</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" usage="primary"
-            nameTitleGroup="1" valueURI="http://viaf.org/viaf/108386765">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"  valueURI="http://viaf.org/viaf/108386765">
             <namePart>Plotinus</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -27419,10 +27456,6 @@ but this is where the TLG has left off for numbering-->
                         >http://www.archive.org/details/letterswithengli02plinuoft</url>
                 </location>
                 <location>
-                    <url displayLabel="Open Library"
-                        >http://openlibrary.org/details/letterswithengli02plinuoft</url>
-                </location>
-                <location>
                     <url displayLabel="GoogleBooks"
                         >http://books.google.com/books?id=TTsMAAAAIAAJ</url>
                 </location>
@@ -29177,10 +29210,6 @@ but this is where the TLG has left off for numbering-->
                 >http://www.archive.org/details/librievangelioru00juveuoft</url>
         </location>
         <location>
-            <url displayLabel="Open Library"
-                >http://www.openlibrary.org/details/librievangelioru00juveuoft</url>
-        </location>
-        <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=LMFKAAAAMAAJ</url>
         </location>
         <location>
@@ -29885,21 +29914,24 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/73862541">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/73862541">
             <namePart>Alton, Ernest Henry</namePart>
             <namePart type="date">1873-1952</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/7519483">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/7519483">
             <namePart>Wormell, Donald Ernest Wilson</namePart>
             <namePart type="date">1908-1990</namePart>
             <role>
                 <roleTerm type="text">editor</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/108478616">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/108478616">
             <namePart>Courtney, Edward</namePart>
             <namePart type="date">1932-</namePart>
             <role>
@@ -30015,6 +30047,11 @@ but this is where the TLG has left off for numbering-->
             <dateIssued>1931</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Loeb classical library</title>
+            </titleInfo>
+        </relatedItem>
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
         </language>
@@ -30161,7 +30198,8 @@ but this is where the TLG has left off for numbering-->
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0673.tlg001.opp-grc1</identifier>
             </relatedItem>
         </relatedItem>
-    </mods><mods displayLabel="Fragmenta-Archilochus-Lasserre/Bonnard-Les Belles Lettres-1968">
+    </mods>
+    <mods displayLabel="Fragmenta-Archilochus-Lasserre/Bonnard-Les Belles Lettres-1968">
         <titleInfo>
             <title>Fragments</title>
         </titleInfo>
@@ -30199,7 +30237,7 @@ but this is where the TLG has left off for numbering-->
             <dateIssued>1968</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
-        
+
         <identifier type="lccn">68117504</identifier>
         <identifier type="oclc">1059934</identifier>
         <classification authority="lcc">PA3873 .A77 1968</classification>
@@ -30218,7 +30256,7 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm type="code">grc</languageTerm>
         </language>
-        <note>SLUB edition contains only Greek text</note>        
+        <note>SLUB edition contains only Greek text</note>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/1059934</url>
         </location>
@@ -30232,7 +30270,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Fragmenta-C. Ateius Capito-Teubner-1967">
         <titleInfo>
             <title>C. Ateio Capitonis Fragmenta</title>
@@ -30355,7 +30393,7 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
-        <identifier type="oclc">852778</identifier>        
+        <identifier type="oclc">852778</identifier>
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/852778</url>
         </location>
@@ -30369,7 +30407,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="HathiTrust">https://hdl.handle.net/2027/uc1.b4449316</url>
         </location>
-  
+
         <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
             <identifier type="ctsurn">urn:cts:greekLit:tlg1321.tlg011</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
@@ -30393,7 +30431,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"  authorityURI="http://viaf.org/org" valueURI="http://viaf.org/viaf/94883789">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/org"
+            valueURI="http://viaf.org/viaf/94883789">
             <namePart>Chilton, Cecil William</namePart>
             <namePart type="date">1914-</namePart>
             <role>
@@ -30461,10 +30500,10 @@ but this is where the TLG has left off for numbering-->
         </part>
         <titleInfo>
             <title>Eudemi Rhodii Peripatetici fragmenta quae supersunt</title>
-        </titleInfo>        
+        </titleInfo>
         <titleInfo type="alternative">
             <title>Peripatetici fragmenta que supersunt</title>
-        </titleInfo>        
+        </titleInfo>
         <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/284656229">
             <namePart>Eudemus</namePart>
@@ -30481,7 +30520,7 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm type="text" authority="marcrelator">editor</roleTerm>
             </role>
         </name>
-        
+
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -30543,7 +30582,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/108234736">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/108234736">
             <namePart>Snell, Bruno</namePart>
             <namePart type="date">1896-1986</namePart>
             <role>
@@ -30684,7 +30724,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/229282618">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/229282618">
             <namePart>Degani, Enzo</namePart>
             <namePart type="date">1934-2000</namePart>
             <role>
@@ -30763,7 +30804,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"  authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/22211745">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/22211745">
             <namePart>Waddell, W. G. (William Gillan)</namePart>
             <namePart type="date">1884-1945</namePart>
             <role>
@@ -30943,7 +30985,7 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"  authorityURI="https://viaf.org/viaf/"
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/52444825/">
             <namePart>Gerhard, Gustav Adolf</namePart>
             <namePart type="date">1878-1918.</namePart>
@@ -30985,14 +31027,14 @@ but this is where the TLG has left off for numbering-->
                 <title>Teubner</title>
             </titleInfo>
         </relatedItem>
-        <identifier type="oclc">6418793</identifier>        
+        <identifier type="oclc">6418793</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/6418793</url>
         </location>
         <location>
             <url displayLabel="Open Content Alliance">
                 http://www.archive.org/details/phoinixvonkoloph00phoeuoft</url>
-        </location>        
+        </location>
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=aSZb15T-WUwC</url>
         </location>
@@ -31017,13 +31059,15 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="translated">
             <title>Sappho: Greek and German</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/78770488">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/78770488">
             <namePart>Sappho</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/22900559">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/22900559">
             <namePart>Rupe, Hans</namePart>
             <namePart type="date">1886-1947</namePart>
             <role>
@@ -32190,11 +32234,11 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="uniform" nameTitleGroup="1">
             <title>Geography</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" usage="primary"
-            nameTitleGroup="1" valueURI="http://viaf.org/viaf/100219883">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100219883/">
             <namePart>Strabo</namePart>
             <role>
-                <roleTerm type="text">creator</roleTerm>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
         <originInfo>
@@ -32303,8 +32347,8 @@ but this is where the TLG has left off for numbering-->
             <nonSort>The</nonSort>
             <title>geography of Strabo</title>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/"
-            authorityURI="https://viaf.org/viaf/100219883/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100219883/">
             <namePart>Strabo</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -32321,8 +32365,7 @@ but this is where the TLG has left off for numbering-->
                 <placeTerm type="text">New York</placeTerm>
             </place>
             <publisher>G. Bell &amp; sons</publisher>
-            <dateIssued>1903-</dateIssued>
-            <dateIssued encoding="marc">1903</dateIssued>
+            <dateIssued>1903-1906</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
         <relatedItem type="series">
@@ -32332,9 +32375,6 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
         <language objectPart="text">
             <languageTerm type="code">eng</languageTerm>
-        </language>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
         <physicalDescription>
             <extent>3 volumes</extent>
@@ -32378,8 +32418,8 @@ but this is where the TLG has left off for numbering-->
                             </detail>
                         </part>
                     </relatedItem>
-                    <name authority="viaf" type="personal"
-                        xlink:href="http://errol.oclc.org/laf/no89-21590.html">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/69302881/">
                         <namePart>Hamilton, Hans Claude</namePart>
                         <namePart type="date">1811-1895</namePart>
                         <role>
@@ -32390,14 +32430,13 @@ but this is where the TLG has left off for numbering-->
                         </role>
                     </name>
                     <tableOfContents>Book I-Book VII</tableOfContents>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/geographyofstrab01strarich</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/geographyofstrab01strarich</url>
                     </location>
-                    <location displayLabel="Open Library">
-                        <url>http://openlibrary.org/details/geographyofstrab01strarich</url>
-                    </location>
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=MvMrAAAAYAAJ</url>
+                    <location>
+                        <url displayLabel="GoogleBooks"
+                            >http://books.google.com/books?id=MvMrAAAAYAAJ</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
@@ -32414,8 +32453,8 @@ but this is where the TLG has left off for numbering-->
                             </detail>
                         </part>
                     </relatedItem>
-                    <name authority="viaf" type="personal"
-                        xlink:href="http://errol.oclc.org/laf/no95-2427.html">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/68509950/">
                         <namePart>Falconer, W. (William)</namePart>
                         <namePart type="date">1801-1885</namePart>
                         <role>
@@ -32423,14 +32462,13 @@ but this is where the TLG has left off for numbering-->
                         </role>
                     </name>
                     <tableOfContents>Book VIII-Book XIII</tableOfContents>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/geographyofstrab02strarich</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/geographyofstrab02strarich</url>
                     </location>
-                    <location displayLabel="Open Library">
-                        <url>http://openlibrary.org/details/geographyofstrab02strarich</url>
-                    </location>
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=2_MrAAAAYAAJ</url>
+                    <location>
+                        <url displayLabel="GoogleBooks"
+                            >http://books.google.com/books?id=2_MrAAAAYAAJ</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
@@ -32447,8 +32485,8 @@ but this is where the TLG has left off for numbering-->
                             </detail>
                         </part>
                     </relatedItem>
-                    <name authority="viaf" type="personal"
-                        xlink:href="http://errol.oclc.org/laf/no95-2427.html                         ">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/68509950/">
                         <namePart>Falconer, W. (William)</namePart>
                         <namePart type="date">1801-1885</namePart>
                         <role>
@@ -32456,8 +32494,9 @@ but this is where the TLG has left off for numbering-->
                         </role>
                     </name>
                     <tableOfContents>Book XIV-Book XVII</tableOfContents>
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=lfMrAAAAYAAJ</url>
+                    <location>
+                        <url displayLabel="GoogleBooks"
+                            >http://books.google.com/books?id=lfMrAAAAYAAJ</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -32474,15 +32513,15 @@ but this is where the TLG has left off for numbering-->
             <title>Strabo</title>
             <subTitle>The geography of Strabo</subTitle>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/"
-            authorityURI="https://viaf.org/viaf/100219883/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100219883/">
             <namePart>Strabo</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/nr97-36760.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/36988170/">
             <namePart>Sterrett, J. R. Sitlington (John Robert Sitlington)</namePart>
             <namePart type="date">1851-1914</namePart>
             <role>
@@ -32492,10 +32531,10 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm type="text">editor</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/nr97-36758.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/32067652/">
             <namePart>Jones, Horace Leonard</namePart>
-            <namePart type="date">b. 1879</namePart>
+            <namePart type="date">1879-1954</namePart>
             <role>
                 <roleTerm type="text">translator</roleTerm>
             </role>
@@ -32531,6 +32570,12 @@ but this is where the TLG has left off for numbering-->
         <physicalDescription>
             <extent>8 volumes</extent>
         </physicalDescription>
+        <language objectPart="text">
+            <languageTerm type="code">eng</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code">grc</languageTerm>
+        </language>
         <identifier type="oclc">21130537</identifier>
         <identifier type="lccn">17013967</identifier>
         <identifier type="isbn">0674992016</identifier>
@@ -32574,14 +32619,13 @@ but this is where the TLG has left off for numbering-->
                         <dateModified>1960</dateModified>
                     </originInfo>
                     <tableOfContents>Books I and II</tableOfContents>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/geographyofstrab01strauoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/geographyofstrab01strauoft</url>
                     </location>
-                    <location displayLabel="Open Library">
-                        <url>http://www.openlibrary.org/details/geographyofstrab01strauoft</url>
-                    </location>
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=7sdfAAAAMAAJ</url>
+                    <location>
+                        <url displayLabel="GoogleBooks"
+                            >http://books.google.com/books?id=7sdfAAAAMAAJ</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
@@ -32603,11 +32647,9 @@ but this is where the TLG has left off for numbering-->
                         <dateModified>1960</dateModified>
                     </originInfo>
                     <tableOfContents>Books III-V</tableOfContents>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/geographyofstrab02strauoft</url>
-                    </location>
-                    <location displayLabel="Open Library">
-                        <url>http://www.openlibrary.org/details/geographyofstrab02strauoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/geographyofstrab02strauoft</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
@@ -32629,11 +32671,9 @@ but this is where the TLG has left off for numbering-->
                         <dateModified>1983</dateModified>
                     </originInfo>
                     <tableOfContents>Books VI and VII</tableOfContents>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/geographyofstrab03strauoft</url>
-                    </location>
-                    <location displayLabel="Open Library">
-                        <url>http://www.openlibrary.org/details/geographyofstrab03strauoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/geographyofstrab03strauoft</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 4">
@@ -32655,11 +32695,9 @@ but this is where the TLG has left off for numbering-->
                         <dateModified>1988</dateModified>
                     </originInfo>
                     <tableOfContents>Books VIII and IX</tableOfContents>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/geographyofstrab04strauoft</url>
-                    </location>
-                    <location displayLabel="Open Library">
-                        <url>http://www.openlibrary.org/details/geographyofstrab04strauoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/geographyofstrab04strauoft</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 5">
@@ -32681,11 +32719,9 @@ but this is where the TLG has left off for numbering-->
                         <dateModified>1988</dateModified>
                     </originInfo>
                     <tableOfContents>Books X-XII</tableOfContents>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/geographyofstrab05strauoft</url>
-                    </location>
-                    <location displayLabel="Open Library">
-                        <url>http://www.openlibrary.org/details/geographyofstrab05strauoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/geographyofstrab05strauoft</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 6">
@@ -32707,11 +32743,9 @@ but this is where the TLG has left off for numbering-->
                         <dateModified>1960</dateModified>
                     </originInfo>
                     <tableOfContents>Books XIII-XIV</tableOfContents>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/geographyofstra06strauoft</url>
-                    </location>
-                    <location displayLabel="Open Library">
-                        <url>http://www.openlibrary.org/details/geographyofstra06strauoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/geographyofstra06strauoft</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 7">
@@ -32732,11 +32766,9 @@ but this is where the TLG has left off for numbering-->
                         <dateIssued>1930</dateIssued>
                     </originInfo>
                     <tableOfContents>Books XV-XVI</tableOfContents>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/geographyofstrab07strauoft</url>
-                    </location>
-                    <location displayLabel="Open Library">
-                        <url>http://www.openlibrary.org/details/geographyofstrab07strauoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/geographyofstrab07strauoft</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 8">
@@ -32758,11 +32790,9 @@ but this is where the TLG has left off for numbering-->
                         <dateModified>1959</dateModified>
                     </originInfo>
                     <tableOfContents>Book XVII</tableOfContents>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/geographyofstrab08strauoft</url>
-                    </location>
-                    <location displayLabel="Open Library">
-                        <url>http://www.archive.org/details/geographyofstrab08strauoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/geographyofstrab08strauoft</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -32780,17 +32810,15 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Strabonis Geographica</title>
         </titleInfo>
-        <identifier type="lccn">16008666</identifier>
-        <identifier type="oclc">84053377</identifier>
-        <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/"
-            authorityURI="https://viaf.org/viaf/100219883/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100219883/">
             <namePart>Strabo</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n88-181640.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/69736744/">
             <namePart>Meineke, August</namePart>
             <namePart type="date">1790-1870</namePart>
             <role>
@@ -32829,6 +32857,8 @@ but this is where the TLG has left off for numbering-->
             </titleInfo>
         </relatedItem>
         <classification authority="lcc">PA3404 .S8 1877</classification>
+        <identifier type="lccn">16008666</identifier>
+        <identifier type="oclc">84053377</identifier>
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/16008666</url>
         </location>
@@ -33073,10 +33103,6 @@ but this is where the TLG has left off for numbering-->
                 >http://www.archive.org/details/glossaeplaci00lactuoft</url>
         </location>
         <location>
-            <url displayLabel="Open Library"
-                >http://www.openlibrary.org/details/glossaeplaci00lactuoft</url>
-        </location>
-        <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=rEJUCyoGCaIC</url>
         </location>
         <language objectPart="text">
@@ -33175,6 +33201,94 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
+    <mods displayLabel="Gynaeciorum-Soranus-Dietz/Rose-Teubner-1882">
+        <titleInfo>
+            <title>Gynaeciorum vetus translatio latina</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/35828235/">
+            <namePart>Soranus</namePart>
+            <namePart type="termsOfAddress">of Ephesus</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/5674234/">
+            <namePart>Dietz, Friedrich Reinhold</namePart>
+            <namePart type="date">1804-1836</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/64095849/">
+            <namePart>Rose, Valentin</namePart>
+            <namePart type="date">1829-1916</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Lipsiae</placeTerm>
+            </place>
+            <publisher>in aedibus B. G. Teubneri</publisher>
+            <dateIssued>1882</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
+            </titleInfo>
+            <titleInfo type="abbreviated">
+                <title>Teubner</title>
+            </titleInfo>
+        </relatedItem>
+        <language objectPart="notes">
+            <languageTerm type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code">grc</languageTerm>
+        </language>
+        <identifier type="lccn">34017119</identifier>
+        <identifier type="oclc">4969084</identifier>
+        <classification authority="lcc">PA3404 .S74 1882</classification>
+        <subject authority="lcsh">
+            <topic>Medicine, Greek and Roman</topic>
+        </subject>
+        <location>
+            <url displayLabel="WorldCat">http://worldcat.org/oclc/4969084</url>
+        </location>
+        <location>
+            <url displayLabel="Open Content Alliance"
+                >http://www.archive.org/details/gynaeciorumvetus00sorauoft</url>
+        </location>
+        <location>
+            <url displayLabel="GoogleBooks">http://books.google.com/books?id=l-Rp5hsHdMEC</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/umn.31951002124136x</url>
+        </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="Gynaecia">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0565.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Gynaecia">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0565.tlg001.opp-grc1</identifier>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Gynaecia">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0565.tlg001.opp-lat1</identifier>
+            </relatedItem>
+        </relatedItem>
+    </mods>
     <mods displayLabel="Greek Anthology-Paton-Loeb-Perseus-Greek">
         <titleInfo>
             <nonSort>The</nonSort>
@@ -33247,10 +33361,6 @@ but this is where the TLG has left off for numbering-->
                 <url displayLabel="Open Content Alliance"
                     >http://www.archive.org/details/greekanthology01newyuoft</url>
             </location>
-            <location>
-                <url displayLabel="Open Library"
-                    >http://openlibrary.org/details/greekanthology01newyuoft</url>
-            </location>
             <relatedItem type="constituent" otherType="work"
                 displayLabel="The Greek anthology Vol I">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg7000.tlg001</identifier>
@@ -33277,10 +33387,6 @@ but this is where the TLG has left off for numbering-->
             <location>
                 <url displayLabel="Open Content Alliance"
                     >http://www.archive.org/details/greekanthology02newyuoft</url>
-            </location>
-            <location>
-                <url displayLabel="Open Library"
-                    >http://openlibrary.org/details/greekanthology02newyuoft</url>
             </location>
             <location>
                 <url displayLabel="GoogleBooks">http://books.google.com/books?id=hBQOAAAAYAAJ</url>
@@ -33344,10 +33450,6 @@ but this is where the TLG has left off for numbering-->
                     >http://www.archive.org/details/greekanthology04newyuoft</url>
             </location>
             <location>
-                <url displayLabel="Open Library"
-                    >http://openlibrary.org/ia/greekanthology04newyuoft</url>
-            </location>
-            <location>
                 <url displayLabel="GoogleBooks">http://books.google.com/books?id=F41fAAAAMAAJ</url>
             </location>
             <relatedItem type="constituent" otherType="work"
@@ -33376,10 +33478,6 @@ but this is where the TLG has left off for numbering-->
             <location>
                 <url displayLabel="Open Content Alliance"
                     >http://www.archive.org/details/greekanthology05newyuoft</url>
-            </location>
-            <location>
-                <url displayLabel="Open Library"
-                    >http://openlibrary.org/ia/greekanthology05newyuoft</url>
             </location>
             <location>
                 <url displayLabel="GoogleBooks">http://books.google.com/books?id=RIxfAAAAMAAJ</url>
@@ -34514,8 +34612,8 @@ but this is where the TLG has left off for numbering-->
             <nonSort>The</nonSort>
             <title>Ecclesiastical history</title>
         </titleInfo>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n79-150225.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/4929593/">
             <namePart>Eusebius</namePart>
             <namePart type="termsOfAddress">of Caesarea, Bishop of Caesarea</namePart>
             <namePart type="date">ca. 260-ca. 340</namePart>
@@ -34592,8 +34690,8 @@ but this is where the TLG has left off for numbering-->
                             <caption>Vol 1</caption>
                         </detail>
                     </part>
-                    <name authority="viaf" type="personal"
-                        xlink:href="http://errol.oclc.org/laf/n88-663360.html">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/29657758/">
                         <namePart>Lake, Kirsopp</namePart>
                         <namePart type="date">1872-1946</namePart>
                         <role>
@@ -34611,11 +34709,9 @@ but this is where the TLG has left off for numbering-->
                             </detail>
                         </part>
                     </relatedItem>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/ecclesiasticalhi01euseuoft</url>
-                    </location>
-                    <location displayLabel="Open Library">
-                        <url>http://openlibrary.org/details/ecclesiasticalhi01euseuoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/ecclesiasticalhi01euseuoft</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
@@ -34648,11 +34744,9 @@ but this is where the TLG has left off for numbering-->
                             <roleTerm authority="marcrelator" type="text">editor</roleTerm>
                         </role>
                     </name>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/ecclesiasticalhi02euseuoft</url>
-                    </location>
-                    <location displayLabel="Open Library">
-                        <url>http://openlibrary.org/details/ecclesiasticalhi02euseuoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/ecclesiasticalhi02euseuoft</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -34666,9 +34760,9 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="translated" lang="ger">
             <title>Gelasius Kirchengeschichte</title>
         </titleInfo>
-        <name type="personal" usage="primary" authority="naf"
-            authorityURI="http://id.loc.gov/authorities/names/"
-            valueURI="http://id.loc.gov/authorities/names/no2002054614">
+        <name type="personal" authority="viaf"
+            authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/89139709/">
             <namePart>Gelasius of Cyzicus</namePart>
             <namePart type="date">active 475</namePart>
             <role>
@@ -34683,7 +34777,7 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/27453362">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/27453362">
             <namePart>Heinemann, Margret</namePart>
             <namePart type="date">1883-1968</namePart>
             <role>
@@ -42464,8 +42558,8 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated" authority="lsj">
             <title>Them. in APr</title>
         </titleInfo>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n79-127090.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100219934/">
             <namePart>Themistius</namePart>
             <role>
                 <roleTerm type="text" authority="marcrelator">creator</roleTerm>
@@ -43546,8 +43640,8 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n79-127090.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100219934/">
             <namePart>Themistius</namePart>
             <role>
                 <roleTerm type="text" authority="marcrelator">creator</roleTerm>
@@ -44926,8 +45020,8 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n79-127090.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100219934/">
             <namePart>Themistius</namePart>
             <role>
                 <roleTerm type="text" authority="marcrelator">creator</roleTerm>
@@ -46361,8 +46455,8 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n79-127090.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100219934/">
             <namePart>Themistius</namePart>
             <role>
                 <roleTerm type="text" authority="marcrelator">creator</roleTerm>
@@ -48396,6 +48490,89 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
+    <mods displayLabel="Interpretatio Orationvm Gregorii Nazianzeni-Rufinus-Engelbrecht/Wrobel-1910">
+        <titleInfo>
+            <title>Tyrannii Rvfini Orationvm Gregorii Nazianzeni novem interpretatio</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/77679446/">
+            <namePart>Rufinus</namePart>
+            <namePart type="termsOfAddress">of Aquileia</namePart>
+            <namePart type="date">345-410</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/46897094/">
+            <namePart>Gregory,</namePart>
+            <namePart type="termsOfAddress">of Nazianzus, Saint</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/17975157/">
+            <namePart>Engelbrecht, August,</namePart>
+            <namePart type="date">1861-1925</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/10232603">
+            <namePart>Wrobel, Johann</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">au</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Vindobonae</placeTerm>
+            </place>
+            <publisher>Gerold</publisher>
+            <dateIssued>1910</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Corpus scriptorum ecclesiasticorum latinorum</title>
+                <partNumber>Volume 46</partNumber>
+            </titleInfo>
+        </relatedItem>
+        <language objectPart="text">
+            <languageTerm type="code">lat</languageTerm>
+        </language>
+
+        <identifier type="oclc">877694</identifier>
+        <classification authority="lcc">BR60 .C6</classification>
+        <subject authority="lcsh">
+            <topic>Fathers of the church</topic>
+        </subject>
+        <subject authority="lcsh">
+            <topic>Fathers of the church, Latin</topic>
+        </subject>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/877694</url>
+        </location>
+        <location>
+            <url displayLabel="Open Content Alliance">http://archive.org/stream/CSEL46</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/njp.32101074170083</url>
+        </location>
+        <relatedItem type="constituent" otherType="work"
+            displayLabel="Interpretatio Orationum Gregorii Nazianzeni">
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0244d.stoa005</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Interpretatio Orationum Gregorii Nazianzeni">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0244d.stoa005.opp-lat1</identifier>
+            </relatedItem>
+        </relatedItem>
+    </mods>
     <mods displayLabel="Interpretationes Vergilianae-Donatus-Georges-Teubner-1905">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Interpretationes Vergilianae</title>
@@ -48833,7 +49010,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf" valueURI="http://viaf.org/viaf/60087717">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf"
+            valueURI="http://viaf.org/viaf/60087717">
             <namePart>Ahlberg, Axel Wilhelm</namePart>
             <namePart type="date">1874-1951</namePart>
             <role>
@@ -48894,7 +49072,7 @@ but this is where the TLG has left off for numbering-->
             <nonSort>The</nonSort>
             <title>Oath</title>
         </titleInfo>
-        <name authority="viaf" type="personal"  authorityURI="https://viaf.org/viaf/"
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/287984736/">
             <namePart>Hippocrates</namePart>
             <role>
@@ -51070,8 +51248,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n85-289118.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/27414156/">
             <namePart>Merkel, Rudolf</namePart>
             <namePart type="date">1811-1885</namePart>
             <role>
@@ -51079,7 +51257,7 @@ but this is where the TLG has left off for numbering-->
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n85-29166.html">
+            valueURI="https://viaf.org/viaf/22361146/">
             <namePart>Ehwald, Rudolf</namePart>
             <namePart type="date">1847-1927</namePart>
             <role>
@@ -52053,7 +52231,20 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated" authority="lsj">
             <title>Arist.Mete.</title>
         </titleInfo>
-        <identifier type="oclc">6480386</identifier>
+        <name authority="viaf" authorityURI="http://viaf.org/viaf/" type="personal"
+            valueURI="http://viaf.org/viaf/7524651">
+            <namePart>Aristotle</namePart>
+            <namePart type="date">384-322</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/94027770/">
+            <namePart>Fobes, Francis Howard</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -52072,6 +52263,7 @@ but this is where the TLG has left off for numbering-->
         </physicalDescription>
         <note type="statement of responsiblity">recensvit indicem verborvm addidit F.H. Fobes</note>
         <classification authority="lcc">PA3893 M7 1919</classification>
+        <identifier type="oclc">6480386</identifier>        
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/6480386</url>
         </location>
@@ -52080,28 +52272,11 @@ but this is where the TLG has left off for numbering-->
                 >http://www.archive.org/details/aristotelismeteo00arisuoft</url>
         </location>
         <location>
-            <url displayLabel="Open Library">http://openlibrary.org/</url>
-        </location>
-        <location>
             <url displayLabel="HathiTrust">https://hdl.handle.net/2027/mdp.39015027645228</url>
         </location>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-4182.html">
-            <namePart>Aristotle.</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n86-846868.html">
-            <namePart>Fobes, Francis Howard</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <relatedItem type="constituent" otherType="work" displayLabel="Meteorologica">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg026</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Meteorologica">
@@ -61776,7 +61951,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Synagoge-Pappus-Hultsch-Weidmann-1876-">
+    <mods displayLabel="Synagoge-Pappus-Hultsch-Weidmann-1876-1878">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Synagoge</title>
         </titleInfo>
@@ -61848,11 +62023,11 @@ but this is where the TLG has left off for numbering-->
                         </part>
                     </relatedItem>
                     <tableOfContents>Librorum II, III, IV, V Reliquiae</tableOfContents>
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=RjJKAAAAMAAJ</url>
+                    <location>
+                        <url displayLabel="GoogleBooks">http://books.google.com/books?id=RjJKAAAAMAAJ</url>
                     </location>
-                    <location displayLabel="HathiTrust">
-                        <url>http://hdl.handle.net/2027/uc1.b4249675</url>
+                    <location>
+                        <url displayLabel="HathiTrust">http://hdl.handle.net/2027/uc1.b4249675</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
@@ -61870,11 +62045,11 @@ but this is where the TLG has left off for numbering-->
                         </part>
                     </relatedItem>
                     <tableOfContents>Librorum VI et VII Reliquiae</tableOfContents>
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=HRgPAAAAIAAJ</url>
+                    <location>
+                        <url displayLabel="GoogleBooks">http://books.google.com/books?id=HRgPAAAAIAAJ</url>
                     </location>
-                    <location displayLabel="HathiTrust">
-                        <url>http://hdl.handle.net/2027/mdp.39015068089542</url>
+                    <location>
+                        <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015068089542</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3-Part I">
@@ -61893,11 +62068,11 @@ but this is where the TLG has left off for numbering-->
                         </part>
                     </relatedItem>
                     <tableOfContents>Libri VIII Reliquiae</tableOfContents>
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=syZKAAAAMAAJ</url>
+                    <location>
+                        <url displayLabel="GoogleBooks">http://books.google.com/books?id=syZKAAAAMAAJ</url>
                     </location>
-                    <location displayLabel="HathiTrust">
-                        <url>http://hdl.handle.net/2027/uc1.b4249192</url>
+                    <location>
+                        <url  displayLabel="HathiTrust">http://hdl.handle.net/2027/uc1.b4249192</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure"
@@ -61911,8 +62086,8 @@ but this is where the TLG has left off for numbering-->
                     <tableOfContents>Index Graecitatis, Scripturae Compendiorum, Conspectus, Index
                         Rerum ad Mathematicam, Disciplinam Spectantium, Conspectus
                         Auctorum</tableOfContents>
-                    <location displayLabel="HathiTrust">
-                        <url>http://hdl.handle.net/2027/uc1.b4249192?urlappend=%3Bseq=294</url>
+                    <location>
+                        <url displayLabel="HathiTrust">http://hdl.handle.net/2027/uc1.b4249192?urlappend=%3Bseq=294</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -61949,10 +62124,6 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/syntagmadealimen00simeuoft</url>
-        </location>
-        <location>
-            <url displayLabel="OpenLibrary"
-                >http://www.openlibrary.org/details/syntagmadealimen00simeuoft</url>
         </location>
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=YgEAAAAAQAAJ</url>
