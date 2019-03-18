@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <!-- Delete all OpenLibrary URLs-no longer relevant -->
     <!-- Continue converting author and editor names to linked data format (make
     sure have both authority and valueURI-->
@@ -9222,7 +9222,6 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <!-- LEFT OFF HERE  -->
     <mods displayLabel="Capita centum de perfectione spirituali-Diadochus-Teubner-1912">
         <titleInfo authority="tlg" xml:lang="lat" type="uniform">
             <title>Capita centum de perfectione spirituali</title>
@@ -9235,6 +9234,23 @@ but this is where the TLG has left off for numbering-->
             <title>Sancti Diadochi episcopi Photicensis De perfectione spirituali capita
                 centum</title>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/32806504/">
+            <namePart>Diadochus</namePart>
+            <namePart type="termsOfAddress">Bishop of Photice</namePart>
+            <namePart type="date">5th cent</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/98296667/">
+            <namePart>Weis-Liebersdorf, J. E. (Johannes Evangelista),</namePart>
+            <namePart type="date">1870-</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <genre authority="marc">bibliography</genre>
         <originInfo>
@@ -9277,26 +9293,9 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/diadochouepiskop00procuoft</url>
         </location>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/32806504/">
-            <namePart>Diadochus</namePart>
-            <namePart type="termsOfAddress">Bishop of Photice</namePart>
-            <namePart type="date">5th cent</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/98296667/">
-            <namePart>Weis, J. E. (Johannes Evangelista),</namePart>
-            <namePart type="date">b. 1870</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/mdp.39015030573904</url>
+        </location>
         <subject authority="lcsh">
             <topic>Theology</topic>
             <topic>Early works to 1800</topic>
@@ -9334,14 +9333,16 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/49984473">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/49984473">
             <namePart>Goetz, Georg</namePart>
             <namePart type="date">1849-1932</namePart>
             <role>
                 <roleTerm type="text">editor</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/20053312">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/20053312">
             <namePart>Schöll, Fritz</namePart>
             <namePart type="date">1850-1919</namePart>
             <role>
@@ -9393,18 +9394,19 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Carmina Anacreontea</title>
         </titleInfo>
-        <titleInfo authority="naf " type="uniform"
-            xlink:href="http://errol.oclc.org/laf/n83-015406.html">
+        <titleInfo authority="viaf " type="uniform" authorityURI="https://viaf.org/viaf/179430951/"
+            valueURI="https://viaf.org/viaf/179430951/">
             <title>Anacreontea</title>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n83-15407.html">
+            valueURI="https://viaf.org/viaf/100165204/">
             <namePart>Anacreon</namePart>
             <role>
                 <roleTerm type="text">attributed author</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/108370990">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/108370990">
             <namePart>West, M. L. (Martin Litchfield)</namePart>
             <namePart type="date">1937-</namePart>
             <role>
@@ -9479,21 +9481,23 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Carmina</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" usage="primary"
-            nameTitleGroup="1" valueURI="http://viaf.org/viaf/100218993">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/100218993">
             <namePart>Catullus, Gaius Valerius</namePart>
             <role>
                 <roleTerm type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/100382753">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/100382753">
             <namePart>Heyse, Theodor</namePart>
             <namePart type="date">1803-1884</namePart>
             <role>
                 <roleTerm type="text">translator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/160295689">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/160295689">
             <namePart>Schöne, Wilhelm</namePart>
             <namePart type="date">1887-</namePart>
             <role>
@@ -9551,10 +9555,10 @@ but this is where the TLG has left off for numbering-->
             <title>Poésies</title>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-6943.html">
+            valueURI="http://viaf.org/viaf/100218993">
             <namePart>Catullus, Gaius Valerius</namePart>
             <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                <roleTerm type="text">creator</roleTerm>
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
@@ -9580,6 +9584,10 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">fre</languageTerm>
         </language>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
+        <note>SLUB digitized editions contains Latin text only</note>
         <physicalDescription>
             <form authority="marcform">print</form>
             <extent>XXIX, 122 S.</extent>
@@ -9633,6 +9641,21 @@ but this is where the TLG has left off for numbering-->
                 <total>12980</total>
             </extent>
         </part>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/100218993">
+            <namePart>Catullus, Gaius Valerius</namePart>
+            <role>
+                <roleTerm type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/54929846/">
+            <namePart>Müller, Lucian</namePart>
+            <namePart type="date">1836-1898</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -9650,12 +9673,20 @@ but this is where the TLG has left off for numbering-->
             <extent>72 p.</extent>
         </physicalDescription>
         <note type="statement of responsibility">recensuit Lucianus Mueller.</note>
-        <location>
-            <url displayLabel="LC Permalink"/>
-        </location>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
+            </titleInfo>
+            <titleInfo type="abbreviated">
+                <title>Teubner</title>
+            </titleInfo>
+        </relatedItem>
         <identifier type="oclc">219559839</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/219559839</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/wu.89001319201</url>
         </location>
         <location>
             <url displayLabel="Open Content Alliance"
@@ -9668,21 +9699,6 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-6943.html">
-            <namePart>Catullus, Gaius Valerius.</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/54929846/">
-            <namePart>Müller, Lucian</namePart>
-            <namePart type="date">1836-1898</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <relatedItem type="constituent" otherType="work" displayLabel="Carmina">
             <identifier type="ctsurn">urn:cts:latinLit:phi0472.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Carmina">
@@ -9694,14 +9710,15 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Carmina</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" usage="primary"
-            nameTitleGroup="1" valueURI="http://viaf.org/viaf/100218993">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/100218993">
             <namePart>Catullus, Gaius Valerius</namePart>
             <role>
                 <roleTerm type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/71406029">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/71406029">
             <namePart>Mynors, Roger Aubrey Baskerville</namePart>
             <namePart type="date">1903-1989</namePart>
             <role>
@@ -9735,6 +9752,11 @@ but this is where the TLG has left off for numbering-->
                 <title>Scriptorum classicorum biblioteca Oxoniensis</title>
             </titleInfo>
         </relatedItem>
+        <subject>
+            <topic>Rome</topic>
+            <topic>Poetry</topic>
+            <temporal>Early works to 1800</temporal>
+        </subject>
         <identifier type="lccn">58001178</identifier>
         <identifier type="oclc">321516</identifier>
         <location>
@@ -9750,7 +9772,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Carmina-Catullus-Burton-1894-Perseus-English-1">
+    <mods displayLabel="Carmina-Catullus-Burton-1894-Perseus-English-1/2">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Carmina</title>
         </titleInfo>
@@ -9763,24 +9785,29 @@ but this is where the TLG has left off for numbering-->
             <nonSort>The</nonSort>
             <title>Carmina of Caius Valerius Catullus</title>
         </titleInfo>
-        <identifier type="lccn">05015039</identifier>
-        <identifier type="oclc">878062</identifier>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-6943.html">
-            <namePart>Catullus, Gaius Valerius.</namePart>
+            valueURI="http://viaf.org/viaf/100218993">
+            <namePart>Catullus, Gaius Valerius</namePart>
             <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                <roleTerm type="text">creator</roleTerm>
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n80-57204.html">
+            valueURI="https://viaf.org/viaf/29832058/">
             <namePart>Burton, Richard Francis</namePart>
             <namePart type="termsOfAddress">Sir</namePart>
             <namePart type="date">1821-1890</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">translator</roleTerm>
             </role>
-            <description>Metrical verse translator</description>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/18131854/">
+            <namePart>Smithers, Leonard C. (Leonard Charles),</namePart>
+            <namePart type="date">1861-1907</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
         </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
@@ -9832,6 +9859,8 @@ but this is where the TLG has left off for numbering-->
             <topic>Translations into English</topic>
         </subject>
         <classification authority="lcc">PA6275.E5 B8</classification>
+        <identifier type="lccn">05015039</identifier>
+        <identifier type="oclc">878062</identifier>
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/uc2.ark:/13960/t5q81d82b</url>
         </location>
@@ -9850,6 +9879,36 @@ but this is where the TLG has left off for numbering-->
                     <url displayLabel="Perseus" note="English"
                         >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.02.0005</url>
                 </location>
+                <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                    valueURI="https://viaf.org/viaf/29832058/">
+                    <namePart>Burton, Richard Francis</namePart>
+                    <namePart type="termsOfAddress">Sir</namePart>
+                    <namePart type="date">1821-1890</namePart>
+                    <role>
+                        <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+                    </role>
+                </name>
+            </relatedItem>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="work"
+            displayLabel="The Carmina of Caius Valerius Catullus">
+            <identifier type="ctsurn">urn:cts:latinLit:phi0472.phi001</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="The Carmina of Caius Valerius Catullus">
+                <identifier type="ctsurn">urn:cts:latinLit:phi0472.phi001.perseus-eng2</identifier>
+                <identifier>Perseus:text:1999.02.0006</identifier>
+                <location>
+                    <url displayLabel="Perseus" note="English"
+                        >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.02.0006</url>
+                </location>
+                <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                    valueURI="https://viaf.org/viaf/18131854/">
+                    <namePart>Smithers, Leonard C. (Leonard Charles), </namePart>
+                    <namePart type="date">1861-1907</namePart>
+                    <role>
+                        <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+                    </role>
+                </name>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -9865,16 +9924,15 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Catullus</title>
         </titleInfo>
-        <identifier type="oclc">8121753</identifier>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-6943.html">
-            <namePart>Catullus, Gaius Valerius.</namePart>
+            valueURI="http://viaf.org/viaf/100218993">
+            <namePart>Catullus, Gaius Valerius</namePart>
             <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                <roleTerm type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n87-125966.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/159935921/">
             <namePart>Merrill, Elmer Truesdell</namePart>
             <namePart type="date">1860-1936</namePart>
             <role>
@@ -9894,7 +9952,7 @@ but this is where the TLG has left off for numbering-->
             <dateIssued encoding="marc">1893</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
-        <language>
+        <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
         <physicalDescription>
@@ -9903,11 +9961,12 @@ but this is where the TLG has left off for numbering-->
         </physicalDescription>
         <note type="statement of responsibility"> ed. by Elmer Truesdell Merrill.</note>
         <classification authority="lcc">PA6274 .A2</classification>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/uc1.32106005763302</url>
-        </location>
+        <identifier type="oclc">8121753</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/8121753</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/uc1.32106005763302</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Carmina">
             <identifier type="ctsurn">urn:cts:latinLit:phi0472.phi001</identifier>
@@ -9922,102 +9981,7 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
 
-    <mods displayLabel="Carmina-Catullus-Smithers-Perseus-English-2">
-        <titleInfo>
-            <nonSort>The</nonSort>
-            <title>Carmina of Caius Valerius Catullus</title>
-        </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-6943.html">
-            <namePart>Catullus, Gaius Valerius.</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/nr92-11862.html">
-            <namePart>Smithers, Leonard C. (Leonard Charles)</namePart>
-            <namePart type="date">1861-1907</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-            </role>
-            <description>Prose translator</description>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">enk</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">London</placeTerm>
-            </place>
-            <publisher>[R.F. Burton and L.C. Smithers]</publisher>
-            <dateIssued>1894</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-        </language>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>xxiii, 313 p. illus. 26 cm.</extent>
-        </physicalDescription>
-        <note type="statement of responsibility">Now first completely Englished into verse and
-            prose, the metrical part by Captain Sir Richard F. Burton, and the prose portion,
-            introduction and notes explanatory and illustrative by Leonard C. Smithers.</note>
-        <note>Title in red and black.</note>
-        <note>"The small-paper ed. of this book ... is limited to 1,000 copies. The large-paper ed.,
-            printed on Arnold's unbleached hand-made paper ... with proofs before letters of the
-            frontispiece in two states, Japanese vellum and India paper, is limited to 50 copies.
-            The ed. printed on Japanese vellum ... with proofs of frontispiece before artist's and
-            engraver's names is limited to 4 copies." This copy not numbered, printed on Japanese
-            vellum.</note>
-        <note>Frontispieces loose.</note>
-        <note>"The Latin text of Catullus ... is that of Mueller (A.D. 1885)"</note>
-        <subject authority="lcsh">
-            <name type="personal">
-                <namePart>Catullus, Gaius Valerius</namePart>
-            </name>
-            <topic>Translations into English</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Elegiac poetry, Latin</topic>
-            <topic>Translations into English</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Love poetry, Latin</topic>
-            <topic>Translations into English</topic>
-        </subject>
-        <subject authority="lcsh">
-            <topic>Epigrams, Latin</topic>
-            <topic>Translations into English</topic>
-        </subject>
-        <classification authority="lcc">PA6275.E5 B8</classification>
-        <identifier type="lccn">05015039</identifier>
-        <identifier type="oclc">878062</identifier>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/uc2.ark:/13960/t5q81d82b</url>
-        </location>
-        <location>
-            <url displayLabel="LC Permalink">http://lccn.loc.gov/05015039</url>
-        </location>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/878062</url>
-        </location>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="The Carmina of Caius Valerius Catullus">
-            <identifier type="ctsurn">urn:cts:latinLit:phi0472.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="The Carmina of Caius Valerius Catullus">
-                <identifier type="ctsurn">urn:cts:latinLit:phi0472.phi001.perseus-eng2</identifier>
-                <identifier>Perseus:text:1999.02.0006</identifier>
-                <location>
-                    <url displayLabel="Perseus" note="English"
-                        >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.02.0006</url>
-                </location>
-            </relatedItem>
-        </relatedItem>
-    </mods>
+
     <mods displayLabel="Carmina-Catullus-Schuster-Teubner-1954">
         <titleInfo>
             <title>Catulli Veronensis Liber</title>
@@ -10025,14 +9989,15 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="uniform">
             <title>Carina</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" usage="primary"
-            nameTitleGroup="1" valueURI="http://viaf.org/viaf/100218993">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/100218993">
             <namePart>Catullus, Gaius Valerius</namePart>
             <role>
                 <roleTerm type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/76332261">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/76332261">
             <namePart>Schuster, Mauriz</namePart>
             <namePart type="date">1879-1952</namePart>
             <role>
@@ -10063,8 +10028,7 @@ but this is where the TLG has left off for numbering-->
         <classification authority="lcc">PA6104 .C27 1949</classification>
         <relatedItem type="series">
             <titleInfo>
-                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana. [Scriptores
-                    Romani]</title>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
             </titleInfo>
         </relatedItem>
         <identifier type="lccn">51353336</identifier>
@@ -10090,14 +10054,15 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="uniform">
             <title>Carmina</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" usage="primary"
-            nameTitleGroup="1" valueURI="http://viaf.org/viaf/100218993">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/100218993">
             <namePart>Catullus, Gaius Valerius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/22244817">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/22244817">
             <namePart>Eisenhut, Werner</namePart>
             <namePart type="date">1922-2011</namePart>
             <role>
@@ -10156,14 +10121,15 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Catulli Veronensis carmina</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" usage="primary"
-            nameTitleGroup="1" valueURI="http://viaf.org/viaf/100218993">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/100218993">
             <namePart>Catullus, Gaius Valerius</namePart>
             <role>
                 <roleTerm type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/67731581">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/67731581">
             <namePart>Bardon, Henry</namePart>
             <role>
                 <roleTerm type="text">editor</roleTerm>
@@ -10205,8 +10171,7 @@ but this is where the TLG has left off for numbering-->
         <classification authority="lcc">PA6274.A2</classification>
         <relatedItem type="series">
             <titleInfo>
-                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana. [Scriptores
-                    Romani]</title>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana.</title>
             </titleInfo>
         </relatedItem>
         <identifier type="isbn">3519011336</identifier>
@@ -10226,15 +10191,15 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Carmina-Paulinus of Nola-Hartel-CSEL-1894">
+    <mods displayLabel="Carmina-Paulinus of Nola-Hartel-CSEL 30-1894">
         <titleInfo>
             <title>Sancti Pontii Meropii Paulini Carmina</title>
         </titleInfo>
         <titleInfo type="uniform">
             <title>Carmina</title>
         </titleInfo>
-        <name authority="viaf" authorityURI="http://id.loc.gov/authorities/names/" type="personal"
-            valueURI="http://id.loc.gov/authorities/names/n50080430">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/23387750/">
             <namePart>Paulinus</namePart>
             <namePart type="termsOfAddress">of Nola, Saint</namePart>
             <namePart type="date">approximately 353-431</namePart>
@@ -10242,8 +10207,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" authorityURI="http://id.loc.gov/authorities/names/" type="personal"
-            valueURI="http://id.loc.gov/authorities/names/n81111916">
+        <name authority="viaf" authorityURI="https://viaf.org/viaf/" type="personal"
+            valueURI="https://viaf.org/viaf/17395529/">
             <namePart>Hartel, Wilhelm August, Ritter von,</namePart>
             <namePart type="date">1839-1907</namePart>
             <role>
@@ -10299,18 +10264,16 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/nyp.33433081640819</url>
         </location>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Sancti Pontii Meropii Paulini Carmina">
+        <relatedItem type="constituent" otherType="work" displayLabel="Carmina">
             <identifier type="ctsurn">urn:cts:latinLit:stoa0223.stoa001</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Sancti Pontii Meropii Paulini Carmina">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Carmina">
                 <identifier type="ctsurn">urn:cts:latinLit:stoa0223.stoa001.opp-lat1</identifier>
             </relatedItem>
         </relatedItem>
     </mods>
     <mods displayLabel="Carminum Reliquiae-Lucilius-Marx-Teubner">
         <titleInfo xml:lang="lat" type="uniform">
-            <title>Carminum Reliquiae </title>
+            <title>Carminum Reliquiae</title>
         </titleInfo>
         <part>
             <extent unit="words">
@@ -10321,6 +10284,22 @@ but this is where the TLG has left off for numbering-->
             <title>C. Lucilii Carminum reliquiae</title>
             <partName>Volumen Prius</partName>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/89131128/">
+            <namePart>Lucilius, Gaius</namePart>
+            <namePart type="date">ca. 180-ca. 102 B.C</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/44427282/">
+            <namePart>Marx, Friedrich</namePart>
+            <namePart type="date">1859-1941</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <identifier type="oca">none</identifier>
         <typeOfResource>text</typeOfResource>
         <originInfo>
@@ -10340,7 +10319,7 @@ but this is where the TLG has left off for numbering-->
             <extent>cxxxvi, 169 pg.</extent>
         </physicalDescription>
         <tableOfContents>v. 1. Prolegomena. Testimonia. Fasti Luciliani. Carminum
-            reliquiae..</tableOfContents>
+            reliquiae.</tableOfContents>
         <note type="statement of responsibility">Recensuit, enarrauit Fridericus Marx.</note>
         <classification authority="lcc">PA6481 .L6 1904</classification>
         <identifier type="lccn">21019431</identifier>
@@ -10355,25 +10334,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015014288081</url>
         </location>
-        <language>
+        <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n50-79083.html">
-            <namePart>Lucilius, Gaius</namePart>
-            <namePart type="date">ca. 180-ca. 102 B.C</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n81-111913.html">
-            <namePart>Marx, Friedrich</namePart>
-            <namePart type="date">1859-1941</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Verse satire, Latin</topic>
         </subject>
@@ -10387,8 +10350,7 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
     <mods displayLabel="Catalepton-Appendix Vergiliana-Teubner-1910">
-        <titleInfo xlink:href="http://errol.oclc.org/laf/n84208758.html" xml:lang="eng"
-            type="uniform">
+        <titleInfo type="uniform">
             <title>Catalepton</title>
         </titleInfo>
         <part>
@@ -10400,8 +10362,22 @@ but this is where the TLG has left off for numbering-->
             <title>Jugendverse und Heimatpoesie Vergils</title>
             <subTitle>Erklärung des Catalepton</subTitle>
         </titleInfo>
-        <identifier type="oclc">30874971 </identifier>
-        <identifier type="oca">jugendverseundhe00birtuoft</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/24146332838818730292/">
+            <namePart>Appendix Vergiliana</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <!-- Create an anonymous author? Catalog this another way no final decision made as yet -->
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/29660173">
+            <namePart>Birt, Theodore</namePart>
+            <namePart type="date">1852-1933</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
         <originInfo>
             <place>
                 <placeTerm type="code" authority="marccountry">gw</placeTerm>
@@ -10420,12 +10396,16 @@ but this is where the TLG has left off for numbering-->
         <note type="statement of responsibility">von Theodor Birt. </note>
         <classification authority="lcc">PA6955.C3</classification>
         <classification authority="ddc">873.1</classification>
+        <identifier type="oclc">30874971 </identifier>
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/30874971</url>
         </location>
         <location>
             <url displayLabel="Open Content Alliance"
-                >http://www.archive.org/details/jugendverseundhe00birtuoft </url>
+                >http://www.archive.org/details/jugendverseundhe00birtuoft</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/inu.32000002564179</url>
         </location>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
@@ -10433,14 +10413,6 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/nr96-29799.html">
-            <namePart>Birt, Theodore.</namePart>
-            <namePart type="date">1852-1933</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Latin poetry</topic>
         </subject>
@@ -10527,7 +10499,22 @@ but this is where the TLG has left off for numbering-->
         <titleInfo authority="stoa" type="alternative">
             <title>De coniuratione Catilinae</title>
         </titleInfo>
-        <identifier type="oclc">11350172</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/104162705/">
+            <namePart>Sallust</namePart>
+            <namePart type="date">86-34 B.C</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/79393284">
+            <namePart>Summers, Walter C. (Walter Coventry)</namePart>
+            <namePart type="date">1869-</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -10549,6 +10536,7 @@ but this is where the TLG has left off for numbering-->
         <note>Text in Latin; notes in English</note>
         <classification authority="lcc">PA6653.A4</classification>
         <classification authority="ddc">875.1</classification>
+        <identifier type="oclc">11350172</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/11350172</url>
         </location>
@@ -10556,30 +10544,21 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="GoogleBooks" note="1907 printing"
                 >http://books.google.com/books?id=4upEAAAAYAAJ</url>
         </location>
+        <location>
+            <url displayLabel="HathiTrust" note="1907 printing"
+                >https://hdl.handle.net/2027/uc1.b3142397</url>
+        </location>
         <relatedItem type="series">
             <titleInfo>
                 <title>Pitt Press series</title>
             </titleInfo>
         </relatedItem>
+        <language objectPart="notes">
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        </language>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/104162705/">
-            <namePart>Sallust</namePart>
-            <namePart type="date">86-34 B.C</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n86-847149.html             ">
-            <namePart>Summers, Walter C. (Walter Coventry)</namePart>
-            <namePart type="date">1869-</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <geographic>Rome</geographic>
             <topic>History</topic>
@@ -10593,6 +10572,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
+    <!-- LEFT OFF HERE -->
     <mods displayLabel="Catilinae Coniuratio-Sallust-Greenough-Ginn-1901">
         <titleInfo authority="phi" xml:lang="lat" type="uniform">
             <title>Catilinae Coniuratio</title>
@@ -10615,8 +10595,38 @@ but this is where the TLG has left off for numbering-->
             <nonSort>The</nonSort>
             <title>Conspiracy of Catiline</title>
         </titleInfo>
-        <identifier type="lccn">01008320</identifier>
-        <identifier type="oclc">4287156</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/104162705/">
+            <namePart>Sallust</namePart>
+            <namePart type="date">86-34 B.C</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/77615260">
+            <namePart>Allen, Joseph Henry</namePart>
+            <namePart type="date">1820-1898</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/39744457/">
+            <namePart>Greenough, J. B. (James Bradstreet)</namePart>
+            <namePart type="date">1833-1901</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/17134677/">
+            <namePart>Daniell, M. Grant. (Moses Grant)</namePart>
+            <namePart type="date">1836-1909</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">reviser</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -10637,6 +10647,8 @@ but this is where the TLG has left off for numbering-->
             by J.B. Greenough and M.G. Daniell.</note>
         <classification authority="lcc">PA6653.A4</classification>
         <classification authority="ddc">878.2</classification>
+        <identifier type="lccn">01008320</identifier>
+        <identifier type="oclc">4287156</identifier>
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/01008320</url>
         </location>
@@ -10646,41 +10658,13 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=UTsMAAAAIAAJ</url>
         </location>
+        <location>
+            <url displayLabel="Open Content Alliance"
+                >https://archive.org/details/gaisalvsticrispi00sall/</url>
+        </location>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/104162705/">
-            <namePart>Sallust</namePart>
-            <namePart type="date">86-34 B.C</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n80-89245.html">
-            <namePart>Allen, Joseph Henry</namePart>
-            <namePart type="date">1820-1898</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/39744457/">
-            <namePart>Greenough, J. B. (James Bradstreet)</namePart>
-            <namePart type="date">1833-1901</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/nr98-10438.html">
-            <namePart>Daniell, M. Grant. (Moses Grant)</namePart>
-            <namePart type="date">1836-1909</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">reviser</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <geographic>Rome</geographic>
             <topic>History</topic>
@@ -23808,8 +23792,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" authorityURI="http://id.loc.gov/authorities/names/" type="personal"
-            valueURI="http://id.loc.gov/authorities/names/n81111913">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/44427282/">
             <namePart>Marx, Friedrich</namePart>
             <namePart type="date">1859-1941</namePart>
             <role>
@@ -26930,7 +26914,8 @@ but this is where the TLG has left off for numbering-->
                 <identifier type="ctsurn">urn:cts:latinLit:phi0893.phi005.perseus-lat1</identifier>
                 <identifier>Perseus:text:2008.01.0539</identifier>
                 <location>
-                    <url displayLabel="Perseus">http://data.perseus.org/texts/urn:cts:latinLit:phi0893.phi005.perseus-lat1</url>
+                    <url displayLabel="Perseus"
+                        >http://data.perseus.org/texts/urn:cts:latinLit:phi0893.phi005.perseus-lat1</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -27390,7 +27375,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/292818076">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/292818076">
             <namePart>Blunt-Moore, Jennifer</namePart>
             <namePart type="date">1913-</namePart>
             <role>
@@ -37578,7 +37564,7 @@ but this is where the TLG has left off for numbering-->
             <title>history of the Peloponnesian War</title>
             <partNumber>Vol 1-2</partNumber>
         </titleInfo>
-        <name authority="viaf" type="personal"  valueURI="http://viaf.org/viaf/95161463/">
+        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/95161463/">
             <namePart>Thucydides</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -37701,7 +37687,7 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"  authorityURI="https://viaf.org/viaf/"
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/74653372/">
             <namePart>Jowett, Benjamin</namePart>
             <namePart type="date">1817-1893</namePart>
@@ -37882,7 +37868,7 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>The history of the Grecian War written by Thucydides</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" 
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/95161463/">
             <namePart>Thucydides</namePart>
             <role>
