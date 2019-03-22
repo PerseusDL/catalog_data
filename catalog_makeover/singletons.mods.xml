@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <!-- Delete all OpenLibrary URLs-no longer relevant -->
     <!-- Continue converting author and editor names to linked data format (make
     sure have both authority and valueURI-->
@@ -1179,22 +1179,6 @@
         <titleInfo>
             <title>Ab urbe condita libri</title>
         </titleInfo>
-        <identifier type="oclc">221404605</identifier>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="text">Berlin</placeTerm>
-            </place>
-            <publisher>Weidman</publisher>
-            <dateIssued>1865-1881</dateIssued>
-            <edition>Various editions</edition>
-        </originInfo>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
-        <language objectPart="notes">
-            <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
-        </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/76310470/">
             <namePart>Livy</namePart>
@@ -1210,9 +1194,26 @@
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="text">Berlin</placeTerm>
+            </place>
+            <publisher>Weidman</publisher>
+            <dateIssued>1865-1881</dateIssued>
+            <edition>Various editions</edition>
+        </originInfo>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <language objectPart="notes">
+            <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+        </language>
         <physicalDescription>
             <extent>13 vols in 10</extent>
         </physicalDescription>
+        <identifier type="oclc">221404605</identifier>
+        
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/221404605</url>
         </location>
@@ -56589,6 +56590,54 @@ but this is where the TLG has left off for numbering-->
             <identifier type="ctsurn">urn:cts:greekLit:tlg0084.tlg003</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Orbis descriptio">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0084.tlg003.opp-eng1</identifier>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods
+        displayLabel="Paradoxa stoicorum-Cicero-Baiter/Kayser-Tauchnitz-Perseus-Latin">
+        <!-- Edition used for single Perseus work -->
+        <titleInfo>
+            <title>M. Tullii Ciceronis De officiis ad Marcum filium libri tres, Paradoxa stoicorum,
+                Timaeus</title>
+        </titleInfo>
+        <name authority="viaf" type="personal"  authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/45044320/">
+            <namePart>Baiter, J. G. (Johann Georg)</namePart>
+            <namePart type="date">1801-1877</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/69018807/">
+            <namePart>Kayser, C. L. (Carl Ludwig)</namePart>
+            <namePart type="date">1808-1872</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Lipsiae</placeTerm>
+            </place>
+            <publisher>B. Tauchnitz</publisher>
+            <dateIssued>1865</dateIssued>
+            <edition>Ed. stereotypa.</edition>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <identifier type="oclc">65567844</identifier>
+        <classification authority="lcc">PA6278</classification>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/65567844</url>
+        </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="Paradoxa Stoicorum">
+            <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi047</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Paradoxa Stoicorum">
+                <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi047.opp-lat1</identifier>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Paradoxa Stoicorum">
+                <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi047.perseus-lat1</identifier>
             </relatedItem>
         </relatedItem>
     </mods>
