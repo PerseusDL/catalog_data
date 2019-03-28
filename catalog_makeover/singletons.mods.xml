@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <!-- Delete all OpenLibrary URLs-no longer relevant -->
     <!-- Continue converting author and editor names to linked data format (make
     sure have both authority and valueURI-->
@@ -6641,7 +6641,7 @@
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Teubneri</publisher>
+            <publisher>in aedibus B. G. Teubneri</publisher>
             <dateIssued>1930</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -7368,7 +7368,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Teubneri</publisher>
+            <publisher>in aedibus B. G. Teubneri</publisher>
             <dateIssued>1892</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -7897,7 +7897,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Teubneri</publisher>
+            <publisher>in aedibus B. G. Teubneri</publisher>
             <dateIssued>1875</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -9179,7 +9179,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Teubneri</publisher>
+            <publisher>in aedibus B. G. Teubneri</publisher>
             <dateIssued>1887</dateIssued>
             <dateIssued encoding="marc">1887</dateIssued>
             <issuance>monographic</issuance>
@@ -11365,7 +11365,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <!-- LEFT OFF HERE -->
+    
     <mods displayLabel="Civil War-Caesar-Last-Clarendon-1925">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Civil War</title>
@@ -11422,6 +11422,11 @@ but this is where the TLG has left off for numbering-->
             <extent>xliii, 227, [48] p. front. (port.) illus., plates (incl. maps, plans) 18
                 cm.</extent>
         </physicalDescription>
+        <relatedItem>
+            <titleInfo>
+                <title>Clarendon Press Series</title>
+            </titleInfo>
+        </relatedItem>
         <note type="statement of responsibility">Edited by Charles E. Moberly.</note>
         <classification authority="lcc">DG266</classification>
         <classification authority="ddc">878.1</classification>
@@ -11464,6 +11469,20 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>De bello civili commentarii tres</title>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/286265178/">
+            <namePart>Caesar, Julius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            xlink:href="http://viaf.org/viaf/27412709">
+            <namePart>Doberenz, Albert</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -11486,7 +11505,7 @@ but this is where the TLG has left off for numbering-->
         <classification authority="lcc">DC62.C2 M3</classification>
         <relatedItem type="series">
             <titleInfo>
-                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana. [S.r.]</title>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
             </titleInfo>
             <titleInfo type="abbreviated">
                 <title>Teubner</title>
@@ -11505,20 +11524,6 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n79-21400.html         ">
-            <namePart>Caesar, Julius</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://viaf.org/viaf/27412709">
-            <namePart>Doberenz, Albert</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <geographic>Rome</geographic>
             <topic>History</topic>
@@ -11548,9 +11553,25 @@ but this is where the TLG has left off for numbering-->
             <subTitle>Civil War</subTitle>
             <partNumber>Books I-X</partNumber>
         </titleInfo>
-        <identifier type="oclc">685622</identifier>
-        <identifier type="lccn">29002708</identifier>
-        <identifier type="oca">lucancivilwarboo00lucauoft</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100902938/">
+            <namePart>Lucan,</namePart>
+            <namePart type="date">39-65</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/27150037/">
+            <namePart>Duff, J. D. (James Duff)</namePart>
+            <namePart type="date">1860-1940</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -11578,6 +11599,14 @@ but this is where the TLG has left off for numbering-->
                 <title>Loeb classical library</title>
             </titleInfo>
         </relatedItem>
+        <language>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        </language>
+        <language>
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <identifier type="oclc">685622</identifier>
+        <identifier type="lccn">29002708</identifier>        
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/29002708</url>
         </location>
@@ -11588,31 +11617,6 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/lucancivilwarboo00lucauoft</url>
         </location>
-        <language>
-            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-        </language>
-        <language>
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/100902938/">
-            <namePart>Lucan,</namePart>
-            <namePart type="date">39-65</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n50-26939.html">
-            <namePart>Duff, J. D. (James Duff)</namePart>
-            <namePart type="date">1860-1940</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-            <role>
-                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Pharsalus, Battle of, Farsala, Greece, 48 B.C</topic>
         </subject>
@@ -11646,7 +11650,21 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>De bello civili libri decem</title>
         </titleInfo>
-        <identifier type="oclc">6535777</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100902938/">
+            <namePart>Lucan,</namePart>
+            <namePart type="date">39-65</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/49249069/">
+            <namePart>Housman, A. E. (Alfred Edward)</namePart>
+            <namePart type="date">1859-1936</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -11662,31 +11680,17 @@ but this is where the TLG has left off for numbering-->
         <physicalDescription>
             <form authority="marcform">print</form>
             <extent>xxxv, 342 p. 22 cm.</extent>
-            <note type="statement of responibility">editorvm in vsvm edidit A. E. Hovsman</note>
+            <note type="statement of responibility">editorum in usum edidit A. E. Housman</note>
         </physicalDescription>
         <classification authority="lcc">PA6478</classification>
+        <identifier type="oclc">6535777</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/6535777</url>
         </location>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/100902938/">
-            <namePart>Lucan,</namePart>
-            <namePart type="date">39-65</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n79-141239.html">
-            <namePart>Housman, A. E. (Alfred Edward)</namePart>
-            <namePart type="date">1859-1936</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
+
         <subject authority="lcsh">
             <topic>Pharsalus, Battle of, Farsala, Greece, 48 B.C</topic>
             <topic>Poetry</topic>
@@ -11719,38 +11723,6 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Belli civilis libri decem</title>
         </titleInfo>
-        <identifier type="oclc">3309490</identifier>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">gw</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Lipsiae</placeTerm>
-            </place>
-            <publisher>in aedibvs B. G. Teubneri</publisher>
-            <dateIssued>1892</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>xxxii, 374 p. ; 18 cm.</extent>
-            <note type="statement of responsibility">G. Steinharti aliorumque copiis usus edidit
-                Carolus Hosius.</note>
-        </physicalDescription>
-        <classification authority="lcc">PA6104</classification>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/3309490</url>
-        </location>
-        <location>
-            <url displayLabel="Google Books">http://books.google.com/books?id=c41fAAAAMAAJ</url>
-        </location>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/njp.32101064182973</url>
-        </location>
-        <language>
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/100902938/">
             <namePart>Lucan,</namePart>
@@ -11767,6 +11739,45 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Lipsiae</placeTerm>
+            </place>
+            <publisher>in aedibus B. G. Teubneri</publisher>
+            <dateIssued>1892</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>xxxii, 374 p. ; 18 cm.</extent>
+            <note type="statement of responsibility">G. Steinharti aliorumque copiis usus edidit
+                Carolus Hosius.</note>
+        </physicalDescription>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
+            </titleInfo>
+            <titleInfo type="abbreviated">
+                <title>Teubner</title>
+            </titleInfo>
+        </relatedItem>
+        <language>
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <classification authority="lcc">PA6104</classification>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/3309490</url>
+        </location>
+        <location>
+            <url displayLabel="Google Books">http://books.google.com/books?id=c41fAAAAMAAJ</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/njp.32101064182973</url>
+        </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Civil War">
             <identifier type="ctsurn">urn:cts:latinLit:phi0917.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Civil War">
@@ -11796,8 +11807,7 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no97-66729.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/26673849/">
             <namePart>Ridley, Edward</namePart>
             <namePart type="termsOfAddress">Sir</namePart>
             <namePart type="date">1843-1928</namePart>
@@ -11852,6 +11862,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=ne3OdvJA8N0C</url>
         </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/mdp.39015004878487</url>
+        </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Civil War">
             <identifier type="ctsurn">urn:cts:latinLit:phi0917.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Civil War">
@@ -11879,7 +11892,6 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Belli civilis libri decem</title>
         </titleInfo>
-        <identifier type="oclc">14291370</identifier>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/100902938/">
             <namePart>Lucan,</namePart>
@@ -11917,8 +11929,12 @@ but this is where the TLG has left off for numbering-->
             <note type="statement of responsibility"/>
         </physicalDescription>
         <classification authority="lcc">PA6104</classification>
+        <identifier type="oclc">14291370</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/214291370</url>
+        </location>
+        <location>
+            <url displayLabel="BSB Digital">http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10241811-5</url>
         </location>
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=GJFKcS4luRsC</url>
@@ -11952,6 +11968,22 @@ but this is where the TLG has left off for numbering-->
             <title>Appian, Civil Wars</title>
             <partNumber>Book I</partNumber>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/108993357/">
+            <namePart>Appianus</namePart>
+            <namePart type="termsOfAddress">of Alexandria</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/74780198/">
+            <namePart>Strachan-Davidson, J. L. (James Leigh)</namePart>
+            <namePart type="date">1843-1916</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <genre authority="marc">bibliography</genre>
         <originInfo>
@@ -11962,6 +11994,7 @@ but this is where the TLG has left off for numbering-->
                 <placeTerm type="text">Chicago</placeTerm>
             </place>
             <publisher>Bolchazy-Carducci Publishers</publisher>
+            <publisher>Oxford University</publisher>
             <dateModified>1984</dateModified>
             <dateIssued>1902</dateIssued>
             <edition>Reprint</edition>
@@ -11981,31 +12014,11 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="WorldCat">http://worldcat.org/oclc/11592906</url>
         </location>
         <location>
-            <url displayLabel="GoogleBooks">http://books.google.com/books?vid=ISBN086516021X</url>
+            <url displayLabel="HathiTrust" note="Oxford Original Edition">https://hdl.handle.net/2027/uc1.$b290080</url>
         </location>
-        <location>
-            <url displayLabel="GoogleBooks" note="Snippet View-Original Edition"
-                >http://books.google.com/books?id=kTs5GQAACAAJ</url>
-        </location>
-        <language>
+        <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/108993357/">
-            <namePart>Appianus</namePart>
-            <namePart type="termsOfAddress">of Alexandria</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/74780198/">
-            <namePart>Strachan-Davidson, J. L. (James Leigh)</namePart>
-            <namePart type="date">1843-1916</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject>
             <geographicCode authority="marcgac">e------</geographicCode>
             <geographicCode authority="marcgac">ff-----</geographicCode>
@@ -12042,7 +12055,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-
+<!-- LEFT OFF HERE -->
     <mods displayLabel="Civil Wars-Appian-Mendelsohn/Viereck-Teubner-1905">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Civil Wars</title>
@@ -13533,7 +13546,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Teubneri</publisher>
+            <publisher>in aedibus B. G. Teubneri</publisher>
             <dateIssued>1922</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -13625,7 +13638,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Teubneri</publisher>
+            <publisher>in aedibus B. G. Teubneri</publisher>
             <dateIssued>1895</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -13790,8 +13803,20 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="translated" lang="eng">
             <title>On friendship</title>
         </titleInfo>
-        <identifier type="lccn">10002495</identifier>
-        <identifier type="oclc">3979224</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/78769600/">
+            <namePart>Cicero, Marcus Tullius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/194243201">
+            <namePart>Bowen, Edwin Winfield</namePart>
+            <namePart type="date">1866-</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -13820,6 +13845,9 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
         <classification authority="lcc">PA6111.G5</classification>
         <classification authority="ddc">875.4</classification>
+        <identifier type="lccn">10002495</identifier>
+        <identifier type="oclc">3979224</identifier>
+        
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/10002495</url>
         </location>
@@ -13832,20 +13860,6 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/78769600/">
-            <namePart>Cicero, Marcus Tullius</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/194243201">
-            <namePart>Bowen, Edwin Winfield</namePart>
-            <namePart type="date">1866-</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Friendship</topic>
             <topic>Early works to 1800</topic>
@@ -15282,7 +15296,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Teubneri</publisher>
+            <publisher>in aedibus B. G. Teubneri</publisher>
             <dateIssued>1903</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -15517,7 +15531,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Teubneri</publisher>
+            <publisher>in aedibus B. G. Teubneri</publisher>
             <dateIssued>1891</dateIssued>
             <dateIssued encoding="marc">1891</dateIssued>
             <issuance>monographic</issuance>
@@ -18157,7 +18171,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Teubneri</publisher>
+            <publisher>in aedibus B. G. Teubneri</publisher>
             <dateIssued>1884</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -18536,7 +18550,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B.G. Teubneri</publisher>
+            <publisher>in aedibus B.G. Teubneri</publisher>
             <dateIssued>1881</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -21357,7 +21371,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiæ et Berolini</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Teubneri</publisher>
+            <publisher>in aedibus B. G. Teubneri</publisher>
             <dateIssued>1908</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -21763,7 +21777,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B.G. Teubneri</publisher>
+            <publisher>in aedibus B.G. Teubneri</publisher>
             <dateIssued>1903</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -28859,7 +28873,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Teubneri</publisher>
+            <publisher>in aedibus B. G. Teubneri</publisher>
             <dateIssued>1912</dateIssued>
             <issuance>monographic</issuance>
             <edition>Editio Maior</edition>
@@ -33258,7 +33272,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Teubneri</publisher>
+            <publisher>in aedibus B. G. Teubneri</publisher>
             <dateIssued>1875</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -42101,7 +42115,75 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-
+    <mods displayLabel="Icnheutae-Sophocles-Oxyrhynchus Papyri-Grenfell/Hunt-Egypt-1912">
+        <titleInfo>
+            <title>Oxyrhynchus papyri</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/29624545/">
+            <namePart>Grenfell, Bernard P. (Bernard Pyne)</namePart>
+            <namePart type="date">1869-1926</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/7455594/">
+            <namePart>Hunt, Arthur S. (Arthur Surridge)</namePart>
+            <namePart type="date">1871-1934</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">enk</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">London</placeTerm>
+            </place>
+            <publisher>Egypt Exploration Fund</publisher>
+            <dateIssued>1912</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <identifier type="lccn">01005637</identifier>
+        <identifier type="oclc">700088</identifier>
+        <classification authority="lcc">PA3315 .O8</classification>
+        <classification authority="ddc" edition="19">091</classification>
+        <subject authority="lcsh">
+            <topic>Manuscripts, Greek (Papyri)</topic>
+            <geographic>Egypt</geographic>
+            <geographic>Bahnasā</geographic>
+        </subject>
+        <location>
+            <url displayLabel="LC Permalink">http://lccn.loc.gov/01005637</url>
+        </location>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/700088</url>
+        </location>
+        <location>
+            <url displayLabel="Open Content Alliance"
+                >http://www.archive.org/details/pt9oxyrhynchuspa00grenuoft</url>
+        </location>
+        <relatedItem type="constituent" otherType="volume" displayLabel="1174">
+            <part type="volume">
+                <detail type="volume">
+                    <title>1174</title>
+                </detail>
+            </part>
+            <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/101760867/">
+                <namePart>Sophocles</namePart>
+                <role>
+                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                </role>
+            </name>
+            <relatedItem type="constituent" otherType="work" displayLabel="Ichneutae">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0011.tlg008</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Ichneutae">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0011.tlg008.perseus-grc1</identifier>
+                </relatedItem>
+            </relatedItem>
+        </relatedItem>
+    </mods>
     <mods displayLabel="Ichnetuae-Sophocles-Mahoney-English-Perseus">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Ichneutae</title>
@@ -42116,16 +42198,18 @@ but this is where the TLG has left off for numbering-->
         </titleInfo>
         <identifier>Perseus:text:1999.01.0221</identifier>
         <identifier type="Perseus:abo">Perseus:abo:tlg,0011,008</identifier>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n79-127755.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/101760867/">
             <namePart>Sophocles</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no2002-62937.html">
-            <namePart>Mahoney, Anne (Anne Elizabeth)</namePart>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/7623582">
+            <namePart>Mahoney, Anne</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
             <role>
                 <roleTerm authority="marcrelator" type="text">translator</roleTerm>
             </role>
@@ -42802,7 +42886,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Teubneri</publisher>
+            <publisher>in aedibus B. G. Teubneri</publisher>
             <dateIssued>1893</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -47231,7 +47315,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Teubneri</publisher>
+            <publisher>in aedibus B. G. Teubneri</publisher>
             <dateIssued>1908</dateIssued>
             <dateIssued encoding="marc">1908</dateIssued>
             <issuance>monographic</issuance>
@@ -49208,7 +49292,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Teubneri</publisher>
+            <publisher>in aedibus B. G. Teubneri</publisher>
             <dateIssued>1866</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -49274,7 +49358,74 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-
+    <mods
+        displayLabel="Introductio in Platonem-Albinus-Hermann-Teubner-1853">
+        <!-- Record created to include a record of edition in catalog-whole volume not cataloged? -->
+        <titleInfo>
+            <title>Platonis dialogi secundum Thrasylli tetralogias dispositi</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/77075352">
+            <namePart>Hermann, Karl Friedrich</namePart>
+            <namePart type="date">1804-1855</namePart>
+            <role>
+                <roleTerm type="text">editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Leipzig</placeTerm>
+            </place>
+            <publisher>Teubner</publisher>
+            <dateIssued>1853</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <identifier type="oclc">1982818</identifier>
+        <subject authority="lcsh">
+            <topic>Philosophy</topic>
+        </subject>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/1982818</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/chi.22438877</url>
+        </location>
+        <relatedItem type="constituent" otherType="structure" displayLabel="vol. 6">
+            <part type="volume">
+                <detail type="volume">
+                    <title>vol. 6</title>
+                </detail>
+            </part>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="Ἀλβίνου εἰσαγωγὴ τοὺς Πλάτωνος διαλόγους">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0693.tlg002</identifier>
+                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                    valueURI="http://viaf.org/viaf/54284156">
+                    <namePart>Albinus</namePart>
+                    <role>
+                        <roleTerm type="text">creator</roleTerm>
+                    </role>
+                </name>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Ἀλβίνου εἰσαγωγὴ τοὺς Πλάτωνος διαλόγους">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0693.tlg002.opp-grc1</identifier>
+                    <part>
+                        <extent unit="pages">
+                            <start>147</start>
+                            <end>151</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >http://hdl.handle.net/2027/chi.22438877?urlappend=%3Bseq=188</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+        </relatedItem>
+    </mods>
 
     <mods displayLabel="Ion-Euripides-Biehl-Teubner-1979">
         <titleInfo>
@@ -50092,7 +50243,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae et Berolini</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Teubneri</publisher>
+            <publisher>in aedibus B. G. Teubneri</publisher>
             <dateIssued>1916</dateIssued>
             <dateIssued encoding="marc">1916</dateIssued>
             <issuance>monographic</issuance>
@@ -54566,7 +54717,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Teubneri</publisher>
+            <publisher>in aedibus B. G. Teubneri</publisher>
             <dateIssued>1900</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -55886,7 +56037,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B.G. Teubneri</publisher>
+            <publisher>in aedibus B.G. Teubneri</publisher>
             <dateIssued>1900</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -56883,7 +57034,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Teubneri</publisher>
+            <publisher>in aedibus B. G. Teubneri</publisher>
             <dateIssued>1905</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -57872,6 +58023,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
+    
     <mods displayLabel="Poliorcetica-Aeneas Tacticus-Schone-Teubner-1911">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Poliorcetica</title>
@@ -59847,7 +59999,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Teubneri</publisher>
+            <publisher>in aedibus B. G. Teubneri</publisher>
             <dateIssued>1889</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -63207,7 +63359,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Teubneri</publisher>
+            <publisher>in aedibus B. G. Teubneri</publisher>
             <dateIssued>1908</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -64289,7 +64441,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
-            <publisher>in aedibvs B. G. Teubneri</publisher>
+            <publisher>in aedibus B. G. Teubneri</publisher>
             <dateIssued>1895</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
