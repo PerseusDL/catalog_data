@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <!-- Delete all OpenLibrary URLs-no longer relevant -->
     <!-- Continue converting author and editor names to linked data format (make
     sure have both authority and valueURI-->
@@ -38552,88 +38552,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Historiae-Thucydides-Croiset-Hachette-1886-Greek-Book 1-2">
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Histories</title>
-        </titleInfo>
-        <part>
-            <extent unit="words">
-                <total>153260</total>
-            </extent>
-        </part>
-        <titleInfo>
-            <title>Thoukydídou Xyngraphe</title>
-        </titleInfo>
-        <titleInfo type="translated" lang="fre">
-            <title>Histoire de la guerre du Péloponnèse</title>
-        </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/95161463/">
-            <namePart>Thucydides</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no96-13446.html">
-            <namePart>Croiset, Alfred</namePart>
-            <namePart type="date">1845-1923</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="text">Paris</placeTerm>
-            </place>
-            <publisher>Librairie Hachette</publisher>
-            <dateIssued>1886</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <note type="statement of responsibility">Texte grec, publié d'après les travaux les plus
-            récents de la philologie, avec un commentaire critique et explicatif, et précédé d'une
-            introduction par Alfred Croiset</note>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>xxviii, 467p.</extent>
-        </physicalDescription>
-        <tableOfContents>Book I-II</tableOfContents>
-        <classification authority="lcc">PA4452 A31</classification>
-        <identifier type="oclc">13043987</identifier>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/13043987</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance">
-                http://www.archive.org/details/thoukyddouxyng00thucuoft</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks" note="Snippet View"
-                >http://books.google.com/books?id=nK59JwAACAAJ</url>
-        </location>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <subject authority="lcsh">
-            <geographic>Greece</geographic>
-            <topic>History</topic>
-            <temporal>Peloponnesian War, 431-404 B.C</temporal>
-        </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc55</identifier>
-                <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-2">
-                    <part>
-                        <detail type="book">
-                            <caption>Book</caption>
-                            <number>1-2</number>
-                        </detail>
-                    </part>
-                </relatedItem>
-            </relatedItem>
-        </relatedItem>
-    </mods>
+
     <mods displayLabel="Historiae-Thucydides-Lamberton-American Book-1905-Greek-Book 2-3">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Histories</title>
@@ -40296,8 +40215,8 @@ but this is where the TLG has left off for numbering-->
         <physicalDescription>
             <extent>8 volumes</extent>
         </physicalDescription>
-        <location displayLabel="WorldCat">
-            <url>http://www.worldcat.org/oclc/24368548</url>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/24368548</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Histories">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
@@ -40541,8 +40460,8 @@ but this is where the TLG has left off for numbering-->
         </physicalDescription>
         <typeOfResource>text</typeOfResource>
         <identifier type="oclc">221009453</identifier>
-        <location displayLabel="WorldCat">
-            <url>http://worldcat.org/oclc/221009453</url>
+        <location>
+            <url displayLabel="WorldCat">http://worldcat.org/oclc/221009453</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Histories">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
@@ -40623,8 +40542,8 @@ but this is where the TLG has left off for numbering-->
             </titleInfo>
         </relatedItem>
         <identifier type="oclc">7653915</identifier>
-        <location displayLabel="WorldCat">
-            <url>http://www.worldcat.org/oclc/7653915</url>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/7653915</url>
         </location>
         <typeOfResource>text</typeOfResource>
         <relatedItem type="constituent" otherType="work" displayLabel="Histories">
@@ -40893,7 +40812,7 @@ but this is where the TLG has left off for numbering-->
             <extent>2 volumes</extent>
         </physicalDescription>
         <location>
-            <url  displayLabel="Worldcat">http://www.worldcat.org/oclc/152385983</url>
+            <url displayLabel="Worldcat">http://www.worldcat.org/oclc/152385983</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Histories">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
@@ -40914,11 +40833,13 @@ but this is where the TLG has left off for numbering-->
                         </part>
                     </relatedItem>
                     <tableOfContents>Libri I-IV.</tableOfContents>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://archive.org/details/thucydidishistor01thucuoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://archive.org/details/thucydidishistor01thucuoft</url>
                     </location>
-                    <location displayLabel="HathiTrust">
-                        <url>http://hdl.handle.net/2027/njp.32101074034750</url>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >http://hdl.handle.net/2027/njp.32101074034750</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
@@ -40936,11 +40857,13 @@ but this is where the TLG has left off for numbering-->
                         </part>
                     </relatedItem>
                     <tableOfContents>Book V-VIII</tableOfContents>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/historiaerecogno02thucuoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/historiaerecogno02thucuoft</url>
                     </location>
-                    <location displayLabel="HathiTrust">
-                        <url>http://hdl.handle.net/2027/njp.32101074034768</url>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >http://hdl.handle.net/2027/njp.32101074034768</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -41025,11 +40948,13 @@ but this is where the TLG has left off for numbering-->
                     </part>
                 </relatedItem>
                 <tableOfContents>Erstes und Zweites Buch</tableOfContents>
-                <location displayLabel="Open Content Alliance">
-                    <url>http://www.archive.org/details/thoukyddouxyng01thucuoft</url>
+                <location>
+                    <url displayLabel="Open Content Alliance"
+                        >http://www.archive.org/details/thoukyddouxyng01thucuoft</url>
                 </location>
-                <location displayLabel="Google Books">
-                    <url>http://books.google.com/books?id=S3oiAAAAMAAJ</url>
+                <location>
+                    <url displayLabel="Google Books"
+                        >http://books.google.com/books?id=S3oiAAAAMAAJ</url>
                 </location>
             </relatedItem>
             <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1-Part Two">
@@ -41053,11 +40978,13 @@ but this is where the TLG has left off for numbering-->
                     </part>
                 </relatedItem>
                 <tableOfContents>Drittes und Viertes Buch</tableOfContents>
-                <location displayLabel="Open Content Alliance">
-                    <url>http://www.archive.org/stream/thoukyddouxyng01thucuoft#page/278/mode/2up</url>
+                <location>
+                    <url displayLabel="Open Content Alliance"
+                        >http://www.archive.org/stream/thoukyddouxyng01thucuoft#page/278/mode/2up</url>
                 </location>
-                <location displayLabel="Google Books">
-                    <url>http://books.google.com/books?id=S3oiAAAAMAAJ&amp;pg=PA277</url>
+                <location>
+                    <url displayLabel="Google Books"
+                        >http://books.google.com/books?id=S3oiAAAAMAAJ&amp;pg=PA277</url>
                 </location>
             </relatedItem>
             <relatedItem type="constituent" otherType="struture" displayLabel="Volume 2-Part 1">
@@ -41081,14 +41008,13 @@ but this is where the TLG has left off for numbering-->
                     </part>
                 </relatedItem>
                 <tableOfContents>Fünftes und Sechstes Buch</tableOfContents>
-                <location displayLabel="Open Content Alliance">
-                    <url>http://www.archive.org/details/thoukyddouxyng02thucuoft</url>
+                <location>
+                    <url displayLabel="Open Content Alliance"
+                        >http://www.archive.org/details/thoukyddouxyng02thucuoft</url>
                 </location>
-                <location displayLabel="Open Library">
-                    <url>http://openlibrary.org/details/thoukyddouxyng02thucuoft</url>
-                </location>
-                <location displayLabel="GoogleBooks">
-                    <url>http://books.google.com/books?id=S3oiAAAAMAAJ&amp;pg=RA1-PA223</url>
+                <location>
+                    <url displayLabel="GoogleBooks"
+                        >http://books.google.com/books?id=S3oiAAAAMAAJ&amp;pg=RA1-PA223</url>
                 </location>
             </relatedItem>
             <relatedItem type="constituent" displayLabel="Volume 2-Part 2">
@@ -41112,11 +41038,13 @@ but this is where the TLG has left off for numbering-->
                     </part>
                 </relatedItem>
                 <tableOfContents>Siebentes und Achtes Buch</tableOfContents>
-                <location displayLabel="Open Content Alliance">
-                    <url>http://www.archive.org/stream/thoukyddouxyng02thucuoft#page/n205/mode/2up</url>
+                <location>
+                    <url displayLabel="Open Content Alliance"
+                        >http://www.archive.org/stream/thoukyddouxyng02thucuoft#page/n205/mode/2up</url>
                 </location>
-                <location displayLabel="GoogleBooks">
-                    <url>http://books.google.com/books?id=S3oiAAAAMAAJ&amp;pg=RA2-PA199</url>
+                <location>
+                    <url displayLabel="GoogleBooks"
+                        >http://books.google.com/books?id=S3oiAAAAMAAJ&amp;pg=RA2-PA199</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -41175,8 +41103,8 @@ but this is where the TLG has left off for numbering-->
             <temporal>Peloponnesian War, 431-404 B.C</temporal>
         </subject>
         <identifier type="oclc">10255327</identifier>
-        <location displayLabel="WorldCat">
-            <url>http://www.worldcat.org/oclc/10255327</url>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/10255327</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Histories">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
@@ -41197,8 +41125,9 @@ but this is where the TLG has left off for numbering-->
                         </part>
                     </relatedItem>
                     <tableOfContents>Buch I bis Buch V 24.2</tableOfContents>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/diegeschichtedet01thucuoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/diegeschichtedet01thucuoft</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
@@ -41216,8 +41145,9 @@ but this is where the TLG has left off for numbering-->
                         </part>
                     </relatedItem>
                     <tableOfContents>Buch V 25 bis VIII</tableOfContents>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/diegeschichtedet02thucuoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/diegeschichtedet02thucuoft</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -41289,8 +41219,8 @@ but this is where the TLG has left off for numbering-->
             <temporal>Peloponnesian War, 431-404 B.C</temporal>
         </subject>
         <identifier type="oclc">6394034</identifier>
-        <location displayLabel="WorldCat">
-            <url>http://worldcat.org/oclc/6394034</url>
+        <location>
+            <url displayLabel="WorldCat">http://worldcat.org/oclc/6394034</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Histories">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
@@ -41313,11 +41243,13 @@ but this is where the TLG has left off for numbering-->
                             </detail>
                         </part>
                     </relatedItem>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/p2debellopelopo01thucuoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/p2debellopelopo01thucuoft</url>
                     </location>
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=3akAAAAAYAAJ</url>
+                    <location>
+                        <url displayLabel="GoogleBooks"
+                            >http://books.google.com/books?id=3akAAAAAYAAJ</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
@@ -41337,11 +41269,13 @@ but this is where the TLG has left off for numbering-->
                             </detail>
                         </part>
                     </relatedItem>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/p2debellopelopo02thucuoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/p2debellopelopo02thucuoft</url>
                     </location>
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=pPELAAAAYAAJ</url>
+                    <location>
+                        <url displayLabel="GoogleBooks"
+                            >http://books.google.com/books?id=pPELAAAAYAAJ</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
@@ -41361,11 +41295,13 @@ but this is where the TLG has left off for numbering-->
                             </detail>
                         </part>
                     </relatedItem>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/p2debellopelopo03thucuoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/p2debellopelopo03thucuoft</url>
                     </location>
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=8gsMAAAAYAAJ</url>
+                    <location>
+                        <url displayLabel="GoogleBooks"
+                            >http://books.google.com/books?id=8gsMAAAAYAAJ</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 4">
@@ -41387,11 +41323,13 @@ but this is where the TLG has left off for numbering-->
                     </relatedItem>
                     <tableOfContents>Thucydidis liber VI. VII. et VIII. Cum tabula
                         Syracusarum.</tableOfContents>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/p2debellopelopo04thucuoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/p2debellopelopo04thucuoft</url>
                     </location>
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=dcsAAAAAYAAJ</url>
+                    <location>
+                        <url displayLabel="GoogleBooks"
+                            >http://books.google.com/books?id=dcsAAAAAYAAJ</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent">
@@ -41408,8 +41346,9 @@ but this is where the TLG has left off for numbering-->
                             <caption>Pars IV</caption>
                         </detail>
                     </part>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/p4debellopelopo04thucuoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/p4debellopelopo04thucuoft</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -41469,8 +41408,8 @@ but this is where the TLG has left off for numbering-->
                 <title>Teubner</title>
             </titleInfo>
         </relatedItem>
-        <location displayLabel="WorldCat">
-            <url>http://worldcat.org/oclc/62357933</url>
+        <location>
+            <url displayLabel="WorldCat">http://worldcat.org/oclc/62357933</url>
         </location>
         <note type="statement of responsibility">ad optimorum librorum fidem editos explanavit
             Ernestus Fridericus Poppo.</note>
@@ -41489,11 +41428,13 @@ but this is where the TLG has left off for numbering-->
                             <number>Sect I</number>
                         </detail>
                     </part>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/p1debellopelopon03thucuoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/p1debellopelopon03thucuoft</url>
                     </location>
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=278fAAAAMAAJ&amp;printsec=frontcover#PPP5,M1</url>
+                    <location>
+                        <url displayLabel="GoogleBooks"
+                            >http://books.google.com/books?id=278fAAAAMAAJ&amp;printsec=frontcover#PPP5,M1</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure"
@@ -41504,11 +41445,13 @@ but this is where the TLG has left off for numbering-->
                             <number>Sect II</number>
                         </detail>
                     </part>
-                    <location displayLabel="Open Content Alliance">
-                        <url>https://archive.org/stream/p1debellopelopon03thucuoft#page/n205/mode/2up</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >https://archive.org/stream/p1debellopelopon03thucuoft#page/n205/mode/2up</url>
                     </location>
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=278fAAAAMAAJ&amp;printsec=frontcover#PPA197,M1</url>
+                    <location>
+                        <url displayLabel="GoogleBooks"
+                            >http://books.google.com/books?id=278fAAAAMAAJ&amp;printsec=frontcover#PPA197,M1</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure"
@@ -41519,11 +41462,13 @@ but this is where the TLG has left off for numbering-->
                             <number>Sect I</number>
                         </detail>
                     </part>
-                    <location displayLabel="Open Content Alliance">
-                        <url>https://archive.org/stream/p1debellopelopon03thucuoft#page/n427/mode/2up</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >https://archive.org/stream/p1debellopelopon03thucuoft#page/n427/mode/2up</url>
                     </location>
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=IEsIAAAAQAAJ</url>
+                    <location>
+                        <url displayLabel="GoogleBooks"
+                            >http://books.google.com/books?id=IEsIAAAAQAAJ</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure"
@@ -41534,11 +41479,13 @@ but this is where the TLG has left off for numbering-->
                             <number>-Sect II</number>
                         </detail>
                     </part>
-                    <location displayLabel="Open Content Alliance">
-                        <url>https://archive.org/stream/p1debellopelopon03thucuoft#page/n639/mode/2up</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >https://archive.org/stream/p1debellopelopon03thucuoft#page/n639/mode/2up</url>
                     </location>
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=1lcGAAAAQAAJ&amp;pg=PA211</url>
+                    <location>
+                        <url displayLabel="GoogleBooks"
+                            >http://books.google.com/books?id=1lcGAAAAQAAJ&amp;pg=PA211</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -41582,10 +41529,6 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/debellopeloponne00thucuoft</url>
-        </location>
-        <location>
-            <url displayLabel="Open Library"
-                >http://openlibrary.org/details/debellopeloponne00thucuoft</url>
         </location>
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=f_gLAAAAYAAJ</url>
@@ -41930,10 +41873,6 @@ but this is where the TLG has left off for numbering-->
                 >http://www.archive.org/details/historiaealexand00curtuoft</url>
         </location>
         <location>
-            <url displayLabel="Open Library"
-                >http://openlibrary.org/ia/historiaealexand00curtuoft</url>
-        </location>
-        <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=ct49zyyTpzUC</url>
         </location>
         <location>
@@ -42207,8 +42146,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
-        <location displayLabel="WorldCat">
-            <url>http://www.worldcat.org/oclc/611906057</url>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/611906057</url>
         </location>
         <originInfo>
             <place>
@@ -42260,8 +42199,8 @@ but this is where the TLG has left off for numbering-->
                             </detail>
                         </part>
                     </relatedItem>
-                    <location displayLabel="SLUB">
-                        <url>http://digital.slub-dresden.de/id403582423</url>
+                    <location>
+                        <url displayLabel="SLUB">http://digital.slub-dresden.de/id403582423</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Pars II">
@@ -42278,8 +42217,8 @@ but this is where the TLG has left off for numbering-->
                             </detail>
                         </part>
                     </relatedItem>
-                    <location displayLabel="SLUB">
-                        <url>http://digital.slub-dresden.de/id408696702</url>
+                    <location>
+                        <url displayLabel="SLUB">http://digital.slub-dresden.de/id408696702</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -42417,11 +42356,11 @@ but this is where the TLG has left off for numbering-->
             <languageTerm type="code">grc</languageTerm>
         </language>
         <typeOfResource>text</typeOfResource>
-        <location displayLabel="LC Permalink">
-            <url>http://lccn.loc.gov/32008655</url>
+        <location>
+            <url displayLabel="LC Permalink">http://lccn.loc.gov/32008655</url>
         </location>
-        <location displayLabel="WorldCat">
-            <url>http://www.worldcat.org/oclc/9292080</url>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/9292080</url>
         </location>
         <subject authority="lcsh">
             <topic>Achilles (Greek mythology)</topic>
@@ -43173,12 +43112,6 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/stream/commentariainari04akaduoft#page/n851/mode/2up</url>
         </location>
-        <location>
-            <url displayLabel="Open Library"/>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks"/>
-        </location>
         <relatedItem type="series">
             <titleInfo>
                 <title>Commentaria in Aristotelem graeca</title>
@@ -43302,10 +43235,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/stream/commentariaina13pt12akaduoft#page/n257/mode/2up</url>
         </location>
-        <location>
-            <url displayLabel="Open Library"
-                >http://openlibrary.org/ia/commentariaina13pt12akaduoft</url>
-        </location>
+        
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=5DYNAAAAYAAJ</url>
         </location>
@@ -43426,11 +43356,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/commentariaina13pt3akaduoft</url>
-        </location>
-        <location>
-            <url displayLabel="Open Library"
-                >http://openlibrary.org/ia/commentariaina13pt3akaduoft</url>
-        </location>
+        </location>        
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=WVXz4XvXNv8C</url>
         </location>
@@ -43554,10 +43480,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/commentariainari04akaduoft</url>
         </location>
-        <location>
-            <url displayLabel="Open Library"
-                >http://openlibrary.org/details/commentariainari04akaduoft</url>
-        </location>
+        
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=FTINAAAAYAAJ</url>
         </location>
@@ -44046,10 +43969,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/stream/commentariaina05pt13akaduoft#page/n427/mode/2up</url>
         </location>
-        <location>
-            <url displayLabel="Open Library"
-                >http://openlibrary.org/ia/commentariaina05pt13akaduoft</url>
-        </location>
+        
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=gjINAAAAYAAJ</url>
         </location>
@@ -44172,10 +44092,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/stream/commentariainari23akaduoft#page/n7/mode/2up</url>
         </location>
-        <location>
-            <url displayLabel="Open Library"
-                >http://openlibrary.org/details/commentariainari23akaduoft</url>
-        </location>
+        
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=CTYNAAAAYAAJ</url>
         </location>
@@ -44222,7 +44139,7 @@ but this is where the TLG has left off for numbering-->
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n80-98028.html">
+            valueURI="https://viaf.org/viaf/79147450/">
             <namePart>Sophonias</namePart>
             <role>
                 <roleTerm type="text" authority="marcrelator">creator</roleTerm>
@@ -44297,10 +44214,6 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/commentariaina15akaduoft</url>
-        </location>
-        <location>
-            <url displayLabel="Open Library"
-                >http://openlibrary.org/ia/commentariaina15akaduoft</url>
         </location>
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=LTYNAAAAYAAJ</url>
@@ -44553,10 +44466,6 @@ but this is where the TLG has left off for numbering-->
                 >http://www.archive.org/stream/commentariaina14pt13akaduoft#page/n171/mode/2up</url>
         </location>
         <location>
-            <url displayLabel="Open Library"
-                >http://openlibrary.org/ia/commentariaina14pt13akaduoft</url>
-        </location>
-        <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=KjgNAAAAYAAJ</url>
         </location>
         <relatedItem type="series">
@@ -44671,19 +44580,12 @@ but this is where the TLG has left off for numbering-->
             <extent>VII, 505 S.</extent>
         </physicalDescription>
         <classification authority="lcc">PA3902 A25</classification>
-        <classification authority="ddc"/>
-        <location>
-            <url displayLabel="LC Permalink"/>
-        </location>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/60440686</url>
         </location>
         <location>
             <url displayLabel="Open Content Alliance"
                 >http://archive.org/stream/commentariaina06pt12akaduoft#page/n247/mode/2up</url>
-        </location>
-        <location>
-            <url displayLabel="Open Library"/>
         </location>
         <location>
             <url displayLabel="GoogleBooks"
@@ -44803,10 +44705,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/commentariaina01akaduoft</url>
         </location>
-        <location>
-            <url displayLabel="Open Library"
-                >http://openlibrary.org/details/commentariaina01akaduoft</url>
-        </location>
+        
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=FGhKAAAAYAAJ</url>
         </location>
@@ -44936,10 +44835,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/stream/commentariaina14pt13akaduoft#page/n5/mode/2up</url>
         </location>
-        <location>
-            <url displayLabel="Open Library"
-                >http://openlibrary.org/ia/commentariaina14pt13akaduoft</url>
-        </location>
+        
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=vjgNAAAAYAAJ</url>
         </location>
@@ -45057,10 +44953,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/commentariaina03pt2akaduoft</url>
         </location>
-        <location>
-            <url displayLabel="Open Library"
-                >http://openlibrary.org/details/commentariaina03pt2akaduoft</url>
-        </location>
+        
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=UzUNAAAAYAAJ</url>
         </location>
@@ -45327,8 +45220,8 @@ but this is where the TLG has left off for numbering-->
             <topic>Aristoteles</topic>
         </subject>
         <identifier type="oclc">77055287</identifier>
-        <location displayLabel="WorldCat">
-            <url>http://www.worldcat.org/oclc/77055287</url>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/77055287</url>
         </location>
         <relatedItem type="constituent" otherType="work"
             displayLabel="in Aristotelis Physica commentaria">
@@ -45352,11 +45245,13 @@ but this is where the TLG has left off for numbering-->
                         </part>
                     </relatedItem>
                     <tableOfContents>Books I-III</tableOfContents>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/commentariaina16akaduoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/commentariaina16akaduoft</url>
                     </location>
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=Ir1fAAAAMAAJ</url>
+                    <location>
+                        <url displayLabel="GoogleBooks"
+                            >http://books.google.com/books?id=Ir1fAAAAMAAJ</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
@@ -45375,11 +45270,13 @@ but this is where the TLG has left off for numbering-->
                         </part>
                     </relatedItem>
                     <tableOfContents>Books IV-VIII</tableOfContents>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/commentariaina17akaduoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/commentariaina17akaduoft</url>
                     </location>
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=oKQNAAAAIAAJ</url>
+                    <location>
+                        <url displayLabel="GoogleBooks"
+                            >http://books.google.com/books?id=oKQNAAAAIAAJ</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -45782,10 +45679,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/pt2commentariain02akaduoft</url>
         </location>
-        <location>
-            <url displayLabel="Open Library"
-                >http://openlibrary.org/details/pt2commentariain02akaduoft</url>
-        </location>
+        
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=WjMNAAAAYAAJ</url>
         </location>
@@ -45907,10 +45801,6 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/remigiiautissiod00remiuoft</url>
-        </location>
-        <location>
-            <url displayLabel="OpenLibrary"
-                >http://www.openlibrary.org/details/remigiiautissiod00remiuoft</url>
         </location>
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
@@ -46351,20 +46241,12 @@ but this is where the TLG has left off for numbering-->
             <form authority="marcform">print</form>
             <extent> xii, 245 p.</extent>
         </physicalDescription>
-        <classification authority="lcc">PA3902 A25</classification>
-        <classification authority="ddc"/>
-        <location>
-            <url displayLabel="LC Permalink"/>
-        </location>
-        <location>
+        <classification authority="lcc">PA3902 A25</classification>        <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/77056092</url>
         </location>
         <location>
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/commentariaina19pt12akaduoft</url>
-        </location>
-        <location>
-            <url displayLabel="Open Library"/>
         </location>
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=ve9oAAAAMAAJ</url>
@@ -46484,10 +46366,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/stream/commentariaina14pt13akaduoft#page/n543/mode/2up</url>
         </location>
-        <location>
-            <url displayLabel="Open Library"
-                >http://openlibrary.org/ia/commentariaina14pt13akaduoft</url>
-        </location>
+        
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=6TcNAAAAYAAJ</url>
         </location>
@@ -47819,10 +47698,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance">
                 http://www.archive.org/details/proclidiadochiin00procuoft </url>
         </location>
-        <location>
-            <url displayLabel="Open Library"
-                >http://www.openlibrary.org/details/proclidiadochiin00procuoft</url>
-        </location>
+        
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=yq0zUjm5wlwC</url>
         </location>
@@ -48227,10 +48103,7 @@ but this is where the TLG has left off for numbering-->
                         <url displayLabel="Open Content Alliance"
                             >http://www.archive.org/details/institutioorator00quin</url>
                     </location>
-                    <location>
-                        <url displayLabel="OpenLibrary"
-                            >http://www.openlibrary.org/details/institutioorator00quin</url>
-                    </location>
+                    
                     <location>
                         <url displayLabel="GoogleBooks"
                             >http://books.google.com/books?id=EpdfAAAAMAAJ</url>
@@ -48260,10 +48133,6 @@ but this is where the TLG has left off for numbering-->
                     <location>
                         <url displayLabel="Open Content Alliance"
                             >http://www.archive.org/details/institutooratori02quinuoft</url>
-                    </location>
-                    <location>
-                        <url displayLabel="OpenLibrary"
-                            >http://www.openlibrary.org/details/institutooratori02quinuoft</url>
                     </location>
                     <location>
                         <url displayLabel="GoogleBooks"
@@ -48463,8 +48332,8 @@ but this is where the TLG has left off for numbering-->
         <identifier type="isbn">19814654X</identifier>
         <identifier type="lccn">75514064</identifier>
         <identifier type="oclc">868654509</identifier>
-        <location displayLabel="WorldCat">
-            <url>http://www.worldcat.org/oclc/868654509</url>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/868654509</url>
         </location>
         <relatedItem type="constituent" otherType="work"
             displayLabel="M. Fabi Quintiliani Institutionis oratoriae">
@@ -48486,8 +48355,8 @@ but this is where the TLG has left off for numbering-->
                             </detail>
                         </part>
                     </relatedItem>
-                    <location displayLabel="SLUB">
-                        <url>http://digital.slub-dresden.de/id415658195</url>
+                    <location>
+                        <url displayLabel="SLUB">http://digital.slub-dresden.de/id415658195</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
@@ -48504,8 +48373,8 @@ but this is where the TLG has left off for numbering-->
                             </detail>
                         </part>
                     </relatedItem>
-                    <location displayLabel="SLUB">
-                        <url>http://digital.slub-dresden.de/id415658500</url>
+                    <location>
+                        <url displayLabel="SLUB">http://digital.slub-dresden.de/id415658500</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -48556,8 +48425,8 @@ but this is where the TLG has left off for numbering-->
             <topic>Early works to 1800</topic>
         </subject>
         <identifier type="oclc">13707320</identifier>
-        <location displayLabel="WorldCat">
-            <url>http://worldcat.org/oclc/13707320</url>
+        <location>
+            <url displayLabel="WorldCat">http://worldcat.org/oclc/13707320</url>
         </location>
         <relatedItem type="series">
             <titleInfo>
@@ -48587,8 +48456,9 @@ but this is where the TLG has left off for numbering-->
                         </part>
                     </relatedItem>
                     <tableOfContents>Liber I-VI</tableOfContents>
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=LY0OAAAAIAAJ</url>
+                    <location>
+                        <url displayLabel="GoogleBooks"
+                            >http://books.google.com/books?id=LY0OAAAAIAAJ</url>
                     </location>
                     <location>
                         <url displayLabel="HathiTrust"
@@ -48610,8 +48480,9 @@ but this is where the TLG has left off for numbering-->
                         </part>
                     </relatedItem>
                     <tableOfContents>Liber VII-XII</tableOfContents>
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=rUIYAAAAYAAJ</url>
+                    <location>
+                        <url displayLabel="GoogleBooks"
+                            >http://books.google.com/books?id=rUIYAAAAYAAJ</url>
                     </location>
                     <location>
                         <url displayLabel="HathiTrust">https://hdl.handle.net/2027/hvd.hn1ws7</url>
@@ -49148,8 +49019,8 @@ but this is where the TLG has left off for numbering-->
         <identifier displayLabel="isCommentaryOn" type="Perseus:abo">Perseus:abo:phi,0690,003</identifier>
         <identifier type="lccn">05041691</identifier>
         <identifier type="oclc">66125947</identifier>
-        <location displayLabel="WorldCat">
-            <url>http://worldcat.org/oclc/66125947</url>
+        <location>
+            <url displayLabel="WorldCat">http://worldcat.org/oclc/66125947</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Interpretationes Vergilianae">
             <identifier type="ctsurn">urn:cts:latinLit:stoa0110a.stoa001</identifier>
@@ -49171,14 +49042,13 @@ but this is where the TLG has left off for numbering-->
                         </part>
                     </relatedItem>
                     <tableOfContents>Book I-VI</tableOfContents>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/interpretationes01donauoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/interpretationes01donauoft</url>
                     </location>
-                    <location displayLabel="Open Library">
-                        <url>http://www.openlibrary.org/details/interpretationes01donauoft</url>
-                    </location>
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=o65aWOg8SWIC</url>
+                    <location>
+                        <url displayLabel="GoogleBooks"
+                            >http://books.google.com/books?id=o65aWOg8SWIC</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
@@ -49196,12 +49066,13 @@ but this is where the TLG has left off for numbering-->
                         </part>
                     </relatedItem>
                     <tableOfContents>Libri VII-XII</tableOfContents>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/interpretationes02donauoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/interpretationes02donauoft</url>
                     </location>
-
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=d0FDNn3IzfsC</url>
+                    <location>
+                        <url displayLabel="GoogleBooks"
+                            >http://books.google.com/books?id=d0FDNn3IzfsC</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -49746,8 +49617,8 @@ but this is where the TLG has left off for numbering-->
                 <partNumber>XI-XII</partNumber>
             </titleInfo>
         </relatedItem>
-        <location displayLabel="WorldCat">
-            <url>http://www.worldcat.org/oclc/36569161</url>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/36569161</url>
         </location>
         <note type="statement of responsibility">Platon; texte établi et traduit par Edouard des
             Places</note>
@@ -49778,8 +49649,8 @@ but this is where the TLG has left off for numbering-->
                         </role>
                     </name>
                     <tableOfContents>Book III-VI</tableOfContents>
-                    <location displayLabel="SLUB">
-                        <url>http://digital.slub-dresden.de/id416226795</url>
+                    <location>
+                        <url displayLabel="SLUB">http://digital.slub-dresden.de/id416226795</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
@@ -49804,8 +49675,8 @@ but this is where the TLG has left off for numbering-->
                         </role>
                     </name>
                     <tableOfContents>Book VII-X</tableOfContents>
-                    <location displayLabel="SLUB">
-                        <url>http://digital.slub-dresden.de/id416228046</url>
+                    <location>
+                        <url displayLabel="SLUB">http://digital.slub-dresden.de/id416228046</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -49960,8 +49831,8 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
         <identifier type="lccn">29007014</identifier>
         <identifier type="oclc">905427849</identifier>
-        <location displayLabel="WorldCat">
-            <url>http://www.worldcat.org/oclc/905427849</url>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/905427849</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Lexicographie Graeci Pars I">
             <identifier type="ctsurn">urn:cts:greekLit:tlg9010.tlg001</identifier>
@@ -49975,8 +49846,8 @@ but this is where the TLG has left off for numbering-->
                         </detail>
                     </part>
                     <tableOfContents>[A-G]</tableOfContents>
-                    <location displayLabel="SLUB">
-                        <url>http://digital.slub-dresden.de/id413865401</url>
+                    <location>
+                        <url displayLabel="SLUB">http://digital.slub-dresden.de/id413865401</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
@@ -49986,8 +49857,8 @@ but this is where the TLG has left off for numbering-->
                         </detail>
                     </part>
                     <tableOfContents>[D-TH]</tableOfContents>
-                    <location displayLabel="SLUB">
-                        <url>http://digital.slub-dresden.de/id413864820</url>
+                    <location>
+                        <url displayLabel="SLUB">http://digital.slub-dresden.de/id413864820</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
@@ -49996,8 +49867,8 @@ but this is where the TLG has left off for numbering-->
                             <caption>Pars III</caption>
                         </detail>
                     </part>
-                    <location displayLabel="SLUB">
-                        <url>http://digital.slub-dresden.de/id413864146</url>
+                    <location>
+                        <url displayLabel="SLUB">http://digital.slub-dresden.de/id413864146</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 4">
@@ -50006,8 +49877,8 @@ but this is where the TLG has left off for numbering-->
                             <caption>Pars IV</caption>
                         </detail>
                     </part>
-                    <location displayLabel="SLUB">
-                        <url>http://digital.slub-dresden.de/id413863263</url>
+                    <location>
+                        <url displayLabel="SLUB">http://digital.slub-dresden.de/id413863263</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -53563,8 +53434,9 @@ but this is where the TLG has left off for numbering-->
                         <url displayLabel="Open Content Alliance"
                             >http://www.archive.org/details/naturalhistoryof01plinuoft</url>
                     </location>
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=MZYVAAAAYAAJ</url>
+                    <location>
+                        <url displayLabel="GoogleBooks"
+                            >http://books.google.com/books?id=MZYVAAAAYAAJ</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
@@ -53749,11 +53621,11 @@ but this is where the TLG has left off for numbering-->
         <note type="statement of responsibility">post Ludovici Iani obitum recognovit et scripturae
             discrepantia adiecta edidit Carolus Mayhoff. Vol. 1-[2]</note>
         <note>Vol. 2: "...iterum edidit Carolus Mayhoff."</note>
-        <location displayLabel="LC Permalink">
-            <url>http://lccn.loc.gov/10001705</url>
+        <location>
+            <url displayLabel="LC Permalink">http://lccn.loc.gov/10001705</url>
         </location>
-        <location displayLabel="WorldCat">
-            <url>http://www.worldcat.org/oclc/11976611</url>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/11976611</url>
         </location>
         <identifier type="oclc">11976611</identifier>
         <identifier type="lccn">10001705</identifier>
@@ -54006,8 +53878,8 @@ but this is where the TLG has left off for numbering-->
             <languageTerm type="code">ger</languageTerm>
         </language>
         <identifier type="oclc">927491019</identifier>
-        <location displayLabel="WorldCat">
-            <url>http://www.worldcat.org/oclc/927491019</url>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/927491019</url>
         </location>
         <relatedItem type="series">
             <titleInfo>
@@ -54041,8 +53913,8 @@ but this is where the TLG has left off for numbering-->
                             </detail>
                         </part>
                     </relatedItem>
-                    <location displayLabel="SLUB">
-                        <url>http://digital.slub-dresden.de/id41051828X</url>
+                    <location>
+                        <url displayLabel="SLUB">http://digital.slub-dresden.de/id41051828X</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
@@ -54060,8 +53932,8 @@ but this is where the TLG has left off for numbering-->
                         </part>
                     </relatedItem>
                     <tableOfContents>Book II</tableOfContents>
-                    <location displayLabel="SLUB">
-                        <url>http://digital.slub-dresden.de/id413905829</url>
+                    <location>
+                        <url displayLabel="SLUB">http://digital.slub-dresden.de/id413905829</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -55284,8 +55156,8 @@ but this is where the TLG has left off for numbering-->
             W. Walter Merry and James Riddell.  Vol. [2] ("edited with English notes and appendices by D.B. Monro")
             --has no edition or series statement.</note>
         <identifier type="oclc">5142747</identifier>
-        <location displayLabel="Worldcat">
-            <url>http://www.worldcat.org/oclc/5142747</url>
+        <location>
+            <url displayLabel="Worldcat">http://www.worldcat.org/oclc/5142747</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Odyssey">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0012.tlg002</identifier>
@@ -55320,8 +55192,9 @@ but this is where the TLG has left off for numbering-->
                         </role>
                     </name>
                     <tableOfContents>Books I-XII</tableOfContents>
-                    <location displayLabel="HathiTrust">
-                        <url>http://hdl.handle.net/2027/uc1.32106008448836</url>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >http://hdl.handle.net/2027/uc1.32106008448836</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
@@ -55346,8 +55219,9 @@ but this is where the TLG has left off for numbering-->
                         </role>
                     </name>
                     <tableOfContents>Books XIII-XXIV</tableOfContents>
-                    <location displayLabel="HathiTrust">
-                        <url>http://hdl.handle.net/2027/uva.x000311078</url>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >http://hdl.handle.net/2027/uva.x000311078</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -55980,8 +55854,8 @@ but this is where the TLG has left off for numbering-->
             adnotavit Ericvs Bethe</note>
         <identifier type="lccn">06016386</identifier>
         <identifier type="oclc">14881279</identifier>
-        <location displayLabel="WorldCat">
-            <url>http://www.worldcat.org/oclc/14881279</url>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/14881279</url>
         </location>
         <typeOfResource>text</typeOfResource>
         <relatedItem type="constituent" otherType="work" displayLabel="Onomasticon">
@@ -56003,11 +55877,13 @@ but this is where the TLG has left off for numbering-->
                         </part>
                     </relatedItem>
                     <tableOfContents>Lib I-V</tableOfContents>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/pollucisonomasti01polluoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/pollucisonomasti01polluoft</url>
                     </location>
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=RTIZAAAAYAAJ</url>
+                    <location>
+                        <url displayLabel="GoogleBooks"
+                            >http://books.google.com/books?id=RTIZAAAAYAAJ</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
@@ -56025,8 +55901,9 @@ but this is where the TLG has left off for numbering-->
                         </part>
                     </relatedItem>
                     <tableOfContents>Lib VI-X</tableOfContents>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/pollucisonomasti02polluoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/pollucisonomasti02polluoft</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -59363,11 +59240,11 @@ but this is where the TLG has left off for numbering-->
         </language>
         <identifier type="lccn">36002106</identifier>
         <identifier type="oclc">1005221</identifier>
-        <location displayLabel="LC Permalink">
-            <url>http://lccn.loc.gov/36002106</url>
+        <location>
+            <url displayLabel="LC Permalink">http://lccn.loc.gov/36002106</url>
         </location>
-        <location displayLabel="WorldCat">
-            <url>http://worldcat.org/oclc/1005221</url>
+        <location>
+            <url displayLabel="WorldCat">http://worldcat.org/oclc/1005221</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Res Gestae">
             <identifier type="ctsurn">urn:cts:latinLit:stoa0023.stoa001</identifier>
@@ -59405,8 +59282,9 @@ but this is where the TLG has left off for numbering-->
                         </part>
                     </relatedItem>
                     <tableOfContents>Book XIV-Book XIX</tableOfContents>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/ammianusmarcelli01ammiuoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/ammianusmarcelli01ammiuoft</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
@@ -59581,11 +59459,11 @@ but this is where the TLG has left off for numbering-->
             adiuvantibus Ludovico Traube et Guilelmo Heraeo.</note>
         <identifier type="lccn">unk80013641</identifier>
         <identifier type="oclc">28789922</identifier>
-        <location displayLabel="LC Permalink">
-            <url>http://lccn.loc.gov/unk80013641</url>
+        <location>
+            <url displayLabel="LC Permalink">http://lccn.loc.gov/unk80013641</url>
         </location>
-        <location displayLabel="WorldCat">
-            <url>http://worldcat.org/oclc/28789922</url>
+        <location>
+            <url displayLabel="WorldCat">http://worldcat.org/oclc/28789922</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Res Gestae">
             <identifier type="ctsurn">urn:cts:latinLit:stoa0023.stoa001</identifier>
@@ -59606,8 +59484,8 @@ but this is where the TLG has left off for numbering-->
                         </part>
                     </relatedItem>
                     <tableOfContents>Libri XIV-XXV</tableOfContents>
-                    <location displayLabel="HathiTrust">
-                        <url>http://hdl.handle.net/2027/uc1.$b734938</url>
+                    <location>
+                        <url displayLabel="HathiTrust">http://hdl.handle.net/2027/uc1.$b734938</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
@@ -59625,8 +59503,8 @@ but this is where the TLG has left off for numbering-->
                         </part>
                     </relatedItem>
                     <tableOfContents>Libri XXVI-XXXI</tableOfContents>
-                    <location displayLabel="HathiTrust">
-                        <url>http://hdl.handle.net/2027/uc1.$b734939</url>
+                    <location>
+                        <url displayLabel="HathiTrust">http://hdl.handle.net/2027/uc1.$b734939</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -59770,11 +59648,11 @@ but this is where the TLG has left off for numbering-->
         <note type="statement of responsibility">Recensuit Victor Gardthausen.</note>
         <identifier type="lccn">68104396</identifier>
         <identifier type="oclc">1149637</identifier>
-        <location displayLabel="LC Permalink">
-            <url>http://lccn.loc.gov/68104396</url>
+        <location>
+            <url displayLabel="LC Permalink">http://lccn.loc.gov/68104396</url>
         </location>
-        <location displayLabel="WorldCat">
-            <url>http://worldcat.org/oclc/1149637</url>
+        <location>
+            <url displayLabel="WorldCat">http://worldcat.org/oclc/1149637</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Res Gestae">
             <identifier type="ctsurn">urn:cts:latinLit:stoa0023.stoa001</identifier>
@@ -59789,14 +59667,17 @@ but this is where the TLG has left off for numbering-->
                     <originInfo>
                         <dateIssued>1874</dateIssued>
                     </originInfo>
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=1iAAAAAAYAAJ</url>
+                    <location>
+                        <url displayLabel="GoogleBooks"
+                            >http://books.google.com/books?id=1iAAAAAAYAAJ</url>
                     </location>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/rerumgestarumlib01ammiuoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/rerumgestarumlib01ammiuoft</url>
                     </location>
-                    <location displayLabel="HathiTrust">
-                        <url>http://hdl.handle.net/2027/mdp.39015065494596</url>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >http://hdl.handle.net/2027/mdp.39015065494596</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
@@ -59808,11 +59689,13 @@ but this is where the TLG has left off for numbering-->
                     <originInfo>
                         <dateIssued>1874</dateIssued>
                     </originInfo>
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=1uJBAAAAMAAJ</url>
+                    <location>
+                        <url displayLabel="GoogleBooks"
+                            >http://books.google.com/books?id=1uJBAAAAMAAJ</url>
                     </location>
-                    <location displayLabel="HathiTrust">
-                        <url>http://hdl.handle.net/2027/mdp.39015066955413</url>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >http://hdl.handle.net/2027/mdp.39015066955413</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -62619,8 +62502,8 @@ but this is where the TLG has left off for numbering-->
             <topic>Mathematics, Greek</topic>
         </subject>
         <note type="language">Parallel text in Greek and Latin</note>
-        <location displayLabel="WorldCat">
-            <url>http://www.worldcat.org/oclc/5814357</url>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/5814357</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Synagoge">
             <identifier type="ctsurn">urn:cts:greekLit:tlg2032.tlg001</identifier>
@@ -62863,8 +62746,8 @@ but this is where the TLG has left off for numbering-->
         <note type="statement of responsibility">aus dem griechischen übersetzt und mit erklärenden
             anmerkungen versehen von Karl Manitius.</note>
         <identifier type="oclc">68158577</identifier>
-        <location displayLabel="WorldCat">
-            <url>http://www.worldcat.org/oclc/68158577</url>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/68158577</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Syntaxis Mathematica">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0363.tlg001</identifier>
@@ -62886,8 +62769,9 @@ but this is where the TLG has left off for numbering-->
                         </part>
                     </relatedItem>
                     <tableOfContents>Book I-VI</tableOfContents>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/desclaudiusptole01ptoluoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/desclaudiusptole01ptoluoft</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
@@ -62905,8 +62789,9 @@ but this is where the TLG has left off for numbering-->
                         </part>
                     </relatedItem>
                     <tableOfContents>Book VII-XIII</tableOfContents>
-                    <location displayLabel="Open Content Alliance">
-                        <url>http://www.archive.org/details/desclaudiusptole02ptoluoft</url>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >http://www.archive.org/details/desclaudiusptole02ptoluoft</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -63722,11 +63607,11 @@ but this is where the TLG has left off for numbering-->
             and a collation of numerous mss by Thomas Wilson Dougan </note>
         <identifier type="lccn">08032381</identifier>
         <identifier type="oclc">61612755</identifier>
-        <location displayLabel="WorldCat">
-            <url>http://worldcat.org/oclc/61612755</url>
+        <location>
+            <url displayLabel="WorldCat">http://worldcat.org/oclc/61612755</url>
         </location>
-        <location displayLabel="LC Permalink">
-            <url>http://lccn.loc.gov/08032381</url>
+        <location>
+            <url displayLabel="LC Permalink">http://lccn.loc.gov/08032381</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Tusculanae Disputationes">
             <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi049</identifier>
@@ -63748,11 +63633,13 @@ but this is where the TLG has left off for numbering-->
                         </part>
                     </relatedItem>
                     <tableOfContents>Books I and II</tableOfContents>
-                    <location displayLabel="HathiTrust">
-                        <url>http://hdl.handle.net/2027/mdp.39015008710223</url>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >http://hdl.handle.net/2027/mdp.39015008710223</url>
                     </location>
-                    <location displayLabel="GoogleBooks">
-                        <url>http://books.google.com/books?id=cWYG-_kS7hAC</url>
+                    <location>
+                        <url displayLabel="GoogleBooks"
+                            >http://books.google.com/books?id=cWYG-_kS7hAC</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
@@ -63922,11 +63809,11 @@ but this is where the TLG has left off for numbering-->
         </subject>
         <identifier type="lccn">37034540</identifier>
         <identifier type="oclc">150636312</identifier>
-        <location displayLabel="LC Permalink">
-            <url>http://lccn.loc.gov/37034540</url>
+        <location>
+            <url displayLabel="LC Permalink">http://lccn.loc.gov/37034540</url>
         </location>
-        <location displayLabel="WorldCat">
-            <url>http://www.worldcat.org/oclc/150636312</url>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/150636312</url>
         </location>
         <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
             <part>
@@ -63943,11 +63830,12 @@ but this is where the TLG has left off for numbering-->
                 </part>
             </relatedItem>
             <tableOfContents>Book I-Book III</tableOfContents>
-            <location displayLabel="Open Content Alliance">
-                <url>http://www.archive.org/details/philostratusinho00philuoft</url>
+            <location>
+                <url displayLabel="Open Content Alliance"
+                    >http://www.archive.org/details/philostratusinho00philuoft</url>
             </location>
-            <location displayLabel="GoogleBooks">
-                <url>http://books.google.com/books?id=qPZfAAAAMAAJ</url>
+            <location>
+                <url displayLabel="GoogleBooks">http://books.google.com/books?id=qPZfAAAAMAAJ</url>
             </location>
         </relatedItem>
         <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
@@ -63965,8 +63853,8 @@ but this is where the TLG has left off for numbering-->
                 </part>
             </relatedItem>
             <tableOfContents>Book IV-Book VIII</tableOfContents>
-            <location displayLabel="HathiTrust">
-                <url>http://hdl.handle.net/2027/mdp.39015011383414</url>
+            <location>
+                <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015011383414</url>
             </location>
         </relatedItem>
         <relatedItem type="constituent" otherType="work" displayLabel="Life of Apollonius of Tyana">
