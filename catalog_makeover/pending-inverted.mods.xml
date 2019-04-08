@@ -18245,18 +18245,13 @@ SO CAN HAVE IN NEW DATASET-->
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015022000742</url>
         </location>
-        <!-- Part I -->
-        <relatedItem type="constituent" otherType="work" displayLabel="Idyllia">
-            <titleInfo>
-                <title>Idyllia</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/95161348/">
-                <namePart>Theocritus</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
+        <relatedItem type="constituent" otherType="Section" displayLabel="Part I">
+            <!-- Part I -->
+            <part type="volume">
+                <detail>
+                    <number>Part 1</number>
+                </detail>
+            </part>
             <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                 valueURI="http://viaf.org/viaf/35204745">
                 <namePart>Ameis, Karl Friedrich</namePart>
@@ -18265,383 +18260,187 @@ SO CAN HAVE IN NEW DATASET-->
                     <roleTerm type="text">editor</roleTerm>
                 </role>
             </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0005.001</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>1</start>
-                    <end>62</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=46</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Epigrammata">
-            <titleInfo>
-                <title>Epigrammata</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/95161348/">
-                <namePart>Theocritus</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/35204745">
-                <namePart>Ameis, Karl Friedrich</namePart>
-                <namePart type="date">1811-1870</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0005.002</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>62</start>
-                    <end>66</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=108</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Epitaphius Adonis">
-            <titleInfo>
-                <title>Epitaphius Adonis</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/250719105/">
-                <namePart>Bion,</namePart>
-                <namePart type="termsOfAddress">of Phlossa near Smyrna</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/35204745">
-                <namePart>Ameis, Karl Friedrich</namePart>
-                <namePart type="date">1811-1870</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0036.001</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>69</start>
-                    <end>70</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=112</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Epithalamium Achillis et Deidameiae [Sp.] ">
-            <titleInfo>
-                <title>Epithalamium Achillis et Deidameiae [Sp.] </title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/250719105/">
-                <namePart>Bion,</namePart>
-                <namePart type="termsOfAddress">of Phlossa near Smyrna</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/35204745">
-                <namePart>Ameis, Karl Friedrich</namePart>
-                <namePart type="date">1811-1870</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0036.002</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>71</start>
-                    <end>74</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://babel.hathitrust.org/cgi/pt?id=mdp.39015022000742;view=2up;seq=116</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Eros Drapeta">
-            <titleInfo>
-                <title>Eros Drapeta</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/304916731/">
-                <namePart>Moschus</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/35204745">
-                <namePart>Ameis, Karl Friedrich</namePart>
-                <namePart type="date">1811-1870</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0035.001</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>77</start>
-                    <end>77</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=122</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Europa">
-            <titleInfo>
-                <title>Europa</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/304916731/">
-                <namePart>Moschus</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/35204745">
-                <namePart>Ameis, Karl Friedrich</namePart>
-                <namePart type="date">1811-1870</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0035.002</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>77</start>
-                    <end>80</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=122</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Epitaphius Bios">
-            <titleInfo>
-                <title>Epitaphius Bios</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/304916731/">
-                <namePart>Moschus</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/35204745">
-                <namePart>Ameis, Karl Friedrich</namePart>
-                <namePart type="date">1811-1870</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0035.003</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>81</start>
-                    <end>83</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=126</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Megara">
-            <titleInfo>
-                <title>Megara</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/304916731/">
-                <namePart>Moschus</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/35204745">
-                <namePart>Ameis, Karl Friedrich</namePart>
-                <namePart type="date">1811-1870</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0035.004</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>83</start>
-                    <end>85</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=128</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-            <titleInfo>
-                <title>Fragmenta</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/304916731/">
-                <namePart>Moschus</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/35204745">
-                <namePart>Ameis, Karl Friedrich</namePart>
-                <namePart type="date">1811-1870</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0035.005</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>85</start>
-                    <end>86</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=130</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Epigrammata">
-            <titleInfo>
-                <title>Epigrammata</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/304916731/">
-                <namePart>Moschus</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/35204745">
-                <namePart>Ameis, Karl Friedrich</namePart>
-                <namePart type="date">1811-1870</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0035.006</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>86</start>
-                    <end>86</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=132</url>
-            </location>
-
+            <relatedItem type="constituent" otherType="work" displayLabel="Idyllia">
+                <identifier>urn:cts:greekLit:tlg0005.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Idyllia">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0005.tlg001.opp-grc4</identifier>
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0005.tlg001.opp-lat1</identifier>
+                    <part>
+                        <extent unit="pages">
+                            <start>1</start>
+                            <end>62</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=46</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Epigrammata">
+                <identifier>urn:cts:greekLit:tlg0005.tlg002</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Epigrammata">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0005.tlg001.opp-grc5</identifier>
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0005.tlg001.opp-lat1</identifier>
+                    <part>
+                        <extent unit="pages">
+                            <start>62</start>
+                            <end>66</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=108</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Epitaphius Adonis">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0036.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Epitaphius Adonis">
+                    <identifier type="ctsurn">>urn:cts:greekLit:tlg0036.tlg001.opp-grc4</identifier>
+                    <identifier type="ctsurn">>urn:cts:greekLit:tlg0036.tlg001.opp-lat1</identifier>
+                    <part>
+                        <extent unit="pages">
+                            <start>69</start>
+                            <end>70</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=112</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="Epithalamium Achillis et Deidameiae [Sp.] ">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0036.tlg002</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Epithalamium Achillis et Deidameiae [Sp.]">
+                    <identifier type="ctsurn">>urn:cts:greekLit:tlg0036.tlg002.opp-grc4</identifier>
+                    <identifier type="ctsurn">>urn:cts:greekLit:tlg0036.tlg002.opp-lat1</identifier>
+                    <part>
+                        <extent unit="pages">
+                            <start>71</start>
+                            <end>74</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://babel.hathitrust.org/cgi/pt?id=mdp.39015022000742;view=2up;seq=116</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Eros Drapeta">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0035.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Eros Drapeta">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0035.tlg001.opp-grc4</identifier>
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0035.tlg001.opp-lat1</identifier>
+                    <part>
+                        <extent unit="pages">
+                            <start>77</start>
+                            <end>77</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=122</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Europa">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0035.tlg002</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Europa">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0035.tlg002.opp-grc4</identifier>
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0035.tlg002.opp-lat1</identifier>
+                    <part>
+                        <extent unit="pages">
+                            <start>77</start>
+                            <end>80</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=122</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Epitaphius Bios">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0035.tlg003</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Eros Drapeta">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0035.tlg003.opp-grc4</identifier>
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0035.tlg003.opp-lat1</identifier>
+                    <part>
+                        <extent unit="pages">
+                            <start>81</start>
+                            <end>83</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=126</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Megara">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0035.tlg004</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Megara">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0035.tlg004.opp-grc4</identifier>
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0035.tlg004.opp-lat1</identifier>
+                    <part>
+                        <extent unit="pages">
+                            <start>83</start>
+                            <end>85</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=128</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0035.tlg005</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0035.tlg005.opp-grc4</identifier>
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0035.tlg005.opp-lat1</identifier>
+                    <part>
+                        <extent unit="pages">
+                            <start>85</start>
+                            <end>86</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=130</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Epigrammata">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0035.tlg006</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Eros Drapeta">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0035.tlg006.opp-grc4</identifier>
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0035.tlg006.opp-lat1</identifier>
+                    <part>
+                        <extent unit="pages">
+                            <start>86</start>
+                            <end>86</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=132</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
         </relatedItem>
         <!-- Part II -->
-        <relatedItem type="constituent" otherType="work" displayLabel="Cynegetica">
-            <titleInfo>
-                <title>Cynegetica</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100036127/">
-                <namePart>Oppian,</namePart>
-                <namePart type="termsOfAddress">of Apamea</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
+        <relatedItem type="constituent" otherType="Section" displayLabel="Part II">
+            <part type="volume">
+                <detail>
+                    <number>Part 2</number>
+                </detail>
+            </part>
             <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                 valueURI="http://viaf.org/viaf/39405583">
                 <namePart>Lehrs, Franz Siegfried,</namePart>
@@ -18650,165 +18449,138 @@ SO CAN HAVE IN NEW DATASET-->
                     <roleTerm type="text">editor</roleTerm>
                 </role>
             </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0024.001</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>1</start>
-                    <end>41</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=148</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Halieutica">
-            <titleInfo>
-                <title>Halieutica</title>
-            </titleInfo>
-            <titleInfo type="alternative">
-                <title>De Piscatione</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/86913544/">
-                <namePart>Oppian,</namePart>
-                <namePart type="termsOfAddress">fl. 2nd cent.</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/39405583">
-                <namePart>Lehrs, Franz Siegfried,</namePart>
-                <namePart type="date">1806-1843</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0023.001</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>41</start>
-                    <end>106</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=190</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Ixeutica">
-            <titleInfo>
-                <title>Ixeutica</title>
-            </titleInfo>
-            <titleInfo type="alternative">
-                <title>Ixeuticon sive De aucupio (paraphrasis) (olim sub auctore Eutecnio) </title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/86913544/">
-                <namePart>Oppian,</namePart>
-                <namePart type="termsOfAddress">fl. 2nd cent.</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">attributed author</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/100902699/">
-                <namePart>Dionysius</namePart>
-                <namePart type="termsOfAddress">of Periegetes</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/39405583">
-                <namePart>Lehrs, Franz Siegfried,</namePart>
-                <namePart type="date">1806-1843</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0084.003</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>106</start>
-                    <end>126</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=256</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Theriaca">
-            <titleInfo>
-                <title>Theriaca</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/">
-                <namePart>Nicander</namePart>
-                <namePart type="termsOfAddress">of Colophon</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/39405583">
-                <namePart>Lehrs, Franz Siegfried,</namePart>
-                <namePart type="date">1806-1843</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0022.002</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>127</start>
-                    <end>144</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=276</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-            <relatedItem type="constituent" otherType="work" displayLabel="Alexipharmaca">
-                <titleInfo>
-                    <title>Alexipharmaca</title>
+            <relatedItem type="constituent" otherType="work" displayLabel="Cynegetica">
+                <identifier>urn:cts:greekLit:tlg0024.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Cynegetica">
+                    <identifier>urn:cts:greekLit:tlg0024.tlg001.opp-grc3</identifier>
+                    <identifier>urn:cts:greekLit:tlg0024.tlg001.opp-lat1</identifier>
+                    <part>
+                        <extent unit="pages">
+                            <start>1</start>
+                            <end>41</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=148</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Halieutica">
+                <identifier>urn:cts:greekLit:tlg0023.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Halieutica">
+                    <identifier>urn:cts:greekLit:tlg0023.tlg001.opp-grc2</identifier>
+                    <identifier>urn:cts:greekLit:tlg0023.tlg001.opp-lat1</identifier>
+                    <part>
+                        <extent unit="pages">
+                            <start>41</start>
+                            <end>106</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=190</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Ixeutica">
+                <identifier>urn:cts:greekLit:tlg0084.tlg003</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Ixeutica">
+                    <identifier>urn:cts:greekLit:tlg0084.tlg003.opp-grc2</identifier>
+                    <identifier>urn:cts:greekLit:tlg0084.tlg003.opp-lat1</identifier>
+                    <!-- Since this is only expression record leaving this author data here
+                    to show contested authorship-->
+                <titleInfo type="alternative">
+                    <title>Ixeuticon sive De aucupio (paraphrasis) (olim sub auctore Eutecnio)
+                    </title>
                 </titleInfo>
                 <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/">
-                    <namePart>Nicander</namePart>
-                    <namePart type="termsOfAddress">of Colophon</namePart>
+                    valueURI="http://viaf.org/viaf/86913544/">
+                    <namePart>Oppian,</namePart>
+                    <namePart type="termsOfAddress">fl. 2nd cent.</namePart>
+                    <role>
+                        <roleTerm authority="marcrelator" type="text">attributed author</roleTerm>
+                    </role>
+                </name>
+                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                    valueURI="http://viaf.org/viaf/100902699/">
+                    <namePart>Dionysius</namePart>
+                    <namePart type="termsOfAddress">of Periegetes</namePart>
+                    <role>
+                        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                    </role>
+                </name>      
+                <part>
+                    <extent unit="pages">
+                        <start>106</start>
+                        <end>126</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=256</url>
+                </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Theriaca">
+                <identifier>urn:cts:greekLit:tlg0022.tlg002</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Theriaca">
+                    <identifier>urn:cts:greekLit:tlg0022.tlg002.opp-grc2</identifier>
+                    <identifier>urn:cts:greekLit:tlg0022.tlg002.opp-lat1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>127</start>
+                        <end>144</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=276</url>
+                </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Alexipharmica">
+                <identifier>urn:cts:greekLit:tlg0022.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Alexipharmica">
+                    <identifier>urn:cts:greekLit:tlg0022.tlg001.opp-grc2</identifier>
+                    <identifier>urn:cts:greekLit:tlg0022.tlg001.opp-lat1</identifier>
+                    <part>
+                        <extent unit="pages">
+                            <start>145</start>
+                            <end>156</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=298</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">  
+                <identifier>urn:cts:greekLit:tlg0022.tlg003</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                    <identifier>urn:cts:greekLit:tlg0022.tlg003.opp-grc2</identifier>
+                    <identifier>urn:cts:greekLit:tlg0022.tlg003.opp-lat1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>157</start>
+                        <end>163</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=312</url>
+                </location>     
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="De piscibus fragmentum">
+                <titleInfo>
+                    <title>De piscibus fragmentum</title>
+                </titleInfo>
+                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                    valueURI="http://viaf.org/viaf/36830350/">
+                    <namePart>Markellos</namePart>
+                    <namePart type="termsOfAddress">Sidētēs</namePart>
                     <role>
                         <roleTerm authority="marcrelator" type="text">creator</roleTerm>
                     </role>
@@ -18827,132 +18599,55 @@ SO CAN HAVE IN NEW DATASET-->
                 <language objectPart="text">
                     <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
                 </language>
-                <identifier type="tlg">0022.001</identifier>
+                <identifier type="tlg">0281.001</identifier>
                 <part>
                     <extent unit="pages">
-                        <start>145</start>
-                        <end>156</end>
+                        <start>169</start>
+                        <end>171</end>
                     </extent>
                 </part>
                 <location>
                     <url displayLabel="HathiTrust"
-                        >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=298</url>
+                        >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=324</url>
                 </location>
 
             </relatedItem>
-            <titleInfo>
-                <title>Fragmenta</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/">
-                <namePart>Nicander</namePart>
-                <namePart type="termsOfAddress">of Colophon</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/39405583">
-                <namePart>Lehrs, Franz Siegfried,</namePart>
-                <namePart type="date">1806-1843</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0022.003</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>157</start>
-                    <end>163</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=312</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="De piscibus fragmentum">
-            <titleInfo>
-                <title>De piscibus fragmentum</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/36830350/">
-                <namePart>Markellos</namePart>
-                <namePart type="termsOfAddress">Sidētēs</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/39405583">
-                <namePart>Lehrs, Franz Siegfried,</namePart>
-                <namePart type="date">1806-1843</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0281.001</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>169</start>
-                    <end>171</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=324</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Anonymi Carmen De Herbis">
-            <titleInfo>
-                <title>Anonymi Carmen De Herbis</title>
-            </titleInfo>
-            <name authority="tlg" type="corporate">
-                <namePart>Anonymus de Viribus Herbarum</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/39405583">
-                <namePart>Lehrs, Franz Siegfried,</namePart>
-                <namePart type="date">1806-1843</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0282.001</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>173</start>
-                    <end>178</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=328</url>
-            </location>
-
+            <relatedItem type="constituent" otherType="work" displayLabel="Anonymi Carmen De Herbis">
+                <titleInfo>
+                    <title>Anonymi Carmen De Herbis</title>
+                </titleInfo>
+                <name authority="tlg" type="corporate">
+                    <namePart>Anonymus de Viribus Herbarum</namePart>
+                    <role>
+                        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                    </role>
+                </name>
+                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                    valueURI="http://viaf.org/viaf/39405583">
+                    <namePart>Lehrs, Franz Siegfried,</namePart>
+                    <namePart type="date">1806-1843</namePart>
+                    <role>
+                        <roleTerm type="text">editor</roleTerm>
+                    </role>
+                </name>
+                <language objectPart="text">
+                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+                </language>
+                <language objectPart="text">
+                    <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+                </language>
+                <identifier type="tlg">0282.001</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>173</start>
+                        <end>178</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=328</url>
+                </location>
+            </relatedItem>
         </relatedItem>
         <!-- Part III -->
         <relatedItem type="constituent" otherType="work"
