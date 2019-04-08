@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
-    <!-- Delete all OpenLibrary URLs-no longer relevant -->
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">    
     <!-- Continue converting author and editor names to linked data format (make
     sure have both authority and valueURI-->
     <!-- Check on displayLabel consistency for placement under URL not location search on <url>
@@ -2454,7 +2453,36 @@
         <titleInfo type="alternative" lang="lat">
             <title>De Vita Iulii Agricolae</title>
         </titleInfo>
-        <identifier type="oclc"> 9538712</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100226923/">
+            <namePart>Tacitus, Cornelius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/47161437/">
+            <namePart>Furneaux, Henry</namePart>
+            <namePart type="date">1829-1900</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" valueURI="http://errol.oclc.org/laf/no94-42848.html">
+            <namePart>Anderson, J. G. C. (John George Clark)</namePart>
+            <namePart type="date">1870-1952</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor of revised version</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal"
+            xlink:href="http://errol.oclc.org/laf/n88-628835%20.html">
+            <namePart>Haverfield, F. (Francis)</namePart>
+            <namePart type="date">1860-1919</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">contributor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -2486,42 +2514,13 @@
         </relatedItem>
         <classification authority="lcc">PA6706</classification>
         <classification authority="ddc">871</classification>
+        <identifier type="oclc">9538712</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/9538712</url>
         </location>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/100226923/">
-            <namePart>Tacitus, Cornelius</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/"
-            authorityURI="https://viaf.org/viaf/47161437/">
-            <namePart>Furneaux, Henry</namePart>
-            <namePart type="date">1829-1900</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" valueURI="http://errol.oclc.org/laf/no94-42848.html">
-            <namePart>Anderson, J. G. C. (John George Clark)</namePart>
-            <namePart type="date">1870-1952</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor of revised version</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n88-628835%20.html">
-            <namePart>Haverfield, F. (Francis)</namePart>
-            <namePart type="date">1860-1919</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">contributor</roleTerm>
-            </role>
-        </name>
         <relatedItem type="constituent" otherType="work" displayLabel="Agricola">
             <identifier type="ctsurn">urn:cts:latinLit:phi1351.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Agricola">
@@ -3747,6 +3746,12 @@
                 <title>Teubner</title>
             </titleInfo>
         </relatedItem>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Poetae Graeci</title>
+            </titleInfo>
+            <note>Binders title</note>
+        </relatedItem>
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/34014779</url>
         </location>
@@ -4185,8 +4190,8 @@
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/"
-            authorityURI="https://viaf.org/viaf/47161437/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/47161437/">
             <namePart>Furneaux, Henry</namePart>
             <namePart type="date">1829-1900</namePart>
             <role>
@@ -4241,8 +4246,8 @@
                             </detail>
                         </part>
                     </relatedItem>
-                    <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/"
-                        authorityURI="https://viaf.org/viaf/47161437/">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/47161437/">
                         <namePart>Furneaux, Henry</namePart>
                         <namePart type="date">1829-1900</namePart>
                         <role>
@@ -4276,16 +4281,16 @@
                             </detail>
                         </part>
                     </relatedItem>
-                    <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/"
-                        authorityURI="https://viaf.org/viaf/47161437/">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/47161437/">
                         <namePart>Furneaux, Henry</namePart>
                         <namePart type="date">1829-1900</namePart>
                         <role>
                             <roleTerm authority="marcrelator" type="text">editor</roleTerm>
                         </role>
                     </name>
-                    <name authority="viaf" type="personal"
-                        xlink:href="http://viaf.org/viaf/88925701/">
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                        valueURI="http://viaf.org/viaf/88925701/">
                         <namePart>Pelham, H.F. (Henry Francis)</namePart>
                         <namePart type="date">1846-1907</namePart>
                         <role>
@@ -8204,6 +8209,89 @@ but this is where the TLG has left off for numbering-->
             <identifier type="ctsurn">urn:cts:latinLit:phi0631.phi002</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Bellum Iugurthinum">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0631.phi002.opp-lat2</identifier>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods displayLabel="Bibliotheca-Apollodorus-Bekker-Teubner-1854">
+        <titleInfo>
+            <title>Apollodori Bibliotheca</title>
+        </titleInfo>
+        <titleInfo>
+            <title>Bibliotheca</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100219535/">
+            <namePart>Apollodorus</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/44387193/">
+            <namePart>Bekker, Immanuel</namePart>
+            <namePart type="date">1785-1871</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">edtior</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Lipsiae</placeTerm>
+            </place>
+            <publisher>sumptibus et typis B.G. Teubneri</publisher>
+            <dateIssued>1854</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <language objectPart="preface">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>viii, 143 p. 18 cm.</extent>
+        </physicalDescription>
+        <note type="statement of responsibility">ex recognitione Immanuelis Bekkeri.</note>
+        <note>Handbook of mythology formerly attributed to Apollodorus, of Athens, now generally
+            regarded as spurious.</note>
+        <subject authority="lcsh">
+            <topic>Mythology, Greek</topic>
+        </subject>
+        <classification authority="lcc">PA3404 .A5 1854</classification>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
+            </titleInfo>
+            <titleInfo type="abbreviated">
+                <title>Teubner</title>
+            </titleInfo>
+        </relatedItem>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Poetae Graeci</title>
+            </titleInfo>
+            <note>Binders title</note>
+        </relatedItem>
+        <identifier type="lccn">34014776</identifier>
+        <identifier type="oclc">3065893</identifier>
+        <location>
+            <url displayLabel="WorldCat">http://worldcat.org/oclc/3056893</url>
+        </location>
+        <location>
+            <url displayLabel="GoogleBooks">http://books.google.com/books?id=6UlqM4hapNsC</url>
+        </location>        
+         <location>
+             <url displayLabel="HathiTrust">https://hdl.handle.net/2027/hvd.32044085088698</url>
+         </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="Library">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0548.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Library">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0548.tlg001.opp-grc1</identifier>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -29759,6 +29847,90 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
+   <mods displayLabel="Fabulae Aesopae-Babrius-Schneidewin-Teubner-1865">
+       <titleInfo>
+           <title>Babrii Fabulae Aesopeae</title>
+       </titleInfo>
+       <titleInfo type="uniform">
+           <title>Fabulae Aesopeae</title>
+       </titleInfo>
+       <titleInfo type="alternative">
+           <title>Mythiambi Aesopici</title>
+       </titleInfo>
+       <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+           valueURI="https://viaf.org/viaf/19646296/">
+           <namePart>Babrius</namePart>
+           <role>
+               <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+           </role>
+       </name>
+       <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+           valueURI="https://viaf.org/viaf/37677603/">
+           <namePart>Schneidewin, Friedrich Wilhelm</namePart>
+           <namePart type="date">1810-1856</namePart>
+           <role>
+               <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+           </role>
+       </name>
+       <typeOfResource>text</typeOfResource>
+       <genre authority="marc">bibliography</genre>
+       <originInfo>
+           <place>
+               <placeTerm type="code" authority="marccountry">gw</placeTerm>
+           </place>
+           <place>
+               <placeTerm type="text">Leipzig</placeTerm>
+           </place>
+           <publisher>sumptibus et typis B.G. Teubneri</publisher>
+           <dateIssued>1865</dateIssued>
+           <issuance>monographic</issuance>
+       </originInfo>
+       <language objectPart="preface">
+           <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+       </language>
+       <language objectPart="text">
+           <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+       </language>
+       <physicalDescription>
+           <form authority="marcform">print</form>
+           <extent>xx, 66 p. 18 cm</extent>
+       </physicalDescription>
+       <note type="statement of responsibility">Edidit F.G. Schneidewin.</note>
+       <note>Greek text; commentary in Latin.</note>
+       <note>Includes index.</note>
+       <subject authority="lcsh">
+           <topic>Fables, Greek</topic>
+       </subject>
+       <classification authority="lcc">PA3941</classification>
+       <classification authority="ddc">881.4</classification>
+       <relatedItem type="series">
+           <titleInfo>
+               <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
+           </titleInfo>
+       </relatedItem>
+       <relatedItem type="series">
+           <titleInfo>
+               <title>Poetae Graeci</title>
+           </titleInfo>
+           <note>Binders title</note>
+       </relatedItem>
+       <identifier type="oclc">10556796</identifier>
+       <location>
+           <url displayLabel="WorldCat">http://worldcat.org/oclc/10556796</url>
+       </location>
+      <location>
+          <url displayLabel="HathiTrust">https://viaf.org/viaf/37677603/</url>
+      </location>
+       <location>
+           <url displayLabel="GoogleBooks">http://books.google.com/books?id=bdget9W_vQgC</url>
+       </location>
+       <relatedItem type="constituent" otherType="work" displayLabel="Fabulae Aesopeae">
+           <identifier type="ctsurn">urn:cts:greekLit:tlg0614.tlg001</identifier>
+           <relatedItem type="constituent" otherType="expression" displayLabel="Fabulae Aesopeae">
+               <identifier type="ctsurn">urn:cts:greekLit:tlg0614.tlg001.opp-grc1</identifier>
+           </relatedItem>
+       </relatedItem>
+   </mods>
     <mods displayLabel="Fabulae (Genealogiae)-Hyginus-Schmidt-Jena-1872">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Fabulae (Genealogiae) / Fabellae</title>
@@ -37228,7 +37400,7 @@ but this is where the TLG has left off for numbering-->
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n80-60741.html">
+            valueURI="https://viaf.org/viaf/37076698/">
             <namePart>Crawley, Richard</namePart>
             <namePart type="date">1840-1893</namePart>
             <role>
@@ -37595,7 +37767,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" xlink:href="http://errol.oclc.org/laf/n80-60741.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/37076698/">
             <namePart>Crawley, Richard</namePart>
             <namePart type="date">1840-1893</namePart>
             <role>
@@ -43235,7 +43408,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/stream/commentariaina13pt12akaduoft#page/n257/mode/2up</url>
         </location>
-        
+
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=5DYNAAAAYAAJ</url>
         </location>
@@ -43356,7 +43529,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/commentariaina13pt3akaduoft</url>
-        </location>        
+        </location>
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=WVXz4XvXNv8C</url>
         </location>
@@ -43480,7 +43653,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/commentariainari04akaduoft</url>
         </location>
-        
+
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=FTINAAAAYAAJ</url>
         </location>
@@ -43969,7 +44142,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/stream/commentariaina05pt13akaduoft#page/n427/mode/2up</url>
         </location>
-        
+
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=gjINAAAAYAAJ</url>
         </location>
@@ -44092,7 +44265,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/stream/commentariainari23akaduoft#page/n7/mode/2up</url>
         </location>
-        
+
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=CTYNAAAAYAAJ</url>
         </location>
@@ -44705,7 +44878,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/commentariaina01akaduoft</url>
         </location>
-        
+
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=FGhKAAAAYAAJ</url>
         </location>
@@ -44835,7 +45008,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/stream/commentariaina14pt13akaduoft#page/n5/mode/2up</url>
         </location>
-        
+
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=vjgNAAAAYAAJ</url>
         </location>
@@ -44953,7 +45126,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/commentariaina03pt2akaduoft</url>
         </location>
-        
+
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=UzUNAAAAYAAJ</url>
         </location>
@@ -45679,7 +45852,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/pt2commentariain02akaduoft</url>
         </location>
-        
+
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=WjMNAAAAYAAJ</url>
         </location>
@@ -46241,7 +46414,8 @@ but this is where the TLG has left off for numbering-->
             <form authority="marcform">print</form>
             <extent> xii, 245 p.</extent>
         </physicalDescription>
-        <classification authority="lcc">PA3902 A25</classification>        <location>
+        <classification authority="lcc">PA3902 A25</classification>
+        <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/77056092</url>
         </location>
         <location>
@@ -46366,7 +46540,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/stream/commentariaina14pt13akaduoft#page/n543/mode/2up</url>
         </location>
-        
+
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=6TcNAAAAYAAJ</url>
         </location>
@@ -47698,7 +47872,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance">
                 http://www.archive.org/details/proclidiadochiin00procuoft </url>
         </location>
-        
+
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=yq0zUjm5wlwC</url>
         </location>
@@ -48103,7 +48277,7 @@ but this is where the TLG has left off for numbering-->
                         <url displayLabel="Open Content Alliance"
                             >http://www.archive.org/details/institutioorator00quin</url>
                     </location>
-                    
+
                     <location>
                         <url displayLabel="GoogleBooks"
                             >http://books.google.com/books?id=EpdfAAAAMAAJ</url>
@@ -48733,7 +48907,24 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="translated" lang="eng">
             <title>Elements of Roman law</title>
         </titleInfo>
-        <identifier type="lccn">51051281</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/5725215/">
+            <namePart>Gaius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal"
+            xlink:href="http://errol.oclc.org/laf/n85-240991.html">
+            <namePart>Poste, Edward</namePart>
+            <namePart type="date">1823-1902.</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -48755,8 +48946,10 @@ but this is where the TLG has left off for numbering-->
             Poste.</note>
         <classification authority="lcc">KJA882.A3</classification>
         <classification authority="ddc">349.37</classification>
+        <identifier type="lccn">51051281</identifier>
+        <identifier type="oclc">41785935</identifier>
         <location>
-            <url displayLabel="LC Permalink">http://lccn.loc.gov/51051281 </url>
+            <url displayLabel="LC Permalink">http://lccn.loc.gov/51051281</url>
         </location>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/41785935</url>
@@ -48776,24 +48969,6 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="notes">
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n80-120984.html">
-            <namePart>Gaius</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n85-240991.html">
-            <namePart>Poste, Edward</namePart>
-            <namePart type="date">1823-1902.</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-            <role>
-                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Roman law</topic>
         </subject>
@@ -48818,9 +48993,31 @@ but this is where the TLG has left off for numbering-->
             </extent>
         </part>
         <titleInfo>
-            <title>Gai Institutiones ad Codicis Veronensis apographum Studemundianum novis curis
-                auctum in usum scholarum</title>
+            <title>Gai Institutiones</title>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/5725215/">
+            <namePart>Gaius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/12299629/">
+            <namePart>Krueger, Paul</namePart>
+            <namePart type="date">1840-1926</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/12299629/"
+            valueURI="https://viaf.org/viaf/61633566/">
+            <namePart>Studemund, Wilhelm</namePart>
+            <namePart type="date">1843-1889</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -48838,15 +49035,17 @@ but this is where the TLG has left off for numbering-->
             <form authority="marcform">print</form>
             <extent>xxxix, 206 p. : facsim. ; 21 cm.</extent>
         </physicalDescription>
+        <note>ad Codicis Veronensis apographum Studemundianum novis curis
+            auctum in usum scholarum</note>
         <note type="statement of responsibility" altRepGroup="00">ediderunt Paulus Krueger et
             Guilelmus Studemund.</note>
-        <identifier type="oclc">715064074</identifier>
         <relatedItem type="series">
             <titleInfo>
                 <title>Collectio librorvm ivris anteivstiniani in vsvm scholarvm</title>
                 <partNumber>Tomus I</partNumber>
             </titleInfo>
         </relatedItem>
+        <identifier type="oclc">715064074</identifier>
         <classification authority="lcc">KJA882.A34 A4 1884</classification>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/715064074</url>
@@ -48860,29 +49059,6 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n80-120984.html">
-            <namePart>Gaius</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n84-30568.html">
-            <namePart>Krueger, Paul</namePart>
-            <namePart type="date">1840-1926</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="http://id.loc.gov/authorities/names/"
-            valueURI="http://id.loc.gov/authorities/names/n85255437">
-            <namePart>Studemund, Wilhelm</namePart>
-            <namePart type="date">1843-1889</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Roman law</topic>
         </subject>
