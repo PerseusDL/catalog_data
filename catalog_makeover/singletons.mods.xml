@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">    
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <!-- Continue converting author and editor names to linked data format (make
     sure have both authority and valueURI-->
     <!-- Check on displayLabel consistency for placement under URL not location search on <url>
@@ -1184,6 +1184,21 @@
         <titleInfo>
             <title>M. Tulli Ciceronis Academica</title>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/78769600/">
+            <namePart>Cicero, Marcus Tullius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/24689933/">
+            <namePart>Reid, James S.</namePart>
+            <namePart type="date">1846-1926</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -1211,6 +1226,12 @@
         </physicalDescription>
         <note type="statement of responsibility">The text revised and explained by James S.
             Reid.</note>
+        <language objectPart="notes">
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
         <note>Text in Latin, introduction and notes in English</note>
         <note>Reprint. Originally published: London : Macmillan, 1885</note>
         <note>Includes indexes.</note>
@@ -1228,27 +1249,6 @@
         <location>
             <url displayLabel="HathiTrust">https://hdl.handle.net/2027/uc1.31970006321860</url>
         </location>
-        <language objectPart="notes">
-            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-        </language>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/78769600/">
-            <namePart>Cicero, Marcus Tullius</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/24689933/">
-            <namePart>Reid, James S.</namePart>
-            <namePart type="date">1846-1926</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Knowledge, Theory of</topic>
             <topic>Early works to 1800</topic>
@@ -8284,10 +8284,10 @@ but this is where the TLG has left off for numbering-->
         </location>
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=6UlqM4hapNsC</url>
-        </location>        
-         <location>
-             <url displayLabel="HathiTrust">https://hdl.handle.net/2027/hvd.32044085088698</url>
-         </location>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/hvd.32044085088698</url>
+        </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Library">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0548.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Library">
@@ -12650,7 +12650,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Constitution of the Athenians-Aristotle-OCT-1951-Perseus\OPP">
+    <mods displayLabel="Constitution of the Athenians-Aristotle-OCT-1951-OPP\Perseus-Greek">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Constitution of the Athenians</title>
         </titleInfo>
@@ -12682,7 +12682,6 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
-
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -14480,7 +14479,7 @@ but this is where the TLG has left off for numbering-->
                         </detail>
                     </part>
                     <originInfo>
-                       <dateIssued>1914</dateIssued>
+                        <dateIssued>1914</dateIssued>
                     </originInfo>
                     <tableOfContents>The Persian War</tableOfContents>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-2">
@@ -15456,7 +15455,7 @@ but this is where the TLG has left off for numbering-->
         <physicalDescription>
             <digitalOrigin>digitized other analog</digitalOrigin>
             <extent>xxxi, 229 pages ; 23 cm.</extent>
-        </physicalDescription>                
+        </physicalDescription>
         <subject authority="lcsh">
             <topic>Fathers of the church</topic>
         </subject>
@@ -15487,7 +15486,7 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
 
-    <mods displayLabel="De Consolatione Philosophiae-Boethius-O'Donnell-Perseus">
+    <mods displayLabel="De Consolatione Philosophiae-Boethius-O'Donnell-Perseus-Latin">
         <titleInfo xml:lang="lat" type="uniform">
             <title>De consolatione philosophiae</title>
         </titleInfo>
@@ -15513,7 +15512,7 @@ but this is where the TLG has left off for numbering-->
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
-                <placeTerm type="code" authority="marccountry"></placeTerm>
+                <placeTerm type="code" authority="marccountry"/>
             </place>
             <place>
                 <placeTerm type="text">Medford, Massachusetts</placeTerm>
@@ -15637,7 +15636,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <!-- LEFT OFF HERE -->
+
     <mods displayLabel="De Die Natali-Censorinus-Sallmannn-Teubner-1983">
         <titleInfo>
             <title>Censorini de die natali liber ad Q. Caerellium</title>
@@ -15767,7 +15766,6 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
         </language>
-
         <subject authority="lcsh">
             <geographic>Troy (Extinct city)</geographic>
             <genre>Legends</genre>
@@ -15784,7 +15782,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De Finibus Bonorum et Malorum-Cicero-Rackham-Loeb">
+    <mods displayLabel="De Finibus Bonorum et Malorum-Cicero-Rackham-Loeb-1914">
         <titleInfo xml:lang="lat" type="uniform">
             <title>De Finibus Bonorum et Malorum</title>
         </titleInfo>
@@ -15914,7 +15912,24 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated">
             <title>De finibus</title>
         </titleInfo>
-        <identifier type="oclc">6525577</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/78769600/">
+            <namePart>Cicero, Marcus Tullius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/24689933/">
+            <namePart>Reid, James S.</namePart>
+            <namePart type="date">1846-1926</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -15937,30 +15952,19 @@ but this is where the TLG has left off for numbering-->
             Hutchinson.</note>
         <classification authority="lcc">PA6296</classification>
         <classification authority="ddc">875.4</classification>
+        <identifier type="oclc">6525577</identifier>
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/6525577</url>
         </location>
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=SdIIAAAAQAAJ</url>
         </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/inu.32000000647208</url>
+        </location>
         <language>
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/78769600/">
-            <namePart>Cicero, Marcus Tullius</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n87-110275.html">
-            <namePart>Reid, James S.</namePart>
-            <namePart type="date">1846-1926</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Ethics</topic>
             <topic>Early works to 1800</topic>
@@ -15978,7 +15982,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De Finibus Bonorum et Malorum-Cicero-Schiche-Teubner-1915-OPP\Perseus">
+    <mods displayLabel="De Finibus Bonorum et Malorum-Cicero-Schiche-Teubner-1915-OPP\Perseus-Latin">
         <titleInfo xml:lang="lat" type="uniform">
             <title>De Finibus Bonorum et Malorum</title>
         </titleInfo>
@@ -15997,7 +16001,21 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated">
             <title>De Finibus</title>
         </titleInfo>
-        <identifier type="oclc">3215394</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/78769600/">
+            <namePart>Cicero, Marcus Tullius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/17313742/">
+            <namePart>Schiche, Theodor</namePart>
+            <namePart type="date">1869-1924</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -16023,8 +16041,7 @@ but this is where the TLG has left off for numbering-->
         <classification authority="ddc">875.1</classification>
         <relatedItem type="series">
             <titleInfo>
-                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana: [Scriptores
-                    Romani]</title>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
             </titleInfo>
             <titleInfo type="abbreviated">
                 <title>Teubner</title>
@@ -16036,35 +16053,18 @@ but this is where the TLG has left off for numbering-->
                 <partNumber>Fasc. 43</partNumber>
             </titleInfo>
         </relatedItem>
+        <identifier type="oclc">3215394</identifier>
         <location>
-            <url displayLabel="GoogleBooks" note="Snippet View"
-                >http://books.google.com/books?id=XTcbHAAACAAJ</url>
+            <url displayLabel="WorldCat">http://worldcat.org/oclc/3215394</url>
         </location>
+
         <location>
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/p1scriptaquaeman13ciceuoft</url>
         </location>
-        <location>
-            <url displayLabel="WorldCat">http://worldcat.org/oclc/3215394</url>
-        </location>
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/78769600/">
-            <namePart>Cicero, Marcus Tullius</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://viaf.org/processed/LC|no2008055965">
-            <namePart>Schiche, Theodor</namePart>
-            <namePart type="date">1869-1924</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Oratory</topic>
             <topic>Early works to 1800</topic>
@@ -16087,8 +16087,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-
-    <mods displayLabel="De Finibus Bonorum et Malorum-Cicero-Arnold-1909">
+    <mods displayLabel="De Finibus Bonorum et Malorum-Cicero-Hutchinson-Arnold-1909">
         <titleInfo xml:lang="lat" type="uniform">
             <title>De Finibus Bonorum et Malorum</title>
         </titleInfo>
@@ -16103,15 +16102,28 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated">
             <title>De finibus bonorum</title>
         </titleInfo>
-        <identifier type="lccn">31010119</identifier>
-        <identifier type="oclc">13027815</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/78769600/">
+            <namePart>Cicero, Marcus Tullius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/88765745/">
+            <namePart>Hutchinson, W. M. L. (Winifred Margaret Lambart)</namePart>
+            <namePart type="date">1868-</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
-                <placeTerm authority="marccountry" type="code" authorityURI="http://id.loc.gov/vocabulary/countries" valueURI="http://id.loc.gov/vocabulary/countries/enk">enk</placeTerm>
+                <placeTerm authority="marccountry" type="code">enk</placeTerm>
             </place>
             <place>
-                <placeTerm authorityURI="http://dbpedia.org" valueURI="http://dbpedia.org/page/London" type="text">London</placeTerm>
+                <placeTerm type="text">London</placeTerm>
             </place>
             <publisher>Arnold</publisher>
             <dateIssued>1909</dateIssued>
@@ -16124,6 +16136,8 @@ but this is where the TLG has left off for numbering-->
         <note type="statement of responsibility">with introduction and commentary by W.M.L.
             Hutchinson.</note>
         <classification authority="lcc">PA6296 .D2 1909</classification>
+        <identifier type="lccn">31010119</identifier>
+        <identifier type="oclc">13027815</identifier>
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/31010119</url>
         </location>
@@ -16144,21 +16158,6 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/78769600/">
-            <namePart>Cicero, Marcus Tullius</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/88765745/">
-            <namePart>Hutchinson, W. M. L. (Winifred Margaret Lambart)</namePart>
-            <namePart type="date">1868-</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Ethics</topic>
             <topic>Early works to 1800</topic>
@@ -16185,12 +16184,21 @@ but this is where the TLG has left off for numbering-->
             <title>Vibius Sequester De fluminibus, fontibus, lacubus, nemoribus, paludibus,
                 montibus, gentibus quorum apud poetas mentio fit</title>
         </titleInfo>
-        <identifier type="lccn">05006232</identifier>
-        <identifier type="oclc">180003047</identifier>
-        <typeOfResource>text</typeOfResource>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/250888845/">
+            <namePart>Vibius Sequester</namePart>
+            <role>
+                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/46834236/">
+            <namePart>Oberlin, Jer. Jac. (Jeremias Jacob)</namePart>
+            <namePart type="date">1735-1806</namePart>
+            <role>
+                <roleTerm type="text" authority="marcrelator">editor</roleTerm>
+            </role>
+        </name>
         <originInfo>
             <place>
                 <placeTerm type="code" authority="marccountry">ag</placeTerm>
@@ -16211,6 +16219,12 @@ but this is where the TLG has left off for numbering-->
         <note type="bibliography">"Vibii Sequestris manuscripti codices": p. x-xii.</note>
         <note type="bibliography">"Vibii Sequestris editiones": p. xiii-xv.</note>
         <classification authority="lcc">G107 .V62</classification>
+        <identifier type="lccn">05006232</identifier>
+        <identifier type="oclc">180003047</identifier>
+        <typeOfResource>text</typeOfResource>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/05006232</url>
         </location>
@@ -16220,33 +16234,18 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=P0RBAAAAMAAJ</url>
         </location>
-        <language>
-            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
-        </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no2005-60618.html">
-            <namePart>Vibius Sequester</namePart>
-            <role>
-                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n85-254392.html">
-            <namePart>Oberlin, Jer. Jac. (Jeremias Jacob)</namePart>
-            <namePart type="date">1735-1806</namePart>
-            <role>
-                <roleTerm type="text" authority="marcrelator">editor</roleTerm>
-            </role>
-        </name>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/ucm.5325300648</url>
+        </location>
         <subject authority="lcsh">
             <topic>Names, Geographical</topic>
         </subject>
         <subject authority="lcsh">
             <topic>Classical geography</topic>
         </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="De fluminibus etc.">
+        <relatedItem type="constituent" otherType="work" displayLabel="De fluminibus">
             <identifier type="ctsurn">urn:cts:latinLit:stoa0291f.stoa001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="De fluminibus etc.">
+            <relatedItem type="constituent" otherType="expression" displayLabel="De fluminibus">
                 <identifier type="ctsurn">urn:cts:latinLit:stoa0291f.stoa001.opp-lat2</identifier>
             </relatedItem>
         </relatedItem>
@@ -16258,6 +16257,21 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Vibi Seqvestris de flvminibvs etc libellvs</title>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/250888845/">
+            <namePart>Vibius Sequester</namePart>
+            <role>
+                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/57385669/">
+            <namePart>Bursian, Conrad,</namePart>
+            <namePart type="date">1830-1883</namePart>
+            <role>
+                <roleTerm type="text" authority="marcrelator">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -16294,21 +16308,6 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no2005-60618.html">
-            <namePart>Vibius Sequester</namePart>
-            <role>
-                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n84-800031.html">
-            <namePart>Bursian, Conrad,</namePart>
-            <namePart type="date">1830-1883</namePart>
-            <role>
-                <roleTerm type="text" authority="marcrelator">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Names, Geographical</topic>
         </subject>
@@ -16324,79 +16323,8 @@ but this is where the TLG has left off for numbering-->
     </mods>
 
 
-    <mods displayLabel="De Legibus-Cicero-Plinval-Les Belles Lettres-1959-Perseus">
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>De Legibus</title>
-        </titleInfo>
-        <part>
-            <extent unit="words">
-                <total>19027</total>
-            </extent>
-        </part>
-        <titleInfo>
-            <title>De legibus</title>
-        </titleInfo>
-        <identifier type="oclc">264920584</identifier>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/78769600/">
-            <namePart>Cicero, Marcus Tullius</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n81-147344.html">
-            <namePart>Plinval, Georges de.</namePart>
-            <role>
-                <roleTerm type="text" authority="marcrelator">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">fr</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Paris</placeTerm>
-            </place>
-            <publisher>Soc. d'éd. Les Belles Lettres</publisher>
-            <dateIssued>1959</dateIssued>
-            <dateIssued encoding="marc">1959</dateIssued>
-            <copyrightDate encoding="marc">1959</copyrightDate>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language>
-            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
-        </language>
-        <language>
-            <languageTerm type="code" authority="iso639-2b">fre</languageTerm>
-        </language>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>LXXII, 132p ; 20cm.</extent>
-        </physicalDescription>
-        <note type="statement of responsibility">Cicéron ; texte établi et trad. par Georges de
-            Plinval.</note>
-        <subject authority="lcsh">
-            <topic>Law, Ancient</topic>
-        </subject>
-        <classification authority="lcc"/>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/264920584</url>
-        </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="De Legibus">
-            <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi044</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="De Legibus">
-                <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi044.perseus-lat1</identifier>
-                <identifier>Perseus:text:2007.01.0030</identifier>
-                <location>
-                    <url displayLabel="Perseus" note="Latin"
-                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0030</url>
-                </location>
-            </relatedItem>
-        </relatedItem>
-    </mods>
-    <mods displayLabel="De inventione-Cicero-Stroebel-Teubner-1915-Perseus-Latin">
+
+    <mods displayLabel="De Inventione-Cicero-Stroebel-Teubner-1915-Perseus-Latin">
         <titleInfo>
             <title>Rhetorici libri duo qui vocantur de inventione</title>
         </titleInfo>
@@ -16423,7 +16351,6 @@ but this is where the TLG has left off for numbering-->
             </place>
             <publisher>in aedibus B.G. Teubneri</publisher>
             <dateIssued>1915</dateIssued>
-            <edition/>
             <issuance>monographic</issuance>
         </originInfo>
         <relatedItem type="series">
@@ -16434,7 +16361,7 @@ but this is where the TLG has left off for numbering-->
                 <title>Teubner</title>
             </titleInfo>
         </relatedItem>
-        <language objectPart="preface">
+        <language objectPart="text">
             <languageTerm type="code">lat</languageTerm>
         </language>
         <identifier type="oclc">7880780</identifier>
@@ -16451,13 +16378,90 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
+    <mods displayLabel="De Legibus-Cicero-Plinval-Les Belles Lettres-1959-Perseus-Latin">
+        <titleInfo xml:lang="lat" type="uniform">
+            <title>De Legibus</title>
+        </titleInfo>
+        <part>
+            <extent unit="words">
+                <total>19027</total>
+            </extent>
+        </part>
+        <titleInfo>
+            <title>De legibus</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/78769600/">
+            <namePart>Cicero, Marcus Tullius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/176645224/">
+            <namePart>Plinval, Georges de.</namePart>
+            <namePart type="date">1891-1973</namePart>
+            <role>
+                <roleTerm type="text" authority="marcrelator">editor</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">fr</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Paris</placeTerm>
+            </place>
+            <publisher>Soc. d'éd. Les Belles Lettres</publisher>
+            <dateIssued>1959</dateIssued>
+            <dateIssued encoding="marc">1959</dateIssued>
+            <copyrightDate encoding="marc">1959</copyrightDate>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">fre</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>LXXII, 132p ; 20cm.</extent>
+        </physicalDescription>
+        <note type="statement of responsibility">Cicéron ; texte établi et trad. par Georges de
+            Plinval.</note>
+        <subject authority="lcsh">
+            <topic>Law, Ancient</topic>
+        </subject>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Collection des universités de France</title>
+            </titleInfo>
+        </relatedItem>
+        <identifier type="oclc">264920584</identifier>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/264920584</url>
+        </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="De Legibus">
+            <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi044</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="De Legibus">
+                <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi044.perseus-lat1</identifier>
+                <identifier>Perseus:text:2007.01.0030</identifier>
+                <location>
+                    <url displayLabel="Perseus" note="Latin"
+                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0030</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+    </mods>
     <mods displayLabel="De Libro Medicinali-Serenus Sammnonicus-Cimino-Buffalo-1957">
         <titleInfo>
             <title>De libro medicinali Quinti Sereni Sammonici</title>
         </titleInfo>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n84-140345.html">
-            <namePart>Serenus Sammonicus, Quintus.</namePart>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/83157548/">
+            <namePart>Serenus Sammonicus, Quintus</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
@@ -16485,7 +16489,7 @@ but this is where the TLG has left off for numbering-->
             <dateIssued encoding="marc">1957</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
-        <language>
+        <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
         </language>
         <physicalDescription>
@@ -16495,7 +16499,6 @@ but this is where the TLG has left off for numbering-->
         <subject authority="lcsh">
             <topic>Medicine, Greek and Roman</topic>
         </subject>
-        <classification authority="lcc"/>
         <identifier type="oclc">55872695</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/55872695</url>
@@ -16634,6 +16637,21 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>De litteris, de syllabis, de metris</title>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/54284295/">
+            <namePart>Terentianus Maurus</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" authorityURI="https://viaf.org/viaf/" type="personal"
+            valueURI="https://viaf.org/viaf/64025742/">
+            <namePart>Lachmann, Karl,</namePart>
+            <namePart type="date">1793-1851</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <genre authority="marcgt">bibliography</genre>
         <originInfo>
@@ -16652,6 +16670,9 @@ but this is where the TLG has left off for numbering-->
             <form authority="marcform">print</form>
             <extent>XIX, 100 S.</extent>
         </physicalDescription>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
         <note type="statement of responsibility"> rec. Carolus Lachmann.</note>
         <classification authority="lcc">PA6754 .T6 </classification>
         <classification authority="ddc" edition="21">478.2/451</classification>
@@ -16665,24 +16686,6 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/umn.31951002033288g</url>
         </location>
-        <language>
-            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
-        </language>
-        <name authority="viaf" authorityURI="http://id.loc.gov/authorities/names/" type="personal"
-            valueURI="http://id.loc.gov/authorities/names/n94117654">
-            <namePart>Terentianus Maurus</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" authorityURI="http://id.loc.gov/authorities/names/" type="personal"
-            valueURI="http://id.loc.gov/authorities/names/n88618974">
-            <namePart>Lachmann, Karl,</namePart>
-            <namePart type="date">1793-1851</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Latin language</topic>
             <topic>Grammar</topic>
@@ -16709,12 +16712,22 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>De magistratibus populi romani libri tres</title>
         </titleInfo>
-        <titleInfo type="translated" lang="eng">
-            <title>On Powers or the magistracies of the Roman State</title>
-        </titleInfo>
-        <identifier type="lccn">05007419</identifier>
-        <identifier type="oclc">2414294 </identifier>
-        <identifier type="oca">magistratibuspo00lyduuoft</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/109213110/">
+            <namePart>Lydus, Johannes Laurentius</namePart>
+            <namePart type="date">490-ca. 565</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/79129525/">
+            <namePart>Wünsch, Richard</namePart>
+            <namePart type="date">1869-1915</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -16733,13 +16746,20 @@ but this is where the TLG has left off for numbering-->
         </physicalDescription>
         <relatedItem type="series">
             <titleInfo>
-                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana. [Scriptores
-                    Graeci]</title>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
             </titleInfo>
         </relatedItem>
         <classification authority="lcc">PA3404 .J4</classification>
+        <identifier type="lccn">05007419</identifier>
+        <identifier type="oclc">2414294</identifier>
+        <language objectPart="preface">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
         <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/2414294 </url>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/2414294</url>
         </location>
         <location>
             <url displayLabel="Open Content Alliance">
@@ -16751,24 +16771,6 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015028371477</url>
         </location>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n82-246814.html">
-            <namePart>Lydus, Johannes Laurentius</namePart>
-            <namePart type="date">490-ca. 565</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" xlink:href="">
-            <namePart>Wünsch, Richard</namePart>
-            <namePart type="date">1869-1915</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <relatedItem type="constituent" otherType="work"
             displayLabel="De magistratibus populi romani">
             <identifier type="ctsurn">urn:cts:greekLit:tlg2580.tlg001</identifier>
@@ -16779,12 +16781,14 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
     <mods
-        displayLabel="De magnitudinibus et distantiis solis-Aristachus of Samos-Heath-Clarendon-1913">
+        displayLabel="De Magnitudinibus et distantiis solis-Aristachus of Samos-Heath-Clarendon-1913">
         <titleInfo>
             <title>Aristarchus of Samos, the ancient Copernicus</title>
-            <subTitle>a history of Greek astronomy to Aristarchus, together with Aristarchus's Treatise, on the sizes and distances of the sun and moon</subTitle>
+            <subTitle>a history of Greek astronomy to Aristarchus, together with Aristarchus's Treatise,
+                on the sizes and distances of the sun and moon</subTitle>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/79398695/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/79398695/">
             <namePart>Aristarchus,</namePart>
             <namePart type="termsOfAddress">of Samos</namePart>
             <role>
@@ -16850,6 +16854,9 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/aristarchusofsam00heatuoft</url>
         </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/mdp.39015066436174</url>
+        </location>
         <relatedItem type="constituent" otherType="work"
             displayLabel="De magnitudinibus et distantiis solis et lunae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg1181.tlg001</identifier>
@@ -16863,13 +16870,28 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De medicamentis liber-Marcellus Empiricus-Helmreich-Teubner-1899">
+    <mods displayLabel="De Medicamentis liber-Marcellus Empiricus-Helmreich-Teubner-1899">
         <titleInfo xml:lang="lat" type="uniform">
             <title>De medicamentis liber</title>
         </titleInfo>
-        <identifier type="lccn">34038209</identifier>
-        <identifier type="oclc">5089383</identifier>
-        <identifier type="oca">demedicamentisli00marcuoft</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/196567001/">
+            <namePart>Marcellus, Empiricus</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/24690098/">
+            <namePart>Helmreich, Georg</namePart>
+            <namePart type="date">1849-1921</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <subject authority="lcsh">
+            <topic>Medicine, Greek and Roman.</topic>
+        </subject>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -16882,6 +16904,9 @@ but this is where the TLG has left off for numbering-->
             <dateIssued>1889</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
         <physicalDescription>
             <form authority="marcform">print</form>
             <extent>v, [1], 414 p., 1 l. 18 cm.</extent>
@@ -16895,11 +16920,13 @@ but this is where the TLG has left off for numbering-->
             </titleInfo>
         </relatedItem>
         <classification authority="lcc">PA6104 .M25</classification>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015029761254</url>
-        </location>
+        <identifier type="lccn">34038209</identifier>
+        <identifier type="oclc">5089383</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/5089383</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015029761254</url>
         </location>
         <location>
             <url displayLabel="Open Content Alliance">
@@ -16908,27 +16935,6 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=MC0IAAAAIAAJ</url>
         </location>
-        <language>
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n83-218012.html">
-            <namePart>Marcellus, Empiricus.</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n83-218013.html">
-            <namePart>Helmreich, Georg</namePart>
-            <namePart type="date">1849-1921</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <subject authority="lcsh">
-            <topic>Medicine, Greek and Roman.</topic>
-        </subject>
         <relatedItem type="constituent" otherType="work" displayLabel="De medicamentis liber">
             <identifier type="ctsurn">urn:cts:latinLit:stoa0190a.stoa001</identifier>
             <relatedItem type="constituent" otherType="expression"
@@ -16937,15 +16943,28 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De medicamentis liber-Marcellus Empiricus-Niedermann-Teubner-1906">
+    <mods displayLabel="De Medicamentis liber-Marcellus Empiricus-Niedermann-Teubner-1906">
         <titleInfo xml:lang="lat" type="uniform">
             <title>De medicamentis liber</title>
         </titleInfo>
         <titleInfo>
             <title>Marcelli De medicamentis liber</title>
         </titleInfo>
-        <identifier type="lccn">36014221</identifier>
-        <identifier type="oclc">15371498</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/196567001/">
+            <namePart>Marcellus, Empiricus</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/51739156">
+            <namePart>Niedermann, Max</namePart>
+            <namePart type="date">1874-1954</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -16984,6 +17003,11 @@ but this is where the TLG has left off for numbering-->
                 <title>Teubner</title>
             </titleInfo>
         </relatedItem>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
+        <identifier type="lccn">36014221</identifier>
+        <identifier type="oclc">15371498</identifier>        
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/36014221</url>
         </location>
@@ -16993,24 +17017,6 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/coo.31924008982831</url>
         </location>
-        <language objectPart="text">
-            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
-        </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n83-218012.html">
-            <namePart>Marcellus, Empiricus.</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="http://id.loc.gov/authorities/names/"
-            valueURI="http://id.loc.gov/authorities/names/n50003407">
-            <namePart>Niedermann, Max</namePart>
-            <namePart type="date">1874-1954</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Medicine, Greek and Roman</topic>
         </subject>
@@ -17025,16 +17031,28 @@ but this is where the TLG has left off for numbering-->
 
     <mods displayLabel="De medicina-Cassius Felix-Rose-Teubner-1879">
         <titleInfo xml:lang="lat" type="uniform">
-            <title>De medicina</title>
+            <title>De Medicina</title>
         </titleInfo>
         <titleInfo>
             <title>Cassii Felicis De medicina</title>
             <subTitle>ex graecis logicae sectae auctoribus liber, translatus sub Artabure et Calepio
                 consulibus (anno 447)</subTitle>
         </titleInfo>
-        <identifier type="lccn">34013834</identifier>
-        <identifier type="oclc">5001971</identifier>
-        <identifier type="oca">demedicinaexgrae00cassuoft</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/71367291/">
+            <namePart>Cassius Felix</namePart>
+            <namePart type="date">fl. 447</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/64095849/">
+            <namePart>Rose, Valentin</namePart>
+            <namePart type="date">1829-1916</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -17055,15 +17073,23 @@ but this is where the TLG has left off for numbering-->
         <classification authority="lcc">PA6104 .C25 1879</classification>
         <relatedItem type="series">
             <titleInfo>
-                <title>Bibliotheca scriptorum graecourm et romanorum Teubneriana. [S.r.]</title>
+                <title>Bibliotheca scriptorum graecourm et romanorum Teubneriana</title>
             </titleInfo>
         </relatedItem>
+        <language>
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <subject authority="lcsh">
+            <topic>Medicine, Greek and Roman</topic>
+        </subject>
+        <identifier type="lccn">34013834</identifier>
+        <identifier type="oclc">5001971</identifier>        
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/5001971</url>
         </location>
         <location>
             <url displayLabel="Open Content Alliance"
-                >http://www.archive.org/details/demedicinaexgrae00cassuoft </url>
+                >http://www.archive.org/details/demedicinaexgrae00cassuoft</url>
         </location>
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=jDoEAAAAMAAJ</url>
@@ -17071,28 +17097,6 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015030397031</url>
         </location>
-        <language>
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no2002-62176.html">
-            <namePart>Cassius Felix</namePart>
-            <namePart type="date">fl. 447</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/64095849/">
-            <namePart>Rose, Valentin</namePart>
-            <namePart type="date">1829-1916</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <subject authority="lcsh">
-            <topic>Medicine, Greek and Roman</topic>
-        </subject>
         <relatedItem type="constituent" otherType="work" displayLabel="De medicina">
             <identifier type="ctsurn">urn:cts:latinLit:stoa0077a.stoa001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="De medicina">
@@ -17100,8 +17104,8 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-
-    <mods displayLabel="De Medicina-Celsus-Loeb-Spencer-Perseus Latin 1-English 1\OPP">
+<!-- LEFT OFF HERE -->
+    <mods displayLabel="De Medicina-Celsus-Loeb-Spencer-OPP\Perseus Latin 1-English 1\OPP">
         <titleInfo xml:lang="lat" type="uniform">
             <title>De Medicina</title>
         </titleInfo>
@@ -17120,8 +17124,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n96-800107.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/50963575/">
             <namePart>Spencer, Walter George</namePart>
             <namePart type="date">1858-1940</namePart>
             <role>
@@ -17143,10 +17147,10 @@ but this is where the TLG has left off for numbering-->
                 <placeTerm type="text">London</placeTerm>
             </place>
             <publisher>Harvard University</publisher>
-            <publisher>W. Heinemann ltd.</publisher>
+            <publisher>W. Heinemann Ltd.</publisher>
             <edition>Reprint</edition>
             <dateModified>1971</dateModified>
-            <dateIssued>1935</dateIssued>
+            <dateIssued>1935-1938</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
         <language objectPart="text">
@@ -17157,12 +17161,12 @@ but this is where the TLG has left off for numbering-->
         </language>
         <physicalDescription>
             <form authority="marcform">print</form>
-            <extent/>
+            <extent>3 volumes</extent>
         </physicalDescription>
         <note type="statement of responsibility">Celsus ; with an English translation by W.G.
             Spencer.</note>
         <note>Latin text, parallel English translation.</note>
-        <note>First printed 1935-1938. </note>
+        <note>First printed 1935-1938.</note>
         <note>Includes bibliography and indexes.</note>
         <subject authority="lcsh">
             <topic>Medicine, Greek and Roman</topic>
@@ -29858,90 +29862,90 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-   <mods displayLabel="Fabulae Aesopae-Babrius-Schneidewin-Teubner-1865">
-       <titleInfo>
-           <title>Babrii Fabulae Aesopeae</title>
-       </titleInfo>
-       <titleInfo type="uniform">
-           <title>Fabulae Aesopeae</title>
-       </titleInfo>
-       <titleInfo type="alternative">
-           <title>Mythiambi Aesopici</title>
-       </titleInfo>
-       <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-           valueURI="https://viaf.org/viaf/19646296/">
-           <namePart>Babrius</namePart>
-           <role>
-               <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-           </role>
-       </name>
-       <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-           valueURI="https://viaf.org/viaf/37677603/">
-           <namePart>Schneidewin, Friedrich Wilhelm</namePart>
-           <namePart type="date">1810-1856</namePart>
-           <role>
-               <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-           </role>
-       </name>
-       <typeOfResource>text</typeOfResource>
-       <genre authority="marc">bibliography</genre>
-       <originInfo>
-           <place>
-               <placeTerm type="code" authority="marccountry">gw</placeTerm>
-           </place>
-           <place>
-               <placeTerm type="text">Leipzig</placeTerm>
-           </place>
-           <publisher>sumptibus et typis B.G. Teubneri</publisher>
-           <dateIssued>1865</dateIssued>
-           <issuance>monographic</issuance>
-       </originInfo>
-       <language objectPart="preface">
-           <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-       </language>
-       <language objectPart="text">
-           <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-       </language>
-       <physicalDescription>
-           <form authority="marcform">print</form>
-           <extent>xx, 66 p. 18 cm</extent>
-       </physicalDescription>
-       <note type="statement of responsibility">Edidit F.G. Schneidewin.</note>
-       <note>Greek text; commentary in Latin.</note>
-       <note>Includes index.</note>
-       <subject authority="lcsh">
-           <topic>Fables, Greek</topic>
-       </subject>
-       <classification authority="lcc">PA3941</classification>
-       <classification authority="ddc">881.4</classification>
-       <relatedItem type="series">
-           <titleInfo>
-               <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
-           </titleInfo>
-       </relatedItem>
-       <relatedItem type="series">
-           <titleInfo>
-               <title>Poetae Graeci</title>
-           </titleInfo>
-           <note>Binders title</note>
-       </relatedItem>
-       <identifier type="oclc">10556796</identifier>
-       <location>
-           <url displayLabel="WorldCat">http://worldcat.org/oclc/10556796</url>
-       </location>
-      <location>
-          <url displayLabel="HathiTrust">https://viaf.org/viaf/37677603/</url>
-      </location>
-       <location>
-           <url displayLabel="GoogleBooks">http://books.google.com/books?id=bdget9W_vQgC</url>
-       </location>
-       <relatedItem type="constituent" otherType="work" displayLabel="Fabulae Aesopeae">
-           <identifier type="ctsurn">urn:cts:greekLit:tlg0614.tlg001</identifier>
-           <relatedItem type="constituent" otherType="expression" displayLabel="Fabulae Aesopeae">
-               <identifier type="ctsurn">urn:cts:greekLit:tlg0614.tlg001.opp-grc1</identifier>
-           </relatedItem>
-       </relatedItem>
-   </mods>
+    <mods displayLabel="Fabulae Aesopae-Babrius-Schneidewin-Teubner-1865">
+        <titleInfo>
+            <title>Babrii Fabulae Aesopeae</title>
+        </titleInfo>
+        <titleInfo type="uniform">
+            <title>Fabulae Aesopeae</title>
+        </titleInfo>
+        <titleInfo type="alternative">
+            <title>Mythiambi Aesopici</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/19646296/">
+            <namePart>Babrius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/37677603/">
+            <namePart>Schneidewin, Friedrich Wilhelm</namePart>
+            <namePart type="date">1810-1856</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <genre authority="marc">bibliography</genre>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Leipzig</placeTerm>
+            </place>
+            <publisher>sumptibus et typis B.G. Teubneri</publisher>
+            <dateIssued>1865</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language objectPart="preface">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>xx, 66 p. 18 cm</extent>
+        </physicalDescription>
+        <note type="statement of responsibility">Edidit F.G. Schneidewin.</note>
+        <note>Greek text; commentary in Latin.</note>
+        <note>Includes index.</note>
+        <subject authority="lcsh">
+            <topic>Fables, Greek</topic>
+        </subject>
+        <classification authority="lcc">PA3941</classification>
+        <classification authority="ddc">881.4</classification>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
+            </titleInfo>
+        </relatedItem>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Poetae Graeci</title>
+            </titleInfo>
+            <note>Binders title</note>
+        </relatedItem>
+        <identifier type="oclc">10556796</identifier>
+        <location>
+            <url displayLabel="WorldCat">http://worldcat.org/oclc/10556796</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">https://viaf.org/viaf/37677603/</url>
+        </location>
+        <location>
+            <url displayLabel="GoogleBooks">http://books.google.com/books?id=bdget9W_vQgC</url>
+        </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="Fabulae Aesopeae">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0614.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Fabulae Aesopeae">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0614.tlg001.opp-grc1</identifier>
+            </relatedItem>
+        </relatedItem>
+    </mods>
     <mods displayLabel="Fabulae (Genealogiae)-Hyginus-Schmidt-Jena-1872">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Fabulae (Genealogiae) / Fabellae</title>
