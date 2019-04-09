@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">    
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">    
     <!-- Continue converting author and editor names to linked data format (make
     sure have both authority and valueURI-->
     <!-- Check on displayLabel consistency for placement under URL not location search on <url>
@@ -14393,8 +14393,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De Bellis-Procopius-Dewing-Loeb-Perseus\OPP">
-        <!-- LEFT OFF HERE -->
+    <mods displayLabel="De Bellis-Procopius-Dewing-Loeb-OPP\Perseus-Greek">
         <titleInfo>
             <title>De Bellis</title>
         </titleInfo>
@@ -14480,6 +14479,9 @@ but this is where the TLG has left off for numbering-->
                             <number>1</number>
                         </detail>
                     </part>
+                    <originInfo>
+                       <dateIssued>1914</dateIssued>
+                    </originInfo>
                     <tableOfContents>The Persian War</tableOfContents>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-2">
                         <part>
@@ -14500,6 +14502,9 @@ but this is where the TLG has left off for numbering-->
                             <number>2</number>
                         </detail>
                     </part>
+                    <originInfo>
+                        <dateIssued>1916</dateIssued>
+                    </originInfo>
                     <tableOfContents>The Vandalic Wars</tableOfContents>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 3-4">
                         <part>
@@ -14535,6 +14540,9 @@ but this is where the TLG has left off for numbering-->
                             <number>4</number>
                         </detail>
                     </part>
+                    <originInfo>
+                        <dateIssued>1924</dateIssued>
+                    </originInfo>
                     <tableOfContents>The Gothic Wars</tableOfContents>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 6-7">
                         <part>
@@ -14555,6 +14563,9 @@ but this is where the TLG has left off for numbering-->
                             <number>5</number>
                         </detail>
                     </part>
+                    <originInfo>
+                        <dateIssued>1925</dateIssued>
+                    </originInfo>
                     <tableOfContents>The Gothics Wars</tableOfContents>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 7-8">
                         <part>
@@ -14583,8 +14594,8 @@ but this is where the TLG has left off for numbering-->
             </extent>
         </part>
         <titleInfo>
-            <title>L. Annaeus Seneca On Benefits:</title>
-            <subTitle> addressed to Aebutius Liberalis</subTitle>
+            <title>L. Annaeus Seneca On Benefits</title>
+            <subTitle>addressed to Aebutius Liberalis</subTitle>
         </titleInfo>
         <titleInfo type="translated" lang="eng">
             <title>On Benefits</title>
@@ -14696,7 +14707,6 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm type="text" authority="marcrelator">editor</roleTerm>
             </role>
         </name>
-
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -14901,12 +14911,12 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/nr97-26642.html">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/101098475">
             <namePart>Frick, Karl</namePart>
-            <namePart type="date">b. 1848</namePart>
+            <namePart type="date">1856-1931</namePart>
             <role>
-                <roleTerm type="text" authority="marcrelator">editor</roleTerm>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
         <identifier type="lccn">34038212</identifier>
@@ -14923,6 +14933,11 @@ but this is where the TLG has left off for numbering-->
             <dateIssued>1880</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
+            </titleInfo>
+        </relatedItem>
         <physicalDescription>
             <form authority="marcform">print</form>
             <extent>xi, [1], 108 p. 18 cm.</extent>
@@ -14999,7 +15014,6 @@ but this is where the TLG has left off for numbering-->
                 <title>Bibliotheca scriptorum graecorum et romanorum Teubneriana</title>
             </titleInfo>
         </relatedItem>
-
         <subject authority="lcsh">
             <topic>Kingdom of God</topic>
             <topic>Early works to 1800</topic>
@@ -15274,7 +15288,7 @@ but this is where the TLG has left off for numbering-->
             <extent>xiii, 358 p. 23 cm.</extent>
         </physicalDescription>
         <note type="statement of responsibility">being the Greek text of the De compositione
-            verborvm edited with introduction, translation, notes, glossary, and appendices by W.
+            verborum edited with introduction, translation, notes, glossary, and appendices by W.
             Rhys Roberts.</note>
         <subject authority="lcsh">
             <topic>Rhetoric</topic>
@@ -15442,9 +15456,7 @@ but this is where the TLG has left off for numbering-->
         <physicalDescription>
             <digitalOrigin>digitized other analog</digitalOrigin>
             <extent>xxxi, 229 pages ; 23 cm.</extent>
-        </physicalDescription>
-        <note type="statement of responsibility"/>
-        <note/>
+        </physicalDescription>                
         <subject authority="lcsh">
             <topic>Fathers of the church</topic>
         </subject>
@@ -15499,25 +15511,21 @@ but this is where the TLG has left off for numbering-->
             </role>
         </name>
         <typeOfResource>text</typeOfResource>
-        <genre authority="marc">bibliography</genre>
         <originInfo>
             <place>
-                <placeTerm type="code" authority="marccountry"/>
+                <placeTerm type="code" authority="marccountry"></placeTerm>
             </place>
             <place>
-                <placeTerm type="text"/>
+                <placeTerm type="text">Medford, Massachusetts</placeTerm>
             </place>
-            <publisher/>
+            <publisher>Perseus Digital Library, Tufts University</publisher>
             <dateIssued/>
-            <dateIssued encoding="marc"/>
-            <issuance>monographic</issuance>
         </originInfo>
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
         <physicalDescription>
             <form authority="marcform">electronic</form>
-            <extent/>
         </physicalDescription>
         <note type="statement of responsibility">Boethius ; [edited by] James J. O'Donnell.</note>
         <subject authority="lcsh">
@@ -15543,7 +15551,6 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="De consolatione philosophiae">
                 <identifier type="ctsurn">urn:cts:latinLit:stoa0058.stoa001.perseus-lat1</identifier>
-                <identifier type="Perseus:abo">Perseus:abo:ltan,00001</identifier>
                 <identifier>Perseus:text:1999.02.0121</identifier>
                 <location>
                     <url displayLabel="Perseus"
@@ -15557,7 +15564,7 @@ but this is where the TLG has left off for numbering-->
             <title>De consolatione philosophiae</title>
         </titleInfo>
         <titleInfo>
-            <title>Anicii Manlii Severini Boethii De consolatione philosphiae libri v</title>
+            <title>Anicii Manlii Severini Boethii De consolatione philosophiae libri v</title>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/100218964/">
@@ -15603,6 +15610,9 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/3678655</url>
         </location>
         <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/hvd.32044085185247</url>
+        </location>
+        <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=TM3oYlrGUHIC</url>
         </location>
         <language>
@@ -15627,6 +15637,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
+    <!-- LEFT OFF HERE -->
     <mods displayLabel="De Die Natali-Censorinus-Sallmannn-Teubner-1983">
         <titleInfo>
             <title>Censorini de die natali liber ad Q. Caerellium</title>
