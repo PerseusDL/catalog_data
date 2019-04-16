@@ -19149,7 +19149,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-<!-- LEFT OFF HERE -->
+
 
     <mods displayLabel="De Opificio mundi-Philoponus-Recihardt-Teubner-1897">
         <titleInfo xml:lang="lat" type="uniform">
@@ -19163,6 +19163,22 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>De opificio mundi libri VII</title>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/1276154329449426970002/">
+            <namePart>Philoponus, John</namePart>
+            <namePart type="date">6th cent</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/71901071/">
+            <namePart>Reichardt, Walther</namePart>
+            <namePart type="date">b. 1869</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -19190,6 +19206,12 @@ but this is where the TLG has left off for numbering-->
                 <title>Teubner</title>
             </titleInfo>
         </relatedItem>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <language objectPart="preface">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
         <relatedItem type="series">
             <titleInfo>
                 <title>Scriptores Sacri Et Profani</title>
@@ -19201,31 +19223,15 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/13705755</url>
         </location>
         <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/nnc1.0038484277</url>
+        </location>
+        <location>
             <url displayLabel="Open Content Alliance">
                 http://www.archive.org/details/joannisphiliponi00philuoft</url>
         </location>
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=X6UNAAAAIAAJ</url>
         </location>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/1276154329449426970002/">
-            <namePart>Philoponus, John</namePart>
-            <namePart type="date">6th cent</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no00-80297.html">
-            <namePart>Reichardt, Walther</namePart>
-            <namePart type="date">b. 1869</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Creation</topic>
             <topic>Early works to 1800</topic>
@@ -19261,6 +19267,24 @@ but this is where the TLG has left off for numbering-->
             <nonSort>The</nonSort>
             <title>three dialogues of M. T. Cicero on the orator</title>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/78769600/">
+            <namePart>Cicero, Marcus Tullius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100194070/">
+            <namePart>Guthrie, William</namePart>
+            <namePart type="date">1708-1770</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -19300,25 +19324,7 @@ but this is where the TLG has left off for numbering-->
         </location>
         <language>
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-        </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/78769600/">
-            <namePart>Cicero, Marcus Tullius</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n50-17530.html">
-            <namePart>Guthrie, William</namePart>
-            <namePart type="date">1708-1770</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-            <role>
-                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-            </role>
-        </name>
+        </language>       
         <subject authority="lcsh">
             <topic>Oratory</topic>
             <topic>Early works to 1800</topic>
@@ -19342,6 +19348,21 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Aristotelis De partibus animalium libri quattuor</title>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/7524651/">
+            <namePart>Aristotle</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/88942163/">
+            <namePart>Langkavel, Bernhard August</namePart>
+            <namePart type="date">1825-1902</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -19358,6 +19379,12 @@ but this is where the TLG has left off for numbering-->
             <form authority="marcform">print</form>
             <extent>lxviii, 261, [1] p. 17 cm.</extent>
         </physicalDescription>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <language objectPart="preface">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
         <note type="statement of responsibility">ex recognitione Bernhardi Langkavel.</note>
         <classification authority="lcc">PA3404.A8 D5 1868</classification>
         <relatedItem type="series">
@@ -19374,11 +19401,11 @@ but this is where the TLG has left off for numbering-->
         <identifier type="lccn">34010809</identifier>
         <identifier type="oclc">5197511</identifier>
         <location>
-            <url displayLabel="WorldCat">http://worldcat.org/oclc/5197511 </url>
+            <url displayLabel="WorldCat">http://worldcat.org/oclc/5197511</url>
         </location>
         <location>
             <url displayLabel="Open Content Alliance"
-                >http://www.archive.org/details/aristotelisdepar01arisuoft </url>
+                >http://www.archive.org/details/aristotelisdepar01arisuoft</url>
         </location>
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=yf8HAAAAIAAJ</url>
@@ -19386,24 +19413,8 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="HathiTrust">https://hdl.handle.net/2027/hvd.hw42mp</url>
         </location>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/7524651/">
-            <namePart>Aristotle</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/nr96-29830.html">
-            <namePart>Langkavel, Bernhard August</namePart>
-            <namePart type="date">1825-1902</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
+        
+      
         <subject authority="lcsh">
             <topic>Zoology</topic>
             <topic>Pre-Linnean works</topic>
@@ -19416,18 +19427,12 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De Passionibus-Andronicus-Winter-1883">
+    <mods displayLabel="De Passionibus-Pseudo Andronicus-Winter-Schuchhardt-1883">
         <titleInfo>
             <title>Andronici Rhodii qui fertur libelli Peri pathōn. Pars altera, De virtutibus et
                 vitiis</title>
         </titleInfo>
-        <titleInfo type="alternative">
-            <title>De virtutibus et vitiis</title>
-        </titleInfo>
-        <titleInfo type="alternative">
-            <title>Peri pathōn</title>
-        </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/53362166">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/53362166">
             <namePart>Schuchardt, Karl</namePart>
             <namePart type="date">1859-1943</namePart>
             <role>
@@ -19491,7 +19496,13 @@ but this is where the TLG has left off for numbering-->
                 <titleInfo>
                     <title>De passionibus (lib. 2)</title>
                 </titleInfo>
-                <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/11266492">
+                <titleInfo type="alternative">
+                    <title>De virtutibus et vitiis</title>
+                </titleInfo>
+                <titleInfo type="alternative">
+                    <title>Peri pathōn</title>
+                </titleInfo>
+                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"  valueURI="http://viaf.org/viaf/11266492">
                     <namePart>Andronicus</namePart>
                     <namePart type="termsOfAddress">of Rhodes</namePart>
                     <role>
@@ -19511,14 +19522,14 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De Passionibus (lib 2).-Pseudo Andronicus-1884">
+    <mods displayLabel="De Passionibus (lib 2).-Pseudo Andronicus-Kreuttner-Winter- 1884">
         <titleInfo>
             <title>Andronici qui fertur libelli Peri pathōn, pars prior</title>
         </titleInfo>
         <titleInfo type="alternative">
             <title>Peri pathōn</title>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/280777448">
+        <name authority="viaf" type="personal"  authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/280777448">
             <namePart>Kreuttner, Xaverus</namePart>
             <role>
                 <roleTerm type="text">editor</roleTerm>
@@ -19572,7 +19583,7 @@ but this is where the TLG has left off for numbering-->
                 <titleInfo>
                     <title>De passionibus (lib. 1)</title>
                 </titleInfo>
-                <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/11266492">
+                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/11266492">
                     <namePart>Andronicus</namePart>
                     <namePart type="termsOfAddress">of Rhodes</namePart>
                     <role>
@@ -19601,7 +19612,7 @@ but this is where the TLG has left off for numbering-->
             <title>Markellinos Pulslehre</title>
             <subTitle>ein griechisches Anekdoton</subTitle>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/398999/">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/398999/">
             <namePart>Marcellinus</namePart>
             <namePart type="termsOfAddress">Medicus</namePart>
             <namePart type="date">2. Jh. 2. Jh.</namePart>
@@ -19609,7 +19620,7 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/34566762/">
+        <name authority="viaf" type="personal"  authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/34566762/">
             <namePart>Schöne, Hermann,</namePart>
             <namePart type="termsOfAddress">1870-1941</namePart>
             <role>
@@ -19661,7 +19672,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De Re Coquinaria-Winter-Apicius-1874-2nd edition">
+    <mods displayLabel="De Re Coquinaria-Schuch-Winter-Apicius-1874-2nd edition">
         <titleInfo xml:lang="lat" type="uniform">
             <title>De Re Coquinaria</title>
         </titleInfo>
@@ -19673,6 +19684,21 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>De re coquinaria libri decem</title>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/191439325/">
+            <namePart>Apicius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            xlink:href="http://viaf.org/viaf/59853483/">
+            <namePart>Schuch, Christian Theophil</namePart>
+            <namePart type="date">1803-1857</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -19711,6 +19737,30 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
+  
+        <subject authority="lcsh">
+            <topic>Cookery, Roman</topic>
+            <topic>Early works to 1800</topic>
+        </subject>
+        <relatedItem type="constituent" otherType="work" displayLabel="De Re Coquinaria">
+            <identifier type="ctsurn">urn:cts:latinLit:phi2003.phi001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="De Re Coquinaria">
+                <identifier type="ctsurn">urn:cts:latinLit:phi2003.phi001.opp-lat1</identifier>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods displayLabel="De Re Coquinaria-Apicius-Schuch-Apicius-1867-1st edition">
+        <titleInfo xml:lang="lat" type="uniform">
+            <title>De Re Coquinaria</title>
+        </titleInfo>        
+        <part>
+            <extent unit="words">
+                <total>16008</total>
+            </extent>
+        </part>
+        <titleInfo>
+            <title>De re coquinaria libri decem</title>
+        </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/191439325/">
             <namePart>Apicius</namePart>
@@ -19726,30 +19776,6 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
-        <subject authority="lcsh">
-            <topic>Cookery, Roman</topic>
-            <topic>Early works to 1800</topic>
-        </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="De Re Coquinaria">
-            <identifier type="ctsurn">urn:cts:latinLit:phi2003.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="De Re Coquinaria">
-                <identifier type="ctsurn">urn:cts:latinLit:phi2003.phi001.opp-lat1</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
-    <mods displayLabel="De Re Coquinaria-Winter-Apicius-1867-1st edition">
-        <titleInfo xml:lang="lat" type="uniform">
-            <title>De Re Coquinaria</title>
-        </titleInfo>
-        <part>
-            <extent unit="words">
-                <total>16008</total>
-            </extent>
-        </part>
-        <titleInfo>
-            <title>De re coquinaria libri decem</title>
-        </titleInfo>
-        <identifier type="oclc">257580462</identifier>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -19770,9 +19796,7 @@ but this is where the TLG has left off for numbering-->
             <extent>xxvi, 202 pg.</extent>
         </physicalDescription>
         <classification authority="lcc">PA6104</classification>
-        <location>
-            <url displayLabel="LC Permalink"/>
-        </location>
+        <identifier type="oclc">257580462</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/257580462</url>
         </location>
@@ -19783,24 +19807,12 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=BBU9AAAAcAAJ</url>
         </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/umn.31951002282639a</url>
+        </location>
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/191439325/">
-            <namePart>Apicius</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://viaf.org/viaf/59853483/">
-            <namePart>Schuch, Christian Theophil</namePart>
-            <namePart type="date">1803-1857</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Cookery, Roman</topic>
             <topic>Early works to 1800</topic>
@@ -19830,8 +19842,7 @@ but this is where the TLG has left off for numbering-->
         </titleInfo>
         <titleInfo type="abbreviated">
             <title>De republica</title>
-        </titleInfo>
-        <identifier type="oclc">36139365</identifier>
+        </titleInfo>        
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -19865,7 +19876,7 @@ but this is where the TLG has left off for numbering-->
                 <partNumber>Fasc. 39</partNumber>
             </titleInfo>
         </relatedItem>
-        <classification authority="lcc"/>
+        <identifier type="oclc">36139365</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/36139365 </url>
         </location>
@@ -19922,8 +19933,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/nr92-17292.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/312546068/">
             <namePart>Mueller, C. F. W. (Carl Friedrich Wilhelm)</namePart>
             <namePart type="date">1830-1903</namePart>
             <role>
@@ -19974,11 +19985,25 @@ but this is where the TLG has left off for numbering-->
             <extent unit="words">
                 <total>49116</total>
             </extent>
-        </part>
+        </part>        
         <titleInfo>
             <title>De rerum natura</title>
-        </titleInfo>
-        <identifier type="oclc">11264109</identifier>
+        </titleInfo>       
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/106388020/">
+            <namePart>Lucretius Carus, Titus</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/59143179/">
+            <namePart>Bailey, Cyril</namePart>
+            <namePart type="date">1871-1957</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -20001,6 +20026,7 @@ but this is where the TLG has left off for numbering-->
             instruxit Cyrillus Bailey.</note>
         <classification authority="lcc">PA6482</classification>
         <classification authority="ddc">871.1</classification>
+        <identifier type="oclc">11264109</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/11264109</url>
         </location>
@@ -20021,21 +20047,6 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="https://viaf.org/viaf/106388020/">
-            <namePart>Lucretius Carus, Titus</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n86-819660.html">
-            <namePart>Bailey, Cyril</namePart>
-            <namePart type="date">1871-1957</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <relatedItem type="constituent" otherType="work" displayLabel="De Rerum Natura">
             <identifier type="ctsurn">urn:cts:latinLit:phi0550.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="De Rerum Natura">
@@ -20056,14 +20067,14 @@ but this is where the TLG has left off for numbering-->
             <title>De rerum natura libri sex</title>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="https://viaf.org/viaf/106388020/">
+            valueURI="https://viaf.org/viaf/106388020/">
             <namePart>Lucretius Carus, Titus</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n88-618974.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/64025742/">
             <namePart>Lachmann, Karl</namePart>
             <namePart type="date">1793-1851</namePart>
             <role>
@@ -20129,19 +20140,21 @@ but this is where the TLG has left off for numbering-->
         </titleInfo>
         <titleInfo type="translated" lang="eng">
             <title>On the Nature of Things</title>
-        </titleInfo>
-        <identifier type="oclc">83010210</identifier>
+        </titleInfo>        
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="https://viaf.org/viaf/106388020/">
+            valueURI="https://viaf.org/viaf/106388020/">
             <namePart>Lucretius Carus, Titus</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n88-244906.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/32383381/">
             <namePart>Leonard, William Ellery,</namePart>
             <namePart type="date">1876-1944</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
             <role>
                 <roleTerm authority="marcrelator" type="text">translator</roleTerm>
             </role>
@@ -20167,15 +20180,19 @@ but this is where the TLG has left off for numbering-->
         </physicalDescription>
         <classification authority="lcc">PA6482</classification>
         <classification authority="ddc">871.1</classification>
+        <identifier type="oclc">83010210</identifier>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/83010210</url>
+        </location>
         <location>
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/ofnatureofthings00lucrrich</url>
         </location>
         <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/83010210</url>
+            <url displayLabel="GoogleBooks">http://books.google.com/books?id=CXJ1AAAAIAAJ</url>
         </location>
         <location>
-            <url displayLabel="GoogleBooks">http://books.google.com/books?id=CXJ1AAAAIAAJ</url>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/ien.35556023717101</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="De Rerum Natura">
             <identifier type="ctsurn">urn:cts:latinLit:phi0550.phi001</identifier>
@@ -20203,7 +20220,7 @@ but this is where the TLG has left off for numbering-->
             <title>De rerum natura</title>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="https://viaf.org/viaf/106388020/">
+            valueURI="https://viaf.org/viaf/106388020/">
             <namePart>Lucretius Carus, Titus</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -20229,13 +20246,7 @@ but this is where the TLG has left off for numbering-->
             <extent/>
         </physicalDescription>
         <classification authority="lcc">PA6482</classification>
-        <classification authority="ddc">871.1</classification>
-        <location>
-            <url displayLabel="WorldCat"/>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks" note="SnippetView"/>
-        </location>
+        <classification authority="ddc">871.1</classification>         
         <relatedItem type="constituent" otherType="work" displayLabel="De Rerum Natura">
             <identifier type="ctsurn">urn:cts:latinLit:phi0550.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="De Rerum Natura">
@@ -20256,13 +20267,14 @@ but this is where the TLG has left off for numbering-->
             <title>De rerum natura</title>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="https://viaf.org/viaf/106388020/">
+            valueURI="https://viaf.org/viaf/106388020/">
             <namePart>Lucretius Carus, Titus</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/103244">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" 
+            valueURI="http://viaf.org/viaf/103244">
             <namePart>Martin, Josef</namePart>
             <namePart type="date">1884-1973</namePart>
             <role>
@@ -20322,15 +20334,14 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="uniform" nameTitleGroup="1">
             <title>De rerum natura</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" usage="primary"
-            nameTitleGroup="1" valueURI="http://viaf.org/viaf/106388020">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/106388020">
             <namePart>Lucretius Carus, Titus</namePart>
             <namePart type="date">97-55</namePart>
             <role>
                 <roleTerm type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/103244">
+        <name authority="viaf" type="personal"  authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/103244">
             <namePart>Martin, Josef</namePart>
             <namePart type="date">1884-1973</namePart>
             <role>
@@ -20358,8 +20369,7 @@ but this is where the TLG has left off for numbering-->
         </physicalDescription>
         <classification authority="lcc">PA6104 .L8 1934</classification>
         <identifier type="lccn">35000176</identifier>
-        <identifier type="oclc">889992732</identifier>
-        <identifier type="ctsurn">urn:cts:latinLit:phi0550.phi001.opp-lat4</identifier>
+        <identifier type="oclc">889992732</identifier>        
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/889992732</url>
         </location>
@@ -20390,8 +20400,21 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Cato maior de senectute</title>
         </titleInfo>
-        <identifier type="oclc">29191874</identifier>
-        <identifier type="isbn">0892413484</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/78769600/">
+            <namePart>Cicero, Marcus Tullius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/37839620/">
+            <namePart>Shuckburgh, Evelyn S. (Evelyn Shirley)</namePart>
+            <namePart type="date">1843-1906</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <genre authority="marc">bibliography</genre>
         <originInfo>
@@ -20407,6 +20430,9 @@ but this is where the TLG has left off for numbering-->
             <edition>1992 reprint with some slight corrections of 1886 edition</edition>
             <issuance>monographic</issuance>
         </originInfo>
+        <language>
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
         <physicalDescription>
             <form authority="marcform">print</form>
             <extent>xxxvi, 226 p. : ill. ; 19 cm</extent>
@@ -20419,6 +20445,8 @@ but this is where the TLG has left off for numbering-->
                 <title>College classical series</title>
             </titleInfo>
         </relatedItem>
+        <identifier type="oclc">29191874</identifier>
+        <identifier type="isbn">0892413484</identifier>        
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/29191874</url>
         </location>
@@ -20429,25 +20457,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="Open Content Alliance" note="1886 original edition"
                 >http://www.archive.org/details/catomaiordialogu00ciceuoft</url>
-        </location>
-        <language>
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/78769600/">
-            <namePart>Cicero, Marcus Tullius</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n86-24515.html">
-            <namePart>Shuckburgh, Evelyn S. (Evelyn Shirley)</namePart>
-            <namePart type="date">1843-1906</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
+        </location>        
         <subject authority="lcsh">
             <topic>Old age</topic>
             <topic>Early works to 1800</topic>
@@ -20471,10 +20481,21 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Cato maior de senectute</title>
         </titleInfo>
-        <titleInfo type="translated" lang="eng">
-            <title>On Old Age</title>
-        </titleInfo>
-        <identifier type="oclc">66462130</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/78769600/">
+            <namePart>Cicero, Marcus Tullius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            xlink:href="http://errol.oclc.org/laf/n79-95476.html">
+            <namePart>Huxley, Leonard</namePart>
+            <namePart type="date">1860-1933</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -20500,31 +20521,17 @@ but this is where the TLG has left off for numbering-->
         <note type="statement of responsbility">Edited, with notes by Leonard Huxley</note>
         <classification authority="lcc">PA6279.A4</classification>
         <classification authority="ddc">878</classification>
+        <identifier type="oclc">66462130</identifier>
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/66462130</url>
-        </location>
+        </location>        
         <location>
-            <url displayLabel="GoogleBooks" note="Snippet View"
-                >http://books.google.com/books?id=NXg8GwAACAAJ</url>
+            <url displayLabel="HathiTrust" note="1923 printing">
+                https://hdl.handle.net/2027/inu.30000084068265</url>
         </location>
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/78769600/">
-            <namePart>Cicero, Marcus Tullius</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-95476.html">
-            <namePart>Huxley, Leonard</namePart>
-            <namePart type="date">1860-1933</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Old Age</topic>
             <topic>Early Works to 1800</topic>
@@ -20537,7 +20544,7 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
     <mods displayLabel="De Senectute-Cicero-Bolchazy-1922">
-        <titleInfo xml:lang="eng" type="uniform">
+        <titleInfo xml:lang="lat" type="uniform">
             <title>De Senectute</title>
         </titleInfo>
         <part>
@@ -20552,8 +20559,21 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Cato maior de Senectute</title>
         </titleInfo>
-        <identifier type="oclc">32506656</identifier>
-        <identifier type="isbn">0862922062</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/78769600/">
+            <namePart>Cicero, Marcus Tullius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/7422355/">
+            <namePart>Bennett, Charles Edward</namePart>
+            <namePart type="date">1858-1921</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -20583,6 +20603,8 @@ but this is where the TLG has left off for numbering-->
             Cicero).</note>
         <classification authority="lcc">PA6279.A4 </classification>
         <classification authority="ddc">878</classification>
+        <identifier type="oclc">32506656</identifier>
+        <identifier type="isbn">0862922062</identifier>        
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/32506656</url>
         </location>
@@ -20593,21 +20615,6 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/78769600/">
-            <namePart>Cicero, Marcus Tullius</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n87-136132.html">
-            <namePart>Bennett, Charles Edward</namePart>
-            <namePart type="date">1858-1921</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Old Age</topic>
             <topic>Early Works to 1800</topic>
@@ -20629,15 +20636,15 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative" authority="tlg">
             <title>De signis Iliadis</title>
         </titleInfo>
-        <name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/"
-            valueURI="http://id.loc.gov/authorities/names/no2009115331">
+        <name authority="viaf" type="personal"  authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/291060928/">
             <namePart>Aristonicus,</namePart>
             <namePart type="termsOfAddress">of Alexandria</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/217780625">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/217780625">
             <namePart>Friedländer, Ludwig, </namePart>
             <namePart type="date">1824-1909</namePart>
             <role>
@@ -20682,10 +20689,10 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015013418721</url>
         </location>
         <relatedItem type="constituent" otherType="work"
-            displayLabel="Aristonici Περὶ σημείων Ἰλιάδος reliquiae emendatiores.">
+            displayLabel="Aristonici Περὶ σημείων Ἰλιάδος reliquiae emendatiores">
             <identifier type="ctsurn">urn:cts:greekLit:tlg1194.tlg002</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="Aristonici Περὶ σημείων Ἰλιάδος reliquiae emendatiores.">
+                displayLabel="Aristonici Περὶ σημείων Ἰλιάδος reliquiae emendatiores">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg1194.tlg002.opp-grc1</identifier>
             </relatedItem>
         </relatedItem>
@@ -20697,15 +20704,16 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative" authority="tlg">
             <title>De signis Odysseae</title>
         </titleInfo>
-        <name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/"
-            valueURI="http://id.loc.gov/authorities/names/no2009115331">
+        <name authority="viaf" type="personal"  authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/291060928/">
             <namePart>Aristonicus,</namePart>
             <namePart type="termsOfAddress">of Alexandria</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/6139566">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/6139566">
             <namePart>Carnuth, Otto</namePart>
             <namePart type="date">1843-1899</namePart>
             <role>
@@ -20826,6 +20834,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
+    <!-- LEFT OFF HERE  -->
     <mods displayLabel="De Sublimitate-Longinus-Roberts-Cambridge-1907-OPP\Perseus">
         <titleInfo lang="lat" type="uniform">
             <title>De Sublimitate</title>
@@ -20839,6 +20848,30 @@ but this is where the TLG has left off for numbering-->
             <title>Longinus</title>
             <subTitle>On the sublime</subTitle>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/281851250/">
+            <namePart>Longinus,</namePart>
+            <namePart type="date">1st cent</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/64081997/">
+            <namePart>Roberts, W. Rhys (William Rhys)</namePart>
+            <namePart type="date">1858-1929</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/68961134/">
+            <namePart>Way, Arthur Sandars</namePart>
+            <namePart type="date">1847-1930</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -20881,31 +20914,7 @@ but this is where the TLG has left off for numbering-->
         </language>
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
-        </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/281851250/">
-            <namePart>Longinus,</namePart>
-            <namePart type="date">1st cent</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/64081997/">
-            <namePart>Roberts, W. Rhys (William Rhys)</namePart>
-            <namePart type="date">1858-1929</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n81-12085.html">
-            <namePart>Way, Arthur Sandars</namePart>
-            <namePart type="date">1847-1930</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-            </role>
-        </name>
+        </language>      
         <subject authority="lcsh">
             <topic>Sublime, The</topic>
             <genre>Early works to 1800</genre>
