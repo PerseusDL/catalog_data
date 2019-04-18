@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <!-- Continue converting author and editor names to linked data format (make
     sure have both authority and valueURI-->
     <!-- Check on displayLabel consistency for placement under URL not location search on <url>
@@ -23188,7 +23188,6 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-
     <mods displayLabel="Digest of Justinian-Justinian-Cambridge-1904">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Digest of Justinian</title>
@@ -23218,8 +23217,7 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no2003-106320.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/16921662/">
             <namePart>Monro, C. H. (Charles Henry)</namePart>
             <namePart type="date">1835-1908</namePart>
             <role>
@@ -23407,6 +23405,9 @@ but this is where the TLG has left off for numbering-->
                             <caption>Volume 1</caption>
                         </detail>
                     </part>
+                    <originInfo>
+                        <dateIssued>1940</dateIssued>
+                    </originInfo>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-15">
                         <part>
                             <detail type="book">
@@ -23427,6 +23428,9 @@ but this is where the TLG has left off for numbering-->
                             <caption>Volume 2</caption>
                         </detail>
                     </part>
+                    <originInfo>
+                        <dateIssued>1940</dateIssued>
+                    </originInfo>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 16-35">
                         <part>
                             <detail type="book">
@@ -23447,6 +23451,9 @@ but this is where the TLG has left off for numbering-->
                             <caption>Volume 3</caption>
                         </detail>
                     </part>
+                    <originInfo>
+                        <dateIssued>1942</dateIssued>
+                    </originInfo>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 36-48">
                         <part>
                             <detail type="book">
@@ -23481,8 +23488,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="http://id.loc.gov/authorities/names/"
-            valueURI="http://id.loc.gov/authorities/names/n89644876">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/25375774/">
             <namePart>Ludwich, Arthur</namePart>
             <namePart type="date">1840-1920</namePart>
             <role>
@@ -23497,7 +23504,7 @@ but this is where the TLG has left off for numbering-->
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
             <publisher>in aedibus B. G. Teubneri</publisher>
-            <dateIssued>1909</dateIssued>
+            <dateIssued>1909-1911</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
         <physicalDescription>
@@ -23517,7 +23524,6 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm type="code">grc</languageTerm>
         </language>
-
         <typeOfResource>text</typeOfResource>
         <identifier type="lccn">10007549</identifier>
         <identifier type="oclc">4585981</identifier>
@@ -23541,6 +23547,9 @@ but this is where the TLG has left off for numbering-->
                             <caption>Volumen Prius</caption>
                         </detail>
                     </part>
+                    <originInfo>
+                        <dateIssued>1909</dateIssued>
+                    </originInfo>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-25">
                         <part>
                             <detail type="book">
@@ -23561,6 +23570,9 @@ but this is where the TLG has left off for numbering-->
                             <caption>Volumen Alterum</caption>
                         </detail>
                     </part>
+                    <originInfo>
+                        <dateIssued>1911</dateIssued>
+                    </originInfo>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 25-48">
                         <part>
                             <detail type="book">
@@ -23578,7 +23590,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-
+<!-- LEFT OFF HERE -->
     <mods displayLabel="Dionysii Ixeuticon seu de aucupio-Dionysius Pereigetes-Garzya-Teubner-1963">
         <titleInfo>
             <title>Dionysii Ixeuticon seu de aucupio</title>
