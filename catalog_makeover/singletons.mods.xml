@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <!-- Continue converting author and editor names to linked data format (make
     sure have both authority and valueURI-->
     <!-- Check on displayLabel consistency for placement under URL not location search on <url>
@@ -889,8 +889,8 @@
                             <number>4</number>
                         </detail>
                     </part>
-                    <name authority="viaf" type="personal"
-                        xlink:href="http://errol.oclc.org/laf/n50-32107.html">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/24678152/">
                         <namePart>Conway, Robert Seymour</namePart>
                         <namePart type="date">1864-1933</namePart>
                         <role>
@@ -2182,8 +2182,8 @@
         </relatedItem>
     </mods>
     <mods displayLabel="Aetna-Teubner-Sudhaus-1898">
-        <titleInfo authority="naf" xlink:href="http://errol.oclc.org/laf/n90-704191.html"
-            xml:lang="lat" type="uniform">
+        <titleInfo authority="viaf" xml:lang="lat" type="uniform"
+            authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/214824791/">
             <title>Aetna</title>
         </titleInfo>
         <part>
@@ -2468,15 +2468,16 @@
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://errol.oclc.org/laf/no94-42848.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/29663813/">
             <namePart>Anderson, J. G. C. (John George Clark)</namePart>
             <namePart type="date">1870-1952</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">editor of revised version</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n88-628835%20.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/2601415/">
             <namePart>Haverfield, F. (Francis)</namePart>
             <namePart type="date">1860-1919</namePart>
             <role>
@@ -2939,15 +2940,15 @@
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n80-8547.html">
+            valueURI="https://viaf.org/viaf/111167713/">
             <namePart>Comnena, Anna</namePart>
-            <namePart type="date">b. 1083.</namePart>
+            <namePart type="date">1083- ca. 1153</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no96-43486.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/66457783/">
             <namePart>Reifferscheid, August</namePart>
             <namePart type="date">1835-1887</namePart>
             <role>
@@ -3020,15 +3021,16 @@
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no00-10470.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/218794913/">
             <namePart>Heraclitus</namePart>
             <namePart type="date">1st cent</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/778411">
             <namePart>Mehler, E. (Eugen)</namePart>
             <namePart type="date">1826-1896</namePart>
             <role>
@@ -3145,7 +3147,7 @@
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n78-88956.html">
+            valueURI="https://viaf.org/viaf/32000005/">
             <namePart>Marlowe, Christopher</namePart>
             <namePart type="date">1564-1593</namePart>
             <role>
@@ -3334,8 +3336,8 @@
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/nr91-34426.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/56989777/">
             <namePart>Clark, Thomas</namePart>
             <namePart type="date">1787-1860</namePart>
             <role>
@@ -3418,15 +3420,15 @@
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no98-84898.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/66090699/">
             <namePart>Mather, Maurice W. (Maurice Wittemore)</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/">
+            valueURI="https://viaf.org/viaf/94395603/">
             <namePart>Hewitt, Joseph William</namePart>
             <namePart type="date">1875-1938</namePart>
             <role>
@@ -3769,8 +3771,8 @@
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n83-15407.html">
-            <namePart>Anacreon.</namePart>
+            valueURI="https://viaf.org/viaf/100165204/">
+            <namePart>Anacreon</namePart>
             <role>
                 <roleTerm type="text">attributed author</roleTerm>
             </role>
@@ -4297,8 +4299,8 @@
                             <roleTerm authority="marcrelator" type="text">reviser</roleTerm>
                         </role>
                     </name>
-                    <name authority="viaf" type="personal"
-                        xlink:href="http://errol.oclc.org/laf/nr96-34250.html">
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/17598004/">
                         <namePart>Fisher, C.D. (Charles Dennis)</namePart>
                         <namePart type="date">d. 1916</namePart>
                         <role>
@@ -8680,22 +8682,26 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/6908129</url>
         </location>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n50-28820.html">
+            valueURI="https://viaf.org/viaf/56608763/">
             <namePart>Diodorus</namePart>
             <namePart type="termsOfAddress">Siculus</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n80-135532.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/113365272/">
             <namePart>Walton, Francis R.</namePart>
+            <namePart type="date">1910-</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
             <role>
                 <roleTerm authority="marcrelator" type="text">translator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/nr93-37718.html             ">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/19555446/">
             <namePart>Geer, Russel M.</namePart>
             <role>
                 <roleTerm type="text">indexer</roleTerm>
@@ -11911,8 +11917,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n82-154676.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/71482170/">
             <namePart>Viereck, Paul</namePart>
             <namePart type="date">1865-1944</namePart>
             <role>
@@ -12245,7 +12251,7 @@ but this is where the TLG has left off for numbering-->
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n86-55752.html">
+            valueURI="https://viaf.org/viaf/42600176/">
             <namePart>Meiser, Karl</namePart>
             <namePart type="date">1843-1912</namePart>
             <role>
@@ -19905,8 +19911,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no92-13402.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/24666772/">
             <namePart>Ziegler, Konrat</namePart>
             <namePart type="date">1884-1974</namePart>
             <role>
@@ -20499,7 +20505,7 @@ but this is where the TLG has left off for numbering-->
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-95476.html">
+            valueURI="https://viaf.org/viaf/61925547/">
             <namePart>Huxley, Leonard</namePart>
             <namePart type="date">1860-1933</namePart>
             <role>
@@ -23180,7 +23186,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="Worldcat">http://worldcat.org/oclc/2416204</url>
         </location>
- 
+
         <relatedItem type="constituent" otherType="work" displayLabel="Dialogus">
             <identifier type="ctsurn">urn:cts:latinLit:phi1351.phi003</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Dialogus">
@@ -23191,7 +23197,7 @@ but this is where the TLG has left off for numbering-->
     <mods displayLabel="Digest of Justinian-Justinian-Cambridge-1904">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Digest of Justinian</title>
-        </titleInfo>        
+        </titleInfo>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -23217,7 +23223,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/16921662/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/16921662/">
             <namePart>Monro, C. H. (Charles Henry)</namePart>
             <namePart type="date">1835-1908</namePart>
             <role>
@@ -23590,7 +23597,6 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-<!-- LEFT OFF HERE -->
     <mods displayLabel="Dionysii Ixeuticon seu de aucupio-Dionysius Pereigetes-Garzya-Teubner-1963">
         <titleInfo>
             <title>Dionysii Ixeuticon seu de aucupio</title>
@@ -23602,15 +23608,16 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>De aucupio</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" usage="primary"
-            nameTitleGroup="1" valueURI="http://viaf.org/viaf/100902699">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/100902699">
             <namePart>Dionysius</namePart>
             <namePart type="termsOfAddress">Periegetes</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/27081575">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/27081575">
             <namePart>Garzya, Antonio</namePart>
             <namePart type="date">1927-2012</namePart>
             <role>
@@ -23683,6 +23690,22 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Maximi Tyrii Philosophumena</title>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100903442/">
+            <namePart>Maximus,</namePart>
+            <namePart type="termsOfAddress">of Tyre,</namePart>
+            <namePart type="date">active 2nd century</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/171805024">
+            <namePart>Hobein, Hermann</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -23693,7 +23716,6 @@ but this is where the TLG has left off for numbering-->
             </place>
             <publisher>in aedibus B. G. Teubneri</publisher>
             <dateIssued>1910</dateIssued>
-            <edition/>
             <issuance>monographic</issuance>
         </originInfo>
         <physicalDescription>
@@ -23715,21 +23737,6 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
-        <name authority="viaf" authorityURI="http://id.loc.gov/authorities/names/" type="personal"
-            valueURI="http://id.loc.gov/authorities/names/n85143899">
-            <namePart>Maximus,</namePart>
-            <namePart type="termsOfAddress">of Tyre,</namePart>
-            <namePart type="date">active 2nd century</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/171805024">
-            <namePart>Hobein, Hermann</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Philosophy, Ancient</topic>
         </subject>
@@ -23744,12 +23751,12 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Diversarum hereson-Philastrius-Gerold-Marx-1898">
+    <mods displayLabel="Diversarum hereseon-Philastrius-Gerold-Marx-1898">
         <titleInfo>
             <title>Diversarum hereseon liber</title>
         </titleInfo>
-        <name authority="viaf" authorityURI="http://id.loc.gov/authorities/names/" type="personal"
-            valueURI="http://id.loc.gov/authorities/names/nr96043976">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/784145858106523022189/">
             <namePart>Philastrius,</namePart>
             <namePart type="termsOfAddress">Saint, Bishop of Brescia, </namePart>
             <namePart type="date">active 383-391</namePart>
@@ -23872,7 +23879,6 @@ but this is where the TLG has left off for numbering-->
         <classification authority="lcc">PA6700</classification>
         <classification authority="ddc">870</classification>
         <identifier type="oclc">1197574</identifier>
-
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/1197574</url>
         </location>
@@ -23913,7 +23919,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/54062804">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/54062804">
             <namePart>Jacques, Jean Marie</namePart>
             <namePart type="date">1924-2008</namePart>
             <role>
@@ -23935,6 +23942,9 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">fre</languageTerm>
+        </language>
         <physicalDescription>
             <form authority="marcform">print</form>
             <extent>59 pages; 20 cm</extent>
@@ -23947,6 +23957,7 @@ but this is where the TLG has left off for numbering-->
                 <title>Collection des universités de France</title>
             </titleInfo>
         </relatedItem>
+        <note>Digitized text contains Greek text only</note>
         <identifier type="oclc">961492</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/961492</url>
@@ -23977,7 +23988,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/108251909">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/108251909">
             <namePart>Jones-Lloyd, Hugh</namePart>
             <namePart type="date">1922-2009</namePart>
             <role>
@@ -24022,9 +24034,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id416933327</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Menandri Dyscolus">
+        <relatedItem type="constituent" otherType="work" displayLabel="Dyscolus">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0541.tlg007</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Menandri Dyscolus">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Dyscolus">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0541.tlg007.opp-grc3</identifier>
             </relatedItem>
         </relatedItem>
@@ -24039,8 +24051,8 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Ecloga chronographica</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" usage="primary"
-            nameTitleGroup="1" valueURI="http://viaf.org/viaf/39386582">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/39386582">
             <namePart>Geōrgios</namePart>
             <namePart type="termsOfAddress">Synkellos</namePart>
             <namePart type="date">active 800</namePart>
@@ -24048,7 +24060,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/32009386">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/32009386">
             <namePart>Mosshammer, Alden Adams</namePart>
             <namePart type="date">1941-</namePart>
             <role>
@@ -24070,7 +24083,10 @@ but this is where the TLG has left off for numbering-->
             <issuance>monographic</issuance>
         </originInfo>
         <language objectPart="text">
-            <languageTerm type="code" authority="iso639-2b">gre</languageTerm>
+            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+        </language>
+        <language objectPart="preface">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
         </language>
         <physicalDescription>
             <form authority="marcform">print</form>
@@ -24094,11 +24110,10 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/882974462</url>
         </location>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Georgii Syncelli Ecloga chronographica">
+        <relatedItem type="constituent" otherType="work" displayLabel="Ecloga chronographica">
             <identifier type="ctsurn">urn:cts:greekLit:tlg3045.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="Georgii Syncelli Ecloga chronographica">
+                displayLabel="Ecloga chronographica">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg3045.tlg001.opp-gre1</identifier>
             </relatedItem>
         </relatedItem>
@@ -24128,7 +24143,7 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression" displayLabel="Eclogues">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0690.phi001.perseus-eng1</identifier>
                 <identifier>Perseus:text:1999.02.0057</identifier>
-                <location xmlns="http://www.loc.gov/mods/v3">
+                <location>
                     <url displayLabel="Perseus" note="English"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0057</url>
                 </location>
@@ -24148,7 +24163,21 @@ but this is where the TLG has left off for numbering-->
             <nonSort>The</nonSort>
             <title>Electra of Euripides</title>
         </titleInfo>
-        <identifier type="oclc">48428138</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/265326651">
+            <namePart>Euripides</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/69007721/">
+            <namePart>Murray, Gilbert</namePart>
+            <namePart type="date">1866-1957</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -24167,10 +24196,14 @@ but this is where the TLG has left off for numbering-->
             <form authority="marcform">print</form>
             <extent>101 p. 19 cm.</extent>
         </physicalDescription>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        </language>
         <note type="statement of responsibility">tr. into English rhyming verse, with explanatory
             notes, by Gilbert Murray.</note>
         <note>"First published in 1905 ... Twenty-first impression 1958."</note>
         <classification authority="lcc">PA3975.E5</classification>
+        <identifier type="oclc">48428138</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/48428138 </url>
         </location>
@@ -24182,24 +24215,9 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/electratranslate00euriuoft</url>
         </location>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-        </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/265326651">
-            <namePart>Euripides</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n79-43229.html">
-            <namePart>Murray, Gilbert</namePart>
-            <namePart type="date">1866-1957</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-            </role>
-        </name>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/pst.000026425252</url>
+        </location>
         <subject authority="lcsh">
             <topic>Electra (Greek mythology)</topic>
             <topic>Drama</topic>
@@ -24320,6 +24338,12 @@ but this is where the TLG has left off for numbering-->
             <edition>Reprint</edition>
             <issuance>monographic</issuance>
         </originInfo>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
         <physicalDescription>
             <form authority="marcform">print</form>
             <extent>xvi, 362 [1] p. 17 cm.</extent>
@@ -24351,12 +24375,9 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/propertiuswithen00propuoft</url>
         </location>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-        </language>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/uc1.aa0016309106</url>
+        </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Elegies">
             <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Elegies">
@@ -24367,7 +24388,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-
+    <!-- LEFT OFF HERE -->
     <mods displayLabel="Elegies-Propertius-Gantillon-Bell-1895">
         <!-- THIS RECORD NEEDS TO BE FIXED-THREE ENGLISH TRANSLATION IN HERE-
         ONLY PROSE ONE BY GANTILLON IS COMPLETE-->
@@ -25264,8 +25285,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n88-618974.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/64025742/">
             <namePart>Lachmann, Karl</namePart>
             <namePart type="date">1793-1851</namePart>
             <role>
@@ -25467,7 +25488,7 @@ but this is where the TLG has left off for numbering-->
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n80-64270.html">
+            valueURI="https://viaf.org/viaf/7457202/">
             <namePart>Heath, Thomas Little</namePart>
             <namePart type="termsOfAddress">Sir</namePart>
             <namePart type="date">1861-1940</namePart>
@@ -25611,9 +25632,21 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Dictys Cretensis Ephemeridos belli troiani libri sex</title>
         </titleInfo>
-        <identifier type="oclc">5056380 </identifier>
-        <identifier type="oca">dictyscretensise00dictuoft</identifier>
-        <identifier displayLabel="isTranslationOf" type="tlg">1310.001 </identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/58124868/">
+            <namePart>Dictys Cretensis</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            xlink:href="http://viaf.org/processed/DNB|116870834">
+            <namePart>Meister, Ferdinand Otto</namePart>
+            <namePart type="date">1828-1915</namePart>
+            <role>
+                <roleTerm type="text" authority="marcrelator">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -25631,12 +25664,14 @@ but this is where the TLG has left off for numbering-->
             <extent>xiv, 154 pg.</extent>
         </physicalDescription>
         <classification authority="lcc">PA6104 .D5 1872</classification>
+        <identifier type="oclc">5056380</identifier>
+        <identifier displayLabel="isTranslationOf" type="tlg">1310.001 </identifier>
         <location>
-            <url displayLabel="WorldCat">http://worldcat.org/oclc/5056380 </url>
+            <url displayLabel="WorldCat">http://worldcat.org/oclc/5056380</url>
         </location>
         <location>
             <url displayLabel="Open Content Alliance"
-                >http://www.archive.org/details/dictyscretensise00dictuoft </url>
+                >http://www.archive.org/details/dictyscretensise00dictuoft</url>
         </location>
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=YNcIAAAAQAAJ</url>
@@ -25647,21 +25682,7 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n87-114665.html">
-            <namePart>Dictys Cretensis.</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://viaf.org/processed/DNB|116870834">
-            <namePart>Meister, Ferdinand Otto</namePart>
-            <namePart type="date">1828-1915</namePart>
-            <role>
-                <roleTerm type="text" authority="marcrelator">editor</roleTerm>
-            </role>
-        </name>
+
         <subject authority="lcsh">
             <geographic>Troy (Extinct city)</geographic>
             <topic>Legends</topic>
@@ -25797,7 +25818,7 @@ but this is where the TLG has left off for numbering-->
             <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
         </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n86-92955.html">
+            valueURI="https://viaf.org/viaf/12440139/">
             <namePart>Metrodorus,</namePart>
             <namePart type="termsOfAddress">of Lampsacus</namePart>
             <namePart type="date">331 or 330-278 or 7 B.C</namePart>
@@ -25806,7 +25827,7 @@ but this is where the TLG has left off for numbering-->
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n86-92953.html">
+            valueURI="https://viaf.org/viaf/49353715/">
             <namePart>Körte, Alfred</namePart>
             <namePart type="date">1866-1946</namePart>
             <role>
@@ -26253,15 +26274,16 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="uniform">
             <title>Epistulae</title>
         </titleInfo>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n85-017784.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/263123344/">
             <namePart>Alciphron</namePart>
             <namePart type="termsOfAddress">the Sophist</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/305119803">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/305119803">
             <namePart>Plankl, Wilhelm</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
@@ -26366,8 +26388,8 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n85-017784.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/263123344/">
             <namePart>Alciphron</namePart>
             <namePart type="termsOfAddress">the Sophist</namePart>
             <role>
@@ -26395,8 +26417,8 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Alciphronis rhetoris Epistularum libri IV</title>
         </titleInfo>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n85-017784.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/263123344/">
             <namePart>Alciphron</namePart>
             <namePart type="termsOfAddress">the Sophist</namePart>
             <role>
@@ -26471,15 +26493,16 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Epistulae. Selections.</title>
         </titleInfo>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n80-126290.html ">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/66806872/">
             <namePart>Augustine</namePart>
             <namePart type="termsOfAddress">Saint, Bishop of Hippo</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/109923739">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/109923739">
             <namePart>Baxter, James Houston</namePart>
             <namePart type="date">1894-1973</namePart>
             <role>
@@ -27892,8 +27915,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n85-222674.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/91630865/">
             <namePart>Gummere, Richard M. (Richard Mott)</namePart>
             <namePart type="date">1883-</namePart>
             <role>
@@ -28102,8 +28125,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n86-847149.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/79393284/">
             <namePart>Summers, Walter C. (Walter Coventry)</namePart>
             <namePart type="date">1869-</namePart>
             <role>
@@ -28191,8 +28214,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no2001-83223.html             ">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/110935337/">
             <namePart>Hense, Otto</namePart>
             <namePart type="date">1845-1931</namePart>
             <role>
@@ -28460,14 +28483,14 @@ but this is where the TLG has left off for numbering-->
             <title>Lettres théologiques</title>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n50-82276.html">
+            valueURI="https://viaf.org/viaf/46897094/">
             <namePart>Gregory,</namePart>
             <namePart type="termsOfAddress">of Nazianzenus, Saint</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name type="personal" authorityURI="https://viaf.org/viaf/" authority="naf"
+        <name authority="voaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/19677688">
             <namePart>Gallay, Paul</namePart>
             <namePart type="date">1906-2001</namePart>
@@ -28727,21 +28750,21 @@ but this is where the TLG has left off for numbering-->
             <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
         </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n82-43687.html">
-            <namePart>Justinus, Marcus Junianus.</namePart>
+            valueURI="https://viaf.org/viaf/24616821/">
+            <namePart>Justinus, Marcus Junianus</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n82-43686.html">
+            valueURI="https://viaf.org/viaf/54940886/">
             <namePart>Trogus, Pompeius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">original author</roleTerm>
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://d-nb.info/gnd/117093734">
+            valueURI="https://viaf.org/viaf/3239497/">
             <namePart>Jeep, Justus Wilhelm Linde</namePart>
             <namePart type="date">1779-1884</namePart>
             <role>
@@ -29139,7 +29162,7 @@ but this is where the TLG has left off for numbering-->
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n2002-102662.html">
+            valueURI="https://viaf.org/viaf/284656229/">
             <namePart>Eudemus</namePart>
             <namePart type="termsOfAddress">of Rhodes</namePart>
             <role>
@@ -29147,7 +29170,7 @@ but this is where the TLG has left off for numbering-->
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n86-90317.html">
+            valueURI="https://viaf.org/viaf/27847187/">
             <namePart>Susemihl, Franz</namePart>
             <namePart type="date">1826-1901</namePart>
             <role>
@@ -29556,7 +29579,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">translator</roleTerm>
             </role>
         </name>
-        <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/n50-51100.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/51703197/">
             <namePart>Smart, Christopher</namePart>
             <namePart type="date">1722-1771</namePart>
             <role>
@@ -29742,7 +29766,7 @@ but this is where the TLG has left off for numbering-->
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n85-44579.html">
+            valueURI="https://viaf.org/viaf/39475804/">
             <namePart>Perotti, Niccolò</namePart>
             <namePart type="date">1430-1480</namePart>
             <role>
@@ -29772,7 +29796,7 @@ but this is where the TLG has left off for numbering-->
             <title>Aesop's fables</title>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n81-66350.html">
+            valueURI="https://viaf.org/viaf/64013451/">
             <namePart>Aesop</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -29899,14 +29923,14 @@ but this is where the TLG has left off for numbering-->
             <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
         </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n81-66350.html">
+            valueURI="https://viaf.org/viaf/64013451/">
             <namePart>Aesop</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n86-825147.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/54273523/">
             <namePart>Halm, Karl,</namePart>
             <namePart type="date">1809-1882</namePart>
             <role>
@@ -30059,15 +30083,15 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n84-175578.html">
-            <namePart>Hyginus, C. Julius.</namePart>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100956061/">
+            <namePart>Hyginus, C. Julius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/nr88-6268.html">
+            valueURI="https://viaf.org/viaf/79392292/">
             <namePart>Schmidt, Moritz</namePart>
             <namePart type="date">1823-1888</namePart>
             <role>
@@ -33302,8 +33326,8 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no2004-90855.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/56330019/">
             <namePart>Placidus,</namePart>
             <namePart type="date">5th cent.</namePart>
             <role>
@@ -33311,7 +33335,8 @@ but this is where the TLG has left off for numbering-->
             </role>
             <displayForm>Luctati Placidi</displayForm>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/17964909/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/17964909/">
             <namePart>Deuerling, Andreas</namePart>
             <namePart type="date">1838-1906</namePart>
             <role>
@@ -33483,219 +33508,13 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Greek Anthology-Paton-Loeb-Perseus-Greek">
-        <titleInfo>
-            <nonSort>The</nonSort>
-            <title>Greek anthology</title>
-        </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/nr89-5382.html">
-            <namePart>Paton, W. R. (William Roger)</namePart>
-            <namePart type="date">d. 1921</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">enk</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">London</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">New York</placeTerm>
-            </place>
-            <publisher>W. Heinemann</publisher>
-            <publisher>G.P. Putnam's sons</publisher>
-            <edition>Reprint</edition>
-            <dateIssued>1916-1927</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>5 volumes</extent>
-            <digitalOrigin>digitized other analog</digitalOrigin>
-        </physicalDescription>
-        <subject authority="lcsh">
-            <topic>Greek poetry</topic>
-        </subject>
-        <classification authority="lcc">PA3611</classification>
-        <classification authority="ddc">884</classification>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Loeb classical library</title>
-            </titleInfo>
-        </relatedItem>
-        <identifier type="lccn">17000015</identifier>
-        <identifier type="oclc">2848020</identifier>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/2848020</url>
-        </location>
-        <location>
-            <url displayLabel="LC Permalink">http://lccn.loc.gov/17000015</url>
-        </location>
-        <relatedItem type="constituent" otherType="volume" displayLabel="Volume 1">
-            <part type="volume">
-                <detail type="volume">
-                    <title>Vol I</title>
-                </detail>
-            </part>
-            <originInfo>
-                <dateIssued>1916</dateIssued>
-            </originInfo>
-            <location>
-                <url displayLabel="GoogleBooks">http://books.google.com/books?id=XFKEAAAAIAAJ</url>
-            </location>
-            <location>
-                <url displayLabel="Open Content Alliance"
-                    >http://www.archive.org/details/greekanthology01newyuoft</url>
-            </location>
-            <relatedItem type="constituent" otherType="work"
-                displayLabel="The Greek anthology Vol I">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg7000.tlg001</identifier>
-                <relatedItem type="constituent" otherType="expression"
-                    displayLabel="The Greek anthology Vol I">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg7000.tlg001.perseus-grc1</identifier>
-                    <identifier>Perseus:text:2008.01.0472</identifier>
-                    <location>
-                        <url displayLabel="Perseus" note="Greek"
-                            >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0472</url>
-                    </location>
-                </relatedItem>
-            </relatedItem>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="volume" displayLabel="Volume 2">
-            <part type="volume">
-                <detail type="volume">
-                    <title>Vol 2</title>
-                </detail>
-            </part>
-            <originInfo>
-                <dateIssued>1917</dateIssued>
-            </originInfo>
-            <location>
-                <url displayLabel="Open Content Alliance"
-                    >http://www.archive.org/details/greekanthology02newyuoft</url>
-            </location>
-            <location>
-                <url displayLabel="GoogleBooks">http://books.google.com/books?id=hBQOAAAAYAAJ</url>
-            </location>
-            <relatedItem type="constituent" otherType="work"
-                displayLabel="The Greek anthology Vol II">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg7000.tlg001</identifier>
-                <relatedItem type="constituent" otherType="expression"
-                    displayLabel="The Greek anthology Vol II">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg7000.tlg001.perseus-grc2</identifier>
-                    <identifier>Perseus:text:2008.01.0473</identifier>
-                    <location>
-                        <url displayLabel="Perseus" note="Greek"
-                            >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0473</url>
-                    </location>
-                </relatedItem>
-            </relatedItem>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="volume" displayLabel="Volume 3">
-            <part type="volume">
-                <detail type="volume">
-                    <title>Vol 3</title>
-                </detail>
-            </part>
-            <originInfo>
-                <dateIssued>1915</dateIssued>
-            </originInfo>
-            <location>
-                <url displayLabel="Open Content Alliance"
-                    >http://www.archive.org/details/greekanthology03newyuoft</url>
-            </location>
-            <location>
-                <url displayLabel="GoogleBooks">http://books.google.com/books?id=EhwOAAAAYAAJ</url>
-            </location>
-            <relatedItem type="constituent" otherType="work"
-                displayLabel="The Greek anthology Vol III">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg7000.tlg001</identifier>
-                <relatedItem type="constituent" otherType="expression"
-                    displayLabel="The Greek anthology Vol III">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg7000.tlg001.perseus-grc3</identifier>
-                    <identifier>Perseus:text:2008.01.0474</identifier>
-                    <location>
-                        <url displayLabel="Perseus" note="Greek"
-                            >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0474</url>
-                    </location>
-                </relatedItem>
-            </relatedItem>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="volume" displayLabel="Volume 4">
-            <part type="volume">
-                <detail type="volume">
-                    <title>Vol 4</title>
-                </detail>
-            </part>
-            <originInfo>
-                <dateIssued>1918</dateIssued>
-                <dateModified>1926</dateModified>
-            </originInfo>
-            <location>
-                <url displayLabel="Open Content Alliance"
-                    >http://www.archive.org/details/greekanthology04newyuoft</url>
-            </location>
-            <location>
-                <url displayLabel="GoogleBooks">http://books.google.com/books?id=F41fAAAAMAAJ</url>
-            </location>
-            <relatedItem type="constituent" otherType="work"
-                displayLabel="The Greek anthology Vol IV">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg7000.tlg001</identifier>
-                <relatedItem type="constituent" otherType="expression"
-                    displayLabel="The Greek anthology Vol IV">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg7000.tlg001.perseus-grc4</identifier>
-                    <identifier>Perseus:text:2008.01.0475</identifier>
-                    <location>
-                        <url displayLabel="Perseus" note="Greek"
-                            >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0475</url>
-                    </location>
-                </relatedItem>
-            </relatedItem>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="volume" displayLabel="Volume 5">
-            <part type="volume">
-                <detail type="volume">
-                    <title>Vol 5</title>
-                </detail>
-            </part>
-            <originInfo>
-                <dateIssued>1927</dateIssued>
-            </originInfo>
-            <location>
-                <url displayLabel="Open Content Alliance"
-                    >http://www.archive.org/details/greekanthology05newyuoft</url>
-            </location>
-            <location>
-                <url displayLabel="GoogleBooks">http://books.google.com/books?id=RIxfAAAAMAAJ</url>
-            </location>
-            <relatedItem type="constituent" otherType="work"
-                displayLabel="The Greek anthology Vol V">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg7000.tlg001</identifier>
-                <relatedItem type="constituent" otherType="expression"
-                    displayLabel="The Greek anthology Vol V">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg7000.tlg001.perseus-grc5</identifier>
-                    <identifier>Perseus:text:2008.01.0476</identifier>
-                    <location>
-                        <url displayLabel="Perseus" note="Greek"
-                            >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0476</url>
-                    </location>
-                </relatedItem>
-            </relatedItem>
-        </relatedItem>
-    </mods>
+
     <mods displayLabel="Griechische Poliorketiker-Apollodorus of Damascus-Schneider-Weidmann-1908">
         <titleInfo>
             <title>Griechische Poliorketiker</title>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/95302064">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/95302064">
             <namePart>Apollodorus</namePart>
             <namePart type="termsOfAddress">of Damascus</namePart>
             <namePart type="date">1st/2nd cent.</namePart>
@@ -33703,7 +33522,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/88124959">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/88124959">
             <namePart>Schneider, Rudolf</namePart>
             <namePart type="date">1852-1911</namePart>
             <role>
@@ -34624,7 +34444,7 @@ but this is where the TLG has left off for numbering-->
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n50-20155.html">
+            valueURI="https://viaf.org/viaf/69011696/">
             <namePart>Plummer, Charles</namePart>
             <namePart type="date">1851-1927</namePart>
             <role>
@@ -34769,8 +34589,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n89-610117.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/71489166/">
             <namePart>Lumby, J. Rawson</namePart>
             <namePart type="date">1831-1895</namePart>
             <role>
@@ -34927,16 +34747,16 @@ but this is where the TLG has left off for numbering-->
                             </detail>
                         </part>
                     </relatedItem>
-                    <name authority="viaf" type="personal"
-                        xlink:href="http://errol.oclc.org/laf/n88-663395.html">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/18803958/">
                         <namePart>Oulton, John Ernest Leonard</namePart>
                         <namePart type="date">b. 1886</namePart>
                         <role>
                             <roleTerm authority="marcrelator" type="text">editor</roleTerm>
                         </role>
                     </name>
-                    <name authority="viaf" type="personal"
-                        xlink:href="http://errol.oclc.org/laf/no92-30881.html">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/34026310/">
                         <namePart>Lawlor, Hugh Jackson</namePart>
                         <namePart type="date">1860-1938</namePart>
                         <role>
@@ -35609,8 +35429,7 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n90-625584.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/16384876/">
             <namePart>Boissevain, U. Ph. (Ursulus Philippus)</namePart>
             <namePart type="date">1855-1930</namePart>
             <role>
@@ -36148,8 +35967,7 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n87-150654.html">
+        <name authority="viaf" type="personal"  authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/69000129/">
             <namePart>Wilkinson, John Gardner</namePart>
             <namePart type="termsOfAddress">Sir</namePart>
             <namePart type="date">1797-1875</namePart>
@@ -36307,8 +36125,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/nr96-31669.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/59177854/">
             <namePart>Macaulay, G. C. (George Campbell)</namePart>
             <namePart type="date">1852-1915</namePart>
             <role>
@@ -36430,8 +36248,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n89-671073.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/26215817/">
             <namePart>Merriam, Augustus Chapman</namePart>
             <namePart type="date">1845-1895</namePart>
             <role>
@@ -36524,8 +36342,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n82-207819.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/24677026/">
             <namePart>Godley, Alfred Denis</namePart>
             <namePart type="date">1856-1926</namePart>
             <role>
@@ -36734,7 +36552,7 @@ but this is where the TLG has left off for numbering-->
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/nr89-1005.html">
+            valueURI="https://viaf.org/viaf/56683038/">
             <namePart>Büttner-Wobst, Theodor</namePart>
             <namePart type="date">1854-1905</namePart>
             <role>
@@ -36941,8 +36759,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/nr96-34250.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/17598004/">
             <namePart>Fisher, C. D. (Charles Dennis)</namePart>
             <namePart type="date">d. 1916</namePart>
             <role>
@@ -36964,10 +36782,6 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-
-
-
-
     <mods displayLabel="Historiae-Theophylactus Simocatta-Boor/Wirth-Teubner-1972">
         <titleInfo>
             <title>Historiae</title>
@@ -37290,8 +37104,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no96-40079.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/74204745/">
             <namePart>Di Soldo Strozzi, Francesco,</namePart>
             <namePart type="termsOfAddress">fl. 1545</namePart>
             <role>
@@ -37299,7 +37113,7 @@ but this is where the TLG has left off for numbering-->
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            xlink:href="http://errol.oclc.org/laf/n82-20144.html">
+            valueURI="https://viaf.org/viaf/5042482/">
             <namePart>Porcacchi, Thomaso</namePart>
             <namePart type="date">ca. 1530-1585?</namePart>
             <role>
@@ -37307,8 +37121,8 @@ but this is where the TLG has left off for numbering-->
             </role>
             <description>life of Thucydides</description>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n84-133157.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/46783945/">
             <namePart>Gale, Thomas</namePart>
             <namePart type="date">1635?-1702</namePart>
             <role>
@@ -37316,8 +37130,8 @@ but this is where the TLG has left off for numbering-->
             </role>
             <description>(a Chronology)</description>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/n85-225144.html">
+        <name authority="viaf" type="personal"  authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/17233318/">
             <namePart>Cellarius, Christoph</namePart>
             <namePart type="date">1638-1707</namePart>
             <role>
@@ -37512,8 +37326,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no94-40114.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/19259587/">
             <namePart>Dale, Henry</namePart>
             <namePart type="date">1812-1894</namePart>
             <role>
@@ -37619,14 +37433,14 @@ but this is where the TLG has left off for numbering-->
             <title>history of the Peloponnesian War</title>
             <partNumber>Vol 1-2</partNumber>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/95161463/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/95161463/">
             <namePart>Thucydides</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal"
-            xlink:href="http://errol.oclc.org/laf/no94-40114.html">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/19259587/">
             <namePart>Dale, Henry</namePart>
             <namePart type="date">1812-1894</namePart>
             <role>
