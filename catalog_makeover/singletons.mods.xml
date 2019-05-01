@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
-    <!-- Continue converting author and editor names to linked data format (make
-    sure have both authority and valueURI-->
-    <!-- Check on displayLabel consistency for placement under URL not location search on <url>
-        Add in HathiTrust links-->
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    <!--Make sure have both authority and valueURI-->
+    <!-- Add in HathiTrust links-->
+    <!-- Update work displayLabels -->
     <mods displayLabel="Ab excessu divi Marci libri octo-Herodian-Bekker-Teubner-1855">
         <titleInfo>
             <title>Herodiani ab excessu divi Marci libri octo</title>
@@ -29765,7 +29764,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Paris</placeTerm>
             </place>
-            <publisher>les Belles lettres</publisher>
+            <publisher>Les Belles lettres</publisher>
             <dateIssued>1925-1926</dateIssued>
             <edition/>
             <issuance>monographic</issuance>
@@ -29800,6 +29799,7 @@ but this is where the TLG has left off for numbering-->
                             <caption>Pars Prior</caption>
                         </detail>
                     </part>
+                    <tableOfContents>Fables 1-144</tableOfContents>
                     <originInfo>
                         <dateIssued>1925</dateIssued>
                     </originInfo>
@@ -29813,6 +29813,7 @@ but this is where the TLG has left off for numbering-->
                             <caption>Pars Altera</caption>
                         </detail>
                     </part>
+                    <tableOfContents>Fables 145-359</tableOfContents>
                     <originInfo>
                         <dateIssued>1926</dateIssued>
                     </originInfo>
