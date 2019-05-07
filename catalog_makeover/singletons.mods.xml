@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <!--Make sure have both authority and valueURI-->
     <!-- Add in HathiTrust links-->
     <!-- Update work displayLabels -->
@@ -162,7 +162,6 @@
             </relatedItem>
         </relatedItem>
     </mods>
-
     <mods displayLabel="Ab Urbe Condita-Livy-Church-Macmillan-1901">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Ab Urbe Condita</title>
@@ -11732,7 +11731,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=GJFKcS4luRsC</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Civil War">
+        <relatedItem type="constituent" otherType="work" displayLabel="Bellum Civile">
             <identifier type="ctsurn">urn:cts:latinLit:phi0917.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Bellum Civile">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0917.phi001.perseus-lat1</identifier>
@@ -11798,7 +11797,7 @@ but this is where the TLG has left off for numbering-->
             Strachan-Davidson.</note>
         <note>Reprint: Oxford University Press, 1902./ Includes index.</note>
         <classification authority="lcc">PA3873</classification>
-        <identifier type="isbn"> 086516021X </identifier>
+        <identifier type="isbn"> 086516021X</identifier>
         <identifier type="oclc">11592906</identifier>
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/11592906</url>
@@ -11815,7 +11814,6 @@ but this is where the TLG has left off for numbering-->
             <geographicCode authority="marcgac">ff-----</geographicCode>
             <geographicCode authority="marcgac">aw-----</geographicCode>
         </subject>
-
         <subject authority="lcsh">
             <geographic>Rome</geographic>
             <topic>History</topic>
@@ -14315,7 +14313,7 @@ but this is where the TLG has left off for numbering-->
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="De Architectura">
             <identifier type="ctsurn">urn:cts:latinLit:phi1056.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="On Architecture">
+            <relatedItem type="constituent" otherType="expression" displayLabel="De Architectura">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1056.phi001.perseus-lat1</identifier>
                 <identifier>Perseus:text:1999.02.0072</identifier>
                 <location>
@@ -14780,7 +14778,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="PHI">http://latin.packhum.org/author/929</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="De chorographia libri tres">
+        <relatedItem type="constituent" otherType="work" displayLabel="De chorographia">
             <identifier type="ctsurn">urn:cts:latinLit:phi0929.phi001</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="De chorographia libri tres">
@@ -15273,7 +15271,7 @@ but this is where the TLG has left off for numbering-->
         <relatedItem type="constituent" otherType="work" displayLabel="De Composition Verborum">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0081.tlg012</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="De Composition Verborum">
+                displayLabel="On literary composition">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0081.tlg012.opp-eng1</identifier>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression"
@@ -16274,9 +16272,9 @@ but this is where the TLG has left off for numbering-->
         <subject authority="lcsh">
             <topic>Classical geography</topic>
         </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="De fluminibus etc.">
+        <relatedItem type="constituent" otherType="work" displayLabel="De fluminibus">
             <identifier type="ctsurn">urn:cts:latinLit:stoa0291f.stoa001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="De fluminibus etc.">
+            <relatedItem type="constituent" otherType="expression" displayLabel="De fluminibus">
                 <identifier type="ctsurn">urn:cts:latinLit:stoa0291f.stoa001.opp-lat1</identifier>
             </relatedItem>
         </relatedItem>
@@ -17144,7 +17142,7 @@ but this is where the TLG has left off for numbering-->
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="De Medicina">
             <identifier type="ctsurn">urn:cts:latinLit:phi0836.phi002</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="De Medicina">
+            <relatedItem type="constituent" otherType="expression" displayLabel="On Medicine">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0836.phi002.opp-eng1</identifier>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="De Medicina">
@@ -18523,7 +18521,7 @@ but this is where the TLG has left off for numbering-->
         <relatedItem type="constituent" otherType="work" displayLabel="De naturalibus facultatibus">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg010</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="De naturalibus facultatibus">
+                displayLabel="On the natural faculties">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg010.opp-eng1</identifier>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression"
@@ -18531,7 +18529,7 @@ but this is where the TLG has left off for numbering-->
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg010.opp-grc1</identifier>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="De naturalibus facultatibus">
+                displayLabel="On the natural faculties">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg010.perseus-eng1</identifier>
                 <identifier>Perseus:text:1999.01.0256</identifier>
                 <location>
@@ -19084,13 +19082,13 @@ but this is where the TLG has left off for numbering-->
         </subject>
         <relatedItem type="constituent" otherType="work" displayLabel="De Officiis">
             <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi055</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="De Officiis">
+            <relatedItem type="constituent" otherType="expression" displayLabel="On Duties">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi055.opp-eng1</identifier>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="De Officiis">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi055.opp-lat2</identifier>
             </relatedItem>
-            <relatedItem type="constituent" otherType="expression" displayLabel="De Officiis">
+            <relatedItem type="constituent" otherType="expression" displayLabel="On Duties">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi055.perseus-eng1</identifier>
                 <identifier>Perseus:text:2007.01.0048</identifier>
                 <location>
@@ -19288,7 +19286,7 @@ but this is where the TLG has left off for numbering-->
             <topic>Oratory</topic>
             <topic>Early works to 1800</topic>
         </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="On Oratory">
+        <relatedItem type="constituent" otherType="work" displayLabel="De Oratore">
             <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi037</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="On Oratory">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi037.opp-eng1</identifier>
@@ -20161,10 +20159,10 @@ but this is where the TLG has left off for numbering-->
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="De Rerum Natura">
             <identifier type="ctsurn">urn:cts:latinLit:phi0550.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="De Rerum Natura">
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="On the Nature of Things">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0550.phi001.perseus-eng1</identifier>
                 <identifier>Perseus:text:1999.02.0131</identifier>
-                <identifier type="Perseus:abo">Perseus:abo:phi,0550,001</identifier>
                 <location>
                     <url displayLabel="Perseus" note="English"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0131</url>
@@ -20278,10 +20276,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id408337095</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="De rerum natura libri sex">
+        <relatedItem type="constituent" otherType="work" displayLabel="De rerum natura">
             <identifier type="ctsurn">urn:cts:latinLit:phi0550.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="De rerum natura libri sex">
+            <relatedItem type="constituent" otherType="expression" displayLabel="De rerum natura">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0550.phi001.opp-lat5</identifier>
             </relatedItem>
         </relatedItem>
@@ -20343,11 +20340,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id413820459</url>
         </location>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="T. Lucreti Cari De rerum natura libri VI">
+        <relatedItem type="constituent" otherType="work" displayLabel="De rerum natura">
             <identifier type="ctsurn">urn:cts:latinLit:phi0550.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="T. Lucreti Cari De rerum natura libri VI">
+            <relatedItem type="constituent" otherType="expression" displayLabel="De Rerum Natura">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0550.phi001.opp-lat4</identifier>
             </relatedItem>
         </relatedItem>
@@ -20899,7 +20894,7 @@ but this is where the TLG has left off for numbering-->
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="De Sublimitate">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0560.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="De Sublimitate">
+            <relatedItem type="constituent" otherType="expression" displayLabel="On the Sublime">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0560.tlg001.opp-eng1</identifier>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="De Sublimitate">
@@ -21105,7 +21100,8 @@ but this is where the TLG has left off for numbering-->
         <relatedItem type="constituent" otherType="work" displayLabel="De utilitate mathematicae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg1724.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="De utilitate mathematicae">
+                displayLabel="Exposition des connaissances mathématiques utiles pour la lecture de
+                Platon">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg1724.tlg001.opp-fre1</identifier>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression"
@@ -21759,10 +21755,10 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id403637163</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Declamationes XIX maiores">
+        <relatedItem type="constituent" otherType="work" displayLabel="Declamationes Maiores">
             <identifier type="ctsurn">urn:cts:latinLit:phi1002.phi003</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="Declamationes XIX maiores">
+                displayLabel="Declamationes Maiores">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1002.phi003.opp-lat2</identifier>
             </relatedItem>
         </relatedItem>
@@ -22013,7 +22009,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/3288753</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Depnosophistae">
+        <relatedItem type="constituent" otherType="work" displayLabel="Deipnosophistae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Athenaei Naucratitae Dipnosophistarum libri XV">
@@ -22654,10 +22650,10 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/187449119</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Description of Greece">
+        <relatedItem type="constituent" otherType="work" displayLabel="Graeciae Descriptio">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0525.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="Description of Greece">
+                displayLabel="Graeciae Descriptio">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0525.tlg001.opp-grc6</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1-Part 1">
                     <part>
@@ -22875,7 +22871,7 @@ but this is where the TLG has left off for numbering-->
             <geographic>Greece</geographic>
             <topic>Description and travel</topic>
         </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Description of Greece">
+        <relatedItem type="constituent" otherType="work" displayLabel="Graeciae Descriptio">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0525.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Description of Greece">
@@ -22977,13 +22973,12 @@ but this is where the TLG has left off for numbering-->
             <geographic>Greece</geographic>
             <topic>Antiquities</topic>
         </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Description of Greece">
+        <relatedItem type="constituent" otherType="work" displayLabel="Graeciae Descriptio">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0525.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="Description of Greece">
+                displayLabel="Graeciae Descriptio">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0525.tlg001.perseus-grc1</identifier>
                 <identifier>1999.01.0159</identifier>
-                <identifier type="Perseus:abo">Perseus:abo:tlg,0525,001</identifier>
                 <location>
                     <url displayLabel="Perseus" note="Greek"
                         >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0159</url>
@@ -23199,7 +23194,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/526217</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Digest of Justinian">
+        <relatedItem type="constituent" otherType="work" displayLabel="Digesta">
             <identifier type="ctsurn">urn:cts:latinLit:phi2806.phi002</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Digest of Justinian">
@@ -23916,9 +23911,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id416160395</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Le Dyscolos">
+        <relatedItem type="constituent" otherType="work" displayLabel="Dyscolus">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0541.tlg007</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Le Dyscolos">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Dyscolus">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0541.tlg007.opp-grc1</identifier>
             </relatedItem>
         </relatedItem>
@@ -24089,7 +24084,7 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
-        <relatedItem type="constituent" otherType="work" displayLabel="Eclogues">
+        <relatedItem type="constituent" otherType="work" displayLabel="Eclogae">
             <identifier type="ctsurn">urn:cts:latinLit:phi0690.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Eclogues">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0690.phi001.perseus-eng1</identifier>
@@ -24221,7 +24216,7 @@ but this is where the TLG has left off for numbering-->
         </originInfo>
         <relatedItem type="constituent" otherType="work" displayLabel="Elegiae">
             <identifier type="ctsurn">urn:cts:latinLit:phi0660.phi003</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Elegiae">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Elegies">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0660.phi003.perseus-eng1</identifier>
                 <identifier>Perseus:text:1999.02.0071</identifier>
                 <location>
@@ -24329,12 +24324,12 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="HathiTrust">https://hdl.handle.net/2027/uc1.aa0016309106</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Elegies">
+        <relatedItem type="constituent" otherType="work" displayLabel="Elegiae">
             <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Elegies">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001.opp-eng1</identifier>
             </relatedItem>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Elegies">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Elegiae">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001.opp-lat2</identifier>
             </relatedItem>
         </relatedItem>
@@ -24445,7 +24440,7 @@ but this is where the TLG has left off for numbering-->
             <geographic>Rome</geographic>
             <topic>Poetry</topic>
         </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Elegies">
+        <relatedItem type="constituent" otherType="work" displayLabel="Elegiae">
             <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Elegies">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001.opp-eng2</identifier>
@@ -24540,15 +24535,15 @@ but this is where the TLG has left off for numbering-->
             <geographic>Rome</geographic>
             <topic>Poetry</topic>
         </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Elegies">
+        <relatedItem type="constituent" otherType="work" displayLabel="Elegiae">
             <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Elegies">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001.opp-eng3</identifier>
             </relatedItem>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Elegies">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Elegiae">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001.opp-lat4</identifier>
             </relatedItem>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Elegies">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Elegiae">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001.perseus-lat1</identifier>
                 <identifier>Perseus:text:1999.02.0066</identifier>
                 <location>
@@ -24634,9 +24629,9 @@ but this is where the TLG has left off for numbering-->
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
 
-        <relatedItem type="constituent" otherType="work" displayLabel="Elegies">
+        <relatedItem type="constituent" otherType="work" displayLabel="Elegiae">
             <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Elegies">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Elegiae">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001.opp-lat3</identifier>
             </relatedItem>
         </relatedItem>
@@ -24716,10 +24711,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id408341491</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Elegies">
+        <relatedItem type="constituent" otherType="work" displayLabel="Elegiae">
             <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Sex. Propertii Elegiarum libri IV">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Elegiae">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001.opp-lat9</identifier>
             </relatedItem>
         </relatedItem>
@@ -24791,10 +24785,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id408042273</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Elegies">
+        <relatedItem type="constituent" otherType="work" displayLabel="Elegiae">
             <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Sex. Propertii Elegiarum libri IV">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Elegiae">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001.opp-lat7</identifier>
             </relatedItem>
         </relatedItem>
@@ -24936,9 +24929,9 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <relatedItem type="constituent" otherType="work" displayLabel="Elegies">
+        <relatedItem type="constituent" otherType="work" displayLabel="Elegiae">
             <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Elegies">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Elegiae">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001.opp-lat5</identifier>
             </relatedItem>
         </relatedItem>
@@ -25009,9 +25002,9 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="GoogleBooks" note="1880 edition stereotypis"
                 >http://books.google.com/books?id=SekIAAAAQAAJ</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Elegies">
+        <relatedItem type="constituent" otherType="work" displayLabel="Elegiae">
             <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Elegies">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Elegiae">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001.perseus-lat2</identifier>
                 <identifier>Perseus:text:2008.01.0494</identifier>
                 <location>
@@ -25083,10 +25076,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id411090054</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="ELegies">
+        <relatedItem type="constituent" otherType="work" displayLabel="Elegiae">
             <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Sex. Propertii Elegiarum libri IV">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Elegiae">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001.opp-lat11</identifier>
             </relatedItem>
         </relatedItem>
@@ -25161,10 +25153,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id403575486</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Elegies">
+        <relatedItem type="constituent" otherType="work" displayLabel="Elegiae">
             <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Sex. Propertii Elegiarum libri IV">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Elegiae">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001.opp-lat10</identifier>
             </relatedItem>
         </relatedItem>
@@ -25231,9 +25222,9 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <relatedItem type="constituent" otherType="work" displayLabel="Elegies">
+        <relatedItem type="constituent" otherType="work" displayLabel="Elegiae">
             <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Elegies">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Elegiae">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001.opp-lat6</identifier>
             </relatedItem>
         </relatedItem>
@@ -25402,7 +25393,7 @@ but this is where the TLG has left off for numbering-->
         </subject>
         <relatedItem type="constituent" otherType="work" displayLabel="Elementa Harmonica">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0088.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Elementa Harmonica">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Harmonics">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0088.tlg001.opp-eng1</identifier>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Elementa Harmonica">
@@ -25496,7 +25487,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="HathiTrust" note="Volume 3"
                 >https://hdl.handle.net/2027/hvd.hxnx4h</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Elements">
+        <relatedItem type="constituent" otherType="work" displayLabel="Elementa">
             <identifier type="ctsurn">urn:cts:greekLit:tlg1799.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Elements">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg1799.tlg001.perseus-eng1</identifier>
@@ -25703,8 +25694,7 @@ but this is where the TLG has left off for numbering-->
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Ephesiaca">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0641.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Ephesiacorum libri V de amoribus Anthiae et Abrocomae">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Ephesiaca">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0641.tlg001.opp-grc3</identifier>
             </relatedItem>
         </relatedItem>
@@ -25789,9 +25779,9 @@ but this is where the TLG has left off for numbering-->
         <subject authority="lcsh">
             <topic>Philosophy, Ancient</topic>
         </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Epicurei Fragmenta">
+        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
             <identifier type="ctsurn">urn:cts:greekLit:tlg1773.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Epicurei Fragmenta">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg1773.tlg001.opp-grc1</identifier>
             </relatedItem>
         </relatedItem>
@@ -25979,7 +25969,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/40320058</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Letters to Atticus">
+        <relatedItem type="constituent" otherType="work" displayLabel="Epistulae ad Atticum">
             <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi057</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Letters to Atticus">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi057.opp-eng3</identifier>
@@ -26518,7 +26508,7 @@ but this is where the TLG has left off for numbering-->
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0552</url>
                 </location>
             </relatedItem>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Epistulae">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Letters">
                 <identifier type="ctsurn">urn:cts:latinLit:stoa0040.stoa011.opp-eng1</identifier>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Epistulae">
@@ -28350,11 +28340,11 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=W-0JAAAAIAAJ</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Epistula">
-            <identifier>Perseus:text:2008.01.0550</identifier>
+        <relatedItem type="constituent" otherType="work" displayLabel="Epistulae">
             <identifier type="ctsurn">urn:cts:latinLit:stoa0261.stoa002</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Epistula">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Epistulae">
                 <identifier type="ctsurn">urn:cts:latinLit:stoa0261.stoa002.perseus-lat2</identifier>
+                <identifier>Perseus:text:2008.01.0550</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Book 7-10">
                     <part>
                         <detail type="book">
@@ -28605,10 +28595,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id404590691</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Epistularum libri Il">
+        <relatedItem type="constituent" otherType="work" displayLabel="Epistularum">
             <identifier type="ctsurn">urn:cts:greekLit:tlg4000.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Epistularum libri Il">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Epistularum">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg4000.tlg001.opp-grc2</identifier>
             </relatedItem>
         </relatedItem>
@@ -29139,9 +29128,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/njp.32101055826364</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Eudemian Ethics">
+        <relatedItem type="constituent" otherType="work" displayLabel="Ethica Eudemia">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg009</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Eudemian Ethics">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Ethica Eudemia">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg009.perseus-grc1</identifier>
                 <identifier>Perseus:text:1999.01.0049</identifier>
                 <location>
@@ -29391,9 +29380,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id416057004</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Prologues">
+        <relatedItem type="constituent" otherType="work" displayLabel="Exordia">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0014.tlg062</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Prologues">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Exordia">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0014.tlg062.opp-grc2</identifier>
             </relatedItem>
         </relatedItem>
@@ -29475,9 +29464,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="HathiTrust">https://hdl.handle.net/2027/mdp.39015016369582</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Fables">
+        <relatedItem type="constituent" otherType="work" displayLabel="Fabulae">
             <identifier type="ctsurn">urn:cts:latinLit:phi0975.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Fables">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Fabulae">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0975.phi001.opp-lat2</identifier>
             </relatedItem>
         </relatedItem>
@@ -29547,7 +29536,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="HathiTrust">https://hdl.handle.net/2027/njp.32101074943018</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Fables">
+        <relatedItem type="constituent" otherType="work" displayLabel="Fabulae">
             <identifier type="ctsurn">urn:cts:latinLit:phi0975.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Fables">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0975.phi001.perseus-eng1</identifier>
@@ -29631,9 +29620,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=bakNAAAAIAAJ</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Fables">
+        <relatedItem type="constituent" otherType="work" displayLabel="Fabulae">
             <identifier type="ctsurn">urn:cts:latinLit:phi0975.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Fables">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Fabulae">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0975.phi001.perseus-lat1</identifier>
                 <identifier>Perseus:text:1999.02.0118</identifier>
                 <location>
@@ -29727,9 +29716,9 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <relatedItem type="constituent" otherType="work" displayLabel="Fables">
+        <relatedItem type="constituent" otherType="work" displayLabel="Fabulae">
             <identifier type="ctsurn">urn:cts:latinLit:phi0975.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Fables">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Fabulae">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0975.phi001.opp-lat3</identifier>
             </relatedItem>
         </relatedItem>
@@ -31057,7 +31046,7 @@ but this is where the TLG has left off for numbering-->
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
             <identifier type="ctsurn">urn:cts:greekLit:tlg1477.tlg003</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Fragments">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg1477.tlg003.opp-eng1</identifier>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
@@ -31519,7 +31508,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance" note="1872 printing"
                 >http://www.archive.org/details/caesarscommentar00caesrich</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="de Bello Gallico">
+        <relatedItem type="constituent" otherType="work" displayLabel="De Bello Gallico">
             <identifier type="ctsurn">urn:cts:latinLit:phi0448.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Gallic War">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0448.phi001.perseus-eng1</identifier>
@@ -32645,7 +32634,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/250411</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Geography">
+        <relatedItem type="constituent" otherType="work" displayLabel="Geographica">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0099.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Geography">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0099.tlg001.perseus-eng2</identifier>
@@ -33243,9 +33232,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id416170323</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Tacitus Germania">
+        <relatedItem type="constituent" otherType="work" displayLabel="Germania">
             <identifier type="ctsurn">urn:cts:latinLit:phi1351.phi002</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Tacitus Germania">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Germania">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1351.phi002.opp-lat6</identifier>
             </relatedItem>
         </relatedItem>
@@ -33321,9 +33310,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id408683198</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Tacitus Germania">
+        <relatedItem type="constituent" otherType="work" displayLabel="Germania">
             <identifier type="ctsurn">urn:cts:latinLit:phi1351.phi002</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Tacitus Germania">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Germania">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1351.phi002.opp-lat5</identifier>
             </relatedItem>
         </relatedItem>
@@ -33875,7 +33864,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id408334487</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Historia Graeca">
+        <relatedItem type="constituent" otherType="work" displayLabel="Hellenica">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Historia Graeca">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg001.opp-grc4</identifier>
@@ -34323,13 +34312,12 @@ but this is where the TLG has left off for numbering-->
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Heroicus">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0638.tlg002</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Heroicus">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Heroicus">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0638.tlg002.opp-grc3</identifier>
             </relatedItem>
         </relatedItem>
     </mods>
-<!-- LEFT OFF HERE -->
+    <!-- LEFT OFF HERE -->
     <mods displayLabel="Historiae Animalium Epitome-Aristophanes of Byzantium-Reimer-1885">
         <titleInfo>
             <title>Historiae Animalium Epitome subiunctis Aeliani Timothei aliorumque
@@ -34757,7 +34745,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/4860687</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="The Ecclesiastical history">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historia Ecclesiastica">
             <identifier type="ctsurn">urn:cts:greekLit:tlg2018.tlg002</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Historia Ecclesiastica">
@@ -35843,9 +35831,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/13043439</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0016.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0016.tlg001.opp-grc2</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part>
@@ -36081,7 +36069,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="Worldcat">http://worldcat.org/oclc/4061134</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0016.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0016.tlg001.opp-eng1</identifier>
@@ -36242,7 +36230,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="WorldCat">http://worldcat.org/oclc/10827795</url>
         </location>
         <identifier type="oclc">10827795</identifier>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0016.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0016.tlg001.opp-eng2</identifier>
@@ -36377,9 +36365,9 @@ but this is where the TLG has left off for numbering-->
         <subject authority="lcsh">
             <topic>Greek prose literature.</topic>
         </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0016.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0016.tlg001.opp-grc1</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Book 6-7">
                     <part>
@@ -36490,12 +36478,12 @@ but this is where the TLG has left off for numbering-->
                 >http://www.archive.org/details/herodotuswitheng04herouoft</url>
         </location>
 
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0016.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0016.tlg001.perseus-eng1</identifier>
             </relatedItem>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0016.tlg001.perseus-grc1</identifier>
             </relatedItem>
         </relatedItem>
@@ -36583,7 +36571,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="GoogleBooks" note="Vol 2"
                 >http://books.google.com/books?id=sDUNAAAAIAAJ</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0543.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0543.tlg001.perseus-eng1</identifier>
@@ -36687,9 +36675,9 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="GoogleBooks" note="Vol 5"
                 >http://books.google.com/books?id=2_AUAAAAQAAJ</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0543.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0543.tlg001.perseus-grc1</identifier>
                 <identifier>Perseus:text:1999.01.0233</identifier>
                 <location>
@@ -36992,7 +36980,7 @@ but this is where the TLG has left off for numbering-->
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Histories">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Geschichte">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-ger4</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part>
@@ -37215,9 +37203,9 @@ but this is where the TLG has left off for numbering-->
             <topic>History</topic>
             <temporal>Peloponnesian War, 431-404 B.C</temporal>
         </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Istorica Graeco">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-ita1</identifier>
             </relatedItem>
         </relatedItem>
@@ -37373,7 +37361,7 @@ but this is where the TLG has left off for numbering-->
             <topic>History</topic>
             <temporal>Peloponnesian War, 431-404 B.C</temporal>
         </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-eng17</identifier>
@@ -37442,7 +37430,7 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm type="code">eng</languageTerm>
         </language>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-eng4</identifier>
@@ -37556,7 +37544,7 @@ but this is where the TLG has left off for numbering-->
                 <title>Bohn's classical library</title>
             </titleInfo>
         </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-eng2</identifier>
@@ -37680,7 +37668,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/umn.319510020828972</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.perseus-eng2</identifier>
@@ -37778,7 +37766,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance" note="1914 reprinting"
                 >http://www.archive.org/details/pelocrawleyr00thucuoft</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.perseus-eng3</identifier>
@@ -37862,7 +37850,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/20083702</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.perseus-eng1</identifier>
@@ -37933,7 +37921,7 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm type="code">eng</languageTerm>
         </language>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-eng12</identifier>
@@ -38027,7 +38015,7 @@ but this is where the TLG has left off for numbering-->
             <topic>History</topic>
             <temporal>Peloponnesian War, 431-404 B.C</temporal>
         </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-eng8</identifier>
@@ -38109,7 +38097,7 @@ but this is where the TLG has left off for numbering-->
             <topic>History</topic>
             <temporal>Peloponnesian War, 431-404 B.C</temporal>
         </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-eng14</identifier>
@@ -38273,9 +38261,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/21599622</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc22</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Book">
                     <part>
@@ -38522,9 +38510,9 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc82</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Book 1">
                     <part>
@@ -38609,9 +38597,9 @@ but this is where the TLG has left off for numbering-->
             <topic>History</topic>
             <temporal>Peloponnesian War, 431-404 B.C</temporal>
         </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc13</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Book 1">
                     <part>
@@ -38680,9 +38668,9 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc21</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Book 1">
                     <part>
@@ -38772,9 +38760,9 @@ but this is where the TLG has left off for numbering-->
             <topic>History</topic>
             <temporal>Peloponnesian War, 431-404 B.C</temporal>
         </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc44</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Book 2-3">
                     <part>
@@ -38861,9 +38849,9 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc72</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-3">
                     <part>
@@ -38938,9 +38926,9 @@ but this is where the TLG has left off for numbering-->
             <topic>History</topic>
             <temporal>Peloponnesian War, 431-404 B.C</temporal>
         </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc79</identifier>
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-lat16</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
@@ -39079,9 +39067,9 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc77</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Book 4">
                     <part>
@@ -39162,9 +39150,9 @@ but this is where the TLG has left off for numbering-->
             <topic>History</topic>
             <temporal>Peloponnesian War, 431-404 B.C</temporal>
         </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc12</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Book 4">
                     <part>
@@ -39237,9 +39225,9 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc57</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Book 6-7">
                     <part>
@@ -39300,9 +39288,9 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm type="code">grc</languageTerm>
         </language>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc6</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <titleInfo>
@@ -39406,12 +39394,12 @@ but this is where the TLG has left off for numbering-->
             <topic>Plague</topic>
             <topic>Athens</topic>
         </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc67</identifier>
             </relatedItem>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-lat15</identifier>
             </relatedItem>
         </relatedItem>
@@ -39475,9 +39463,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/13977026</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc28</identifier>
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-lat17</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
@@ -39680,9 +39668,9 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/23672125</url>
         </location>
         <typeOfResource>text</typeOfResource>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc60</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part>
@@ -39948,9 +39936,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/17337465</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc51</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part>
@@ -40088,7 +40076,7 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">indexer</roleTerm>
             </role>
         </name>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc32</identifier>
@@ -40165,9 +40153,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/8800012</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc54</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part>
@@ -40289,9 +40277,9 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc78</identifier>
             </relatedItem>
         </relatedItem>
@@ -40351,9 +40339,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/24368548</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc43</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part>
@@ -40596,9 +40584,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/221009453</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc36</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part>
@@ -40679,9 +40667,9 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/7653915</url>
         </location>
         <typeOfResource>text</typeOfResource>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc49</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volme 1">
                     <part>
@@ -40789,12 +40777,12 @@ but this is where the TLG has left off for numbering-->
             <topic>History</topic>
             <temporal>Peloponnesian War, 431-404 B.C</temporal>
         </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc35</identifier>
             </relatedItem>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-lat9</identifier>
             </relatedItem>
         </relatedItem>
@@ -40848,9 +40836,9 @@ but this is where the TLG has left off for numbering-->
         <note type="statement of responsibility">Ad optimorvm codicvm fidem, adhibitis doctorvm
             virorvm observationibvs, recensvit, svmmariis et notis illvstravit, indicesqve rervm
             et verborvm adiecit Christoph. Frid. Ferd. Haackivs</note>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc74</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part>
@@ -40947,9 +40935,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="Worldcat">http://www.worldcat.org/oclc/152385983</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc80</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part>
@@ -41239,9 +41227,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/10255327</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc26</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part>
@@ -41355,9 +41343,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/6394034</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc48</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part>
@@ -41555,10 +41543,9 @@ but this is where the TLG has left off for numbering-->
         <note type="statement of responsibility">ad optimorum librorum fidem editos explanavit
             Ernestus Fridericus Poppo.</note>
         <typeOfResource>text</typeOfResource>
-        <relatedItem type="constituent" otherType="work" displayLabel="De bello Peloponnesiaco">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="De bello Peloponnesiaco">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc69</identifier>
                 <relatedItem type="constituent" otherType="structure"
                     displayLabel="Volume 1-Section 1">
@@ -41838,9 +41825,9 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histories">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc30</identifier>
             </relatedItem>
         </relatedItem>
@@ -42314,7 +42301,7 @@ but this is where the TLG has left off for numbering-->
         </language>
         <relatedItem type="constituent" otherType="work" displayLabel="Ichneutae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0011.tlg008</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Ichneutae">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Tracking Satyrs">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0011.tlg008.perseus-eng1</identifier>
                 <identifier>Perseus:text:1999.01.0221</identifier>
                 <location>
@@ -42389,9 +42376,9 @@ but this is where the TLG has left off for numbering-->
             <topic>Achilles (Mythological character)</topic>
             <topic>Poetry</topic>
         </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Homeri Ilias">
+        <relatedItem type="constituent" otherType="work" displayLabel="Iliad">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0012.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Homeri Ilias">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Iliad">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0012.tlg001.opp-grc5</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Pars 1">
                     <part>
@@ -42869,9 +42856,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id408081236</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Ilii excidium">
+        <relatedItem type="constituent" otherType="work" displayLabel="Iliou halōsis">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0647.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Ilii excidium">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Iliou halōsis">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0647.tlg001.opp-grc4</identifier>
             </relatedItem>
         </relatedItem>
@@ -42950,9 +42937,12 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id415876044</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="La prise d'Ilion">
+        <relatedItem type="constituent" otherType="work" displayLabel="Iliou halōsis
+            ">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0647.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="La prise d'Ilion">
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Iliou halōsis
+                ">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0647.tlg001.opp-grc3</identifier>
             </relatedItem>
         </relatedItem>
@@ -48090,7 +48080,7 @@ but this is where the TLG has left off for numbering-->
         <relatedItem type="constituent" otherType="work" displayLabel="Institutio oratoria">
             <identifier type="ctsurn">urn:cts:latinLit:phi1002.phi001</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="Institutio oratoria">
+                displayLabel="Institutes of Oratory">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1002.phi001.opp-eng5</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Vol I">
                     <part type="volume">
@@ -48224,7 +48214,7 @@ but this is where the TLG has left off for numbering-->
         <relatedItem type="constituent" otherType="work" displayLabel="Institutio oratoria">
             <identifier type="ctsurn">urn:cts:latinLit:phi1002.phi001</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="Institutio Oratoria">
+                displayLabel="Institutes of Oratory">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1002.phi001.perseus-eng1</identifier>
                 <identifier>Perseus:text:2007.01.0060</identifier>
                 <identifier>Perseus:text:2007.01.0063</identifier>
@@ -48861,10 +48851,10 @@ but this is where the TLG has left off for numbering-->
     </mods>
     <mods displayLabel="Institutiones-Gaius-Seckel/Kubler-Teubner-1939-8th edition">
         <titleInfo>
-            <title>Gai Instutitiones</title>
+            <title>Gai Institutiones</title>
         </titleInfo>
         <titleInfo type="alternative">
-            <title>Instutitiones</title>
+            <title>Institutiones</title>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/5725215/">
@@ -48921,9 +48911,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id41382697X</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Gai Instutitiones">
+        <relatedItem type="constituent" otherType="work" displayLabel="Institutiones">
             <identifier type="ctsurn">urn:cts:latinLit:phi1251.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Gai Instutitiones">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Institutiones">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1251.phi001.opp-lat4</identifier>
             </relatedItem>
         </relatedItem>
@@ -49010,7 +49000,7 @@ but this is where the TLG has left off for numbering-->
         </subject>
         <relatedItem type="constituent" otherType="work" displayLabel="Institutiones">
             <identifier type="ctsurn">urn:cts:latinLit:phi1251.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Institutiones">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Institutes">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1251.phi001.opp-eng1</identifier>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Institutiones">
@@ -49594,7 +49584,7 @@ but this is where the TLG has left off for numbering-->
             <topic>Iphigenia (Greek mythology)</topic>
             <topic>Drama</topic>
         </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Iphigeneia in Taurus">
+        <relatedItem type="constituent" otherType="work" displayLabel="Iphigenia Taurica">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0006.tlg013</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Iphigeneia in Taurus">
@@ -49665,7 +49655,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id408045434</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Iphigenia in Tauris">
+        <relatedItem type="constituent" otherType="work" displayLabel="Iphigenia Taurica">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0006.tlg013</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Iphigenia in Tauris">
@@ -49772,7 +49762,7 @@ but this is where the TLG has left off for numbering-->
         </originInfo>
         <relatedItem type="constituent" otherType="work" displayLabel="Jusjurandum">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0627.tlg013</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Jusjurandum">
+            <relatedItem type="constituent" otherType="expression" displayLabel="The Oath">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0627.tlg013.perseus-eng3</identifier>
                 <identifier>Perseus:text:1999.01.0252</identifier>
                 <location>
@@ -49835,9 +49825,9 @@ but this is where the TLG has left off for numbering-->
         <note type="statement of responsibility">Platon; texte établi et traduit par Edouard des
             Places</note>
         <!-- Missing volume 1 -->
-        <relatedItem type="constituent" otherType="work" displayLabel="The Laws">
+        <relatedItem type="constituent" otherType="work" displayLabel="Leges">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0059.tlg034</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="The Laws">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Leges">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0059.tlg034.opp-grc2</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
                     <part>
@@ -50046,10 +50036,10 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/905427849</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Lexicographie Graeci Pars I">
+        <relatedItem type="constituent" otherType="work" displayLabel="Lexicon">
             <identifier type="ctsurn">urn:cts:greekLit:tlg9010.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="Lexicographie Graeci Pars I">
+                displayLabel="Lexicon">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg9010.tlg001.opp-grc2</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part>
@@ -51692,10 +51682,10 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id408458038</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Xenophōntos Commentari">
+        <relatedItem type="constituent" otherType="work" displayLabel="Commentari">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg002</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="Xenophōntos Commentari">
+                displayLabel="Commentari">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg002.opp-grc4</identifier>
             </relatedItem>
         </relatedItem>
@@ -52738,9 +52728,9 @@ but this is where the TLG has left off for numbering-->
         <subject authority="lcsh">
             <topic>Metaphysics</topic>
         </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Metaphysics">
+        <relatedItem type="constituent" otherType="work" displayLabel="Metaphysica">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg025</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Metaphysics">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Metaphysica">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg025.opp-grc1</identifier>
             </relatedItem>
         </relatedItem>
@@ -52818,9 +52808,9 @@ but this is where the TLG has left off for numbering-->
         <subject authority="lcsh">
             <topic>Metaphysics</topic>
         </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Metaphysics">
+        <relatedItem type="constituent" otherType="work" displayLabel="Metaphysica">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg025</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Metaphysics">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Metaphysica">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg025.opp-grc4</identifier>
             </relatedItem>
         </relatedItem>
@@ -52877,9 +52867,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/7358999</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Metaphysics">
+        <relatedItem type="constituent" otherType="work" displayLabel="Metaphysica">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg025</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Metaphysics">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Metaphysica">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg025.perseus-grc1</identifier>
                 <identifier>Perseus:text:1999.01.0051</identifier>
                 <location>
@@ -53229,7 +53219,7 @@ but this is where the TLG has left off for numbering-->
         <relatedItem type="constituent" otherType="work" displayLabel="Naturales Quaestiones">
             <identifier type="ctsurn">urn:cts:latinLit:phi1017.phi016</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="Naturales Quaestiones">
+                displayLabel="Natura Questions">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1017.phi016.opp-eng1</identifier>
             </relatedItem>
         </relatedItem>
@@ -53423,10 +53413,10 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/610379667</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Histoire naturelle Livre I">
+        <relatedItem type="constituent" otherType="work" displayLabel="Naturalis Historia">
             <identifier type="ctsurn">urn:cts:latinLit:phi0978.phi001</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="Histoire naturelle Livre I">
+                displayLabel="Naturalis Historia">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0978.phi001.opp-lat9</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part>
@@ -53619,7 +53609,7 @@ but this is where the TLG has left off for numbering-->
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Naturalis Historia">
             <identifier type="ctsurn">urn:cts:latinLit:phi0978.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Naturalis Historia">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Natural History">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0978.phi001.perseus-eng1</identifier>
                 <identifier>Perseus:text:1999.02.0137</identifier>
                 <location>
@@ -54225,9 +54215,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id417067569</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Nicomachean Ethics">
+        <relatedItem type="constituent" otherType="work" displayLabel="Ethica Nicomachea">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg010</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Nicomachean Ethics">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Ethica Nicomachea">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg010.perseus-grc1</identifier>
                 <identifier>Perseus:text:1999.01.0053</identifier>
                 <location>
@@ -54327,9 +54317,9 @@ but this is where the TLG has left off for numbering-->
         <subject authority="lcsh">
             <topic>Ethics, Ancient</topic>
         </subject>
-        <relatedItem type="constituent" otherType="work" displayLabel="Nicomachean Ethics">
+        <relatedItem type="constituent" otherType="work" displayLabel="Ethica Nicomachea">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg010</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Nicomachean Ethics">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Ethica Nicomachea">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg010.opp-grc1</identifier>
             </relatedItem>
         </relatedItem>
@@ -54416,7 +54406,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="WorldCat">http://worldcat.org/oclc/39541390</url>
         </location>
 
-        <relatedItem type="constituent" otherType="work" displayLabel="Nicomachean Ethics">
+        <relatedItem type="constituent" otherType="work" displayLabel="Ethica Nicomachea">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg010</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Nicomachean Ethics">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg010.perseus-eng1</identifier>
@@ -54643,7 +54633,7 @@ but this is where the TLG has left off for numbering-->
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Noctes Atticae">
             <identifier type="ctsurn">urn:cts:latinLit:phi1254.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Noctes Atticae">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Attic Nights">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1254.phi001.perseus-eng1</identifier>
                 <identifier>Perseus:text:2007.01.0072</identifier>
                 <location>
@@ -54659,7 +54649,7 @@ but this is where the TLG has left off for numbering-->
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0071</url>
                 </location>
             </relatedItem>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Attic Nights">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Noctes Atticae">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1254.phi001.opp-eng2</identifier>
                 <identifier type="ctsurn">urn:cts:latinLit:phi1254.phi001.opp-lat3</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume I">
@@ -54859,10 +54849,10 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id410516481</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="M. Minuci Felicis Octavius">
+        <relatedItem type="constituent" otherType="work" displayLabel="Octavius">
             <identifier type="ctsurn">urn:cts:latinLit:stoa0203.stoa001</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="M. Minuci Felicis Octavius">
+                displayLabel="Octavius">
                 <identifier type="ctsurn">urn:cts:latinLit:stoa0203.stoa001.opp-lat3</identifier>
             </relatedItem>
         </relatedItem>
@@ -54931,10 +54921,10 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id413008401</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="M. Minuci Felicis Octavius">
+        <relatedItem type="constituent" otherType="work" displayLabel="Octavius">
             <identifier type="ctsurn">urn:cts:latinLit:stoa0203.stoa001</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="M. Minuci Felicis Octavius">
+                displayLabel="Octavius">
                 <identifier type="ctsurn">urn:cts:latinLit:stoa0203.stoa001.opp-lat4</identifier>
             </relatedItem>
         </relatedItem>
@@ -55076,7 +55066,7 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
-        <relatedItem type="constituent" otherType="work" displayLabel="Odes">
+        <relatedItem type="constituent" otherType="work" displayLabel="Carmina">
             <identifier type="ctsurn">urn:cts:latinLit:phi0893.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Odes">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0893.phi001.perseus-eng1</identifier>
@@ -55143,9 +55133,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id413088227</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Homeri Odyssea">
+        <relatedItem type="constituent" otherType="work" displayLabel="Odyssey">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0012.tlg002</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Homeri Odyssea">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Odyssey">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0012.tlg002.opp-grc4</identifier>
             </relatedItem>
         </relatedItem>
@@ -55705,9 +55695,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id416065015</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Économique">
+        <relatedItem type="constituent" otherType="work" displayLabel="Oeconomica">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg029</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Économique">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Oeconomica">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg029.opp-grc2</identifier>
             </relatedItem>
         </relatedItem>
@@ -55764,9 +55754,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id416078117</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Économique">
+        <relatedItem type="constituent" otherType="work" displayLabel="Oeconomica">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg003</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Économique">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Oeconomica">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg003.opp-grc4</identifier>
             </relatedItem>
         </relatedItem>
@@ -55834,10 +55824,10 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id413834239</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Sophoclis Oedipus rex">
+        <relatedItem type="constituent" otherType="work" displayLabel="Oedipus rex">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0011.tlg004</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="Sophoclis Oedipus rex">
+                displayLabel="Oedipus rex">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0011.tlg004.opp-grc4</identifier>
             </relatedItem>
         </relatedItem>
@@ -56025,10 +56015,10 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id403855756</url>
         </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Onirocriticon libri V">
+        <relatedItem type="constituent" otherType="work" displayLabel="Onirocriticon">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0553.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="Onirocriticon libri V">
+                displayLabel="Onirocriticon">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0553.tlg001.opp-grc2</identifier>
             </relatedItem>
         </relatedItem>

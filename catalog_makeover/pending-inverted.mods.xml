@@ -3,12 +3,21 @@
 <!-- Pulled all reference works-->
 <modsCollection xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.loc.gov/mods/v3">
 
-    <mods displayLabel="Constantinus Magnus-Opera-Patrologia Latina-Volume 8">
+    <mods displayLabel="Opera-Constantinus Magnus et al.-Patrologia Latina-Volume 8">
         <titleInfo>
             <title>Opera quæ exstant universa Constantini Magni, Victorini necnon et Nazarii,
                 anonymi, s. Silvestri papæ, s. marci papæ, s. Julii papæ, Osii Cordubensis, Candidi
                 Ariani, Liberii papæ, et Potamii</title>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/97746098">
+            <namePart>Constantine I</namePart>
+            <namePart type="termsOfAddress">Emperor of Rome</namePart>
+            <namePart type="date">-337</namePart>
+            <role>
+                <roleTerm type="text">creator</roleTerm>
+            </role>
+        </name>
         <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/64009375">
             <namePart>Migne, Jacques Paul</namePart>
@@ -60,412 +69,214 @@
             </titleInfo>
         </relatedItem>
         <relatedItem type="constituent" otherType="work" displayLabel="Decreta et Constitutiones">
-            <titleInfo>
-                <title>Decreta et Constitutiones</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/97746098">
-                <namePart>Constantine I</namePart>
-                <namePart type="termsOfAddress">Emperor of Rome</namePart>
-                <namePart type="date">-337</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0098-stoa009</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>93</start>
-                    <end>400</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=54</url>
-            </location>
-
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0098.stoa009</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Decreta et Constitutiones">
+                <identifier type="stoa author-text">stoa0098-stoa009</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>93</start>
+                        <end>400</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=54</url>
+                </location>
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Ad Synodum in Palatio Habitam Oratio de Pace">
-            <titleInfo>
-                <title>Ad Synodum in Palatio Habitam Oratio de Pace</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/97746098">
-                <namePart>Constantine I</namePart>
-                <namePart type="termsOfAddress">Emperor of Rome</namePart>
-                <namePart type="date">-337</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0098-stoa010</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>399</start>
-                    <end>402</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=206</url>
-            </location>
-
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0098.stoa010</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Ad Synodum 
+                in Palatio Habitam Oratio de Pace">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0098.stoa010.opp-lat1</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>399</start>
+                        <end>402</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=206</url>
+                </location>
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work" displayLabel="Oratio ad Sanctorum Coetum">
-            <titleInfo>
-                <title>Oratio ad Sanctorum Coetum</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/97746098">
-                <namePart>Constantine I</namePart>
-                <namePart type="termsOfAddress">Emperor of Rome</namePart>
-                <namePart type="date">-337</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0098-stoa011</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>401</start>
-                    <end>478</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=206</url>
-            </location>
-
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0098.stoa011</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Oratio ad Sanctorum Coetum">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0098.stoa011.opp-lat1</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>401</start>
+                        <end>478</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=206</url>
+                </location>
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work" displayLabel="Epistulae">
-            <titleInfo>
-                <title>Epistulae</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/97746098">
-                <namePart>Constantine I</namePart>
-                <namePart type="termsOfAddress">Emperor of Rome</namePart>
-                <namePart type="date">-337</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0098-stoa001a</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>477</start>
-                    <end>566</end>
-                </extent>
-            </part>
-            <tableOfContents/>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=244</url>
-            </location>
-
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0098.stoa001a</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Epistulae">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0098.stoa001a.opp-lat1</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>477</start>
+                        <end>566</end>
+                    </extent>
+                </part>
+                <tableOfContents/>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=244</url>
+                </location>
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Panegyricus Constantino Augusto Dictus">
-            <titleInfo>
-                <title>Panegyricus Constantino Augusto Dictus</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/54537249/">
-                <namePart>Nazarius</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0208a-stoa001</identifier>
-            <identifier type="ctsurn">urn:cts:latinLit:stoa0208.stoa001.opp-lat2</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>581</start>
-                    <end>608</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=296</url>
-            </location>
-
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0208.stoa001</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Panegyricus Constantino Augusto Dictus">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0208.stoa001.opp-lat2</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>581</start>
+                        <end>608</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=296</url>
+                </location>
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Panegyricus Maximiano et Constantino Dictus [Incertus]">
-            <titleInfo>
-                <title>Panegyricus Maximiano et Constantino Dictus [Incertus]</title>
-            </titleInfo>
-            <name type="personal">
-                <namePart>Incerti</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="ctsurn">urn:cts:latinLit:stoa0353.stoa001.opp-lat2</identifier>
-            <identifier type="stoa author-text">stoa0353-stoa001</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>609</start>
-                    <end>620</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=310</url>
-            </location>
-
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0353.stoa001</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Panegyricus Maximiano et Constantino Dictus [Incertus]">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0353.stoa001.opp-lat2</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>609</start>
+                        <end>620</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=310</url>
+                </location>
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Panegyrico Constantino Augusto">
-            <titleInfo>
-                <title>Panegyrico Constantino Augusto</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/34801256/">
-                <namePart>Eumenius</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="ctsurn">urn:cts:latinLit:stoa0120a.stoa002.opp-lat2</identifier>
-            <identifier type="stoa author-text">stoa0120a-stoa002</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>619</start>
-                    <end>642</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=316</url>
-            </location>
-
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0120a.stoa002</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Panegyrico Constantino Augusto">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa120a.stoa002.opp-lat2</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>619</start>
+                        <end>642</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=316</url>
+                </location>
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Gratiarum Actio Constantino Augusto Flaviensium Nomine">
-            <titleInfo>
-                <title>Gratiarum Actio Constantino Augusto Flaviensium Nomine</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/34801256/">
-                <namePart>Eumenius</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="ctsurn">urn:cts:latinLit:stoa0120a.stoa001.opp-lat2</identifier>
-            <identifier type="stoa author-text">stoa0120a-stoa001</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>641</start>
-                    <end>654</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=326</url>
-            </location>
-
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0120a.stoa002</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Gratiarum Actio Constantino
+                Augusto Flaviensium Nomine">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0120a.stoa001.opp-lat2</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>641</start>
+                        <end>654</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=326</url>
+                </location>
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Incerti Panegyricus Constantino Augusto">
-            <titleInfo>
-                <title>Incerti Panegyricus Constantino Augusto</title>
-            </titleInfo>
-            <name type="personal">
-                <namePart>Incerti</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="ctsurn">urn:cts:latinLit:stoa0353.stoa002.opp-lat2</identifier>
-            <identifier type="stoa author-text">stoa0353-stoa002</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>653</start>
-                    <end>672</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=332</url>
-            </location>
-
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0353.stoa002</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Panegyricus Maximiano et Constantino Dictus [Incertus]">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0353.stoa002.opp-lat2</identifier>
+                <name type="personal">
+                    <namePart>Incerti</namePart>
+                    <role>
+                        <roleTerm type="text">creator</roleTerm>
+                    </role>
+                </name>
+                <part>
+                    <extent unit="columns">
+                        <start>653</start>
+                        <end>672</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=332</url>
+                </location>
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-            <titleInfo>
-                <title>Fragmenta</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/85181438">
-                <namePart>Sylvester I</namePart>
-                <namePart type="termsOfAddress">Pope</namePart>
-                <namePart type="date">-335</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0263c-stoa002</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>814</start>
-                    <end>814</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=412</url>
-            </location>
-
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0263c.stoa002</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0263c.stoa002.opp-lat1</identifier>
+                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                    valueURI="http://viaf.org/viaf/85181438">
+                    <namePart>Sylvester I</namePart>
+                    <namePart type="termsOfAddress">Pope</namePart>
+                    <namePart type="date">-335</namePart>
+                    <role>
+                        <roleTerm type="text">creator</roleTerm>
+                    </role>
+                </name>
+                <part>
+                    <extent unit="columns">
+                        <start>814</start>
+                        <end>814</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=412</url>
+                </location>
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Varia Dubiae Auctoritatis Scripta">
-            <titleInfo>
-                <title>Varia Dubiae Auctoritatis Scripta</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/85181438">
-                <namePart>Sylvester I</namePart>
-                <namePart type="termsOfAddress">Pope</namePart>
-                <namePart type="date">-335</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0263c-stoa003</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>819</start>
-                    <end>830</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=416</url>
-            </location>
-
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0263c.stoa003</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Varia Dubiae Auctoritatis Scripta">
+                <identifier type="ctsurn">stoa0263c.stoa003.opp-lat2</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>819</start>
+                        <end>830</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=416</url>
+                </location>
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Canon vel Constitutio 'Qualiter Ecclesiastici Gradus Custodiantur'">
@@ -481,17 +292,6 @@
                     <roleTerm type="text">creator</roleTerm>
                 </role>
             </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
             <identifier type="stoa author-text">stoa0263c-stoa001</identifier>
             <part>
                 <extent unit="columns">
@@ -518,17 +318,7 @@
                     <roleTerm type="text">creator</roleTerm>
                 </role>
             </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
+
             <identifier type="stoa author-text">stoa0191b-stoa002</identifier>
             <part>
                 <extent unit="columns">
@@ -555,17 +345,6 @@
                     <roleTerm type="text">creator</roleTerm>
                 </role>
             </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
             <identifier type="stoa author-text">stoa0191b-stoa001</identifier>
             <part>
                 <extent unit="columns">
@@ -592,17 +371,6 @@
                     <roleTerm type="text">creator</roleTerm>
                 </role>
             </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
             <identifier type="stoa author-text">stoa0166c-stoa011</identifier>
             <part>
                 <extent unit="columns">
@@ -629,17 +397,6 @@
                     <roleTerm type="text">creator</roleTerm>
                 </role>
             </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
             <identifier type="stoa author-text">stoa0166c-stoa003</identifier>
             <part>
                 <extent unit="columns">
@@ -667,17 +424,6 @@
                     <roleTerm type="text">creator</roleTerm>
                 </role>
             </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
             <identifier type="stoa author-text">stoa0166c-stoa004</identifier>
             <part>
                 <extent unit="columns">
@@ -703,17 +449,6 @@
                     <roleTerm type="text">creator</roleTerm>
                 </role>
             </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
             <identifier type="stoa author-text">stoa0284a-stoa001</identifier>
             <part>
                 <extent unit="columns">
@@ -741,17 +476,6 @@
                     <roleTerm type="text">creator</roleTerm>
                 </role>
             </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
             <identifier type="stoa author-text">stoa0166c-stoa010</identifier>
             <part>
                 <extent unit="columns">
@@ -783,18 +507,7 @@
                     <roleTerm type="text">creator</roleTerm>
                 </role>
             </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
             <tableOfContents>Epistola Marcellii Ancyrani ad SS Julium I Papam</tableOfContents>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
             <identifier type="ctsurn">urn:cts:greekLit:tlg2041.tlg001.opp-lat1</identifier>
             <identifier type="tlg" displayLabel="isTranslationOf">2041.001</identifier>
             <part>
@@ -823,17 +536,6 @@
                     <roleTerm type="text">creator</roleTerm>
                 </role>
             </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
             <identifier type="stoa author-text">stoa0166c-stoa013</identifier>
             <part>
                 <extent unit="columns">
@@ -861,17 +563,6 @@
                     <roleTerm type="text">creator</roleTerm>
                 </role>
             </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
             <identifier type="stoa author-text">stoa0166c-stoa014</identifier>
             <part>
                 <extent unit="columns">
@@ -899,17 +590,7 @@
                     <roleTerm type="text">creator</roleTerm>
                 </role>
             </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
+
             <identifier type="stoa author-text">stoa0166c-stoa001</identifier>
             <part>
                 <extent unit="columns">
@@ -5851,7 +5532,7 @@
 
         </relatedItem>
     </mods>
-    
+
 
 
     <mods displayLabel="Minorum Patrum-Patrologia Latina 3-1844">
