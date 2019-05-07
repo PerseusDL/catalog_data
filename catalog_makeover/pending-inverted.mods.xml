@@ -18,6 +18,51 @@
                 <roleTerm type="text">creator</roleTerm>
             </role>
         </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/54537249/">
+            <namePart>Nazarius</namePart>
+            <namePart type="termsOfAddress">Rhetor</namePart>
+            <namePart type="date">um 321 n. Chr.</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/34801256/">
+            <namePart>Eumenius</namePart>
+            <namePart type="termsOfAddress">Panegyricus</namePart>
+            <namePart type="date">fl. um 300</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">attributed author</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/85181438">
+            <namePart>Sylvester I</namePart>
+            <namePart type="termsOfAddress">Pope</namePart>
+            <namePart type="date">-335</namePart>
+            <role>
+                <roleTerm type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/63537794">
+            <namePart>Mark</namePart>
+            <namePart type="termsOfAddress">Pope</namePart>
+            <namePart type="date">-336</namePart>
+            <role>
+                <roleTerm type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/67271093">
+            <namePart>Julius I</namePart>
+            <namePart type="termsOfAddress">Pope</namePart>
+            <namePart type="date">-352</namePart>
+            <role>
+                <roleTerm type="text">creator</roleTerm>
+            </role>
+        </name>
         <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/64009375">
             <namePart>Migne, Jacques Paul</namePart>
@@ -194,7 +239,7 @@
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Gratiarum Actio Constantino Augusto Flaviensium Nomine">
-            <identifier type="ctsurn">urn:cts:latinLit:stoa0120a.stoa002</identifier>
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0120a.stoa001</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Gratiarum Actio Constantino
                 Augusto Flaviensium Nomine">
@@ -217,12 +262,6 @@
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Panegyricus Maximiano et Constantino Dictus [Incertus]">
                 <identifier type="ctsurn">urn:cts:latinLit:stoa0353.stoa002.opp-lat2</identifier>
-                <name type="personal">
-                    <namePart>Incerti</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
                 <part>
                     <extent unit="columns">
                         <start>653</start>
@@ -265,7 +304,7 @@
             <identifier type="ctsurn">urn:cts:latinLit:stoa0263c.stoa003</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Varia Dubiae Auctoritatis Scripta">
-                <identifier type="ctsurn">stoa0263c.stoa003.opp-lat2</identifier>
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0263c.stoa003.opp-lat1</identifier>
                 <part>
                     <extent unit="columns">
                         <start>819</start>
@@ -280,35 +319,26 @@
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Canon vel Constitutio 'Qualiter Ecclesiastici Gradus Custodiantur'">
-            <titleInfo>
-                <title>Canon vel Constitutio 'Qualiter Ecclesiastici Gradus Custodiantur'</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/85181438">
-                <namePart>Sylvester I</namePart>
-                <namePart type="termsOfAddress">Pope</namePart>
-                <namePart type="date">-335</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <identifier type="stoa author-text">stoa0263c-stoa001</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>829</start>
-                    <end>848</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=420</url>
-            </location>
-
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0263c.stoa001</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Canon vel Constitutio 'Qualiter Ecclesiastici Gradus Custodiantur">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0263c.stoa001.opp-lat1</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>829</start>
+                        <end>848</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=420</url>
+                </location>
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work" displayLabel="Vita Operaque [Ex Labbaeo]">
-            <titleInfo>
-                <title>Vita Operaque [Ex Labbaeo]</title>
-            </titleInfo>
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0191b.stoa002</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Vita Operaque [Ex Labbaeo]">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0191b.stoa002.opp-lat1</identifier>
             <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                 valueURI="http://viaf.org/viaf/63537794">
                 <namePart>Mark</namePart>
@@ -318,8 +348,6 @@
                     <roleTerm type="text">creator</roleTerm>
                 </role>
             </name>
-
-            <identifier type="stoa author-text">stoa0191b-stoa002</identifier>
             <part>
                 <extent unit="columns">
                     <start>849</start>
@@ -330,22 +358,12 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=430</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work" displayLabel="Scripta Dubiae Auctoritatis">
-            <titleInfo>
-                <title>Scripta Dubiae Auctoritatis</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/63537794">
-                <namePart>Mark</namePart>
-                <namePart type="termsOfAddress">Pope</namePart>
-                <namePart type="date">-336</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <identifier type="stoa author-text">stoa0191b-stoa001</identifier>
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0191b.stoa001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Scripta Dubiae Auctoritatis">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0191b.stoa001.opp-lat1</identifier>
             <part>
                 <extent unit="columns">
                     <start>851</start>
@@ -356,12 +374,12 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=432</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work" displayLabel="Monumenta Genuina">
-            <titleInfo>
-                <title>Monumenta Genuina</title>
-            </titleInfo>
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0166c.stoa011</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Monumenta Genuina">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0166c.stoa011.opp-lat1</identifier>
             <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                 valueURI="http://viaf.org/viaf/67271093">
                 <namePart>Julius I</namePart>
@@ -382,22 +400,12 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=442</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work" displayLabel="Epistola ad Antiochenos">
-            <titleInfo>
-                <title>Epistola ad Antiochenos</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/67271093">
-                <namePart>Julius I</namePart>
-                <namePart type="termsOfAddress">Pope</namePart>
-                <namePart type="date">-352</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <identifier type="stoa author-text">stoa0166c-stoa003</identifier>
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0166c.stoa003</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Epistola ad Antiochenos">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0166c.stoa003.opp-lat1</identifier>
             <part>
                 <extent unit="columns">
                     <start>879</start>
@@ -408,23 +416,13 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=446</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Epistola ad Presbyteros. Diaconos et Popolum Alexandriae">
-            <titleInfo>
-                <title>Epistola ad Presbyteros. Diaconos et Popolum Alexandriae</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/67271093">
-                <namePart>Julius I</namePart>
-                <namePart type="termsOfAddress">Pope</namePart>
-                <namePart type="date">-352</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <identifier type="stoa author-text">stoa0166c-stoa004</identifier>
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0166c.stoa004</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Epistola ad Presbyteros. Diaconos et Popolum Alexandriae">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0166c.stoa004.opp-lat1</identifier>     
             <part>
                 <extent unit="columns">
                     <start>907</start>
@@ -435,13 +433,13 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=460</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Epistola Valentis et Ursacii ad Julium Papam">
-            <titleInfo>
-                <title>Epistola Valentis et Ursacii ad Julium Papam</title>
-            </titleInfo>
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0284a.stoa001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Epistola Valentis et Ursacii ad Julium Papam">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0284a.stoa001.opp-lat1</identifier>
             <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                 valueURI="http://viaf.org/viaf/44693035">
                 <namePart>Valens Mursiensis</namePart>
@@ -449,7 +447,6 @@
                     <roleTerm type="text">creator</roleTerm>
                 </role>
             </name>
-            <identifier type="stoa author-text">stoa0284a-stoa001</identifier>
             <part>
                 <extent unit="columns">
                     <start>911</start>
@@ -460,23 +457,13 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=462</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Monitum in Epistolam Marcellii Ancyrani ad Julium Papam">
-            <titleInfo>
-                <title>Monitum in Epistolam Marcellii Ancyrani ad Julium Papam</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/67271093">
-                <namePart>Julius I</namePart>
-                <namePart type="termsOfAddress">Pope</namePart>
-                <namePart type="date">-352</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <identifier type="stoa author-text">stoa0166c-stoa010</identifier>
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0166c.stoa010</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Monitum in Epistolam Marcellii Ancyrani ad Julium Papam">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0166c.stoa010.opp-lat1</identifier>
             <part>
                 <extent unit="columns">
                     <start>913</start>
@@ -487,12 +474,12 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=462</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-            <titleInfo type="uniform">
-                <title>Fragmenta</title>
-            </titleInfo>
+            <identifier type="ctsurn">urn:cts:greekLit:tlg2041.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2041.tlg001.opp-lat1</identifier>
             <titleInfo>
                 <title>Fragmenta</title>
                 <partNumber>129</partNumber>
@@ -508,8 +495,6 @@
                 </role>
             </name>
             <tableOfContents>Epistola Marcellii Ancyrani ad SS Julium I Papam</tableOfContents>
-            <identifier type="ctsurn">urn:cts:greekLit:tlg2041.tlg001.opp-lat1</identifier>
-            <identifier type="tlg" displayLabel="isTranslationOf">2041.001</identifier>
             <part>
                 <extent unit="columns">
                     <start>915</start>
@@ -520,23 +505,13 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=464</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Epistola Synodi Sardiniacensis ad SS Julium I Papam">
-            <titleInfo>
-                <title>Epistola Synodi Sardiniacensis ad SS Julium I Papam</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/67271093">
-                <namePart>Julius I</namePart>
-                <namePart type="termsOfAddress">Pope</namePart>
-                <namePart type="date">-352</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <identifier type="stoa author-text">stoa0166c-stoa013</identifier>
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0166c.stoa013</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Epistola Synodi Sardiniacensis ad SS Julium I Papam">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0166c.stoa013.opp-lat1</identifier>
             <part>
                 <extent unit="columns">
                     <start>919</start>
@@ -547,23 +522,13 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=466</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Epistola Synodi Sardiniacensis ad SS Julium I Papam [ex Hilario]">
-            <titleInfo>
-                <title>Epistola Synodi Sardiniacensis ad SS Julium I Papam [ex Hilario]</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/67271093">
-                <namePart>Julius I</namePart>
-                <namePart type="termsOfAddress">Pope</namePart>
-                <namePart type="date">-352</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <identifier type="stoa author-text">stoa0166c-stoa014</identifier>
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0166c.stoa014</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Epistola Synodi Sardiniacensis ad SS Julium I Papam [ex Hilario]">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0166c.stoa014.opp-lat1</identifier>
             <part>
                 <extent unit="columns">
                     <start>922</start>
@@ -574,24 +539,13 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=466</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Admonitio in Epistolam Julii ad Dionysium Alexandrinum">
-            <titleInfo>
-                <title>Admonitio in Epistolam Julii ad Dionysium Alexandrinum</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/67271093">
-                <namePart>Julius I</namePart>
-                <namePart type="termsOfAddress">Pope</namePart>
-                <namePart type="date">-352</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-
-            <identifier type="stoa author-text">stoa0166c-stoa001</identifier>
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0166c.stoa001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Admonitio in Epistolam Julii ad Dionysium Alexandrinum">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0166c.stoa001.opp-lat1</identifier>
             <part>
                 <extent unit="columns">
                     <start>925</start>
@@ -602,34 +556,13 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=468</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Epistola Juli Episcopi Romani ad Dionysium Alexandrinum Episcopum">
-            <titleInfo>
-                <title>Epistola Juli Episcopi Romani ad Dionysium Alexandrinum Episcopum</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/67271093">
-                <namePart>Julius I</namePart>
-                <namePart type="termsOfAddress">Pope</namePart>
-                <namePart type="date">-352</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0166c-stoa007</identifier>
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0166c.stoa007</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Epistola Juli Episcopi Romani ad Dionysium Alexandrinum Episcopum">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0166c.stoa007.opp-lat1</identifier>
             <part>
                 <extent unit="columns">
                     <start>929</start>
@@ -640,33 +573,12 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=470</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work" displayLabel="Epistolae Ejusdem">
-            <titleInfo>
-                <title>Epistolae Ejusdem</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/67271093">
-                <namePart>Julius I</namePart>
-                <namePart type="termsOfAddress">Pope</namePart>
-                <namePart type="date">-352</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0166c-stoa008</identifier>
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0166c.stoa008</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Epistolae Ejusdem">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0166c.stoa008.opp-lat1</identifier>
             <part>
                 <extent unit="columns">
                     <start>937</start>
@@ -677,34 +589,13 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=474</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Fragmenta Scriptorum SS Juliii I">
-            <titleInfo>
-                <title>Fragmenta Scriptorum SS Juliii I</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/67271093">
-                <namePart>Julius I</namePart>
-                <namePart type="termsOfAddress">Pope</namePart>
-                <namePart type="date">-352</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0166c-stoa009</identifier>
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0166c.stoa009</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta Scriptorum SS Juliii I">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0166c.stoa009.opp-lat1</identifier>
             <part>
                 <extent unit="columns">
                     <start>961</start>
@@ -715,34 +606,13 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=486</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Decreta Decem Juxta Gratianum et Ivonem">
-            <titleInfo>
-                <title>Decreta Decem Juxta Gratianum et Ivonem</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/67271093">
-                <namePart>Julius I</namePart>
-                <namePart type="termsOfAddress">Pope</namePart>
-                <namePart type="date">-352</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0166c-stoa002</identifier>
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0166c.stoa002</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Decreta Decem Juxta Gratianum et Ivonem">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0166c.stoa002.opp-lat1</identifier>
             <part>
                 <extent unit="columns">
                     <start>968</start>
@@ -753,34 +623,13 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=490</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Epistola Increpatoria ad Orientales Episcopos Pro Causis Athanasii">
-            <titleInfo>
-                <title>Epistola Increpatoria ad Orientales Episcopos Pro Causis Athanasii</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/67271093">
-                <namePart>Julius I</namePart>
-                <namePart type="termsOfAddress">Pope</namePart>
-                <namePart type="date">-352</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0166c-stoa006</identifier>
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0166c.stoa006</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Epistola Increpatoria ad Orientales Episcopos Pro Causis Athanasii">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0166c.stoa006.opp-lat1</identifier>
             <part>
                 <extent unit="columns">
                     <start>971</start>
@@ -791,34 +640,13 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=492</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Epistola Orientalium ad SS Julium I Papam">
-            <titleInfo>
-                <title>Epistola Orientalium ad SS Julium I Papam</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/67271093">
-                <namePart>Julius I</namePart>
-                <namePart type="termsOfAddress">Pope</namePart>
-                <namePart type="date">-352</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0166c-stoa012</identifier>
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0166c.stoa012</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Epistola Orientalium ad SS Julium I Papam">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0166c.stoa012.opp-lat1</identifier>
             <part>
                 <extent unit="columns">
                     <start>977</start>
@@ -829,33 +657,14 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=494</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
+       <!-- LEFT OFF HERE -->
         <relatedItem type="constituent" otherType="work"
             displayLabel="Epistola II Contra Orientales Pro Athanasio">
-            <titleInfo>
-                <title>Epistola II Contra Orientales Pro Athanasio</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/67271093">
-                <namePart>Julius I</namePart>
-                <namePart type="termsOfAddress">Pope</namePart>
-                <namePart type="date">-352</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
+            <identifier type="ctsurn">urn:cts:latinLit:</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="">
+                <identifier type="ctsurn"></identifier>
             <identifier type="stoa author-text">stoa0166c-stoa005</identifier>
             <part>
                 <extent unit="columns">
@@ -867,13 +676,13 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=496</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Ad Justinum Manichaeum Contra Duo Principia Manichaeorum">
-            <titleInfo>
-                <title>Ad Justinum Manichaeum Contra Duo Principia Manichaeorum</title>
-            </titleInfo>
+            <identifier type="ctsurn">urn:cts:latinLit:</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="">
+                <identifier type="ctsurn"></identifier>
             <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                 valueURI="http://viaf.org/viaf/89512766">
                 <namePart>Victorinus, Marius</namePart>
@@ -881,17 +690,6 @@
                     <roleTerm type="text">creator</roleTerm>
                 </role>
             </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
             <identifier type="stoa author-text">stoa0292a-stoa005</identifier>
             <part>
                 <extent unit="columns">
@@ -903,30 +701,12 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=506</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work" displayLabel="De Verbis Scripturae">
-            <titleInfo>
-                <title>De Verbis Scripturae</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/89512766">
-                <namePart>Victorinus, Marius</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
+            <identifier type="ctsurn">urn:cts:latinLit:</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="">
+                <identifier type="ctsurn"></identifier>
             <identifier type="stoa author-text">stoa0292a-stoa012</identifier>
             <part>
                 <extent unit="columns">
@@ -938,7 +718,7 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/uc1.c2686107?urlappend=%3Bseq=510</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work" displayLabel="De Generatione Divina">
             <titleInfo>
