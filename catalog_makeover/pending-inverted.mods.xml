@@ -8,6 +8,49 @@
                 omnia</title>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/10651254">
+            <namePart>Felix I</namePart>
+            <namePart type="termsOfAddress">Papst</namePart>
+            <role>
+                <roleTerm type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/102316252">
+            <namePart>Faustinus</namePart>
+            <namePart type="termsOfAddress">Presbyter</namePart>
+            <namePart type="date">active 4th century</namePart>
+            <role>
+                <roleTerm type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/267405622">
+            <namePart>Damasus I</namePart>
+            <namePart type="termsOfAddress">Pope</namePart>
+            <namePart type="date">305-384</namePart>
+            <role>
+                <roleTerm type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/282639091">
+            <namePart>Victorius, Aquitanus</namePart>
+            <namePart type="date">active 5th century</namePart>
+            <role>
+                <roleTerm type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/47559379/">
+            <namePart>Pacatus Drepanius,</namePart>
+            <namePart type="termsOfAddress">Latinus</namePart>
+            <namePart type="date">active 4th century</namePart>
+            <role>
+                <roleTerm type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/64009375">
             <namePart>Migne, Jacques Paul</namePart>
             <namePart type="date">1800-1875</namePart>
@@ -54,19 +97,18 @@
             </titleInfo>
         </relatedItem>
         <relatedItem type="constituent" otherType="work" displayLabel="Epistolae Et Decreta">
-            <identifier type="ctsurn">urn:cts:latinLit:stoa</identifier>
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0121i.stoa003</identifier>
+            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                valueURI="http://viaf.org/viaf/10651254">
+                <namePart>Felix I</namePart>
+                <namePart type="termsOfAddress">Papst</namePart>
+                <role>
+                    <roleTerm type="text">creator</roleTerm>
+                </role>
+            </name>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Epistolae Et Decreta">
-                <identifier type="ctsurn">urn:cts:latinLit:stoa</identifier>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/10651254">
-                    <namePart>Felix I</namePart>
-                    <namePart type="termsOfAddress">Papst</namePart>
-                    <role>
-                        <roleTerm type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <identifier type="stoa author-text">stoa0121i-stoa003</identifier>
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0121i.stoa003.opp-lat1</identifier>
                 <part>
                     <extent unit="columns">
                         <start>11</start>
@@ -81,9 +123,7 @@
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="De Trinitate Sive De Fide Contra Arianos. Ad Gallam Placidiam">
-            <titleInfo>
-                <title>De Trinitate Sive De Fide Contra Arianos. Ad Gallam Placidiam</title>
-            </titleInfo>
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0121h.stoa002</identifier>
             <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                 valueURI="http://viaf.org/viaf/102316252">
                 <namePart>Faustinus</namePart>
@@ -93,53 +133,42 @@
                     <roleTerm type="text">creator</roleTerm>
                 </role>
             </name>
-            <identifier type="stoa author-text">stoa0121h-stoa002</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>37</start>
-                    <end>80</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/umn.319510024773072?urlappend=%3Bseq=26</url>
-            </location>
-
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="De Trinitate Sive De Fide Contra Arianos. Ad Gallam Placidiam">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0121h.stoa002.opp-lat1</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>37</start>
+                        <end>80</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/umn.319510024773072?urlappend=%3Bseq=26</url>
+                </location>
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="In Codicem Canonum Et Constitutorum Eccleasiae Romanae Recepta">
-            <titleInfo>
-                <title>In Codicem Canonum Et Constitutorum Eccleasiae Romanae Recepta</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/102316252">
-                <namePart>Faustinus</namePart>
-                <namePart type="termsOfAddress">Presbyter</namePart>
-                <namePart type="date">active 4th century</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0121h-stoa003</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>79</start>
-                    <end>80</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/umn.319510024773072?urlappend=%3Bseq=48</url>
-            </location>
-
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0121h.stoa003</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="In Codicem Canonum Et Constitutorum 
+                Eccleasiae Romanae Recepta">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0121h.stoa003.opp-lat1</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>79</start>
+                        <end>80</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/umn.319510024773072?urlappend=%3Bseq=48</url>
+                </location>
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work" displayLabel="Diatribae Duae">
-            <titleInfo>
-                <title>Diatribae Duae</title>
-            </titleInfo>
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0105.stoa007</identifier>
             <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                 valueURI="http://viaf.org/viaf/267405622">
                 <namePart>Damasus I</namePart>
@@ -149,38 +178,24 @@
                     <roleTerm type="text">creator</roleTerm>
                 </role>
             </name>
-
-
-            <identifier type="stoa author-text">stoa0105-stoa007</identifier>
-            <part>
-                <extent unit="columns">
-                    <start>281</start>
-                    <end>348</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >http://hdl.handle.net/2027/umn.319510024773072?urlappend=%3Bseq=148</url>
-            </location>
-
+            <relatedItem type="constituent" otherType="expression" displayLabel="Diatribae Duae">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0105.stoa007.opp-lat1</identifier>
+                <part>
+                    <extent unit="columns">
+                        <start>281</start>
+                        <end>348</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/umn.319510024773072?urlappend=%3Bseq=148</url>
+                </location>
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work" displayLabel="Epistolae">
-            <titleInfo>
-                <title>Epistolae</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/267405622">
-                <namePart>Damasus I</namePart>
-                <namePart type="termsOfAddress">Pope</namePart>
-                <namePart type="date">305-384</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0105-stoa008</identifier>
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0105.stoa008</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Epistolae">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0105.stoa008.opp-lat1</identifier>
             <part>
                 <extent unit="columns">
                     <start>347</start>
@@ -191,33 +206,12 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/umn.319510024773072?urlappend=%3Bseq=182</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work" displayLabel="De Explanatione Fidei">
-            <titleInfo>
-                <title>De Explanatione Fidei</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/267405622">
-                <namePart>Damasus I</namePart>
-                <namePart type="termsOfAddress">Pope</namePart>
-                <namePart type="date">305-384</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0105-stoa006</identifier>
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0105.stoa006</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="De Explanatione Fidei">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0105.stoa006.opp-lat1</identifier>
             <part>
                 <extent unit="columns">
                     <start>373</start>
@@ -228,31 +222,12 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/umn.319510024773072?urlappend=%3Bseq=194</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Carmina">
-            <titleInfo>
-                <title>Carmina</title>
-                <partNumber>Vol 1</partNumber>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/267405622">
-                <namePart>Damasus I</namePart>
-                <namePart type="termsOfAddress">Pope</namePart>
-                <namePart type="date">305-384</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <identifier type="stoa author-text">stoa0105-stoa004</identifier>
+        <relatedItem type="constituent" otherType="work" displayLabel="Carmina-Volume 1">
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0105.stoa004</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Carmina-Volume 1">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0105.stoa004.opp-lat1</identifier>
             <part>
                 <extent unit="columns">
                     <start>375</start>
@@ -263,34 +238,12 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/umn.319510024773072?urlappend=%3Bseq=196</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Carmina">
-            <titleInfo>
-                <title>Carmina</title>
-                <partNumber>Vol 2</partNumber>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/267405622">
-                <namePart>Damasus I</namePart>
-                <namePart type="termsOfAddress">Pope</namePart>
-                <namePart type="date">305-384</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0105-stoa005</identifier>
+        <relatedItem type="constituent" otherType="work" displayLabel="Carmina-Volume 2">
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0105.stoa005</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Carmina-Volume 2">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0105.stoa005.opp-lat1</identifier>                
             <part>
                 <extent unit="columns">
                     <start>413</start>
@@ -301,34 +254,13 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/umn.319510024773072?urlappend=%3Bseq=214</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work" displayLabel="Carmina Inedita">
-            <titleInfo>
-                <title>Carmina Inedita</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/267405622">
-                <namePart>Damasus I</namePart>
-                <namePart type="termsOfAddress">Pope</namePart>
-                <namePart type="date">305-384</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0105-stoa003</identifier>
-            <part>
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0105.stoa003</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Carmina-Inedita">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0105.stoa003.opp-lat1</identifier>                
+                <part>
                 <extent unit="columns">
                     <start>415</start>
                     <end>418</end>
@@ -338,33 +270,12 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/umn.319510024773072?urlappend=%3Bseq=216</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work" displayLabel="Addenda">
-            <titleInfo>
-                <title>Addenda</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/267405622">
-                <namePart>Damasus I</namePart>
-                <namePart type="termsOfAddress">Pope</namePart>
-                <namePart type="date">305-384</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0105-stoa002</identifier>
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0105.stoa002</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Addenda">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0105.stoa002.opp-lat1</identifier>                                
             <part>
                 <extent unit="columns">
                     <start>417</start>
@@ -375,33 +286,12 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/umn.319510024773072?urlappend=%3Bseq=216</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work" displayLabel="Opera Apocrypha">
-            <titleInfo>
-                <title>Opera Apocrypha</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/267405622">
-                <namePart>Damasus I</namePart>
-                <namePart type="termsOfAddress">Pope</namePart>
-                <namePart type="date">305-384</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0105-stoa009</identifier>
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0105.stoa009</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Opera Apocrypha">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0105.stoa009.opp-lat1</identifier>            
             <part>
                 <extent unit="columns">
                     <start>423</start>
@@ -412,13 +302,11 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/umn.319510024773072?urlappend=%3Bseq=220</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Catalogus Romanorum Pontificum [ex Canonem Paschalem]">
-            <titleInfo>
-                <title>Catalogus Romanorum Pontificum [ex Canonem Paschalem]</title>
-            </titleInfo>
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0292c.stoa002</identifier>
             <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                 valueURI="http://viaf.org/viaf/282639091">
                 <namePart>Victorius, Aquitanus</namePart>
@@ -426,19 +314,10 @@
                 <role>
                     <roleTerm type="text">creator</roleTerm>
                 </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/64009375">
-                <namePart>Migne, Jacques Paul</namePart>
-                <namePart type="date">1800-1875</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="stoa author-text">stoa0292c-stoa002</identifier>
+            </name>            
+            <relatedItem type="constituent" otherType="expression" 
+                displayLabel="Catalogus Romanorum Pontificum [ex Canonem Paschalem]">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0292c.stoa002.opp-lat1</identifier>           
             <part>
                 <extent unit="columns">
                     <start>441</start>
@@ -449,7 +328,7 @@
                 <url displayLabel="HathiTrust"
                     >http://hdl.handle.net/2027/umn.319510024773072?urlappend=%3Bseq=228</url>
             </location>
-
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Panegyricus Pacati Theodosio Magno dictum">
