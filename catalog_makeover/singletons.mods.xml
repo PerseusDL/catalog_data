@@ -4,7 +4,8 @@
     xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <!--Make sure have both authority and valueURI-->
     <!-- Add in HathiTrust links-->
-    <!-- Continue reviewing work names -->
+    <!-- Continue reviewing work names
+      Continued working to standardize volume encoding-->
     <mods displayLabel="Ab excessu divi Marci libri octo-Herodian-Bekker-Teubner-1855">
         <titleInfo>
             <title>Herodiani ab excessu divi Marci libri octo</title>
@@ -162,7 +163,7 @@
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Ab Urbe Condita-Livy-Church-Macmillan-1901">
+    <mods displayLabel="Ab Urbe Condita-Livy-Church-Macmillan-1901-Book 21,25">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Ab Urbe Condita</title>
         </titleInfo>
@@ -171,7 +172,29 @@
             <partNumber>Books XXI and XXV</partNumber>
             <partName>The Second Punic War</partName>
         </titleInfo>
-        <identifier type="oclc">0534525</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/76310470/">
+            <namePart>Livy</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/45233331/">
+            <namePart>Church, Alfred John</namePart>
+            <namePart type="date">1829-1912</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/76716202/">
+            <namePart>Brodribb, William Jackson</namePart>
+            <namePart type="date">1829-1905</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -196,6 +219,8 @@
                 John Church ... and William Jackson Brodribb </note>
         </physicalDescription>
         <classification authority="lcc">PA6453</classification>
+        <identifier type="oclc">0534525</identifier>
+
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/10534525</url>
         </location>
@@ -212,32 +237,9 @@
                 <title>Classical library</title>
             </titleInfo>
         </relatedItem>
-        <language>
+        <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/76310470/">
-            <namePart>Livy</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/45233331/">
-            <namePart>Church, Alfred John</namePart>
-            <namePart type="date">1829-1912</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/76716202/">
-            <namePart>Brodribb, William Jackson</namePart>
-            <namePart type="date">1829-1905</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <name authority="" type="personal">
                 <namePart>Hannibal</namePart>
@@ -268,7 +270,7 @@
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Ab Urbe Condita-Livy-Egbert-Macmillan-1913">
+    <mods displayLabel="Ab Urbe Condita-Livy-Egbert-Macmillan-1913-Book 21,22-30(Selections)">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Ab Urbe Condita</title>
         </titleInfo>
@@ -276,6 +278,22 @@
             <title>Livy, the second Punic war</title>
             <partNumber>book XXI and selections from books XXII-XXX</partNumber>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/76310470/">
+            <namePart>Livy</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/"
+            authorityURI="https://viaf.org/viaf/6545290/">
+            <namePart>Egbert, J. C. (James Chidester)</namePart>
+            <namePart type="date">1859-1948</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <identifier type="oclc">5096015</identifier>
         <identifier type="lccn">13015537</identifier>
         <typeOfResource>text</typeOfResource>
         <originInfo>
@@ -315,21 +333,6 @@
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/76310470/">
-            <namePart>Livy</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" valueURI="https://viaf.org/viaf/"
-            authorityURI="https://viaf.org/viaf/6545290/">
-            <namePart>Egbert, J. C. (James Chidester)</namePart>
-            <namePart type="date">1859-1948</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Punic War, 2nd, 218-201 B.C</topic>
         </subject>
@@ -348,7 +351,7 @@
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Ab Urbe Condita-Livy-Dimsdale-Pitt-1888">
+    <mods displayLabel="Ab Urbe Condita-Livy-Dimsdale-Pitt-1888-Book 21">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Ab Urbe Condita</title>
         </titleInfo>
@@ -360,7 +363,20 @@
             <title>Ab Urbe Condita</title>
             <partNumber>Liber XXI</partNumber>
         </titleInfo>
-        <identifier type="oclc">10728721</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/76310470/">
+            <namePart>Livy</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/15138239/">
+            <namePart>Dimsdale, Marcus S. (Marcus Southwell)</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -386,6 +402,7 @@
         </relatedItem>
         <classification authority="lcc">PA6452</classification>
         <classification authority="ddc">8701</classification>
+        <identifier type="oclc">10728721</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/10728721</url>
         </location>
@@ -396,24 +413,9 @@
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/iau.31858024197323</url>
         </location>
-
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/76310470/">
-            <namePart>Livy</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/15138239/">
-            <namePart>Dimsdale, Marcus S. (Marcus Southwell)</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <name type="personal">
                 <namePart>Hannibal</namePart>
@@ -443,7 +445,7 @@
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Ab Urbe Condita-Livy-Greenough/Peck-Ginn-1893">
+    <mods displayLabel="Ab Urbe Condita-Livy-Greenough/Peck-Ginn-1893-Book 21-22">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Ab Urbe Condita</title>
         </titleInfo>
@@ -456,7 +458,29 @@
             <title>Livy</title>
             <partNumber>Books XXI and XXII</partNumber>
         </titleInfo>
-        <identifier type="lccn">12036251</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/76310470/">
+            <namePart>Livy</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/39744457/">
+            <namePart>Greenough, J. B. (James Bradstreet)</namePart>
+            <namePart type="date">1833-1901</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf"
+            valueURI="http://viaf.org/viaf/89209230">
+            <namePart>Peck, Tracy</namePart>
+            <namePart type="date">1838-1921</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -483,6 +507,8 @@
                 <title>College series of Latin authors</title>
             </titleInfo>
         </relatedItem>
+        <identifier type="lccn">12036251</identifier>
+        <identifier type="oclc">8142032</identifier>
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/12036251</url>
         </location>
@@ -498,28 +524,6 @@
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/76310470/">
-            <namePart>Livy</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/39744457/">
-            <namePart>Greenough, J. B. (James Bradstreet)</namePart>
-            <namePart type="date">1833-1901</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/89209230">
-            <namePart>Peck, Tracy</namePart>
-            <namePart type="date">1838-1921</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <name authority="" type="personal">
                 <namePart>Hannibal</namePart>
@@ -544,7 +548,7 @@
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Ab Urbe Condita-Livy-Greenough-Ginn-1891 (1976 reprint)">
+    <mods displayLabel="Ab Urbe Condita-Livy-Greenough-Ginn-1891 (1976 reprint)-Book 1-2">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Ab Urbe Condita</title>
         </titleInfo>
@@ -557,7 +561,21 @@
             <title>Livy</title>
             <partNumber>Books I and II</partNumber>
         </titleInfo>
-        <identifier type="oclc">3806094</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/76310470/">
+            <namePart>Livy</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/39744457/">
+            <namePart>Greenough, J. B. (James Bradstreet)</namePart>
+            <namePart type="date">1833-1901</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -580,11 +598,12 @@
             <note>Reprint of the 1891 edition, published by Ginn, Boston.</note>
         </physicalDescription>
         <classification authority="lcc">PA6452</classification>
-        <relatedItem>
+        <relatedItem type="series">
             <titleInfo>
                 <title>College classical series</title>
             </titleInfo>
         </relatedItem>
+        <identifier type="oclc">3806094</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/3806094</url>
         </location>
@@ -594,21 +613,6 @@
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/76310470/">
-            <namePart>Livy</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/39744457/">
-            <namePart>Greenough, J. B. (James Bradstreet)</namePart>
-            <namePart type="date">1833-1901</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <geographic>Rome</geographic>
             <topic>History</topic>
@@ -628,7 +632,7 @@
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Ab Urbe Condita-Livy-OCT-Ogilvie-1974">
+    <mods displayLabel="Ab Urbe Condita-Livy-OCT-Ogilvie-1974-Book 1-4">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Ab Urbe Condita</title>
         </titleInfo>
@@ -642,9 +646,21 @@
             <partNumber>Tomus I</partNumber>
             <partNumber>Libri I-IV</partNumber>
         </titleInfo>
-        <identifier type="isbn">0198146612 (v.1)</identifier>
-        <identifier type="lccn">75582345</identifier>
-        <identifier type="oclc">1188312</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/76310470/">
+            <namePart>Livy</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/110076320/">
+            <namePart>Ogilvie, R. M. (Robert Maxwell)</namePart>
+            <namePart type="date">1932-1981</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -672,6 +688,10 @@
                 <title>Oxford Classical Texts</title>
             </titleInfo>
         </relatedItem>
+        <identifier type="isbn">0198146612 (v.1)</identifier>
+        <identifier type="lccn">75582345</identifier>
+        <identifier type="oclc">1188312</identifier>
+
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/75582345</url>
         </location>
@@ -681,21 +701,6 @@
         <language>
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/76310470/">
-            <namePart>Livy</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/110076320/">
-            <namePart>Ogilvie, R. M. (Robert Maxwell)</namePart>
-            <namePart type="date">1932-1981</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject>
             <geographicCode authority="marcgac">e-it---</geographicCode>
         </subject>
@@ -793,11 +798,11 @@
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Ab Urbe Condita">
             <identifier type="ctsurn">urn:cts:latinLit:phi0914.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Ab Urbe Condita">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0914.phi001.opp-lat16</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
-                    <part>
-                        <detail type="volume">
+                    <part type="volume">
+                        <detail>
                             <caption>Volume</caption>
                             <number>1</number>
                         </detail>
@@ -807,11 +812,11 @@
                         <dateIssued>1914</dateIssued>
                         <edition>Reprint</edition>
                     </originInfo>
-                    <location xmlns="http://www.loc.gov/mods/v3">
+                    <location>
                         <url displayLabel="GoogleBooks"
                             >http://books.google.com/books?id=nMs6AAAAIAAJ</url>
                     </location>
-                    <location xmlns="http://www.loc.gov/mods/v3">
+                    <location>
                         <url displayLabel="HathiTrust"
                             >http://hdl.handle.net/2027/osu.32435020574133</url>
                     </location>
@@ -825,8 +830,8 @@
                     </relatedItem>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
-                    <part>
-                        <detail type="volume">
+                    <part type="volume">
+                        <detail>
                             <caption>Volume</caption>
                             <number>2</number>
                         </detail>
@@ -836,11 +841,11 @@
                         <dateIssued>1919</dateIssued>
                         <edition>Reprint</edition>
                     </originInfo>
-                    <location xmlns="http://www.loc.gov/mods/v3">
+                    <location>
                         <url displayLabel="Open Content Alliance"
                             >http://www.archive.org/details/aburbeconditarec02Livyuoft</url>
                     </location>
-                    <location xmlns="http://www.loc.gov/mods/v3">
+                    <location>
                         <url displayLabel="HathiTrust"
                             >http://hdl.handle.net/2027/inu.30000054444769</url>
                     </location>
@@ -854,8 +859,8 @@
                     </relatedItem>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
-                    <part>
-                        <detail type="volume">
+                    <part type="volume">
+                        <detail>
                             <caption>Volume</caption>
                             <number>3</number>
                         </detail>
@@ -865,7 +870,7 @@
                         <dateIssued>1929</dateIssued>
                         <edition>Reprint</edition>
                     </originInfo>
-                    <location xmlns="http://www.loc.gov/mods/v3">
+                    <location>
                         <url displayLabel="Open Content Alliance"
                             >http://www.archive.org/details/aburbeconditarec03Livyuoft</url>
                     </location>
@@ -879,8 +884,8 @@
                     </relatedItem>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 4">
-                    <part>
-                        <detail type="volume">
+                    <part type="volume">
+                        <detail>
                             <caption>Volume</caption>
                             <number>4</number>
                         </detail>
@@ -905,7 +910,7 @@
                         <dateIssued>1934</dateIssued>
                         <edition>Reprint</edition>
                     </originInfo>
-                    <location xmlns="http://www.loc.gov/mods/v3">
+                    <location>
                         <url displayLabel="Open Content Alliance"
                             >http://www.archive.org/details/aburbeconditarec04Livyuoft</url>
                     </location>
@@ -936,9 +941,8 @@
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name type="personal">
-            <namePart type="family">Baker</namePart>
-            <namePart type="given">George</namePart>
+        <name authorityURI="" type="personal">
+            <namePart>Baker, George</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">translator</roleTerm>
             </role>
@@ -957,21 +961,21 @@
         <physicalDescription>
             <extent>2 volumes</extent>
         </physicalDescription>
-        <subject xmlns="http://www.loc.gov/mods/v3" authority="lcsh">
+        <subject authority="lcsh">
             <geographic>Rome</geographic>
             <topic>History</topic>
         </subject>
         <identifier type="oclc">5749307</identifier>
-        <location xmlns="http://www.loc.gov/mods/v3">
+        <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/5749307</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Ab Urbe Condita">
             <identifier type="ctsurn">urn:cts:latinLit:phi0914.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Ab Urbe Condita">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0914.phi001.opp-eng7</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
-                    <part>
-                        <detail type="volume">
+                    <part type="volume">
+                        <detail>
                             <caption>Volume</caption>
                             <number>1</number>
                         </detail>
@@ -990,8 +994,8 @@
                     </relatedItem>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
-                    <part>
-                        <detail type="volume">
+                    <part type="volume">
+                        <detail>
                             <caption>Volume</caption>
                             <number>2</number>
                         </detail>
@@ -1004,15 +1008,15 @@
                             </detail>
                         </part>
                     </relatedItem>
-                    <location xmlns="http://www.loc.gov/mods/v3">
+                    <location>
                         <url displayLabel="GoogleBooks"
                             >http://books.google.com/books?id=WlgvAAAAYAAJ</url>
                     </location>
-                    <location xmlns="http://www.loc.gov/mods/v3">
+                    <location>
                         <url displayLabel="Open Content Alliance"
                             >http://archive.org/details/historyofrome02Livy</url>
                     </location>
-                    <location xmlns="http://www.loc.gov/mods/v3">
+                    <location>
                         <url displayLabel="HathiTrust">http://hdl.handle.net/2027/hvd.hnjxgh</url>
                     </location>
                 </relatedItem>
@@ -1027,7 +1031,29 @@
         <titleInfo>
             <title>Ab urbe condita libri</title>
         </titleInfo>
-        <identifier type="oclc">9560029</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/76310470/">
+            <namePart>Livy</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/117151321/">
+            <namePart>Müller, Moritz</namePart>
+            <namePart type="date">b. 1854</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/51764444/">
+            <namePart>Weissenborn, Wilhelm</namePart>
+            <namePart type="date">1803-1878</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -1053,35 +1079,14 @@
                 <title>Teubner</title>
             </titleInfo>
         </relatedItem>
+        <identifier type="oclc">9560029</identifier>
+
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/9560029</url>
         </location>
-        <language>
+        <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/76310470/">
-            <namePart>Livy</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/117151321/">
-            <namePart>Müller, Moritz</namePart>
-            <namePart type="date">b. 1854</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/51764444/">
-            <namePart>Weissenborn, Wilhelm</namePart>
-            <namePart type="date">1803-1878</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject>
             <geographicCode authority="marcgac">e------</geographicCode>
             <geographicCode authority="marcgac">ff-----</geographicCode>
@@ -1099,11 +1104,11 @@
         </subject>
         <relatedItem type="constituent" otherType="work" displayLabel="Ab Urbe Condita">
             <identifier type="ctsurn">urn:cts:latinLit:phi0914.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Ab Urbe Condita">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0914.phi001.opp-lat33</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
-                    <part>
-                        <detail type="volume">
+                    <part type="volume">
+                        <detail>
                             <caption>Volume</caption>
                             <number>1</number>
                         </detail>
@@ -1118,8 +1123,8 @@
                     </relatedItem>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
-                    <part>
-                        <detail type="volume">
+                    <part type="volume">
+                        <detail>
                             <caption>Volume</caption>
                             <number>2</number>
                         </detail>
@@ -1134,8 +1139,8 @@
                     </relatedItem>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
-                    <part>
-                        <detail type="volume">
+                    <part type="volume">
+                        <detail>
                             <caption>Volume</caption>
                             <number>3</number>
                         </detail>
@@ -1150,8 +1155,8 @@
                     </relatedItem>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 4">
-                    <part>
-                        <detail type="volume">
+                    <part type="volume">
+                        <detail>
                             <caption>Volume</caption>
                             <number>4</number>
                         </detail>
@@ -1296,7 +1301,7 @@
         </location>
         <relatedItem type="constituent" otherType="volume" displayLabel="Volume 1">
             <part type="volume">
-                <detail type="volume">
+                <detail>
                     <caption>Volume</caption>
                     <number>1</number>
                 </detail>
@@ -1927,7 +1932,7 @@
     </mods>
     <mods displayLabel="Aeneid-Virgil-Dryden-Perseus-English-Unknown">
         <titleInfo type="uniform">
-            <title xmlns="http://www.loc.gov/mods/v3">Aeneid</title>
+            <title>Aeneid</title>
         </titleInfo>
         <part>
             <extent unit="words">
@@ -1949,7 +1954,7 @@
                 <roleTerm authority="marcrelator" type="text">translator</roleTerm>
             </role>
         </name>
-        <language xmlns="http://www.loc.gov/mods/v3">
+        <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
         <relatedItem type="constituent" otherType="work" displayLabel="Aeneid">
@@ -1957,7 +1962,7 @@
             <relatedItem type="constituent" otherType="expression" displayLabel="Aeneid">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0690.phi003.perseus-eng1</identifier>
                 <identifier>Perseus:text:1999.02.0052</identifier>
-                <location xmlns="http://www.loc.gov/mods/v3">
+                <location>
                     <url displayLabel="Perseus" note="English"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0052</url>
                 </location>
@@ -2420,7 +2425,7 @@
         </location>
         <relatedItem type="constituent" otherType="volume" displayLabel="Volume 13">
             <part type="volume">
-                <detail type="volume">
+                <detail>
                     <caption>Volume</caption>
                     <number>13</number>
                 </detail>
@@ -3033,8 +3038,7 @@
         </name>
         <relatedItem type="constituent" otherType="work" displayLabel="Allegoriae Homericae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg1414.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Allegoriae Homericae">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Allegoriae Homericae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg1414.tlg001.opp-grc1</identifier>
             </relatedItem>
         </relatedItem>
@@ -3250,7 +3254,7 @@
         </location>
         <relatedItem type="constituent" otherType="volume" displayLabel="Volume 1">
             <part type="volume">
-                <detail type="volume">
+                <detail>
                     <caption>Volume</caption>
                     <number>1</number>
                 </detail>
@@ -4873,7 +4877,7 @@
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 5">
-                    <part type="volume">                        
+                    <part type="volume">
                         <detail>
                             <caption>Volume</caption>
                             <number>5</number>
@@ -6889,7 +6893,7 @@ but this is where the TLG has left off for numbering-->
         </location>
         <relatedItem type="constituent" otherType="volume" displayLabel="Volume 2">
             <part type="volume">
-                <detail type="volume">
+                <detail>
                     <caption>Volume</caption>
                     <number>2</number>
                 </detail>
@@ -7757,7 +7761,7 @@ but this is where the TLG has left off for numbering-->
         </location>
         <relatedItem type="constituent" otherType="volume" displayLabel="Volume 1">
             <part type="volume">
-                <detail type="volume">
+                <detail>
                     <caption>Volume</caption>
                     <number>1</number>
                 </detail>
@@ -11252,7 +11256,7 @@ but this is where the TLG has left off for numbering-->
             <extent>xliii, 227, [48] p. front. (port.) illus., plates (incl. maps, plans) 18
                 cm.</extent>
         </physicalDescription>
-        <relatedItem>
+        <relatedItem type="series">
             <titleInfo>
                 <title>Clarendon Press Series</title>
             </titleInfo>
@@ -12026,7 +12030,7 @@ but this is where the TLG has left off for numbering-->
         <!-- Catalog record for single work/expression of a Perseus edition -->
         <relatedItem type="constituent" otherType="volume" displayLabel="Volume 1">
             <part type="volume">
-                <detail type="volume">
+                <detail>
                     <caption>Volume</caption>
                     <number>1</number>
                 </detail>
@@ -14552,7 +14556,7 @@ but this is where the TLG has left off for numbering-->
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 5">
                     <part type="volume">
-                        <detail>                            
+                        <detail>
                             <caption>Volume</caption>
                             <number>5</number>
                         </detail>
@@ -15025,8 +15029,8 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression" displayLabel="De civitate dei">
                 <identifier type="ctsurn">urn:cts:latinLit:stoa0040.stoa003.opp-lat2</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
-                    <part>
-                        <detail type="volume">
+                    <part type="volume">
+                        <detail>
                             <caption>Volume</caption>
                             <number>1</number>
                         </detail>
@@ -15054,8 +15058,8 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
-                    <part>
-                        <detail type="volume">
+                    <part type="volume">
+                        <detail>
                             <caption>Volume</caption>
                             <number>2</number>
                         </detail>
@@ -15157,10 +15161,10 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="De compendiosa doctrina">
                 <identifier type="ctsurn">urn:cts:latinLit:stoa0213a.stoa001.opp-lat1</identifier>
-                <relatedItem type="constituent" otherType="structure" displayLabel="Volumen I">
-                    <part>
-                        <detail type="volume">
-                            <caption>Volumen</caption>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
+                    <part type="volume">
+                        <detail>
+                            <caption>Volume</caption>
                             <number>1</number>
                         </detail>
                     </part>
@@ -15177,12 +15181,11 @@ but this is where the TLG has left off for numbering-->
                         <url displayLabel="GoogleBooks"
                             >http://books.google.com/books?id=yevctmDgjOcC</url>
                     </location>
-
                 </relatedItem>
-                <relatedItem type="constituent" otherType="structure" displayLabel="Volumen II">
-                    <part>
-                        <detail type="volume">
-                            <caption>Volumen</caption>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
+                    <part type="volume">
+                        <detail>
+                            <caption>Volume</caption>
                             <number>2</number>
                         </detail>
                     </part>
@@ -15204,10 +15207,10 @@ but this is where the TLG has left off for numbering-->
                             >http://www.archive.org/details/decompendiosadoc02noniuoft</url>
                     </location>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="structure" displayLabel="Volumen III">
-                    <part>
-                        <detail type="volume">
-                            <caption>Volumen</caption>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
+                    <part type="volume">
+                        <detail>
+                            <caption>Volume</caption>
                             <number>3</number>
                         </detail>
                     </part>
@@ -23262,8 +23265,8 @@ but this is where the TLG has left off for numbering-->
                 displayLabel="Digest of Justinian">
                 <identifier type="ctsurn">urn:cts:latinLit:phi2806.phi002.opp-eng2</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
-                    <part>
-                        <detail type="volume">
+                    <part type="volume">
+                        <detail>
                             <caption>Volume</caption>
                             <number>1</number>
                         </detail>
@@ -23287,8 +23290,8 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
-                    <part>
-                        <detail type="volume">
+                    <part type="volume">
+                        <detail>
                             <caption>Volume</caption>
                             <number>2</number>
                         </detail>
@@ -23415,7 +23418,7 @@ but this is where the TLG has left off for numbering-->
                 <identifier type="ctsurn">urn:cts:greekLit:tlg2045.tlg001.opp-eng1</identifier>
                 <identifier type="ctsurn">urn:cts:greekLit:tlg2045.tlg001.opp-grc1</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
-                    <part>
+                    <part type="volume">
                         <detail>
                             <caption>Volume</caption>
                             <number>1</number>
@@ -23439,7 +23442,7 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
-                    <part>
+                    <part type="volume">
                         <detail>
                             <caption>Volume</caption>
                             <number>2</number>
@@ -23463,7 +23466,7 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
-                    <part>
+                    <part type="volume">
                         <detail>
                             <caption>Volume</caption>
                             <number>3</number>
@@ -23560,7 +23563,7 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression" displayLabel="Dionysiaca">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg2045.tlg001.opp-grc4</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
-                    <part>
+                    <part type="volume">
                         <detail>
                             <caption>Volume</caption>
                             <number>1</number>
@@ -23584,7 +23587,7 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
-                    <part>
+                    <part type="volume">
                         <detail>
                             <caption>Volume</caption>
                             <number>2</number>
@@ -26723,8 +26726,8 @@ but this is where the TLG has left off for numbering-->
                 displayLabel="Epistulae imperatorum pontificum aliorum ">
                 <identifier type="ctsurn">urn:cts:latinLit:stoa0045a.stoa001.opp-lat1</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
-                    <part>
-                        <detail type="volume">
+                    <part type="volume">
+                        <detail>
                             <caption>volume</caption>
                             <number>1</number>
                         </detail>
@@ -26753,8 +26756,8 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
-                    <part>
-                        <detail type="volume">
+                    <part type="volume">
+                        <detail>
                             <caption>volume</caption>
                             <number>2</number>
                         </detail>
@@ -27017,7 +27020,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
                     <part type="volume">
                         <detail>
-                            <number>Pars III</number>
+                            <caption>Part</caption>
+                            <number>3</number>
                         </detail>
                     </part>
                     <originInfo>
@@ -27554,9 +27558,9 @@ but this is where the TLG has left off for numbering-->
                 <title>Loeb classical library</title>
             </titleInfo>
         </relatedItem>
-        <relatedItem type="constituent" otherType="work">
+        <relatedItem type="constituent" otherType="work" displayLabel="Epistulae">
             <identifier type="ctsurn">urn:cts:latinLit:phi1318.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Epistulae">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1318.phi001.opp-lat4</identifier>
                 <identifier type="ctsurn">urn:cts:latinLit:phi1318.phi001.opp-eng2</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume I">
@@ -27591,7 +27595,7 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
                     <part type="volume">
                         <detail>
-                            <caption>Volume</caption>                            
+                            <caption>Volume</caption>
                             <number>2</number>
                         </detail>
                     </part>
@@ -28432,7 +28436,7 @@ but this is where the TLG has left off for numbering-->
                         </detail>
                     </part>
                 </relatedItem>
-                <location xmlns="http://www.loc.gov/mods/v3">
+                <location>
                     <url displayLabel="Perseus" note="Latin"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0550</url>
                 </location>
@@ -29861,10 +29865,11 @@ but this is where the TLG has left off for numbering-->
             <identifier type="ctsurn">urn:cts:greekLit:tlg0096.tlg002</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Fabulae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0096.tlg002.opp-grc3</identifier>
-                <relatedItem type="constituent" otherType="structure" displayLabel="Pars Prior">
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part type="part">
                         <detail>
-                            <caption>Pars Prior</caption>
+                            <caption>Pars</caption>
+                            <number>Prior</number>
                         </detail>
                     </part>
                     <tableOfContents>Fables 1-144</tableOfContents>
@@ -29875,10 +29880,11 @@ but this is where the TLG has left off for numbering-->
                         <url displayLabel="SLUB">http://digital.slub-dresden.de/id414991931</url>
                     </location>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="structure" displayLabel="Pars Altera">
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
                     <part type="part">
                         <detail>
-                            <caption>Pars Altera</caption>
+                            <caption>Pars</caption>
+                            <number>Altera</number>
                         </detail>
                     </part>
                     <tableOfContents>Fables 145-359</tableOfContents>
@@ -31781,8 +31787,8 @@ but this is where the TLG has left off for numbering-->
             </place>
             <dateIssued>1975</dateIssued>
         </originInfo>
-        <part>
-            <detail type="volume">
+        <part type="volume">
+            <detail>
                 <number>16</number>
             </detail>
             <detail type="number">
@@ -32494,10 +32500,11 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/23639036</url>
         </location>
-        <relatedItem type="constituent" otherType="structure" displayLabel="Volumen Secundum">
+        <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
             <part type="volume">
-                <detail type="volume">
-                    <title>Volumen Secundum</title>
+                <detail>
+                    <caption>Volume</caption>
+                    <number>2</number>
                 </detail>
             </part>
             <location>
@@ -34472,7 +34479,7 @@ but this is where the TLG has left off for numbering-->
         <relatedItem type="series">
             <titleInfo>
                 <title>Supplementum Aristotelicum</title>
-                <partNumber>Volume 1 part 1</partNumber>
+                <partNumber>Volume 1, part 1</partNumber>
             </titleInfo>
         </relatedItem>
         <identifier type="oclc">75481882</identifier>
@@ -35164,8 +35171,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id417077041</url>
         </location>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Historia Ecclesiastica">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historia Ecclesiastica">
             <identifier type="ctsurn">urn:cts:greekLit:tlg2048.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Historia Ecclesiastica">
@@ -35181,7 +35187,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Historia Nova-Zosimus-Mendelsohn-Teubner-1887">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Historia Nova</title>
@@ -35931,7 +35937,7 @@ but this is where the TLG has left off for numbering-->
         </titleInfo>
         <titleInfo>
             <title>Herodoti Historiae</title>
-            <partNumber>Volume 1-2</partNumber>
+            <partNumber>Volumes 1-2</partNumber>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/100225976/">
@@ -36057,7 +36063,7 @@ but this is where the TLG has left off for numbering-->
         </titleInfo>
         <titleInfo>
             <title>Herodoti Historiarum libri IX</title>
-            <partNumber>Volume 1-2</partNumber>
+            <partNumber>Volumes 1-2</partNumber>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/100225976/">
@@ -36272,7 +36278,8 @@ but this is where the TLG has left off for numbering-->
                             >http://www.archive.org/details/historyofherod01hero</url>
                     </location>
                     <location>
-                        <url displayLabel="HathiTrust">https://hdl.handle.net/2027/uc2.ark:/13960/t0ft8qg03</url>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/uc2.ark:/13960/t0ft8qg03</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
@@ -36299,7 +36306,8 @@ but this is where the TLG has left off for numbering-->
                             >http://www.archive.org/details/historyherodotus02hero</url>
                     </location>
                     <location>
-                        <url displayLabel="HathiTrust">https://hdl.handle.net/2027/uc2.ark:/13960/t3rv0qg5f</url>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/uc2.ark:/13960/t3rv0qg5f</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
@@ -36326,7 +36334,8 @@ but this is where the TLG has left off for numbering-->
                             >http://www.archive.org/details/historyofherodot03hero</url>
                     </location>
                     <location>
-                        <url displayLabel="HathiTrust">https://hdl.handle.net/2027/hvd.32044074353285</url>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/hvd.32044074353285</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 4">
@@ -36353,7 +36362,8 @@ but this is where the TLG has left off for numbering-->
                             >http://www.archive.org/details/historyofherodot04hero</url>
                     </location>
                     <location>
-                        <url displayLabel="HathiTrust">https://hdl.handle.net/2027/hvd.32044024511107</url>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/hvd.32044024511107</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -36366,7 +36376,7 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <nonSort>The</nonSort>
             <title>History of Herodotus</title>
-            <partNumber>Volume 1-2</partNumber>
+            <partNumber>Volumes 1-2</partNumber>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/100225976/">
@@ -36691,7 +36701,7 @@ but this is where the TLG has left off for numbering-->
             <nonSort>The</nonSort>
             <title>Histories of Polybius</title>
         </titleInfo>
-        <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/" 
+        <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/267920293/">
             <namePart>Polybius</namePart>
             <role>
@@ -36943,11 +36953,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id41108349X</url>
         </location>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Historiarum libri">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiarum libri">
             <identifier type="ctsurn">urn:cts:latinLit:phi1351.phi004</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Historiarum libri">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historiarum libri">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1351.phi004.opp-lat4</identifier>
             </relatedItem>
         </relatedItem>
@@ -37120,10 +37128,10 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-<!-- LEFT OFF HERE FOR FINAL REVIEW -->
+
     <mods displayLabel="Historiae-Thucydides-Campe-Metzler-1856-German">
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Histories</title>
+        <titleInfo xml:lang="lat" type="uniform">
+            <title>Historiae</title>
         </titleInfo>
         <titleInfo type="translated" lang="ger">
             <title>Geschichte</title>
@@ -37164,7 +37172,10 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm type="code">ger</languageTerm>
         </language>
-        <relatedItem>
+        <language objectPart="notes">
+            <languageTerm type="code">ger</languageTerm>
+        </language>
+        <relatedItem type="series">
             <titleInfo>
                 <title>Classiker des Alterthums</title>
             </titleInfo>
@@ -37182,7 +37193,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part>
                         <detail>
-                            <caption>Erster Band</caption>
+                            <caption>Volume</caption>
+                            <number>1</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-4">
@@ -37202,7 +37214,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
                     <part>
                         <detail>
-                            <caption>Zweiter Band</caption>
+                            <caption>Volume</caption>
+                            <number>2</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 5-8">
@@ -37227,9 +37240,6 @@ but this is where the TLG has left off for numbering-->
             <title>Geschichte des peloponnesischen Kriegs</title>
             <partNumber>Zweiter Teil</partNumber>
         </titleInfo>
-        <titleInfo type="uniform">
-            <title>History of the Peloponnesian War</title>
-        </titleInfo>
         <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/95161463/">
             <namePart>Thucydides</namePart>
@@ -37238,7 +37248,7 @@ but this is where the TLG has left off for numbering-->
             </role>
         </name>
         <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-            valueURI=" http://viaf.org/viaf/76693736">
+            valueURI="http://viaf.org/viaf/76693736">
             <namePart>Braun, Theodor,</namePart>
             <namePart type="date">1877-1946</namePart>
             <role>
@@ -37274,8 +37284,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/njp.32101059041176</url>
         </location>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Geschichte des peloponnesischen Kriegs Zweiter Teil Epidoc Edition">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Geschichte des peloponnesischen Kriegs Zweiter Teil Epidoc Edition">
@@ -37304,8 +37313,8 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
     <mods displayLabel="Historiae-Thucydides-Strozzi-1735-Italian">
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Histories</title>
+        <titleInfo xml:lang="lat" type="uniform">
+            <title>Historiae</title>
         </titleInfo>
         <part>
             <extent unit="words">
@@ -37319,40 +37328,6 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Istorico greco delle guerre fatte tra i popoli della Morea e gli ateniesi</title>
         </titleInfo>
-        <identifier type="oclc">19219995</identifier>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">it</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">In Verona</placeTerm>
-            </place>
-            <publisher>Appresso Dionigi Ramanzini</publisher>
-            <dateIssued>1735</dateIssued>
-            <edition>Nuovamente co' testi greci riveduto e dagli errori emendato, colla vita
-                dell'autore descritta da Tomaso Porcacchi, con due tavole copiosissime, una delle
-                cose notabili, e l'altre dei nomi antichi ridotti a' moderni, colla cronologia
-                seguente a quella di Tomaso Gale, e con una tavola di geographia antica di
-                Cristoforo Cellario ...</edition>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>2 pts in l.</extent>
-        </physicalDescription>
-        <note type="statement of responsibility">tradotto dal greco per Francesco di Soldo Strozzi
-            ...</note>
-        <location>
-            <url displayLabel="WorldCat">http://worldcat.org/oclc/19219995</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance">
-                http://www.archive.org/details/tucidideistorico00thucuoft</url>
-        </location>
-        <language>
-            <languageTerm authority="iso639-2b" type="code">ita</languageTerm>
-        </language>
         <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/95161463/">
             <namePart>Thucydides</namePart>
@@ -37364,6 +37339,9 @@ but this is where the TLG has left off for numbering-->
             valueURI="https://viaf.org/viaf/74204745/">
             <namePart>Di Soldo Strozzi, Francesco,</namePart>
             <namePart type="termsOfAddress">fl. 1545</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
             <role>
                 <roleTerm authority="marcrelator" type="text">translator</roleTerm>
             </role>
@@ -37395,6 +37373,40 @@ but this is where the TLG has left off for numbering-->
             </role>
             <description>Geographic table</description>
         </name>
+        <identifier type="oclc">19219995</identifier>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">it</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">In Verona</placeTerm>
+            </place>
+            <publisher>Appresso Dionigi Ramanzini</publisher>
+            <dateIssued>1735</dateIssued>
+            <edition>Nuovamente co' testi greci riveduto e dagli errori emendato, colla vita
+                dell'autore descritta da Tomaso Porcacchi, con due tavole copiosissime, una delle
+                cose notabili, e l'altre dei nomi antichi ridotti a' moderni, colla cronologia
+                seguente a quella di Tomaso Gale, e con una tavola di geographia antica di
+                Cristoforo Cellario ...</edition>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>2 pts in l.</extent>
+        </physicalDescription>
+        <note type="statement of responsibility">tradotto dal greco per Francesco di Soldo Strozzi
+            ...</note>
+        <location>
+            <url displayLabel="WorldCat">http://worldcat.org/oclc/19219995</url>
+        </location>
+        <location>
+            <url displayLabel="Open Content Alliance">
+                http://www.archive.org/details/tucidideistorico00thucuoft</url>
+        </location>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">ita</languageTerm>
+        </language>
         <subject authority="lcsh">
             <geographic>Greece</geographic>
             <topic>History</topic>
@@ -37412,17 +37424,16 @@ but this is where the TLG has left off for numbering-->
             <title>Histoire de la Guerre du Péloponnèse</title>
             <partNumber>Tome Premier</partNumber>
         </titleInfo>
-        <titleInfo type="uniform">
-            <title>History of the Peloponnesian War</title>
-        </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/95161463/">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/95161463/">
             <namePart>Thucydides</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
 
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/66558645">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/66558645">
             <namePart>Zevort, Charles</namePart>
             <namePart type="date">1816-1887</namePart>
             <role>
@@ -37432,7 +37443,6 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">translator</roleTerm>
             </role>
         </name>
-
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -37445,7 +37455,7 @@ but this is where the TLG has left off for numbering-->
             <dateIssued>1852</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
-        <language>
+        <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">fre</languageTerm>
         </language>
         <note type="statement of responsibility" altRepGroup="00"/>
@@ -37459,8 +37469,7 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015058551063</url>
         </location>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Histoire de la Guerre du Péloponnèse Tome Premier Epidoc Edition">
+        <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Histoire de la Guerre du Péloponnèse Tome Premier Epidoc Edition">
@@ -37489,17 +37498,29 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
     <mods displayLabel="Historiae-Thucydides-Crawley-Dent-1914 (1933)-English">
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Histories</title>
+        <titleInfo>
+            <title>History of the Peloponnesian War</title>
         </titleInfo>
         <part>
             <extent unit="words">
                 <total>153260</total>
             </extent>
         </part>
-        <titleInfo>
-            <title>History of the Peloponnesian War</title>
-        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/95161463/">
+            <namePart>Thucydides</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/37076698/">
+            <namePart>Crawley, Richard</namePart>
+            <namePart type="date">1840-1893</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -37520,7 +37541,8 @@ but this is where the TLG has left off for numbering-->
         <note type="statement of responsibility">done into English by Richard Crawley</note>
         <relatedItem type="series">
             <titleInfo>
-                <title>Everyman's library. Classical [no. 455]</title>
+                <title>Everyman's library. Classical</title>
+                <partNumber>no. 455</partNumber>
             </titleInfo>
         </relatedItem>
         <identifier type="oclc">13675813</identifier>
@@ -37535,24 +37557,9 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="GoogleBooks" note="Snippet View"
                 >http://books.google.com/books?id=NgEuAAAAIAAJ</url>
         </location>
-        <language>
+        <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/95161463/">
-            <namePart>Thucydides</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/37076698/">
-            <namePart>Crawley, Richard</namePart>
-            <namePart type="date">1840-1893</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <geographic>Greece</geographic>
             <topic>History</topic>
@@ -37565,18 +37572,16 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Historiae-Thucydides-Dale-Bohn-1851-English">
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Histories</title>
-        </titleInfo>
+    <mods displayLabel="Historiae-Thucydides-Dale-Bohn-1851-1852-English">
         <titleInfo>
             <nonSort>The</nonSort>
             <title>history of the Peloponnesian War</title>
             <subTitle>a new and literal version, from the text of Arnold, collated with Bekker,
                 Göller, and Poppo</subTitle>
-            <partNumber>Volume 1-2</partNumber>
+            <partNumber>Volumes 1-2</partNumber>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/95161463/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/95161463/">
             <namePart>Thucydides</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -37587,6 +37592,9 @@ but this is where the TLG has left off for numbering-->
             <namePart>Dale, Henry</namePart>
             <namePart type="date">1812-1894</namePart>
             <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+            <role>
                 <roleTerm authority="marcrelator" type="text">translator</roleTerm>
             </role>
         </name>
@@ -37596,6 +37604,9 @@ but this is where the TLG has left off for numbering-->
             <namePart type="date">1795-1842</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
             </role>
         </name>
         <originInfo>
@@ -37662,7 +37673,7 @@ but this is where the TLG has left off for numbering-->
                             <number>2</number>
                         </detail>
                     </part>
-                    <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-4">
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Book 5-8">
                         <part>
                             <detail type="book">
                                 <caption>Book</caption>
@@ -37682,6 +37693,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
+    <!-- LEFT OFF HERE FOR FINAL REVIEW -->
     <mods displayLabel="Historiae-Thucydides-Dale-Bohn-1891-English">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Histories</title>
@@ -37689,7 +37701,7 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <nonSort>The</nonSort>
             <title>history of the Peloponnesian War</title>
-            <partNumber>Volume 1-2</partNumber>
+            <partNumber>Volumes 1-2</partNumber>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/95161463/">
@@ -37859,7 +37871,7 @@ but this is where the TLG has left off for numbering-->
             <temporal>Peloponnesian war, 431-404 B. C.</temporal>
         </subject>
         <classification authority="lcc">DF229.T5 J6 1900</classification>
-        <identifier type="oclc">352149</identifier>        
+        <identifier type="oclc">352149</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/352149</url>
         </location>
@@ -38277,7 +38289,8 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/95161463/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/95161463/">
             <namePart>Thucydides</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -38485,7 +38498,7 @@ but this is where the TLG has left off for numbering-->
         </titleInfo>
         <titleInfo>
             <title>History of the Pelopennesian War</title>
-            <partNumber>Volume 1-4</partNumber>
+            <partNumber>Volumes 1-4</partNumber>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/95161463/">
@@ -38579,7 +38592,7 @@ but this is where the TLG has left off for numbering-->
                             >http://www.archive.org/details/thucydideswithen01thucuoft</url>
                     </location>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="structure" displayLabel="Volume">
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
                     <part>
                         <detail>
                             <caption>Volume</caption>
@@ -39086,15 +39099,17 @@ but this is where the TLG has left off for numbering-->
         </part>
         <titleInfo>
             <title>Histoire grecque de Thucydide</title>
-            <partNumber>Volume 1-4</partNumber>
+            <partNumber>Volumes 1-4</partNumber>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/95161463/">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/95161463/">
             <namePart>Thucydides</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/32104930/">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/32104930/">
             <namePart>Gail, J.-B. (Jean-Baptiste)</namePart>
             <namePart type="date">1755-1829</namePart>
             <role>
@@ -39145,7 +39160,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part>
                         <detail>
-                            <caption>Tome 1</caption>
+                            <caption>Tome</caption>
+                            <number>1</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 1">
@@ -39164,7 +39180,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
                     <part>
                         <detail>
-                            <caption>Tome 2</caption>
+                            <caption>Tome</caption>
+                            <number>2</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 2">
@@ -39183,7 +39200,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
                     <part>
                         <detail>
-                            <caption>Tome 3</caption>
+                            <caption>Tome</caption>
+                            <number>3</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 3">
@@ -39202,7 +39220,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 4">
                     <part>
                         <detail>
-                            <caption>Tome 4</caption>
+                            <caption>Tome</caption>
+                            <number>4</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book">
@@ -39621,7 +39640,7 @@ but this is where the TLG has left off for numbering-->
         </titleInfo>
         <titleInfo>
             <title>De bello peloponnesiaco, libri octo</title>
-            <partNumber>Volume 1-3</partNumber>
+            <partNumber>Volumes 1-3</partNumber>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/95161463/">
@@ -39682,7 +39701,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part>
                         <detail>
-                            <caption>Volume I</caption>
+                            <caption>Volume</caption>
+                            <number>1</number>
                         </detail>
                     </part>
                     <location>
@@ -39697,7 +39717,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
                     <part>
                         <detail>
-                            <caption>Volume II</caption>
+                            <caption>Volume</caption>
+                            <number>2</number>
                         </detail>
                     </part>
                     <location>
@@ -39712,7 +39733,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
                     <part>
                         <detail>
-                            <caption>Volume III</caption>
+                            <caption>Volume</caption>
+                            <number>3</number>
                         </detail>
                     </part>
                     <location>
@@ -39779,9 +39801,10 @@ but this is where the TLG has left off for numbering-->
                 displayLabel="History of the Peloponnesian War">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc1a</identifier>
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-lat13</identifier>
-                <relatedItem type="constituent" otherType="structure" displayLabel="Volume I">
-                    <part>
-                        <detail type="volume">
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
+                    <part type="volume">
+                        <detail>
+                            <caption>Volume</caption>
                             <number>1</number>
                         </detail>
                     </part>
@@ -39814,9 +39837,10 @@ but this is where the TLG has left off for numbering-->
                             >http://www.archive.org/details/thoukydidoutouol01thucuoft</url>
                     </location>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="structure" displayLabel="Volume II">
-                    <part>
-                        <detail type="volume">
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
+                    <part type="volume">
+                        <detail>
+                            <caption>Volume</caption>
                             <number>2</number>
                         </detail>
                     </part>
@@ -39884,9 +39908,10 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc60</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Book I</caption>
+                            <caption>Volume</caption>
+                            <number>1</number>
                         </detail>
                     </part>
                     <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
@@ -39919,9 +39944,10 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Book II</caption>
+                            <caption>Volume</caption>
+                            <number>2</number>
                         </detail>
                     </part>
                     <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
@@ -39952,12 +39978,12 @@ but this is where the TLG has left off for numbering-->
                         <url displayLabel="GoogleBooks"
                             >http://books.google.com/books?id=9gFgAAAAMAAJ</url>
                     </location>
-                    <note type="statement of responsibility">edited by E. C. Marchant.</note>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Book III</caption>
+                            <caption>Volume</caption>
+                            <number>3</number>
                         </detail>
                     </part>
                     <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
@@ -39986,9 +40012,10 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 4">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Book IV</caption>
+                            <caption>Volume</caption>
+                            <number>4</number>
                         </detail>
                     </part>
                     <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf"
@@ -40021,9 +40048,10 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 5">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Book V</caption>
+                            <caption>Volume</caption>
+                            <number>5</number>
                         </detail>
                     </part>
                     <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
@@ -40034,7 +40062,7 @@ but this is where the TLG has left off for numbering-->
                             <roleTerm authority="marcrelator" type="text">editor</roleTerm>
                         </role>
                     </name>
-                    <relatedItem type="constituent" otherType="structure" displayLabel="Book 4">
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Book 5">
                         <part>
                             <detail type="book">
                                 <caption>Book</caption>
@@ -40052,9 +40080,10 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 6">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Book VI</caption>
+                            <caption>Volume</caption>
+                            <number>6</number>
                         </detail>
                     </part>
                     <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
@@ -40081,18 +40110,14 @@ but this is where the TLG has left off for numbering-->
                         <url displayLabel="Open Content Alliance"
                             >http://www.archive.org/details/histories06thucuoft</url>
                     </location>
-
                 </relatedItem>
             </relatedItem>
         </relatedItem>
     </mods>
     <mods displayLabel="Historiae-Thucydides-Arnold-Parker-1868-Greek-7th edition">
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Histories</title>
-        </titleInfo>
         <titleInfo>
             <title>The history of the Peloponnesian war</title>
-            <partNumber>Volume 1-3</partNumber>
+            <partNumber>Volumes 1-3</partNumber>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/95161463/">
@@ -40152,9 +40177,10 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc51</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume I</caption>
+                            <caption>Volume</caption>
+                            <number>1</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-3">
@@ -40172,9 +40198,10 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume II</caption>
+                            <caption>Volume</caption>
+                            <number>2</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 4-6">
@@ -40191,9 +40218,10 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume III</caption>
+                            <caption>Volume</caption>
+                            <number>3</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 7-8">
@@ -40369,9 +40397,10 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc54</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Erstes Heft</caption>
+                            <caption>Volume</caption>
+                            <number>1</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-2">
@@ -40393,9 +40422,10 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Zweites Heft</caption>
+                            <caption>Volume</caption>
+                            <number>2</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 3-4">
@@ -40485,7 +40515,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance">
                 http://www.archive.org/details/thoukydidesmeta00thucuoft</url>
         </location>
-        <language>
+        <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
         <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
@@ -40496,9 +40526,6 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
     <mods displayLabel="Historiae-Thucydides-Classen-Weidmann-1879-Greek">
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Histories</title>
-        </titleInfo>
         <titleInfo>
             <title>Thukydides</title>
             <partNumber>8 volumes</partNumber>
@@ -40555,9 +40582,10 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc43</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume I</caption>
+                            <caption>Volume</caption>
+                            <number>1</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 1">
@@ -40579,9 +40607,10 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume II</caption>
+                            <caption>Volume</caption>
+                            <number>2</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 2">
@@ -40603,9 +40632,10 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume III</caption>
+                            <caption>Volume</caption>
+                            <number>3</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 3">
@@ -40622,9 +40652,10 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 4">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume IV</caption>
+                            <caption>Volume</caption>
+                            <number>4</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 4">
@@ -40645,9 +40676,10 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 5">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume V</caption>
+                            <caption>Volume</caption>
+                            <number>5</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 5">
@@ -40669,9 +40701,10 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="stucture" displayLabel="Volume 6">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume VI</caption>
+                            <caption>Volume</caption>
+                            <number>6</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 6">
@@ -40693,9 +40726,10 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="srtructure" displayLabel="Volume 7">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume 7</caption>
+                            <caption>Volume</caption>
+                            <number>7</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 7">
@@ -40717,9 +40751,10 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 8">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume VIII</caption>
+                            <caption>Volume</caption>
+                            <number>8</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 8">
@@ -40746,7 +40781,7 @@ but this is where the TLG has left off for numbering-->
         </titleInfo>
         <titleInfo>
             <title>Thucydides</title>
-            <partNumber>Volume 1-2</partNumber>
+            <partNumber>Volumes 1-2</partNumber>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/95161463/">
@@ -40800,9 +40835,10 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc36</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume I</caption>
+                            <caption>Volume</caption>
+                            <number>1</number>
                         </detail>
                     </part>
                     <location>
@@ -40815,9 +40851,10 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume II</caption>
+                            <caption>Volume</caption>
+                            <number>2</number>
                         </detail>
                     </part>
                     <location>
@@ -40834,7 +40871,7 @@ but this is where the TLG has left off for numbering-->
         </titleInfo>
         <titleInfo>
             <title>Thucydides</title>
-            <partNumber>Volume I-II</partNumber>
+            <partNumber>Volumes 1-2</partNumber>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/95161463/">
@@ -40883,9 +40920,10 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc49</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume 1</caption>
+                            <caption>Volume</caption>
+                            <number>1</number>
                         </detail>
                     </part>
                     <location>
@@ -40894,9 +40932,10 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume 2</caption>
+                            <caption>Volume</caption>
+                            <number>2</number>
                         </detail>
                     </part>
                     <location>
@@ -40980,6 +41019,9 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
+        <language objectPart="text">
+            <languageTerm>lat</languageTerm>
+        </language>
         <subject>
             <geographicCode authority="marcgac">e-gr---</geographicCode>
         </subject>
@@ -41005,7 +41047,7 @@ but this is where the TLG has left off for numbering-->
         </titleInfo>
         <titleInfo>
             <title>De bello peloponnesiaco, libri octo</title>
-            <partNumber>Volume 1-2</partNumber>
+            <partNumber>Volumes 1-2</partNumber>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/95161463/">
@@ -41052,9 +41094,10 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc74</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume 1</caption>
+                            <caption>Volume</caption>
+                            <number>1</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-4">
@@ -41075,9 +41118,10 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume 2</caption>
+                            <caption>Volume</caption>
+                            <number>2</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 5-8">
@@ -41151,9 +41195,14 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc80</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Tomus Prior</caption>
+                            <caption>Volume</caption>
+                            <number>1</number>
+                        </detail>
+                        <detail>
+                            <caption>Tomus</caption>
+                            <number>Prior</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-4">
@@ -41175,9 +41224,14 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Tomus Posterior</caption>
+                            <caption>Volume</caption>
+                            <number>2</number>
+                        </detail>
+                        <detail>
+                            <caption>Tomus</caption>
+                            <number>Posterior</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 5-8">
@@ -41259,15 +41313,18 @@ but this is where the TLG has left off for numbering-->
                 displayLabel="History of the Peloponnesian War">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc1</identifier>
             </relatedItem>
-            <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
+            <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1-Part 1">
                 <titleInfo>
-                    <partNumber>Ersten Bandes Erstes Heft</partNumber>
+                    <partNumber>Ersten Bandes</partNumber>
+                    <partNumber>Erstes Heft</partNumber>
                 </titleInfo>
-                <part>
-                    <detail type="volume">
+                <part type="volume">
+                    <detail>
+                        <caption>Volume</caption>
                         <number>1</number>
                     </detail>
-                    <detail type="number">
+                    <detail>
+                        <caption>Part</caption>
                         <number>1</number>
                     </detail>
                 </part>
@@ -41291,13 +41348,16 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
             <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1-Part Two">
                 <titleInfo>
-                    <partNumber>Ersten Bandes Zweites Heft</partNumber>
+                    <partNumber>Ersten Bandes</partNumber>
+                    <partNumber>Zweites Heft</partNumber>
                 </titleInfo>
-                <part>
-                    <detail type="volume">
+                <part type="volume">
+                    <detail>
+                        <caption>Volume</caption>
                         <number>1</number>
                     </detail>
-                    <detail type="number">
+                    <detail>
+                        <caption>Part</caption>
                         <number>2</number>
                     </detail>
                 </part>
@@ -41321,13 +41381,16 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
             <relatedItem type="constituent" otherType="struture" displayLabel="Volume 2-Part 1">
                 <titleInfo>
-                    <partNumber>Zweiten Bandes Erstes Heft</partNumber>
+                    <partNumber>Zweiten Bandes</partNumber>
+                    <partNumber>Erstes Heft</partNumber>
                 </titleInfo>
-                <part>
-                    <detail type="volume">
+                <part type="volume">
+                    <detail>
+                        <caption>Volume</caption>
                         <number>2</number>
                     </detail>
-                    <detail type="number">
+                    <detail>
+                        <caption>Part</caption>
                         <number>1</number>
                     </detail>
                 </part>
@@ -41351,14 +41414,17 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
             <relatedItem type="constituent" displayLabel="Volume 2-Part 2">
                 <titleInfo>
-                    <partNumber>Zweiten Bandes Zweites Heft</partNumber>
+                    <partNumber>Zweiten Bandes</partNumber>
+                    <partNumber>Zweites Heft</partNumber>
                 </titleInfo>
-                <part>
-                    <detail type="volume">
+                <part type="volume">
+                    <detail>
+                        <caption>Volume</caption>
                         <number>2</number>
                     </detail>
-                    <detail type="book">
-                        <number>1</number>
+                    <detail>
+                        <caption>Part</caption>
+                        <number>2</number>
                     </detail>
                 </part>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Book 7-8">
@@ -41388,7 +41454,7 @@ but this is where the TLG has left off for numbering-->
         <titleInfo lang="ger">
             <nonSort>Die</nonSort>
             <title>Geschichte des Peloponnesischen Krieges</title>
-            <partNumber>Volume 1-2</partNumber>
+            <partNumber>Volumes 1-2</partNumber>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/95161463/">
@@ -41443,9 +41509,13 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc26</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
-                    <part>
+                    <titleInfo>
+                        <partNumber>Erster Teil</partNumber>
+                    </titleInfo>
+                    <part type="volume">
                         <detail>
-                            <caption>Erster Teil</caption>
+                            <caption>Volume</caption>
+                            <number>1</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-5">
@@ -41463,9 +41533,13 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
-                    <part>
+                    <titleInfo>
+                        <partNumber>Zweiter Teil</partNumber>
+                    </titleInfo>
+                    <part type="volume">
                         <detail>
-                            <caption>Zweiter Teil</caption>
+                            <caption>Volume</caption>
+                            <number>2</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 5-8">
@@ -41559,12 +41633,16 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc48</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
-                    <part>
+                    <part type="section">
                         <detail>
-                            <caption>Pars II</caption>
+                            <caption>Pars</caption>
+                            <number>2</number>
                         </detail>
+                    </part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume I</caption>
+                            <caption>Volume</caption>
+                            <number>1</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 1">
@@ -41585,12 +41663,16 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
-                    <part>
+                    <part type="section">
                         <detail>
-                            <caption>Pars II</caption>
+                            <caption>Pars</caption>
+                            <number>2</number>
                         </detail>
+                    </part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume II</caption>
+                            <caption>Volume</caption>
+                            <number>2</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 2-3">
@@ -41611,12 +41693,16 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
-                    <part>
+                    <part type="section">
                         <detail>
-                            <caption>Pars II</caption>
+                            <caption>Pars</caption>
+                            <number>2</number>
                         </detail>
+                    </part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume III</caption>
+                            <caption>Volume</caption>
+                            <number>3</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 4-5">
@@ -41637,12 +41723,16 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 4">
-                    <part>
+                    <part type="section">
                         <detail>
-                            <caption>Pars II</caption>
+                            <caption>Pars</caption>
+                            <number>2</number>
                         </detail>
+                    </part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume IV</caption>
+                            <caption>Volume</caption>
+                            <number>4</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 6-8">
@@ -41662,25 +41752,6 @@ but this is where the TLG has left off for numbering-->
                     <location>
                         <url displayLabel="GoogleBooks"
                             >http://books.google.com/books?id=dcsAAAAAYAAJ</url>
-                    </location>
-                </relatedItem>
-                <relatedItem type="constituent">
-                    <titleInfo xml:lang="eng" type="uniform">
-                        <title>Histories</title>
-                    </titleInfo>
-                    <titleInfo>
-                        <title>De bello Peloponnesiaco libri octo</title>
-                        <partNumber>Pars IV</partNumber>
-                        <partName>Supplementa Et Indices</partName>
-                    </titleInfo>
-                    <part>
-                        <detail>
-                            <caption>Pars IV</caption>
-                        </detail>
-                    </part>
-                    <location>
-                        <url displayLabel="Open Content Alliance"
-                            >http://www.archive.org/details/p4debellopelopo04thucuoft</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -41760,10 +41831,12 @@ but this is where the TLG has left off for numbering-->
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc69</identifier>
                 <relatedItem type="constituent" otherType="structure"
                     displayLabel="Volume 1-Section 1">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume 1</caption>
-                            <number>Section I</number>
+                            <caption>Volume</caption>
+                            <number>1</number>
+                            <caption>Section</caption>
+                            <number>1</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 1">
@@ -41784,10 +41857,12 @@ but this is where the TLG has left off for numbering-->
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure"
                     displayLabel="Volume 1-Section 2">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume 1</caption>
-                            <number>Section 2</number>
+                            <caption>Volume</caption>
+                            <number>1</number>
+                            <caption>Section</caption>
+                            <number>2</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 2">
@@ -41808,10 +41883,12 @@ but this is where the TLG has left off for numbering-->
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure"
                     displayLabel="Volume 2-Section 1">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume 2</caption>
-                            <number>Section 1</number>
+                            <caption>Volume</caption>
+                            <number>2</number>
+                            <caption>Section</caption>
+                            <number>1</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 3">
@@ -41832,10 +41909,12 @@ but this is where the TLG has left off for numbering-->
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure"
                     displayLabel="Volume 2-Section 2">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume 2</caption>
-                            <number>Section 2</number>
+                            <caption>Volume</caption>
+                            <number>2</number>
+                            <caption>Section</caption>
+                            <number>2</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 4">
@@ -41856,10 +41935,12 @@ but this is where the TLG has left off for numbering-->
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure"
                     displayLabel="Volume 3-Section 1">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume III</caption>
-                            <number>Sect I</number>
+                            <caption>Volume</caption>
+                            <number>3</number>
+                            <caption>Section</caption>
+                            <number>1</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 5">
@@ -41887,11 +41968,13 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure"
-                    displayLabel="Volume 3-Section II">
-                    <part>
+                    displayLabel="Volume 3-Section 2">
+                    <part type="volume">
                         <detail>
-                            <caption>Volume III</caption>
-                            <number>Sect II</number>
+                            <caption>Volume</caption>
+                            <number>3</number>
+                            <caption>Section</caption>
+                            <number>2</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 6">
@@ -41920,10 +42003,12 @@ but this is where the TLG has left off for numbering-->
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure"
                     displayLabel="Volume 4-Section 1">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume IV</caption>
-                            <number>Sect I</number>
+                            <caption>Volume</caption>
+                            <number>4</number>
+                            <caption>Section</caption>
+                            <number>1</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 7">
@@ -41952,10 +42037,12 @@ but this is where the TLG has left off for numbering-->
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure"
                     displayLabel="Volume 4-Section 2">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume IV</caption>
-                            <number>-Sect II</number>
+                            <caption>Volume</caption>
+                            <number>4</number>
+                            <caption>Section</caption>
+                            <number>2</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 8">
@@ -41987,8 +42074,8 @@ but this is where the TLG has left off for numbering-->
     </mods>
 
     <mods displayLabel="Historiae-Thucydides-Unknown-Parker-1831-Greek">
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Histories</title>
+        <titleInfo xml:lang="lat" type="uniform">
+            <title>Historiae</title>
         </titleInfo>
         <part>
             <extent unit="words">
@@ -41999,6 +42086,13 @@ but this is where the TLG has left off for numbering-->
             <title>De bello Peloponnesiaco libri octo</title>
             <subTitle>ex optimis editionibus expressi</subTitle>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/95161463/">
+            <namePart>Thucydides</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -42030,12 +42124,6 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/95161463/">
-            <namePart>Thucydides</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
         <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
@@ -42065,14 +42153,16 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">original author</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/61638470">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/61638470">
             <namePart>Rühl, Franz</namePart>
             <namePart type="date">1845-1916</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/61638489">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/61638489">
             <namePart>Seel, Otto</namePart>
             <namePart type="date">1907-1975</namePart>
             <role>
@@ -42301,7 +42391,6 @@ but this is where the TLG has left off for numbering-->
         <language>
             <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
         </language>
-
         <subject authority="lcsh">
             <name type="personal">
                 <namePart>Alexander</namePart>
@@ -42455,8 +42544,8 @@ but this is where the TLG has left off for numbering-->
         </location>
         <relatedItem type="constituent" otherType="volume" displayLabel="1174">
             <part type="volume">
-                <detail type="volume">
-                    <title>1174</title>
+                <detail>
+                    <number>1174</number>
                 </detail>
             </part>
             <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
@@ -42777,8 +42866,8 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression" displayLabel="Iliad">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0012.tlg001.opp-grc4</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
-                    <part>
-                        <detail type="volume">
+                    <part type="volume">
+                        <detail>
                             <caption>volume</caption>
                             <number>1</number>
                         </detail>
@@ -42786,8 +42875,8 @@ but this is where the TLG has left off for numbering-->
                     <tableOfContents>I. Prolegomena</tableOfContents>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
-                    <part>
-                        <detail type="volume">
+                    <part type="volume">
+                        <detail>
                             <caption>volume</caption>
                             <number>2</number>
                         </detail>
@@ -42803,8 +42892,8 @@ but this is where the TLG has left off for numbering-->
                     <tableOfContents>II. Libros I-XII contiens</tableOfContents>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
-                    <part>
-                        <detail type="volume">
+                    <part type="volume">
+                        <detail>
                             <caption>volume</caption>
                             <number>3</number>
                         </detail>
@@ -45640,8 +45729,8 @@ but this is where the TLG has left off for numbering-->
                 displayLabel="in Aristotelis Physica commentaria">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg4015.tlg009.opp-grc1</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
-                    <part>
-                        <detail type="volume">
+                    <part type="volume">
+                        <detail>
                             <caption>volume</caption>
                             <number>1</number>
                         </detail>
@@ -45665,8 +45754,8 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
-                    <part>
-                        <detail type="volume">
+                    <part type="volume">
+                        <detail>
                             <caption>volume</caption>
                             <number>2</number>
                         </detail>
@@ -48293,9 +48382,10 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Institutes of Oratory">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1002.phi001.opp-eng5</identifier>
-                <relatedItem type="constituent" otherType="structure" displayLabel="Volume I">
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part type="volume">
                         <detail>
+                            <caption>Volume</caption>
                             <number>1</number>
                         </detail>
                     </part>
@@ -48316,9 +48406,10 @@ but this is where the TLG has left off for numbering-->
                             >http://hdl.handle.net/2027/wu.89002877306</url>
                     </location>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="structure" displayLabel="Volume II">
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
                     <part type="volume">
                         <detail>
+                            <caption>Volume</caption>
                             <number>2</number>
                         </detail>
                     </part>
@@ -48494,9 +48585,10 @@ but this is where the TLG has left off for numbering-->
                 displayLabel="Institutio oratoria">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1002.phi001.opp-lat4</identifier>
                 <identifier type="ctsurn">urn:cts:latinLit:phi1002.phi001.opp-eng3</identifier>
-                <relatedItem type="constituent" otherType="structure" displayLabel="Volume I">
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part type="volume">
                         <detail>
+                            <caption>Volume</caption>
                             <number>1</number>
                         </detail>
                     </part>
@@ -48519,9 +48611,10 @@ but this is where the TLG has left off for numbering-->
                             >http://books.google.com/books?id=EpdfAAAAMAAJ</url>
                     </location>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="structure" displayLabel="Volume II">
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
                     <part type="volume">
                         <detail>
+                            <caption>Volume</caption>
                             <number>2</number>
                         </detail>
                     </part>
@@ -48549,9 +48642,10 @@ but this is where the TLG has left off for numbering-->
                             >http://books.google.com/books?id=aXxiAAAAMAAJ</url>
                     </location>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="structure" displayLabel="Volume III">
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
                     <part type="volume">
                         <detail>
+                            <caption>Volume</caption>
                             <number>3</number>
                         </detail>
                     </part>
@@ -48573,9 +48667,10 @@ but this is where the TLG has left off for numbering-->
                             >http://books.google.com/books?id=A5hfAAAAMAAJ</url>
                     </location>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="structure" displayLabel="Volume IV">
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 4">
                     <part type="volume">
                         <detail>
+                            <caption>Volume</caption>
                             <number>4</number>
                         </detail>
                     </part>
@@ -48699,7 +48794,7 @@ but this is where the TLG has left off for numbering-->
     <mods displayLabel="Institutio Oratoriae-Quintilian-Winterbottom-OCT-1970">
         <titleInfo>
             <title>M. Fabi Quintiliani Institutionis oratoriae libri duodecim</title>
-            <partNumber>Volume 1-2</partNumber>
+            <partNumber>Volumes 1-2</partNumber>
         </titleInfo>
         <titleInfo type="uniform" nameTitleGroup="1">
             <title>Institutio oratoriae</title>
@@ -48752,9 +48847,10 @@ but this is where the TLG has left off for numbering-->
                 displayLabel="M. Fabi Quintiliani Institutionis oratoriae">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1002.phi001.opp-lat8</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume 1</caption>
+                            <caption>Volume</caption>
+                            <number>1</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-6">
@@ -48770,9 +48866,10 @@ but this is where the TLG has left off for numbering-->
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume 2</caption>
+                            <caption>Volume</caption>
+                            <number>2</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 7-12">
@@ -48852,9 +48949,10 @@ but this is where the TLG has left off for numbering-->
                 displayLabel="Institutio oratoria">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1002.phi001.opp-lat6</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
-                    <part>
+                    <part type="volume">
                         <detail>
-                            <caption>Volume I</caption>
+                            <caption>Volume</caption>
+                            <number>1</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-6">
@@ -48875,10 +48973,11 @@ but this is where the TLG has left off for numbering-->
                             >https://hdl.handle.net/2027/wu.89090351651</url>
                     </location>
                 </relatedItem>
-                <relatedItem type="constituent">
-                    <part>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
+                    <part type="volume">
                         <detail>
-                            <caption>Volume II</caption>
+                            <caption>Volume</caption>
+                            <number>2</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 7-12">
@@ -48985,47 +49084,6 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Gai Institutiones</title>
         </titleInfo>
-        <identifier type="lccn">39002904 </identifier>
-        <identifier type="oclc">63545775</identifier>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">gw</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Lipsiae</placeTerm>
-            </place>
-            <publisher>in aedibus B. G. Teubneri</publisher>
-            <dateIssued>1935</dateIssued>
-            <edition>Septimam Editionem</edition>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <note type="statement of responsibility">ediderunt E. Seckel et B. Kuebler</note>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>xxxii, 268 p. ; 8-o.</extent>
-        </physicalDescription>
-        <classification authority="lcc">PA6104</classification>
-        <location>
-            <url displayLabel="LC Permalink">http://lccn.loc.gov/39002904</url>
-        </location>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/63545775</url>
-        </location>
-        <location>
-            <url displayLabel="SLUB">http://digital.slub-dresden.de/id404597947</url>
-        </location>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Bibliotheca scriptorum graecorum et romanorum Teubneriana. [S.r.]</title>
-            </titleInfo>
-            <titleInfo type="abbreviated">
-                <title>Teubner</title>
-            </titleInfo>
-        </relatedItem>
-        <language>
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/5725215/">
             <namePart>Gaius</namePart>
@@ -49049,9 +49107,51 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">co-editor</roleTerm>
             </role>
         </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Lipsiae</placeTerm>
+            </place>
+            <publisher>in aedibus B. G. Teubneri</publisher>
+            <dateIssued>1935</dateIssued>
+            <edition>Septimam Editionem</edition>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <note type="statement of responsibility">ediderunt E. Seckel et B. Kuebler</note>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>xxxii, 268 p. ; 8-o.</extent>
+        </physicalDescription>
+        <classification authority="lcc">PA6104</classification>
+        <identifier type="lccn">39002904</identifier>
+        <identifier type="oclc">63545775</identifier>
+
+        <location>
+            <url displayLabel="LC Permalink">http://lccn.loc.gov/39002904</url>
+        </location>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/63545775</url>
+        </location>
+        <location>
+            <url displayLabel="SLUB">http://digital.slub-dresden.de/id404597947</url>
+        </location>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Bibliotheca scriptorum graecorum et romanorum Teubneriana. [S.r.]</title>
+            </titleInfo>
+            <titleInfo type="abbreviated">
+                <title>Teubner</title>
+            </titleInfo>
+        </relatedItem>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
         <subject authority="lcsh">
             <topic>Roman law</topic>
-            <topic>Sources.</topic>
+            <topic>Sources</topic>
         </subject>
         <relatedItem type="constituent" otherType="work" displayLabel="Institutiones">
             <identifier type="ctsurn">urn:cts:latinLit:phi1251.phi001</identifier>
@@ -49074,14 +49174,16 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/29623528">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/29623528">
             <namePart>Seckel, Emil</namePart>
             <namePart type="date">1864-1924</namePart>
             <role>
                 <roleTerm type="text">editor</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/44359405">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/44359405">
             <namePart>Kübler, Bernhard</namePart>
             <namePart type="date">1859-1940</namePart>
             <role>
@@ -49443,6 +49545,7 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part type="volume">
                         <detail>
+                            <caption>Volume</caption>
                             <number>1</number>
                         </detail>
                     </part>
@@ -49467,6 +49570,7 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
                     <part type="volume">
                         <detail>
+                            <caption>Volume</caption>
                             <number>2</number>
                         </detail>
                     </part>
@@ -49495,6 +49599,22 @@ but this is where the TLG has left off for numbering-->
         <titleInfo xml:lang="lat" type="uniform">
             <title>Introductio Arithmetica</title>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/316786767/">
+            <namePart>Nicomachus,</namePart>
+            <namePart type="termsOfAddress">of Gerasa</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/54912638/">
+            <namePart>Hoche, Richard Gottfried</namePart>
+            <namePart type="date">1834-1906</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <part>
             <extent unit="words">
                 <total>24279</total>
@@ -49549,22 +49669,6 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/316786767/">
-            <namePart>Nicomachus,</namePart>
-            <namePart type="termsOfAddress">of Gerasa</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/54912638/">
-            <namePart>Hoche, Richard Gottfried</namePart>
-            <namePart type="date">1834-1906</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject>
             <geographicCode authority="marcgac">e-gr---</geographicCode>
         </subject>
@@ -49615,7 +49719,7 @@ but this is where the TLG has left off for numbering-->
         </location>
         <relatedItem type="constituent" otherType="structure" displayLabel="Volume 6">
             <part type="volume">
-                <detail type="volume">
+                <detail>
                     <title>Volume 6</title>
                 </detail>
             </part>
@@ -53829,7 +53933,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part>
                         <detail>
-                            <caption>Volume I</caption>
+                            <caption>Volume</caption>
+                            <number>1</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-5">
@@ -53853,7 +53958,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
                     <part>
                         <detail>
-                            <caption>Volume II</caption>
+                            <caption>Volume</caption>
+                            <number>2</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 6-10">
@@ -53877,7 +53983,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
                     <part>
                         <detail>
-                            <caption>Volume III</caption>
+                            <caption>Volume</caption>
+                            <number>3</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 11-17">
@@ -53901,7 +54008,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 4">
                     <part>
                         <detail>
-                            <caption>Volume IV</caption>
+                            <caption>Volume</caption>
+                            <number>4</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 18-23">
@@ -53925,7 +54033,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 5">
                     <part>
                         <detail>
-                            <caption>Volume V</caption>
+                            <caption>Volume</caption>
+                            <number>5</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 24-31">
@@ -53949,7 +54058,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 6">
                     <part>
                         <detail>
-                            <caption>Volume VI</caption>
+                            <caption>Volume</caption>
+                            <number>6</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 32-38">
@@ -54049,7 +54159,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part>
                         <detail>
-                            <caption>Volume 1</caption>
+                            <caption>Volume</caption>
+                            <number>1</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-6">
@@ -54074,7 +54185,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
                     <part>
                         <detail>
-                            <caption>Volume 2</caption>
+                            <caption>Volume</caption>
+                            <number>2</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 7-15">
@@ -54097,7 +54209,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
                     <part>
                         <detail>
-                            <caption>Volume 3</caption>
+                            <caption>Volume</caption>
+                            <number>3</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 16-22">
@@ -54120,7 +54233,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 4">
                     <part>
                         <detail>
-                            <caption>Volume 4</caption>
+                            <caption>Volume</caption>
+                            <number>4</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 23-30">
@@ -54143,7 +54257,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 5">
                     <part>
                         <detail>
-                            <caption>Volume V</caption>
+                            <caption>Volume</caption>
+                            <number>5</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 31-37">
@@ -54166,7 +54281,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 6">
                     <part>
                         <detail>
-                            <caption>Volume VI</caption>
+                            <caption>Volume</caption>
+                            <number>6</number>
                         </detail>
                     </part>
                     <tableOfContents>Indices</tableOfContents>
@@ -55579,7 +55695,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part>
                         <detail>
-                            <caption>Volume 1</caption>
+                            <caption>Volume</caption>
+                            <number>1</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-12">
@@ -55613,7 +55730,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
                     <part>
                         <detail>
-                            <caption>Volume 2</caption>
+                            <caption>Volume</caption>
+                            <number>2</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 13-24">
@@ -59101,8 +59219,9 @@ but this is where the TLG has left off for numbering-->
         </location>
         <relatedItem type="constituent" otherType="volume" displayLabel="Volume 2">
             <part type="volume">
-                <detail type="volume">
-                    <title>Volume 2</title>
+                <detail>
+                    <caption>Volume</caption>
+                    <number>2</number>
                 </detail>
             </part>
             <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
@@ -59684,7 +59803,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part>
                         <detail>
-                            <caption>Volume I</caption>
+                            <caption>Volume</caption>
+                            <number>1</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 14-9">
@@ -59704,7 +59824,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
                     <part>
                         <detail>
-                            <caption>Volume II</caption>
+                            <caption>Volume</caption>
+                            <number>2</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 20-26">
@@ -59720,7 +59841,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
                     <part>
                         <detail>
-                            <caption>Volume III</caption>
+                            <caption>Volume</caption>
+                            <number>3</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 27-31">
@@ -59886,7 +60008,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part>
                         <detail>
-                            <caption>Volume I</caption>
+                            <caption>Volume</caption>
+                            <number>1</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 14-25">
@@ -59905,7 +60028,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
                     <part>
                         <detail>
-                            <caption>Volume II, Pars I</caption>
+                            <caption>Volume 2</caption>
+                            <number>Part 1</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 26-31">
@@ -64028,7 +64152,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part>
                         <detail>
-                            <caption>Volume 1</caption>
+                            <caption>Volume</caption>
+                            <number>1</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-2">
@@ -64052,7 +64177,8 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
                     <part>
                         <detail>
-                            <caption>Volume 2</caption>
+                            <caption>Volume</caption>
+                            <number>2</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 3-5">
@@ -64225,7 +64351,8 @@ but this is where the TLG has left off for numbering-->
         <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
             <part>
                 <detail>
-                    <caption>Volume I</caption>
+                    <caption>Volume</caption>
+                    <number>1</number>
                 </detail>
             </part>
             <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-3">
@@ -64248,7 +64375,8 @@ but this is where the TLG has left off for numbering-->
         <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
             <part>
                 <detail>
-                    <caption>Volume II</caption>
+                    <caption>Volume</caption>
+                    <number>2</number>
                 </detail>
             </part>
             <relatedItem type="constituent" otherType="structure" displayLabel="Book 4-7">
@@ -64497,8 +64625,8 @@ but this is where the TLG has left off for numbering-->
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0004.tlg001.opp-eng1</identifier>
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0004.tlg001.opp-grc1</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="volume 1">
-                    <part>
-                        <detail type="volume">
+                    <part type="volume">
+                        <detail>
                             <caption>Volume</caption>
                             <number>1</number>
                         </detail>
@@ -64517,8 +64645,8 @@ but this is where the TLG has left off for numbering-->
                     </relatedItem>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="volume 2">
-                    <part>
-                        <detail type="volume">
+                    <part type="volume">
+                        <detail>
                             <caption>Volume</caption>
                             <number>2</number>
                         </detail>
