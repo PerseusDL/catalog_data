@@ -2,7 +2,7 @@
 <!--Generated from pending-embedded.mods.xml with invertedhosts2.xq on 12/07/2018 -->
 <!-- Pulled all reference works-->
 <modsCollection xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.loc.gov/mods/v3">
-    
+
 
     <mods displayLabel="Poetae Bucolici et Didacti">
         <titleInfo>
@@ -104,8 +104,8 @@
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015022000742</url>
         </location>
         <relatedItem type="constituent" otherType="Section" displayLabel="Part I">
-            <!-- Part I -->
-            <part type="volume">
+
+            <part type="section">
                 <detail>
                     <number>Part 1</number>
                 </detail>
@@ -314,20 +314,51 @@
                 </relatedItem>
             </relatedItem>
         </relatedItem>
-        <!-- Part II -->
+
         <relatedItem type="constituent" otherType="Section" displayLabel="Part II">
-            <part type="volume">
+            <part type="section">
                 <detail>
                     <number>Part 2</number>
                 </detail>
             </part>
-            <!-- LEFT OFF HERE -->
+            <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                valueURI="https://viaf.org/viaf/86913544/">
+                <namePart>Oppian</namePart>
+                <namePart type="date">of Apamea</namePart>
+                <role>
+                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                </role>
+            </name>
+            <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                valueURI="https://viaf.org/viaf/100036127/">
+                <namePart>Oppian</namePart>
+                <namePart type="date">fl. 2nd cent</namePart>
+                <role>
+                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                </role>
+            </name>
+            <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                valueURI="https://viaf.org/viaf/22275493/">
+                <namePart>Nicander,</namePart>
+                <namePart type="termsOfAddress">of Colophon</namePart>
+                <role>
+                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                </role>
+            </name>
+            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                valueURI="http://viaf.org/viaf/100902699/">
+                <namePart>Dionysius</namePart>
+                <namePart type="termsOfAddress">of Periegetes</namePart>
+                <role>
+                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                </role>
+            </name>
             <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                 valueURI="http://viaf.org/viaf/39405583">
                 <namePart>Lehrs, Franz Siegfried,</namePart>
                 <namePart type="date">1806-1843</namePart>
                 <role>
-                    <roleTerm type="text">editor</roleTerm>
+                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
                 </role>
             </name>
             <relatedItem type="constituent" otherType="work" displayLabel="Cynegetica">
@@ -456,87 +487,63 @@
                 </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="De piscibus fragmentum">
-                <titleInfo>
-                    <title>De piscibus fragmentum</title>
-                </titleInfo>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/36830350/">
-                    <namePart>Markellos</namePart>
-                    <namePart type="termsOfAddress">Sidētēs</namePart>
-                    <role>
-                        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/39405583">
-                    <namePart>Lehrs, Franz Siegfried,</namePart>
-                    <namePart type="date">1806-1843</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-                </language>
-                <identifier type="tlg">0281.001</identifier>
-                <part>
-                    <extent unit="pages">
-                        <start>169</start>
-                        <end>171</end>
-                    </extent>
-                </part>
-                <location>
-                    <url displayLabel="HathiTrust"
-                        >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=324</url>
-                </location>
-
+                <identifier type="ctsurn">urn:cts:latinLit:tlg0281.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="De piscibus fragmentum">
+                    <identifier type="ctsurn">urn:cts:latinLit:tlg0281.tlg001.opp-grc1</identifier>
+                    <identifier type="ctsurn">urn:cts:latinLit:tlg0281.tlg001.opp-lat1</identifier>
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                        valueURI="http://viaf.org/viaf/36830350/">
+                        <namePart>Markellos</namePart>
+                        <namePart type="termsOfAddress">Sidētēs</namePart>
+                        <role>
+                            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                        </role>
+                    </name>
+                    <part>
+                        <extent unit="pages">
+                            <start>169</start>
+                            <end>171</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=324</url>
+                    </location>
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Anonymi Carmen De Herbis">
-                <titleInfo>
-                    <title>Anonymi Carmen De Herbis</title>
-                </titleInfo>
-                <name authority="tlg" type="corporate">
-                    <namePart>Anonymus de Viribus Herbarum</namePart>
-                    <role>
-                        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-                    </role>
-                </name>
-                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                    valueURI="http://viaf.org/viaf/39405583">
-                    <namePart>Lehrs, Franz Siegfried,</namePart>
-                    <namePart type="date">1806-1843</namePart>
-                    <role>
-                        <roleTerm type="text">editor</roleTerm>
-                    </role>
-                </name>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-                </language>
-                <language objectPart="text">
-                    <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-                </language>
-                <identifier type="tlg">0282.001</identifier>
-                <part>
-                    <extent unit="pages">
-                        <start>173</start>
-                        <end>178</end>
-                    </extent>
-                </part>
-                <location>
-                    <url displayLabel="HathiTrust"
-                        >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=328</url>
-                </location>
+                <identifier type="ctsurn">urn:cts:latinLit:tlg0282.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Anonymi Carmen De Herbis">
+                    <identifier type="ctsurn">urn:cts:latinLit:tlg0282.tlg001.opp-grc1</identifier>
+                    <identifier type="ctsurn">urn:cts:latinLit:tlg0282.tlg001.opp-lat1</identifier>
+                    <name authority="tlg" type="corporate">
+                        <namePart>Anonymus de Viribus Herbarum</namePart>
+                        <role>
+                            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                        </role>
+                    </name>
+                    <part>
+                        <extent unit="pages">
+                            <start>173</start>
+                            <end>178</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=328</url>
+                    </location>
+                </relatedItem>
             </relatedItem>
         </relatedItem>
-        <!-- Part III -->
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Carmina varia de naturali historia ">
-            <titleInfo type="uniform">
-                <title>Carmina varia de naturali historia </title>
-            </titleInfo>
+
+        <relatedItem type="constituent" otherType="Section" displayLabel="Part III">
+            <part type="section">
+                <detail>
+                    <number>Part 3</number>
+                </detail>
+            </part>
             <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                 valueURI="http://viaf.org/viaf/7433097/">
                 <namePart>Philes, Manuel</namePart>
@@ -546,53 +553,6 @@
                 </role>
             </name>
             <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/12336286/">
-                <namePart>Dübner, F. (Johann Friedrich),</namePart>
-                <namePart type="date">1802-1867</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/39405583">
-                <namePart>Lehrs, Franz Siegfried,</namePart>
-                <namePart type="date">1806-1843</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">2718.003</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>3</start>
-                    <end>68</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=342</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-            <titleInfo>
-                <title>Fragmenta</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/76705808">
-                <namePart>Archestratus,</namePart>
-                <namePart type="termsOfAddress">of Gela</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                 valueURI="http://viaf.org/viaf/56723289">
                 <namePart>Bussemaker, Ulco Cats</namePart>
                 <namePart type="date">1810-1865</namePart>
@@ -600,222 +560,178 @@
                     <roleTerm type="text">editor</roleTerm>
                 </role>
             </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">1175.001</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>78</start>
-                    <end>86</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=418</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-            <titleInfo>
-                <title>Fragmenta</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/5318103/">
-                <namePart>Numenius</namePart>
-                <namePart type="termsOfAddress">Heracleensis</namePart>
-                <namePart type="date"/>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/56723289">
-                <namePart>Bussemaker, Ulco Cats</namePart>
-                <namePart type="date">1810-1865</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0703.001</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>87</start>
-                    <end>89</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=428</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-            <titleInfo>
-                <title>Fragmenta</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="">
-                <namePart>Pancrates</namePart>
-                <namePart type="termsOfAddress">Arcadius</namePart>
-                <namePart type="date">fl.3./2.Jh. v. Chr</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/56723289">
-                <namePart>Bussemaker, Ulco Cats</namePart>
-                <namePart type="date">1810-1865</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">1556.001</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>89</start>
-                    <end>89</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=430</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Jusjurandum Medicum">
-            <titleInfo>
-                <title>Jusjurandum Medicum</title>
-            </titleInfo>
-            <name authority="tlg" type="corporate">
-                <namePart>Anonymous</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/56723289">
-                <namePart>Bussemaker, Ulco Cats</namePart>
-                <namePart type="date">1810-1865</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0740.001</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>90</start>
-                    <end>90</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=432M</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-            <titleInfo type="uniform">
-                <title>Fragmenta</title>
-            </titleInfo>
-            <titleInfo>
-                <title>Letalium Potionum Ad Nicomachum</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/27455519">
-                <namePart>Heliodorus</namePart>
-                <namePart type="termsOfAddress">Atheniensis</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/56723289">
-                <namePart>Bussemaker, Ulco Cats</namePart>
-                <namePart type="date">1810-1865</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0750.002</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>90</start>
-                    <end>90</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=432</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmentum de Ladano">
-            <titleInfo>
-                <title>Fragmentum de Ladano</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="">
-                <namePart>Rufus</namePart>
-                <namePart type="termsOfAddress">of Ephesus</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/56723289">
-                <namePart>Bussemaker, Ulco Cats</namePart>
-                <namePart type="date">1810-1865</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0564X01</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>90</start>
-                    <end>90</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=432</url>
-            </location>
-
-        </relatedItem>
-        <!-- 
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="Carmina varia de naturali historia">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2718.tlg003</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Carmina varia de naturali historia">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg2718.tlg003.opp-grc1</identifier>
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg2718.tlg003.opp-lat11</identifier>
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                        valueURI="http://viaf.org/viaf/7433097/">
+                        <namePart>Philes, Manuel</namePart>
+                        <namePart type="date">ca. 1275-1345</namePart>
+                        <role>
+                            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                        </role>
+                    </name>
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                        valueURI="http://viaf.org/viaf/12336286/">
+                        <namePart>Dübner, F. (Johann Friedrich),</namePart>
+                        <namePart type="date">1802-1867</namePart>
+                        <role>
+                            <roleTerm type="text">editor</roleTerm>
+                        </role>
+                    </name>
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                        valueURI="http://viaf.org/viaf/39405583">
+                        <namePart>Lehrs, Franz Siegfried,</namePart>
+                        <namePart type="date">1806-1843</namePart>
+                        <role>
+                            <roleTerm type="text">editor</roleTerm>
+                        </role>
+                    </name>
+                    <part>
+                        <extent unit="pages">
+                            <start>3</start>
+                            <end>68</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=342</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1175.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg1175.tlg001.opp-grc2</identifier>
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg1175.tlg001.opp-lat1</identifier>
+                    <part>
+                        <extent unit="pages">
+                            <start>78</start>
+                            <end>86</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=418</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0703.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0703.tlg001.opp-grc1</identifier>
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0703.tlg001.opp-lat1</identifier>
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                        valueURI="http://viaf.org/viaf/5318103/">
+                        <namePart>Numenius</namePart>
+                        <namePart type="termsOfAddress">Heracleensis</namePart>
+                        <namePart type="date"/>
+                        <role>
+                            <roleTerm type="text">creator</roleTerm>
+                        </role>
+                    </name>
+                    <part>
+                        <extent unit="pages">
+                            <start>87</start>
+                            <end>89</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=428</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1556.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg1556.tlg001.opp-grc1</identifier>
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg1556.tlg001.opp-lat1</identifier>
+                    <part>
+                        <extent unit="pages">
+                            <start>89</start>
+                            <end>89</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=430</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Jusjurandum Medicum">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0740.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Jusjurandum Medicum">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0740.tlg001.opp-grc1</identifier>
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0740.tlg001.opp-lat1</identifier>
+                    <name authority="tlg" type="corporate">
+                        <namePart>Anonymous</namePart>
+                        <role>
+                            <roleTerm type="text">creator</roleTerm>
+                        </role>
+                    </name>
+                    <part>
+                        <extent unit="pages">
+                            <start>90</start>
+                            <end>90</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=432M</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0750.tlg002</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0750.tlg002.opp-grc1</identifier>
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0750.tlg002.opp-lat1</identifier>
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                        valueURI="http://viaf.org/viaf/27455519">
+                        <namePart>Heliodorus</namePart>
+                        <namePart type="termsOfAddress">Atheniensis</namePart>
+                        <role>
+                            <roleTerm type="text">creator</roleTerm>
+                        </role>
+                    </name>
+                    <tableOfContents> Letalium Potionum Ad Nicomachum </tableOfContents>
+                    <part>
+                        <extent unit="pages">
+                            <start>90</start>
+                            <end>90</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=432</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Fragmentum de Ladano">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0564x01</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Fragmentum de Ladano">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0564x01.opp-grc2</identifier>
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0564x01.opp-lat2</identifier>
+                    <part>
+                        <extent unit="pages">
+                            <start>90</start>
+                            <end>90</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=432</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <!-- 
     <relatedItem type="constituent">
         <titleInfo>
             <title>Theriaca</title>
@@ -850,249 +766,168 @@
             <url displayLabel="HathiTrust">https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=432</url>
         </location>
     </relatedItem> Taken from Galen DE ANtidotis -->
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmentum">
-            <titleInfo type="uniform">
-                <title>Fragmentum</title>
-            </titleInfo>
-            <titleInfo>
-                <title>Antidotus</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/34844054/">
-                <namePart>Philo</namePart>
-                <namePart type="termsOfAddress">Tarsensis</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/56723289">
-                <namePart>Bussemaker, Ulco Cats</namePart>
-                <namePart type="date">1810-1865</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0706.001</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>91</start>
-                    <end>93</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=432</url>
-            </location>
-
+            
+            <relatedItem type="constituent" otherType="work" displayLabel="Fragmentum">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0706.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmentum">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0706.tlg001.opp-grc1</identifier>
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0706.tlg001.opp-lat1</identifier>
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                        valueURI="http://viaf.org/viaf/34844054/">
+                        <namePart>Philo</namePart>
+                        <namePart type="termsOfAddress">Tarsensis</namePart>
+                        <role>
+                            <roleTerm type="text">creator</roleTerm>
+                        </role>
+                    </name>
+                    <tableOfContents>Antidotus</tableOfContents>
+                    <part>
+                        <extent unit="pages">
+                            <start>91</start>
+                            <end>93</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=432</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Fragmentum">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0280.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmentum">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0280.tlg001.opp-grc1</identifier>
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0280.tlg001.opp-lat1</identifier>
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                        valueURI="http://viaf.org/viaf/259813010/">
+                        <namePart>Andromachus,</namePart>
+                        <namePart type="termsOfAddress">the Elder</namePart>
+                        <role>
+                            <roleTerm type="text">creator</roleTerm>
+                        </role>
+                    </name>
+                    <part>
+                        <extent unit="pages">
+                            <start>94</start>
+                            <end>97</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://babel.hathitrust.org/cgi/pt?id=mdp.39015022000742;view=2up;seq=436</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="Adversus suffusiones incipientes">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0676.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Adversus suffusiones incipientes">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0676.tlg001.opp-grc1</identifier>
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0676.tlg001.opp-lat1</identifier>
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                        valueURI="http://viaf.org/viaf/76705808">
+                        <namePart>Aglaias</namePart>
+                        <namePart type="termsOfAddress">Byzantinus</namePart>
+                        <role>
+                            <roleTerm type="text">creator</roleTerm>
+                        </role>
+                    </name>
+                    <part>
+                        <extent unit="pages">
+                            <start>97</start>
+                            <end>98</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=438</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Fragmentum">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0701.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmentum">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0701.tlg001.opp-grc1</identifier>
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0701.tlg001.opp-lat1</identifier>
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                        valueURI="http://viaf.org/viaf/399046/">
+                        <namePart>Mnesitheus</namePart>
+                        <namePart type="termsOfAddress">Atheniensis</namePart>
+                        <namePart type="date">4./3. Jh. v. Chr.</namePart>
+                        <role>
+                            <roleTerm type="text">creator</roleTerm>
+                        </role>
+                    </name>
+                    <part>
+                        <extent unit="pages">
+                            <start>98</start>
+                            <end>99</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=440</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0848.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0848.tlg001.opp-grc1</identifier>
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0848.tlg001.opp-lat1</identifier>
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                        valueURI="http://viaf.org/viaf/69276186/">
+                        <namePart>Damocrates</namePart>
+                        <namePart type="termsOfAddress">Servilius</namePart>
+                        <role>
+                            <roleTerm type="text">creator</roleTerm>
+                        </role>
+                    </name>
+                    <part>
+                        <extent unit="pages">
+                            <start>99</start>
+                            <end>132</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=440</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Praecepta Salubria">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0663.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Praecepta Salubria">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0663.tlg001.opp-grc1</identifier>
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0663.tlg001.opp-lat1</identifier>
+                    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                        valueURI="http://viaf.org/viaf/287110892">
+                        <namePart>Praecepta Salubria</namePart>
+                        <role>
+                            <roleTerm type="text">creator</roleTerm>
+                        </role>
+                    </name>
+                    <part>
+                        <extent unit="pages">
+                            <start>132</start>
+                            <end>134</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=474</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
         </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmentum">
-            <titleInfo>
-                <title>Fragmentum</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/259813010/">
-                <namePart>Andromachus,</namePart>
-                <namePart type="termsOfAddress">the Elder</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/56723289">
-                <namePart>Bussemaker, Ulco Cats</namePart>
-                <namePart type="date">1810-1865</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0280.001</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>94</start>
-                    <end>97</end>
-                </extent>
+        <relatedItem type="constituent" otherType="Section" displayLabel="Part IV">
+            <part type="section">
+                <detail>
+                    <number>Part 4</number>
+                </detail>
             </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://babel.hathitrust.org/cgi/pt?id=mdp.39015022000742;view=2up;seq=436</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Adversus suffusiones incipientes">
-            <titleInfo>
-                <title>Adversus suffusiones incipientes</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/76705808">
-                <namePart>Aglaias</namePart>
-                <namePart type="termsOfAddress">Byzantinus</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/56723289">
-                <namePart>Bussemaker, Ulco Cats</namePart>
-                <namePart type="date">1810-1865</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0676.001</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>97</start>
-                    <end>98</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=438</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmentum">
-            <titleInfo>
-                <title>Fragmentum</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/399046/">
-                <namePart>Mnesitheus</namePart>
-                <namePart type="termsOfAddress">Atheniensis</namePart>
-                <namePart type="date">4./3. Jh. v. Chr.</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/56723289">
-                <namePart>Bussemaker, Ulco Cats</namePart>
-                <namePart type="date">1810-1865</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0701.001</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>98</start>
-                    <end>99</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=440</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-            <titleInfo>
-                <title>Fragmenta</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/69276186/">
-                <namePart>Damocrates</namePart>
-                <namePart type="termsOfAddress">Servilius</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/56723289">
-                <namePart>Bussemaker, Ulco Cats</namePart>
-                <namePart type="date">1810-1865</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0848.001</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>99</start>
-                    <end>132</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=440</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Praecepta Salubria">
-            <titleInfo>
-                <title>Praecepta Salubria</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/287110892">
-                <namePart>Praecepta Salubria</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/56723289">
-                <namePart>Bussemaker, Ulco Cats</namePart>
-                <namePart type="date">1810-1865</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0663.001</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>132</start>
-                    <end>134</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=474</url>
-            </location>
-
-        </relatedItem>
-        <!-- Part IV -->
-        <relatedItem type="constituent" otherType="work" displayLabel="Phaenomena">
-            <titleInfo>
-                <title>Phaenomena</title>
-            </titleInfo>
             <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                 valueURI="http://viaf.org/viaf/13120904/">
                 <namePart>Aratus</namePart>
@@ -1102,103 +937,12 @@
                 </role>
             </name>
             <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/286039161/">
-                <namePart>Kœchly, Arminius,</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">0653.001</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>1</start>
-                    <end>22</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=560</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Arati Phaenomena">
-            <titleInfo>
-                <title>Arati Phaenomena</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                 valueURI="http://viaf.org/viaf/78769600/">
                 <namePart>Cicero, Marcus Tullius</namePart>
                 <role>
                     <roleTerm type="text">creator</roleTerm>
                 </role>
             </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/286039161/">
-                <namePart>Kœchly, Arminius,</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="phi">474.60</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>23</start>
-                    <end>28</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=582</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Arati Prognostica">
-            <titleInfo>
-                <title>Arati Prognostica</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/78769600/">
-                <namePart>Cicero, Marcus Tullius</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/286039161/">
-                <namePart>Kœchly, Arminius,</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="phi">474.71</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>28</start>
-                    <end>28</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=588</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Aratea">
-            <titleInfo>
-                <title>Aratea</title>
-            </titleInfo>
             <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                 valueURI="http://viaf.org/viaf/56580498/">
                 <namePart>Germanicus Caesar</namePart>
@@ -1208,33 +952,6 @@
                 </role>
             </name>
             <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/286039161/">
-                <namePart>Kœchly, Arminius,</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="phi">881.1</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>29</start>
-                    <end>38</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=588</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Apotelesmatica">
-            <titleInfo>
-                <title>Apotelesmatica</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                 valueURI="http://viaf.org/viaf/59155489/">
                 <namePart>Manetho</namePart>
                 <namePart type="termsOfAddress">Astrologus</namePart>
@@ -1243,40 +960,6 @@
                 </role>
             </name>
             <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/286039161/">
-                <namePart>Kœchly, Arminius,</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">2583.001</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>41</start>
-                    <end>101</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=598</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Carminum De Actionum Auspiciis Reliqiuia">
-            <titleInfo type="translated" lang="lat">
-                <title>Carminum De Actionum Auspiciis Reliqiuia</title>
-            </titleInfo>
-            <titleInfo>
-                <title>Περὶ καταρχῶν</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                 valueURI="http://viaf.org/viaf/2608789/">
                 <namePart>Maximus</namePart>
                 <namePart type="termsOfAddress">Astrologus</namePart>
@@ -1284,37 +967,6 @@
                     <roleTerm type="text">creator</roleTerm>
                 </role>
             </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/286039161/">
-                <namePart>Kœchly, Arminius,</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">1487.001</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>102</start>
-                    <end>110</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=662</url>
-            </location>
-
-        </relatedItem>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Fragmenta e Hephaestionis Ἀποτελεσματικῶν libris hausta ">
-            <titleInfo>
-                <title>Fragmenta e Hephaestionis Ἀποτελεσματικῶν libris hausta </title>
-            </titleInfo>
             <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                 valueURI="http://viaf.org/viaf/82730567/">
                 <namePart>Dorotheus</namePart>
@@ -1330,65 +982,140 @@
                     <roleTerm type="text">editor</roleTerm>
                 </role>
             </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">1337.002</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>115</start>
-                    <end>117</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=674</url>
-            </location>
-
+            <relatedItem type="constituent" otherType="work" displayLabel="Phaenomena">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0653.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Phaenomena">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0653.tlg001.opp-grc3</identifier>
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0653.tlg001.opp-lat1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>1</start>
+                        <end>22</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=560</url>
+                </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Arati Phaenomena">
+                <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi060</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Arati Phaenomena">
+                    <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi060.opp-lat3</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>23</start>
+                        <end>28</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=582</url>
+                </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Arati Prognostica">
+                <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi071</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Arati Prognostica">
+                    <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi071.opp-lat3</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>28</start>
+                        <end>28</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=588</url>
+                </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Aratea">
+                <identifier type="ctsurn">urn:cts:latinLit:phi0881.phi001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Aratea">
+                    <identifier type="ctsurn">urn:cts:latinLit:phi0881.phi003.opp-lat3</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>29</start>
+                        <end>38</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=588</url>
+                </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Apotelesmatica">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2583.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Apotelesmatica">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg2583.tlg001.opp-grc2</identifier>  
+                <part>
+                    <extent unit="pages">
+                        <start>41</start>
+                        <end>101</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=598</url>
+                </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Περὶ καταρχῶν">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1478.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Carminum De Actionum Auspiciis Reliqiuia">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg1478.tlg001.opp-grc2</identifier>
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg1478.tlg001.opp-lat1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>102</start>
+                        <end>110</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=662</url>
+                </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="Fragmenta e Hephaestionis Ἀποτελεσματικῶν libris hausta">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1337.tlg002</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta e Hephaestionis Ἀποτελεσματικῶν libris hausta">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg1337.tlg002.opp-grc2</identifier>  
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg1337.tlg002.opp-lat1</identifier>  
+                <part>
+                    <extent unit="pages">
+                        <start>115</start>
+                        <end>117</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=674</url>
+                </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1126.tlg003</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg1126.tlg003.opp-grc2</identifier>
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg1126.tlg003.opp-lat1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>117</start>
+                        <end>117</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=676</url>
+                </location>
+            </relatedItem>
+            </relatedItem>
         </relatedItem>
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-            <titleInfo>
-                <title>Fragmenta</title>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/39684711/">
-                <namePart>Anubion</namePart>
-                <namePart type="termsOfAddress">Poeta Astrologus</namePart>
-                <namePart>ca. 1. Jh</namePart>
-                <role>
-                    <roleTerm type="text">creator</roleTerm>
-                </role>
-            </name>
-            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-                valueURI="http://viaf.org/viaf/286039161/">
-                <namePart>Kœchly, Arminius,</namePart>
-                <role>
-                    <roleTerm type="text">editor</roleTerm>
-                </role>
-            </name>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <identifier type="tlg">1126.003</identifier>
-            <part>
-                <extent unit="pages">
-                    <start>117</start>
-                    <end>117</end>
-                </extent>
-            </part>
-            <location>
-                <url displayLabel="HathiTrust"
-                    >https://hdl.handle.net/2027/mdp.39015022000742?urlappend=%3Bseq=676</url>
-            </location>
-
-        </relatedItem>
-
     </mods>
     <mods displayLabel="Fragmenta-Euripides-Teubner-1902">
         <!-- IN CATALOG BUT MOST FRAGMENTS DON"T HAVE TLGS/URNS-NEED TO CREATE 
