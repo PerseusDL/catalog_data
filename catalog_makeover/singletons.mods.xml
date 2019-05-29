@@ -39623,7 +39623,8 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="alternative">
             <title>Institutum funebris orationis apud athenienses</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/95161463/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/95161463/">
             <namePart>Thucydides</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
@@ -39654,7 +39655,7 @@ but this is where the TLG has left off for numbering-->
         </physicalDescription>
         <note>Added t.p. in Greek.</note>
         <note>Greek text followed by Latin translation.</note>
-        <identifier type="oclc">224496912</identifier>        
+        <identifier type="oclc">224496912</identifier>
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/224496912</url>
         </location>
@@ -39899,9 +39900,9 @@ but this is where the TLG has left off for numbering-->
                             </detail>
                         </part>
                     </relatedItem>
-                   <originInfo>
-                       <dateIssued>1790</dateIssued>
-                   </originInfo>                    
+                    <originInfo>
+                        <dateIssued>1790</dateIssued>
+                    </originInfo>
                     <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
                         valueURI="http://viaf.org/viaf/49971785/">
                         <namePart>Duker, Carolus Andreas</namePart>
@@ -39931,7 +39932,8 @@ but this is where the TLG has left off for numbering-->
                             >http://www.archive.org/details/thoukydidoutouol01thucuoft</url>
                     </location>
                     <location>
-                        <url displayLabel="HathiTrust">https://hdl.handle.net/2027/njp.32101078170824</url>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/njp.32101078170824</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
@@ -39951,7 +39953,7 @@ but this is where the TLG has left off for numbering-->
                     </relatedItem>
                     <originInfo>
                         <dateIssued>1804</dateIssued>
-                    </originInfo>  
+                    </originInfo>
                     <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
                         valueURI="http://viaf.org/viaf/57357633">
                         <namePart> Beck, Christian Daniel</namePart>
@@ -40353,59 +40355,11 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <!-- LEFT OFF HERE FOR FINAL EDITIN -->
     <mods displayLabel="Historiae-Thucydides-Arnold-Parker-1882-8th edition">
-        <!-- NEED TO FIND
-    OTHER VOLUMES-->
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Histories</title>
-        </titleInfo>
-        <part>
-            <extent unit="words">
-                <total>153260</total>
-            </extent>
-        </part>
         <titleInfo>
-            <nonSort>The </nonSort>
+            <nonSort>The</nonSort>
             <title>history of the Peloponnesian War</title>
-            <subTitle>illustrated by maps, taken entirely from actual surveys</subTitle>
-            <partNumber>Volume 1</partNumber>
-            <partName>Book I-Book III</partName>
         </titleInfo>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">enk</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Oxford</placeTerm>
-            </place>
-            <publisher>Parker</publisher>
-            <dateIssued>1882</dateIssued>
-            <edition>Ed. 8.</edition>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>xii, 543.</extent>
-        </physicalDescription>
-        <note type="statement of responsibility">with notes, chiefly historical and geographical, by
-            Thomas Arnold, with indexes by R.P.G. Tiddeman.</note>
-        <note>Vol. 2 of 1882-90 set is ed. 9, 1890.</note>
-        <identifier type="oclc">20788908</identifier>
-        <location>
-            <url displayLabel="WorldCat">http://worldcat.org/oclc/20788908</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance">
-                http://www.archive.org/details/historyofpelopon01thucuoft</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks">http://books.google.com/books?id=Z04TAAAAYAAJ</url>
-        </location>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/95161463/">
             <namePart>Thucydides</namePart>
@@ -40429,19 +40383,121 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">indexer</roleTerm>
             </role>
         </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">enk</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Oxford</placeTerm>
+            </place>
+            <publisher>Parker</publisher>
+            <dateIssued>1882-1890</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>3 v in 4</extent>
+        </physicalDescription>
+        <note type="statement of responsibility">illustrated by maps, taken entirely from actual surveys, 
+            with notes, chiefly historical and geographical, by
+            Thomas Arnold, with indexes by R.P.G. Tiddeman.</note>
+        <note>Vol. 2 of 1882-90 set is ed. 9, 1890.</note>
+        <identifier type="oclc">20788908</identifier>
+        <language objectPart="notes">
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <location>
+            <url displayLabel="WorldCat">http://worldcat.org/oclc/20788908</url>
+        </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc32</identifier>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
+                    <part type="volume">
+                        <detail type="volume">
+                            <caption>Volume</caption>
+                            <number>1</number>
+                        </detail>
+                    </part>
+                    <originInfo>
+                        <dateIssued>1882</dateIssued>
+                        <edition>8th edition</edition>
+                    </originInfo>
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-3">
+                        <part type="book">
+                            <detail type="book">
+                                <caption>Book</caption>
+                                <number>1-3</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <location>
+                        <url displayLabel="Open Content Alliance">
+                            http://www.archive.org/details/historyofpelopon01thucuoft</url>
+                    </location>
+                    <location>
+                        <url displayLabel="GoogleBooks"
+                            >http://books.google.com/books?id=Z04TAAAAYAAJ</url>
+                    </location>
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
+                        <part type="volume">
+                            <detail type="volume">
+                                <caption>Volume</caption>
+                                <number>2</number>
+                            </detail>
+                        </part>
+                        <originInfo>
+                            <dateIssued>1890</dateIssued>
+                            <edition>9th edition</edition>
+                        </originInfo>
+                        <relatedItem type="constituent" otherType="structure"
+                            displayLabel="Book 4-6">
+                            <part type="book">
+                                <detail type="book">
+                                    <caption>Book</caption>
+                                    <number>4-6</number>
+                                </detail>
+                            </part>
+                        </relatedItem>
+                        <location>
+                            <url displayLabel="HathiTrust"
+                                >https://hdl.handle.net/2027/inu.30000010398067</url>
+                        </location>
+                    </relatedItem>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
+                    <part type="volume">
+                        <detail type="volume">
+                            <caption>Volume</caption>
+                            <number>3</number>
+                        </detail>
+                    </part>
+                    <originInfo>
+                        <dateIssued>1868</dateIssued>
+                        <edition>7th edition</edition>
+                    </originInfo>
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Book 7-8">
+                        <part type="book">
+                            <detail type="book">
+                                <caption>Book</caption>
+                                <number>7-8</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >https://archive.org/details/historyofpelo03thuc/</url>
+                    </location>
+                </relatedItem>
             </relatedItem>
         </relatedItem>
     </mods>
-
-
     <mods displayLabel="Historiae-Thucydides-Boehme/Widmann-Teubner-1882-5th edition-Greek">
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Histories</title>
-        </titleInfo>
         <titleInfo>
             <title>Thukydides</title>
         </titleInfo>
@@ -40475,8 +40531,7 @@ but this is where the TLG has left off for numbering-->
                 <placeTerm type="text">Leipzig</placeTerm>
             </place>
             <publisher>Teubner</publisher>
-            <dateIssued>1882</dateIssued>
-            <edition>5. Aufl. </edition>
+            <dateIssued>1882-1891</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
         <typeOfResource>text</typeOfResource>
@@ -40510,13 +40565,19 @@ but this is where the TLG has left off for numbering-->
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Historiae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001.opp-grc54</identifier>
-                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1-Part 1">                    
                     <part type="volume">
                         <detail type="volume">
                             <caption>Volume</caption>
                             <number>1</number>
+                            <caption>Part</caption>
+                            <number>1</number>
                         </detail>
                     </part>
+                    <originInfo>
+                        <edition>Funfte Auflage</edition>
+                        <dateIssued>1882</dateIssued>
+                    </originInfo>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-2">
                         <part type="book">
                             <detail type="book">
@@ -40535,13 +40596,19 @@ but this is where the TLG has left off for numbering-->
                             >http://books.google.com/books?id=NoktGwAACAAJ</url>
                     </location>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1-Part 2">
                     <part type="volume">
                         <detail type="volume">
                             <caption>Volume</caption>
+                            <number>1</number>
+                            <caption>Part</caption>
                             <number>2</number>
                         </detail>
                     </part>
+                    <originInfo>
+                        <edition>Vierte Verbesserte und Vermehrte Auflage</edition>
+                        <dateIssued>1885</dateIssued>
+                    </originInfo>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Books 3-4">
                         <part type="book">
                             <detail type="book">
@@ -40556,9 +40623,64 @@ but this is where the TLG has left off for numbering-->
                             >http://www.archive.org/stream/geschichte01thucuoft#page/220/mode/2up</url>
                     </location>
                 </relatedItem>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2-Part 1">
+                    <part type="volume">
+                        <detail type="volume">
+                            <caption>Volume</caption>
+                            <number>2</number>
+                            <caption>Part</caption>
+                            <number>1</number>
+                        </detail>
+                    </part>
+                    <originInfo>
+                        <edition>Vierte Auflage</edition>
+                        <dateIssued>1885</dateIssued>
+                    </originInfo>
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Books 5-6">
+                        <part type="book">
+                            <detail type="book">
+                                <caption>Books</caption>
+                                <number>5-6</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <tableOfContents>Buch V-VI</tableOfContents>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >https://archive.org/details/geschichte02thuc/</url>
+                    </location>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2-Part 2">
+                    <part type="volume">
+                        <detail type="volume">
+                            <caption>Volume</caption>
+                            <number>2</number>
+                            <caption>Part</caption>
+                            <number>2</number>
+                        </detail>
+                    </part>
+                    <originInfo>
+                        <edition>Vierte Auflage</edition>
+                        <dateIssued>1891</dateIssued>
+                    </originInfo>
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Books 7-8">
+                        <part type="book">
+                            <detail type="book">
+                                <caption>Books</caption>
+                                <number>7-8</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <tableOfContents>Buch VII-VIII</tableOfContents>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >https://archive.org/details/geschichte02thuc/page/n183</url>
+                    </location>
+                </relatedItem>
             </relatedItem>
         </relatedItem>
     </mods>
+    <!-- LEFT OFF HERE FOR FINAL REVIEWING -->
     <mods displayLabel="Historiae-Thucycdides-Camerarius-Basil-1540-Greek">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Histories</title>
@@ -63660,14 +63782,16 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/12437909">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/12437909">
             <namePart>Klotz, Alfred</namePart>
             <namePart type="date">1874-1956</namePart>
             <role>
                 <roleTerm type="text">editor</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/74353813">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/74353813">
             <namePart>Klinnert, Thomas C.</namePart>
             <namePart type="date">1942-</namePart>
             <role>
