@@ -40680,7 +40680,6 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <!-- LEFT OFF HERE FOR FINAL REVIEWING -->
     <mods displayLabel="Historiae-Thucycdides-Camerarius-Basil-1540-Greek">
         <titleInfo xml:lang="eng" type="uniform">
             <title>Histories</title>
@@ -40751,6 +40750,9 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance">
                 http://www.archive.org/details/thoukydidesmeta00thucuoft</url>
         </location>
+        <language objectPart="preface">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
@@ -40764,7 +40766,6 @@ but this is where the TLG has left off for numbering-->
     <mods displayLabel="Historiae-Thucydides-Classen-Weidmann-1879-Greek">
         <titleInfo>
             <title>Thukydides</title>
-            <partNumber>8 volumes</partNumber>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/95161463/">
@@ -40801,6 +40802,12 @@ but this is where the TLG has left off for numbering-->
             <dateIssued>1878-1879</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
+        <language objectPart="preface">
+            <languageTerm type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code">grc</languageTerm>
+        </language>
         <typeOfResource>text</typeOfResource>
         <subject authority="lcsh">
             <geographic>Greece</geographic>
