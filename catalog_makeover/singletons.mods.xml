@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <!--Make sure have both authority and valueURI-->
     <!-- Add in HathiTrust links-->
     <!-- Continue reviewing work names
@@ -41341,9 +41341,6 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
     <mods displayLabel="Historiae-Thucydides-Haacke-Hahn-1820-Greek">
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Histories</title>
-        </titleInfo>
         <titleInfo>
             <title>De bello peloponnesiaco, libri octo</title>
             <partNumber>Volumes 1-2</partNumber>
@@ -41443,10 +41440,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Historiae-Thucydides-Jones-OCT-1900-2-1st edition-Greek">
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Histories</title>
-        </titleInfo>
+    <mods displayLabel="Historiae-Thucydides-Jones-OCT-1900-2-1st edition-Greek">        
         <titleInfo>
             <title>Thucydidis Historiae</title>
             <partNumber>Volume 1-2</partNumber>
@@ -41458,7 +41452,7 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/100180403/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/100180403/">
             <namePart>Jones, Henry Stuart</namePart>
             <namePart type="date">1867-1939</namePart>
             <role>
@@ -41554,11 +41548,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <!-- LEFT OFF HERE FOR BOOK/VOLUME AND EDITING-->
     <mods displayLabel="Historiae-Thucydides-Kruger-Berlin-1858-Greek">
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Histories</title>
-        </titleInfo>
         <titleInfo xml:lang="de">
             <title>Thoukydídou Xyngraphe</title>
             <subTitle>mit erklärenden Anmerkungen</subTitle>
@@ -41570,14 +41560,12 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name>
-            <nameIdentifier type="viaf">32152856</nameIdentifier>
-            <namePart type="family">Krüger</namePart>
-            <namePart type="given">Karl</namePart>
-            <namePart type="given">Wilhelm</namePart>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/32152856/">
+            <namePart>Krüger, Karl Wilhelm</namePart>
             <namePart type="date">1796-1874</namePart>
             <role>
-                <roleTerm authority="marcrelator" type="code">cwt</roleTerm>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
         <language objectPart="text">
@@ -41636,6 +41624,10 @@ but this is where the TLG has left off for numbering-->
                     </part>
                 </relatedItem>
                 <tableOfContents>Erstes und Zweites Buch</tableOfContents>
+                <originInfo>
+                    <edition>Dritte vebesserte</edition>
+                    <dateIssued>1860</dateIssued>
+                </originInfo>
                 <location>
                     <url displayLabel="Open Content Alliance"
                         >http://www.archive.org/details/thoukyddouxyng01thucuoft</url>
@@ -41643,6 +41635,9 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Google Books"
                         >http://books.google.com/books?id=S3oiAAAAMAAJ</url>
+                </location>
+                <location>
+                    <url displayLabel="HathiTrust">https://hdl.handle.net/2027/uva.x001867215</url>
                 </location>
             </relatedItem>
             <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1-Part Two">
@@ -41669,6 +41664,10 @@ but this is where the TLG has left off for numbering-->
                     </part>
                 </relatedItem>
                 <tableOfContents>Drittes und Viertes Buch</tableOfContents>
+                <originInfo>
+                    <dateIssued>1858</dateIssued>
+                    <edition>Zweite Auflage</edition>
+                </originInfo>
                 <location>
                     <url displayLabel="Open Content Alliance"
                         >http://www.archive.org/stream/thoukyddouxyng01thucuoft#page/278/mode/2up</url>
@@ -41676,6 +41675,9 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Google Books"
                         >http://books.google.com/books?id=S3oiAAAAMAAJ&amp;pg=PA277</url>
+                </location>
+                <location>
+                    <url displayLabel="HathiTrust">https://hdl.handle.net/2027/uva.x001867215?urlappend=%3Bseq=286</url>
                 </location>
             </relatedItem>
             <relatedItem type="constituent" otherType="struture" displayLabel="Volume 2-Part 1">
@@ -41702,6 +41704,10 @@ but this is where the TLG has left off for numbering-->
                     </part>
                 </relatedItem>
                 <tableOfContents>Fünftes und Sechstes Buch</tableOfContents>
+                <originInfo>
+                    <dateIssued>1858</dateIssued>
+                    <edition>Zweite Auflage</edition>
+                </originInfo>
                 <location>
                     <url displayLabel="Open Content Alliance"
                         >http://www.archive.org/details/thoukyddouxyng02thucuoft</url>
@@ -41709,6 +41715,9 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="GoogleBooks"
                         >http://books.google.com/books?id=S3oiAAAAMAAJ&amp;pg=RA1-PA223</url>
+                </location>
+                <location>
+                    <url displayLabel="HathiTrust">https://hdl.handle.net/2027/uc1.$b290351</url>
                 </location>
             </relatedItem>
             <relatedItem type="constituent" displayLabel="Volume 2-Part 2">
@@ -41735,6 +41744,10 @@ but this is where the TLG has left off for numbering-->
                     </part>
                 </relatedItem>
                 <tableOfContents>Siebentes und Achtes Buch</tableOfContents>
+                <originInfo>
+                    <dateIssued>1861</dateIssued>
+                    <edition>Zweite Auflage</edition>
+                </originInfo>
                 <location>
                     <url displayLabel="Open Content Alliance"
                         >http://www.archive.org/stream/thoukyddouxyng02thucuoft#page/n205/mode/2up</url>
@@ -41743,13 +41756,13 @@ but this is where the TLG has left off for numbering-->
                     <url displayLabel="GoogleBooks"
                         >http://books.google.com/books?id=S3oiAAAAMAAJ&amp;pg=RA2-PA199</url>
                 </location>
+                <location>
+                    <url displayLabel="HathiTrust">https://hdl.handle.net/2027/uc1.$b290351</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
     <mods displayLabel="Historiae-Thucydides-Muller-Bielefeld-1894-Greek">
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Histories</title>
-        </titleInfo>
         <titleInfo lang="ger">
             <nonSort>Die</nonSort>
             <title>Geschichte des Peloponnesischen Krieges</title>
@@ -41858,11 +41871,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-
     <mods displayLabel="Historiae-Thucydides-Poppo/Duker-Fleischer-1821-1851-Greek">
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Histories</title>
-        </titleInfo>
         <titleInfo>
             <title>De bello Peloponnesiaco libri octo</title>
         </titleInfo>
@@ -41960,6 +41969,10 @@ but this is where the TLG has left off for numbering-->
                         <url displayLabel="GoogleBooks"
                             >http://books.google.com/books?id=3akAAAAAYAAJ</url>
                     </location>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/uc1.$b640678</url>
+                    </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
                     <part type="section">
@@ -41990,6 +42003,10 @@ but this is where the TLG has left off for numbering-->
                         <url displayLabel="GoogleBooks"
                             >http://books.google.com/books?id=pPELAAAAYAAJ</url>
                     </location>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/uc1.$b640679</url>
+                    </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
                     <part type="section">
@@ -42019,6 +42036,10 @@ but this is where the TLG has left off for numbering-->
                     <location>
                         <url displayLabel="GoogleBooks"
                             >http://books.google.com/books?id=8gsMAAAAYAAJ</url>
+                    </location>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/inu.30000010398257</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 4">
@@ -42051,6 +42072,10 @@ but this is where the TLG has left off for numbering-->
                     <location>
                         <url displayLabel="GoogleBooks"
                             >http://books.google.com/books?id=dcsAAAAAYAAJ</url>
+                    </location>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/inu.30000010398133</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -42095,7 +42120,7 @@ but this is where the TLG has left off for numbering-->
                 <placeTerm type="text">Leipzig</placeTerm>
             </place>
             <publisher>Teubner</publisher>
-            <dateIssued>1879-1886</dateIssued>
+            <dateIssued>1875-1889</dateIssued>
             <edition>Editio tertia</edition>
             <issuance>monographic</issuance>
         </originInfo>
@@ -42148,10 +42173,14 @@ but this is where the TLG has left off for numbering-->
                     </relatedItem>
                     <originInfo>
                         <dateIssued>1886</dateIssued>
+                        <edition>Editio Tertia</edition>
                     </originInfo>
                     <location>
                         <url displayLabel="Open Content Alliance"
                             >https://archive.org/details/p1debellopelopo01thucuoft</url>
+                    </location>
+                    <location>
+                        <url displayLabel="HathiTrust">https://hdl.handle.net/2027/uc1.$b290354</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure"
@@ -42174,10 +42203,14 @@ but this is where the TLG has left off for numbering-->
                     </relatedItem>
                     <originInfo>
                         <dateIssued>1889</dateIssued>
+                        <edition>Editio Tertia</edition>
                     </originInfo>
                     <location>
                         <url displayLabel="Open Content Alliance"
                             >https://archive.org/details/p1debellopelopo01thucuoft/page/360</url>
+                    </location>
+                    <location displayLabel="HathiTrust">
+                        <url>https://hdl.handle.net/2027/uc1.$b290354?urlappend=%3Bseq=368</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure"
@@ -42200,6 +42233,7 @@ but this is where the TLG has left off for numbering-->
                     </relatedItem>
                     <originInfo>
                         <dateIssued>1875</dateIssued>
+                        <edition>Editio Altera</edition>
                     </originInfo>
                     <location>
                         <url displayLabel="HathiTrust"
@@ -42226,6 +42260,7 @@ but this is where the TLG has left off for numbering-->
                     </relatedItem>
                     <originInfo>
                         <dateIssued>1875</dateIssued>
+                        <edition>Editio Altera</edition>
                     </originInfo>
                     <location>
                         <url displayLabel="HathiTrust"
@@ -42252,6 +42287,7 @@ but this is where the TLG has left off for numbering-->
                     </relatedItem>
                     <originInfo>
                         <dateIssued>1879</dateIssued>
+                        <edition>Editio Altera</edition>
                     </originInfo>
                     <location>
                         <url displayLabel="HathiTrust"
@@ -42286,6 +42322,7 @@ but this is where the TLG has left off for numbering-->
                     </relatedItem>
                     <originInfo>
                         <dateIssued>1880</dateIssued>
+                        <edition>Editio Altera</edition>
                     </originInfo>
                     <location>
                         <url displayLabel="Open Content Alliance"
@@ -42320,6 +42357,7 @@ but this is where the TLG has left off for numbering-->
                     </relatedItem>
                     <originInfo>
                         <dateIssued>1882</dateIssued>
+                        <edition>Editio Altera</edition>
                     </originInfo>
                     <location>
                         <url displayLabel="HathiTrust"
@@ -42420,6 +42458,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=f_gLAAAAYAAJ</url>
         </location>
+        <language objectPart="preface">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
@@ -42558,7 +42599,7 @@ but this is where the TLG has left off for numbering-->
                 <placeTerm type="text">Lipsiae</placeTerm>
             </place>
             <publisher>B.G. Teubner</publisher>
-            <dateIssued>1903-</dateIssued>
+            <dateIssued>1903</dateIssued>
             <edition>4. aufl., besorgt von Alfred Weinhold</edition>
             <issuance>monographic</issuance>
         </originInfo>
@@ -43021,14 +43062,6 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
     <mods displayLabel="Iliad-Homer-Selections-Benner-1903">
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Iliad</title>
-        </titleInfo>
-        <part>
-            <extent unit="words">
-                <total>115477</total>
-            </extent>
-        </part>
         <titleInfo>
             <title>Selections from Homer's Iliad</title>
         </titleInfo>
@@ -43104,10 +43137,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Iliad-Homer-Allen-OCT-1931">
-        <titleInfo xml:lang="eng" type="uniform">
-            <title>Iliad</title>
-        </titleInfo>
+    <mods displayLabel="Iliad-Homer-Allen-OCT-1931">        
         <titleInfo>
             <title>Homeri Ilias</title>
         </titleInfo>
@@ -43545,8 +43575,7 @@ but this is where the TLG has left off for numbering-->
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Iliou halōsis">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0647.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Iliou halōsis">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Iliou halōsis">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0647.tlg001.opp-grc3</identifier>
             </relatedItem>
         </relatedItem>
@@ -43613,14 +43642,14 @@ but this is where the TLG has left off for numbering-->
             <titleInfo type="abbreviated">
                 <title>Teubner</title>
             </titleInfo>
-        </relatedItem>        
+        </relatedItem>
         <language objectPart="notes">
             <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
-        </language>          
+        </language>
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
-        </language>  
-        <classification authority="lcc">PA3404 .P5 1893</classification>    
+        </language>
+        <classification authority="lcc">PA3404 .P5 1893</classification>
         <identifier type="lccn">34010822</identifier>
         <identifier type="oclc">4070764</identifier>
         <location>
@@ -43631,7 +43660,7 @@ but this is where the TLG has left off for numbering-->
         </location>
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=e4ocAAAAMAAJ</url>
-        </location>    
+        </location>
         <subject authority="lcsh">
             <topic>Painting</topic>
             <genre>Early works to 1800</genre>
@@ -64117,7 +64146,8 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="uniform" nameTitleGroup="1">
             <title>Trojan women</title>
         </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"  valueURI="http://viaf.org/viaf/265326651">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/265326651">
             <namePart>Euripides</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
