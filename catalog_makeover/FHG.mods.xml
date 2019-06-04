@@ -6,16 +6,36 @@
   HAD FAILED TO CONSIDER THAT THERE WERE NO URNS-NO WAY TO RETRIEVE THE DATA ENCODED THERE
    Search on Müller-->
   <!-- Also need to double check that all authors on this list made it into AAE -->
+  <!-- Taking out sections-author name data as now planned-work URN can pull up that data
+    in most cases-->
   <mods>
     <titleInfo>
       <title>Fragmenta historicorum graecorum</title>
     </titleInfo>
-    <name xmlns:xlink="http://www.w3.org/1999/xlink" authority="naf" type="personal"
-      xlink:href="http://errol.oclc.org/laf/nr95-8185.html">
+    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/169287994/">
       <namePart>Müller, Karl</namePart>
       <namePart type="termsOfAddress">of Paris</namePart>
       <role>
+        <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+      </role>
+      <role>
         <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/67247507/">
+      <namePart>Müller, Theodor,</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+      </role>
+    </name>
+    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/88036457/">
+      <namePart>Langlois, Victor</namePart>
+      <namePart type="date">1829-1869</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">editor</roleTerm>
       </role>
     </name>
     <originInfo>
@@ -28,6 +48,12 @@
       <dateIssued point="end">1873</dateIssued>
       <issuance>monographic</issuance>
     </originInfo>
+    <language objectPart="text">
+      <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+    </language>
+    <language objectPart="text">
+      <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+    </language>
     <identifier type="oclc">221365708</identifier>
     <classification authority="lcc">PA3490 M84</classification>
     <subject authority="lcsh">
@@ -46,10 +72,11 @@
     <location>
       <url displayLabel="WorldCat">http://worldcat.org/oclc/221365708</url>
     </location>
-    <relatedItem type="constituent" otherType="volume" displayLabel="Volumen primum">
+    <relatedItem type="constituent" otherType="volume" displayLabel="Volume 1">
       <part type="volume">
         <detail type="volume">
-          <title>Volumen primum</title>
+          <caption>Volume</caption>
+          <number>1</number>
         </detail>
       </part>
       <originInfo>
@@ -65,479 +92,209 @@
       <location>
         <url displayLabel="GoogleBooks">http://books.google.com/books?id=M-oUAAAAQAAJ</url>
       </location>
-      <relatedItem type="constituent" otherType="section" displayLabel="Praefatio"/>
-      <relatedItem type="constituent" otherType="section" displayLabel="Hecataeus">
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-          <identifier type="ctsurn">urn:cts:greekLit:tlg0538.tlg002</identifier>
-          <titleInfo>
-            <title>Fragmenta</title>
-          </titleInfo>
-          <name>
-            <namePart>Hecataeus, of Miletus</namePart>
-            <nameIdentifier type="ctsurn">urn:cts:greekLit:tlg0538</nameIdentifier>
-            <role>
-              <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-          </name>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0538.tlg002.opp-grc1</identifier>
-          </relatedItem>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0538.tlg002.opp-lat1</identifier>
-          </relatedItem>
+      <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
+        <identifier type="ctsurn">urn:cts:greekLit:tlg0538.tlg002</identifier>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg0538.tlg002.opp-grc1</identifier>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg0538.tlg002.opp-lat1</identifier>
         </relatedItem>
       </relatedItem>
-      <relatedItem type="constituent" otherType="section" displayLabel="Charon">
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-          <identifier type="ctsurn">urn:cts:greekLit:tlg1258.tlg001</identifier>
-          <titleInfo>
-            <title>Fragmenta</title>
-          </titleInfo>
-          <name>
-            <namePart>Charon, Lampsacenus 5. Jh. v. Chr.</namePart>
-            <nameIdentifier type="ctsurn">urn:cts:greekLit:tlg1258</nameIdentifier>
-            <role>
-              <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-          </name>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1258.tlg001.opp-grc1</identifier>
-          </relatedItem>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1258.tlg001.opp-lat1</identifier>
-          </relatedItem>
+      <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
+        <identifier type="ctsurn">urn:cts:greekLit:tlg1258.tlg001</identifier>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg1258.tlg001.opp-grc1</identifier>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg1258.tlg001.opp-lat1</identifier>
         </relatedItem>
       </relatedItem>
-      <relatedItem type="constituent" otherType="section" displayLabel="Xanthus">
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-          <identifier type="ctsurn">urn:cts:greekLit:tlg1751.tlg001</identifier>
-          <titleInfo>
-            <title>Fragmenta</title>
-          </titleInfo>
-          <name>
-            <namePart>Xanthus, Lydius, fl.5. Jh. v. Chr.</namePart>
-            <nameIdentifier type="ctsurn">urn:cts:greekLit:tlg1751</nameIdentifier>
-            <role>
-              <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-          </name>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1751.tlg001.opp-grc1</identifier>
-          </relatedItem>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1751.tlg001.opp-lat1</identifier>
-          </relatedItem>
+      <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
+        <identifier type="ctsurn">urn:cts:greekLit:tlg1751.tlg001</identifier>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg1751.tlg001.opp-grc1</identifier>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg1751.tlg001.opp-lat1</identifier>
         </relatedItem>
       </relatedItem>
-      <relatedItem type="constituent" otherType="section" displayLabel="Hellanicus">
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-          <identifier type="ctsurn">urn:cts:greekLit:tlg0539.tlg001</identifier>
-          <titleInfo>
-            <title>Fragmenta</title>
-          </titleInfo>
-          <name>
-            <namePart>Hellanicus, of Lesbos</namePart>
-            <nameIdentifier type="ctsurn">urn:cts:greekLit:tlg0539</nameIdentifier>
-            <role>
-              <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-          </name>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0539.tlg001.opp-grc1</identifier>
-          </relatedItem>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0539.tlg001.opp-lat1</identifier>
-          </relatedItem>
+      <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
+        <identifier type="ctsurn">urn:cts:greekLit:tlg0539.tlg001</identifier>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg0539.tlg001.opp-grc1</identifier>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg0539.tlg001.opp-lat1</identifier>
         </relatedItem>
       </relatedItem>
-      <relatedItem type="constituent" otherType="section" displayLabel="Pherecydes">
-        <relatedItem type="constituent" otherType="work" displayLabel="Historiarum">
-          <identifier type="ctsurn">urn:cts:greekLit:tlg1584.tlg001</identifier>
-          <titleInfo>
-            <title>Historiarum</title>
-          </titleInfo>
-          <name>
-            <namePart>Pherecydes, of Athens, 5th cent. B.C.</namePart>
-            <nameIdentifier type="ctsurn">urn:cts:greekLit:tlg1584</nameIdentifier>
-            <role>
-              <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-          </name>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1584.tlg001.opp-grc1</identifier>
-          </relatedItem>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1584.tlg001.opp-lat1</identifier>
-          </relatedItem>
+      <relatedItem type="constituent" otherType="work" displayLabel="Historiarum">
+        <identifier type="ctsurn">urn:cts:greekLit:tlg1584.tlg001</identifier>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg1584.tlg001.opp-grc1</identifier>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg1584.tlg001.opp-lat1</identifier>
         </relatedItem>
       </relatedItem>
-      <relatedItem type="constituent" otherType="section" displayLabel="Acusilaus">
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-          <identifier type="ctsurn">urn:cts:greekLit:tlg0392.tlg002</identifier>
-          <titleInfo>
-            <title>Fragmenta</title>
-          </titleInfo>
-          <name>
-            <namePart>Acusilaus, of Argos</namePart>
-            <nameIdentifier type="ctsurn">urn:cts:greekLit:tlg0392</nameIdentifier>
-            <role>
-              <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-          </name>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0392.tlg002.opp-grc1</identifier>
-          </relatedItem>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0392.tlg002.opp-lat1</identifier>
-          </relatedItem>
+      <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
+        <identifier type="ctsurn">urn:cts:greekLit:tlg0392.tlg002</identifier>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg0392.tlg002.opp-grc1</identifier>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg0392.tlg002.opp-lat1</identifier>
         </relatedItem>
       </relatedItem>
-      <relatedItem type="constituent" otherType="section" displayLabel="Apollodorus Atheniensis">
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta Historica">
-          <identifier type="ctsurn">urn:cts:greekLit:tlg0549.tlg005</identifier>
-          <titleInfo>
-            <title>Fragmenta Historica</title>
-          </titleInfo>
-          <name>
-            <namePart>Apollodorus, of Athens</namePart>
-            <nameIdentifier type="ctsurn">urn:cts:greekLit:tlg0549</nameIdentifier>
-            <role>
-              <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-          </name>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0549.tlg005.opp-grc1</identifier>
-          </relatedItem>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0549.tlg005.opp-lat1</identifier>
-          </relatedItem>
+      <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta Historica">
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg0549.tlg005.opp-grc1</identifier>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg0549.tlg005.opp-lat1</identifier>
         </relatedItem>
       </relatedItem>
-      <relatedItem type="constituent" otherType="section"
-        displayLabel="Androtiōn, fl. 4th cent. B.C.">
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-          <identifier type="ctsurn">urn:cts:greekLit:tlg1125.tlg002</identifier>
-          <titleInfo>
-            <title>Fragmenta</title>
-          </titleInfo>
-          <name>
-            <namePart>Androtiōn, fl. 4th cent. B.C.</namePart>
-            <nameIdentifier type="ctsurn">urn:cts:greekLit:tlg1125</nameIdentifier>
-            <role>
-              <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-          </name>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1125.tlg002.opp-grc1</identifier>
-          </relatedItem>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1125.tlg002.opp-lat1</identifier>
-          </relatedItem>
+      <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
+        <identifier type="ctsurn">urn:cts:greekLit:tlg1125.tlg002</identifier>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg1125.tlg002.opp-grc1</identifier>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg1125.tlg002.opp-lat1</identifier>
         </relatedItem>
       </relatedItem>
-      <relatedItem type="constituent" otherType="section" displayLabel="Antiochus [Historicus]">
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-          <identifier type="ctsurn">urn:cts:greekLit:tlg1879.tlg001</identifier>
-          <titleInfo>
-            <title>Fragmenta</title>
-          </titleInfo>
-          <name>
-            <namePart>Antiochus, Historicus, 5. Jh. v. Chr.</namePart>
-            <nameIdentifier type="ctsurn">urn:cts:greekLit:tlg1879</nameIdentifier>
-            <role>
-              <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-          </name>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1879.tlg001.opp-grc1</identifier>
-          </relatedItem>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1879.tlg001.opp-lat1</identifier>
-          </relatedItem>
+      <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg1879.tlg001.opp-grc1</identifier>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg1879.tlg001.opp-lat1</identifier>
         </relatedItem>
       </relatedItem>
-      <relatedItem type="constituent" otherType="section" displayLabel="Antiochus [Syracusanus]">
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-          <identifier type="ctsurn">urn:cts:greekLit:tlg1145.tlg003</identifier>
-          <titleInfo>
-            <title>Fragmenta</title>
-          </titleInfo>
-          <name>
-            <namePart>Antiochus, Syracusanus, . fl. 5. Jh. v. Chr.‏</namePart>
-            <nameIdentifier type="ctsurn">urn:cts:greekLit:tlg1145</nameIdentifier>
-            <role>
-              <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-          </name>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1145.tlg003.opp-grc1</identifier>
-          </relatedItem>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1145.tlg003.opp-lat1</identifier>
-          </relatedItem>
+      <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
+        <identifier type="ctsurn">urn:cts:greekLit:tlg1145.tlg003</identifier>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg1145.tlg003.opp-grc1</identifier>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg1145.tlg003.opp-lat1</identifier>
         </relatedItem>
       </relatedItem>
-      <relatedItem type="constituent" otherType="section" displayLabel="Philistus">
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-          <identifier type="ctsurn">urn:cts:greekLit:tlg1591.tlg002</identifier>
-          <titleInfo>
-            <title>Fragmenta</title>
-          </titleInfo>
-          <name>
-            <namePart>Philistus, Syracusanus, -v356</namePart>
-            <nameIdentifier type="ctsurn">urn:cts:greekLit:tlg1591</nameIdentifier>
-            <role>
-              <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-          </name>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1591.tlg002.opp-grc1</identifier>
-          </relatedItem>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1591.tlg002.opp-lat1</identifier>
-          </relatedItem>
+      <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
+        <identifier type="ctsurn">urn:cts:greekLit:tlg1591.tlg002</identifier>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg1591.tlg002.opp-grc1</identifier>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg1591.tlg002.opp-lat1</identifier>
         </relatedItem>
       </relatedItem>
-      <relatedItem type="constituent" otherType="section" displayLabel="Timaeus">
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-          <identifier type="ctsurn">urn:cts:greekLit:tlg1733.tlg002</identifier>
-          <titleInfo>
-            <title>Fragmenta</title>
-          </titleInfo>
-          <name>
-            <namePart>Timaeus, of Tauromenium, ca. 356-260 B.C</namePart>
-            <nameIdentifier type="ctsurn">urn:cts:greekLit:tlg1733</nameIdentifier>
-            <role>
-              <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-          </name>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1733.tlg002.opp-grc1</identifier>
-          </relatedItem>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1733.tlg002.opp-lat1</identifier>
-          </relatedItem>
+      <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
+        <identifier type="ctsurn">urn:cts:greekLit:tlg1733.tlg002</identifier>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg1733.tlg002.opp-grc1</identifier>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg1733.tlg002.opp-lat1</identifier>
         </relatedItem>
       </relatedItem>
-      <relatedItem type="constituent" otherType="section" displayLabel="Ephorus">
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-          <identifier type="ctsurn">urn:cts:greekLit:tlg0536.tlg003</identifier>
-          <titleInfo>
-            <title>Fragmenta</title>
-          </titleInfo>
-          <name>
-            <namePart>Ephorus</namePart>
-            <nameIdentifier type="ctsurn">urn:cts:greekLit:tlg0536</nameIdentifier>
-            <role>
-              <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-          </name>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0536.tlg003.opp-grc1</identifier>
-          </relatedItem>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0536.tlg003.opp-lat1</identifier>
-          </relatedItem>
+      <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg0536.tlg003.opp-grc1</identifier>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg0536.tlg003.opp-lat1</identifier>
         </relatedItem>
       </relatedItem>
-      <relatedItem type="constituent" otherType="section" displayLabel="Theopompus">
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-          <identifier type="ctsurn">urn:cts:greekLit:tlg0566.tlg002</identifier>
-          <titleInfo>
-            <title>Fragmenta</title>
-          </titleInfo>
-          <name>
-            <namePart>Theopompus, of Chios</namePart>
-            <nameIdentifier type="ctsurn">urn:cts:greekLit:tlg0566</nameIdentifier>
-            <role>
-              <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-          </name>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0566.tlg002.opp-grc1</identifier>
-          </relatedItem>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0566.tlg002.opp-lat1</identifier>
-          </relatedItem>
+      <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
+        <identifier type="ctsurn">urn:cts:greekLit:tlg0566.tlg002</identifier>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg0566.tlg002.opp-grc1</identifier>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg0566.tlg002.opp-lat1</identifier>
         </relatedItem>
       </relatedItem>
-      <relatedItem type="constituent" otherType="section" displayLabel="Phylarchus">
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-          <identifier type="ctsurn">urn:cts:greekLit:tlg1609.tlg002</identifier>
-          <titleInfo>
-            <title>Fragmenta</title>
-          </titleInfo>
-          <name>
-            <namePart>Phylarchus, of Athens, 3rd cent. B.C.</namePart>
-            <nameIdentifier type="ctsurn">urn:cts:greekLit:tlg1609</nameIdentifier>
-            <role>
-              <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-          </name>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1609.tlg002.opp-grc1</identifier>
-          </relatedItem>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1609.tlg002.opp-lat1</identifier>
-          </relatedItem>
+      <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
+        <identifier type="ctsurn">urn:cts:greekLit:tlg1609.tlg002</identifier>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg1609.tlg002.opp-grc1</identifier>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg1609.tlg002.opp-lat1</identifier>
         </relatedItem>
       </relatedItem>
-      <relatedItem type="constituent" otherType="section" displayLabel="Clidemus">
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-          <identifier type="ctsurn">urn:cts:greekLit:tlg1276.tlg003</identifier>
-          <titleInfo>
-            <title>Fragmenta</title>
-          </titleInfo>
-          <name>
-            <namePart>Clidemus, Atheniensis, 4. Jh. v. Chr.</namePart>
-            <nameIdentifier type="ctsurn">urn:cts:greekLit:tlg1276</nameIdentifier>
-            <role>
-              <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-          </name>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1276.tlg003.opp-grc1</identifier>
-          </relatedItem>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1276.tlg003.opp-lat1</identifier>
-          </relatedItem>
+      <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
+        <identifier type="ctsurn">urn:cts:greekLit:tlg1276.tlg003</identifier>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg1276.tlg003.opp-grc1</identifier>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg1276.tlg003.opp-lat1</identifier>
         </relatedItem>
       </relatedItem>
-      <relatedItem type="constituent" otherType="section" displayLabel="Phanodemus">
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-          <identifier type="ctsurn">urn:cts:greekLit:tlg1583.tlg003</identifier>
-          <titleInfo>
-            <title>Fragmenta</title>
-          </titleInfo>
-          <name>
-            <namePart>Phanodemus Atheniensis 4. Jh. v. Chr.</namePart>
-            <nameIdentifier type="ctsurn">urn:cts:greekLit:tlg1583</nameIdentifier>
-            <role>
-              <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-          </name>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1583.tlg003.opp-grc1</identifier>
-          </relatedItem>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1583.tlg003.opp-lat1</identifier>
-          </relatedItem>
+      <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
+        <identifier type="ctsurn">urn:cts:greekLit:tlg1583.tlg003</identifier>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg1583.tlg003.opp-grc1</identifier>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg1583.tlg003.opp-lat1</identifier>
         </relatedItem>
       </relatedItem>
-      <relatedItem type="constituent" otherType="section" displayLabel="Demo">
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-          <identifier type="ctsurn">urn:cts:greekLit:tlg1307.tlg003</identifier>
-          <titleInfo>
-            <title>Fragmenta</title>
-          </titleInfo>
-          <name>
-            <namePart>Demon, Atheniensis, 4./3. Jh. v. Chr</namePart>
-            <nameIdentifier type="ctsurn">urn:cts:greekLit:tlg1307</nameIdentifier>
-            <role>
-              <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-          </name>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1307.tlg003.opp-grc1</identifier>
-          </relatedItem>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1307.tlg003.opp-lat1</identifier>
-          </relatedItem>
+      <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
+        <identifier type="ctsurn">urn:cts:greekLit:tlg1307.tlg003</identifier>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg1307.tlg003.opp-grc1</identifier>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg1307.tlg003.opp-lat1</identifier>
         </relatedItem>
       </relatedItem>
-      <relatedItem type="constituent" otherType="section" displayLabel="Philochorus">
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-          <identifier type="ctsurn">urn:cts:greekLit:tlg0583.tlg002</identifier>
-          <titleInfo>
-            <title>Fragmenta</title>
-          </titleInfo>
-          <name>
-            <namePart>Philochorus, fl. 3rd cent. B.C.</namePart>
-            <nameIdentifier type="ctsurn">urn:cts:greekLit:tlg0583</nameIdentifier>
-            <role>
-              <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-          </name>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0583.tlg002.opp-grc1</identifier>
-          </relatedItem>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0583.tlg002.opp-lat1</identifier>
-          </relatedItem>
+      <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
+        <identifier type="ctsurn">urn:cts:greekLit:tlg0583.tlg002</identifier>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg0583.tlg002.opp-grc1</identifier>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg0583.tlg002.opp-lat1</identifier>
         </relatedItem>
       </relatedItem>
-      <relatedItem type="constituent" otherType="section" displayLabel="Ister">
-        <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
-          <identifier type="ctsurn">urn:cts:greekLit:tlg1450.tlg004</identifier>
-          <titleInfo>
-            <title>Fragmenta</title>
-          </titleInfo>
-          <name>
-            <namePart>Ister, Cyrenaeus, 3. Jh. v. Chr.</namePart>
-            <nameIdentifier type="ctsurn">urn:cts:greekLit:tlg1450</nameIdentifier>
-            <role>
-              <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-          </name>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1450.tlg004.opp-grc1</identifier>
-          </relatedItem>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg1450.tlg004.opp-lat1</identifier>
-          </relatedItem>
+      <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
+        <identifier type="ctsurn">urn:cts:greekLit:tlg1450.tlg004</identifier>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg1450.tlg004.opp-grc1</identifier>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg1450.tlg004.opp-lat1</identifier>
         </relatedItem>
       </relatedItem>
-      <relatedItem type="constituent" otherType="section" displayLabel="Apollodorus">
-        <relatedItem type="constituent" otherType="work" displayLabel="Library">
-          <identifier type="ctsurn">urn:cts:greekLit:tlg0548.tlg001</identifier>
-          <titleInfo>
-            <title>Library</title>
-          </titleInfo>
-          <name>
-            <namePart>Apollodorus.</namePart>
-            <nameIdentifier type="ctsurn">urn:cts:greekLit:tlg0548</nameIdentifier>
-            <role>
-              <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-          </name>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0548.tlg001.opp-grc2</identifier>
-          </relatedItem>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0548.tlg001.opp-lat1</identifier>
-          </relatedItem>
+      <relatedItem type="constituent" otherType="work" displayLabel="Library">
+        <identifier type="ctsurn">urn:cts:greekLit:tlg0548.tlg001</identifier>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg0548.tlg001.opp-grc2</identifier>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg0548.tlg001.opp-lat1</identifier>
         </relatedItem>
       </relatedItem>
-      <relatedItem type="constituent" otherType="section" displayLabel="Appendix"/>
-      <relatedItem type="constituent" otherType="section" displayLabel="Index Nominum et Rerum"/>
-      <relatedItem type="constituent" otherType="section" displayLabel="Marmor Parium">
-        <relatedItem type="constituent" otherType="work" displayLabel="Marmor Parium">
-          <identifier type="ctsurn">urn:cts:greekLit:tlg2432.tlg001</identifier>
-          <titleInfo>
-            <title>Marmor Parium</title>
-          </titleInfo>
-          <name>
-            <namePart>Marmor Parium</namePart>
-            <nameIdentifier type="ctsurn">urn:cts:greekLit:tlg2432</nameIdentifier>
-            <role>
-              <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-          </name>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg2432.tlg001.opp-grc1</identifier>
-          </relatedItem>
-          <relatedItem type="constituent" otherType="expression">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg2432.tlg001.opp-lat1</identifier>
-          </relatedItem>
+      <relatedItem type="constituent" otherType="work" displayLabel="Marmor Parium">
+        <identifier type="ctsurn">urn:cts:greekLit:tlg2432.tlg001</identifier>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg2432.tlg001.opp-grc1</identifier>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="expression">
+          <identifier type="ctsurn">urn:cts:greekLit:tlg2432.tlg001.opp-lat1</identifier>
         </relatedItem>
       </relatedItem>
       <relatedItem type="constituent" otherType="section" displayLabel="Addenda et Corrigenda"/>
     </relatedItem>
     <!-- End of Volume 1 -->
-    <relatedItem type="constituent" otherType="volume" displayLabel="Volumen secundum">
+    <relatedItem type="constituent" otherType="volume" displayLabel="Volume 2">
       <part type="volume">
         <detail type="volume">
-          <title>Volumen secundum</title>
+          <caption>Volume</caption>
+          <number>2</number>
         </detail>
       </part>
       <originInfo>
@@ -550,9 +307,6 @@
       <location>
         <url displayLabel="GoogleBooks">http://books.google.com/books?id=UckWAAAAQAAJ</url>
       </location>
-      <relatedItem type="constituent" otherType="section" displayLabel="Praefatio"/>
-      <relatedItem type="constituent" otherType="section"
-        displayLabel="De Insidiis Quae Regibus Structae Sunt Excerpta"/>
       <relatedItem type="constituent" otherType="section" displayLabel="Liber Primus">
         <part type="book">
           <detail>
@@ -2526,10 +2280,11 @@
       <relatedItem type="constituent" otherType="section" displayLabel="Addenda et Corrigenda"/>
     </relatedItem>
     <!-- END OF VOLUME 2 -->
-    <relatedItem type="constituent" otherType="volume" displayLabel="Volumen tertium">
+    <relatedItem type="constituent" otherType="volume" displayLabel="Volume 3">
       <part type="volume">
         <detail type="volume">
-          <title>Volumen tertium</title>
+          <caption>Volume</caption>
+          <number>2</number>
         </detail>
       </part>
       <originInfo>
@@ -5166,10 +4921,11 @@
       <relatedItem type="constituent" otherType="section" displayLabel="Addenda et Corrigenda"/>
       <!-- End of Volume 3 -->
     </relatedItem>
-    <relatedItem type="constituent" otherType="volume" displayLabel="Volumen quartum">
+    <relatedItem type="constituent" otherType="volume" displayLabel="Volume 4">
       <part type="volume">
         <detail type="volume">
-          <title>Vol IV</title>
+          <caption>Volume</caption>
+          <number>4</number>
         </detail>
       </part>
       <originInfo>
@@ -8481,7 +8237,8 @@
           displayLabel="Echemenes Cretensis ca. 3.Jh.n.Chr.">
           <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
             <identifier type="ctsurn">urn:cts:greekLit:tlg2320.tlg001</identifier>
-            <titleInfo>          <!-- Fixed the TLG IDs-it is tlg2320 not tlg 2230 -->
+            <titleInfo>
+              <!-- Fixed the TLG IDs-it is tlg2320 not tlg 2230 -->
               <!-- Also added in page numbers and links here as deleted invalid files and no
               longer updating the MODS directories with new versions-->
               <title>Fragmenta</title>
@@ -8506,10 +8263,12 @@
               </extent>
             </part>
             <location>
-              <url displayLabel="GoogleBooks">http://books.google.com/books?id=lz0OAAAAYAAJ&amp;pg=PA403</url>
+              <url displayLabel="GoogleBooks"
+                >http://books.google.com/books?id=lz0OAAAAYAAJ&amp;pg=PA403</url>
             </location>
             <location>
-              <url displayLabel="Open Content Alliance">http://www.archive.org/stream/fragmentahistori04mueluoft#page/402/mode/2up</url>
+              <url displayLabel="Open Content Alliance"
+                >http://www.archive.org/stream/fragmentahistori04mueluoft#page/402/mode/2up</url>
             </location>
           </relatedItem>
         </relatedItem>
@@ -12127,7 +11886,8 @@
     <relatedItem type="constituent" otherType="volume" displayLabel="Volumen quintum pars prior">
       <part type="volume">
         <detail type="volume">
-          <title>Vol V</title>
+          <caption>Volume</caption>
+          <number>5</number>
         </detail>
       </part>
       <originInfo>
