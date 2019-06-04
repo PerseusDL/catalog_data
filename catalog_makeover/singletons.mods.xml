@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <!--Make sure have both authority and valueURI-->
     <!-- Add in HathiTrust links-->
     <!-- Continue reviewing work names
@@ -43938,12 +43938,12 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <!-- LEFT OFF HERE FOR EDITING -->
+    
     <mods
         displayLabel="in Aristotelis Analyticorum Priorum librum I commentarium-Ammonius-CAG 4.6-Wallies-1899">
         <titleInfo xml:lang="lat" type="uniform">
             <title>in Aristotelis Analyticorum Priorum librum I commentarium</title>
-        </titleInfo>
+        </titleInfo>        
         <part>
             <extent unit="words">
                 <total>14401</total>
@@ -43952,8 +43952,21 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated" authority="lsj">
             <title>Ammon. in APr.</title>
         </titleInfo>
-        <identifier type="oclc">222433747</identifier>
-        <identifier displayLabel="isCommentaryOn" type="tlg">0086.001</identifier>
+        <name authority="viaf" authorityURI="https://viaf.org/viaf/" type="personal"
+            valueURI="https://viaf.org/viaf/283087561/">
+            <namePart>Ammonius,</namePart>
+            <namePart type="termsOfAddress">Hermiae</namePart>
+            <role>
+                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/5048928/">
+            <namePart>Wallies, Maximilian</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>        
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -43971,6 +43984,14 @@ but this is where the TLG has left off for numbering-->
             <extent>xiv, 98p ; 25cm.</extent>
         </physicalDescription>
         <classification authority="lcc">PA3902 A25</classification>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <language objectPart="notes">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <identifier type="oclc">222433747</identifier>
+        <identifier displayLabel="isCommentaryOn" type="tlg">0086.001</identifier>    
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/222433757</url>
         </location>
@@ -44016,25 +44037,7 @@ but this is where the TLG has left off for numbering-->
                 <topic>Commentaries</topic>
             </subject>
             <classification authority="lcc">PA3902 A25</classification>
-        </relatedItem>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <name authority="viaf" authorityURI="https://viaf.org/viaf/" type="personal"
-            valueURI="https://viaf.org/viaf/283087561/">
-            <namePart>Ammonius,</namePart>
-            <namePart type="termsOfAddress">Hermiae</namePart>
-            <role>
-                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/5048928/">
-            <namePart>Wallies, Maximilian</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
+        </relatedItem>    
         <subject authority="lcsh">
             <topic>Aristotle</topic>
             <topic>Commentaries</topic>
