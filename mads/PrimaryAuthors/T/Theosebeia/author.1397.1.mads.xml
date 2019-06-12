@@ -1,7 +1,10 @@
 <?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads.xsd">
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mads="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal" authority="">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/34844217">
       <mads:namePart>Theosebeia</mads:namePart>
       <mads:namePart type="termsOfAddress">Epigrammatica</mads:namePart>
       <mads:namePart type="date">5. Jh. n. Chr</mads:namePart>
@@ -9,16 +12,13 @@
   </mads:authority>
   <mads:related type="equivalent" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x398;&#x3B5;&#x3BF;&#x3C3;&#x3AD;&#x3B2;&#x3B5;&#x3B9;&#x3B1;</mads:namePart>
+      <mads:namePart>Θεοσέβεια‏</mads:namePart>
     </mads:name>
   </mads:related>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1397.1</mads:identifier>
   <mads:identifier type="uri">http://viaf.org/viaf/34844217</mads:identifier>
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
   <mads:fieldOfActivity>Poetess</mads:fieldOfActivity>
-  
-  
-  
   <mads:url displayLabel="Wikipedia"/>
   <mads:url displayLabel="Worldcat Identities"/>
   <mads:url displayLabel="Smith's Dictionary"/>
@@ -27,11 +27,6 @@
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
     <mads:identifier type="tlg">4047.001</mads:identifier>
-  </mads:extension>
-  <mads:extension>
-    <mads:gender>
-      <mads:genderTerm>female</mads:genderTerm>
-    </mads:gender>
   </mads:extension>
   <mads:recordInfo>
     <mads:recordOrigin>Converted from MARCXML to MADS version 2.0 (Revision 2.10)</mads:recordOrigin>

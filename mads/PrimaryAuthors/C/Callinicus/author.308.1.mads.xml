@@ -1,14 +1,17 @@
 <?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  version="2.0"
+  xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/17613931/">
       <mads:namePart>Callinicus</mads:namePart>
       <mads:namePart type="date">3rd cent</mads:namePart>
     </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x39A;&#x3B1;&#x3BB;&#x3BB;&#x3AF;&#x3BD;(&#x3B5;)&#x3B9;&#x3BA;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Καλλίν(ε)ικος</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
@@ -37,15 +40,16 @@
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
   <mads:fieldOfActivity>Rhetor</mads:fieldOfActivity>
   <mads:fieldOfActivity>Sophist</mads:fieldOfActivity>
-  
-  
-  
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/17613931/</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Callinicus_(Historian)</mads:url>
-  <mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-no91-13588</mads:url>
-  <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000588</mads:url>
+  <mads:url displayLabel="Worldcat Identities"
+    >http://orlabs.oclc.org/identities/lccn-no91-13588</mads:url>
+  <mads:url displayLabel="Smith's Dictionary"
+    >http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000588</mads:url>
   <mads:identifier type="tlg">2189</mads:identifier>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
+    <mads:identifier type="tlg">2189.002</mads:identifier>
     <mads:identifier type="tlg">2189.003</mads:identifier>
   </mads:extension>
   <mads:recordInfo>

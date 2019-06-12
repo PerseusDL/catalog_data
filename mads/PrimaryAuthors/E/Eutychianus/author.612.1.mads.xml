@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/34843779/">
       <mads:namePart>Eutychianus</mads:namePart>
       <mads:namePart type="termsOfAddress">Cappadox</mads:namePart>
       <mads:namePart type="date">4. Jh. n. Chr</mads:namePart>
@@ -9,7 +9,7 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x395;&#x1F50;&#x3C4;&#x3C5;&#x3C7;&#x3B9;&#x3B1;&#x3BD;&#x1F78;&#x3C2;</mads:namePart>
+      <mads:namePart>Εὐτυχιανὸς‏</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -58,12 +58,9 @@
     </mads:name>
   </mads:variant>
   <mads:note type="history">FGrH 226</mads:note>
-  <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|10239332X</mads:url>
+  <mads:fieldOfActivity>Historian</mads:fieldOfActivity>  
+  <mads:url displayLabel="Wikipedia">https://de.wikipedia.org/wiki/Eutychianos</mads:url>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/34843779/</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:
     entry=eutychianus-bio-2</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.612.1</mads:identifier>

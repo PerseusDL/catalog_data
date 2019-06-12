@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2300.1</identifier>
-    <authority>
-      <name>
-        <namePart>Nicagoras</namePart>
-        <namePart type="termsOfAddress">Atheniensis</namePart>
-      </name>
-    </authority>
-    <variant type="other" lang="grc">
-      <name>
-        <namePart>Νικαγόρας</namePart>
-      </name>
-    </variant>
-    <note type="source">Smith's Dictionary: "Nicagoras, literary, An Athenian sophist, the son of the rhetorician Mnesaeus, who lived in the time of the emperor Philippus. He wrote an account of the lives of various illustrious men (Βίοι ἐλλογίμων), of Cleopatra of the Troad, and a speech composed on the occasion of an embassy to the emperor..."</note>
-    <note type="source">Brill's New Pauly: "Nicagoras, Of Athens. Rhetor, Platonist, 2nd/3rd cents. AD</note>
-    <identifier type="fhg">fhg0228</identifier>
-    <fieldOfActivity>Historian</fieldOfActivity>
-    <url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=nicagoras-bio-3</url>
-    <extension>
-      <description>List of related work identifiers</description>
-      <identifier type="fhg">fhg0228.fhg001</identifier>
-    </extension>    
-  </mads>
+<mads xmlns="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
+  <authority>
+    <name>
+      <namePart>Nicagoras</namePart>
+      <namePart type="termsOfAddress">Atheniensis</namePart>
+    </name>
+  </authority>
+  <variant type="other" lang="grc">
+    <name>
+      <namePart>Νικαγόρας</namePart>
+    </name>
+  </variant>
+  <note type="source">Smith's Dictionary: "Nicagoras, literary, An Athenian sophist, the son of the rhetorician Mnesaeus, 
+    who lived in the time of the emperor Philippus. He wrote an account of the lives of various illustrious men (Βίοι ἐλλογίμων), 
+    of Cleopatra of the Troad, and a speech composed on the occasion of an embassy to the emperor..."</note>
+  <note type="source">Brill's New Pauly: "Nicagoras, Of Athens. Rhetor, Platonist, 2nd/3rd cents. AD</note>
+  <identifier type="fhg">fhg0228</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2300.1</identifier>
+  <fieldOfActivity>Historian</fieldOfActivity>
+  <url displayLabel="Smith's Dictionary"
+    >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=nicagoras-bio-3</url>
+  <extension>
+    <description>List of related work identifiers</description>
+    <identifier type="fhg">fhg0228.fhg001</identifier>
+  </extension>
+</mads>

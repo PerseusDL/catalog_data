@@ -1,17 +1,12 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/88995118/">
       <mads:namePart>Abelard, Peter</mads:namePart>
       <mads:namePart type="date">1079-1142</mads:namePart>
     </mads:name>
   </mads:authority>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Abe&#x301;lard, Pierre</mads:namePart>
-      <mads:namePart type="date">1079-1142</mads:namePart>
-    </mads:name>
-  </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Abaelardus, Petrus</mads:namePart>
@@ -32,17 +27,11 @@
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
-      <mads:namePart>Abel&#x2B9;i&#xFE20;a&#xFE21;rd, Petr</mads:namePart>
-      <mads:namePart type="date">1079-1142</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
       <mads:namePart>Abelard, Piotr</mads:namePart>
       <mads:namePart type="date">1079-1142</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:variant>
+  <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Abailard, Pierre</mads:namePart>
       <mads:namePart type="date">1079-1142</mads:namePart>
@@ -51,12 +40,6 @@
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Abelardo</mads:namePart>
-      <mads:namePart type="date">1079-1142</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Abeli&#xFE20;a&#xFE21;r, Petr</mads:namePart>
       <mads:namePart type="date">1079-1142</mads:namePart>
     </mads:name>
   </mads:variant>
@@ -90,6 +73,8 @@
       <mads:namePart type="date">1079-1142</mads:namePart>
     </mads:name>
   </mads:variant>
+  <mads:fieldOfActivity>Philosopher</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Theologian</mads:fieldOfActivity>
   <mads:note type="source">New Grove (Abelard, Peter (Petrus Abailardus, Abaelard, Abailard), b.
         1079, Le Pallet, near Nantes, d. Apr. 21, 1142, St-Marcel, near Chalon-sur-Sao&#x302;ne; French
         philsopher, poet and musician of Breton origin)</mads:note>
@@ -98,8 +83,8 @@
   <mads:identifier type="citeurn">urn:cite:perseus:author.2.1</mads:identifier>
   <mads:identifier type="lccn">n 79142562 </mads:identifier>
   <mads:identifier type="stoa author">stoa0002</mads:identifier>
-    <mads:url displayLabel="VIAF">http://viaf.org/viaf/71750055/</mads:url>
-  <mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-n79-142562</mads:url>
+  <mads:url displayLabel="VIAF">http://viaf.org/viaf/88995118/</mads:url>
+  <mads:url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Peter_Abelard</mads:url>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
     <mads:identifier type="stoa author-text">stoa0002-stoa004</mads:identifier>
