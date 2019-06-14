@@ -1,19 +1,17 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-0.xsd">
   <mads:authority geographicSubdivision="not applicable">
-     <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/27422620">
       <mads:namePart>Bacchius</mads:namePart>
       <mads:namePart type="termsOfAddress">Senex</mads:namePart>
       <mads:namePart type="date">fl.3./4. Jh. n. Chr</mads:namePart>
     </mads:name>
-  </mads:authority>>
-  <mads:related type="equivalent">
-    <mads:name type="personal">
-      <mads:namePart>Bacchius</mads:namePart>
-      <mads:namePart type="termsOfAddress">Senex</mads:namePart>
-      <mads:namePart type="date">fl.3./4. Jh. n. Chr</mads:namePart>
-    </mads:name>
-  </mads:related>
+  </mads:authority>
+<mads:variant type="other" lang="grc">
+  <mads:name type="personal">
+    <mads:namePart>Βακχεῖος</mads:namePart>
+  </mads:name>
+</mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Baccheius</mads:namePart>
@@ -46,13 +44,6 @@
     <mads:name type="personal">
       <mads:namePart>Bakcheios</mads:namePart>
       <mads:namePart type="termsOfAddress">Geron</mads:namePart>
-      <mads:namePart type="date">fl.3./4. Jh. n. Chr</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Bakcheios</mads:namePart>
-      <mads:namePart type="termsOfAddress">ho Ger&#x14D;n</mads:namePart>
       <mads:namePart type="date">fl.3./4. Jh. n. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
@@ -95,11 +86,8 @@
   </mads:variant>
   <mads:fieldOfActivity>Musical Author</mads:fieldOfActivity>
   <mads:identifier type="citeurn">urn:cite:perseus:author.253.1</mads:identifier>
-  <mads:identifier type="uri">http://viaf.org/viaf/27422620</mads:identifier>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
+  <mads:identifier type="uri">http://viaf.org/viaf/27422620</mads:identifier>  
+  <mads:url displayLabel="VIAF">http://viaf.org/viaf/27422620</mads:url>
   <mads:url displayLabel="Worldcat Identities"/>
   <mads:url displayLabel="Smith's Dictionary"/>
   <mads:identifier type="tlg">2136</mads:identifier>
