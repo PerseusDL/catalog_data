@@ -43708,7 +43708,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <!-- LEFT OFF HERE -->
+
     <mods displayLabel="In Arati et Eudoxi Phaenomena Commentariorum-Hipparchus-Teubner-1894">
         <titleInfo xml:lang="lat" type="uniform">
             <title>In Arati et Eudoxi phaenomena commentariorum</title>
@@ -43724,7 +43724,7 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="translated" lang="lat">
             <title>Hipparchi in Arati et Eudoxi Phaenomena commentariorum libri tres</title>
         </titleInfo>
-        <name  type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+        <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/302240082/">
             <namePart>Hipparchus</namePart>
             <namePart type="date">fl. 190-127 B.C</namePart>
@@ -43765,25 +43765,6 @@ but this is where the TLG has left off for numbering-->
                 <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana. [S.g.]</title>
             </titleInfo>
         </relatedItem>
-        <language objectPart="text">
-            <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
-        </language>
-        <language objectPart="text">
-            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
-        </language>
-        <identifier displayLabel="isCommentaryOn" type="tlg">0653.001</identifier>
-        <identifier displayLabel="isCommentaryOn" type="tlg">1358.003</identifier>
-        <identifier type="lccn">34018580</identifier>
-        <identifier type="oclc">10176734</identifier>
-        <location>
-            <url displayLabel="LC Permalink">http://lccn.loc.gov/34018580</url>
-        </location>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/10176734</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks">http://books.google.com/books?id=GFEMAQAAIAAJ</url>
-        </location>
         <subject authority="lcsh">
             <name type="personal">
                 <namePart>Aratus</namePart>
@@ -43804,6 +43785,32 @@ but this is where the TLG has left off for numbering-->
             <topic>Astronomy</topic>
             <topic>Early works to 1800</topic>
         </subject>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+        </language>
+        <language objectPart="notes">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+        </language>
+        <identifier displayLabel="isCommentaryOn" type="tlg">0653.001</identifier>
+        <identifier displayLabel="isCommentaryOn" type="tlg">1358.003</identifier>
+        <identifier type="lccn">34018580</identifier>
+        <identifier type="oclc">10176734</identifier>
+        <location>
+            <url displayLabel="LC Permalink">http://lccn.loc.gov/34018580</url>
+        </location>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/10176734</url>
+        </location>
+        <location>
+            <url displayLabel="GoogleBooks">http://books.google.com/books?id=GFEMAQAAIAAJ</url>
+        </location>
+        <location>
+            <url displayLabel="Open Content Alliance"
+                >https://archive.org/details/HipparchouTonAratouKaiEudoxouPhain</url>
+        </location>
         <relatedItem type="constituent" otherType="work"
             displayLabel="In Arati et Eudoxi phaenomena commentariorum">
             <identifier type="ctsurn">urn:cts:greekLit:tlg1431.tlg003</identifier>
@@ -43814,6 +43821,18 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="In Arati et Eudoxi phaenomena commentariorum">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg1431.tlg003.opp-grc1</identifier>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="In Arati et Eudoxi phaenomena commentariorum">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1431.tlg003.1st1K-grc1</identifier>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg1431/tlg003/tlg1431.tlg003.1st1K-grc1.xml</url>
+                </location>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg1431.tlg003/</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -43856,6 +43875,12 @@ but this is where the TLG has left off for numbering-->
             <dateIssued>1884</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <language objectPart="notes">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
         <physicalDescription>
             <form authority="marcform">print</form>
             <digitalOrigin>digitized other analog</digitalOrigin>
@@ -43868,6 +43893,10 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="Open Content Alliance"
                 >https://archive.org/stream/commentariainari23akaduoft#page/n287/mode/2up</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust"
+                >ttps://babel.hathitrust.org/cgi/pt?id=uc1.31822025606815</url>
         </location>
         <relatedItem type="series">
             <titleInfo>
@@ -43908,9 +43937,7 @@ but this is where the TLG has left off for numbering-->
             </subject>
             <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
+
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
             <temporal>384-322 B.C.</temporal>
@@ -43939,12 +43966,12 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods
         displayLabel="in Aristotelis Analyticorum Priorum librum I commentarium-Ammonius-CAG 4.6-Wallies-1899">
         <titleInfo xml:lang="lat" type="uniform">
             <title>in Aristotelis Analyticorum Priorum librum I commentarium</title>
-        </titleInfo>        
+        </titleInfo>
         <part>
             <extent unit="words">
                 <total>14401</total>
@@ -43967,7 +43994,7 @@ but this is where the TLG has left off for numbering-->
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
-        </name>        
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -43992,7 +44019,7 @@ but this is where the TLG has left off for numbering-->
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
         <identifier type="oclc">222433747</identifier>
-        <identifier displayLabel="isCommentaryOn" type="tlg">0086.001</identifier>    
+        <identifier displayLabel="isCommentaryOn" type="tlg">0086.001</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/222433757</url>
         </location>
@@ -44038,7 +44065,7 @@ but this is where the TLG has left off for numbering-->
                 <topic>Commentaries</topic>
             </subject>
             <classification authority="lcc">PA3902 A25</classification>
-        </relatedItem>    
+        </relatedItem>
         <subject authority="lcsh">
             <topic>Aristotle</topic>
             <topic>Commentaries</topic>
@@ -44053,6 +44080,19 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="in Aristotelis Analyticorum Priorum librum I commentarium">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg4016.tlg004.opp-grc1</identifier>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="in Aristotelis
+                Analyticorum Priorum librum I commentarium">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg4016.tlg004.opp-grc2</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg4016.tlg004/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg4016/tlg004/tlg4016.tlg004.opp-grc2.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -44075,8 +44115,21 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated" authority="lsj">
             <title>Phlp. in APr.</title>
         </titleInfo>
-        <identifier type="oclc">63485832</identifier>
-        <identifier displayLabel="isCommentaryOn" type="tlg">0086.001</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/1276154329449426970002/">
+            <namePart>Philoponus, John</namePart>
+            <namePart type="date">6th cent</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/5048928/">
+            <namePart>Wallies, Maximilian</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -44093,19 +44146,18 @@ but this is where the TLG has left off for numbering-->
             <form authority="marcform">print</form>
             <extent>XXXVII, 493 p. : ill. ; 25 cm.</extent>
         </physicalDescription>
-        <classification authority="lcc"/>
-        <classification authority="ddc"/>
-        <location>
-            <url displayLabel="LC Permalink"/>
-        </location>
+        <identifier type="oclc">63485832</identifier>
+        <identifier displayLabel="isCommentaryOn" type="tlg">0086.001</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/63485832</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust"> https://hdl.handle.net/2027/uc1.31822025606740 </url>
         </location>
         <location>
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/stream/commentariaina13pt12akaduoft#page/n257/mode/2up</url>
         </location>
-
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=5DYNAAAAYAAJ</url>
         </location>
@@ -44151,21 +44203,6 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/1276154329449426970002/">
-            <namePart>Philoponus, John</namePart>
-            <namePart type="date">6th cent</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/5048928/">
-            <namePart>Wallies, Maximilian</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
             <temporal>384-322 B.C.</temporal>
@@ -44180,9 +44217,18 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="in Aristotelis Analytica Priora commentaria">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg4015.tlg002.opp-grc1</identifier>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg4015/tlg002/tlg4015.tlg002.opp-grc1.xml</url>
+                </location>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg4015.tlg002/</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
+    <!-- LEFT OFF HERE -->
     <mods
         displayLabel="In Aristotelis Analytica Posteriora commentaria-Philoponus-Wallies-CAG 13.3-1909">
         <titleInfo xml:lang="lat" type="uniform">
@@ -44806,7 +44852,8 @@ but this is where the TLG has left off for numbering-->
                         >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg4013/tlg001/tlg4013.tlg003.opp-grc1.xml</url>
                 </location>
                 <location>
-                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg4013.tlg003.opp-grc1/</url>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg4013.tlg003.opp-grc1/</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -46032,7 +46079,8 @@ but this is where the TLG has left off for numbering-->
                         >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg4013/tlg001/tlg4013.tlg004.opp-grc1.xml</url>
                 </location>
                 <location>
-                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg4013.tlg004.opp-grc1/</url>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg4013.tlg004.opp-grc1/</url>
                 </location>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part type="volume">
@@ -47812,7 +47860,8 @@ but this is where the TLG has left off for numbering-->
                         >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg2001/tlg041/tlg2001.tlg041.opp-grc1.xml</url>
                 </location>
                 <location>
-                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg2001.tlg041.opp-grc1/</url>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg2001.tlg041.opp-grc1/</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -47936,10 +47985,12 @@ but this is where the TLG has left off for numbering-->
                 displayLabel="in parva naturalia commentaria">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg4034.tlg002.opp-grc1</identifier>
                 <location>
-                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg4034/tlg002/tlg4034.tlg002.opp-grc1.xml</url>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg4034/tlg002/tlg4034.tlg002.opp-grc1.xml</url>
                 </location>
                 <location>
-                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg4034.tlg002.opp-grc1/</url>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg4034.tlg002.opp-grc1/</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -48673,7 +48724,7 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/" 
+        <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/190137827">
             <namePart>Kalbfleisch, Karl</namePart>
             <namePart type="date">1868-1921</namePart>
@@ -48729,7 +48780,8 @@ but this is where the TLG has left off for numbering-->
                         >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0057/tlg081/tlg0057.tlg081.1st1K-grc1.xml</url>
                 </location>
                 <location>
-                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg0057.tlg081.1st1K-grc1/</url>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg0057.tlg081.1st1K-grc1/</url>
                 </location>
             </relatedItem>
         </relatedItem>
