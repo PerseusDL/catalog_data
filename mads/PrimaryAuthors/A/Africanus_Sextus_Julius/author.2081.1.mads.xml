@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2081.1</identifier>
-    <authority>
-      <name type="personal" authority="">
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
+  <authority>
+    <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/160788177/"> 
         <namePart>Africanus, Sextus Julius</namePart>
       </name>
     </authority>
-    <variant type="equivalent">
+    <related type="equivalent">
       <name type="personal">
         <namePart>Ἰούλιος Ἀφρικάνος</namePart>
         <namePart type="termsOfAddress">Σέξτος</namePart>
       </name>
-    </variant>
+    </related>
     <variant type="other">
       <name type="personal">
         <namePart>Africanus, Sextus Julius</namePart>
@@ -173,17 +174,6 @@
         <namePart type="termsOfAddress">Historicus</namePart>
         <namePart type="date">160-240</namePart>
       </name>
-    </variant>
-    <variant type="other">
-      <name type="personal">
-        <namePart>I̓oúlios A̓frikános</namePart>
-        <namePart type="termsOfAddress">Séxtos</namePart>
-      </name>
-      <mads:titleInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      xmlns:mads="http://www.loc.gov/mads/v2">
-        <mads:title>I̓oúlios A̓frikános 01..?-024.?</mads:title>
-      </mads:titleInfo>
     </variant>
     <variant type="other">
       <name type="personal">
@@ -364,6 +354,7 @@
       </name>
     </variant>
     <identifier type="tlg">2956</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2081.1</identifier>  
     <identifier type="uri">http://viaf.org/viaf/160788177</identifier>
     <fieldOfActivity>Theologian</fieldOfActivity>
     <fieldOfActivity>Historian</fieldOfActivity>

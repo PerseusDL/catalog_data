@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/161234357/">
       <mads:namePart>Aeschines</mads:namePart>
     </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x391;i&#x3C3;&#x3C7;&#x3AF;&#x3BD;&#x3B7;&#x3C2;</mads:namePart>
+      <mads:namePart>Αiσχίνη</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -45,9 +45,14 @@
       <mads:namePart type="date">ca. 389 v. Chr.-ca. 314 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
+  <mads:variant type="other" lang="rus">
+    <mads:name type="personal">
+      <mads:namePart>Эсхин</mads:namePart>
+    </mads:name>
+  </mads:variant>
   <mads:variant type="other" lang="heb">
     <mads:name type="personal">
-      <mads:namePart>&#x5D0;&#x5D9;&#x5D9;&#x5E1;&#x5DB;&#x5D9;&#x5E0;&#x5E1;</mads:namePart>
+      <mads:namePart>איסכינס</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
@@ -57,12 +62,12 @@
   </mads:variant>
   <mads:variant type="other" lang="jap">
     <mads:name type="personal">
-      <mads:namePart>&#x30A2;&#x30A4;&#x30B9;&#x30AD;&#x30CD;&#x30B9;</mads:namePart>
+      <mads:namePart>アイスキネス</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="por">
     <mads:name type="personal">
-      <mads:namePart>&#xC9;squines</mads:namePart>
+      <mads:namePart>Èsquines</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="spa">
@@ -100,9 +105,9 @@
   <mads:identifier type="citeurn">urn:cite:perseus:author.31.1</mads:identifier>
   <mads:identifier type="lccn">n 82032653 </mads:identifier>
   <mads:identifier type="tlg">0026</mads:identifier>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/161234357/</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-n82-32653</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Aeschines</mads:url>
-  <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000051</mads:url>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
     <mads:identifier type="tlg">0026.001</mads:identifier>
