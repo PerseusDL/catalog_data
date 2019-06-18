@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <!--Make sure have both authority and valueURI-->
     <!-- Add in HathiTrust links-->
     <!-- Continue reviewing work names
@@ -30450,6 +30450,12 @@ but this is where the TLG has left off for numbering-->
                 <namePart type="date">4th cent. B.C</namePart>
             </name>
         </subject>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Philologische Untersuchungen</title>
+                <partNumber>Volume 21</partNumber>
+            </titleInfo>
+        </relatedItem>
         <subject authority="lcsh">
             <topic>Greek literature</topic>
             <topic>History and criticism</topic>
@@ -30460,6 +30466,9 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm type="code">grc</languageTerm>
         </language>
+        <language objectPart="notes">
+            <languageTerm type="code">ger</languageTerm>
+        </language>
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/13011298</url>
         </location>
@@ -30467,7 +30476,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/9952728</url>
         </location>
         <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/uc1.b4352050</url>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/mdp.39015032393798</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0673.tlg001</identifier>
