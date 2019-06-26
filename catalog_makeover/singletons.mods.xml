@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <!--Make sure have both authority and valueURI-->
     <!-- Add in HathiTrust links-->
     <!-- Continue reviewing work names
@@ -86,6 +86,12 @@
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Ab excessu divi Marci libri octo">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0015.tlg001.opp-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg0015.tlg001.opp-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0015/tlg001/tlg0015.tlg001.opp-grc1.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -26452,6 +26458,17 @@ but this is where the TLG has left off for numbering-->
             <identifier type="ctsurn">urn:cts:greekLit:tlg0640.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Epistulae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0640.tlg001.opp-grc1</identifier>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Epistulae">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0640.tlg001.First1K-grc1.xml</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg0640.tlg001.First1K-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0640/tlg001/tlg0640.tlg001.First1K-grc1.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
