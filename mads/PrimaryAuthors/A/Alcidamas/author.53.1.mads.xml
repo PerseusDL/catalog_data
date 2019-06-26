@@ -1,14 +1,15 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/266716505/">
       <mads:namePart>Alcidamas</mads:namePart>
       <mads:namePart type="date">4th cent. B.C</mads:namePart>
     </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>A&#x3BB;&#x3BA;&#x3B9;&#x3B4;&#x3B1;&#x3BC;&#x3B1;&#x3C2;</mads:namePart>
+      <mads:namePart>Ἀλκιδάμας</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
@@ -128,9 +129,7 @@
     <mads:name type="personal" authority="lsj">
       <mads:namePart>Alcid.</mads:namePart>
     </mads:name>
-  </mads:variant>
-  
-  
+  </mads:variant>   
   <mads:note type="source">His Orazioni e frammenti, 1982: t.p. (Alcidamante) p. ix (certainly
         active betw. 390 and 365)</mads:note>
   <mads:note type="source">Oxford Class. dict., 1970 (Alcidamas, 4th cent. B.C.; rhetorician and
@@ -138,6 +137,7 @@
   <mads:note type="source">Der kleine Pauly (Alkidamas; contemp. &amp; opponent of Isocrates)</mads:note>
   <mads:fieldOfActivity>Orator</mads:fieldOfActivity>
   <mads:fieldOfActivity>Rhetorician</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Sophist</mads:fieldOfActivity>
   <mads:identifier type="citeurn">urn:cite:perseus:author.53.1</mads:identifier>
   <mads:identifier type="lccn">n 87855622 </mads:identifier>
   <mads:identifier type="tlg">0610</mads:identifier>

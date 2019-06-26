@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/59475564/">
       <mads:namePart>Alexander</mads:namePart>
       <mads:namePart type="termsOfAddress">Comicus</mads:namePart>
       <mads:namePart type="date">1. Jh. v. Chr</mads:namePart>
@@ -9,13 +10,13 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>'A&#x3BB;&#x3AD;&#x3BE;&#x3B1;&#x3BD;&#x3B4;&#x3C1;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Aλέξανδρος</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Alexandros</mads:namePart>
-      <mads:namePart type="termsOfAddress">Komo&#x308;diendichter</mads:namePart>
+      <mads:namePart type="termsOfAddress">Komödiendichter</mads:namePart>
       <mads:namePart type="date">1. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
@@ -32,11 +33,7 @@
   </mads:variant>
   <mads:note type="genre">New Comedy</mads:note>
   <mads:fieldOfActivity>Comic Poet</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|102378703</mads:url>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/59475564/</mads:url>
   <mads:url displayLabel="Smith's Dictionary"/>
   <mads:identifier type="citeurn">urn:cite:perseus:author.60.1</mads:identifier>
   <mads:identifier type="tlg">0401</mads:identifier>

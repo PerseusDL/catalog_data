@@ -1,13 +1,15 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/228050642/">
       <mads:namePart>Alcaeus</mads:namePart>
     </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>A&#x3BB;&#x3BA;&#x3B1;i&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Aλκαiος‏</mads:namePart>
+      <mads:namePart type="termsOfAddress">ὁ Μυτιληναῖος</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -24,7 +26,7 @@
   </mads:variant>
   <mads:variant type="other" lang="fre">
     <mads:name type="personal">
-      <mads:namePart>Alc&#xE9;e</mads:namePart>
+      <mads:namePart>Alcée‏</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="spa">
@@ -39,8 +41,8 @@
   </mads:variant>
   <mads:variant type="other" lang="fre">
     <mads:name type="personal">
-      <mads:namePart>Alce&#x301;e</mads:namePart>
-      <mads:namePart type="termsOfAddress">de Mytile&#x300;ne</mads:namePart>
+      <mads:namePart>Alcée‏</mads:namePart>
+      <mads:namePart type="termsOfAddress">de Mytilène‏</mads:namePart>
       <mads:namePart type="date">7./6. Jh. v.Chr</mads:namePart>
     </mads:name>
   </mads:variant>
@@ -50,13 +52,7 @@
       <mads:namePart type="termsOfAddress">di Mitilene</mads:namePart>
       <mads:namePart type="date">7./6. Jh. v.Chr</mads:namePart>
     </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Alce&#x301;e</mads:namePart>
-      <mads:namePart type="date">7./6. Jh. v.Chr</mads:namePart>
-    </mads:name>
-  </mads:variant>
+  </mads:variant> 
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Alceo</mads:namePart>
@@ -135,21 +131,20 @@
     <mads:name type="personal" authority="lsj">
       <mads:namePart>Alc.</mads:namePart>
     </mads:name>
-  </mads:variant>
-  <mads:note type="source">Deubner, L. A. Zu den neuen Bruchstu&#xCC;&#x88;cken des Alkaios, 1943</mads:note>
-  <mads:note type="source">Sap&#xCA;&#xBB;os poeturi samqaro, 1991: p. 235 (Alkeosi)</mads:note>
-  
-  
+  </mads:variant>  
   <mads:fieldOfActivity>Lyric Poet</mads:fieldOfActivity>
   <mads:identifier type="citeurn">urn:cite:perseus:author.51.1</mads:identifier>
   <mads:identifier type="lccn">n 81024909 </mads:identifier>
   <mads:identifier type="tlg">0383</mads:identifier>
+  <mads:url displayLabel="VIAF">http://viaf.org/viaf/100168936/</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa&amp;cc=moa&amp;idno=acl3129.0001.001&amp;frm=frameset&amp;view=image&amp;seq=110</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-n81-24909</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Alcaeus_of_Mytilene</mads:url>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
-    <mads:identifier type="tlg">0383.001 </mads:identifier>
+    <mads:identifier type="tlg">0383.001</mads:identifier>
+    <mads:identifier type="tlg">0383.002</mads:identifier>
+    <mads:identifier type="tlg">0383.003</mads:identifier>
   </mads:extension>
   <mads:recordInfo>
     <mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource>
