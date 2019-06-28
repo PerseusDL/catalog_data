@@ -1,14 +1,23 @@
 <?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
+  version="2.0">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/57002044/">
       <mads:namePart>Tryphon</mads:namePart>
       <mads:namePart type="date">1st cent. B.C</mads:namePart>
     </mads:name>
   </mads:authority>
   <mads:related type="equivalent" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x3A4;&#x3C1;&#x3CD;&#x3C6;&#x3C9;&#x3BD;</mads:namePart>
+      <mads:namePart>Tρύφων</mads:namePart>
+    </mads:name>
+  </mads:related>
+  <mads:related type="equivalent" lang="grc">
+    <mads:name type="personal" authority="Brill">
+      <mads:namePart>Τρύφωνος</mads:namePart>
     </mads:name>
   </mads:related>
   <mads:variant type="other" lang="lat">
@@ -63,19 +72,18 @@
   <mads:variant type="other" lang="ita">
     <mads:name type="personal" authority="viaf">
       <mads:namePart>Trifone</mads:namePart>
-      <mads:namePart type="termsOfAddress">Grammatico&#x200F; </mads:namePart>
+      <mads:namePart type="termsOfAddress">Grammatico</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
     <mads:name type="personal" authority="viaf">
       <mads:namePart>Trifone</mads:namePart>
-      <mads:namePart type="termsOfAddress">di Alessandria&#x200F;</mads:namePart>
+      <mads:namePart type="termsOfAddress">di Alessandria</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
-      <mads:namePart>&#x3A4;&#x3C1;&#x3C4;&#x314;&#x308;&#xAB;&#x201D;&#x3D0;&#x3B3;&#xB7;&#x3C6;&#x3C9;&#x3BD;</mads:namePart>
-      <mads:namePart type="date">1st cent. B.C</mads:namePart>
+      <mads:namePart>Трифон</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -84,23 +92,15 @@
       <mads:namePart type="termsOfAddress">Grammaticus</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:variant type="abbreviation">
-    <mads:name type="personal" authority="lsj">
-      <mads:namePart/>
-    </mads:name>
-  </mads:variant>
   <mads:note type="source">Oxford classical dict. online, Jan. 31, 2008 (Tryphon; late 1st cent. B.C.; grammarian from Alexandria, and son of Ammonius)</mads:note>
   <mads:note type="notFound">BM STC French, 1470-1600</mads:note>
-  
-  
-  
   <mads:identifier type="lccn">no2008022234</mads:identifier>
   <mads:identifier type="tlg">0609</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1429.1</mads:identifier>
   <mads:fieldOfActivity>Grammarian</mads:fieldOfActivity>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Tryphon</mads:url>
-  <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-no2008-22234</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
+  <mads:url displayLabel="Worldcat Identities"
+    >http://www.worldcat.org/wcidentities/lccn-no2008-22234</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/57002044/</mads:url>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
