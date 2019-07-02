@@ -1413,6 +1413,97 @@
             </relatedItem>
         </relatedItem>
     </mods>
+    <mods displayLabel="Acta Archelai-Hegemonius-Beeson-Hinrichs-1906">
+        <titleInfo>
+            <title>Hegemonius: Acta Archelai</title>
+        </titleInfo>
+        <titleInfo type="alternative">
+            <title>Acta Archelai</title>
+        </titleInfo>
+        <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/267670410">
+            <namePart>Hegemonius</namePart>
+            <role>
+                <roleTerm type="text">attributed author</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/58069176">
+            <namePart>Beeson, Charles H. (Charles Henry)</namePart>
+            <namePart type="date">1870-1949</namePart>
+            <role>
+                <roleTerm type="text">editor</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Leipzig</placeTerm>
+            </place>
+            <publisher>J. C. Hinrichs</publisher>
+            <dateIssued>1906</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language objectPart="preface">
+            <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>liv, [2], 133, [1] p. 25 cm.</extent>
+        </physicalDescription>
+        <note type="statement of responsibility" altRepGroup="00">Preussischen akademie der wissenschaften 
+            von Charles Henry Beeson.</note>
+        <subject authority="lcsh">
+            <topic>Manichaeism</topic>
+        </subject>
+        <note>Latin translation--known as Acta Archelai--of a Greek work by Hegemonius which purports to be a relation by one Archelaus,
+            bishop of Caschara in Mesopotamia, of a disputation between himself and Mani, the founder of Manichaeism. The fragments of the original are included.</note>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Griechischen christlichen Schriftsteller der ersten drei Jahrhunderte</title>
+                <partNumber>16</partNumber>
+            </titleInfo>
+        </relatedItem>
+        <classification authority="lcc">BR60 .G7 Bd. 16</classification>
+        <identifier type="lccn">07022355</identifier>
+        <identifier type="oclc">657095315</identifier>
+        <location>
+            <url displayLabel="Worldcat">http://www.worldcat.org/oclc/657095315</url>
+        </location>
+        <location>
+            <url displayLabel="Open Content Alliance"
+                >https://archive.org/details/hegemoniusactaar00hege/</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/njp.32101064294901</url>
+        </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="Acta Archelai">
+            <identifier type="ctsurn">urn:cts:greekLit:stoa0146d.stoa001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Acta Archelai">
+                <identifier type="ctsurn">urn:cts:greekLit:stoa0146d.stoa001.opp-lat1</identifier>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/stoa0146d/stoa001/stoa0146d.stoa001.opp-lat1.xml</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Acta Archelai">
+                <identifier type="ctsurn">urn:cts:greekLit:stoa0146d.stoa001.opp-grc1</identifier>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/stoa0146d/stoa001/stoa0146d.stoa001.opp-grc1.xml</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+    </mods>
     <mods displayLabel="Acta Thomae-Apocrypha anecdota II-Rhodes-Cambridge-1897">
         <titleInfo>
             <title>Apocrypha anecdota</title>
@@ -8837,7 +8928,6 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-
     <mods displayLabel="Breviarium historiae romanae-Eutropius-Santini-Teubner-1979">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Breviarium historiae romanae</title>
@@ -9074,6 +9164,115 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Breviarium historiae romanae">
                 <identifier type="ctsurn">urn:cts:latinLit:stoa0121.stoa001.opp-lat2</identifier>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods displayLabel="Breviarium historiae romanae-Droysen-Weidmann-1879">
+        <titleInfo>
+            <title>Breviarium ab urbe condita</title>
+        </titleInfo>
+        <titleInfo type="alternative" authority="stoa">
+            <title>Breviarium ab urbe condita</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/25396473/">
+            <namePart>Eutropius</namePart>
+            <namePart type="date">4th cent</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/37046039/">
+            <namePart>Droysen, Hans</namePart>
+            <namePart type="date">1851-1918</namePart>
+            <role>
+                <roleTerm type="text">editor</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/287131971/">
+            <namePart>Landulfus, Sagax</namePart>
+            <namePart type="date"> active 9th century-10th century</namePart>
+            <role>
+                <roleTerm type="text">translator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/40174477/">
+            <namePart>Paul the Deacon</namePart>
+            <namePart type="date">ca. 720-799?</namePart>
+            <role>
+                <roleTerm type="text">translator</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Berolini</placeTerm>
+            </place>
+            <publisher>apud Weidmannos</publisher>
+            <dateIssued>1879</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <note>cum Versionibus Graecis et Pauli Landolfique additamentis</note>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
+        <language objectPart="notes">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>3 p.l., 88 p. 21 cm.</extent>
+        </physicalDescription>
+        <subject>
+            <geographicCode authority="marcgac">e-it---</geographicCode>
+        </subject>
+        <subject authority="lcsh">
+            <geographic>Rome</geographic>
+            <topic>History</topic>
+        </subject>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Monumenta Germaniae Historica</title>
+                <title>Auctores antiquissimi</title>
+                <partNumber>2</partNumber>
+            </titleInfo>
+        </relatedItem>
+        <classification authority="lcc">PA6384 .A2 1878</classification>
+        <identifier type="lccn">34002981</identifier>
+        <identifier type="oclc">6238766</identifier>
+        <location>
+            <url displayLabel="Worldcat">http://www.worldcat.org/oclc/6238766</url>
+        </location>
+        <location>
+            <url displayLabel="Open Content Alliance"
+                >https://archive.org/details/cuaeutropibreviar00eutr</url>
+        </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="Breviarium historiae romanae">
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0121.stoa001</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Breviarium historiae romanae">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0121.stoa001.opp-lat4</identifier>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Breviarium historiae romanae">
+                <identifier type="ctsurn">urn:cts:greekLit:stoa0121.stoa001.opp-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:greekLit:stoa0121.stoa001.opp-grc1</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/stoa0121/stoa001/stoa0121.stoa001.opp-grc1.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
