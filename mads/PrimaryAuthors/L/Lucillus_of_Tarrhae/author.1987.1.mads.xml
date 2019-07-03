@@ -1,11 +1,16 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/78337360">
       <mads:namePart>Lucillus</mads:namePart>
       <mads:namePart type="termsOfAddress">of Tarrha</mads:namePart>
     </mads:name>
   </mads:authority>
+  <mads:related type="equivalent" lang="grc">
+    <mads:name>
+      <mads:namePart>Λουκίλλος</mads:namePart>
+    </mads:name>
+  </mads:related>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Lucillus</mads:namePart>
@@ -22,11 +27,14 @@
     1st cent. C.E.)</mads:note>
   <mads:note type="source">Linnenkugel, A. De Lucillo Tarrhaeo epigrammatum poeta,
     grammatico, rhetore, 1926</mads:note>
+  <mads:note type="source">Brill's New Pauly: "Lucillus, Greek grammarian from Tarrha, 1st cent. AD,...
+    he work Περὶ Θεσσαλονίκης/Perì Thessaloníkēs [1. 311f. s.v. Θεσσαλονίκη] is also attributed to him...."</mads:note>
   <mads:note type="source">Lex. der alten Welt, 1965 (Lukillos von Tarrha, grammarian of about 100 A.D.)</mads:note>
   <mads:identifier type="lccn">no 90011480 </mads:identifier>
   <mads:identifier type="fhg">fhg0452</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1987.1</mads:identifier>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Grammarian</mads:fieldOfActivity>
   <mads:url displayLabel="Id.gov">http://id.loc.gov/authorities/names/no90011480</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/78337360</mads:url>
   <mads:extension>
