@@ -1,14 +1,15 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/1483698">
       <mads:namePart>Alketas</mads:namePart>
       <mads:namePart type="date">-319 B.C</mads:namePart>
     </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Smith">
-      <mads:namePart>&#x1F08;&#x3BB;&#x3BA;&#x3AD;&#x3C4;&#x3B1;&#x3C2;</mads:namePart>
+      <mads:namePart>Αλκέτας</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -28,14 +29,9 @@
   <mads:note type="source">Dict. of Greek and Roman Biog. and myth., 1849: v. 1, p. 98 (Alcetas)</mads:note>
   <mads:note type="notFound">Enc. Brit., 15th ed</mads:note>
   <mads:identifier type="lccn">n  86017467 </mads:identifier>
-  <mads:identifier type="ctsurn"/>
   <mads:identifier type="tlg">2285</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1534.1</mads:identifier>
-  <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="Worldcat Identities"/>
+  <mads:fieldOfActivity>Historian</mads:fieldOfActivity>  
   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=alcetas-bio-1</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/1483698</mads:url>
   <mads:url displayLabel="id.gov">http://id.loc.gov/authorities/names/n86017467</mads:url>
