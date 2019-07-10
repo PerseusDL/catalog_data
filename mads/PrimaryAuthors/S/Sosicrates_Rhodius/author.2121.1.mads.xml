@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2121.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd"> 
     <authority lang="lat">
-      <name type="personal" authority="viaf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/32386786">
         <namePart>Sosicrates</namePart>
         <namePart type="termsOfAddress">Rhodius</namePart>
         <namePart type="date">v2. Jh</namePart>
@@ -11,7 +12,7 @@
     <variant type="other" lang="grc">
       <name type="personal">
         <namePart>Σωσικράτης</namePart>
-        <namePart type="termsOfAddress">ο Ρόδιος, Αρχαίος Έλληνας ιστορικός</namePart>
+        <namePart type="termsOfAddress">ο Ρόδιος</namePart>
       </name>
     </variant>
     <variant type="other" lang="ara">
@@ -65,11 +66,17 @@
         <namePart>Сосикрат</namePart>
       </name>
     </variant>
-    <note type="source">Smith's Dictionary: "Sosicrates, 2, of Rhodes, historical writer, who is quoted by Diogenes Laertius (2.84) as an authority for the statement, that Aristippus wrote nothing. It is therefore inferred, with much probability, that he is the same as the Sosicrates whose work upon the Succession of the Philosophers is quoted by Athenaeus...."</note>
+    <note type="source">Smith's Dictionary: "Sosicrates, 2, of Rhodes, historical writer, who is quoted by Diogenes Laertius (2.84)
+      as an authority for the statement, that Aristippus wrote nothing. It is therefore inferred, with much probability, that he 
+      is the same as the Sosicrates whose work upon the Succession of the Philosophers is quoted by Athenaeus...."</note>
     <fieldOfActivity>Historian</fieldOfActivity>
+  <identifier type="citeurn">urn:cite:perseus:author.2121.1</identifier>
     <url displayLabel="VIAF">http://viaf.org/viaf/32386786</url>
     <url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=sosicrates-bio-3</url>
     <identifier type="uri">http://viaf.org/viaf/32386786</identifier>
-    <identifier type="tlg">1687</identifier>
-    
+    <identifier type="tlg">1687</identifier>    
+  <extension>
+    <description>List of related work identifiers</description>
+    <identifier type="tlg">1687.003</identifier>
+  </extension>
   </mads>
