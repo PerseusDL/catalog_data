@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <!--Make sure have both authority and valueURI-->
     <!-- Add in HathiTrust links-->
     <!-- Continue reviewing work names
@@ -2631,7 +2631,81 @@
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Alecstis-Euripides-Garzya-Teubner-1980">
+    <mods displayLabel="Ajax-Sophocles-Lobeck-Weidmann-1866">
+        <titleInfo>
+            <title>Ajax</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/101760867/">
+            <namePart>Sophocles</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/18018430/">
+            <namePart>Lobeck, Christian August</namePart>
+            <namePart type="date">1781-1860</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Berolini</placeTerm>
+            </place>
+            <publisher>apud Weidmannos</publisher>
+            <dateIssued>1866</dateIssued>
+            <edition>Editio tortia</edition>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+        </language>
+        <language objectPart="notes">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>viii, 430 p., 1 l. 22 cm.</extent>
+        </physicalDescription>
+        <note type="additional physical form">Also available in digital form.</note>
+        <subject authority="lcsh">
+            <name type="personal">
+                <namePart>Ajax</namePart>
+                <namePart type="termsOfAddress">(Greek mythological figure)</namePart>
+            </name>
+            <genre>Drama</genre>
+        </subject>
+        <classification authority="lcc">PA4413 .A5 1866</classification>
+        <identifier type="lccn">43020929</identifier>
+        <identifier type="oclc">8274915</identifier>
+        <location>
+            <url displayLabel="Worldcat">http://www.worldcat.org/oclc/8274915</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">http://hdl.loc.gov/loc.gdc/scd0001.00030516758</url>
+        </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="Ajax">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0011.tlg003</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Ajax">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0011.tlg003.1st1K-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg0011.tlg003.1st1K-grc1</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0011/tlg003/tlg0011.tlg003.1st1K-grc1.xml</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods displayLabel="Alcestis-Euripides-Garzya-Teubner-1980">
         <titleInfo>
             <title>Alcestis</title>
         </titleInfo>
