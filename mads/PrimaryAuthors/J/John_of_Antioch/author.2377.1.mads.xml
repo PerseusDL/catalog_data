@@ -1,72 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2377.1</identifier>
-    <authority lang="eng">
-      <name type="personal" authority="naf">
-	        <namePart>John</namePart>
-	        <namePart type="termsOfAddress">of Antioch</namePart>
-	        <namePart type="date">active 7th century</namePart>
-      </name>
-    </authority>
-    <variant type="other" lang="grc">
-      <name type="personal">
-	        <namePart>Ἰωάννης</namePart>
-	        <namePart type="termsOfAddress">Ἀντιοχεύς‏</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="ita">
-      <name type="personal">
-	        <namePart>Giovanni</namePart>
-	        <namePart type="termsOfAddress">di Antiochia</namePart>
-	        <namePart type="date">active 7th century</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="lat">
-      <name type="personal">
-	        <namePart>Ioannes</namePart>
-	        <namePart type="termsOfAddress">Antiochenus</namePart>
-	        <namePart type="date">active 7th century</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="lat">
-      <name type="personal">
-	        <namePart>Joannes</namePart>
-	        <namePart type="termsOfAddress">Antiochenus</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="ger">
-      <name type="personal">
-	        <namePart>Johannes</namePart>
-	        <namePart type="termsOfAddress">von Antiochia</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="lat">
-      <name type="personal">
-	        <namePart>Johannes</namePart>
-	        <namePart type="termsOfAddress">Antiochenus</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="spa">
-      <name type="personal">
-	        <namePart>Juan</namePart>
-	        <namePart type="termsOfAddress">Antioqueno</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="fre">
-      <name type="personal">
-	        <namePart>Jean</namePart>
-	        <namePart type="termsOfAddress">d'Antioche</namePart>
-      </name>
-    </variant>
-    <note type="source">Ioannis Antiocheni Fragmenta ex Historia chronica, c2005: t.p. (Ioannis Antiocheni) p. xi (Giovanni di Antiochia, author of Historia chronica, a world history extending from Adam to the accession to the throne of the Byzantine Emperor Heraclius in 610 A.D., Ioannes presumably completed the Historia chronica between 610 and 626 A.D.) p. xiii (not the same as John Malalas)</note>
-    <note type="source">Oxford dictionary of Byzantium, 1991 (John of Antioch, not the same as John Malalas; the name has been used to designate two individuals, one of whom is the 7th-century author of a world chronicle from Adam to 610, this author has sometimes been equated with John I, the Jacobite patriarch of Antioch (631-649))</note>
-    <identifier type="lccn">no2006001957</identifier>
-    <identifier type="tlg">4394</identifier>
-    <fieldOfActivity>Historian</fieldOfActivity>
-    <url displayLabel="VIAF">http://viaf.org/viaf/67264121/</url>
-    <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/John_of_Antioch_(chronicler)</url>
-    <extension>
-      <description>List of related work identifiers</description>
-      <identifier type="tlg">4394.003</identifier>
-    </extension>    
-  </mads>
+<mads xmlns="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
+  <authority lang="eng">
+    <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/67264121/">
+      <namePart>John</namePart>
+      <namePart type="termsOfAddress">of Antioch</namePart>
+      <namePart type="date">active 7th century</namePart>
+    </name>
+  </authority>
+  <variant type="other" lang="grc">
+    <name type="personal">
+      <namePart>Ἰωάννης</namePart>
+      <namePart type="termsOfAddress">Ἀντιοχεύς‏</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="ita">
+    <name type="personal">
+      <namePart>Giovanni</namePart>
+      <namePart type="termsOfAddress">di Antiochia</namePart>
+      <namePart type="date">active 7th century</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="lat">
+    <name type="personal">
+      <namePart>Ioannes</namePart>
+      <namePart type="termsOfAddress">Antiochenus</namePart>
+      <namePart type="date">active 7th century</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="lat">
+    <name type="personal">
+      <namePart>Joannes</namePart>
+      <namePart type="termsOfAddress">Antiochenus</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="ger">
+    <name type="personal">
+      <namePart>Johannes</namePart>
+      <namePart type="termsOfAddress">von Antiochia</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="lat">
+    <name type="personal">
+      <namePart>Johannes</namePart>
+      <namePart type="termsOfAddress">Antiochenus</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="spa">
+    <name type="personal">
+      <namePart>Juan</namePart>
+      <namePart type="termsOfAddress">Antioqueno</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="fre">
+    <name type="personal">
+      <namePart>Jean</namePart>
+      <namePart type="termsOfAddress">d'Antioche</namePart>
+    </name>
+  </variant>
+  <note type="source">Ioannis Antiocheni Fragmenta ex Historia chronica, c2005: t.p. (Ioannis Antiocheni) p. xi (Giovanni di Antiochia,
+    author of Historia chronica, a world history extending from Adam to the accession to the throne of the Byzantine Emperor Heraclius
+    in 610 A.D., Ioannes presumably completed the Historia chronica between 610 and 626 A.D.) p. xiii (not the same as John Malalas)</note>
+  <note type="source">Oxford dictionary of Byzantium, 1991 (John of Antioch, not the same as John Malalas; the name has been used 
+    to designate two individuals, one of whom is the 7th-century author of a world chronicle from Adam to 610, this author
+    has sometimes been equated with John I, the Jacobite patriarch of Antioch (631-649))</note>
+  <identifier type="lccn">no2006001957</identifier>
+  <identifier type="tlg">4394</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2377.1</identifier>
+  <fieldOfActivity>Historian</fieldOfActivity>
+  <url displayLabel="VIAF">http://viaf.org/viaf/67264121/</url>
+  <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/John_of_Antioch_(chronicler)</url>
+  <extension>
+    <description>List of related work identifiers</description>
+    <identifier type="tlg">4394.003</identifier>
+  </extension>
+</mads>

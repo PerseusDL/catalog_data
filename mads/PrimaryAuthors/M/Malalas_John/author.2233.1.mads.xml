@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2233.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/" valueURI="ttp://viaf.org/viaf/88969561">
 	        <namePart>Malalas, John</namePart>
 	        <namePart type="date">approximately 491-approximately 578</namePart>
       </name>
@@ -120,7 +120,6 @@
     <variant type="other">
       <name type="personal">
 	        <namePart>Malelas, Joannes</namePart>
-
       </name>
     </variant>
     <note type="nonpublic">Not the same as: John, of Antioch, 7th cent</note>
@@ -135,9 +134,9 @@
     <note type="source">LC manual cat.: (hdg.: Joannes Malalas)</note>
     <identifier type="lccn">n 82225765</identifier>
     <identifier type="tlg">2871</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2233.1</identifier>
     <fieldOfActivity>Historian</fieldOfActivity>
-    <fieldOfActivity>Chronicler</fieldOfActivity>
+    <fieldOfActivity>Chronicler</fieldOfActivity>  
     <url displayLabel="VIAF">http://viaf.org/viaf/88969561/</url>
-    <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/John_Malalas</url>
-    
+    <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/John_Malalas</url>    
   </mads>

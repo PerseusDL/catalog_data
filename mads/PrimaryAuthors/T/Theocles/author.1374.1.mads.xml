@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/59476366/">
       <mads:namePart>Theocles</mads:namePart>
       <mads:namePart type="termsOfAddress">Lyricus</mads:namePart>
       <mads:namePart type="date">4./3. Jh. v. Chr</mads:namePart>
@@ -9,10 +9,10 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x398;&#x3B5;&#x3BF;&#x3BA;&#x3BB;&#x1FC6;&#x3C2;</mads:namePart>
+      <mads:namePart>Θεοκλῆς</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:variant type="other">
+  <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Theokles</mads:namePart>
       <mads:namePart type="termsOfAddress">Lyriker</mads:namePart>
@@ -31,8 +31,8 @@
     </mads:name>
   </mads:variant>
   <mads:note type="history">Ithyphalli</mads:note>
-  <mads:fieldOfActivity>Lyric Poet</mads:fieldOfActivity>
-  
+  <mads:fieldOfActivity>Lyric Poet</mads:fieldOfActivity>  
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/59476366/</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=theocles-bio-2</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1374.1</mads:identifier>
   <mads:identifier type="tlg">0206</mads:identifier>
