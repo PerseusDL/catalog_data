@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/14775071">
       <mads:namePart>Photius</mads:namePart>
       <mads:namePart type="termsOfAddress">I, Saint, Patriarch of Constantinople</mads:namePart>
       <mads:namePart type="date">approximately 820-891</mads:namePart>
@@ -9,7 +9,7 @@
   </mads:authority>
   <mads:related type="equivalent" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x3A6;&#x3CE;&#x3C4;&#x3B9;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart></mads:namePart>
     </mads:name>
   </mads:related>
   <mads:variant type="other" lang="pol">
@@ -58,15 +58,14 @@
   <mads:fieldOfActivity>Lexicographer</mads:fieldOfActivity>
   <mads:fieldOfActivity>Patriarch</mads:fieldOfActivity>
   <mads:fieldOfActivity>Saint</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
+  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Photios_I_of_Constantinople</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n80-125110</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/14775071</mads:url>
   <mads:url displayLabel="ID.gov">http://id.loc.gov/authorities/names/n80125110</mads:url>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
+    <mads:identifier type="tlg">4040.006</mads:identifier>
     <mads:identifier type="tlg">4040.011</mads:identifier>
     <mads:identifier type="tlg">4040.029</mads:identifier>
     <mads:identifier type="tlg">4040.030</mads:identifier>
