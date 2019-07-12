@@ -6,7 +6,7 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority lang="lat">
-      <mads:name type="personal" authority="dnb">
+      <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/22528062">
          <mads:namePart>Hermippus</mads:namePart>
          <mads:namePart type="termsOfAddress">Comicus</mads:namePart>
          <mads:namePart type="date">um 436/435 v. Chr</mads:namePart>
@@ -57,6 +57,11 @@
          <mads:namePart type="date">um 436/435 v. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
+    <mads:variant type="other" lang="fre">
+        <mads:name type="personal">
+            <mads:namePart>Herrmippe</mads:namePart>                
+        </mads:name>
+    </mads:variant>
   <mads:variant type="other" lang="ita">
       <mads:name type="personal">
          <mads:namePart>Ermippo</mads:namePart>
@@ -85,9 +90,11 @@
   <mads:identifier type="uri">http://viaf.org/viaf/22528062</mads:identifier>
   <mads:fieldOfActivity>Comic Poet</mads:fieldOfActivity>
   <mads:fieldOfActivity>Iambic Poet</mads:fieldOfActivity>
-  
-  
-  <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Hermippus</mads:url>
+    <mads:note>Brill's New Pauly: "Hermippus, Writer of Attic Old Comedy, brother of the comedian Myrtilus. Active probably around 440 BC: 
+        a Dionysian victory is attested for 435 BC [1. test. 3], on the epigraphical list of Dionysian victors H. ranks after Pherecrates 
+        and before Aristophanes [1] and Eupolis [1. test. 4], and on the list of Lenaean victors after Cratinus and Pherecrates
+        and before Phrynichus, Myrtilus and Eupolis....."</mads:note>  
+    <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Hermippus</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/22528062/</mads:url>
   <mads:url displayLabel="Smith's Dictionary"/>
   <mads:identifier type="tlg">0252</mads:identifier>

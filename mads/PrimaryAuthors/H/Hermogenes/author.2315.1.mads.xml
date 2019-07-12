@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2315.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads.xsd">
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/27035216">
         <namePart>Hermogenes</namePart>
         <namePart type="date">active 2nd century</namePart>
       </name>
     </authority>
     <variant type="other" lang="grc">
       <name type="personal">
-        <namePart>Ερμογένης ο Ταρσεύς</namePart>
+        <namePart>Ερμογένης</namePart>
+        <namePart type="termsOfAddress">ο Ταρσεύς</namePart>
       </name>
     </variant>   
     <variant type="other" lang="lat">
@@ -98,6 +100,7 @@
         <namePart>Հերմոգենես Տարսոնցի</namePart>
       </name>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2315.1</identifier>
     <note type="source">Smith's Dictionary: "Hermogenes, 6, One of the most celebrated Greek rhetoricians.....</note>
     <fieldOfActivity>Rhetorician</fieldOfActivity>
     <fieldOfActivity>Grammarian</fieldOfActivity>

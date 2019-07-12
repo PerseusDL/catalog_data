@@ -6,7 +6,8 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable">
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+          valueURI="http://viaf.org/viaf/40172901">
          <mads:namePart>Hermippus</mads:namePart>
          <mads:namePart type="termsOfAddress">of Smyrna</mads:namePart>
          <mads:namePart type="date">active 200 B.C</mads:namePart>
@@ -15,8 +16,15 @@
   <mads:variant type="other" lang="grc">
       <mads:name type="personal" authority="Brill">
          <mads:namePart>Ἕρμιππος</mads:namePart>
+          <mads:namePart type="termsOfAddress">ὁ Σμυρναίος</mads:namePart>
       </mads:name>
   </mads:variant>
+    <mads:variant type="other" lang="grc">
+        <mads:name type="personal" authority="Brill">
+            <mads:namePart>Ἕρμιππος</mads:namePart>
+            <mads:namePart type="termsOfAddress">ό Καλλιμάχειος</mads:namePart>
+        </mads:name>
+    </mads:variant>
   <mads:variant type="other" lang="fre">
       <mads:name type="personal" authority="viaf">
          <mads:namePart>Hermippe</mads:namePart>
@@ -60,6 +68,9 @@
          <mads:namePart>Hermipp.</mads:namePart>
       </mads:name>
   </mads:variant>
+    <mads:note type="source">Brill's New Pauly: "H. of Smyrna Greek grammarian and biographer, 3rd cent. BC...
+        Greek grammarian and biographer of the 3rd cent. BC, called ‘the Callimachean’ (ὁ Καλλιμάχειος; ho Kallimácheios, Ath. 2,58f; 5,213f), also
+        ‘the Peripatetic’ (περιπατητικός; peripatētikós)...."</mads:note>
   <mads:note type="source">nuc88-54545: His Hermippos, der Kallimacheer, c1974 (hdg. on DGU rept.:
     Hermippus, of Smyrna, fl. 200 B.C., usage: Hermippos)</mads:note>
   <mads:identifier type="lccn">n 88633827 </mads:identifier>
@@ -68,12 +79,9 @@
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
   <mads:fieldOfActivity>Philosopher</mads:fieldOfActivity>
   <mads:fieldOfActivity>Peripatetic</mads:fieldOfActivity>
-  
-  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Hermippus_of_Smyrna</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n88-633827</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
-  <mads:url displayLabel="VIAF"> http://viaf.org/viaf/40172901</mads:url>
+  <mads:url displayLabel="VIAF">http://viaf.org/viaf/40172901</mads:url>
   <mads:extension>
       <mads:description>List of related work identifiers</mads:description>
       <mads:identifier type="tlg">1421.001</mads:identifier>
