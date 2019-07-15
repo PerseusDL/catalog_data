@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <!--Make sure have both authority and valueURI-->
     <!-- Add in HathiTrust links-->
     <!-- Continue reviewing work names
@@ -4741,7 +4741,7 @@
         </relatedItem>
     </mods>
     <mods
-        displayLabel="Anonymi in Aristotelis Categorias paraphrasis-Anonymous-CAG  23.2-Hayduck-1886">
+        displayLabel="Anonymi in Aristotelis Categorias paraphrasis-Anonymous-CAG 23.2-Hayduck-1886">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Anonymi in Aristotelis Categorias paraphrasis</title>
         </titleInfo>
@@ -4753,8 +4753,19 @@
         <titleInfo type="abbreviated" authority="lsj">
             <title>Anon. in. Cat.</title>
         </titleInfo>
-        <identifier type="oclc">60440706</identifier>
-        <identifier displayLabel="isCommentaryOn" type="tlg">0086.006</identifier>
+        <name authority="tlg" type="corporate">
+            <namePart>Anonymi in Aristotelis</namePart>
+            <role>
+                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/121668/">
+            <namePart>Hayduck, Michael</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -4769,13 +4780,18 @@
         </originInfo>
         <physicalDescription>
             <form authority="marcform">print</form>
-            <extent> IV, 85 S.</extent>
+            <extent>IV, 85 S.</extent>
         </physicalDescription>
         <classification authority="lcc">PA3902 A25</classification>
-        <classification authority="ddc"/>
-        <location>
-            <url displayLabel="LC Permalink"/>
-        </location>
+        <language objectPart="notes">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <identifier type="oclc">60440706</identifier>
+        <!-- 
+        <identifier displayLabel="isCommentaryOn" type="tlg">0086.006</identifier>       -->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/60440706</url>
         </location>
@@ -4787,61 +4803,19 @@
             <url displayLabel="GoogleBooks"
                 >http://books.google.com/books?id=CTYNAAAAYAAJ&amp;pg=PA177</url>
         </location>
+        <location>
+            <url displayLabel="HathiTrust"
+                >https://hdl.handle.net/2027/nyp.33433081630877?urlappend=%3Bseq=192</url>
+        </location>
         <relatedItem type="series">
             <titleInfo>
                 <title>Commentaria in Aristotelem graeca</title>
                 <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
                     borussicae</subTitle>
                 <partNumber>Volume 23</partNumber>
-                <partNumber>Pars 2</partNumber>
+                <partNumber>Part 2</partNumber>
             </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1883</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="notes">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <name authority="tlg" type="corporate">
-            <namePart>Anonymi in Aristotelis</namePart>
-            <role>
-                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/121668/">
-            <namePart>Hayduck, Michael</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
             <temporal>384-322 B.C.</temporal>
@@ -4850,12 +4824,19 @@
         <subject authority="lcsh">
             <topic>Aristoteles</topic>
         </subject>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Anonymi in Aristotelis Categorias paraphrasis">
+        <relatedItem type="constituent" otherType="work" displayLabel="Paraphrasis categoriarum">
             <identifier type="ctsurn">urn:cts:greekLit:tlg4027.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="Anonymi in Aristotelis Categorias paraphrasis">
+                displayLabel="Paraphrasis categoriarum">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg4027.tlg001.opp-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg4027.tlg001.opp-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg4027/tlg001/tlg4027.tlg001.opp-grc1.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -6578,8 +6559,8 @@ but this is where the TLG has left off for numbering-->
         </physicalDescription>
         <classification authority="lcc">PA3902 A25</classification>
         <identifier type="oclc">222433766</identifier>
-        <!-- NOT SURE HOW WANT TO HANDLE THESE IDS -->
-        <identifier displayLabel="isCommentaryOn" type="tlg">0086.001</identifier>
+        <!-- 
+        <identifier displayLabel="isCommentaryOn" type="tlg">0086.001</identifier> -->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/222433766</url>
         </location>
@@ -6590,38 +6571,17 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=YDINAAAAYAAJ</url>
         </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/nyp.33433081630653</url>
+        </location>
         <relatedItem type="series">
             <titleInfo>
                 <title>Commentaria in Aristotelem graeca</title>
                 <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
                     borussicae</subTitle>
                 <partNumber>Volume 5</partNumber>
-                <partName>Pars I</partName>
+                <partName>Part 1</partName>
             </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1900</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
         <language objectPart="preface">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
@@ -44202,40 +44162,9 @@ but this is where the TLG has left off for numbering-->
                 <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
                     borussicae</subTitle>
                 <partNumber>Volume 23</partNumber>
-                <partName>Pars III</partName>
+                <partName>Part 3</partName>
             </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1900</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="preface">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
-
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
             <temporal>384-322 B.C.</temporal>
@@ -44317,7 +44246,8 @@ but this is where the TLG has left off for numbering-->
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
         <identifier type="oclc">222433747</identifier>
-        <identifier displayLabel="isCommentaryOn" type="tlg">0086.001</identifier>
+        <!-- 
+        <identifier displayLabel="isCommentaryOn" type="tlg">0086.001</identifier> -->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/222433757</url>
         </location>
@@ -44331,38 +44261,8 @@ but this is where the TLG has left off for numbering-->
                 <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
                     borussicae</subTitle>
                 <partNumber>Volume 4</partNumber>
-                <partNumber>Pars VI</partNumber>
+                <partNumber>Part 6</partNumber>
             </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1899</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="notes">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
         <subject authority="lcsh">
             <topic>Aristotle</topic>
@@ -44444,13 +44344,20 @@ but this is where the TLG has left off for numbering-->
             <form authority="marcform">print</form>
             <extent>XXXVII, 493 p. : ill. ; 25 cm.</extent>
         </physicalDescription>
+        <language objectPart="notes">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
         <identifier type="oclc">63485832</identifier>
-        <identifier displayLabel="isCommentaryOn" type="tlg">0086.001</identifier>
+        <!-- 
+        <identifier displayLabel="isCommentaryOn" type="tlg">0086.001</identifier> -->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/63485832</url>
         </location>
         <location>
-            <url displayLabel="HathiTrust"> https://hdl.handle.net/2027/uc1.31822025606740 </url>
+            <url displayLabel="HathiTrust"> https://hdl.handle.net/2027/uc1.31822025606740</url>
         </location>
         <location>
             <url displayLabel="Open Content Alliance"
@@ -44465,42 +44372,9 @@ but this is where the TLG has left off for numbering-->
                 <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
                     borussicae</subTitle>
                 <partNumber>Volume 13</partNumber>
-                <partName>Pars II</partName>
+                <partName>Part 2</partName>
             </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1905</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="notes">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
             <temporal>384-322 B.C.</temporal>
@@ -44526,7 +44400,6 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <!-- LEFT OFF HERE -->
     <mods
         displayLabel="In Aristotelis Analytica Posteriora commentaria-Philoponus-Wallies-CAG 13.3-1909">
         <titleInfo xml:lang="lat" type="uniform">
@@ -44590,44 +44463,17 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=WVXz4XvXNv8C</url>
         </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/nyp.33433089903938</url>
+        </location>
         <relatedItem type="series">
             <titleInfo>
                 <title>Commentaria in Aristotelem graeca</title>
                 <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
                     borussicae</subTitle>
                 <partNumber>Volume 13</partNumber>
-                <partName>Pars III</partName>
+                <partName>Pars 3</partName>
             </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1909</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="notes">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
@@ -44705,7 +44551,9 @@ but this is where the TLG has left off for numbering-->
         </physicalDescription>
         <classification authority="lcc">PA3902 A25</classification>
         <identifier type="oclc">213497530</identifier>
+        <!-- 
         <identifier displayLabel="isCommentaryOn" type="tlg">0086.006</identifier>
+         -->
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
             <temporal>384-322 B.C.</temporal>
@@ -44735,38 +44583,8 @@ but this is where the TLG has left off for numbering-->
                 <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
                     borussicae</subTitle>
                 <partNumber>Volume 4</partNumber>
-                <partNumber>Pars II</partNumber>
+                <partNumber>Part 2</partNumber>
             </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1888</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="preface">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="in Aristotelis Categorias commentarium">
@@ -44797,8 +44615,21 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated" authority="lsj">
             <title>Ammon. in Cat.</title>
         </titleInfo>
-        <identifier type="oclc">11994843</identifier>
-        <identifier displayLabel="isCommentaryOn" type="tlg">0086.006</identifier>
+        <name authority="viaf" authorityURI="https://viaf.org/viaf/" type="personal"
+            valueURI="https://viaf.org/viaf/283087561/">
+            <namePart>Ammonius,</namePart>
+            <namePart type="termsOfAddress">Hermiae</namePart>
+            <role>
+                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/98427196/">
+            <namePart>Busse, Adolf</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -44816,10 +44647,9 @@ but this is where the TLG has left off for numbering-->
             <extent>143 p. 24 cm.</extent>
         </physicalDescription>
         <classification authority="lcc">PA3902 A25</classification>
-        <classification authority="ddc"/>
-        <location>
-            <url displayLabel="LC Permalink"/>
-        </location>
+        <identifier type="oclc">11994843</identifier>
+        <!-- 
+        <identifier displayLabel="isCommentaryOn" type="tlg">0086.006</identifier> -->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/11994843</url>
         </location>
@@ -44833,63 +44663,24 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/nyp.33433081630612</url>
         </location>
+        <language objectPart="notes">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
         <relatedItem type="series">
             <titleInfo>
                 <title>Commentaria in Aristotelem graeca</title>
                 <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
                     borussicae</subTitle>
                 <partNumber>Volume 4</partNumber>
-                <partNumber>Pars IV</partNumber>
+                <partNumber>Part 4</partNumber>
             </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1895</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="preface">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
-        <name authority="viaf" authorityURI="https://viaf.org/viaf/" type="personal"
-            valueURI="https://viaf.org/viaf/283087561/">
-            <namePart>Ammonius,</namePart>
-            <namePart type="termsOfAddress">Hermiae</namePart>
-            <role>
-                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/98427196/">
-            <namePart>Busse, Adolf</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Aristotle</topic>
             <topic>Commentaries</topic>
@@ -44905,8 +44696,21 @@ but this is where the TLG has left off for numbering-->
                 displayLabel="in Aristotelis Categorias commentarius">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg4016.tlg002.opp-grc1</identifier>
             </relatedItem>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="in Aristotelis Categorias commentarius">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg4016.tlg002.opp-grc2</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg4016.tlg002.opp-grc2/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg4016/tlg002/tlg4016.tlg002.opp-grc2.xml</url>
+                </location>
+            </relatedItem>
         </relatedItem>
     </mods>
+    <!-- LEFT OFF HERE -->
     <mods
         displayLabel="In Aristotelis Categorias Commentarium-Philoponus-CAG 13.1-Busse-Reimer-1898">
         <titleInfo xml:lang="eng" type="uniform">
@@ -44975,44 +44779,17 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=XjgNAAAAYAAJ</url>
         </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/nyp.33433081630711</url>
+        </location>
         <relatedItem type="series">
             <titleInfo>
                 <title>Commentaria in Aristotelem graeca</title>
                 <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
                     borussicae</subTitle>
                 <partNumber>Volume 13</partNumber>
-                <partName>Pars I</partName>
+                <partName>Part 1</partName>
             </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1898</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="preface">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
@@ -45023,10 +44800,10 @@ but this is where the TLG has left off for numbering-->
             <topic>Aristoteles</topic>
         </subject>
         <relatedItem type="constituent" otherType="work"
-            displayLabel="Philoponi (olim Ammonii) in Aristotelis Categorias commentarium">
+            displayLabel="In Aristotelis Categorias commentarium">
             <identifier type="ctsurn">urn:cts:greekLit:tlg4015.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="Philoponi (olim Ammonii) in Aristotelis Categorias commentarium">
+                displayLabel="In Aristotelis Categorias commentarium">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg4015.tlg001.opp-grc1</identifier>
                 <location>
                     <url displayLabel="First1KGreek"
@@ -45210,7 +44987,8 @@ but this is where the TLG has left off for numbering-->
         </physicalDescription>
         <classification authority="lcc">PA3902 A25</classification>
         <identifier type="oclc">222433784</identifier>
-        <identifier displayLabel="isCommentaryOn" type="tlg">0086.002</identifier>
+        <!-- 
+        <identifier displayLabel="isCommentaryOn" type="tlg">0086.002</identifier> -->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/222433784</url>
         </location>
@@ -45221,44 +44999,17 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=gjINAAAAYAAJ</url>
         </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/nyp.33433081630687</url>
+        </location>
         <relatedItem type="series">
             <titleInfo>
                 <title>Commentaria in Aristotelem graeca</title>
                 <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
                     borussicae</subTitle>
                 <partNumber>Volume 5</partNumber>
-                <partName>Pars III</partName>
+                <partName>Part 3</partName>
             </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1899</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="preface">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
@@ -45300,7 +45051,20 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated" authority="lsj">
             <title>Soph. in de An.</title>
         </titleInfo>
-        <identifier displayLabel="isCommentaryOn" type="tlg">0086.002</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/79147450/">
+            <namePart>Sophonias</namePart>
+            <role>
+                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/121668/">
+            <namePart>Hayduck, Michael</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -45318,6 +45082,14 @@ but this is where the TLG has left off for numbering-->
             <extent>viii, 171p.</extent>
         </physicalDescription>
         <classification authority="lcc">PA3902 A25</classification>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <language objectPart="notes">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <!--  <identifier displayLabel="isCommentaryOn" type="tlg">0086.002</identifier>
+        -->
         <identifier type="oclc">222434050</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/222434050</url>
@@ -45326,9 +45098,11 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/stream/commentariainari23akaduoft#page/n7/mode/2up</url>
         </location>
-
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=CTYNAAAAYAAJ</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/nyp.33433081630877</url>
         </location>
         <relatedItem type="series">
             <titleInfo>
@@ -45336,56 +45110,9 @@ but this is where the TLG has left off for numbering-->
                 <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
                     borussicae</subTitle>
                 <partNumber>Volume 23</partNumber>
-                <partNumber>Pars I</partNumber>
+                <partNumber>Part 1</partNumber>
             </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1883</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="preface">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/79147450/">
-            <namePart>Sophonias</namePart>
-            <role>
-                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/121668/">
-            <namePart>Hayduck, Michael</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
             <temporal>384-322 B.C.</temporal>
@@ -45394,13 +45121,20 @@ but this is where the TLG has left off for numbering-->
         <subject authority="lcsh">
             <topic>Aristoteles</topic>
         </subject>
-
         <relatedItem type="constituent" otherType="work"
             displayLabel="in libros Aristotelis de Anima paraphrasis">
             <identifier type="ctsurn">urn:cts:greekLit:tlg4030.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="in libros Aristotelis de Anima paraphrasis">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg4030.tlg001.opp-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg4030.tlg001.opp-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg4030/tlg001/tlg4030.tlg001.opp-grc1.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -45422,8 +45156,21 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated" authority="lsj">
             <title>Phlp. in de An.</title>
         </titleInfo>
-        <identifier type="oclc">301525992</identifier>
-        <identifier displayLabel="isCommentaryOn" type="tlg">0086.002</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/1276154329449426970002/">
+            <namePart>Philoponus, John</namePart>
+            <namePart type="date">6th cent</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/121668/">
+            <namePart>Hayduck, Michael</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -45440,8 +45187,15 @@ but this is where the TLG has left off for numbering-->
             <form authority="marcform">print</form>
             <extent>xix, 670 pg. 26 cm.</extent>
         </physicalDescription>
-        <classification authority="lcc"/>
-        <classification authority="ddc"/>
+        <language objectPart="preface">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <identifier type="oclc">301525992</identifier>
+        <!-- 
+        <identifier displayLabel="isCommentaryOn" type="tlg">0086.002</identifier> -->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/301525992</url>
         </location>
@@ -45452,62 +45206,17 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=LTYNAAAAYAAJ</url>
         </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/nyp.33433081630802</url>
+        </location>
         <relatedItem type="series">
             <titleInfo>
                 <title>Commentaria in Aristotelem graeca</title>
                 <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
                     borussicae</subTitle>
-                <partNumber>Volume XV</partNumber>
+                <partNumber>Volume 15</partNumber>
             </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1897</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="preface">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/1276154329449426970002/">
-            <namePart>Philoponus, John</namePart>
-            <namePart type="date">6th cent</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/121668/">
-            <namePart>Hayduck, Michael</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
             <temporal>384-322 B.C.</temporal>
@@ -45526,6 +45235,15 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="in Aristotelis de Anima libros commentaria">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg4015.tlg008.opp-grc1</identifier>
+
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg4015.tlg008.opp-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg4015/tlg008/tlg4015.tlg008.opp-grc1.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -45541,8 +45259,21 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated" authority="lsj">
             <title>Ammon. in. Int.</title>
         </titleInfo>
-        <identifier type="oclc">222433747</identifier>
-        <identifier displayLabel="isCommentaryOn" type="tlg">0086.017</identifier>
+        <name authority="viaf" authorityURI="https://viaf.org/viaf/" type="personal"
+            valueURI="https://viaf.org/viaf/283087561/">
+            <namePart>Ammonius,</namePart>
+            <namePart type="termsOfAddress">Hermiae</namePart>
+            <role>
+                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/98427196/">
+            <namePart>Busse, Adolf</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -45555,12 +45286,20 @@ but this is where the TLG has left off for numbering-->
             <dateIssued>1897</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
+        <language objectPart="preface">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
         <physicalDescription>
             <form authority="marcform">print</form>
             <extent>liv, [2] 316 p., 2 l. 25 cm.</extent>
         </physicalDescription>
         <classification authority="lcc">PA3902 A25</classification>
-        <classification authority="ddc"/>
+        <identifier type="oclc">222433747</identifier>
+        <!-- <identifier displayLabel="isCommentaryOn" type="tlg">0086.017</identifier>
+         -->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/222433747</url>
         </location>
@@ -45580,57 +45319,9 @@ but this is where the TLG has left off for numbering-->
                 <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
                     borussicae</subTitle>
                 <partNumber>Volume 4</partNumber>
-                <partNumber>Pars V</partNumber>
+                <partNumber>Part 5</partNumber>
             </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1895</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="preface">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <name authority="viaf" authorityURI="https://viaf.org/viaf/" type="personal"
-            valueURI="https://viaf.org/viaf/283087561/">
-            <namePart>Ammonius,</namePart>
-            <namePart type="termsOfAddress">Hermiae</namePart>
-            <role>
-                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/98427196/">
-            <namePart>Busse, Adolf</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Aristotle</topic>
             <topic>Commentaries</topic>
@@ -45643,8 +45334,19 @@ but this is where the TLG has left off for numbering-->
             displayLabel="in Aristotelis de Interpretatione commentarius">
             <identifier type="ctsurn">urn:cts:greekLit:tlg4016.tlg003</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="in Aristotelis de Interpretatione commentarius">
+                displayLabel="in Aristotelis Librum de Interpretatione commentarius">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg4016.tlg003.opp-grc1</identifier>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg4016.tlg003.opp-grc2</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg4016.tlg003.opp-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg4016/tlg003/tlg4016.tlg003.opp-grc1.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -45669,81 +45371,6 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated" authority="lsj">
             <title>Phlp. in GC</title>
         </titleInfo>
-        <identifier type="oclc">17522360</identifier>
-        <identifier displayLabel="isCommentaryOn" type="tlg">0086.013</identifier>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">gw</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Berlin</placeTerm>
-            </place>
-            <publisher>Typ. et impensis G. Reimeri</publisher>
-            <dateIssued>1897</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>x, 356 p.</extent>
-        </physicalDescription>
-        <classification authority="lcc"/>
-        <classification authority="ddc"/>
-        <location>
-            <url displayLabel="LC Permalink"/>
-        </location>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/17522360</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance"
-                >http://www.archive.org/stream/commentariaina14pt13akaduoft#page/n171/mode/2up</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks">http://books.google.com/books?id=KjgNAAAAYAAJ</url>
-        </location>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Commentaria in Aristotelem graeca</title>
-                <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
-                    borussicae</subTitle>
-                <partNumber>Volume 14</partNumber>
-                <partName>Pars II</partName>
-            </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1897</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="preface">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
-        </relatedItem>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/1276154329449426970002/">
             <namePart>Philoponus, John</namePart>
@@ -45761,6 +45388,53 @@ but this is where the TLG has left off for numbering-->
             </role>
             <displayForm>Hieronymus Vitelli</displayForm>
         </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Berlin</placeTerm>
+            </place>
+            <publisher>Typ. et impensis G. Reimeri</publisher>
+            <dateIssued>1897</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>x, 356 p.</extent>
+        </physicalDescription>
+        <identifier type="oclc">17522360</identifier>
+        <language objectPart="preface">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <!-- 
+        <identifier displayLabel="isCommentaryOn" type="tlg">0086.013</identifier>      -->
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/17522360</url>
+        </location>
+        <location>
+            <url displayLabel="Open Content Alliance"
+                >http://www.archive.org/stream/commentariaina14pt13akaduoft#page/n171/mode/2up</url>
+        </location>
+        <location>
+            <url displayLabel="GoogleBooks">http://books.google.com/books?id=KjgNAAAAYAAJ</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/nyp.33433081630778</url>
+        </location>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Commentaria in Aristotelem graeca</title>
+                <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
+                    borussicae</subTitle>
+                <partNumber>Volume 14</partNumber>
+                <partName>Part 2</partName>
+            </titleInfo>
+        </relatedItem>
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
             <temporal>384-322 B.C.</temporal>
@@ -45775,10 +45449,17 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="in Aristotelis libros de Generatione et Corruptione commentaria">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg4015.tlg006.opp-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg4015.tlg006.opp-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg4015/tlg006/tlg4015.tlg006.opp-grc1.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
-
     <mods
         displayLabel="In Aristotelis Metaphysicorum libros A‑Z commentaria-Asclepius of Tralles-CAG 6.2-Hayduck-1888">
         <titleInfo xml:lang="lat" type="uniform">
@@ -45795,8 +45476,21 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated" authority="lsj">
             <title>Ascl. in Metaph.</title>
         </titleInfo>
-        <identifier type="oclc">60440686</identifier>
-        <identifier displayLabel="isCommentaryOn" type="tlg">0086.025</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/263973857/">
+            <namePart>Asclepius,</namePart>
+            <namePart type="termsOfAddress">of Tralles</namePart>
+            <role>
+                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/121668/">
+            <namePart>Hayduck, Michael</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -45813,7 +45507,16 @@ but this is where the TLG has left off for numbering-->
             <form authority="marcform">print</form>
             <extent>VII, 505 S.</extent>
         </physicalDescription>
+        <language objectPart="preface">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
         <classification authority="lcc">PA3902 A25</classification>
+        <identifier type="oclc">60440686</identifier>
+        <!-- <identifier displayLabel="isCommentaryOn" type="tlg">0086.025</identifier>
+        -->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/60440686</url>
         </location>
@@ -45831,57 +45534,9 @@ but this is where the TLG has left off for numbering-->
                 <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
                     borussicae</subTitle>
                 <partNumber>Volume 6</partNumber>
-                <partNumber>Pars 2</partNumber>
+                <partNumber>Part 2</partNumber>
             </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1888</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="preface">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/263973857/">
-            <namePart>Asclepius,</namePart>
-            <namePart type="termsOfAddress">of Tralles</namePart>
-            <role>
-                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/121668/">
-            <namePart>Hayduck, Michael</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
             <temporal>384-322 B.C.</temporal>
@@ -45896,6 +45551,19 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="In Aristotelis metaphysicorum libros A‑Z commentaria">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg4018.tlg001.opp-grc1</identifier>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="In Aristotelis metaphysicorum libros A‑Z commentaria">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg4018.tlg001.opp-grc2</identifier>
+
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg4018.tlg001.opp-grc2/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg4018/tlg001/tlg4018.tlg001.opp-grc2.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -45912,81 +45580,6 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated" authority="lsj">
             <title>Alex.Aphr. in Metaph</title>
         </titleInfo>
-        <identifier type="oclc">225248361</identifier>
-        <identifier displayLabel="isCommentaryOn" type="tlg">0086.025</identifier>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">gw</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Berlin</placeTerm>
-            </place>
-            <publisher>typ. et impensis G. Reimeri</publisher>
-            <dateIssued>1891</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>xiii, 919 pg. </extent>
-        </physicalDescription>
-        <classification authority="lcc">PA3902 A25</classification>
-        <classification authority="ddc"/>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/225248361</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance"
-                >http://www.archive.org/details/commentariaina01akaduoft</url>
-        </location>
-
-        <location>
-            <url displayLabel="GoogleBooks">http://books.google.com/books?id=FGhKAAAAYAAJ</url>
-        </location>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/nyp.33433081630570</url>
-        </location>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Commentaria in Aristotelem graeca</title>
-                <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
-                    borussicae</subTitle>
-                <partNumber>Volume 1</partNumber>
-            </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1891</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="preface">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
-        </relatedItem>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/95239377/">
             <namePart>Alexander,</namePart>
@@ -46002,6 +45595,53 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Berlin</placeTerm>
+            </place>
+            <publisher>typ. et impensis G. Reimeri</publisher>
+            <dateIssued>1891</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language objectPart="preface">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>xiii, 919 pg.</extent>
+        </physicalDescription>
+        <classification authority="lcc">PA3902 A25</classification>
+        <identifier type="oclc">225248361</identifier>
+        <!-- 
+        <identifier displayLabel="isCommentaryOn" type="tlg">0086.025</identifier> -->
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/225248361</url>
+        </location>
+        <location>
+            <url displayLabel="Open Content Alliance"
+                >http://www.archive.org/details/commentariaina01akaduoft</url>
+        </location>
+        <location>
+            <url displayLabel="GoogleBooks">http://books.google.com/books?id=FGhKAAAAYAAJ</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/nyp.33433081630570</url>
+        </location>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Commentaria in Aristotelem graeca</title>
+                <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
+                    borussicae</subTitle>
+                <partNumber>Volume 1</partNumber>
+            </titleInfo>
+        </relatedItem>
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
             <temporal>384-322 B.C.</temporal>
@@ -46019,6 +45659,14 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="in Aristotelis Metaphysica commentaria">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0732.tlg004.opp-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg0732.tlg004.opp-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0732/tlg004/tlg0732.tlg004.opp-grc1.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -46039,8 +45687,21 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated" authority="lsj">
             <title>Phlp. in Mete.</title>
         </titleInfo>
-        <identifier type="oclc">309968226</identifier>
-        <identifier displayLabel="isCommentaryOn" type="tlg">0086.026</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/1276154329449426970002/">
+            <namePart>Philoponus, John</namePart>
+            <namePart type="date">6th cent</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/121668/">
+            <namePart>Hayduck, Michael</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -46057,11 +45718,14 @@ but this is where the TLG has left off for numbering-->
             <form authority="marcform">print</form>
             <extent>VIII, 154 S.</extent>
         </physicalDescription>
-        <classification authority="lcc"/>
-        <classification authority="ddc"/>
-        <location>
-            <url displayLabel="LC Permalink"/>
-        </location>
+        <identifier type="oclc">309968226</identifier>
+        <language objectPart="preface">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <!--   <identifier displayLabel="isCommentaryOn" type="tlg">0086.026</identifier> -->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/309968226</url>
         </location>
@@ -46069,9 +45733,11 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/stream/commentariaina14pt13akaduoft#page/n5/mode/2up</url>
         </location>
-
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=vjgNAAAAYAAJ</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/nyp.33433081630703</url>
         </location>
         <relatedItem type="series">
             <titleInfo>
@@ -46079,57 +45745,9 @@ but this is where the TLG has left off for numbering-->
                 <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
                     borussicae</subTitle>
                 <partNumber>Volume 14</partNumber>
-                <partName>Pars I</partName>
+                <partName>Part 1</partName>
             </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1901</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="preface">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/1276154329449426970002/">
-            <namePart>Philoponus, John</namePart>
-            <namePart type="date">6th cent</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/121668/">
-            <namePart>Hayduck, Michael</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
             <temporal>384-322 B.C.</temporal>
@@ -46139,11 +45757,20 @@ but this is where the TLG has left off for numbering-->
             <topic>Aristoteles</topic>
         </subject>
         <relatedItem type="constituent" otherType="work"
-            displayLabel="in Aristotetelis Meteorologicorum librum primum commentarium">
+            displayLabel="in Aristotelis Meteorologicorum librum primum commentarium">
             <identifier type="ctsurn">urn:cts:greekLit:tlg4015.tlg005</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="in Aristotetelis Meteorologicorum librum primum commentarium">
+                displayLabel="in Aristotelis Meteorologicorum librum primum commentarium">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg4015.tlg005.opp-grc1</identifier>
+
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg4015.tlg005.opp-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg4015/tlg005/tlg4015.tlg005.opp-grc1.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -46199,7 +45826,8 @@ but this is where the TLG has left off for numbering-->
         </language>
         <classification authority="lcc">PA3902 A25</classification>
         <identifier type="oclc">60440674</identifier>
-        <identifier displayLabel="isCommentaryOn" type="tlg">0086.026</identifier>
+        <!-- 
+        <identifier displayLabel="isCommentaryOn" type="tlg">0086.026</identifier> -->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/60440674</url>
         </location>
@@ -46219,38 +45847,8 @@ but this is where the TLG has left off for numbering-->
                 <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
                     borussicae</subTitle>
                 <partNumber>Volume 3</partNumber>
-                <partNumber>Pars II</partNumber>
+                <partNumber>Part 2</partNumber>
             </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1899</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="preface">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
@@ -46280,7 +45878,6 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-
     <mods displayLabel="In Aristotelis Physicorum Libros Commentaria-Simplicius-CAG 9-10-Diels">
         <titleInfo type="uniform" lang="lat">
             <title>In Aristotelis physicorum libros commentaria</title>
@@ -46334,34 +45931,6 @@ but this is where the TLG has left off for numbering-->
                 <title>Commentaria in Aristotelem graeca</title>
                 <partNumber>Volume 9-10</partNumber>
             </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1882</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="preface">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/7832122</url>
@@ -46470,12 +46039,26 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/77055287</url>
         </location>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Commentaria in Aristotelem graeca</title>
+                <partNumber>Volume 16-17</partNumber>
+            </titleInfo>
+        </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="in Aristotelis Physica commentaria">
             <identifier type="ctsurn">urn:cts:greekLit:tlg4015.tlg009</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="in Aristotelis Physica commentaria">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg4015.tlg009.opp-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg4015.tlg009.opp-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg4015/tlg009/tlg4015.tlg009.opp-grc1.xml</url>
+                </location>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part type="volume">
                         <detail type="volume">
@@ -46583,7 +46166,8 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="notes">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <identifier displayLabel="isCommentaryOn" type="tlg">0086.032</identifier>
+        <!-- 
+        <identifier displayLabel="isCommentaryOn" type="tlg">0086.032</identifier> -->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/222433777</url>
         </location>
@@ -46594,46 +46178,18 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=KzUNAAAAYAAJ</url>
         </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/nyp.33433081630679</url>
+        </location>
         <relatedItem type="series">
             <titleInfo>
                 <title>Commentaria in Aristotelem graeca</title>
                 <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
                     borussicae</subTitle>
                 <partNumber>Volume 5</partNumber>
-                <partName>Pars II</partName>
+                <partName>Part 2 </partName>
             </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1900</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="preface">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
-
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
             <temporal>384-322 B.C.</temporal>
@@ -46725,6 +46281,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=zzMNAAAAYAAJ</url>
         </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/nyp.33433081630695</url>
+        </location>
         <relatedItem type="series">
             <titleInfo>
                 <title>Commentaria in Aristotelem graeca</title>
@@ -46732,34 +46291,6 @@ but this is where the TLG has left off for numbering-->
                     borussicae</subTitle>
                 <partNumber>Volume 7</partNumber>
             </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1894</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="preface">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
         <relatedItem type="constituent" otherType="work"
             displayLabel="In Aristotelis quattuor libros de caelo commentaria">
@@ -46791,8 +46322,19 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated" authority="lsj">
             <title>Anon. in SE.</title>
         </titleInfo>
-        <identifier type="oclc">60440706</identifier>
-        <identifier displayLabel="isCommentaryOn" type="tlg">0086.040</identifier>
+        <name authority="tlg" type="corporate">
+            <namePart>Anonymi in Aristotelis</namePart>
+            <role>
+                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/121668/">
+            <namePart>Hayduck, Michael</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -46809,7 +46351,16 @@ but this is where the TLG has left off for numbering-->
             <form authority="marcform">print</form>
             <extent>1 p. l., [v]-vi p., 1 l., 84 p. 25 cm.</extent>
         </physicalDescription>
+        <language objectPart="preface">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
         <classification authority="lcc">PA3902 A25</classification>
+        <identifier type="oclc">18613914</identifier>
+        <!-- 
+        <identifier displayLabel="isCommentaryOn" type="tlg">0086.040</identifier> -->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/18613914</url>
         </location>
@@ -46826,55 +46377,9 @@ but this is where the TLG has left off for numbering-->
                 <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
                     borussicae</subTitle>
                 <partNumber>Volume 23</partNumber>
-                <partNumber>Pars IV</partNumber>
+                <partNumber>Part 4</partNumber>
             </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1884</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="preface">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <name authority="tlg" type="corporate">
-            <namePart>Anonymi in Aristotelis</namePart>
-            <role>
-                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/121668/">
-            <namePart>Hayduck, Michael</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
             <temporal>384-322 B.C.</temporal>
@@ -46883,13 +46388,21 @@ but this is where the TLG has left off for numbering-->
         <subject authority="lcsh">
             <topic>Aristoteles</topic>
         </subject>
-
         <relatedItem type="constituent" otherType="work"
             displayLabel="In Aristotelis sophisticos elenchos paraphrasis">
             <identifier type="ctsurn">urn:cts:greekLit:tlg4193.tlg012</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="In Aristotelis sophisticos elenchos paraphrasis">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg4193.tlg012.opp-grc1</identifier>
+
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg4193.tlg012.opp-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg4193/tlg012/tlg4193.tlg012.opp-grc1.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -46905,8 +46418,21 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated" authority="lsj">
             <title>Alex.Aphr. in Top</title>
         </titleInfo>
-        <identifier type="oclc">225248361</identifier>
-        <identifier displayLabel="isCommentaryOn" type="tlg">0086.044</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/95239377/">
+            <namePart>Alexander,</namePart>
+            <namePart type="termsOfAddress">of Aphrodisias</namePart>
+            <role>
+                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/5048928/">
+            <namePart>Wallies, Maximilian</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -46924,7 +46450,14 @@ but this is where the TLG has left off for numbering-->
             <extent>L p., 1 l., 712 p. 26 cm.</extent>
         </physicalDescription>
         <classification authority="lcc">PA3902 A25</classification>
-        <classification authority="ddc"/>
+        <language objectPart="preface">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <identifier type="oclc">225248361</identifier>
+        <!--         <identifier displayLabel="isCommentaryOn" type="tlg">0086.044</identifier> -->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/222433697</url>
         </location>
@@ -46945,57 +46478,9 @@ but this is where the TLG has left off for numbering-->
                 <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
                     borussicae</subTitle>
                 <partNumber>Volume 2</partNumber>
-                <partNumber>Pars II</partNumber>
+                <partNumber>Part 2</partNumber>
             </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1891</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="preface">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/95239377/">
-            <namePart>Alexander,</namePart>
-            <namePart type="termsOfAddress">of Aphrodisias</namePart>
-            <role>
-                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/5048928/">
-            <namePart>Wallies, Maximilian</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
             <temporal>384-322 B.C.</temporal>
@@ -47010,6 +46495,14 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="in Aristotelis Topicorum libros octo commentaria">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0732.tlg006.opp-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg0732.tlg006.opp-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0732/tlg006/tlg0732.tlg006.opp-grc1.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -47348,78 +46841,6 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated" authority="lsj">
             <title>Heliod. in EN.</title>
         </titleInfo>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">gw</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Berlin</placeTerm>
-            </place>
-            <publisher>typ. et impensis G. Reimeri</publisher>
-            <dateIssued>1889</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>VIII, 246 S.</extent>
-        </physicalDescription>
-        <classification authority="lcc">PA3902 A25</classification>
-        <identifier type="oclc">60440702</identifier>
-        <identifier displayLabel="isCommentaryOn" type="tlg">0086.010</identifier>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/60440702</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance"
-                >http://archive.org/stream/commentariaina19pt12akaduoft#page/n267/mode/2up</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks"
-                >http://books.google.com/books?id=ve9oAAAAMAAJ&amp;pg=PA249</url>
-        </location>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Commentaria in Aristotelem graeca</title>
-                <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
-                    borussicae</subTitle>
-                <partNumber>Volume 19</partNumber>
-                <partNumber>Pars 2</partNumber>
-            </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1889</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="preface">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
-        </relatedItem>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
         <name authority="tlg" type="corporate">
             <namePart>Anonymi in Aristotelis</namePart>
             <role>
@@ -47441,6 +46862,52 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Berlin</placeTerm>
+            </place>
+            <publisher>typ. et impensis G. Reimeri</publisher>
+            <dateIssued>1889</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>VIII, 246 S.</extent>
+        </physicalDescription>
+        <classification authority="lcc">PA3902 A25</classification>
+        <identifier type="oclc">60440702</identifier>
+        <language objectPart="preface">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <!-- 
+        <identifier displayLabel="isCommentaryOn" type="tlg">0086.010</identifier> -->
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/60440702</url>
+        </location>
+        <location>
+            <url displayLabel="Open Content Alliance"
+                >http://archive.org/stream/commentariaina19pt12akaduoft#page/n267/mode/2up</url>
+        </location>
+        <location>
+            <url displayLabel="GoogleBooks"
+                >http://books.google.com/books?id=ve9oAAAAMAAJ&amp;pg=PA249</url>
+        </location>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Commentaria in Aristotelem graeca</title>
+                <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
+                    borussicae</subTitle>
+                <partNumber>Volume 19</partNumber>
+                <partNumber>Part 2</partNumber>
+            </titleInfo>
+        </relatedItem>
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
             <temporal>384-322 B.C.</temporal>
@@ -47452,8 +46919,16 @@ but this is where the TLG has left off for numbering-->
             displayLabel="in ethica Nicomachea paraphrasis">
             <identifier type="ctsurn">urn:cts:greekLit:tlg4033.tlg003</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="in ethica Nicomachea paraphrasis">
+                displayLabel="iIn Ethica Nicomachea Paraphrasis (Pseudepigraphum Olim A Constantino Palaeocappa confectum et olim sub auctore Heliodoro Prusensi vel Andronico Rhodio vel Olympiodoro)">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg4033.tlg003.opp-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg4033.tlg003.opp-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg4033/tlg003/tlg4033.tlg003.opp-grc1.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -47472,8 +46947,20 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated" authority="lsj">
             <title>Asp. in EN</title>
         </titleInfo>
-        <identifier type="oclc">77056092</identifier>
-        <identifier displayLabel="isCommentaryOn" type="tlg">0086.010</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/30349877/">
+            <namePart>Aspasius</namePart>
+            <role>
+                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/22249492">
+            <namePart>Heylbut, Gustav</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -47490,9 +46977,21 @@ but this is where the TLG has left off for numbering-->
             <form authority="marcform">print</form>
             <extent> xii, 245 p.</extent>
         </physicalDescription>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <language objectPart="notes">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
         <classification authority="lcc">PA3902 A25</classification>
+        <identifier type="oclc">77056092</identifier>
+        <!-- 
+        <identifier displayLabel="isCommentaryOn" type="tlg">0086.010</identifier> -->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/77056092</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/ien.35556008407587</url>
         </location>
         <location>
             <url displayLabel="Open Content Alliance"
@@ -47507,56 +47006,9 @@ but this is where the TLG has left off for numbering-->
                 <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
                     borussicae</subTitle>
                 <partNumber>Volume 19</partNumber>
-                <partNumber>Pars 1</partNumber>
+                <partNumber>Part 1</partNumber>
             </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1889</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="preface">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/30349877/">
-            <namePart>Aspasius</namePart>
-            <role>
-                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/22249492">
-            <namePart>Heylbut, Gustav</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
             <temporal>384-322 B.C.</temporal>
@@ -47564,13 +47016,20 @@ but this is where the TLG has left off for numbering-->
         <subject authority="lcsh">
             <topic>Aristoteles</topic>
         </subject>
-
         <relatedItem type="constituent" otherType="work"
             displayLabel="In ethica Nichomachea commentaria">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0615.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="In ethica Nichomachea commentaria">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0615.tlg001.opp-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg0615.tlg001.opp-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0615/tlg001/tlg0615.tlg001.opp-grc1.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -47591,7 +47050,21 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated" authority="lsj">
             <title>Phlp. in GA</title>
         </titleInfo>
-        <identifier displayLabel="isCommentaryOn" type="tlg">0086.012</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/1276154329449426970002/">
+            <namePart>Philoponus, John</namePart>
+            <namePart type="date">6th cent</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/121668/">
+            <namePart>Hayduck, Michael</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -47608,7 +47081,15 @@ but this is where the TLG has left off for numbering-->
             <form authority="marcform">print</form>
             <extent>viii, 280p.</extent>
         </physicalDescription>
+        <!--         <identifier displayLabel="isCommentaryOn" type="tlg">0086.012</identifier>
+p -->
         <identifier type="oclc">222433907</identifier>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <language objectPart="preface">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/222433907</url>
         </location>
@@ -47616,7 +47097,9 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/stream/commentariaina14pt13akaduoft#page/n543/mode/2up</url>
         </location>
-
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/nyp.33433081630760</url>
+        </location>
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=6TcNAAAAYAAJ</url>
         </location>
@@ -47626,57 +47109,9 @@ but this is where the TLG has left off for numbering-->
                 <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
                     borussicae</subTitle>
                 <partNumber>Volume 14</partNumber>
-                <partName>Pars III</partName>
+                <partName>Part 3</partName>
             </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1903</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="preface">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/1276154329449426970002/">
-            <namePart>Philoponus, John</namePart>
-            <namePart type="date">6th cent</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/121668/">
-            <namePart>Hayduck, Michael</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
             <temporal>384-322 B.C.</temporal>
@@ -47691,6 +47126,14 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="In libros de generatione animalium commentaria">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg4015.tlg007.opp-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg4015.tlg007.opp-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg4015/tlg007/tlg4015.tlg007.opp-grc1.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -47711,77 +47154,6 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated" authority="lsj">
             <title>Alex.Aphr. in Sens.</title>
         </titleInfo>
-        <identifier type="oclc">187576607</identifier>
-        <identifier displayLabel="isCommentaryOn" type="tlg">0086.041</identifier>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">gw</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Berlin</placeTerm>
-            </place>
-            <publisher>typ. et impensis G. Reimeri</publisher>
-            <dateIssued>1901</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>xix p., 1 l., 205, [3] p. 25 cm.</extent>
-        </physicalDescription>
-        <classification authority="lcc">PA3902 A25</classification>
-        <classification authority="ddc"/>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/18576607</url>
-        </location>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/njp.32101075724235</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks">http://books.google.com/books?id=taRfAAAAMAAJ</url>
-        </location>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Commentaria in Aristotelem graeca</title>
-                <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
-                    borussicae</subTitle>
-                <partNumber>Volume 3</partNumber>
-                <partNumber>Pars I</partNumber>
-            </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1901</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="preface">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
-        </relatedItem>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/95239377/">
             <namePart>Alexander,</namePart>
@@ -47798,21 +47170,70 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Berlin</placeTerm>
+            </place>
+            <publisher>typ. et impensis G. Reimeri</publisher>
+            <dateIssued>1901</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language objectPart="preface">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>xix p., 1 l., 205, [3] p. 25 cm.</extent>
+        </physicalDescription>
+        <classification authority="lcc">PA3902 A25</classification>
+        <identifier type="oclc">187576607</identifier>
+        <!-- 
+        <identifier displayLabel="isCommentaryOn" type="tlg">0086.041</identifier>   -->
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/18576607</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/njp.32101075724235</url>
+        </location>
+        <location>
+            <url displayLabel="GoogleBooks">http://books.google.com/books?id=taRfAAAAMAAJ</url>
+        </location>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Commentaria in Aristotelem graeca</title>
+                <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
+                    borussicae</subTitle>
+                <partNumber>Volume 3</partNumber>
+                <partNumber>Part 1</partNumber>
+            </titleInfo>
+        </relatedItem>
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
             <temporal>384-322 B.C.</temporal>
-
         </subject>
         <subject authority="lcsh">
             <topic>Aristoteles</topic>
         </subject>
-
         <relatedItem type="constituent" otherType="work"
             displayLabel="in librum de sensu commentarium">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0732.tlg007</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="in librum de sensu commentarium">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0732.tlg007.opp-grc1</identifier>
+                
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg0732.tlg007.opp-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0732/tlg007/tlg0732.tlg007.opp-grc1.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -47831,8 +47252,21 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated" authority="lsj">
             <title>Mich. in EN</title>
         </titleInfo>
-        <identifier type="oclc">222434032</identifier>
-        <identifier displayLabel="isCommentaryOn" type="tlg">0086.010</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/22494607/">
+            <namePart>Michael,</namePart>
+            <namePart type="termsOfAddress">of Ephesus</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/121668/">
+            <namePart>Hayduck, Michael</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -47850,10 +47284,15 @@ but this is where the TLG has left off for numbering-->
             <extent>viii, 84 p.</extent>
         </physicalDescription>
         <classification authority="lcc">PA3902 A25</classification>
-        <classification authority="ddc"/>
-        <location>
-            <url displayLabel="LC Permalink"/>
-        </location>
+        <language objectPart="preface">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <identifier type="oclc">222434032</identifier>
+        <!-- 
+        <identifier displayLabel="isCommentaryOn" type="tlg">0086.010</identifier> -->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/222434032</url>
         </location>
@@ -47861,63 +47300,18 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://archive.org/stream/p1commentariaina22akaduoft#page/196/mode/2up</url>
         </location>
+        <location>
+            <url displayLabel="HathiTrst">https://hdl.handle.net/2027/nyp.33433081630869</url>
+        </location>
         <relatedItem type="series">
             <titleInfo>
                 <title>Commentaria in Aristotelem graeca</title>
                 <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
                     borussicae</subTitle>
-                <partNumber>Volume 22 </partNumber>
-                <partNumber>Pars III</partNumber>
+                <partNumber>Volume 22</partNumber>
+                <partNumber>Part 3</partNumber>
             </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued/>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="preface">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/22494607/">
-            <namePart>Michael,</namePart>
-            <namePart type="termsOfAddress">of Ephesus</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/121668/">
-            <namePart>Hayduck, Michael</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
             <temporal>384-322 B.C.</temporal>
@@ -47932,6 +47326,15 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="In librum quintum ethicorum Nicomacheorum commentarium">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg4034.tlg006.opp-grc1</identifier>
+
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg4034.tlg006.opp-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg4034/tlg006/tlg4034.tlg006.opp-grc1.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -48096,44 +47499,17 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=kQ8OAAAAYAAJ</url>
         </location>
+       <location>
+           <url displayLabel="HathiTrust">https://hdl.handle.net/2027/chi.21830442</url>
+       </location>
         <relatedItem type="series">
             <titleInfo>
                 <title>Commentaria in Aristotelem graeca</title>
                 <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
                     borussicae</subTitle>
                 <partNumber>Volume 5</partNumber>
-                <partName>Pars 6</partName>
+                <partName>Part 6</partName>
             </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1903</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="commentary">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
@@ -48164,6 +47540,12 @@ but this is where the TLG has left off for numbering-->
         <titleInfo xml:lang="lat" type="uniform">
             <title>in parva naturalia commentaria</title>
         </titleInfo>
+        <titleInfo>
+            <title>Michaelis Ephesii in parva naturalia commentaria</title>
+        </titleInfo>
+        <titleInfo type="abbreviated" authority="lsj">
+            <title>Mich. in PN</title>
+        </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/22494607/">
             <namePart>Michael,</namePart>
@@ -48185,12 +47567,6 @@ but this is where the TLG has left off for numbering-->
                 <total>51594</total>
             </extent>
         </part>
-        <titleInfo>
-            <title>Michaelis Ephesii in parva naturalia commentaria</title>
-        </titleInfo>
-        <titleInfo type="abbreviated" authority="lsj">
-            <title>Mich. in PN</title>
-        </titleInfo>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -48207,6 +47583,12 @@ but this is where the TLG has left off for numbering-->
             <form authority="marcform">print</form>
             <extent>XI, 175 p ; 25 cm.</extent>
         </physicalDescription>
+        <language objectPart="preface">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
         <classification authority="lcc">PA3902 A25</classification>
         <identifier type="oclc">238817164</identifier>
         <location>
@@ -48229,42 +47611,9 @@ but this is where the TLG has left off for numbering-->
                 <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
                     borussicae</subTitle>
                 <partNumber>Volume 22</partNumber>
-                <partNumber>Pars 1</partNumber>
-            </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1903</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="preface">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
+                <partNumber>Part 1</partNumber>
+            </titleInfo>        
         </relatedItem>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
             <temporal>384-322 B.C.</temporal>
@@ -48716,8 +48065,21 @@ but this is where the TLG has left off for numbering-->
         <titleInfo type="abbreviated" authority="lsj">
             <title>Ammon. in Porph.</title>
         </titleInfo>
-        <identifier type="oclc">222433737</identifier>
-        <identifier displayLabel="isCommentaryOn" type="tlg">2034.007</identifier>
+        <name authority="viaf" authorityURI="https://viaf.org/viaf/" type="personal"
+            valueURI="hhttps://viaf.org/viaf/283087561/">
+            <namePart>Ammonius,</namePart>
+            <namePart type="termsOfAddress">Hermiae</namePart>
+            <role>
+                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/98427196/">
+            <namePart>Busse, Adolf</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -48730,15 +48092,21 @@ but this is where the TLG has left off for numbering-->
             <dateIssued>1891</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+        </language>
+        <language objectPart="preface">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
         <physicalDescription>
             <form authority="marcform">print</form>
             <extent>xlvi p., 1 l., 132 pl., 1 l. 26 cm.</extent>
         </physicalDescription>
         <classification authority="lcc">PA3902 A25</classification>
-        <classification authority="ddc"/>
-        <location>
-            <url displayLabel="LC Permalink"/>
-        </location>
+        <identifier type="oclc">222433737</identifier>
+        <!-- 
+        <identifier displayLabel="isCommentaryOn" type="tlg">2034.007</identifier>
+         -->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/222433737</url>
         </location>
@@ -48759,57 +48127,9 @@ but this is where the TLG has left off for numbering-->
                 <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
                     borussicae</subTitle>
                 <partNumber>Volume 4</partNumber>
-                <partNumber>Pars III</partNumber>
+                <partNumber>Part 3</partNumber>
             </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1891</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="preface">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
         </relatedItem>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <name authority="viaf" authorityURI="https://viaf.org/viaf/" type="personal"
-            valueURI="hhttps://viaf.org/viaf/283087561/">
-            <namePart>Ammonius,</namePart>
-            <namePart type="termsOfAddress">Hermiae</namePart>
-            <role>
-                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/98427196/">
-            <namePart>Busse, Adolf</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Porphyry,</topic>
             <temporal>ca. 234.--ca. 305</temporal>
@@ -48825,6 +48145,14 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="in Porphyrii Isagogen sive V voces">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg4016.tlg001.opp-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg4016.tlg001.opp-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg4016/tlg001/tlg4016.tlg001.opp-grc1.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -53603,7 +52931,6 @@ but this is where the TLG has left off for numbering-->
             <topic>Aristoteles</topic>
         </subject>
         <classification authority="lcc">PA3902 A25</classification>
-        <classification authority="ddc"/>
         <identifier type="oclc">309968177</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/309968177</url>
@@ -53624,38 +52951,8 @@ but this is where the TLG has left off for numbering-->
                 <title>Commentaria in Aristotelem graeca</title>
                 <subTitle>Supplementum</subTitle>
                 <partNumber>Volume 1</partNumber>
-                <partNumber>Pars 2</partNumber>
-            </titleInfo>
-            <name type="corporate">
-                <namePart>Akademie der Wissenschaften, Berlin</namePart>
-            </name>
-            <typeOfResource>text</typeOfResource>
-            <originInfo>
-                <place>
-                    <placeTerm type="text">Berolini</placeTerm>
-                </place>
-                <publisher>Typ. et impensis G. Reimeri</publisher>
-                <dateIssued>1886</dateIssued>
-                <issuance>monographic</issuance>
-            </originInfo>
-            <language objectPart="preface">
-                <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-            </language>
-            <language objectPart="text">
-                <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-            </language>
-            <physicalDescription>
-                <form authority="marcform">print</form>
-            </physicalDescription>
-            <note type="additional physical form">Digitized and made available by: University of
-                Toronto Libraries</note>
-            <subject authority="lcsh">
-                <name type="personal">
-                    <namePart>Aristotle</namePart>
-                </name>
-                <topic>Commentaries</topic>
-            </subject>
-            <classification authority="lcc">PA3902 A25</classification>
+                <partNumber>Part 2</partNumber>
+            </titleInfo>       
         </relatedItem>
         <relatedItem type="constituent" otherType="work" displayLabel="Metaphrasis in Theophrastum">
             <identifier type="ctsurn">urn:cts:greekLit:tlg4014.tlg001</identifier>
