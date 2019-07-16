@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2232.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/71399875/">
 	        <namePart>Simplicius</namePart>
 	        <namePart type="termsOfAddress">of Cilicia</namePart>
       </name>
@@ -49,10 +50,14 @@
     <note type="source">His Simplicii commentarius in IV libros Aristotelis De coelo ... 1865</note>
     <note type="source">Ency. Brit., 15th ed. (Simplicius of Cilicia, fl. c. AD 530)</note>
     <note type="source">Colliers, 1973 (Simplicius)</note>
-    <note type="source">Brill's new Pauly online, 2 October 2013 (Simplicius, Σιμπλίκιος, neoplatonic philosopher, from Cilicia, c. AD 490-560)</note>
+    <note type="source">Brill's new Pauly online, 2 October 2013 (Simplicius, Σιμπλίκιος, neoplatonic philosopher, 
+      from Cilicia, c. AD 490-560)</note>
     <note type="source">Thesaurus linguae graecae, 2 October 2013 (Σιμπλίκιος ὁ Κίλιξ)</note>
-    <note type="source">Pseudo-Simplicius. On Aristotle on the soul 3.6-13, 2013: title page ("Simplicius") page 3 (Pseudo (Ps.-)Simplicius, Carlos G. Steel and Arnis Ritups, editors, use this designation for the author of a commentary on Aristotle's De anima formerly attributed to Simplicius of Cilicia)</note>
+    <note type="source">Pseudo-Simplicius. On Aristotle on the soul 3.6-13, 2013: title page ("Simplicius") 
+      page 3 (Pseudo (Ps.-)Simplicius, Carlos G. Steel and Arnis Ritups, editors, use this designation for
+      the author of a commentary on Aristotle's De anima formerly attributed to Simplicius of Cilicia)</note>
     <identifier type="lccn">n 82102480</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2232.1</identifier>
     <fieldOfActivity>Neoplatonist</fieldOfActivity>
     <fieldOfActivity>Philosopher</fieldOfActivity>
     <identifier type="tlg">4013</identifier>
@@ -62,5 +67,8 @@
     <extension>
       <description>List of related work identifiers</description>
       <identifier type="tlg">4013.001</identifier>
+      <identifier type="tlg">4013.003</identifier>
+      <identifier type="tlg">4013.004</identifier>
+      <identifier type="tlg">4013.005</identifier>
     </extension>    
   </mads>
