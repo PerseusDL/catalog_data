@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+    <titleInfo>
+        <title>Opera Omnia</title>
+    </titleInfo>
+    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/44299175/">
+        <namePart>Galen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+        </role>
+    </name>
+    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/76469447">
+        <namePart>Kühn, Karl Gottlob</namePart>
+        <namePart type="date">1754-1840,</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+        </role>
+    </name>
+
+    <originInfo>
+        <place>
+            <placeTerm type="code" authority="marccountry">gw</placeTerm>
+        </place>
+        <place>
+            <placeTerm type="text">Lipsiae</placeTerm>
+        </place>
+        <publisher>Cnobloch</publisher>
+        <dateIssued>1821-1833</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <physicalDescription>
+        <extent>20 v. in 22 ; 21 cm</extent>
+    </physicalDescription>
+    <relatedItem type="series">
+        <titleInfo>
+            <title>Medicorum graecorum opera quae exstant</title>
+            <partNumber>Volume 1-20</partNumber>
+        </titleInfo>
+    </relatedItem>
+    <identifier type="oclc">977353167</identifier>
+    <language objectPart="notes">
+        <languageTerm type="code">lat</languageTerm>
+    </language>
+    <language objectPart="text">
+        <languageTerm type="code">grc</languageTerm>
+    </language>
+    <location>
+        <url displayLabel="Worldcat">http://www.worldcat.org/oclc/977353167</url>
+    </location>
+    <relatedItem type="constituent" otherType="volume" displayLabel="Volume 1">
+        <part type="volume">
+            <detail type="volume">
+                <caption>Volume</caption>
+                <number>1</number>
+            </detail>
+        </part>
+        <originInfo>
+            <dateIssued>1821</dateIssued>
+        </originInfo>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/njp.32101003105341</url>
+        </location>
+        <location>
+            <url displayLabel="Open Content Alliance">https://www.archive.org/details/hapantaoperaomni01galeuoft</url>
+        </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="Adhortatio ad artes addiscendas">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Adhortatio ad artes addiscendas">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg001.1st1K-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg0057.tlg001.1st1K-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0057/tlg001/tlg0057.tlg001.1st1K-grc1.xml</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Adhortatio ad artes addiscendas">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg001.opp-grc1</identifier>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg001.opp-lat1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>1</start>
+                        <end>39</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust">https://hdl.handle.net/2027/njp.32101003105341?urlappend=%3Bseq=274</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="work" displayLabel="Adhortatio ad artes addiscendas">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Adhortatio ad artes addiscendas">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg001.1st1K-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>1</start>
+                        <end>39</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust">https://hdl.handle.net/2027/njp.32101003105341?urlappend=%3Bseq=274</url>
+                </location>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg0057.tlg001.1st1K-grc1/</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="work" displayLabel="">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg002</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg002.1st1K-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>40</start>
+                        <end>52</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"></url>
+                </location>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg0057.tlg002.1st1K-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0057/tlg002/tlg0057.tlg002.1st1K-grc1.xml</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="work" displayLabel="">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg003</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg003.1st1K-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start></start>
+                        <end></end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"></url>
+                </location>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg0057.tlg003.1st1K-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0057/tlg003/tlg0057.tlg003.1st1K-grc1.xml</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="work" displayLabel="">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg004</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg004.1st1K-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start></start>
+                        <end></end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"></url>
+                </location>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg0057.tlg004.1st1K-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0057/tlg004/tlg0057.tlg004.1st1K-grc1.xml</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="work" displayLabel="">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg005</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg005.1st1K-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start></start>
+                        <end></end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"></url>
+                </location>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg0057.tlg005.1st1K-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0057/tlg005/tlg0057.tlg005.1st1K-grc1.xml</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="work" displayLabel="">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg006</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg006.1st1K-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start></start>
+                        <end></end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"></url>
+                </location>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg0057.tlg006.1st1K-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0057/tlg006/tlg0057.tlg006.1st1K-grc1.xml</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="work" displayLabel="">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg007</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg007.1st1K-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start></start>
+                        <end></end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"></url>
+                </location>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg0057.tlg00.1st1K-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0057/tlg007/tlg0057.tlg007.1st1K-grc1.xml</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="work" displayLabel="">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg008</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg008.1st1K-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start></start>
+                        <end></end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"></url>
+                </location>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg0057.tlg008.1st1K-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0057/tlg008/tlg0057.tlg008.1st1K-grc1.xml</url>
+                </location>
+            </relatedItem>
+        </relatedItem>   
+        <relatedItem type="constituent" otherType="work" displayLabel="">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg009</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg009.1st1K-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start></start>
+                        <end></end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"></url>
+                </location>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg0057.tlg009.1st1K-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0057/tlg009/tlg0057.tlg009.1st1K-grc1.xml</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="work" displayLabel="">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0530.tlg043</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0530.tlg043.1st1K-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start></start>
+                        <end></end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"></url>
+                </location>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg0530.tlg043.1st1K-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0530/tlg043/tlg00530.tlg043.1st1K-grc1.xml</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+    </relatedItem>
+    <relatedItem type="constituent" otherType="volume" displayLabel="Volume 2">
+        <part type="volume">
+            <detail type="volume">
+                <caption>Volume</caption>
+                <number>2</number>
+            </detail>
+        </part>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/njp.32101073247486</url>
+        </location>
+        <location>
+            <url displayLabel="Open Content Alliance">https://www.archive.org/details/hapantaoperaomni02galeuoft</url>
+        </location>
+    </relatedItem>
+    <relatedItem type="constituent" otherType="volume" displayLabel="Volume 3">
+        <part type="volume">
+            <detail type="volume">
+                <caption>Volume</caption>
+                <number>3</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent" otherType="volume" displayLabel="Volume 5">
+        <part type="volume">
+            <detail type="volume">
+                <caption>Volume</caption>
+                <number>5</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent" otherType="volume" displayLabel="Volume 6">
+        <part type="volume">
+            <detail type="volume">
+                <caption>Volume</caption>
+                <number>6</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent" otherType="volume" displayLabel="Volume 7">
+        <part type="volume">
+            <detail type="volume">
+                <caption>Volume</caption>
+                <number>7</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent" otherType="volume" displayLabel="Volume 8">
+        <part type="volume">
+            <detail type="volume">
+                <caption>Volume</caption>
+                <number>8</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent" otherType="volume" displayLabel="Volume 9">
+        <part type="volume">
+            <detail type="volume">
+                <caption>Volume</caption>
+                <number>9</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent" otherType="volume" displayLabel="Volume 4">
+        <part type="volume">
+            <detail type="volume">
+                <caption>Volume</caption>
+                <number>4</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent" otherType="volume" displayLabel="Volume 10">
+        <part type="volume">
+            <detail type="volume">
+                <caption>Volume</caption>
+                <number>10</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent" otherType="volume" displayLabel="Volume 11">
+        <part type="volume">
+            <detail type="volume">
+                <caption>Volume</caption>
+                <number>11</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent" otherType="volume" displayLabel="Volume 12">
+        <part type="volume">
+            <detail type="volume">
+                <caption>Volume</caption>
+                <number>12</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent" otherType="volume" displayLabel="Volume 13">
+        <part type="volume">
+            <detail type="volume">
+                <caption>Volume</caption>
+                <number>13</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent" otherType="volume" displayLabel="Volume 14">
+        <part type="volume">
+            <detail type="volume">
+                <caption>Volume</caption>
+                <number>14</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent" otherType="volume" displayLabel="Volume 15">
+        <part type="volume">
+            <detail type="volume">
+                <caption>Volume</caption>
+                <number>15</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent" otherType="volume" displayLabel="Volume 16">
+        <part type="volume">
+            <detail type="volume">
+                <caption>Volume</caption>
+                <number>16</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent" otherType="volume" displayLabel="Volume 17">
+        <part type="volume">
+            <detail type="volume">
+                <caption>Volume</caption>
+                <number>17</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent" otherType="volume" displayLabel="Volume 18">
+        <part type="volume">
+            <detail type="volume">
+                <caption>Volume</caption>
+                <number>18</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent" otherType="volume" displayLabel="Volume 18">
+        <part type="volume">
+            <detail type="volume">
+                <caption>Volume</caption>
+                <number>19</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent" otherType="volume" displayLabel="Volume 18">
+        <part type="volume">
+            <detail type="volume">
+                <caption>Volume</caption>
+                <number>20</number>
+            </detail>
+        </part>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/206465929/">
+            <namePart>Assmann, Friedrich Wilhelm,</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+    </relatedItem>
+</mods>
