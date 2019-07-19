@@ -1,19 +1,23 @@
 <?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  version="2.0"
+  xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/79012427/">
       <mads:namePart>Polemo, Antonius</mads:namePart>
       <mads:namePart type="date">ca. 88-145</mads:namePart>
     </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x3A0;&#x3BF;&#x3BB;&#x3AD;&#x3BC;&#x3C9;&#x3BD;</mads:namePart>
+      <mads:namePart>Πολέμων</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant>
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x39C;&#x3AC;&#x3C1;&#x3BA;&#x3BF;&#x3C2; &#x391;&#x3BD;&#x3C4;&#x3CE;&#x3BD;&#x3B9;&#x3BF;&#x3C2; &#x3A0;&#x3BF;&#x3BB;&#x3AD;&#x3BC;&#x3C9;&#x3BD;</mads:namePart>
+      <mads:namePart>Μάρκος Αντώνιος Πολέμων</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
@@ -60,19 +64,13 @@
   </mads:variant>
   <mads:variant type="other" lang="ara" transliteration="rom">
     <mads:name type="personal">
-      <mads:namePart>Fili&#x304;mu&#x304;n</mads:namePart>
+      <mads:namePart>Filīmūn</mads:namePart>
       <mads:namePart type="date">ca. 88-145</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ara" transliteration="rom">
     <mads:name type="personal">
-      <mads:namePart>Afli&#x304;mu&#x304;n</mads:namePart>
-      <mads:namePart type="date">ca. 88-145</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="ara" transliteration="rom">
-    <mads:name type="personal">
-      <mads:namePart>Fili&#x304;mu&#x304;n al-H&#x323;aki&#x304;m</mads:namePart>
+      <mads:namePart>Aflīmūn</mads:namePart>
       <mads:namePart type="date">ca. 88-145</mads:namePart>
     </mads:name>
   </mads:variant>
@@ -92,7 +90,7 @@
   </mads:variant>
   <mads:variant type="other" lang="fre">
     <mads:name type="personal">
-      <mads:namePart>Pole&#x301;mon de Laodice&#x301;e</mads:namePart>
+      <mads:namePart>Polémon de Laodicé</mads:namePart>
       <mads:namePart type="date">ca. 88-145</mads:namePart>
     </mads:name>
   </mads:variant>
@@ -149,24 +147,24 @@
       <mads:namePart>Polem.</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:note type="source">H&#x323;anna&#x304;, N. Risa&#x304;lata&#x304; Bu&#x304;lus al-Rasu&#x304;l ila&#x301; Ti&#x304;t&#x323;us wa-Fili&#x304;mu&#x304;n
-      mufas&#x323;s&#x323;alatayn a&#x304;yah a&#x304;yah, 1982: t.p. (Fili&#x304;mu&#x304;n)</mads:note>
-  <mads:note type="source">LC manual auth. cd. (hdg.: Polemo, Antonius, 88(ca)-145; variants:
-      Palemon; Palomon; Phylomon; Philimon; Philemon; Afli&#x304;mu&#x304;n; Fili&#x304;mu&#x304;n al-H&#x323;aki&#x304;m; Pole&#x301;mon de
-      Laodice&#x301;e)</mads:note>
-  <mads:note type="source">The severed hand and the upright corpse, 1996: CIP t.p. (Marcus Antonius
-      Polemo) p. 1 (Polemo (88-144 CE))</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1145.1</mads:identifier>
   <mads:identifier type="lccn">n 84227568</mads:identifier>
   <mads:fieldOfActivity>Sophist</mads:fieldOfActivity>
   <mads:fieldOfActivity>Rhetor</mads:fieldOfActivity>
   <mads:fieldOfActivity>Orator</mads:fieldOfActivity>
-  
-  
-  
+  <mads:note type="source">Brill's New Pauly: "M. Antonius P. Rhetor, c. 90-146, Sophist from a prominent family of
+    Laodicea ad Lycon, related to the kings of Pontus...P.'s Physiognōmoniká survives
+    in an Arabic translation (1356) and a Greek paraphrase written before 300 by Adamantius,
+    and is much used by a 4th cent. Latin treatise. P. strongly emphasizes the effectiveness of his
+    own practice of physiognomy, backed by many anecdotes which purport to 'prove' the physiognomic 
+    predictive abilities.." Bowie, Ewen (Oxford). "Polemon." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and
+    Helmuth Schneider . Brill, 2010. Brill Online. Tufts University Library. 24 November 2010</mads:note>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Polemon_of_Laodiceia</mads:url>
-  <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-n84-227568</mads:url>
-  <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0003.001;didno=ACL3129.0003.001;view=image;seq=00000443</mads:url>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/79012427/</mads:url>
+  <mads:url displayLabel="Worldcat Identities"
+    >http://worldcat.org/identities/lccn-n84-227568</mads:url>
+  <mads:url displayLabel="Smith's Dictionary"
+    >http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0003.001;didno=ACL3129.0003.001;view=image;seq=00000443</mads:url>
   <mads:identifier type="tlg">1617</mads:identifier>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>

@@ -6,7 +6,8 @@
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
            version="2.0">
   <mads:authority>
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+          valueURI="http://viaf.org/viaf/18019444">
          <mads:namePart>Iamblichus</mads:namePart>
          <mads:namePart type="date">fl. ca. 160-180</mads:namePart>
       </mads:name>
@@ -32,7 +33,8 @@
   </mads:related>
   <mads:variant type="other" lang="grc">
       <mads:name type="personal">
-         <mads:namePart>Ἰάμβλιχος ὁ μυθιστοριογράφος</mads:namePart>
+         <mads:namePart>Ἰάμβλιχος</mads:namePart>
+          <mads:namePart type="termsOfAddress">ὁ μυθιστοριογράφος</mads:namePart>
          <mads:namePart type="date">01..-01</mads:namePart>
       </mads:name>
   </mads:variant>
@@ -210,11 +212,7 @@
   <mads:identifier type="citeurn">urn:cite:perseus:author.759.1</mads:identifier>
   <mads:identifier type="lccn">n  88029479 </mads:identifier>
   <mads:fieldOfActivity>Novelist</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Erotic Author</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="VIAF"/>
+ <mads:fieldOfActivity>Erotic Author</mads:fieldOfActivity>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Iamblichus_%28novelist%29</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n88-29479</mads:url>
   <mads:url displayLabel="Smith's Dictionary"/>

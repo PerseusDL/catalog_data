@@ -15647,7 +15647,9 @@ but this is where the TLG has left off for numbering-->
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
         </language>
-
+        <language objectPart="notes">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
         <subject>
             <geographicCode authority="marcgac">e-gr---</geographicCode>
         </subject>
@@ -24027,6 +24029,68 @@ but this is where the TLG has left off for numbering-->
             <identifier type="ctsurn">urn:cts:greekLit:tlg0563.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Dissertationes">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0563.tlg001.opp-grc1</identifier>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods displayLabel="Divisiones-Aristotle-Mutschmann-Teubner-1906">
+        <titleInfo>
+            <title>Divisiones quae vulgo dicuntur Aristoteleae</title>   
+        </titleInfo>
+        <titleInfo type="alternative">
+            <title>Divisiones</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/7524651">
+            <namePart>Aristotle</namePart>
+            <role>
+                <roleTerm type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/10617207">
+            <namePart>Mutschmann, Hermann</namePart>
+            <namePart type="date">1882-1918</namePart>
+            <role>
+                <roleTerm type="text">editor</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Leipzig</placeTerm>
+            </place>
+            <publisher>Teubner</publisher>
+            <dateIssued>1906</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <language objectPart="notes">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>xlii, 76 p.</extent>
+        </physicalDescription>
+        <identifier type="oclc">758408337</identifier>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/758408337</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/uc1.$b253059</url>
+        </location>
+        <note type="statement of responsibility">Praefatus edidit testimoniisque instruxit Hermannus Mutschmann.</note>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
+            </titleInfo>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="work" displayLabel="Divisiones">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg048</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Divisiones">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg048.opp-grc1</identifier>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -47226,12 +47290,14 @@ p -->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="in librum de sensu commentarium">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0732.tlg007.opp-grc1</identifier>
-                
+
                 <location>
-                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg0732.tlg007.opp-grc1/</url>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg0732.tlg007.opp-grc1/</url>
                 </location>
                 <location>
-                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0732/tlg007/tlg0732.tlg007.opp-grc1.xml</url>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0732/tlg007/tlg0732.tlg007.opp-grc1.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -47434,10 +47500,10 @@ p -->
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id403631025</url>
         </location>
         <relatedItem type="constituent" otherType="work"
-            displayLabel="Iamblichi In Nicomachi Arithmeticam introductionem liber">
+            displayLabel="In Nicomachi Arithmeticam introductionem liber">
             <identifier type="ctsurn">urn:cts:greekLit:tlg2023.tlg004</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="Iamblichi In Nicomachi Arithmeticam introductionem liber">
+                displayLabel="In Nicomachi Arithmeticam introductionem liber">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg2023.tlg004.opp-grc2</identifier>
             </relatedItem>
         </relatedItem>
@@ -47498,9 +47564,9 @@ p -->
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=kQ8OAAAAYAAJ</url>
         </location>
-       <location>
-           <url displayLabel="HathiTrust">https://hdl.handle.net/2027/chi.21830442</url>
-       </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/chi.21830442</url>
+        </location>
         <relatedItem type="series">
             <titleInfo>
                 <title>Commentaria in Aristotelem graeca</title>
@@ -47611,7 +47677,7 @@ p -->
                     borussicae</subTitle>
                 <partNumber>Volume 22</partNumber>
                 <partNumber>Part 1</partNumber>
-            </titleInfo>        
+            </titleInfo>
         </relatedItem>
         <subject authority="lcsh">
             <topic>Aristotle,</topic>
@@ -52951,7 +53017,7 @@ p -->
                 <subTitle>Supplementum</subTitle>
                 <partNumber>Volume 1</partNumber>
                 <partNumber>Part 2</partNumber>
-            </titleInfo>       
+            </titleInfo>
         </relatedItem>
         <relatedItem type="constituent" otherType="work" displayLabel="Metaphrasis in Theophrastum">
             <identifier type="ctsurn">urn:cts:greekLit:tlg4014.tlg001</identifier>
@@ -59199,14 +59265,24 @@ p -->
                 <total>26867</total>
             </extent>
         </part>
-        <titleInfo>
-            <title>Protrepticus</title>
-        </titleInfo>
         <titleInfo type="abbreviated" authority="lsj">
             <title>Iamb.Protr.</title>
         </titleInfo>
-        <identifier type="lccn">79350124</identifier>
-        <identifier type="oclc">45983415</identifier>
+        <name authority="viaf" authorityURI="http://viaf.org/viaf/" type="personal"
+            valueURI="http://viaf.org/viaf/12310254">
+            <namePart>Iamblichus</namePart>
+            <namePart type="date">ca. 250-ca. 330</namePart>
+            <role>
+                <roleTerm authority="marcrelator">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/20476651">
+            <namePart>Pistelli, Ermenegildo</namePart>
+            <namePart type="date">1862-1927</namePart>
+            <role>
+                <roleTerm authority="marcrelator">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -59225,10 +59301,23 @@ p -->
             <extent>xiii, 170 p. 21 cm.</extent>
         </physicalDescription>
         <note>Romanized.</note>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
+            </titleInfo>
+            <titleInfo type="abbreviated">
+                <title>Teubner</title>
+            </titleInfo>
+        </relatedItem>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+        </language>
+        <language objectPart="notes">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
         <classification authority="lcc">PA3404 .J2 1888ab</classification>
-        <location>
-            <url displayLabel="LC Permalink"/>
-        </location>
+        <identifier type="lccn">79350124</identifier>
+        <identifier type="oclc">45983415</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/45983415</url>
         </location>
@@ -59238,24 +59327,6 @@ p -->
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015028040650</url>
         </location>
-        <language objectPart="text">
-            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
-        </language>
-        <name authority="viaf" authorityURI="http://viaf.org/viaf/" type="personal"
-            valueURI="http://viaf.org/viaf/12310254">
-            <namePart>Iamblichus</namePart>
-            <namePart type="date">ca. 250-ca. 330</namePart>
-            <role>
-                <roleTerm authority="marcrelator">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/20476651">
-            <namePart>Pistelli, Ermenegildo</namePart>
-            <namePart type="date">1862-1927</namePart>
-            <role>
-                <roleTerm authority="marcrelator">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Neoplatonism</topic>
             <genre>Early works to 1800</genre>
@@ -59264,6 +59335,17 @@ p -->
             <identifier type="ctsurn">urn:cts:greekLit:tlg2023.tlg002</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Protepticus">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg2023.tlg002.opp-grc1</identifier>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Protepticus">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2023.tlg002.1st1K-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg2023.tlg002.1st1K-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg2023/tlg002/tlg2023.tlg002.1st1K-grc1.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
