@@ -1,133 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink"
-           xmlns:mods="http://www.loc.gov/mods/v3"
-           xmlns:mads="http://www.loc.gov/mads/v2"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
-           version="2.0">
-  <mads:authority>
-      <mads:name type="personal" authority="naf">
-         <mads:namePart>Appianus</mads:namePart>
-         <mads:namePart type="termsOfAddress">of Alexandria</mads:namePart>
-      </mads:name>
-  </mads:authority>
-  <mads:variant type="other">
-      <mads:name type="personal" authority="tlg">
-         <mads:namePart>Appianus</mads:namePart>
-         <mads:namePart type="termsOfAddress">Hist.</mads:namePart>
-      </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-      <mads:name type="personal">
-         <mads:namePart>Apiano</mads:namePart>
-      </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-      <mads:name type="personal">
-         <mads:namePart>Appien</mads:namePart>
-      </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="grc">
-      <mads:name type="personal">
-         <mads:namePart>Aππιανός</mads:namePart>
-      </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="ger">
-      <mads:name type="personal">
-         <mads:namePart>Appianos</mads:namePart>
-         <mads:namePart type="termsOfAddress">von Alexandria</mads:namePart>
-      </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-      <mads:name type="personal">
-         <mads:namePart>Appian</mads:namePart>
-         <mads:namePart type="termsOfAddress">of Alexandria</mads:namePart>
-      </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-      <mads:name type="personal">
-         <mads:namePart>Appien</mads:namePart>
-         <mads:namePart type="termsOfAddress">d'Alexandrie</mads:namePart>
-      </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-      <mads:name type="personal">
-         <mads:namePart>Appiano</mads:namePart>
-         <mads:namePart type="termsOfAddress"> Allessandrino</mads:namePart>
-      </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-      <mads:name type="personal">
-         <mads:namePart>Appiano</mads:namePart>
-         <mads:namePart type="termsOfAddress"> di Allessandria</mads:namePart>
-      </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-      <mads:name type="personal">
-         <mads:namePart>Apianus</mads:namePart>
-         <mads:namePart type="termsOfAddress"> Alexandrinus</mads:namePart>
-      </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-      <mads:name type="personal" authority="lsj">
-         <mads:namePart>App.</mads:namePart>
-      </mads:name>
-  </mads:variant>
-  <mads:variant type="abbreviation">
-      <mads:name type="personal" authority="lsj">
-         <mads:namePart>Appianis</mads:namePart>
-         <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
-      </mads:name>
-  </mads:variant>
-  <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  
-  <mads:note type="source">His Historia romana, 1980: t.p. (Apiano)</mads:note>
-  <mads:note type="source">His RoÌ&#x88;mische Geschichte, 1987- : v. 1, t.p. (Appian von
-        Alexandria)</mads:note>
-  <mads:note type="source">Concordantia in Appianum, 1993: p. ix (Appien d'Alexandrie)</mads:note>
-  
-  <mads:identifier type="citeurn">urn:cite:perseus:author.157.1</mads:identifier>
-  <mads:identifier type="lccn">n 81028285 </mads:identifier>
-  <mads:url>http://orlabs.oclc.org/identities/lccn-n81-28285</mads:url>
-  <mads:url>http://en.wikipedia.org/wiki/Appian</mads:url>
-  <mads:url>http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=acl3129.0001.001;didno=ACL3129.0001.001;view=image;seq=262;page=root;size=s;frm=frameset</mads:url>
-  <mads:identifier type="tlg">0551</mads:identifier>
-  <mads:extension>
-      <mads:description>List of related work identifiers</mads:description>
-      <mads:identifier type="tlg">0551.001</mads:identifier>
-      <mads:identifier type="tlg">0551.002</mads:identifier>
-      <mads:identifier type="tlg">0551.003</mads:identifier>
-      <mads:identifier type="tlg">0551.005</mads:identifier>
-      <mads:identifier type="tlg">0551.006</mads:identifier>
-      <mads:identifier type="tlg">0551.007</mads:identifier>
-      <mads:identifier type="tlg">0551.008</mads:identifier>
-      <mads:identifier type="tlg">0551.009</mads:identifier>
-      <mads:identifier type="tlg">0551.010</mads:identifier>
-      <mads:identifier type="tlg">0551.011</mads:identifier>
-      <mads:identifier type="tlg">0551.012</mads:identifier>
-      <mads:identifier type="tlg">0551.013</mads:identifier>
-      <mads:identifier type="tlg">0551.014</mads:identifier>
-      <mads:identifier type="tlg">0551.017</mads:identifier>
-      <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,001 </mads:identifier>
-      <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,002 </mads:identifier>
-      <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,003 </mads:identifier>
-      <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,004 </mads:identifier>
-      <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,005 </mads:identifier>
-      <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,006 </mads:identifier>
-      <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,007 </mads:identifier>
-      <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,008 </mads:identifier>
-      <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,009 </mads:identifier>
-      <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,010 </mads:identifier>
-      <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,011 </mads:identifier>
-      <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,012 </mads:identifier>
-      <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,013 </mads:identifier>
-      <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,014 </mads:identifier>
-      <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,017 </mads:identifier>
-  </mads:extension>
-  <mads:recordInfo>
-      <mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource>
-      <mads:recordCreationDate encoding="marc">810805</mads:recordCreationDate>
-      <mads:recordChangeDate encoding="iso8601">20020627135710.0</mads:recordChangeDate>
-      <mads:recordIdentifier>oca00574023 </mads:recordIdentifier>
-  </mads:recordInfo>
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
+    version="2.0">
+    <mads:authority>
+        <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/108993357/">
+            <mads:namePart>Appianus</mads:namePart>
+            <mads:namePart type="termsOfAddress">of Alexandria</mads:namePart>
+        </mads:name>
+    </mads:authority>
+    <mads:variant type="other">
+        <mads:name type="personal" authority="tlg">
+            <mads:namePart>Appianus</mads:namePart>
+            <mads:namePart type="termsOfAddress">Hist.</mads:namePart>
+        </mads:name>
+    </mads:variant>
+    <mads:variant type="other">
+        <mads:name type="personal">
+            <mads:namePart>Apiano</mads:namePart>
+        </mads:name>
+    </mads:variant>
+    <mads:variant type="other">
+        <mads:name type="personal">
+            <mads:namePart>Appien</mads:namePart>
+        </mads:name>
+    </mads:variant>
+    <mads:variant type="other" lang="grc">
+        <mads:name type="personal">
+            <mads:namePart>Aππιανός</mads:namePart>
+        </mads:name>
+    </mads:variant>
+    <mads:variant type="other" lang="ger">
+        <mads:name type="personal">
+            <mads:namePart>Appianos</mads:namePart>
+            <mads:namePart type="termsOfAddress">von Alexandria</mads:namePart>
+        </mads:name>
+    </mads:variant>
+    <mads:variant type="other">
+        <mads:name type="personal">
+            <mads:namePart>Appian</mads:namePart>
+            <mads:namePart type="termsOfAddress">of Alexandria</mads:namePart>
+        </mads:name>
+    </mads:variant>
+    <mads:variant type="other">
+        <mads:name type="personal">
+            <mads:namePart>Appien</mads:namePart>
+            <mads:namePart type="termsOfAddress">d'Alexandrie</mads:namePart>
+        </mads:name>
+    </mads:variant>
+    <mads:variant type="other">
+        <mads:name type="personal">
+            <mads:namePart>Appiano</mads:namePart>
+            <mads:namePart type="termsOfAddress">Allessandrino</mads:namePart>
+        </mads:name>
+    </mads:variant>
+    <mads:variant type="other">
+        <mads:name type="personal">
+            <mads:namePart>Appiano</mads:namePart>
+            <mads:namePart type="termsOfAddress">di Allessandria</mads:namePart>
+        </mads:name>
+    </mads:variant>
+    <mads:variant type="other">
+        <mads:name type="personal">
+            <mads:namePart>Apianus</mads:namePart>
+            <mads:namePart type="termsOfAddress">Alexandrinus</mads:namePart>
+        </mads:name>
+    </mads:variant>
+    <mads:variant type="other">
+        <mads:name type="personal" authority="lsj">
+            <mads:namePart>App.</mads:namePart>
+        </mads:name>
+    </mads:variant>
+    <mads:variant type="abbreviation">
+        <mads:name type="personal" authority="lsj">
+            <mads:namePart>Appianis</mads:namePart>
+            <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
+        </mads:name>
+    </mads:variant>
+    <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
+    <mads:note type="source">Brill's New Pauly: "Brill's New Pauly, "Appianus, I, historian ...Alexandrian historian, who was born between AD 90 and 95 in
+        Alexandria, lived there until 120 and then in Rome." from Magnino, Domenico (Pavia); Elvers, Karl-Ludwig (Bochum). "Appianus." 
+        Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and Helmuth Schneider . Brill, 2007. Brill Online. Tufts University Library. 04 October 2007</mads:note>
+    <mads:identifier type="citeurn">urn:cite:perseus:author.157.1</mads:identifier>
+    <mads:identifier type="lccn">n 81028285 </mads:identifier>
+    <mads:url>http://orlabs.oclc.org/identities/lccn-n81-28285</mads:url>
+    <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Appian</mads:url>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/108993357/</mads:url>
+    <mads:identifier type="tlg">0551</mads:identifier>
+    <mads:extension>
+        <mads:description>List of related work identifiers</mads:description>
+        <mads:identifier type="tlg">0551.001</mads:identifier>
+        <mads:identifier type="tlg">0551.002</mads:identifier>
+        <mads:identifier type="tlg">0551.003</mads:identifier>
+        <mads:identifier type="tlg">0551.005</mads:identifier>
+        <mads:identifier type="tlg">0551.006</mads:identifier>
+        <mads:identifier type="tlg">0551.007</mads:identifier>
+        <mads:identifier type="tlg">0551.008</mads:identifier>
+        <mads:identifier type="tlg">0551.009</mads:identifier>
+        <mads:identifier type="tlg">0551.010</mads:identifier>
+        <mads:identifier type="tlg">0551.011</mads:identifier>
+        <mads:identifier type="tlg">0551.012</mads:identifier>
+        <mads:identifier type="tlg">0551.013</mads:identifier>
+        <mads:identifier type="tlg">0551.014</mads:identifier>
+        <mads:identifier type="tlg">0551.017</mads:identifier>
+        <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,001 </mads:identifier>
+        <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,002 </mads:identifier>
+        <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,003 </mads:identifier>
+        <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,004 </mads:identifier>
+        <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,005 </mads:identifier>
+        <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,006 </mads:identifier>
+        <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,007 </mads:identifier>
+        <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,008 </mads:identifier>
+        <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,009 </mads:identifier>
+        <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,010 </mads:identifier>
+        <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,011 </mads:identifier>
+        <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,012 </mads:identifier>
+        <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,013 </mads:identifier>
+        <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,014 </mads:identifier>
+        <mads:identifier type="Perseus:abo">Perseus:abo:tlg,0551,017 </mads:identifier>
+    </mads:extension>
+    <mads:recordInfo>
+        <mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource>
+        <mads:recordCreationDate encoding="marc">810805</mads:recordCreationDate>
+        <mads:recordChangeDate encoding="iso8601">20020627135710.0</mads:recordChangeDate>
+        <mads:recordIdentifier>oca00574023 </mads:recordIdentifier>
+    </mads:recordInfo>
 </mads:mads>
