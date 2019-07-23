@@ -136,15 +136,11 @@
                         <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
                     </mods:role>
                 </mods:name>
-                <mods:name xmlns="http://www.loc.gov/mods/v3"
-              xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/nr94-21897.html">
-                    <mods:namePart>Hembold, W. C. (William Clark)</mods:namePart>
-                    <mods:namePart type="date">1908-</mods:namePart>
-                    <mods:role>
-                        <mods:roleTerm authority="marcrelator" type="text">translator</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
+    <mods:name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/54223370/">
+        <mods:namePart>Hembold, W. C. (William Clark)</mods:namePart>
+        <mods:namePart type="date">1908-1969</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+        </mods:role>
+    </mods:name>
             </mods:mods>
