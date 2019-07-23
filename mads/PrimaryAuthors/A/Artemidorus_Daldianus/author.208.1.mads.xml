@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/61683125/">
       <mads:namePart>Artemidorus</mads:namePart>
       <mads:namePart type="termsOfAddress">Daldianus</mads:namePart>
     </mads:name>
@@ -14,8 +15,8 @@
   </mads:variant>
   <mads:variant type="other" lang="fre">
     <mads:name type="personal">
-      <mads:namePart>Arte&#x301;midore</mads:namePart>
-      <mads:namePart type="termsOfAddress">d'E&#x301;phe&#x300;se</mads:namePart>
+      <mads:namePart>Artémidore</mads:namePart>
+      <mads:namePart type="termsOfAddress">d'Éphèse</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
@@ -38,7 +39,7 @@
   </mads:variant>
   <mads:variant type="other" lang="cze">
     <mads:name type="personal">
-      <mads:namePart>Artemid&#xF3;ros</mads:namePart>
+      <mads:namePart>Artemidóros</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
@@ -49,12 +50,12 @@
   </mads:variant>
   <mads:variant type="other" lang="ara" transliteration="rom">
     <mads:name type="personal">
-      <mads:namePart>Ifsi&#x304;, Art&#x323;imi&#x304;du&#x304;rus</mads:namePart>
+      <mads:namePart>Ifsī, Arṭimīdūrus</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ara">
     <mads:name type="personal">
-      <mads:namePart>&#x627;&#x631;&#x637;&#x627;&#x645;&#x64A;&#x62F;&#x648;&#x631;&#x633; &#x627;&#x644;&#x627;&#x641;&#x633;&#x633;&#x64A;</mads:namePart>
+      <mads:namePart>ارطاميدورس الافسسي</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="">
@@ -86,9 +87,14 @@
       <mads:namePart>Artem.</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:note type="nonpublic">Machine-derived non-Latin script reference project</mads:note>
-  <mads:note type="nonpublic">Non-Latin script reference not evaluated</mads:note>
-  <mads:note type="source">Artemidori. De somniorvm interpretatione ... 1546</mads:note>
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 1, 1867, p. 373-374: "Artemidorus Daldianus, was
+    a native of Ephesus, but is usually called Daldianus, to distinguish him from the geographer Artemidorus.... Artemidorus is the author
+    of a work on the interpretation of dreams Ὀνειροκριτικά in five books, which is still extant...."</mads:note>
+  <mads:note type="source">Brill's New Pauly: "Artemidorus of Daldis, Lived in 2nd cent. A.D., also known by the name A. of Ephesus.. ..author of Ὀνειροκριτικά, 
+    the only ancient treatise on dream interpretation that has been completely preserved. Bks. 1-3 are dedicated to one Cassius Maximus who is possibly 
+    identical to Maximus of Tyre...the first two books are a systematic account, followed by addenda in bk. 3. The books written for A.'s son introduce 
+    esoteric material for the professional dream interpreter..." Trapp, Michael (London). "Artemidorus." Brill's New Pauly. Antiquity volumes 
+    edited by: Hubert Cancik and Helmuth Schneider . Brill, 2010. Brill Online. Tufts University Library. 29 June 2010</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.208.1</mads:identifier>
   <mads:identifier type="lccn">n 50074037</mads:identifier>
   <mads:fieldOfActivity>Dream interpreter</mads:fieldOfActivity>
@@ -96,8 +102,7 @@
   <mads:fieldOfActivity>Astrologist</mads:fieldOfActivity>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Artemidorus</mads:url>
   <mads:url displayLabel="VIAF">https://viaf.org/viaf/61683125/</mads:url>
-  <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/identities/lccn-n50-74037</mads:url>
-  <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000388</mads:url>
+  <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/identities/lccn-n50-74037</mads:url> 
   <mads:identifier type="tlg">0553</mads:identifier>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>

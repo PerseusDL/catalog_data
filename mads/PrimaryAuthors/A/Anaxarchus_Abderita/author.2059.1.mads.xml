@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2059.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/49613693">
         <namePart>Anaxarchus</namePart>
         <namePart type="termsOfAddress">Abderita</namePart>
         <namePart type="date">v340/337</namePart>
@@ -100,11 +101,15 @@
         <namePart>阿那克萨图斯（阿布德拉）</namePart>
       </name>
     </variant>
+  <note type="source">Brill's New Pauly: "Anaxarchus of Abdera, Democritean philosopher ( Democriteans, c. 380-320 BC). He accompanied 
+    Alexander the Great on his campaign to the East. After Alexander's death, A. was taken prisoner and then pounded to death
+    in a mortar by Nicocreon, the tyrant of Salamis on Cyprus, with whom he had quarrelled..."</note>
     <fieldOfActivity>Philosopher</fieldOfActivity>
-    <fieldOfActivity>Pre-Socratic</fieldOfActivity>
-    <url displayLabel="VIAF">http://viaf.org/viaf/49613693</url>
+    <fieldOfActivity>Pre-Socratic</fieldOfActivity> 
+   <url displayLabel="VIAF">http://viaf.org/viaf/49613693</url>
     <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Anaxarchus</url>
     <identifier type="tlg">0714</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2059.1</identifier>
     <extension>
       <description>List of related work identifiers</description>
       <identifier type="tlg">0714.002</identifier>

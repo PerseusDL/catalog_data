@@ -6,7 +6,7 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/268702803/">
          <mads:namePart>Eutocius</mads:namePart>
          <mads:namePart type="termsOfAddress">of Ascalon</mads:namePart>
       </mads:name>
@@ -92,11 +92,18 @@
   </mads:variant>
   <mads:fieldOfActivity>Mathematician</mads:fieldOfActivity>
   <mads:fieldOfActivity>Commentator</mads:fieldOfActivity>
-  
-  
-  
+    <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 2, 1867, p. 125: "Eutocius of Ascalon,
+        the commentator on Apollonius of Perga and on Archimedes, must have lived about A.D. 560.."</mads:note>
+    <mads:note type="source">Brill's New Pauly: ") The mathematician E. of Ascalon was presumably born around AD 480; the widespread assumption that
+        he was a pupil of the architect  Isidorus of Miletus is hardly plausible [1. 488]. He wrote commentaries on three works of Archimedes [1] 
+        (Perì sphaíras kaì kylíndrou, Περὶ σφαίρας καὶ κυλίνδρου, kýklou métrēsis, κύκλου μέτρησις, Perì epipédōn isorrhopiôn, Περὶ ἐπιπέδων ἰσορροπιῶν,
+        text edition.....) as well as on the first four books of Apollonius' Kōniká (Κωνικά)...."
+        Folkerts, Menso (Munich).  “Eutocius”, in: Brill’s New Pauly, Antiquity volumes edited by: Hubert Cancik and , Helmuth Schneider, 
+        English Edition by: Christine F. Salazar, Classical Tradition volumes edited by: Manfred Landfester, English Edition by:
+        Francis G. Gentry. Consulted online on 23 July 2019.  First published online: 2006 </mads:note>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Eutocius_of_Ascalon</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/identities/lccn-n85-56938</mads:url>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/268702803/</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0002.001;didno=ACL3129.0002.001;view=image;seq=00000135</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.609.1</mads:identifier>
   <mads:identifier type="tlg">4072</mads:identifier>

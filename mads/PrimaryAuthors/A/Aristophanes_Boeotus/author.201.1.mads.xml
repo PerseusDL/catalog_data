@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/34843395">
       <mads:namePart>Aristophanes</mads:namePart>
       <mads:namePart type="termsOfAddress">Boeotus</mads:namePart>
       <mads:namePart type="date">4. Jh. v. Chr</mads:namePart>
@@ -16,7 +16,8 @@
   </mads:related>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>A&#x3C1;&#x3B9;&#x3C3;&#x3C4;&#x3BF;&#x3C6;&#x3AC;&#x3BD;&#x3B7;&#x3C2;</mads:namePart>
+      <mads:namePart>Aριστοφάνης</mads:namePart>
+      <mads:namePart type="termsOfAddress">Βοιωτικά</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
@@ -49,21 +50,15 @@
   <mads:identifier type="citeurn">urn:cite:perseus:author.201.1</mads:identifier>
   <mads:identifier type="uri">http://viaf.org/viaf/34843395</mads:identifier>
   <mads:identifier type="tlg">1196</mads:identifier>
-  <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="Worldcat Identities"/>
+  <mads:fieldOfActivity>Historian</mads:fieldOfActivity>  
+  <mads:note type="source">"Smith's Dictionary of Greek and Roman Biography and Mythology, "Aristophanes, 3. a Boeotian, (Plut. de Malign. Herod. p. 874),
+    of whom Suidas (s. vv. Ὁμολωίος, Θηβαίους ὅρους comp. Steph. Byz. s. v. Ἀντικονδυλεῖς) mentions the second book of a work on Thebes (Θηβαϊκά). Another
+    work bore the name of Βοιωτικά, and the second book of it is quoted by Suidas. (s. v. Χαιρωνεία...."</mads:note>
   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus%253Atext%253A1999.04.0104%253Aentry%253Daristophanes-bio-16</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/34843395</mads:url>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
     <mads:identifier type="tlg">1196.004</mads:identifier>
-  </mads:extension>
-  <mads:extension>
-    <mads:gender>
-      <mads:genderTerm>unknown</mads:genderTerm>
-    </mads:gender>
   </mads:extension>
   <mads:recordInfo>
     <mads:recordOrigin>Converted from MARCXML to MADS version 2.0 (Revision 2.10)</mads:recordOrigin>
