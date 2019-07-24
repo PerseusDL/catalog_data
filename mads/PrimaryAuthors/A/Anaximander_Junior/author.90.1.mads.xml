@@ -1,15 +1,18 @@
 <?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  version="2.0">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/35262585">
       <mads:namePart>Anaximander</mads:namePart>
       <mads:namePart type="termsOfAddress">Iunior</mads:namePart>
       <mads:namePart type="date">ca. 4. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:authority>
-  <mads:related type="equivalent" lang="grc">
+  <mads:related type="equivalent" lang="grc"> 
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x1F08;&#x3BD;&#x3B1;&#x3BE;&#x3AF;&#x3BC;&#x3B1;&#x3BD;&#x3B4;&#x3C1;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Ἀναξίμανδρος</mads:namePart>
     </mads:name>
   </mads:related>
   <mads:variant type="other" lang="ita">
@@ -35,22 +38,8 @@
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
-      <mads:namePart>Anaximander</mads:namePart>
-      <mads:namePart type="termsOfAddress">der Ju&#x308;ngere</mads:namePart>
-      <mads:namePart type="date">ca. 4. Jh. v. Chr</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="ger">
-    <mads:name type="personal">
       <mads:namePart>Anaximandros</mads:namePart>
       <mads:namePart type="termsOfAddress">Historiker</mads:namePart>
-      <mads:namePart type="date">ca. 4. Jh. v. Chr</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="ger">
-    <mads:name type="personal">
-      <mads:namePart>Anaximandros</mads:namePart>
-      <mads:namePart type="termsOfAddress">der Ju&#x308;ngere</mads:namePart>
       <mads:namePart type="date">ca. 4. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
@@ -65,18 +54,10 @@
       <mads:namePart>Anaximand.Hist.</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:url>http://viaf.org/viaf/35262585</mads:url>
   <mads:url displayLabel="Dataset description">http://viaf.org/viaf/data</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.90.1</mads:identifier>
   <mads:identifier type="uri">http://viaf.org/viaf/35262585</mads:identifier>
-  <mads:extension>
-    <mads:gender>
-      <mads:genderTerm>male</mads:genderTerm>
-    </mads:gender>
-  </mads:extension> 
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Anaximander</mads:url>
-  <mads:url displayLabel="Worldcat Identities"/>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/35262585</mads:url>
   <mads:identifier type="tlg">1120.002</mads:identifier>
   <mads:extension>
@@ -84,7 +65,8 @@
     <mads:identifier type="tlg">1120.002</mads:identifier>
   </mads:extension>
   <mads:recordInfo>
-    <mads:recordOrigin>Converted from MARCXML to MADS version 2.0 (Revision 2.10)</mads:recordOrigin>
+    <mads:recordOrigin>Converted from MARCXML to MADS version 2.0 (Revision
+      2.10)</mads:recordOrigin>
     <mads:recordContentSource authority="marcorg">VIAF</mads:recordContentSource>
     <mads:recordIdentifier source="OCoLC">viaf35262585</mads:recordIdentifier>
     <mads:descriptionStandard>other rules</mads:descriptionStandard>

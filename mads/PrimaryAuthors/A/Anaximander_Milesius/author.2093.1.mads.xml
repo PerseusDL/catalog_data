@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-  <identifier type="citeurn">urn:cite:perseus:author.2093.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
   <authority lang="lat">
-    <name type="personal" authority="naf">
+    <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/280059448/">
       <namePart>Anaximander</namePart>
     </name>
   </authority>
@@ -43,7 +45,8 @@
       <namePart>أناكسيماندر</namePart>
     </name>
   </variant>
-  <fieldOfActivity>Philosopher</fieldOfActivity>
+  <identifier type="citeurn">urn:cite:perseus:author.2093.1</identifier>
+    <fieldOfActivity>Philosopher</fieldOfActivity>
   <fieldOfActivity>Pre-Socratic</fieldOfActivity>
   <note type="source">Kahn, C.R. Anaximander and the origins of Greek cosmology, 1985</note>
   <note type="source">Laurenti, R. Introduzione a Talete, Anassimandro, Anassimene, 1986: t.p.
