@@ -6,7 +6,8 @@
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
            version="2.0">
   <mads:authority>
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/100192636/">
          <mads:namePart>Arrian</mads:namePart>
       </mads:name>
   </mads:authority>
@@ -38,25 +39,9 @@
          <mads:namePart>Hist. et. Phil.</mads:namePart>
       </mads:name>
   </mads:variant>
-  <mads:variant type="other">
-      <mads:name type="personal" authority="lsj">
-         <mads:namePart>Arrianus</mads:namePart>
-         <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
-      </mads:name>
-  </mads:variant>
-  <mads:variant type="abbreviation">
-      <mads:name type="personal" authority="lsj">
-         <mads:namePart>Arr.</mads:namePart>
-      </mads:name>
-  </mads:variant>
   <mads:variant type="other" lang="fre">
       <mads:name type="personal">
          <mads:namePart>Arrien</mads:namePart>
-      </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-      <mads:name type="personal">
-         <mads:namePart>ArriaÌ&#x81;nos</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="spa">
@@ -69,26 +54,33 @@
          <mads:namePart>Arriano, Lucio Flavio</mads:namePart>
       </mads:name>
   </mads:variant>
+    <mads:variant type="other">
+        <mads:name type="personal">
+            <mads:namePart>'Arrianós, Flávios</mads:namePart>
+        </mads:name>
+    </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Arriano</mads:namePart>
       </mads:name>
   </mads:variant>
+    <mads:variant type="other">
+        <mads:name type="personal" authority="lsj">
+            <mads:namePart>Arrianus</mads:namePart>
+            <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
+        </mads:name>
+    </mads:variant>
+    <mads:variant type="abbreviation">
+        <mads:name type="personal" authority="lsj">
+            <mads:namePart>Arr.</mads:namePart>
+        </mads:name>
+    </mads:variant>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Philosopher</mads:fieldOfActivity>
-  
-  <mads:note type="source">Bashmakov, A. A. La syntheÌ&#x80;se des peÌ&#x81;riples
-        pontiques ... 1948</mads:note>
-  <mads:note type="source">Gli eventi dopo Alessandro, c1993: t.p. (Flavio Arriano) p. 7, etc.
-        (Lucio Flavio Arriano, b. in Bitinia ca. 87-90 A.D.; death date unkown, but no later than
-        180)</mads:note>
-  <mads:note type="source">Oxford class. dict. (Arrian (Flavius Arrianus, 2nd c. A.D.) of
-        Bithynia, governed Cappadocia under Hadrian))</mads:note>
-  <mads:note type="source">Anabasi di Alessandro, 2001- : v. 1, t.p. (Arriano)</mads:note>
-  
+    <mads:fieldOfActivity>Philosopher</mads:fieldOfActivity> 
   <mads:identifier type="citeurn">urn:cite:perseus:author.206.1</mads:identifier>
   <mads:identifier type="lccn">n 79023201 </mads:identifier>
   <mads:identifier type="tlg">0074</mads:identifier>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/100192636/</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Arrian</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-n79-23201</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000365</mads:url>
