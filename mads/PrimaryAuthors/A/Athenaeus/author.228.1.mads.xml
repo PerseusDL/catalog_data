@@ -6,7 +6,8 @@
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
            version="2.0">
   <mads:authority>
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/7146217703009140660/">
          <mads:namePart>Athenaeus</mads:namePart>
          <mads:namePart type="termsOfAddress">of Naucratis</mads:namePart>
       </mads:name>
@@ -71,30 +72,20 @@
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
-      <mads:name type="personal" authority="lsj">
-         <mads:namePart>Athenaeus</mads:namePart>
-         <mads:namePart type="termsOfAddress">Grammaticus</mads:namePart>
-      </mads:name>
-  </mads:variant>
-  <mads:variant type="abbreviation">
-      <mads:name type="personal" authority="lsj">
-         <mads:namePart>Ath.</mads:namePart>
-      </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
       <mads:name type="personal">
-         <mads:namePart>AtheÌ&#x84;naios</mads:namePart>
-      </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-      <mads:name type="personal">
-         <mads:namePart>AtheÌ&#x81;neÌ&#x81;e</mads:namePart>
+          <mads:namePart>Athenée‏</mads:namePart>
          <mads:namePart type="termsOfAddress">de Naucratis</mads:namePart>
       </mads:name>
   </mads:variant>
+    <mads:variant type="other">
+        <mads:name type="personal">
+            <mads:namePart>Ateneo</mads:namePart>
+            <mads:namePart type="termsOfAddress">de Náucratis </mads:namePart>
+        </mads:name>
+    </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
-         <mads:namePart>AteneÌ&#x80;o</mads:namePart>
+          <mads:namePart>Ateneo</mads:namePart>
          <mads:namePart type="termsOfAddress">di Naucrati</mads:namePart>
       </mads:name>
   </mads:variant>
@@ -105,24 +96,29 @@
          <mads:namePart type="date"> 2./3. Jh.</mads:namePart>
       </mads:name>
   </mads:variant>
-  <mads:variant type="other">
-      <mads:name type="personal">
-         <mads:namePart>AfineiÌ&#x86;</mads:namePart>
-         <mads:namePart type="termsOfAddress">iz Navkratidy</mads:namePart>
-      </mads:name>
-  </mads:variant>
+    <mads:variant type="other">
+        <mads:name type="personal" authority="lsj">
+            <mads:namePart>Athenaeus</mads:namePart>
+            <mads:namePart type="termsOfAddress">Grammaticus</mads:namePart>
+        </mads:name>
+    </mads:variant>
+    <mads:variant type="abbreviation">
+        <mads:name type="personal" authority="lsj">
+            <mads:namePart>Ath.</mads:namePart>
+        </mads:name>
+    </mads:variant>
+    <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 1, 1867, p. 400: "Athenaeus, a native of Naucratis....His extant
+        work is entitled the Deipnosophistae, i.e. The Banquet of the Learned.....It may be considered one of the earliest collections of what are called Ana, 
+        being an immense mass of anecdotes, extracts, from the writings of poets, historians, dramatists, philosophers, orators, and physicians, of facts in
+        natural history, criticisms, and discussions on almost every conceivable subject, especially on Gastronomy...."</mads:note>
   <mads:fieldOfActivity>Sophist</mads:fieldOfActivity>
   <mads:fieldOfActivity>Rhetorician</mads:fieldOfActivity>
   <mads:note type="source">La cultura storica di Ateneo, 1989</mads:note>
-  <mads:note type="source">La Piccola trecciani, 1995 (AteneÌ&#x80;o, di Naucrati)</mads:note>
-  <mads:note type="source">VizantiiÌ&#x86;skie istoriki, 2003: t.p. (AfineiÌ&#x86;) p. 349
-        (ok. 200 g. n. eÌ&#x87;.; iz Navkratidy)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.228.1</mads:identifier>
   <mads:identifier type="lccn">n 80051703 </mads:identifier>
   <mads:identifier type="tlg">0008</mads:identifier>
-  
-  
-  <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Athenaeus</mads:url>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/7146217703009140660/</mads:url>
+   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Athenaeus</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-n80-51703</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;q1=Athenaeus;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000415</mads:url>
   <mads:extension>
