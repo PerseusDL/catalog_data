@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal" authority="">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/88933794">
       <mads:namePart>Demetrius</mads:namePart>
       <mads:namePart type="termsOfAddress">of Phaleron</mads:namePart>
       <mads:namePart type="date">b. 350 B.C</mads:namePart>
@@ -9,44 +10,31 @@
   </mads:authority>
   <mads:related type="equivalent" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x394;&#x3B7;&#x3BC;&#x3AE;&#x3C4;&#x3C1;&#x3B9;&#x3BF;&#x3C2;</mads:namePart>
-      <mads:namePart type="termsOfAddress">&#x3A6;&#x3B1;&#x3BB;&#x3B7;&#x3C1;&#x3B5;&#x3CD;&#x3C2;</mads:namePart>
-    </mads:name>
-  </mads:related>
-  <mads:related type="equivalent" lang="lat">
-    <mads:name type="personal">
-      <mads:namePart>Demetrius</mads:namePart>
+      <mads:namePart>Δημήτριος</mads:namePart>
+      <mads:namePart type="termsOfAddress">Φαληρεύς</mads:namePart>
     </mads:name>
   </mads:related>
   <mads:related type="equivalent">
     <mads:name type="personal">
-      <mads:namePart>Demetrios fr&#xE5;n Faleron</mads:namePart>
-      <mads:namePart type="date">ca 350-ca 283 f.Kr</mads:namePart>
+      <mads:namePart>Demetrios</mads:namePart>
+      <mads:namePart type="termsOfAddress">från Faleron</mads:namePart>
     </mads:name>
   </mads:related>
   <mads:related type="equivalent" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Demetrius</mads:namePart>
       <mads:namePart type="termsOfAddress">Phalereus</mads:namePart>
-      <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
     </mads:name>
   </mads:related>
   <mads:related type="equivalent">
     <mads:name type="personal">
       <mads:namePart>Demetrius Phalereus</mads:namePart>
-      <mads:namePart type="date">c. 350-c. 283 a.C</mads:namePart>
     </mads:name>
   </mads:related>
   <mads:related type="equivalent" lang="fre">
     <mads:name type="personal">
       <mads:namePart>Demetrius</mads:namePart>
-      <mads:namePart type="termsOfAddress">de Phal&#xE8;re</mads:namePart>
-    </mads:name>
-  </mads:related>
-  <mads:related type="equivalent">
-    <mads:name type="personal">
-      <mads:namePart>De&#x301;me&#x301;trios de Phale&#x300;re</mads:namePart>
-      <mads:namePart type="date">0350?-0283? av. J.-C</mads:namePart>
+      <mads:namePart type="termsOfAddress">de Phalère</mads:namePart>
     </mads:name>
   </mads:related>
   <mads:related type="equivalent">
@@ -57,35 +45,14 @@
   </mads:related>
   <mads:related type="equivalent" lang="ita">
     <mads:name type="personal">
-      <mads:namePart>Demetrio de Falera</mads:namePart>
-      <mads:namePart type="date">fl. 348-282 a.C</mads:namePart>
+      <mads:namePart>Demetrio</mads:namePart>
+      <mads:namePart type="termsOfAddress">de Falera</mads:namePart>
     </mads:name>
   </mads:related>
-  <mads:related type="other">
+  <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Demetrio</mads:namePart>
-    </mads:name>
-  </mads:related>
-  <mads:related type="other">
-    <mads:name type="personal">
-      <mads:namePart>Demetrios</mads:namePart>
-    </mads:name>
-  </mads:related>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Demetrio Falereo</mads:namePart>
-      <mads:namePart type="date">c. 350-c. 283 a.C</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Demetrio Falereo</mads:namePart>
-      <mads:namePart type="date">0350?-0283? av. J.-C</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Demetrio de Falera</mads:namePart>
+      <mads:namePart type="termsOfAddress">Falereo</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -93,34 +60,16 @@
       <mads:namePart>Demetrios Phalereus</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Demetrios de Phal&#xF6;re</mads:namePart>
-      <mads:namePart type="date">(c. 350-283 av. J. C.)</mads:namePart>
-    </mads:name>
-  </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
-      <mads:namePart>Demetrios von Phaleron</mads:namePart>
-      <mads:namePart type="date">ca 350-ca 283 f.Kr</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="ger">
-    <mads:name type="personal">
-      <mads:namePart>Demetrios von Phaleron</mads:namePart>
-      <mads:namePart type="date">0350?-0283? av. J.-C</mads:namePart>
+      <mads:namePart>Demetrios</mads:namePart>
+      <mads:namePart type="termsOfAddress">von Phaleron</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Demetrios von Phaleron</mads:namePart>
       <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Demetrios</mads:namePart>
-      <mads:namePart type="termsOfAddress">de Phal&#xE8;re</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -133,52 +82,7 @@
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Demetrios</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Demetrios</mads:namePart>
-      <mads:namePart type="termsOfAddress">Athenischer Politiker</mads:namePart>
-      <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Demetrios</mads:namePart>
-      <mads:namePart type="termsOfAddress">Freund Theophrasts</mads:namePart>
-      <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Demetrios</mads:namePart>
-      <mads:namePart type="termsOfAddress">Peripatetiker</mads:namePart>
-      <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Demetrios</mads:namePart>
       <mads:namePart type="termsOfAddress">Politiker</mads:namePart>
-      <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Demetrios</mads:namePart>
-      <mads:namePart type="termsOfAddress">von Phaleron</mads:namePart>
-      <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Demetrios</mads:namePart>
-      <mads:namePart type="date">0350?-0283? av. J.-C</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Demetrios</mads:namePart>
       <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
@@ -186,81 +90,23 @@
     <mads:name type="personal">
       <mads:namePart>Demetrio</mads:namePart>
       <mads:namePart type="termsOfAddress">Bibliotecario</mads:namePart>
-      <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Demetrio</mads:namePart>
-      <mads:namePart type="termsOfAddress">Falereo</mads:namePart>
-      <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Demetrio</mads:namePart>
-      <mads:namePart type="termsOfAddress">Filosofo Peripatetico</mads:namePart>
-      <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Demetrius Phalereus</mads:namePart>
-      <mads:namePart type="date">b. 350 B.C</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Demetrius Phalereus</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Demetrius Phalerus</mads:namePart>
     </mads:name>
-  </mads:variant>
+  </mads:variant>  
   <mads:variant type="other">
     <mads:name type="personal">
-      <mads:namePart>Demetrius Phalerus</mads:namePart>
-      <mads:namePart type="date">0350?-0283? av. J.-C</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Demetrius Phal&#xE6;reus</mads:namePart>
-      <mads:namePart type="date">ca 350-ca 283 f.Kr</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Demetrius de Phale&#x300;re</mads:namePart>
-      <mads:namePart type="date">0350?-0283? av. J.-C</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Demetrius di Falero</mads:namePart>
-      <mads:namePart type="date">c. 350-c. 283 a.C</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Demetrius of Phalerum</mads:namePart>
-      <mads:namePart type="date">ca 350-ca 283 f.Kr</mads:namePart>
+      <mads:namePart>Demetrius</mads:namePart>
+      <mads:namePart type="termsOfAddress">di Falero</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Demetrius</mads:namePart>
-      <mads:namePart type="termsOfAddress">of Phaleron</mads:namePart>
-      <mads:namePart type="date">b. 350 B.C</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Demetrius</mads:namePart>
-      <mads:namePart type="termsOfAddress">of Phaleron</mads:namePart>
-      <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
+      <mads:namePart type="termsOfAddress">of Phalerum</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -272,32 +118,14 @@
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
-      <mads:namePart>Demetriusz z Faleronu</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
       <mads:namePart>Demetriusz</mads:namePart>
+      <mads:namePart type="termsOfAddress">z Faleronu</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Demetrius</mads:namePart>
       <mads:namePart type="termsOfAddress">Falereus</mads:namePart>
-      <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Demetrius</mads:namePart>
-      <mads:namePart type="termsOfAddress">Formarum Epistolicarum Auctor</mads:namePart>
-      <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Demetrius</mads:namePart>
-      <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
       <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
@@ -311,39 +139,7 @@
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Demetrius</mads:namePart>
-      <mads:namePart type="termsOfAddress">Philosophus</mads:namePart>
-      <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Demetrius</mads:namePart>
       <mads:namePart type="termsOfAddress">Rhetor</mads:namePart>
-      <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>De&#x304;me&#x304;trios</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>De&#x304;me&#x304;trios ho Phale&#x304;reu&#x301;s</mads:namePart>
-      <mads:namePart type="date">0350?-0283? av. J.-C</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>D&#xE9;m&#xE9;trios</mads:namePart>
-      <mads:namePart type="termsOfAddress">de Phal&#xE8;re</mads:namePart>
-      <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>D&#xE9;m&#xE9;trius</mads:namePart>
-      <mads:namePart type="termsOfAddress">de Phal&#xE8;re</mads:namePart>
       <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
@@ -384,13 +180,11 @@
       <mads:namePart>Epist.Charact.</mads:namePart>
     </mads:name>
   </mads:variant>
+  <mads:note type="source">Brill's New Pauly: "Demetrius, of Phalereum, Politician and Philosopher, 4th cent. BC</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.455.1</mads:identifier>
   <mads:identifier type="uri">http://viaf.org/viaf/88933794</mads:identifier>
   <mads:fieldOfActivity>Orator</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  
-  
-  
+  <mads:fieldOfActivity>Historian</mads:fieldOfActivity> 
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Demetrius_of_Phalerum</mads:url>
   <mads:url displayLabel="Worldcat Identities"/>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/88933794</mads:url>
