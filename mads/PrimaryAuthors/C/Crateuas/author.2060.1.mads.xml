@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2060.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="">
+      <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/20068934/">
         <namePart>Crateuas</namePart>
       </name>
     </authority>
-    <variant type="equivalent" lang="lat">
+    <variant type="other">
       <name type="personal">
         <namePart>Cratevas</namePart>
         <namePart type="termsOfAddress">Medicus</namePart>
@@ -67,10 +68,13 @@
         <namePart type="date">v2./1. Jh</namePart>
       </name>
     </variant>
-    <note type="source">Smith's Dictonary: "Cratevas, Greek herbalist (π̔ιζοτόμος) who lived about the beginning of the first century B. C., as he gave the name Mithridatia to a plant in honour of Mithridates. (Plin. H. N. 25.26.) He is frequently quoted by Pliny and Dioscorides, and is mentioned by Galen...."</note>
+    <note type="source">Smith's Dictonary: "Cratevas, Greek herbalist (π̔ιζοτόμος) who lived about
+      the beginning of the first century B. C., as he gave the name Mithridatia to a plant in honour
+      of Mithridates. (Plin. H. N. 25.26.) He is frequently quoted by Pliny and Dioscorides, and is mentioned by Galen...."</note>
     <fieldOfActivity>Pharmacological writer</fieldOfActivity>
     <fieldOfActivity>Medical Author</fieldOfActivity>
     <identifier type="tlg">0657</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2060.1</identifier>
     <identifier type="uri">http://viaf.org/viaf/20068934</identifier>
     <url displayLabel="VIAF">http://viaf.org/viaf/20068934</url>
     <url displayLabel="Wikipedia">https://de.wikipedia.org/wiki/Krateuas</url>
@@ -78,6 +82,5 @@
     <extension>
       <description>List of related work identifiers</description>
       <identifier type="tlg">0657.001</identifier>
-    </extension>   
-    
+    </extension>       
   </mads>

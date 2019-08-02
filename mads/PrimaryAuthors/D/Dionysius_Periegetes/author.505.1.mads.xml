@@ -1,14 +1,16 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority lang="lat">
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/100902699">
       <mads:namePart>Dionysius</mads:namePart>
       <mads:namePart type="termsOfAddress">Periegetes</mads:namePart>
     </mads:name>
   </mads:authority>
   <mads:related type="equivalent" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart/>
+      <mads:namePart>Διονύσιος</mads:namePart>
+      <mads:namePart type="termsOfAddress">ὁ Περιηγητής</mads:namePart>
     </mads:name>
   </mads:related>
   <mads:related type="equivalent">
@@ -44,12 +46,12 @@
   </mads:related>
   <mads:variant type="other" lang="cat">
     <mads:name type="personal">
-      <mads:namePart>Dion&#xED;s Periegetes</mads:namePart>
+      <mads:namePart>Dionís Periegetes</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="cat">
     <mads:name type="personal">
-      <mads:namePart>Dion&#xED;s</mads:namePart>
+      <mads:namePart>Dionís</mads:namePart>
       <mads:namePart type="termsOfAddress">Periegetes</mads:namePart>
     </mads:name>
   </mads:variant>
@@ -68,13 +70,13 @@
   <mads:variant type="other" lang="fre">
     <mads:name type="personal">
       <mads:namePart>Denis</mads:namePart>
-      <mads:namePart type="termsOfAddress">le G&#xE9;ographe</mads:namePart>
+      <mads:namePart type="termsOfAddress">le Géographe</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
     <mads:name type="personal">
       <mads:namePart>Denis</mads:namePart>
-      <mads:namePart type="termsOfAddress">le P&#xE9;ri&#xE9;g&#xE8;te</mads:namePart>
+      <mads:namePart type="termsOfAddress">le Périégète</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
@@ -98,26 +100,13 @@
   <mads:variant type="other" lang="fre">
     <mads:name type="personal">
       <mads:namePart>Denys</mads:namePart>
-      <mads:namePart type="termsOfAddress">le G&#xE9;ographe</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="fre">
-    <mads:name type="personal">
-      <mads:namePart>Denys</mads:namePart>
-      <mads:namePart type="termsOfAddress">le P&#xE9;ri&#xE9;g&#xE8;te</mads:namePart>
+      <mads:namePart type="termsOfAddress">le Périégète</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
     <mads:name type="personal">
       <mads:namePart>Denys</mads:namePart>
       <mads:namePart type="termsOfAddress">Alexandrin</mads:namePart>
-      <mads:namePart type="date">fl.1./2. Jh</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="fre">
-    <mads:name type="personal">
-      <mads:namePart>Denys</mads:namePart>
-      <mads:namePart type="termsOfAddress">le P&#xE9;ri&#xE9;g&#xE8;te</mads:namePart>
       <mads:namePart type="date">fl.1./2. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
@@ -179,13 +168,7 @@
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Dionysios</mads:namePart>
-      <mads:namePart type="termsOfAddress">Charaske&#x304;nos</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Dionysios</mads:namePart>
-      <mads:namePart type="termsOfAddress">ho Perie&#x304;ge&#x304;te&#x304;s</mads:namePart>
+      <mads:namePart type="termsOfAddress">Charaskēnos</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -257,12 +240,6 @@
     <mads:name type="personal">
       <mads:namePart>Dionysius</mads:namePart>
       <mads:namePart type="termsOfAddress">Alexandrinus Periegetes</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Dionysius</mads:namePart>
-      <mads:namePart type="termsOfAddress">Charaske&#x304;nos</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
@@ -378,9 +355,12 @@
   <mads:identifier type="uri">http://viaf.org/viaf/100902699</mads:identifier>
   <mads:fieldOfActivity>Geographer</mads:fieldOfActivity>
   <mads:fieldOfActivity>Travel Writer</mads:fieldOfActivity>
-  
-  
-  
+  <mads:note type="source">"D. Periegetes From Alexandria, author of a geopgraphical poem, c. AD 100... Under Hadrian he wrote 
+    (according to the acrostic vv. 513-532) a didactic poem in hexameters with a poetic description of the world (Οἰκουμένης περιήγησις
+    Oikouménēs perihḗgēsis): after an introduction (1-26), it deals with the ocean (27-169), the continents of Africa (170-269)
+    and Europe (270-446), the islands (447-619), and Asia (620-1165). The work was much read in antiquity, the 
+    Middle Ages, and into the 19th cent. It was loosely translated into Latin by Avienus and Priscianus, and was commented thoroughly by Eustathius....."</mads:note>
+  <mads:url displayLabel="VIAF">http://viaf.org/viaf/100902699</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Dionysius_Periegetes</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n84-133347</mads:url>
   <mads:url displayLabel="Smith's Dictionary"/>
@@ -388,6 +368,8 @@
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
     <mads:identifier type="tlg">0084.001</mads:identifier>
+    <mads:identifier type="tlg">0084.002</mads:identifier>
+    <mads:identifier type="tlg">0084.003</mads:identifier>
   </mads:extension>
   <mads:recordInfo>
     <mads:recordContentSource authority="marcorg">VIAF</mads:recordContentSource>
