@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2031.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority lang="eng">
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/76705947">
 	        <namePart>Bion</namePart>
 	        <namePart type="termsOfAddress">of Abdera</namePart>
       </name>
@@ -32,6 +33,7 @@
       </name>
     </variant>
     <identifier type="tlg">2153</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2031.1</identifier>
     <fieldOfActivity>Philosopher</fieldOfActivity>
     <fieldOfActivity>Mathematician</fieldOfActivity>
     <url displayLabel="viaf">http://viaf.org/viaf/76705947</url>
