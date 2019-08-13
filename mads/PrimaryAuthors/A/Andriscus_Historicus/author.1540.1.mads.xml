@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable" lang="lat">
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/44692240">
       <mads:namePart>Andriscus</mads:namePart>
       <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
       <mads:namePart type="date">v4./3. Jh</mads:namePart>
@@ -19,25 +20,15 @@
       <mads:namePart type="date">v4./3. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:variant type="other" lang="ger">
-    <mads:name type="personal">
-      <mads:namePart>Andriskos</mads:namePart>
-      <mads:namePart type="termsOfAddress">Verfasser einer Lokalgeschichte von Naxos</mads:namePart>
-      <mads:namePart type="date">v4./3. Jh</mads:namePart>
-    </mads:name>
-  </mads:variant>
   <mads:identifier type="uri">http://viaf.org/viaf/44692240</mads:identifier>
-  <mads:identifier type="ctsurn"/>
   <mads:identifier type="tlg">2346</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1540.1</mads:identifier>
-  <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="Worldcat Identities"/>
+  <mads:fieldOfActivity>Historian</mads:fieldOfActivity> 
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology: "Andriscus, A writer of uncertain date, the author of a work upon Naxos. (Athen. 3.78c.
+    Parthen. 100.9, 19.)..."</mads:note>
+  <mads:note type="source">Brill's New Pauly: "Andriscus, Of Naxos, historian, 3rd cent. BC..."</mads:note>
   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=andriscus-bio-2</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/44692240</mads:url>
-  <mads:url displayLabel="id.gov"/>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
     <mads:identifier type="tlg">2346.002</mads:identifier>
