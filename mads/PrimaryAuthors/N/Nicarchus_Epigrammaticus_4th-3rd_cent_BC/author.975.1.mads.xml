@@ -1,12 +1,18 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/2858250/">
       <mads:namePart>Nicarchus</mads:namePart>
       <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
       <mads:namePart type="date">fl.4./3. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:authority>
+  <mads:related type="equivalent" lang="grc">
+    <mads:name>
+      <mads:namePart>Nίκαρχoς</mads:namePart>
+    </mads:name>
+  </mads:related>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Nicarchus</mads:namePart>
@@ -41,15 +47,14 @@
       <mads:namePart type="date">fl.4./3. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:note type="nonpublic">TITAN</mads:note>
-  <mads:note type="source">PAN</mads:note>
+  <mads:note type="source">Brill's New Pauly: "Epigrammatist of the ‘Garland’ of Meleager [8]: it is certain that he was the origin of the epideictic 
+    epigram Anth. Pal. 9,330 to an ithyphallic Pan, probably also of the dedicatory epigram 6,285, even if it bears the unusual attribution Νικάρχου
+    δοκεῖ (‘seems to be by N.’). In contrast, 6,31 is uncertain.... Albiani, Maria Grazia (Bologna). "Nicarchus." Brill's New Pauly. 
+    Antiquity volumes edited by: Hubert Cancik and
+    Helmuth Schneider . Brill, 2010. Brill Online</mads:note>
   <mads:note type="history">AP 6.31,285; 7.159,166; 9.330; Griech. Dichter</mads:note>
-  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|102400393</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
+  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>  
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/2858250/</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.975.1</mads:identifier>
   <mads:identifier type="tlg">1531</mads:identifier>
   <mads:extension>

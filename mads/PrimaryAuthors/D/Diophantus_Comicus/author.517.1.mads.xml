@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  version="2.0"
+  xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/37304535/">
       <mads:namePart>Diophantus</mads:namePart>
       <mads:namePart type="termsOfAddress">Comicus</mads:namePart>
       <mads:namePart type="date">Person der Antike</mads:namePart>
@@ -9,18 +13,18 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x394;&#x3B9;&#x3BF;&#x3C6;&#x3B1;&#x3BD;&#x3C4;&#x3CC;&#x3C2;</mads:namePart>
+      <mads:namePart>Διοφαντός</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:note type="history">CAF 3,375; FCG 1,492</mads:note>
   <mads:note type="genre">New Comedy</mads:note>
   <mads:fieldOfActivity>Comic Poet</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|102391424</mads:url>
-  <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00001065</mads:url>
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 1, 1867, p. 1050: "Diophantus, an Athenian comic poet of the new comedy..."
+    Brill's New Pauly: "Diophantus, Author of comedies, dates unknown one fragment and the title of one play (Μετοικιζόμενος) have been preserved.
+    ...." Nesselrath, Heinz-Günther (Göttingen). Diophantus." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and Helmuth Schneider . Brill, 2009. Brill Online.</mads:note>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/37304535/</mads:url>
+  <mads:url displayLabel="Smith's Dictionary"
+    >http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00001065</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.517.1</mads:identifier>
   <mads:identifier type="tlg">0395</mads:identifier>
   <mads:extension>

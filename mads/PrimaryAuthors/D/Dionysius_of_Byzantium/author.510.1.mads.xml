@@ -1,15 +1,16 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/261632747">
       <mads:namePart>Dionysius</mads:namePart>
       <mads:namePart type="termsOfAddress">of Byzantium</mads:namePart>
     </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x394;&#x3B9;&#x3BF;&#x3BD;&#x3CD;&#x3C3;&#x3B9;&#x3BF;&#x3C2;</mads:namePart>
-      <mads:namePart type="termsOfAddress">&#x392;&#x3C5;&#x3B6;&#x3AC;&#x3BD;&#x3C4;&#x3B9;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Διονύσιος</mads:namePart>
+      <mads:namePart type="termsOfAddress">Βυζάντιος</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
@@ -57,7 +58,10 @@
   <mads:identifier type="tlg">0083</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.510.1</mads:identifier>
   <mads:fieldOfActivity>Geographer</mads:fieldOfActivity>
-  
+  <mads:note type="source">Brill's New Pauly: "D. of Byzantium Greek geographer of the 2nd cent. AD.... His detailed and
+    stylized description of the Thracian Bosporus (Ἀνάπλους Βοσπόρου Anáplous Bospórou) has only survived in copies of 
+    Cod. Palatinus gr. 398. ..." Brodersen, Kai (Mannheim) and  Di Marco, Massimo (Fondi Latina). "Dionysius." 
+    Brill’s New Pauly. Brill Online, 2013. Reference. Tufts University Library.</mads:note>
   <mads:url displayLabel="ID.gov">http://id.loc.gov/authorities/names/no91013549</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Dionysius_of_Byzantium</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-no91-13549</mads:url>

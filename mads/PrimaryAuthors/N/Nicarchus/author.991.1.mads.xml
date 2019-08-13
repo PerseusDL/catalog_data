@@ -1,14 +1,15 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority lang="ger">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/293447250/">
       <mads:namePart>Nikarchos</mads:namePart>
       <mads:namePart type="date">1st cent</mads:namePart>
     </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x39D;&#x3AF;&#x3BA;&#x3B1;&#x3C1;&#x3C7;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Nίκαρχoς</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
@@ -20,7 +21,6 @@
   <mads:variant type="other" lang="por">
     <mads:name type="personal">
       <mads:namePart>Nicarco</mads:namePart>
-      <mads:namePart type="termsOfAddress">Po&#xE8;te</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -45,9 +45,16 @@
   <mads:identifier type="citeurn">urn:cite:perseus:author.991.1</mads:identifier>
   <mads:identifier type="lccn">nb 99167287 </mads:identifier>
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
-  
-  
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 2, 1867, p. 1177: "Nicarchus,an epigrammatist...The inference 
+    that he lived near the beginning of the Christian era seems well founded ...Thirty eight epigrams are under his name in the Greek Anthology...But 
+    the authorship of seven of these is doubtful...."</mads:note>  
+  <mads:note type="source">Brill's New Pauly: "Epigrammatist, probably of Egyptian origin (cf. Anth. Pal. 11,18,5
+    124,4), living in the Neronian period or soon after (second half of the 1st century AD) in Rome. In the some 40 verses (almost
+    all mocking epigrams from the anthology of Diogenianus ....N. often imitates Lucillius, when he gets human failings or
+    inappropriate actions in his sights, but adding obscenity and crudity of language to the wit and technical agility of Lucillius...." 
+    Albiani, Maria Grazia (Bologna). "Nicarchus." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and
+    Helmuth Schneider . Brill, 2010.</mads:note>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/293447250</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Nicarchus</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-nb99-167287</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0002.001;didno=ACL3129.0002.001;view=image;seq=00001187</mads:url>

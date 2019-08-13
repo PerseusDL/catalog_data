@@ -1,50 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2342.1</identifier>
-    <authority>
-      <name type="personal" authority="naf">
-	        <namePart>Philumenus</namePart>
-	        <namePart type="termsOfAddress">Alexandrinus</namePart>
-      </name>
-    </authority>
-    <variant type="other" lang="grc">
-      <name>
-	        <namePart>Φιλούμενος</namePart>
-      </name>
-    </variant>
-    <variant type="other">
-      <name type="personal">
-	        <namePart>Philumenos</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="gre">
-      <name type="personal">
-	        <namePart>Philoumenos</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="">
-      <name type="personal">
-	        <namePart>Filominus</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="fre">
-      <name type="personal">
-	        <namePart>Philumène‏</namePart>
-      </name>
-    </variant>
-    <note type="source">De medicina, versio latina, 1991: PHI CD ROM #5.3, Latin Canon, bibliographic screen (Philumenus medicus)</note>
-    <note type="source">Pauly-Wissowa: 39. Halbbd., col. 209-211, "Philumenos", #7 (Philumenos, medical writer of the period of the Empire, is first cited by Oribasios (middle 4th cent.), modern authorities place him about 180 A.D. as he neither cites nor is cited by Galen)</note>
-    <note type="source">Oxford class. dict., 1st ed.: p. 686 (Philumenus, of Alexandria, member of the eclectic school of medicine, c. A.D. 180)</note>
-    <note type="source">Dict. of Greek and Roman biog. and mythology, 1967: v. 2, p. 334 (Philumenus, Greek Philoumenos, a Greek physician, nothing is known as to th events of his life, and with respect to his date, as the earliest author who cites him is Oribasius, it can only be said that he must have lived in or before the 4th century)</note>
-    <fieldOfActivity>Medical Author</fieldOfActivity>
-    <identifier type="lccn">nr 95037759</identifier>
-    <identifier type="tlg">0671</identifier>
-    <identifier type="phi">1380</identifier>
-    <url displayLabel="VIAF">http://viaf.org/viaf/263448851/</url>
-    <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Philumenus</url>
-    <extension>
-      <description>List of related work identifiers</description>
-      <identifier type="phi">1380.1</identifier>
-      <identifier type="tlg">0671.001</identifier>
-    </extension>    
-  </mads>
+<mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
+  version="2.0">
+  <authority>
+    <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/263448851/">
+      <namePart>Philumenus</namePart>
+      <namePart type="termsOfAddress">Alexandrinus</namePart>
+    </name>
+  </authority>
+  <variant type="other" lang="grc">
+    <name>
+      <namePart>Φιλούμενος</namePart>
+    </name>
+  </variant>
+  <variant type="other">
+    <name type="personal">
+      <namePart>Philumenos</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="gre">
+    <name type="personal">
+      <namePart>Philoumenos</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="">
+    <name type="personal">
+      <namePart>Filominus</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="fre">
+    <name type="personal">
+      <namePart>Philumène‏</namePart>
+    </name>
+  </variant>
+  <note type="source">De medicina, versio latina, 1991: PHI CD ROM #5.3, Latin Canon, bibliographic screen (Philumenus medicus)</note>
+  <note type="source">Pauly-Wissowa: 39. Halbbd., col. 209-211, "Philumenos", #7 (Philumenos, 
+    medical writer of the period of the Empire, is first cited by Oribasios (middle 4th cent.),
+    modern authorities place him about 180 A.D. as he neither cites nor is cited by Galen)</note>
+  <note type="source">Oxford class. dict., 1st ed.: p. 686 (Philumenus, of Alexandria, member of 
+    the eclectic school of medicine, c. A.D. 180)</note>
+  <note type="source">Dict. of Greek and Roman biog. and mythology, 1967: v. 2, p. 334 (Philumenus, Greek Philoumenos, 
+    a Greek physician, nothing is known as to th events of his life, and with respect to his date, as the earliest author 
+    who cites him is Oribasius, it can only be said that he must have lived in or before the 4th century)</note>
+  <fieldOfActivity>Medical Author</fieldOfActivity>
+  <identifier type="lccn">nr 95037759</identifier>
+  <identifier type="tlg">0671</identifier>
+  <identifier type="phi">1380</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2342.1</identifier>
+  <url displayLabel="VIAF">http://viaf.org/viaf/263448851/</url>
+  <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Philumenus</url>
+  <extension>
+    <description>List of related work identifiers</description>
+    <identifier type="phi">1380.1</identifier>
+    <identifier type="tlg">0671.001</identifier>
+  </extension>
+</mads>

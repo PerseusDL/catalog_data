@@ -1,31 +1,24 @@
 <?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  version="2.0"
+  xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/264689708/">
       <mads:namePart>Archestratus</mads:namePart>
       <mads:namePart type="termsOfAddress">of Gela</mads:namePart>
     </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>A&#x3C1;&#x3C7;&#x3AD;&#x3C3;&#x3C4;&#x3C1;&#x3B1;&#x3C4;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Ἀρχέστρατος</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal" authority="tlg">
       <mads:namePart>Archestratus</mads:namePart>
       <mads:namePart type="termsOfAddress">Parodius</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal" authority="lsj">
-      <mads:namePart>Archestratus</mads:namePart>
-      <mads:namePart type="termsOfAddress">Epicus</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="abbreviation">
-    <mads:name type="personal" authority="lsj">
-      <mads:namePart>Archestr.</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
@@ -67,10 +60,22 @@
       <mads:namePart type="date">um 370 v. Chr.</mads:namePart>
     </mads:name>
   </mads:variant>
+  <mads:variant type="other">
+    <mads:name type="personal" authority="lsj">
+      <mads:namePart>Archestratus</mads:namePart>
+      <mads:namePart type="termsOfAddress">Epicus</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="abbreviation">
+    <mads:name type="personal" authority="lsj">
+      <mads:namePart>Archestr.</mads:namePart>
+    </mads:name>
+  </mads:variant>
   <mads:fieldOfActivity>Culinary Author</mads:fieldOfActivity>
   <mads:fieldOfActivity>Gastronomical Poet</mads:fieldOfActivity>
-  
-  
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 1, 1867, p. 265: "Archestratus of Gela or Syracuse...
+    he travelled through various countries in order to become accurately acquainted with everything which could be used for the table, 
+    and gave the results of his researches in an Epic poem on the Art of Cookery which was celebrated in Antiquity, and is constantly referred to by Athenaeus...."</mads:note>
   <mads:note type="source">Archestrato di Gela, 1983- : v. 1, t.p. (Archestrato di Gela)</mads:note>
   <mads:note type="source">LC manual auth. cd. (hdg.: Archestratus, of Gela)</mads:note>
   <mads:note type="source">Oxford classical dict. (Archestratus, of Gela)</mads:note>
@@ -78,9 +83,12 @@
   <mads:identifier type="citeurn">urn:cite:perseus:author.172.1</mads:identifier>
   <mads:identifier type="lccn">n 84081488 </mads:identifier>
   <mads:identifier type="tlg">1175</mads:identifier>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/264689708/</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Archestratus</mads:url>
-  <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000280</mads:url>
-  <mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-n84-81488</mads:url>
+  <mads:url displayLabel="Smith's Dictionary"
+    >http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000280</mads:url>
+  <mads:url displayLabel="Worldcat Identities"
+    >http://orlabs.oclc.org/identities/lccn-n84-81488</mads:url>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
     <mads:identifier type="tlg">1175.001</mads:identifier>
