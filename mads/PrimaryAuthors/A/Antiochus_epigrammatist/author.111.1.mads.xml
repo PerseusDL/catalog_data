@@ -6,7 +6,8 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-      <mads:name type="personal">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/15159444/">
          <mads:namePart>Antiochus</mads:namePart>
          <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
          <mads:namePart type="date">1./2. Jh. n. Chr</mads:namePart>
@@ -43,10 +44,8 @@
          <mads:namePart>Antioch.</mads:namePart>
       </mads:name>
   </mads:variant>
-  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
-  <mads:note type="history">AP 11.412,422</mads:note>
-  
+  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>  
+  <mads:note type="history">AP 11.412,422</mads:note>  
   <mads:note type="source">"Anti'ochus, an Epigrammatic poet, one of whose epigrams is extant in
       Greek Anthology." Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 1 1867,
       p. 194.</mads:note>
@@ -54,7 +53,7 @@
       422)..." from Degani, Enzo. "Antiochus." Brill's New Pauly. Antiquity volumes edited by:
       Hubert Cancik and Helmuth Schneider . Brill, 2007. Brill Online. Tufts University Library. 07
       September 2007</mads:note>
-  <mads:url>http://viaf.org/processed/DNB|102379904</mads:url>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/15159444/</mads:url>
   <mads:url>http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000209</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.111.1</mads:identifier>
   <mads:identifier type="tlg">0112</mads:identifier>

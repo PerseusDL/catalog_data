@@ -6,7 +6,8 @@
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
            version="2.0">
   <mads:authority>
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/19407739/">
          <mads:namePart>Antipater</mads:namePart>
          <mads:namePart type="termsOfAddress">of Thessalonica</mads:namePart>
          <mads:namePart type="date">fl. 11 B.C.-12 A.D</mads:namePart>
@@ -60,18 +61,16 @@
          <mads:namePart>Antip.Thess.</mads:namePart>
       </mads:name>
   </mads:variant>
-  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
+  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>  
   <mads:note type="source">Gli epigrammi degli Antipatri, c2003: p. 34 (Antipatro di Tessalonica)</mads:note>
   <mads:note type="source">Oxford classical dictionary, c2003: p. 111 (Antipater, of Thessalonica;
-        datable poems range between 11 B.C. and A.D. 12)</mads:note>
-  
-  
+        datable poems range between 11 B.C. and A.D. 12)</mads:note>  
   <mads:identifier type="citeurn">urn:cite:perseus:author.120.1</mads:identifier>
   <mads:identifier type="lccn">no2005031362</mads:identifier>
   <mads:identifier type="tlg">0114</mads:identifier>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000219</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-no2005-31362</mads:url>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/19407739/</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Antipater_of_Thessalonica</mads:url>
   <mads:extension>
       <mads:description>List of related work identifiers</mads:description>
