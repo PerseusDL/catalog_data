@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/29920140/">
       <mads:namePart>Damocharis</mads:namePart>
       <mads:namePart type="termsOfAddress">Cous</mads:namePart>
       <mads:namePart type="date">fl.6. Jh</mads:namePart>
@@ -9,7 +9,8 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x394;&#x3B1;&#x3BC;&#x3BF;&#x3C7;&#x3AC;&#x3C1;&#x3B9;&#x3C2;</mads:namePart>
+      <mads:namePart>Δαμόχαρις</mads:namePart>
+      <mads:namePart type="termsOfAddress">ο Κώος‏</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -56,8 +57,9 @@
     </mads:name>
   </mads:variant>
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
-  
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 1 1867, p. 935: "Damocharis, a grammarian of Cos, 
+    the disciple of Agathias, lived at the end of the fifth and the beginning of the sixth centuries after Christ. He is the author
+    of four epigrams in the Greek Anthology...."</mads:note>  
   <mads:url displayLabel="Wikipedia">http://ca.wikipedia.org/wiki/Damocaris</mads:url>
   <mads:url displayLabel="Perseus:Smith">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=damocharis-bio-1</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/29920140</mads:url>
