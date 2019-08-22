@@ -6,7 +6,8 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/10637157/">
          <mads:namePart>Eudoxus</mads:namePart>
          <mads:namePart type="termsOfAddress">of Cnidus</mads:namePart>
          <mads:namePart type="date">ca. 400-ca. 350 B.C</mads:namePart>
@@ -75,21 +76,20 @@
       </mads:name>
   </mads:variant>
   <mads:note type="source">Gardies, J.L. Pascal entre Eudoxe et Cantor, 1984: t.p. (Eudoxe) p. 9 (Eudoxe de Cnide)</mads:note>
-  <mads:note type="source">His Fragmente, 1966: t.p. (Eudoxos von Knidos)</mads:note>
-  <mads:note type="source">Encycl. Brit. (Eudoxus of Cnidus, mathematician &amp; astron. in age of Plato, b. ca. 400 BC in Cnidus, Asia Minor, d. ca. 350 BC)</mads:note>
+  <mads:note type="source">His Fragmente, 1966: t.p. (Eudoxos von Knidos)</mads:note>  
   <mads:note type="source">LC data base, 3-20-85 (hdg.: Eudoxus of Cnidus; usage not given)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.584.1</mads:identifier>
   <mads:identifier type="lccn">n  85011976</mads:identifier>
   <mads:identifier type="lccn" invalid="yes">n  85008079</mads:identifier>
   <mads:fieldOfActivity>Astronomer</mads:fieldOfActivity>
   <mads:fieldOfActivity>Mathematician</mads:fieldOfActivity>
-  
-  
-  
+    <mads:note type="source">Brill's New Pauly: "Eudoxus, of Cnidus Ancient mathematician and astronomer,....
+        One of the most important ancient mathematicians and astronomers, he was presumably born in 391/390 BC.... 
+        He studied mathematics with Archytas... and medicine with Philistion. .."</mads:note>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/10637157/</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Eudoxus_of_Cnidus</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-n85-11976</mads:url>
   <!-- biography from Diogenes Laertius -->
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:identifier type="tlg">1358</mads:identifier>
   <mads:extension>
       <mads:description>List of related work identifiers</mads:description>
