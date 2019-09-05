@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2055.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/32386148">
         <namePart>Bemarchius</namePart>
         <namePart type="termsOfAddress">Caesariensis</namePart>
         <namePart type="date">4. Jh</namePart>
@@ -57,14 +59,14 @@
     </variant>
     <identifier type="uri">http://viaf.org/viaf/32386148</identifier>
     <identifier type="tlg">2152</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2055.1</identifier>  
     <fieldOfActivity>Historian</fieldOfActivity>
-    <note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology: "Bemarchius, a Greek sophist and rhetorician of Caesareia in Cappadocia, who lived in or shortly after the time of the emperor Constantine, whose history he wrote in a work consisting of ten books.."</note>
+    <note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology: "Bemarchius, a Greek 
+      sophist and rhetorician of Caesareia in Cappadocia, who lived in or shortly after the time of the emperor
+      Constantine, whose history he wrote in a work consisting of ten books.."</note>
     <url displayLabel="Wikipedia">http://de.wikipedia.org/wiki/Bemarchios</url>
-    <url displayLabel="Suda Online">http://www.stoa.org/sol-bin/search.pl?db=REAL&amp;field=adlerhw_gr&amp;searchstr=beta,259</url>
-    <url displayLabel="Worldcat Identities"/>
     <url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0104%3Aalphabetic+letter%3DB%3Aentry+group%3D5%3Aentry%3Dbemarchius-bio-1</url>
     <url displayLabel="VIAF">http://viaf.org/viaf/32386148</url>
-    <url displayLabel="id.gov"/>
     <extension>
       <description>List of related work identifiers</description>
       <identifier type="tlg">2152.001</identifier>
