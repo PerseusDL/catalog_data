@@ -6,7 +6,8 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-      <mads:name type="personal">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf"
+          valueURI="https://viaf.org/viaf/2857608/">
          <mads:namePart>Besantinus</mads:namePart>
          <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
          <mads:namePart type="date">2. Jh. n. Chr</mads:namePart>
@@ -56,8 +57,7 @@
       </mads:name>
   </mads:variant>
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  <mads:note type="history">AP 9.118; 15.25</mads:note>
-  
+  <mads:note type="history">AP 9.118; 15.25</mads:note>  
   <mads:note type="source">"Besanti'nus, The Vatican MS. of the Greek Anthology attributes to an
       author of this name two epigrams, of which one is also ascribed to Pallas...." from Smith's
       Dictionary of Greek and Roman Biography and Mythology, Vol 1,1867, p. 485.</mads:note>
@@ -69,6 +69,7 @@
   <mads:note type="source"/>
   <mads:identifier type="citeurn">urn:cite:perseus:author.271.1</mads:identifier>
   <mads:identifier type="tlg">0144</mads:identifier>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/2857608/</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000500</mads:url>
   <mads:extension>
       <mads:description>List of related work identifiers</mads:description>
