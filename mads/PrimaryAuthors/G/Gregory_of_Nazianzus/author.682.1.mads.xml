@@ -1,21 +1,19 @@
 <?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
+  version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/108675755">
       <mads:namePart>Gregory</mads:namePart>
       <mads:namePart type="termsOfAddress">of Nazianzus, Saint</mads:namePart>
     </mads:name>
   </mads:authority>
-    <mads:variant type="other" lang="grc">
+  <mads:variant type="other" lang="grc">
     <mads:name type="personal">
       <mads:namePart>Γρηγόριος</mads:namePart>
       <mads:namePart type="termsOfAddress">ὁ Ναζιανζηνός</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Grigorii&#xCC;&#x86;</mads:namePart>
-      <mads:namePart type="termsOfAddress">Bogoslov, Saint</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant>
@@ -32,38 +30,14 @@
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
-      <mads:namePart>Nazianzen, Grigorii&#xCC;&#x86;</mads:namePart>
-      <mads:namePart type="termsOfAddress">Saint</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Gre&#xCC;&#x84;gorios</mads:namePart>
-      <mads:namePart type="termsOfAddress">ho Theologos, Saint</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
       <mads:namePart>Nazianzus, Gregory of</mads:namePart>
       <mads:namePart type="termsOfAddress">Saint</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
-      <mads:namePart>Gre&#xCC;&#x81;goire</mads:namePart>
-      <mads:namePart type="termsOfAddress">de Nazianze, Saint</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
       <mads:namePart>Nazianzenus, Gregorius</mads:namePart>
       <mads:namePart type="termsOfAddress">Saint</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Gregorios</mads:namePart>
-      <mads:namePart type="termsOfAddress">Nazianze&#xCC;&#x84;nos, Saint</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -111,57 +85,22 @@
       <mads:namePart type="termsOfAddress">Teologul</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Sfa&#xCC;&#x82;ntul Grigorie</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Grigorii&#xCC;&#x86; Bogoslov</mads:namePart>
-      <mads:namePart type="termsOfAddress">Svi&#xEF;&#xB8;&#xA0;a&#xEF;&#xB8;&#xA1;titel&#xCA;&#xB9;</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Bogoslov, Grigorii&#xCC;&#x86;</mads:namePart>
-      <mads:namePart type="termsOfAddress">Svi&#xEF;&#xB8;&#xA0;a&#xEF;&#xB8;&#xA1;titel&#xCA;&#xB9;</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Bogoslov, Grigorije</mads:namePart>
-      <mads:namePart type="termsOfAddress">Sveti</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Ighri&#xCC;&#x84;ghu&#xCC;&#x84;riyu&#xCC;&#x84;s</mads:namePart>
-      <mads:namePart type="termsOfAddress">Tha&#xCC;&#x84;&#xCA;&#xBC;ulu&#xCC;&#x84;ghus, Qiddi&#xCC;&#x84;s</mads:namePart>
-    </mads:name>
-  </mads:variant>
   <mads:note type="source">Five theological orations ... 1899</mads:note>
   <mads:note type="source">His Briefe, 1981: t.p. (Gregor von Nazianz)</mads:note>
   <mads:note type="source">Encycl. Brit. (Gregory of Nazianzus, Saint)</mads:note>
   <mads:note type="source">New Cath. encycl. (Gregory of Nazianzus, St.)</mads:note>
-  <mads:note type="source">Zhitii&#xEF;&#xB8;&#xA0;a&#xEF;&#xB8;&#xA1; svi&#xEF;&#xB8;&#xA0;a&#xEF;&#xB8;&#xA1;tykh na russkom i&#xEF;&#xB8;&#xA0;a&#xEF;&#xB8;&#xA1;zyke. English. Selections. The three hierarchs, 1985: t.p. verso (St. Gregory the Theologian)</mads:note>
-  <mads:note type="source">Grigol Nazianzelis t&#xCA;&#xBB;xzulebat&#xCA;&#xBB;a s&#xCC;&#x8C;emc&#xCA;&#xBB;vel k&#xCA;&#xBB;art&#xCA;&#xBB;ul ... 1988</mads:note>
   <mads:note type="source">His Poesie, c1994- : v. 1, t.p. (Gregorio Nazianzeno)</mads:note>
   <mads:note type="source">Bouyer, L. Hist. of Chrn. spirituality, 1963- : v. 1, p. 341, etc. (Gregory Nazianzen)</mads:note>
-  <mads:note type="source">Opera exegetica&#xCC;&#x86; a Sfa&#xCC;&#x82;ntului Maxim Ma&#xCC;&#x86;rturisitorul, 1998: t.p. ( ... sfint&#xCC;&#xA6;ilor ... Grigorie Teologul) p. 9-11 (Sfa&#xCC;&#x82;ntul Grigorie Teologul; b. probably in 329, in Arianz, d. 389-390; Sfa&#xCC;&#x82;ntul Grigorie)</mads:note>
-  <mads:note type="source">Pesnopenii&#xEF;&#xB8;&#xA0;a&#xEF;&#xB8;&#xA1; tai&#xCC;&#x86;nstvennye, 2000: t.p. (Svi&#xEF;&#xB8;&#xA0;a&#xEF;&#xB8;&#xA1;titel&#xCA;&#xB9; Grigorii&#xCC;&#x86; Bogoslov)</mads:note>
-  <mads:note type="source">Maya&#xCC;&#x84;mir al-Qiddi&#xCC;&#x84;s Ighri&#xCC;&#x84;ghu&#xCC;&#x84;riyu&#xCC;&#x84;s al-na&#xCC;&#x84;t&#xCC;&#xA3;iq bi-al-ila&#xCC;&#x84;hi&#xCC;&#x84;ya&#xCC;&#x84;t, 2004: v. 1, p. 7 (al-Qiddi&#xCC;&#x84;s Ighri&#xCC;&#x84;ghu&#xCC;&#x84;riyu&#xCC;&#x84;s al-Tha&#xCC;&#x84;&#xCA;&#xBC;ulu&#xCC;&#x84;ghus)</mads:note>
-  <mads:note type="source">Praznic&#xCC;&#x8C;ne besede, 2001: t.p. (Sveti Grigorije Bogoslov, Arhiepiskop Carigradski)</mads:note>
   <mads:note type="history">b. ca. 329; d. 389 or 390</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.682.1</mads:identifier>
   <mads:identifier type="lccn">n  50082276 </mads:identifier>
-  <mads:identifier type="lccn" invalid="yes">n  92035643 </mads:identifier>
   <mads:fieldOfActivity>Saint</mads:fieldOfActivity>
-    <mads:fieldOfActivity>Theologian</mads:fieldOfActivity>  
-    <mads:fieldOfActivity>Church Father</mads:fieldOfActivity>
-        <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Theologian</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Church Father</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Gregory_of_Nazianzus</mads:url>
-  <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n50-82276</mads:url>
+  <mads:url displayLabel="Worldcat Identities"
+    >http://www.worldcat.org/wcidentities/lccn-n50-82276</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/108675755</mads:url>
   <mads:identifier type="tlg">2022</mads:identifier>
   <mads:extension>
