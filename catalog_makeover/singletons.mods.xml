@@ -46432,7 +46432,6 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="In Aristotelis sophisticos elenchos paraphrasis">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg4193.tlg012.opp-grc1</identifier>
-
                 <location>
                     <url displayLabel="Scaife Viewer"
                         >https://scaife.perseus.org/library/urn:cts:greekLit:tlg4193.tlg012.opp-grc1/</url>
@@ -46444,7 +46443,6 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <!-- LEFT OFF HERE -->
     <mods displayLabel="in Aristotelis Topicorum-Alexander of Aphrodisias-CAG 2.2-Wallies-1891">
         <titleInfo xml:lang="lat" type="uniform">
             <title>in Aristotelis Topicorum libros octo commentaria</title>
@@ -46598,6 +46596,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/remigiiautissiod00remiuoft</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/coo.31924006733301</url>
         </location>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
@@ -46795,7 +46796,8 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/24596787">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/24596787">
             <namePart>Agaësse, Paul</namePart>
             <namePart type="date">1905-1979</namePart>
             <role>
@@ -47176,8 +47178,6 @@ p -->
             </relatedItem>
         </relatedItem>
     </mods>
-
-
     <mods displayLabel="In Librum de Sensu Commentarium-Alexander Aphrodisias-1901">
         <titleInfo xml:lang="lat" type="uniform">
             <title>in librum de sensu commentarium</title>
@@ -47266,7 +47266,6 @@ p -->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="in librum de sensu commentarium">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0732.tlg007.opp-grc1</identifier>
-
                 <location>
                     <url displayLabel="Scaife Viewer"
                         >https://scaife.perseus.org/library/urn:cts:greekLit:tlg0732.tlg007.opp-grc1/</url>
@@ -47734,6 +47733,9 @@ p -->
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
         </language>
+        <language objectPart="preface">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
         <physicalDescription>
             <form authority="marcform">print</form>
             <extent>xvi, 182 p.; 21 cm</extent>
@@ -47801,10 +47803,10 @@ p -->
             <issuance>monographic</issuance>
         </originInfo>
         <language objectPart="preface">
-            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
         </language>
         <language objectPart="text">
-            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
         </language>
         <physicalDescription>
             <form authority="marcform">print</form>
@@ -47839,15 +47841,17 @@ p -->
         <location>
             <url displayLabel="HathiTrust">https://hdl.handle.net/2027/umn.31951d01436132q</url>
         </location>
+        <!-- Have deleted and redirected tlg4036.tlg009.opp-lat1-incorrect edition -->
         <relatedItem type="constituent" otherType="work"
             displayLabel="In Platonis Cratylum commentaria">
             <identifier type="ctsurn">urn:cts:greekLit:tlg4036.tlg009</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="In Platonis Cratylum commentaria">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg4036.tlg009.opp-lat1</identifier>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg4036.tlg009.opp-grc1</identifier>
             </relatedItem>
         </relatedItem>
     </mods>
+    <!-- LEFT OFF HERE-NEED TO CREATE/UPDATE EXPRESSION LEVEL RECORD FROM GRC TO LATIN -->
     <mods displayLabel="In Platonis Gorgiam Commentaria-Olympiodorus-Norvin-Teubner-1936">
         <titleInfo>
             <title>Olympiodori philosophi In Platonis Gorgiam commentaria</title>

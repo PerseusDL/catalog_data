@@ -6,7 +6,7 @@
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
            version="2.0">
   <mads:authority lang="eng">
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/62748316">
          <mads:namePart>Heliodorus</mads:namePart>
          <mads:namePart type="termsOfAddress">of Emesa</mads:namePart>
       </mads:name>
@@ -14,6 +14,7 @@
   <mads:related type="equivalent" lang="grc">
       <mads:name type="personal" authority="Brill">
          <mads:namePart>Ἡλιόδωρος</mads:namePart>
+          <mads:namePart type="termsOfAddress">ὁ Ἐμεσηνός</mads:namePart>
       </mads:name>
   </mads:related>
   <mads:variant type="other" lang="cat">
@@ -87,12 +88,10 @@
          <mads:namePart>Hld.</mads:namePart>
       </mads:name>
   </mads:variant>
-  <mads:note type="source">His Aithiopika, 197-: t.p. (HeÌ&#x84;liodoÌ&#x84;ros)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.698.1</mads:identifier>
   <mads:identifier type="lccn">n  80089698 </mads:identifier>
   <mads:fieldOfActivity>Erotic Author</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Novelist</mads:fieldOfActivity>
-  
+  <mads:fieldOfActivity>Novelist</mads:fieldOfActivity>  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Heliodorus_of_Emesa</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n80-89698</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/62748316</mads:url>

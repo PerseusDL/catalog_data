@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2352.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority lang="lat">
-      <name type="personal" authority="viaf">
+      <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+        valueURI="https://viaf.org/viaf/27455519/">
         <namePart>Heliodorus</namePart>
         <namePart type="termsOfAddress">Atheniensis</namePart>
         <namePart type="date">ca. 1.Jh.v.Chr</namePart>
@@ -54,8 +56,13 @@
         <namePart type="date">ca. 1.Jh.v.Chr</namePart>
       </name>
     </variant>
-    <note type="Brill's New Pauly">"Heliodorus, H. of Athens (TrGF I 209); otherwise unknown tragedian, mentioned in Galen (De antidotis XIV p. 144 Kühn), probably also the author of a work in the paradoxographical tradition Apolytiká (‘Medicines’)...." Zimmermann, Bernhard (Freiburg). “Heliodorus”, in: Brill’s New Pauly, Antiquity volumes edited by: Hubert Cancik and , Helmuth Schneider. Consulted online on 29 September 2017</note>
+    <note type="Brill's New Pauly">"Heliodorus, H. of Athens (TrGF I 209); otherwise unknown tragedian, 
+      mentioned in Galen (De antidotis XIV p. 144 Kühn), probably also the author of a work in the 
+      paradoxographical tradition Apolytiká (‘Medicines’)...." Zimmermann, Bernhard (Freiburg). 
+      “Heliodorus”, in: Brill’s New Pauly, Antiquity volumes edited by: Hubert Cancik and , Helmuth Schneider. 
+      Consulted online on 29 September 2017</note>
     <fieldOfActivity>Tragedian</fieldOfActivity>
+  <identifier type="citeurn">urn:cite:perseus:author.2352.1</identifier>
     <url displayLabel="VIAF">http://viaf.org/viaf/27455519</url>
     <identifier type="uri">http://viaf.org/viaf/27455519</identifier>
     <identifier type="tlg">0750</identifier>
