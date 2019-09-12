@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2072.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+        valueURI="https://viaf.org/viaf/72187489">
 	        <namePart>Apollonius</namePart>
 	        <namePart type="termsOfAddress">Dyscolus</namePart>
 	        <namePart type="date">active 2nd century</namePart>
@@ -93,9 +95,11 @@
 	        <namePart type="date">active 2nd century</namePart>
       </name>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2072.1</identifier>  
     <identifier type="tlg">0082</identifier>
     <note type="nonpublic">Non-Latin script reference not evaluated</note>
-    <note type="source">Encyc. Brit., c1977 (Apollonius, generally surnamed Dyscolus, 2nd cent. Greek grammarian)</note>
+    <note type="source">Encyc. Brit., c1977 (Apollonius, generally surnamed Dyscolus, 2nd cent. 
+      Greek grammarian)</note>
     <note type="source">Encyc. Amer., c1975 (Apollonius of Alexandria, nicknamed Dyscolus)</note>
     <note type="source">Kleine Pauly, 1964 (Apollonios, mit Beinamen Dyskolos, 2nd cent. A.D.)</note>
     <note type="source">Papyros-Larous. (Apollōnios ho Dyskolos)</note>
@@ -104,5 +108,10 @@
     <fieldOfActivity>Grammarian</fieldOfActivity>
     <url displayLabel="VIAF">http://viaf.org/viaf/72187489/</url>
     <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Apollonius_Dyscolus</url>
-    
+  <extension>
+    <description>List of related work identifiers</description>
+    <identifier type="tlg">0082.001</identifier>
+    <identifier type="tlg">0082.002</identifier>
+    <identifier type="tlg">0082.004</identifier>
+  </extension>
   </mads>

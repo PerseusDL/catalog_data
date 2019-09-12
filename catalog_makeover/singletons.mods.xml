@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <!--Make sure have both authority and valueURI-->
     <!-- Add in HathiTrust links-->
     <!-- Continue reviewing work names
@@ -47851,7 +47851,6 @@ p -->
             </relatedItem>
         </relatedItem>
     </mods>
-    <!-- LEFT OFF HERE-NEED TO CREATE/UPDATE EXPRESSION LEVEL RECORD FROM GRC TO LATIN -->
     <mods displayLabel="In Platonis Gorgiam Commentaria-Olympiodorus-Norvin-Teubner-1936">
         <titleInfo>
             <title>Olympiodori philosophi In Platonis Gorgiam commentaria</title>
@@ -47868,7 +47867,8 @@ p -->
                 <roleTerm type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/34547840">
+        <name authority="viaf" type="personal"  authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/34547840">
             <namePart>Norvin, William</namePart>
             <namePart type="date">1878-1940</namePart>
             <role>
@@ -47944,7 +47944,8 @@ p -->
                 <roleTerm type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/17230972">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/17230972">
             <namePart>Westerink, Leendert Gerrit</namePart>
             <namePart type="date">1913-1990</namePart>
             <role>
@@ -47966,6 +47967,9 @@ p -->
         </originInfo>
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+        </language>
+        <language objectPart="preface">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
         </language>
         <physicalDescription>
             <extent>xxi, 313 p. 21 cm</extent>
@@ -48004,6 +48008,7 @@ p -->
             </relatedItem>
         </relatedItem>
     </mods>
+    <!-- LEFT OFF HERE -->
     <mods displayLabel="In Platonis Phaedrum scholia_Hermeias of Alexandria-Bouillon-Bodin-1901">
         <titleInfo type="uniform">
             <title>In Platonis Phaedrum scholia</title>
