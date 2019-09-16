@@ -103,17 +103,14 @@
                 <mods:language xmlns="http://www.loc.gov/mods/v3">
                     <mods:languageTerm type="code" authority="iso639-2b">lat</mods:languageTerm>
                 </mods:language>
-                <mods:name xmlns="http://www.loc.gov/mods/v3"
-              xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/nr95-22101.html">
-                    <mods:namePart>Fabius Pictor</mods:namePart>
-                    <mods:namePart type="date">fl. 154-151.B.C.</mods:namePart>
-                    <mods:role>
-                        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
+    <mods:name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/102144782957351387420">
+        <mods:namePart>Fabius Pictor</mods:namePart>
+        <mods:namePart type="date">fl. 154-151.B.C.</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+        </mods:role>
+    </mods:name>
                 <mods:name xmlns="http://www.loc.gov/mods/v3"
               xmlns:ns2="http://www.w3.org/1999/xlink"
               authority="naf"
