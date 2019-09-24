@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/" valueURI="http://viaf.org/viaf/61941684">
       <mads:namePart>Phoenicides</mads:namePart>
       <mads:namePart type="termsOfAddress">Comicus</mads:namePart>
       <mads:namePart type="date">3. Jh. v. Chr</mads:namePart>
@@ -9,21 +9,12 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x3A6;&#x3BF;&#x3B9;&#x3BD;&#x3B9;&#x3BA;&#x3AF;&#x3B4;&#x3B7;&#x3C2;</mads:namePart>
+      <mads:namePart>Φοινικίδης</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Phoinikides</mads:namePart>
-      <mads:namePart type="termsOfAddress">Komo&#x308;diendichter</mads:namePart>
-      <mads:namePart type="date">3. Jh. v. Chr</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Phoinikides</mads:namePart>
-      <mads:namePart type="termsOfAddress">Dichter der Neuen Komo&#x308;die</mads:namePart>
-      <mads:namePart type="date">3. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -38,11 +29,9 @@
     </mads:name>
   </mads:variant>
   <mads:fieldOfActivity>Comic Poet</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="VIAF">http://viaf.org/61941684</mads:url>
+  <mads:note type="source">Brill's New Pauly: "3rd century BC comic poet from Megara [1. test. 2]
+    twice victorious at the Dionysia..."</mads:note>   
+  <mads:url displayLabel="VIAF">http://viaf.org/viaf/61941684</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.04.0104:entry=phoenicides-bio-1</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1117.1</mads:identifier>
   <mads:identifier type="tlg">0495</mads:identifier>
