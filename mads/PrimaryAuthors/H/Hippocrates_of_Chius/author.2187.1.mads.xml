@@ -1,72 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2187.1</identifier>
-    <authority>
-      <name type="personal" authority="naf">
-	        <namePart>Hippocrates</namePart>
-	        <namePart type="termsOfAddress">of Chius</namePart>
-      </name>
-    </authority>
-    <variant type="other" lang="grc">
-      <name type="personal">
-	        <namePart>Ἱπποκράτης</namePart>
-	        <namePart type="termsOfAddress">ὁ Χῖος</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="ara">
-      <name>
-	        <namePart>أبقراط الخيوسي</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="cat">
-      <name>
-	        <namePart>Hipòcrates</namePart>
-	        <namePart type="termsOfAddress">de Quios</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="fre">
-      <name>
-	        <namePart>Hippocrate</namePart>
-	        <namePart type="termsOfAddress">de Chios</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="ger">
-      <name>
-	        <namePart>Hippokrates</namePart>
-	        <namePart type="termsOfAddress">von Chios</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="ita">
-      <name>
-	        <namePart>Ippocrate</namePart>
-	        <namePart type="termsOfAddress">di Chio</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="spa">
-      <name>
-	        <namePart>Hipócrates</namePart>
-	        <namePart type="termsOfAddress">de Quíos</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="rus">
-      <name>
-	        <namePart>Гиппократ Хиосский</namePart>
-      </name>
-    </variant>
-    <variant type="other">
-      <name type="personal">
-	        <namePart>Hippocrates</namePart>
-	        <namePart type="termsOfAddress">of Chios</namePart>
-      </name>
-    </variant>
-    <note type="source">Brill's New Pauly: "H. of Chios Mathematician and astronomer, 5th cent. BC,</note>
-    <identifier type="tlg">2235</identifier>
-    <fieldOfActivity>Mathematician</fieldOfActivity>
-    <fieldOfActivity>Astronomer</fieldOfActivity>
-    <url displayLabel="viaf">http://viaf.org/viaf/42631297</url>
-    <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Hippocrates_of_Chios</url>
-    <extension>
-      <description>List of related work identifiers</description>
-      <identifier type="tlg">2235.001</identifier>
-    </extension>    
-  </mads>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
+  <authority>
+    <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/42631297">
+      <namePart>Hippocrates</namePart>
+      <namePart type="termsOfAddress">of Chius</namePart>
+    </name>
+  </authority>
+  <variant type="other" lang="grc">
+    <name type="personal">
+      <namePart>Ἱπποκράτης</namePart>
+      <namePart type="termsOfAddress">ὁ Χῖος</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="ara">
+    <name>
+      <namePart>أبقراط الخيوسي</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="cat">
+    <name>
+      <namePart>Hipòcrates</namePart>
+      <namePart type="termsOfAddress">de Quios</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="fre">
+    <name>
+      <namePart>Hippocrate</namePart>
+      <namePart type="termsOfAddress">de Chios</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="ger">
+    <name>
+      <namePart>Hippokrates</namePart>
+      <namePart type="termsOfAddress">von Chios</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="ita">
+    <name>
+      <namePart>Ippocrate</namePart>
+      <namePart type="termsOfAddress">di Chio</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="spa">
+    <name>
+      <namePart>Hipócrates</namePart>
+      <namePart type="termsOfAddress">de Quíos</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="rus">
+    <name>
+      <namePart>Гиппократ Хиосский</namePart>
+    </name>
+  </variant>
+  <variant type="other">
+    <name type="personal">
+      <namePart>Hippocrates</namePart>
+      <namePart type="termsOfAddress">of Chios</namePart>
+    </name>
+  </variant>
+  <note type="source">Brill's New Pauly: "H. of Chios Mathematician and astronomer, 5th cent.
+    BC,</note>
+  <identifier type="citeurn">urn:cite:perseus:author.2187.1</identifier>
+  <identifier type="tlg">2235</identifier>
+  <fieldOfActivity>Mathematician</fieldOfActivity>
+  <fieldOfActivity>Astronomer</fieldOfActivity>
+  <url displayLabel="viaf">http://viaf.org/viaf/42631297</url>
+  <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Hippocrates_of_Chios</url>
+  <extension>
+    <description>List of related work identifiers</description>
+    <identifier type="tlg">2235.001</identifier>
+  </extension>
+</mads>
