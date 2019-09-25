@@ -1,15 +1,16 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads.xsd">
   <mads:authority geographicSubdivision="not applicable" lang="lat">
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/222308297">
       <mads:namePart>Hecataeus</mads:namePart>
       <mads:namePart type="termsOfAddress">Abderita</mads:namePart>
     </mads:name>
   </mads:authority>
   <mads:related type="equivalent" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x1F19;&#x3BA;&#x3B1;&#x3C4;&#x3B1;&#x1FD6;&#x3BF;&#x3C2;</mads:namePart>
-      <mads:namePart type="termsOfAddress">&#x3BF; &#x391;&#x3B2;&#x3B4;&#x3B7;&#x3C1;&#x3AF;&#x3C4;&#x3B7;&#x3C2;</mads:namePart>
+      <mads:namePart>Ἑκαταῖος</mads:namePart>
+      <mads:namePart type="termsOfAddress">ο Αβδηρίτης</mads:namePart>
     </mads:name>
   </mads:related>
   <mads:related type="equivalent">
@@ -27,8 +28,8 @@
   </mads:variant>
   <mads:variant type="other" lang="fre">
     <mads:name type="personal">
-      <mads:namePart>H&#xE9;cat&#xE9;e</mads:namePart>
-      <mads:namePart type="termsOfAddress">d'Abd&#xE8;re</mads:namePart>
+      <mads:namePart>Hécatée,</mads:namePart>
+      <mads:namePart type="termsOfAddress">d'Abdère</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
@@ -79,12 +80,10 @@
       <mads:namePart>Hecat.Abd.</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:url displayLabel="Dataset description">http://viaf.org/viaf/data</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.687.1</mads:identifier>
   <mads:identifier type="uri">http://viaf.org/viaf/222308297</mads:identifier>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Philosopher</mads:fieldOfActivity>
-  
+  <mads:fieldOfActivity>Philosopher</mads:fieldOfActivity>  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Hecataeus_of_Abdera</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/222308297/</mads:url>
   <mads:identifier type="tlg">1390</mads:identifier>
