@@ -1,13 +1,14 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/265847417">
       <mads:namePart>Hyperides</mads:namePart>
     </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x1F59;&#x3C0;&#x3B5;&#x3C1;&#x3B5;&#x3AF;&#x3B4;&#x3B7;&#x3C2;</mads:namePart>
+      <mads:namePart>Ὑπερείδης</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="eng">
@@ -17,12 +18,12 @@
   </mads:variant>
   <mads:variant type="other" lang="cat">
     <mads:name type="personal">
-      <mads:namePart>Hip&#xE8;rides</mads:namePart>
+      <mads:namePart>Hipèrides</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
     <mads:name type="personal">
-      <mads:namePart>Hyp&#xE9;ride</mads:namePart>
+      <mads:namePart>Hypéride</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
@@ -32,7 +33,7 @@
   </mads:variant>
   <mads:variant type="other" lang="spa">
     <mads:name type="personal">
-      <mads:namePart>Hip&#xE9;rides</mads:namePart>
+      <mads:namePart>Hipérides</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -55,8 +56,8 @@
   <mads:fieldOfActivity>Rhetorician</mads:fieldOfActivity>
   <mads:fieldOfActivity>Orator</mads:fieldOfActivity>
   <mads:fieldOfActivity>Attic Orator</mads:fieldOfActivity>
-  
-  
+  <mads:note type="source">Brill's New Pauly: "Hypereides, Attic orator, son of Glaucippus, from the deme Collytus,
+    born 390/89 BC (since he was diaitetes in 330/29 and thus 60 years old, IG II 941), died in 322 BC...</mads:note>  
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/265847417
     </mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Hypereides</mads:url>
