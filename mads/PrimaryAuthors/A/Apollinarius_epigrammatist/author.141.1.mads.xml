@@ -6,7 +6,8 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-      <mads:name type="personal">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/69320890/">
          <mads:namePart>Apollinarius</mads:namePart>
          <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
          <mads:namePart type="date">2. Jh. n. Chr</mads:namePart>
@@ -24,7 +25,7 @@
   </mads:variant>
   <mads:variant type="other" lang="grc">
       <mads:name type="personal" authority="Brill">
-         <mads:namePart>Aπολεινάριος </mads:namePart>
+         <mads:namePart>Aπολεινάριος</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
@@ -39,7 +40,7 @@
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal" authority="lsj">
-         <mads:namePart>Apollinarius </mads:namePart>
+         <mads:namePart>Apollinarius</mads:namePart>
          <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
       </mads:name>
   </mads:variant>
@@ -48,11 +49,9 @@
          <mads:namePart>Apollinar.</mads:namePart>
       </mads:name>
   </mads:variant>
-  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
-  
+  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>  
   <mads:note type="source">"Apollina'ris, or Apollina'rius 3, the author of two epigrams in the
-      Greek Anthology, is very porbably the same person as the elder Apollinaris of Laodicea...."
+      Greek Anthology, is very probably the same person as the elder Apollinaris of Laodicea...."
       Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 1, 1867, p. 230.</mads:note>
   <mads:note type="source">"Apollinarius, 5, epigrammatist, writer of two insipid derisive epigrams
       (Anth. Pal. 11,399; 421), one about a grammarian, who has ‘fallen from the donkey’ (i.e., ‘has
@@ -60,9 +59,8 @@
       about a hypocritical friend...." from Degani, Enzo (Bologna). "Apollinarius." Brill's New
       Pauly. Antiquity volumes edited by: Hubert Cancik and Helmuth Schneider . Brill, 2007. Brill
       Online. Tufts University Library. 19 July 2007</mads:note>
-  <mads:note type="source"/>
-  <mads:url/>
-  <mads:url>http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;idno=acl3129.0001.001;frm=frameset;view=image;seq=245;page=root;size=s</mads:url>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/69320890/</mads:url>
+  <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;idno=acl3129.0001.001;frm=frameset;view=image;seq=245;page=root;size=s</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.141.1</mads:identifier>
   <mads:identifier type="tlg">0122</mads:identifier>
   <mads:extension>

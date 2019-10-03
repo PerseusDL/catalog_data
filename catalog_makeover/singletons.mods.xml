@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <!--Make sure have both authority and valueURI-->
     <!-- Add in HathiTrust links-->
     <!-- Continue reviewing work names
@@ -50457,7 +50457,7 @@ p -->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Lexicon-Suidas-Adler-1928-1938 ">
+    <mods displayLabel="Lexicon-Suidas-Adler-1928-1938">
         <titleInfo type="uniform" lang="eng">
             <title>Lexicon</title>
         </titleInfo>
@@ -50465,13 +50465,13 @@ p -->
             <title>Lexicographie Graeci</title>
             <partNumber>Pars I-4</partNumber>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/100162646">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/100162646">
             <namePart>Suidas</namePart>
             <role>
                 <roleTerm type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/69002180">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/69002180">
             <namePart>Adler, Ada</namePart>
             <namePart type="date">1878-1946</namePart>
             <role>
@@ -50513,6 +50513,15 @@ p -->
         <relatedItem type="constituent" otherType="work" displayLabel="Lexicon">
             <identifier type="ctsurn">urn:cts:greekLit:tlg9010.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Lexicon">
+                <identifier type="ctsurn">urn:cts:tlg9010.tlg001.1st1K-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg9010/tlg001/tlg9010.tlg001.1st1K-grc1.xml</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Lexicon">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg9010.tlg001.opp-grc2</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part>
@@ -50520,6 +50529,9 @@ p -->
                             <caption>Pars I</caption>
                         </detail>
                     </part>
+                    <originInfo>
+                        <dateIssued>1928</dateIssued>
+                    </originInfo>
                     <tableOfContents>[A-G]</tableOfContents>
                     <location>
                         <url displayLabel="SLUB">http://digital.slub-dresden.de/id413865401</url>
@@ -50531,6 +50543,9 @@ p -->
                             <caption>Pars II</caption>
                         </detail>
                     </part>
+                    <originInfo>
+                        <dateIssued>1931</dateIssued>
+                    </originInfo>
                     <tableOfContents>[D-TH]</tableOfContents>
                     <location>
                         <url displayLabel="SLUB">http://digital.slub-dresden.de/id413864820</url>
@@ -50542,6 +50557,10 @@ p -->
                             <caption>Pars III</caption>
                         </detail>
                     </part>
+                    <originInfo>
+                        <dateIssued>1933</dateIssued>
+                    </originInfo>
+                    <tableOfContents>[K-O; Ω]</tableOfContents>
                     <location>
                         <url displayLabel="SLUB">http://digital.slub-dresden.de/id413864146</url>
                     </location>
@@ -50552,6 +50571,10 @@ p -->
                             <caption>Pars IV</caption>
                         </detail>
                     </part>
+                    <originInfo>
+                        <dateIssued>1935</dateIssued>
+                    </originInfo>
+                    <tableOfContents>[P-Ps]</tableOfContents>
                     <location>
                         <url displayLabel="SLUB">http://digital.slub-dresden.de/id413863263</url>
                     </location>

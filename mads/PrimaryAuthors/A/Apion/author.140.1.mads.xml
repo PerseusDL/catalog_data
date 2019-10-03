@@ -1,22 +1,23 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/77107007/">
       <mads:namePart>Apion</mads:namePart>
       <mads:namePart type="date">ca. 25 B.C.-ca. 45 A.D</mads:namePart>
     </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x1F08;&#x3C0;&#x3AF;&#x3C9;&#x3BD;</mads:namePart>
+      <mads:namePart>Ἀπίων</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:variant type="other" lang="">
+  <mads:variant type="other" lang="spa">
     <mads:name type="personal">
       <mads:namePart>Alexandrino, Apion</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:variant type="other" lang="">
+  <mads:variant type="other" lang="spa">
     <mads:name type="personal">
       <mads:namePart>Apion Alexandrino</mads:namePart>
     </mads:name>
@@ -48,11 +49,6 @@
       <mads:namePart type="termsOfAddress">Grammaticus</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:variant type="abbreviation">
-    <mads:name type="personal" authority="lsj">
-      <mads:namePart/>
-    </mads:name>
-  </mads:variant>
   <mads:note type="source">Apion der Grammatiker ... 1886</mads:note>
   <mads:note type="source">RLIN, Jan. 4, 1999 (hdg.: Apion, 1st century: usage: Apion Alexandrino;
     Apyon)</mads:note>
@@ -65,15 +61,14 @@
   <mads:identifier type="citeurn">urn:cite:perseus:author.140.1</mads:identifier>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
   <mads:fieldOfActivity>Grammarian</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Commentator</mads:fieldOfActivity>
-  
-  
-  
+  <mads:fieldOfActivity>Commentator</mads:fieldOfActivity>  
+  <mads:note type="source">Brill's New Pauly: "Apion, Grammarian and lexicographer, lived at end of the 1st cent. BC to first half of 1st cent.
+    AD. He was born in an Egyptian oasis, was the son of a certain Poseidonius, was brought up in the house of Didymus in Alexandria 
+    and was the successor to Theon as leader of the Alexandrian school of grammarians....." 
+    from Montanari, Franco (Pisa). "Apion." Brill’s New Pauly. Brill Online, 2013. Reference. Tufts University Library. 07 May 2013 .</mads:note>  
   <mads:url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Apion</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-nr99-135</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/77107007/</mads:url>
-  <mads:url displayLabel="ID.gov"/>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
     <mads:identifier type="tlg">1152.005</mads:identifier>

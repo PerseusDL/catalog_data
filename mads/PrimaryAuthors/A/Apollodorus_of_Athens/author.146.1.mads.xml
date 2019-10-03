@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/103646538/">
       <mads:namePart>Apollodorus</mads:namePart>
       <mads:namePart type="termsOfAddress">of Athens</mads:namePart>
     </mads:name>
@@ -25,7 +26,13 @@
   </mads:variant>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>A&#x3C0;&#x3BF;&#x3BB;&#x3BB;&#x3CC;&#x3B4;&#x3C9;&#x3C1;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Ἀπολλόδωρος ὁ Ἀθηναῖος</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="grc">
+    <mads:name type="personal" authority="Brill">
+      <mads:namePart>Ἀπολλόδωρος</mads:namePart>
+      <mads:namePart type="termsOfAddress">ὁ Ἀθηναῖος</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
@@ -45,19 +52,23 @@
       <mads:namePart>Apollod.</mads:namePart>
     </mads:name>
   </mads:variant>
+  <mads:note type="source">Brill's New Pauly: "Apollodorus, of Athens Scholar, 2nd cent. BC, His Χρονικά (Chroniká) 
+    in four books lists historical events in chronological order. Its composition in iambic trimeters was intended a
+    s a mnemonic aid. The first three books extend to 144/3, and the fourth concludes the series. It was based on the Χρονογραφίαι 
+    (Chronographíai) of Eratosthenes, which it replaced in public estimation and in its coverage. Eratosthenes had stopped at the death of Alexander the Great in 323
+    A. continues the chronicle until shortly before his own death in about 110 BC, like Eratosthenes dating the fall of Troy to 1184/3, 
+    but following Ephorus in putting Homer's composition much later, in 944/3....." from Montanari, Franco (Pisa). "Apollodorus."
+    Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and
+    Helmuth Schneider . Brill, 2011. Brill Online. Tufts University Library. 05 October 2011</mads:note>
   <mads:note type="source">His Poeticae scriptores antiqui, 1675: t.p. (Apollodorus Atheniensis)</mads:note>
   <mads:note type="source">LC in OCLC, 9/6/84 (hdg.: Apollodorus, of Athens)</mads:note>
   <mads:note type="source">Chambers (hdg.: Apollodorus, fl. c. 140 B.C.)</mads:note>
   <mads:note type="source">New cent. cycl. of names (Apollodorus, fl. 2nd cent. B.C.)</mads:note>
   <mads:identifier type="lccn">n  84107769 </mads:identifier>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  
-  
-  
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/103646538/</mads:url>  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Apollodorus</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n84-107769</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
-  <mads:url displayLabel="VIAF"/>
   <mads:identifier type="tlg">0549</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.146.1</mads:identifier>
   <mads:extension>
