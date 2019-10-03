@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2068.1</identifier>
-    <authority>
-      <name authority="tlg">
-        <namePart>Antisthenes</namePart>
-        <namePart type="termsOfAddress">Philosophus</namePart>
-        <namePart type="date">5-4 B.C.</namePart>
-         <!-- Not all authorized headings will include a date element -->
-      </name>
-    </authority>
-    <variant type="other" lang="grc"><!-- I've included elements for Latin and Greek as these are the most common variant names we add -->
-      <name>
-        <namePart>Aντισθένης</namePart>
-      </name>
-    </variant>
-    <note type="source">Smith's Dictionary: "Antisthenes, a disciple of HERACLEITUS, wrote a commentary on the work of his master. (D. L. 9.15, 6.19.) It is not improbable that this Antisthenes may be the same as the one who wrote a work on the succession of the Greek philosophers (αἱ τῶν φιλοσόφων διαδοχαί), which is so often referred to by Diogenes Laertius...."</note>
-    <identifier type="tlg">2313</identifier>
-    <fieldOfActivity>Philosopher</fieldOfActivity>
-    <url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=antisthenes-bio-3</url>
-   <!-- typical values for displayLabel include Wikipedia, VIAF, Smith's Dictionary, Worldcat Identities, -->
-    <extension>
-      <description>List of related work identifiers</description>
-      <identifier type="tlg">2313.001</identifier>
-    </extension>    
-  </mads>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
+  <authority>
+    <name authority="tlg">
+      <namePart>Antisthenes</namePart>
+      <namePart type="termsOfAddress">Philosophus</namePart>
+      <namePart type="date">5-4 B.C.</namePart>
+    </name>
+  </authority>
+  <variant type="other" lang="grc">
+    <name>
+      <namePart>Aντισθένης</namePart>
+    </name>
+  </variant>
+  <note type="source">Smith's Dictionary: "Antisthenes, a disciple of HERACLEITUS, wrote a
+    commentary on the work of his master. (D. L. 9.15, 6.19.) It is not improbable that this
+    Antisthenes may be the same as the one who wrote a work on the succession of the Greek
+    philosophers (αἱ τῶν φιλοσόφων διαδοχαί), which is so often referred to by Diogenes
+    Laertius...."</note>
+  <identifier type="citeurn">urn:cite:perseus:author.2068.1</identifier>
+  <identifier type="tlg">2313</identifier>
+  <fieldOfActivity>Philosopher</fieldOfActivity>
+  <url displayLabel="Smith's Dictionary"
+    >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=antisthenes-bio-3</url>
+  <extension>
+    <description>List of related work identifiers</description>
+    <identifier type="tlg">2313.001</identifier>
+  </extension>
+</mads>

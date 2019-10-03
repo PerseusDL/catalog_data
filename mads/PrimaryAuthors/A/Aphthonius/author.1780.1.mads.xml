@@ -1,15 +1,16 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/265112315/">
       <mads:namePart>Aphthonius</mads:namePart>
       <mads:namePart type="date">active 4th century-5th century</mads:namePart>
     </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x1F08;&#x3C6;&#x3B8;&#x3CC;&#x3BD;&#x3B9;&#x3BF;&#x3C2;</mads:namePart>
-      <mads:namePart type="termsOfAddress">&#x391;&#x3BD;&#x3C4;&#x3B9;&#x3BF;&#x3C7;&#x3AD;&#x3B1;&#x3C2;</mads:namePart>
+      <mads:namePart>Ἀφθόνιος</mads:namePart>
+      <mads:namePart type="termsOfAddress">Αντιοχέας</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="eng">
@@ -37,12 +38,12 @@
   <mads:variant type="other" lang="fre">
     <mads:name type="personal">
       <mads:namePart>Aphthonios</mads:namePart>
-      <mads:namePart type="termsOfAddress">Sophist&#x113;s</mads:namePart>
+      <mads:namePart type="termsOfAddress">Sophistēs</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="por">
     <mads:name type="personal">
-      <mads:namePart>Aft&#xF4;nio</mads:namePart>
+      <mads:namePart>Aftônio</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="">
@@ -98,16 +99,15 @@
   <mads:note type="source">His Aphthonii Progymnasmata, 1655</mads:note>
   <mads:note type="source">LC in OCLC, 12/13/85 (hdg.: Aphthonius, sophista)</mads:note>
   <mads:note type="source">New cent. cy. of names (Aphthonius, Aelius Festus, fl. at Antioch c. 4th century A.D.)</mads:note>
-  <mads:note type="source">His Progymnasmata, 1515: t.p. (Aphthoniou sophistou Progymnasmata ... = Ausonij [sic] sophistae Praeludia)</mads:note>
+  <mads:note type="source">His Progymnasmata, 1515: t.p. (Aphthoniou sophistou Progymnasmata ... 
+    = Ausonij [sic] sophistae Praeludia)</mads:note>
   <mads:note type="source">Brill's new Pauly online, 10 January 2013 (Aphthonius....rhetorician of the 4th and 5th century A.D., 
-    from Antioch, student of Libanius, his speeches are lost, but 40 fables including some adapted from Babrius survive, as well as 
-    Progymnasmata)..."</mads:note>
+    from Antioch, student of Libanius, his speeches are lost, but 40 fables including 
+    some adapted from Babrius survive, as well as Progymnasmata)..."</mads:note>
   <mads:identifier type="lccn">n  85086176 </mads:identifier>
-  <mads:identifier type="ctsurn"/>
   <mads:identifier type="tlg">4100</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1780.1</mads:identifier>
-  <mads:fieldOfActivity>Rhetorician</mads:fieldOfActivity>
-  
+  <mads:fieldOfActivity>Rhetorician</mads:fieldOfActivity>  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Aphthonius_of_Antioch</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n85-86176</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=aphthonius-bio-1</mads:url>
