@@ -1,13 +1,19 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority lang="lat">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/162962022/">
       <mads:namePart>Simeo Sethus</mads:namePart>
     </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x3A3;&#x3C5;&#x3BC;&#x3B5;&#x3CE;&#x3BD; &#x39C;&#x3AC;&#x3B3;&#x3B9;&#x3C3;&#x3C4;&#x3C1;&#x3BF;&#x3C2; &#x1F08;&#x3BD;&#x3C4;&#x3B9;&#x3BF;&#x3C7;&#x3B5;&#x3AF;&#x3B1;&#x3C2; &#x3C4;&#x3BF;&#x1FE6; &#x3A3;&#x3AE;&#x3B8;&#x3B9;,</mads:namePart>
+      <mads:namePart>Συμεών Μάγιστρος Ἀντιοχείας τοῦ Σήθι</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="grc">
+    <mads:name type="personal" authority="Brill">
+      <mads:namePart>Συμεών Σηθ‏</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="eng">
@@ -17,12 +23,12 @@
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
-      <mads:namePart>Seth, Sime&#x301;on</mads:namePart>
+      <mads:namePart>Seth, Siméon</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
-      <mads:namePart>Sime&#x301;on Seth</mads:namePart>
+      <mads:namePart>Siméon Seth</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -31,10 +37,8 @@
     </mads:name>
   </mads:variant>
   <mads:note type="source">Simeonis Sethi Syntagma de alimentorum facultatibus, 1868</mads:note>
-  <mads:note type="source">RLIN, Feb. 16, 1999 (hdg.: Seth, Symeon; no usage)</mads:note>
-  <mads:note type="source">LC database, Feb. 22, 1999 (hdg.: Simeo Sethus; usage: Sime&#x301;on Seth)</mads:note>
-  <mads:note type="source">Oxford dictionary of Byzantium (Seth, Symeon; fl. second half of 11th
-      century; scientist; wrote on diet, physics and medicine; translated from Arabic)</mads:note>
+  <mads:note type="source">Oxford dictionary of Byzantium (Seth, Symeon, fl. second half of 11th
+      century, scientist, wrote on diet, physics and medicine, translated from Arabic)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1289.1</mads:identifier>
   <mads:identifier type="lccn">nr 99005326</mads:identifier>
   <mads:fieldOfActivity>Scientist</mads:fieldOfActivity>
@@ -42,7 +46,6 @@
    <mads:fieldOfActivity>Dietician</mads:fieldOfActivity>   
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Simeon_Seth</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-nr99-5326</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/162962022</mads:url>
   <mads:url displayLabel="ID.gov">http://id.loc.gov/authorities/names/nr99005326</mads:url>
   <mads:identifier type="tlg">3113</mads:identifier>

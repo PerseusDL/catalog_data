@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2170.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/v2/mads-2-0.xsd">
     <authority lang="lat">
-      <name type="personal">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/266366723">
         <namePart>Simon</namePart>
         <namePart type="termsOfAddress">Atheniensis</namePart>
       </name>
@@ -60,10 +61,10 @@
         <namePart type="termsOfAddress">Atheniensis</namePart>
       </name>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2170.1</identifier>
     <fieldOfActivity>Agricultural Author</fieldOfActivity>
     <url displayLabel="Wikipdia">https://en.wikipedia.org/wiki/Simon_of_Athens</url>
     <url displayLabel="VIAF">http://viaf.org/viaf/266366723</url>
-    <url displayLabel="Dataset description">http://viaf.org/viaf/data</url>
     <identifier type="uri">http://viaf.org/viaf/266366723</identifier>
     <identifier type="tlg">2600</identifier>
     <extension>
