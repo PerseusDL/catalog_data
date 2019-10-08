@@ -1,78 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xmlns:mods="http://www.loc.gov/mods/v3"
-           xmlns:xlink="http://www.w3.org/1999/xlink"
-           version="2.0"
-           xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
-  <mads:authority geographicSubdivision="not applicable">
-      <mads:name type="personal" authority="naf">
-         <mads:namePart>Satyros</mads:namePart>
-         <mads:namePart type="termsOfAddress">of Kallatis</mads:namePart>
-         <mads:namePart type="date">active 3rd century B.C</mads:namePart>
-      </mads:name>
-  </mads:authority>
-  <mads:variant type="other" lang="grc">
-      <mads:name type="personal" authority="Brill">
-         <mads:namePart>Σάτυρος</mads:namePart>
-      </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-      <mads:name type="personal">
-         <mads:namePart>Satyros</mads:namePart>
-         <mads:namePart type="termsOfAddress">of Kallatis</mads:namePart>
-         <mads:namePart type="date">3rd cent. B.C</mads:namePart>
-      </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="spa">
-      <mads:name type="personal">
-         <mads:namePart>Sátiro</mads:namePart>
-         <mads:namePart type="termsOfAddress">el peripatético</mads:namePart>
-      </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-      <mads:name type="personal" authority="viaf">
-         <mads:namePart>Satyrus</mads:namePart>
-         <mads:namePart type="termsOfAddress">Biographus</mads:namePart>
-      </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-      <mads:name type="personal" authority="lsj">
-         <mads:namePart>Satyrus</mads:namePart>
-         <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
-      </mads:name>
-  </mads:variant>
-  <mads:variant type="abbreviation">
-      <mads:name type="personal" authority="lsj">
-         <mads:namePart>Satyr.</mads:namePart>
-      </mads:name>
-  </mads:variant>
-  <mads:note type="source">Satyros aus Kallatis, 2004: t.p. ; p. 6, etc. (Satyros, 2nd half of 3rd cent. B.C.; Greek biographer)</mads:note>
-  <mads:identifier type="lccn">no2005049577</mads:identifier>
-  <mads:identifier type="tlg">0608</mads:identifier>
-  <mads:identifier type="ctsurn">urn:cts:greekLit:tlg0608</mads:identifier>
-  <mads:identifier type="citeurn">urn:cite:perseus:author.1711.1</mads:identifier>
-  <mads:fieldOfActivity>Biographer</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Peripatetic</mads:fieldOfActivity>
-  
-  <mads:url displayLabel="ID.gov">http://id.loc.gov/authorities/names/no2005049577</mads:url>
-  <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Satyrus_the_Peripatetic</mads:url>
-  <mads:url displayLabel="Worldcat Identities"/>
-  <mads:url displayLabel="Smith's Dictionary"/>
-  <mads:url displayLabel="VIAF">http://viaf.org/viaf/290755729</mads:url>
-  <mads:extension>
-      <mads:description>List of related work identifiers</mads:description>
-      <mads:identifier type="tlg">0608.002</mads:identifier>
-  </mads:extension>
-  <mads:recordInfo>
-      <mads:recordOrigin>Converted from MARCXML to MADS version 2.0 (Revision 2.10)</mads:recordOrigin>
-      <mads:recordContentSource authority="marcorg">ICU</mads:recordContentSource>
-      <mads:recordChangeDate encoding="iso8601">20130322101052.0</mads:recordChangeDate>
-      <mads:recordIdentifier source="DLC">no2005049577</mads:recordIdentifier>
-      <mads:languageOfCataloging>
-         <mads:languageTerm authority="iso639-2b" type="code">eng</mads:languageTerm>
-      </mads:languageOfCataloging>
-      <mads:descriptionStandard>aacr2</mads:descriptionStandard>
-  </mads:recordInfo>
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0"
+    xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+    <mads:authority geographicSubdivision="not applicable">
+        <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/290755729/">
+            <mads:namePart>Satyros</mads:namePart>
+            <mads:namePart type="termsOfAddress">of Kallatis</mads:namePart>
+            <mads:namePart type="date">active 3rd century B.C</mads:namePart>
+        </mads:name>
+    </mads:authority>
+    <mads:variant type="other" lang="grc">
+        <mads:name type="personal" authority="Brill">
+            <mads:namePart>Σάτυρος</mads:namePart>
+        </mads:name>
+    </mads:variant>
+    <mads:variant type="other">
+        <mads:name type="personal">
+            <mads:namePart>Satyros</mads:namePart>
+            <mads:namePart type="termsOfAddress">of Kallatis</mads:namePart>
+            <mads:namePart type="date">3rd cent. B.C</mads:namePart>
+        </mads:name>
+    </mads:variant>
+    <mads:variant type="other" lang="spa">
+        <mads:name type="personal">
+            <mads:namePart>Sátiro</mads:namePart>
+            <mads:namePart type="termsOfAddress">el peripatético</mads:namePart>
+        </mads:name>
+    </mads:variant>
+    <mads:variant type="other">
+        <mads:name type="personal" authority="viaf">
+            <mads:namePart>Satyrus</mads:namePart>
+            <mads:namePart type="termsOfAddress">Biographus</mads:namePart>
+        </mads:name>
+    </mads:variant>
+    <mads:variant type="other">
+        <mads:name type="personal" authority="lsj">
+            <mads:namePart>Satyrus</mads:namePart>
+            <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
+        </mads:name>
+    </mads:variant>
+    <mads:variant type="abbreviation">
+        <mads:name type="personal" authority="lsj">
+            <mads:namePart>Satyr.</mads:namePart>
+        </mads:name>
+    </mads:variant>
+    <mads:note type="source">Satyros aus Kallatis, 2004: t.p. ; p. 6, etc. (Satyros, 2nd half of 3rd cent. 
+        B.C., Greek biographer)</mads:note>
+    <mads:identifier type="lccn">no2005049577</mads:identifier>
+    <mads:identifier type="tlg">0608</mads:identifier>
+    <mads:identifier type="ctsurn">urn:cts:greekLit:tlg0608</mads:identifier>
+    <mads:identifier type="citeurn">urn:cite:perseus:author.1711.1</mads:identifier>
+    <mads:fieldOfActivity>Biographer</mads:fieldOfActivity>
+    <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
+    <mads:fieldOfActivity>Peripatetic</mads:fieldOfActivity>
+    <mads:url displayLabel="ID.gov">http://id.loc.gov/authorities/names/no2005049577</mads:url>
+    <mads:url displayLabel="Wikipedia"
+        >http://en.wikipedia.org/wiki/Satyrus_the_Peripatetic</mads:url>    
+    <mads:url displayLabel="VIAF">http://viaf.org/viaf/290755729</mads:url>
+    <mads:extension>
+        <mads:description>List of related work identifiers</mads:description>
+        <mads:identifier type="tlg">0608.002</mads:identifier>
+    </mads:extension>
+    <mads:recordInfo>
+        <mads:recordOrigin>Converted from MARCXML to MADS version 2.0 (Revision 2.10)</mads:recordOrigin>
+        <mads:recordContentSource authority="marcorg">ICU</mads:recordContentSource>
+        <mads:recordChangeDate encoding="iso8601">20130322101052.0</mads:recordChangeDate>
+        <mads:recordIdentifier source="DLC">no2005049577</mads:recordIdentifier>
+        <mads:languageOfCataloging>
+            <mads:languageTerm authority="iso639-2b" type="code">eng</mads:languageTerm>
+        </mads:languageOfCataloging>
+        <mads:descriptionStandard>aacr2</mads:descriptionStandard>
+    </mads:recordInfo>
 </mads:mads>
