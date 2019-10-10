@@ -6,7 +6,8 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-      <mads:name type="personal">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/17614131/">
          <mads:namePart>Democritus</mads:namePart>
          <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
          <mads:namePart type="date">ca. 3. Jh. n. Chr</mads:namePart>
@@ -40,12 +41,10 @@
   </mads:variant>
   <mads:note type="history">AP 16.180</mads:note>
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
-  <mads:note type="source"/>
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|102390320</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
+    <mads:note type="source">Brill's New Pauly: "Democritus, Epigram poet, no later than the 1st
+        half of the 1st cent. AD, called ‘clear and rich in images’ (σαφὴς καὶ ἀνθηρός
+        9,49) by Diogenes Laertius...."</mads:note>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/17614131/</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.459.1</mads:identifier>
   <mads:identifier type="tlg">0161</mads:identifier>
   <mads:extension>
