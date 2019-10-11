@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2259.1</identifier>
+<mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  version="2.0"
+  xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
     <authority lang="lat">
       <name type="personal">
         <namePart>Menecrates</namePart>
         <namePart type="termsOfAddress">Olynthius</namePart>
       </name>
     </authority>
-    <variant type="equivalent" lang="lat">
+    <variant lang="lat">
       <name type="personal">
         <namePart>Menecrates</namePart>
         <namePart type="termsOfAddress">Historicus</namePart>
@@ -20,6 +22,7 @@
       </name>
     </variant>
     <fieldOfActivity>Historian</fieldOfActivity>
+  <identifier type="citeurn">urn:cite:perseus:author.2259.1</identifier>  
     <url displayLabel="Wikipedia">https://el.wikipedia.org/wiki/Μενεκράτης_ο_Ολύνθιος</url>
     <identifier type="tlg">4345</identifier>
     <extension>

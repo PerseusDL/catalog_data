@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority lang="eng">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/184680684/">
       <mads:namePart>Mimnermus</mads:namePart>
       <mads:namePart type="termsOfAddress">of Colophon</mads:namePart>
       <mads:namePart type="date">7th cent. B.C</mads:namePart>
@@ -9,48 +10,42 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x39C;&#x3AF;&#x3BC;&#x3BD;&#x3B5;&#x3C1;&#x3BC;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Μίμνερμος</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Mimnermo</mads:namePart>
       <mads:namePart type="termsOfAddress">of Colophon</mads:namePart>
-      <mads:namePart type="date">7th cent. B.C</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Mimnermos</mads:namePart>
-      <mads:namePart type="termsOfAddress">ho Kolph&#x14D;nios,</mads:namePart>
-      <mads:namePart type="date">7th cent. B.C</mads:namePart>
+      <mads:namePart type="termsOfAddress">ho Kolphōnios</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Mimnermus</mads:namePart>
-      <mads:namePart type="date">7th cent. B.C</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
     <mads:name type="personal">
       <mads:namePart>Mimnerme</mads:namePart>
-      <mads:namePart type="termsOfAddress">de Colophon&#x200F;</mads:namePart>
-      <mads:namePart type="date">fl.7. Jh. v. Chr.&#x200F;</mads:namePart>
+      <mads:namePart type="termsOfAddress">de Colophon</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Mimnermos</mads:namePart>
-      <mads:namePart type="termsOfAddress">von Smyrna&#x200F;</mads:namePart>
-      <mads:namePart type="date">fl.7. Jh. v. Chr.&#x200F;</mads:namePart>
+      <mads:namePart type="termsOfAddress">von Smyrna</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Mimnermos</mads:namePart>
-      <mads:namePart type="termsOfAddress">von Kolophon&#x200F;</mads:namePart>
-      <mads:namePart type="date">fl.7. Jh. v. Chr.&#x200F;</mads:namePart>
+      <mads:namePart type="termsOfAddress">von Kolophon</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
@@ -62,7 +57,7 @@
   <mads:variant type="other" lang="spa">
     <mads:name type="personal">
       <mads:namePart>Mimnermo</mads:namePart>
-      <mads:namePart type="termsOfAddress">de Colof&#xF3;n&#x200F;</mads:namePart>
+      <mads:namePart type="termsOfAddress">de Colofón‏</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="swe">
@@ -94,18 +89,20 @@
       <mads:namePart>Mimn.</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:note type="source">His Poesi&#xCC;&#x81;a, 1983: t.p. (Mimnermo)</mads:note>
   <mads:note type="source">Oxford class. dict. (Mimnermus, Elegist and musician of Colophon)</mads:note>
-  <mads:note type="source">Megale&#xCC;&#x84; Helle&#xCC;&#x84;nike&#xCC;&#x84; enkykl. (Mimnermos ho
-        Kolopho&#xCC;&#x84;nios, fl. 632-650 B.C.)</mads:note>
   <mads:note type="source">LC manual auth. cd. (hdg.: Mimnermus, 7th cent. B.C.)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.938.1</mads:identifier>
   <mads:identifier type="lccn">n 83319399 </mads:identifier>
   <mads:fieldOfActivity>Elegist</mads:fieldOfActivity>
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
-  
-  
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 2, 1867, p. 1088: "Mimnermus, a celebrated elegeaic poet.....
+    He was generally called a Colophonian ... but from a fragment of his poem entitled Nanno, it appears that he was descended 
+    from those Colophonians who reconquered Smyrna from the Aeolians..."</mads:note>
+  <mads:note type="source">Brill's New Pauly: "Mimnermus, of Colophon, or Smyrna, 2nd half of the 7th century BC. 
+    One of the earliest writers of Greek elegy. In antiquity, he was viewed, along with Callinus [1] and Archilochus 
+    as its possible ‘inventor’. The Suda dates M. to the 37th Olympiad (632-629 BC), but the opinion of scholars is 
+    divided:..." from Bowie, Ewen (Oxford). "Mimnermus." Brill's New Pauly. Antiquity volumes edited by: 
+    Hubert Cancik and Helmuth Schneider . Brill, 2009. Brill Online. Tufts University Library. 02 December 2009</mads:note>  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Mimnermus</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-n83-319399</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0002.001;didno=ACL3129.0002.001;view=image;seq=00001098</mads:url>
