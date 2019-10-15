@@ -1,13 +1,14 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority lang="lat">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/285771738/">
       <mads:namePart>Onasander</mads:namePart>
     </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x39F;&#x3BD;&#x3AC;&#x3C3;&#x3B1;&#x3BD;&#x3B4;&#x3C1;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Ονάσανδρος</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
@@ -53,19 +54,25 @@
     </mads:name>
   </mads:variant>
   <mads:note type="nonpublic">Data provided by the ESTC/BL</mads:note>
+  <mads:note type="source">Brill's New Pauly: "Onasander, Greek author, 1st cent. AD, Author of 
+    a Greek work about military matters (Στρατηγικός/“‘Stratēgikós”) dedicated to the Roman senator
+    Q. Veranius (cos. AD 49) which dates to the period before 58/59, the year of Veranius' death 
+    (Tac. Agr. 14,2). In the prooemium, O. briefly mentions the agenda of his work: He intended
+    to give a summarizing account of military experience for Roman commanders without including
+    his own ideas and opinions...." Schneider, Helmuth (Kassel). "Onasander." 
+    Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and
+    Helmuth Schneider . Brill, 2011. Brill Online. Tufts University Library. 25 April 2011</mads:note>
   <mads:note type="source">His Onosandro Platonico, of the generall captaine, and of his office, 1563</mads:note>
-  <mads:note type="source">Hyamson, A. A dictionary of universal biography, 1951 (Onosander; Grk. philos. &amp; tactician, fl. ca. 50)</mads:note>
-  <mads:note type="source">Hammond, N. G. L. The Oxford classical dictionary, 1970 (Onasander, whom tradition makes a Platonic philosopher wrote his treatise on the duties of a commander, a dull exposition of commonplace military and ethical principles, for which the author disclaims any originality; it was enormously popular during the Renaissance)</mads:note>
+  <mads:note type="source">Hammond, N. G. L. The Oxford classical dictionary, 1970 (Onasander, whom tradition makes 
+    a Platonic philosopher wrote his treatise on the duties of a commander, a dull exposition of commonplace
+    military and ethical principles, for which the author disclaims any originality,
+    it was enormously popular during the Renaissance)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1012.1</mads:identifier>
   <mads:identifier type="lccn">nr 93019118 </mads:identifier>
   <mads:fieldOfActivity>Tactician</mads:fieldOfActivity>
   <mads:fieldOfActivity>Military Author</mads:fieldOfActivity>
-  
-  
-  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Onasander</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-nr93-19118</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:identifier type="tlg">0648</mads:identifier>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>

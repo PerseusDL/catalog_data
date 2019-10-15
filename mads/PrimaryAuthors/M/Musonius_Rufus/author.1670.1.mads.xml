@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/76320611/">
       <mads:namePart>Musonius Rufus, C. (Caius)</mads:namePart>
       <mads:namePart type="date">approximately 30-</mads:namePart>
     </mads:name>
@@ -9,55 +10,36 @@
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Musonio Rufo, C. (Caio)</mads:namePart>
-      <mads:namePart type="date">approximately 30-</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Musonio Rufo, Gaio</mads:namePart>
-      <mads:namePart type="date">approximately 30-</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Musonius</mads:namePart>
-      <mads:namePart type="date">approximately 30-</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Musonius, Ca&#xEF;us</mads:namePart>
-      <mads:namePart type="date">approximately 30-</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Musonius Rufus</mads:namePart>
-      <mads:namePart type="date">approximately 30-</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Musonius Rufus, C. (Caius)</mads:namePart>
-      <mads:namePart type="date">b. ca. 30</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Musonius Rufus, Caius</mads:namePart>
-      <mads:namePart type="date">approximately 30-</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Rufo, Gaio Musonio</mads:namePart>
-      <mads:namePart type="date">approximately 30-</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Rufus, C. Musonius (Caius Musonius)</mads:namePart>
-      <mads:namePart type="date">approximately 30-</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -72,11 +54,9 @@
     </mads:name>
   </mads:variant>
   <mads:note type="source">His Reliqviae ... 1905</mads:note>
-  <mads:note type="source">His Musonius Rufus, 1979: t.p. (Musonius Rufus) p. 7 (C. Musonius Rufus, b. in Volsinies [Bolsena], ca. 30 AD, his forename "Caius" is known through Pliny the Younger) p. 9 (the date of his birth is not known but was certainly before 96 AD)</mads:note>
-  <mads:note type="source">Guidotti, S. Gaio Rufo Musonio e lo stoicismo romano, 1976?: t.p. (Gaio Rufo Musonio)</mads:note>
-  <mads:note type="source">Grande encycl. (Musonius Rufus; Latin philosopher, b. 20-30, referred to by Pliny as Ca&#xEF;us Musonius)</mads:note>
-  <mads:note type="source">Deux pr&#xE9;dicateurs de l'Antiquit&#xE9;, 1978: t.p. (Musonius)</mads:note>
-  
+  <mads:note type="source">His Musonius Rufus, 1979: t.p. (Musonius Rufus) p. 7 (C. Musonius Rufus, b. in Volsinies
+    [Bolsena], ca. 30 AD, his forename "Caius" is known through Pliny the Younger) p. 9 (the date of his birth is not known but was certainly before 96 AD)</mads:note>
+  <mads:note type="source">Guidotti, S. Gaio Rufo Musonio e lo stoicismo romano, 1976?: t.p. (Gaio Rufo Musonio)</mads:note>  
   <mads:identifier type="lccn">n  78095505 </mads:identifier>
   <mads:identifier type="tlg">0628</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1670.1</mads:identifier>
@@ -85,7 +65,6 @@
   <mads:url displayLabel="Id.gov">http://id.loc.gov/authorities/names/n78095505</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Gaius_Musonius_Rufus</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n78-95505</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/76320611</mads:url>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
