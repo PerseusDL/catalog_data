@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2134.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority lang="grc">
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+        valueURI="https://viaf.org/viaf/86435125/">
 	        <namePart>Ōkellos</namePart>
 	        <namePart type="termsOfAddress">ho Leukanos</namePart>
 	        <namePart type="date">active 6th century B.C</namePart>
@@ -61,9 +63,11 @@
 	        <namePart type="termsOfAddress">ho Leukanos</namePart>
       </name>
     </variant>
-    <note type="source">Peri tēs tou pantos physeōs. Latin &amp; Greek. Ōkellos ho Leukanos, philosophos, peri tēs tou pantos physeōs, 1661: t.p. ([in Greek characters:] Ōkellos ho Leukanos, philosophos, [in Latin:] Ocellus Lucanus, philosophus)</note>
-    <note type="source">Oxford classical dict. (Ocellus (or Occelus) of Lucania, name occurs in Iamblichus' list of Pythagoreans; attribution of Peri tēs tou pantos physeōs to him is false)</note>
-    <note type="source">Der kleine Pauly (Okellos (Okkelos, Ekkelos) aus Lukanien, angeblich ein Schüler des Pythagoras)</note>
+  <identifier type="citeurn">urn:cite:perseus:author.2134.1</identifier>  
+    <note type="source">Oxford classical dict. (Ocellus (or Occelus) of Lucania, name occurs 
+      in Iamblichus' list of Pythagoreans; attribution of Peri tēs tou pantos physeōs to him is false)</note>
+    <note type="source">Der kleine Pauly (Okellos (Okkelos, Ekkelos) aus Lukanien, angeblich 
+      ein Schüler des Pythagoras)</note>
     <url displayLabel="VIAF">http://viaf.org/viaf/86435125/</url>
     <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Ocellus_Lucanus</url>
     <identifier type="lccn">n 90698896</identifier>
