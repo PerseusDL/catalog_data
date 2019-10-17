@@ -1,15 +1,19 @@
 <?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  version="2.0"
+  xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority lang="eng">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/25393339">
       <mads:namePart>Apollonius</mads:namePart>
       <mads:namePart type="termsOfAddress">of Tyana</mads:namePart>
     </mads:name>
   </mads:authority>
   <mads:related type="equivalent" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x1F08;&#x3C0;&#x3BF;&#x3BB;&#x3BB;&#x3CE;&#x3BD;&#x3B9;&#x3BF;&#x3C2;</mads:namePart>
-      <mads:namePart type="termsOfAddress">&#x1F41; &#x3A4;&#x3C5;&#x3B1;&#x3BD;&#x3B5;&#x3CD;&#x3C2;</mads:namePart>
+      <mads:namePart>Ἀπολλώνιος</mads:namePart>
+      <mads:namePart type="termsOfAddress">ὁ Τυανεύς</mads:namePart>
     </mads:name>
   </mads:related>
   <mads:related type="equivalent" lang="fre">
@@ -20,8 +24,7 @@
   </mads:related>
   <mads:related type="equivalent" lang="swe">
     <mads:name type="personal">
-      <mads:namePart>Apollonios fr&#xE5;n Tyana</mads:namePart>
-      <mads:namePart type="termsOfAddress">d. 90-t. e.Kr</mads:namePart>
+      <mads:namePart>Apollonios från Tyana</mads:namePart>
     </mads:name>
   </mads:related>
   <mads:related type="equivalent" lang="spa">
@@ -37,38 +40,10 @@
   </mads:related>
   <mads:related type="equivalent" lang="ara">
     <mads:name type="personal">
-      <mads:namePart>&#x627;&#x628;&#x648;&#x644;&#x648;&#x646;&#x64A;&#x648;&#x633;&#x60C;</mads:namePart>
-      <mads:namePart type="termsOfAddress">&#x627;&#x644;&#x62A;&#x64A;&#x627;&#x646;&#x649;</mads:namePart>
+      <mads:namePart> التيانى</mads:namePart>
+      <mads:namePart type="termsOfAddress">ابولونيوس</mads:namePart>
     </mads:name>
   </mads:related>
-  <mads:variant type="other" lang="ara">
-    <mads:name type="personal">
-      <mads:namePart>&#x623;&#x628;&#x648;&#x644;&#x648;&#x646;&#x64A;&#x648;&#x633;</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="ara">
-    <mads:name type="personal">
-      <mads:namePart>&#x628;&#x644;&#x64A;&#x646;&#x648;&#x633;</mads:namePart>
-      <mads:namePart type="termsOfAddress">&#x627;&#x644;&#x62D;&#x643;&#x64A;&#x645;</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="ara" transliteration="rom">
-    <mads:name type="personal">
-      <mads:namePart>Bali&#x302;na&#x302;s</mads:namePart>
-      <mads:namePart type="termsOfAddress">le Sage</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="ara" transliteration="rom">
-    <mads:name type="personal">
-      <mads:namePart>Bal&#xE3;in&#xE3;as</mads:namePart>
-      <mads:namePart type="termsOfAddress">le Sage</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="rus" transliteration="rom">
-    <mads:name type="personal">
-      <mads:namePart>Apollonii&#x306; Tianskii&#x306;</mads:namePart>
-    </mads:name>
-  </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Apollonio Tianeo</mads:namePart>
@@ -77,7 +52,6 @@
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Apollonio Tianeo</mads:namePart>
-      <mads:namePart type="termsOfAddress">d. 90-t. e.Kr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -131,7 +105,6 @@
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Apollonius av Tyana</mads:namePart>
-      <mads:namePart type="termsOfAddress">d. 90-t. e.Kr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -148,19 +121,12 @@
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Apollonius de Tyane</mads:namePart>
-      <mads:namePart type="termsOfAddress">d. 90-t. e.Kr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Apollonius di Tiana</mads:namePart>
       <mads:namePart type="date">c. 4 a.C.-97</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Apollonius fr&#xE5;n Tyana</mads:namePart>
-      <mads:namePart type="termsOfAddress">d. 90-t. e.Kr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -173,11 +139,6 @@
     <mads:name type="personal">
       <mads:namePart>Apolloniusz</mads:namePart>
       <mads:namePart type="termsOfAddress">z Tiany</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Apolloni&#xE6;i Tianski&#xE6;i</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -212,7 +173,6 @@
   <mads:identifier type="uri">http://viaf.org/viaf/25393339</mads:identifier>
   <mads:fieldOfActivity>Neo-Pythagorean</mads:fieldOfActivity>
   <mads:fieldOfActivity>Philosopher</mads:fieldOfActivity>
-  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Apollonius_of_Tyana</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/25393339</mads:url>
   <mads:url displayLabel="Smith's Dictionary"/>
