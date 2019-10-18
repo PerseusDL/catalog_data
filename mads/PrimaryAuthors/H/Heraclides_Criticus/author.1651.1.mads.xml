@@ -1,14 +1,19 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/287357057">
       <mads:namePart>Heraclides</mads:namePart>
       <mads:namePart type="termsOfAddress">Criticus</mads:namePart>
     </mads:name>
   </mads:authority>
+  <mads:related type="other">
+    <mads:name>
+      <mads:namePart>Pseudo-Dicaearchus</mads:namePart>
+    </mads:name>
+  </mads:related>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x1F29;&#x3C1;&#x3B1;&#x3BA;&#x3BB;&#x3B5;&#x3AF;&#x3B4;&#x3B7;&#x3C2;</mads:namePart>
+      <mads:namePart>Ἡρακλείδης</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -29,8 +34,6 @@
       <mads:namePart type="termsOfAddress">Kritikos</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:note type="source">Arenz, Alexander. Herakleides Kritikos "&#xDC;ber die St&#xE4;dte in Hellas", 2006: t.p.
-    (Herakleides Kritikos)</mads:note>
   <mads:note type="source">LC classification, P-PA, 1964 (Heraclides, Criticus, 
     alternate form: Heraclides, Creticus, 3rd cent. B.C.)</mads:note>
   <mads:note type="notFound">Oxford classical dict., 1949</mads:note>
@@ -38,10 +41,12 @@
   <mads:identifier type="tlg">1405</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1651.1</mads:identifier>
   <mads:fieldOfActivity>Geographer</mads:fieldOfActivity>
-  
-  <mads:url displayLabel="Wikipedia"/>
+  <mads:note type="source">Brill's New Pauly: " H. Creticus/Criticus Greek periegete, 3rd cent. BC, author of the treatise Perì tôn en têi 
+    Helládi póleōn (‘On the Towns of Greece’), which describes a journey through central and northern Greece according to the following 
+    scheme: distance, road and region, description of the town, local products and inhabitants....he work has usually been attributed since its first edition
+    by H. Stephanus in 1589 to  Dicaearchus,  but a note in the paradoxographer Apollonius [2. 120-142 § 19] (2nd cent. BC?) attests 
+    author and title."</mads:note>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n2007-20565</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/287357057</mads:url>
   <mads:url displayLabel="Id.gov">http://id.loc.gov/authorities/names/n2007020565</mads:url>
   <mads:extension>
