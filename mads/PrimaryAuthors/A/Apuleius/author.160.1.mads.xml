@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority lang="lat">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/32115433">
       <mads:namePart>Apuleius</mads:namePart>
     </mads:name>
   </mads:authority>
@@ -42,12 +43,12 @@
   </mads:variant>
   <mads:variant type="other" lang="ara">
     <mads:name type="personal">
-      <mads:namePart>&#x627;&#x628;&#x648;&#x644;&#x64A;&#x648;&#x633;</mads:namePart>
+      <mads:namePart>ابوليوس</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ara" transliteration="rom">
     <mads:name type="personal">
-      <mads:namePart>Ab&#x16B;liy&#x16B;s, L&#x16B;kiy&#x16B;s</mads:namePart>
+      <mads:namePart>Abūliyūs, Lūkiyūs</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="cat">
@@ -90,17 +91,17 @@
   </mads:variant>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x391;&#x3C0;&#x3BF;&#x3C5;&#x3BB;&#x3AE;&#x3B9;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Απουλήιος</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="heb">
     <mads:name type="personal">
-      <mads:namePart>&#x5D0;&#x5E4;&#x5D5;&#x5DC;&#x5D9;&#x5D0;&#x5D5;&#x5E1;</mads:namePart>
+      <mads:namePart>אפוליאוס</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="heb">
     <mads:name type="personal">
-      <mads:namePart>&#x5DC;&#x5D5;&#x5E7;&#x5D9;&#x5D5;&#x5E1;, &#x5D0;&#x5E4;&#x5D5;&#x5DC;&#x5D9;&#x5D0;&#x5D5;&#x5E1;</mads:namePart>
+      <mads:namePart>לוקיוס, אפוליאוס</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
@@ -110,12 +111,12 @@
   </mads:variant>
   <mads:variant type="other" lang="jap">
     <mads:name type="personal">
-      <mads:namePart>&#x30A2;&#x30D7;&#x30EC;&#x30A4;&#x30A6;&#x30B9;</mads:namePart>
+      <mads:namePart>アプレイウス</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="kor">
     <mads:name type="personal">
-      <mads:namePart>&#xC544;&#xD480;&#xB808;&#xC774;&#xC6B0;&#xC2A4;</mads:namePart>
+      <mads:namePart>아풀레이우스</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
@@ -158,8 +159,6 @@
         (Apuleio)</mads:note>
   <mads:note type="source">His Metamorphoses, 1989: CIP t.p. (Apuleius) data sheet (b. ca. 123
         A.D.)</mads:note>
-  <mads:note type="source">His al-Aza&#xCC;&#x84;hi&#xCC;&#x84;r, 1979: t.p.
-        (Lu&#xCC;&#x84;kiyu&#xCC;&#x84;s Abu&#xCC;&#x84;liyu&#xCC;&#x84;s al-Madawri&#xCC;&#x84;)</mads:note>
   <mads:note type="source">His Der goldene Esel, 1988: t.p. (Apuleius von Madaura)</mads:note>
   <mads:note type="source">Opera quae supersunt, 1968- : v. 1, t.p. (Apulei Platonici Madaurensis)</mads:note>
   <mads:note type="source">His Las metamorfosis, o, El asno de oro, 1992: t.p. (Lucio Apuleyo)</mads:note>
@@ -167,11 +166,14 @@
   <mads:fieldOfActivity>Mythographer</mads:fieldOfActivity>
   <mads:fieldOfActivity>Novelist</mads:fieldOfActivity>
   <mads:fieldOfActivity>Philosopher</mads:fieldOfActivity>
-  
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 1 , 1867, p. 248-250:
+    "Appuleius or Apuleius, chiefly celebrated as the author of the Golden Ass, was born in the early part
+    of the second century in Africa, at Madaura..."</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.160.1</mads:identifier>
   <mads:identifier type="lccn">n 80126286 </mads:identifier>
   <mads:identifier type="phi">1212</mads:identifier>
   <mads:identifier type="stoa author">stoa0030</mads:identifier>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/32115433</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-n80-126286</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Apuleius</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=acl3129.0001.001;didno=ACL3129.0001.001;view=image;seq=263;page=root;size=s;frm=frameset;</mads:url>
