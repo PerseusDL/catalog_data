@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority lang="eng">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/43254199/">
       <mads:namePart>Aristarchus</mads:namePart>
       <mads:namePart type="termsOfAddress">of Samothrace</mads:namePart>
       <mads:namePart type="date">ca. 217-145 B.C</mads:namePart>
@@ -9,8 +9,8 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>'&#x391;&#x3C1;&#x3B9;&#x301;&#x3C3;&#x3C4;&#x3B1;&#x3C1;&#x3C7;&#x3BF;&#x3C2;</mads:namePart>
-      <mads:namePart type="termsOfAddress">&#x3A3;&#x3B1;&#x3BC;&#x3BF;&#x3B8;&#x3C1;&#x3AC;&#x3BA;&#x3B7;</mads:namePart>
+      <mads:namePart>'Αρίσταρχος</mads:namePart>
+      <mads:namePart type="termsOfAddress"> ὁ Σαμόθραξ</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
@@ -40,7 +40,7 @@
   <mads:variant type="other" lang="cat">
     <mads:name type="personal">
       <mads:namePart>Aristarc</mads:namePart>
-      <mads:namePart type="termsOfAddress">de Samotr&#xE0;cia</mads:namePart>
+      <mads:namePart type="termsOfAddress">de Samotràcia</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
@@ -85,22 +85,10 @@
       <mads:namePart type="termsOfAddress">din Samotrace</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:variant type="other" lang="rus">
-    <mads:name type="personal" authority="viaf">
-      <mads:namePart>&#x410;&#x440;&#x438;&#x441;&#x442;&#x430;&#x440;&#x445;</mads:namePart>
-      <mads:namePart type="termsOfAddress">&#x421;&#x430;&#x43C;&#x43E;&#x444;&#x440;&#x430;&#x43A;&#x438;&#x439;&#x441;&#x43A;&#x438;&#x439;</mads:namePart>
-    </mads:name>
-  </mads:variant>
   <mads:variant type="other" lang="spa">
     <mads:name type="personal" authority="viaf">
       <mads:namePart>Aristarco</mads:namePart>
       <mads:namePart type="termsOfAddress">de Samotracia</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="swe">
-    <mads:name type="personal" authority="viaf">
-      <mads:namePart>Aristarchos</mads:namePart>
-      <mads:namePart type="termsOfAddress">fr&#xE5;n Samothrake</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -114,23 +102,23 @@
       <mads:namePart>Aristarch.</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:note type="nonpublic">Do not confuse with Aristarchus of Samos (astronomer and mathematician) [n  82068128]</mads:note>
-  <mads:note type="nonpublic">Non-Latin reference not evaluated</mads:note>
-  <mads:note type="source">Apthorp, M.J. The ms. evidence of interpolation in Homer, 1980: p. xiv, etc. (Aristarchus; Homeric scholar)</mads:note>
-  <mads:note type="source">Encyc. Brit., c1983 (Aristarchus of Samothrace; Greek critic &amp; grammarian; b. ca. 217 and d. 145 B.C.)</mads:note>
+  <mads:note type="source">Encyc. Brit., c1983 (Aristarchus of Samothrace; Greek critic and grammarian; b. ca. 217 and d. 145 B.C.)</mads:note>
   <mads:note type="source">Oxford Class. dict., c1970 (Aristarchus of Samothrace, ca. 217 to 145 B.C.)</mads:note>
   <mads:note type="source">Brit. Lib. gen. cat. to 1975 (Aristarchus, Grammaticus)</mads:note>
   <mads:note type="source">Kleine Pauly, 1964 (Aristarchos aus Samothrake, ca. 217-145 B.C.)</mads:note>
-  <mads:note type="source">Wikipedia, Sept 14, 2010 (Aristarchus of Samothrace; '&#x391;&#x3C1;&#x3B9;&#x301;&#x3C3;&#x3C4;&#x3B1;&#x3C1;&#x3C7;&#x3BF;&#x3C2; = Aristarchos; 220?-143 BC?; a grammarian noted as the most influential of all scholars of Homeric poetry; the librarian of the library of Alexandria)</mads:note>
+  <mads:note type="source">Brill's New Pauly: "Aristarchus of Samothrace Alexandrian grammarian, 216?-144 BC, A. was born in 216? 
+    on Samothrace, lived and worked in Alexandria and died in 144 BC. There he was a student of Aristophanes.... of Byzantium and 
+    a successor of Apollonius.. Eidographus in heading the library (fifth head after Zenodotus).....Aristophanes of Byzantium and A.
+    represent the apex of Alexandrian philology and played a major role in the transmission of classical texts and classical culture. A.
+    is also important because he wrote a large number of continuing commentaries (ὑπομνήματα hypomnḗmata) and monographs (συγγράμματα
+    syngrámmata) on specialized subjects (occasionally with polemical intentions     many dealt with Homeric problems) and in this context he assigned first rank to the textual interpretation...."</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.189.1</mads:identifier>
   <mads:identifier type="lccn">n  84220855</mads:identifier>
   <mads:fieldOfActivity>Grammarian</mads:fieldOfActivity>
   <mads:fieldOfActivity>Librarian</mads:fieldOfActivity>
   <mads:fieldOfActivity>Commentator</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Philologist</mads:fieldOfActivity>
-  
-  
-  
+  <mads:fieldOfActivity>Philologist</mads:fieldOfActivity>  
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/43254199/</mads:url>  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Aristarchus_of_Samothrace</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-n84-220855</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000305</mads:url>

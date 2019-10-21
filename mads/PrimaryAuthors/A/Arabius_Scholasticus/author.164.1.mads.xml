@@ -6,7 +6,8 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-      <mads:name type="personal">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/5317364/">
          <mads:namePart>Arabius</mads:namePart>
          <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
          <mads:namePart type="date">6. Jh</mads:namePart>
@@ -15,13 +16,11 @@
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Epigrammaticus, Arabius</mads:namePart>
-         <mads:namePart type="date">6. Jh</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Arabios</mads:namePart>
-         <mads:namePart type="date">6. Jh</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -54,8 +53,6 @@
       </mads:name>
   </mads:variant>
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
-  
   <mads:note type="source">"Ara'bius Schola'sticus, the author of seven epigrams in the Greek
       Anthology, most of which are upon works of art, lived probably in the reign of Justinian."
       Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 1, 1870, p. 253.</mads:note>
@@ -63,8 +60,8 @@
       writer of seven mannered poems." Degani, Enzo (Bologna). "Arabius Scholasticus." Brill's New
       Pauly. Antiquity volumes edited by: Hubert Cancik and Helmuth Schneider . Brill, 2007. Brill
       Online. Tufts University Library. 19 July 2007</mads:note>
-  <mads:url>http://ca.wikipedia.org/wiki/Arabi_Escol%C3%A0stic</mads:url>
-  <mads:url>http://viaf.org/processed/DNB|10237077X</mads:url>
+  <mads:url displayLabel="Wikipedia">http://ca.wikipedia.org/wiki/Arabi_Escol%C3%A0stic</mads:url>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/5317364/</mads:url>
   <mads:url>http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000268</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.164.1</mads:identifier>
   <mads:identifier type="tlg">4035</mads:identifier>

@@ -6,45 +6,39 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-      <mads:name type="personal">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/12693356/">
          <mads:namePart>Ararus</mads:namePart>
          <mads:namePart type="termsOfAddress">Comicus</mads:namePart>
          <mads:namePart type="date">um 376/373 v. Chr</mads:namePart>
       </mads:name>
   </mads:authority>
+    <mads:related type="equivalent">
+        <mads:name>
+            <mads:namePart>Ἀραρώς</mads:namePart>
+        </mads:name>
+    </mads:related>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Araros</mads:namePart>
          <mads:namePart type="termsOfAddress">Comicus</mads:namePart>
-         <mads:namePart type="date">um 376/373 v. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
       <mads:name type="personal">
          <mads:namePart>Araros</mads:namePart>
          <mads:namePart type="termsOfAddress">Sohn des Aristophanes</mads:namePart>
-         <mads:namePart type="date">um 376/373 v. Chr</mads:namePart>
-      </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="ger">
-      <mads:name type="personal">
-         <mads:namePart>Araros</mads:namePart>
-         <mads:namePart type="termsOfAddress">Dichter der Mittleren Komödie</mads:namePart>
-         <mads:namePart type="date">um 376/373 v. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
       <mads:name type="personal">
          <mads:namePart>Araros</mads:namePart>
          <mads:namePart type="termsOfAddress">Poeta Comico</mads:namePart>
-         <mads:namePart type="date">um 376/373 v. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
       <mads:name type="personal">
          <mads:namePart>Araros</mads:namePart>
          <mads:namePart type="termsOfAddress">Figlio di Aristofane</mads:namePart>
-         <mads:namePart type="date">um 376/373 v. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -58,14 +52,16 @@
          <mads:namePart>Arar.</mads:namePart>
       </mads:name>
   </mads:variant>
+    <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 1 , 1867, p. 254: "Araros, 
+        an Athenian comic poet of of the middle comedy, was the son of Aristophanes who first introduced him to the 
+        public notice as the principal actor in the second Plutus (B.C. 388)....Araros first exhibited in his own name B. C. 375....:"</mads:note>
   <mads:note type="genre">Middle Comedy</mads:note>
   <mads:fieldOfActivity>Comic Poet</mads:fieldOfActivity>
-  
-  
-  <mads:identifier type="citeurn">urn:cite:perseus:author.165.1</mads:identifier>
+    <mads:identifier type="citeurn">urn:cite:perseus:author.165.1</mads:identifier>
   <mads:identifier type="dnb">102380961</mads:identifier>
   <mads:identifier type="tlg">0415</mads:identifier>
-  <mads:url>http://viaf.org/processed/DNB|102380961</mads:url>
+    <mads:url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Araros</mads:url>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/12693356/</mads:url>
   <mads:url>http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000269</mads:url>
   <mads:extension>
       <mads:description>List of related work identifiers</mads:description>

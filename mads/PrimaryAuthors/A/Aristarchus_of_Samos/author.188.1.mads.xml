@@ -6,7 +6,7 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/79398695/">
          <mads:namePart>Aristarchus</mads:namePart>
          <mads:namePart type="termsOfAddress">of Samos</mads:namePart>
       </mads:name>
@@ -14,7 +14,7 @@
   <mads:variant type="other" lang="grc">
       <mads:name type="personal">
          <mads:namePart>'Αρίσταρχος</mads:namePart>
-         <mads:namePart type="termsOfAddress">ο Σάμιος </mads:namePart>
+         <mads:namePart type="termsOfAddress">ο Σάμιος</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ara">
@@ -147,9 +147,15 @@
   <mads:note type="source">Heath, T.L. Aristarchus of Samos, the ancient Copernicus, 1981: t.p. (Aristarchus of Samos)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.188.1</mads:identifier>
   <mads:identifier type="lccn">n  82068128</mads:identifier>
-  
-  
-  
+    <mads:note type="source">Brill's New Pauly: "Aristarchus of Samos, Greek mathemetician, The only facts
+        known of his life are that he was a student of Straton of Lampsacus (Diels, DG 313), observed the 
+        summer solstice in 280 BC and lived before Archimedes. From this the period of his life is
+        estimated to be around 310 to 230 BC. Only one work by A. is preserved: Περὶ μεγεθῶν καὶ 
+        ἀποστημάτων ἡλίου καὶ σελήνης (Perì megethôn kaì apostēmátōn hēlíou kaì selḗnēs)...It
+        represents the first attempt to determine astronomical distances with mathematical methods..."
+        Folkerts, Menso (Munich). "Aristarchus." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and
+        Helmuth Schneider . Brill, 2011..</mads:note>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/79398695/</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Aristarchus_of_Samos</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-n82-68128</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;q1=Aristarchus;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000306</mads:url>
