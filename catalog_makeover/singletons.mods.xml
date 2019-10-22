@@ -5166,6 +5166,76 @@
             </relatedItem>
         </relatedItem>
     </mods>
+    <!-- NEED TO FINISH -->
+    <mods displayLabel="Anthologiarum-Vettius Valens-Weidmann-1908">
+        <titleInfo>
+            <title>Vettii Valentis Antiocheni Anthologiarum libri novem</title>
+        </titleInfo>
+        <titleInfo type="uniform" nameTitleGroup="1">
+            <title>Anthologiae</title>
+        </titleInfo>
+        <titleInfo type="alternative">
+            <title>Anthologiarum libri novem</title>
+        </titleInfo>
+        <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/288633051/">
+            <namePart>Vettius Valens</namePart>
+            <role>
+                <roleTerm>creator</roleTerm>
+            </role>
+        </name>
+        <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+            valueURI="viaf.org/viaf/71461012/">
+            <namePart>Kroll, Wilhelm</namePart>
+            <namePart type="date">1869-1939</namePart>
+            <role>
+                <roleTerm>creator</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <genre authority="marcgt">bibliography</genre>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">ge</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Leipzig</placeTerm>
+            </place>
+            <publisher>Weidmann</publisher>
+            <dateIssued>1908</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+        </language>
+        <language objectPart="notes">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent></extent>
+        </physicalDescription>
+        <note type="statement of responsibility" altRepGroup="00"></note>
+        <note>Greek text; commentary in Latin.</note>
+        <note type="bibliography">Includes bibliographical references and indexes.</note>
+        <subject authority="lcsh">
+            <topic>Astrology</topic>
+            <topic>Early works to 1800</topic>
+        </subject>
+        <location>
+            <url displayLabel="Worldcat">http://www.worldcat.org/oclc/256875945</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/hvd.32044010237691</url>
+        </location>
+        <classification authority="lcc">PA4491.V46 A63</classification>
+        <relatedItem type="series">
+            <titleInfo>
+                <title></title>
+            </titleInfo>
+        </relatedItem>
+        <identifier type="oclc"></identifier>
+    </mods>
     <mods displayLabel="Antiquitates Romanae-Dionysius Halicarnassus-Cary/Spelman-Loeb-1937-1950">
         <titleInfo xml:lang="lat" type="uniform">
             <title>Antiquitates Romanae</title>
@@ -30402,7 +30472,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="WorldCat">http://worldcat.org/oclc/10556796</url>
         </location>
         <location>
-            <url displayLabel="HathiTrust">https://viaf.org/viaf/37677603/</url>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/uc1.$b310863</url>
         </location>
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=bdget9W_vQgC</url>
@@ -30412,7 +30482,16 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression" displayLabel="Fabulae Aesopeae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0614.tlg001.opp-grc1</identifier>
             </relatedItem>
-        </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Fabulae Aesopeae">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0614.tlg001.1st1K-grc1</identifier>
+                <location>
+                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0614/tlg001/tlg0614.tlg001.1st1K-grc1.xml</url>
+                </location>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg0614.tlg001.1st1K-grc1/</url>
+                </location>
+            </relatedItem>
+        </relatedItem>        
     </mods>
     <mods displayLabel="Fabulae (Genealogiae)-Hyginus-Schmidt-Jena-1872">
         <titleInfo xml:lang="lat" type="uniform">

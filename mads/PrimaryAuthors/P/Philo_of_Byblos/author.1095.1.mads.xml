@@ -1,11 +1,16 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/6297311/">
       <mads:namePart>Philo</mads:namePart>
       <mads:namePart type="termsOfAddress">of Byblos</mads:namePart>
     </mads:name>
   </mads:authority>
+  <mads:related type="equivalent">
+    <mads:name>
+      <mads:namePart>Φίλων Βύβλιος</mads:namePart>
+    </mads:name>
+  </mads:related>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Philo</mads:namePart>
@@ -25,7 +30,7 @@
   </mads:variant>
   <mads:variant type="other" lang="spa">
     <mads:name type="personal">
-      <mads:namePart>Fil&#xF3;n</mads:namePart>
+      <mads:namePart>Filón</mads:namePart>
       <mads:namePart type="termsOfAddress">de Biblos</mads:namePart>
     </mads:name>
   </mads:variant>
@@ -70,12 +75,6 @@
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
-      <mads:namePart>Herennius Philo</mads:namePart>
-      <mads:namePart type="termsOfAddress">Byblius</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
       <mads:namePart>Herennius Philon</mads:namePart>
       <mads:namePart type="termsOfAddress">Byblius</mads:namePart>
     </mads:name>
@@ -93,19 +92,16 @@
   </mads:variant>
   <mads:note type="source">Baumgarten, A. I. The Phoenician hist. of Philo of Byblos, 1981: t.p. (Philo of Byblos) p. 2, etc.
         (Greek speaking litterateur of the Hadrianic period; Herennius Philon von Byblos)</mads:note>
-  <mads:note type="notFound">Collier's</mads:note>
+  <mads:note type="source">Brill's New Pauly: "H. was an antiquarian and grammarian in the second half of the 1st cent. AD..."</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1095.1</mads:identifier>
   <mads:identifier type="lccn">n  82256222 </mads:identifier>
   <mads:identifier type="tlg">1416</mads:identifier>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
   <mads:fieldOfActivity>Grammarian</mads:fieldOfActivity>
   <mads:fieldOfActivity>Antiquarian</mads:fieldOfActivity>
-  
-  
-  
+  <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=philon-bio-15</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Philo_of_Byblos</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n82-256222</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/166085994
     </mads:url>
   <mads:extension>
