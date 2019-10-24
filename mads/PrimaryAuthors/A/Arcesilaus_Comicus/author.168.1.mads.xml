@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/24990106/">
       <mads:namePart>Arcesilaus</mads:namePart>
       <mads:namePart type="termsOfAddress">Comicus</mads:namePart>
       <mads:namePart type="date">5. Jh. v. Chr</mads:namePart>
@@ -9,7 +10,22 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x1F08;&#x3C1;&#x3BA;&#x3B5;&#x3C3;&#x3AF;&#x3BB;&#x3B1;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Ἀρκεσίλαος</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="ita">
+    <mads:name type="personal" authority="Brill">
+      <mads:namePart>Arcesilao</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="fre">
+    <mads:name type="personal" authority="Brill">
+      <mads:namePart>Arcésilas</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="ger">
+    <mads:name type="personal" authority="Brill">
+      <mads:namePart>Arkesilaos</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -25,12 +41,10 @@
   </mads:variant>
   <mads:note type="genre">Old Comedy</mads:note>
   <mads:fieldOfActivity>Comic Poet</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|102381011</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
+  <mads:note type="source">Brill's New Pauly: "Arcesilaus, poet of the Old Comedy, only attested in Diog. Laert. 4,45. Bäbler, Balbina (Göttingen)
+    Neudecker, Richard (Rome). "Arcesilaus." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and
+    Helmuth Schneider . Brill, 2011.</mads:note>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/24990106/</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.168.1</mads:identifier>
   <mads:identifier type="tlg">0520</mads:identifier>
   <mads:extension>

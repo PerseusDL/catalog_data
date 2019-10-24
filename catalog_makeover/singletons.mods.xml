@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
     <!--Make sure have both authority and valueURI-->
     <!-- Add in HathiTrust links-->
     <!-- Continue reviewing work names
@@ -1952,6 +1952,197 @@
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Adversus nationes Libri VII">
                 <identifier type="ctsurn">urn:cts:latinLit:stoa0034.stoa001.opp-lat1</identifier>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods displayLabel="Ad Autolycum Libri Tres-Theophilus-Humphry-Parker-1852">
+        <titleInfo>
+            <title>Libri tres ad Autholycum</title>
+        </titleInfo>
+        <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+            displayLabel="https://viaf.org/viaf/107036494">
+            <namePart>Theophilus</namePart>
+            <namePart type="termsOfAddress">Saint</namePart>
+            <namePart type="date">active 2nd century</namePart>
+            <role>
+                <roleTerm type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/19517775/">
+            <namePart>Humphry, William Gilson</namePart>
+            <namePart type="date">1815-1886</namePart>
+            <role>
+                <roleTerm type="text">editor</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">o</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Cambridge</placeTerm>
+            </place>
+            <publisher>Parker</publisher>
+            <dateIssued>1852</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <physicalDescription>
+            <form authority="marccategory">electronic resource</form>
+            <form authority="marcsmd">remote</form>
+            <extent>1 online resource (viii, 226 pages)</extent>
+        </physicalDescription>
+        <language objectPart="notes">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+        </language>
+        <subject authority="lcsh">
+            <name type="personal">
+                <namePart>Autolycus</namePart>
+                <namePart type="date">active 2nd century</namePart>
+            </name>
+        </subject>
+        <subject authority="lcsh">
+            <topic>Apologetics</topic>
+            <genre>Early works to 1800</genre>
+        </subject>
+        <subject authority="lcsh">
+            <topic>Theology</topic>
+            <genre>Early works to 1800</genre>
+        </subject>
+        <note type="statement of responsibility" altRepGroup="00">editit prolegomenis,
+            versione, notulis, indicibus instruxit Gulielmus
+            Gilson Humphry.</note>
+        <location>
+            <url displayLabel="Open Content Alliance">https://archive.org/details/libritresadautho00theo</url>
+        </location>
+         <location>
+             <url displayLabel="Worldcat">http://www.worldcat.org/oclc/221107006</url>
+        </location>
+        <identifier type="oclc">221107006</identifier>
+        <relatedItem type="constituent" otherType="work" displayLabel="Ad Autolycum">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg1725.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Ad Autolycum">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1725.tlg001.opp-lat1</identifier>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Ad Autolycum">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1725.tlg001.perseus-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg1725.tlg001.perseus-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg1725/tlg001/tlg1725.tlg001.perseus-grc1.xml</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods displayLabel="Ad Autolycum Libri Tres-Theophilus-Otto-Jena-1861">
+        <titleInfo>
+            <title>Ad Autolycum libri tres</title>
+        </titleInfo>
+        <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+            displayLabel="https://viaf.org/viaf/107036494">
+            <namePart>Theophilus</namePart>
+            <namePart type="termsOfAddress">Saint</namePart>
+            <namePart type="date">active 2nd century</namePart>
+            <role>
+                <roleTerm type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/416334/">
+            <namePart>Otto, Johann Karl Theodor von</namePart>
+            <namePart type="date">1816-1897</namePart>
+            <role>
+                <roleTerm type="text">editor</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">xx</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Ienae</placeTerm>
+            </place>
+            <publisher>prostat apud F. Mauke</publisher>
+            <dateIssued>1861</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language objectPart="notes">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>iv, 364 p. 2 facsims. (1 fold.) 22 cm.</extent>
+        </physicalDescription>
+        <note type="statement of responsibility" altRepGroup="00">Ad optimos libros mss. nunc primum aut
+            denuo collatos recensuit prolegomenis adnotatione critica et exegetica atque versione latina
+            instruxit indices adiecit Ioann. Carol. Theod. Otto. Accedunt Theophili qui feruntur
+            Commentarii in quatuor Evangelia nunc primum castigatiores. Cum duobus speciminibus lithogr.
+            codicum mstorum.</note>
+        <note>The statement on p. viii that the "Commentarii" is a fifth century compilation has never
+            been successfully refuted. cf. Bardenhewer, O. Gesch. der altkirchl. Literatur, 2. Aufl., v.
+            1, p. 312-315.</note>
+        <note>Greek and Latin on opposite pages.</note>
+        <subject authority="lcsh">
+            <name type="personal">
+                <namePart>Autolycus</namePart>
+                <namePart type="date">active 2nd century</namePart>
+            </name>
+        </subject>
+        <subject authority="lcsh">
+            <topic>Apologetics</topic>
+            <genre>Early works to 1800</genre>
+        </subject>
+        <subject authority="lcsh">
+            <topic>Theology</topic>
+            <genre>Early works to 1800</genre>
+        </subject>
+        <classification authority="lcc">BT1116 .T7 1861</classification>
+        <classification authority="ddc">239.1</classification>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Corpus apologetarum Christianorum saeculi secundi</title>
+                <partNumber>Volume 8</partNumber>
+            </titleInfo>
+        </relatedItem>
+        <identifier type="lccn">39010051</identifier>
+        <identifier type="oclc">989661</identifier>
+        <location>
+            <url displayLabel="Worldcat">http://www.worldcat.org/oclc/989661</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/mdp.39015056095840</url>
+        </location>
+       <location>
+           <url displayLabel="Google Books">https://books.google.de/books?id=rhwaAQAAIAAJ</url>
+       </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="Ad Autolycum">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg1725.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Ad Autolycum">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1725.tlg001.opp-lat2</identifier>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Ad Autolycum">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1725.tlg001.perseus-grc2</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg1725.tlg001.perseus-grc2/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg1725/tlg001/tlg1725.tlg001.perseus-grc2.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -5166,7 +5357,6 @@
             </relatedItem>
         </relatedItem>
     </mods>
-    <!-- NEED TO FINISH -->
     <mods displayLabel="Anthologiarum-Vettius Valens-Weidmann-1908">
         <titleInfo>
             <title>Vettii Valentis Antiocheni Anthologiarum libri novem</title>
@@ -5213,9 +5403,11 @@
         </language>
         <physicalDescription>
             <form authority="marcform">print</form>
-            <extent></extent>
+            <extent>XVII, 420 Seiten</extent>
         </physicalDescription>
-        <note type="statement of responsibility" altRepGroup="00"></note>
+        <classification authority="lcc">PA4491.V46 A63</classification>
+        <identifier type="oclc">256875945</identifier>
+        <note type="statement of responsibility" altRepGroup="00"/>
         <note>Greek text; commentary in Latin.</note>
         <note type="bibliography">Includes bibliographical references and indexes.</note>
         <subject authority="lcsh">
@@ -5228,13 +5420,24 @@
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/hvd.32044010237691</url>
         </location>
-        <classification authority="lcc">PA4491.V46 A63</classification>
-        <relatedItem type="series">
-            <titleInfo>
-                <title></title>
-            </titleInfo>
+        <location>
+            <url displayLabel="Open Content Alliance"
+                >https://archive.org/details/bub_gb_OQ_gAAAAMAAJ/page/n1</url>
+        </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="Anthologiarum libri">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg1764.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1764.tlg001.1st1K-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg1764.tlg001.1st1K-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg1764/tlg001/tlg1764.tlg001.1st1K-grc1.xml</url>
+                </location>
+            </relatedItem>
         </relatedItem>
-        <identifier type="oclc"></identifier>
     </mods>
     <mods displayLabel="Antiquitates Romanae-Dionysius Halicarnassus-Cary/Spelman-Loeb-1937-1950">
         <titleInfo xml:lang="lat" type="uniform">
@@ -21585,6 +21788,15 @@ but this is where the TLG has left off for numbering-->
                 displayLabel="De utilitate mathematicae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg1724.tlg001.opp-grc1</identifier>
             </relatedItem>
+            <relatedItem type="constituent" otherType="expression">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1724.tlg001.1st1K-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg1724.tlg001.1st1K-grc1</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg1724/tlg001/tlg1724.tlg001.1st1K-grc1.xml</url>
+                </location>
+            </relatedItem>
         </relatedItem>
     </mods>
     <mods displayLabel="De Venenatis animalibus eorumque remediis-Philumenus-Wellmann-Teubner-1908">
@@ -30485,13 +30697,15 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression" displayLabel="Fabulae Aesopeae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0614.tlg001.1st1K-grc1</identifier>
                 <location>
-                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0614/tlg001/tlg0614.tlg001.1st1K-grc1.xml</url>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0614/tlg001/tlg0614.tlg001.1st1K-grc1.xml</url>
                 </location>
                 <location>
-                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg0614.tlg001.1st1K-grc1/</url>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg0614.tlg001.1st1K-grc1/</url>
                 </location>
             </relatedItem>
-        </relatedItem>        
+        </relatedItem>
     </mods>
     <mods displayLabel="Fabulae (Genealogiae)-Hyginus-Schmidt-Jena-1872">
         <titleInfo xml:lang="lat" type="uniform">
