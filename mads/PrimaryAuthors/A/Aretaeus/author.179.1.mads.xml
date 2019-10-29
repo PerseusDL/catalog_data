@@ -6,7 +6,8 @@
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
            version="2.0">
   <mads:authority>
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/60528301/">
          <mads:namePart>Aretaeus</mads:namePart>
          <mads:namePart type="termsOfAddress">of Cappadocia</mads:namePart>
       </mads:name>
@@ -42,69 +43,48 @@
       <mads:name type="personal">
          <mads:namePart>Aretaeus</mads:namePart>
          <mads:namePart type="termsOfAddress">Cappadocius</mads:namePart>
-         <mads:namePart type="date">1. Jh</mads:namePart>
       </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-      <mads:name type="personal">
-         <mads:namePart>Aretaios</mads:namePart>
-         <mads:namePart type="date">1. Jh</mads:namePart>
-      </mads:name>
-  </mads:variant>
+  </mads:variant>  
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Aretaeus</mads:namePart>
          <mads:namePart type="termsOfAddress">Medicus</mads:namePart>
-         <mads:namePart type="date">1. Jh</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
       <mads:name type="personal">
          <mads:namePart>Arétée</mads:namePart>
          <mads:namePart type="termsOfAddress">de Cappadoce</mads:namePart>
-         <mads:namePart type="date">1. Jh</mads:namePart>
       </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-      <mads:name type="personal">
-         <mads:namePart>Aretaios</mads:namePart>
-         <mads:namePart type="termsOfAddress">Arzt</mads:namePart>
-         <mads:namePart type="date">1. Jh</mads:namePart>
-      </mads:name>
-  </mads:variant>
+  </mads:variant>  
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Areteo</mads:namePart>
          <mads:namePart type="termsOfAddress">di Cappadocia</mads:namePart>
-         <mads:namePart type="date">1. Jh</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Areteo</mads:namePart>
          <mads:namePart type="termsOfAddress">Medico</mads:namePart>
-         <mads:namePart type="date">1. Jh</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Aretaios</mads:namePart>
          <mads:namePart type="termsOfAddress">Pneumatiker</mads:namePart>
-         <mads:namePart type="date">1. Jh</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Aretaios</mads:namePart>
          <mads:namePart type="termsOfAddress">Kappadox</mads:namePart>
-         <mads:namePart type="date">1. Jh</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Aretaeus</mads:namePart>
          <mads:namePart type="termsOfAddress">the Cappadocian</mads:namePart>
-         <mads:namePart type="date">1. Jh</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -123,25 +103,12 @@
       <mads:name type="personal" authority="lsj">
          <mads:namePart>Aret.</mads:namePart>
       </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="ita">
-      <mads:name type="personal">
-         <mads:namePart>Areteo</mads:namePart>
-         <mads:namePart type="termsOfAddress">di Cappadocia</mads:namePart>
-      </mads:name>
-  </mads:variant>
+  </mads:variant>  
   <mads:fieldOfActivity>Physician</mads:fieldOfActivity>
   <mads:note type="source">His The extant works of Aretaeus, the Cappadocian, c1978: t.p.
         (Aretaeus, the Cappadocian)</mads:note>
   <mads:note type="source">Brill Online, Brill's New Pauly, "Aretaeus of Cappdocia, Greek
-        Hippocratic physician who was influenced by Pneumatic theory...</mads:note>
-  
-  
-  <mads:note type="source">Encycl. Brit. (Aretaeus of Cappadocia)</mads:note>
-  <mads:note type="source">Oxford class. dict. (Aretaeus of Cappadocia)</mads:note>
-  <mads:note type="source">LC data base, 3-17-86 (Hdg.: Aretaeus)</mads:note>
-  <mads:note type="source">Papyros-Larous. (Aretaios)</mads:note>
-  <mads:note type="source">Weber, G. Areteo di Cappadocia, 1996: t.p. (Areteo di Cappadocia)</mads:note>
+        Hippocratic physician who was influenced by Pneumatic theory...</mads:note> 
   <mads:identifier type="citeurn">urn:cite:perseus:author.179.1</mads:identifier>
   <mads:identifier type="lccn">n 85229153 </mads:identifier>
   <mads:identifier type="tlg">0719</mads:identifier>
