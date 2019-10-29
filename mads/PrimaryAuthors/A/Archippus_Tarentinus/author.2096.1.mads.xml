@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2096.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/39766394">
         <namePart>Archippus</namePart>
         <namePart type="termsOfAddress">Tarentinus</namePart>
         <namePart type="date">v5. Jh</namePart>
@@ -17,7 +19,6 @@
       <name type="personal">
         <namePart>Archippos</namePart>
         <namePart type="termsOfAddress">Philosoph</namePart>
-        <namePart type="date">v5. Jh</namePart>
       </name>
     </variant>
     <variant type="other" lang="ita">
@@ -38,6 +39,7 @@
     <url displayLabel="VIAF">http://viaf.org/viaf/39766394</url>
     <identifier type="uri">http://viaf.org/viaf/39766394</identifier>
     <identifier type="vor">vor0003</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2096.1</identifier>  
     <extension>
       <description>List of related work identifiers</description>
       <identifier type="vor">vor0003.vor001</identifier>
