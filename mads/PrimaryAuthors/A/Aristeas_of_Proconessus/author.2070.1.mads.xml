@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2070.1</identifier>
+  <mads xmlns="http://www.loc.gov/mads/v2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
+    version="2.0"
+    xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads.xsd">
     <authority>
-      <name type="personal" authority="lat">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/54951829">
         <namePart>Aristeas</namePart>
         <namePart type="termsOfAddress">of Proconessus</namePart>
       </name>
@@ -36,28 +38,24 @@
       <name type="personal">
         <namePart>Aristeas</namePart>
         <namePart type="termsOfAddress">Epicus</namePart>
-        <namePart type="date">ca. v6. Jh</namePart>
       </name>
     </variant>
     <variant type="other" lang="lat">
       <name type="personal">
         <namePart>Aristeas</namePart>
         <namePart type="termsOfAddress">Proconniensis</namePart>
-        <namePart type="date">ca. v6. Jh</namePart>
       </name>
     </variant>
     <variant type="other" lang="ita">
       <name type="personal">
         <namePart>Aristea</namePart>
         <namePart type="termsOfAddress">Taumaturgo</namePart>
-        <namePart type="date">ca. v6. Jh</namePart>
       </name>
     </variant>
     <variant type="other" lang="ita">
       <name type="personal">
         <namePart>Aristea</namePart>
         <namePart type="termsOfAddress">di Proconneso</namePart>
-        <namePart type="date">ca. v6. Jh</namePart>
       </name>
     </variant>
     <variant type="other">
@@ -90,8 +88,13 @@
         <namePart>阿里斯提亚斯</namePart>
       </name>
     </variant>
+    <identifier type="citeurn">urn:cite:perseus:author.2070.1</identifier>    
     <fieldOfActivity>Epic Poet</fieldOfActivity>
-    <note type="source">Brill's New Pauly: "Aristeas, Epic Poet, of the island of Proconnesus in the Propontis. The Suda places him in the period of Croesus and Cyrus. In his epic Ἀριμάσπεια (Arimáspeia), A. tells of his travels into the land of the Scythes and of the Issedones, who lived further north..."Selzer, Christoph (Frankfurt/Main). “Aristeas”, in: Brill’s New Pauly, Antiquity volumes edited by: Hubert Cancik and , Helmuth Schneider. Consulted online on 20 January 2017</note>
+    <note type="source">Brill's New Pauly: "Aristeas, Epic Poet, of the island of Proconnesus in the Propontis. 
+      The Suda places him in the period of Croesus and Cyrus. In his epic Ἀριμάσπεια (Arimáspeia), A. tells 
+      of his travels into the land of the Scythes and of the Issedones, who lived further north..."
+      Selzer, Christoph (Frankfurt/Main). “Aristeas”, in: Brill’s New Pauly, Antiquity volumes edited by:
+      Hubert Cancik and , Helmuth Schneider. Consulted online on 20 January 2017</note>
     <url displayLabel="VIAF">http://viaf.org/viaf/54951829</url>
     <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Aristeas</url>
     <identifier type="uri">http://viaf.org/viaf/54951829</identifier>
