@@ -4,7 +4,7 @@
    version="2.0"
    xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-0.xsd">
    <mads:authority geographicSubdivision="not applicable">
-      <mads:titleInfo authority="naf">
+      <mads:titleInfo authority="viaf"  authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/184315487">
          <mads:title>Barnabae epistula</mads:title>
       </mads:titleInfo>
    </mads:authority>
@@ -43,7 +43,22 @@
          <mads:namePart>Barnabas</mads:namePart>
          <mads:namePart type="termsOfAddress">Apostle, Saint</mads:namePart>
       </mads:name>
-   </mads:related>   
+   </mads:related>  
+   <mads:variant type="other">
+      <mads:titleInfo>
+         <mads:title>Βαρνάβα ἐπιστολὴ</mads:title>
+      </mads:titleInfo>
+   </mads:variant>
+   <mads:variant type="other">
+      <mads:titleInfo>
+         <mads:title>Βαρνάβα ἐπιστολή</mads:title>
+      </mads:titleInfo>
+   </mads:variant>
+   <mads:variant type="other">
+      <mads:titleInfo>
+         <mads:title>Ἐπιστολή Βαρνάβα</mads:title>
+      </mads:titleInfo>
+   </mads:variant>
    <mads:variant type="other">
       <mads:titleInfo>
          <mads:title>Barnaba epistolē</mads:title>
@@ -141,16 +156,6 @@
    </mads:variant>
    <mads:variant type="other">
       <mads:titleInfo>
-         <mads:title>Lettre de Barnabé</mads:title>
-      </mads:titleInfo>
-   </mads:variant>
-   <mads:variant type="other">
-      <mads:titleInfo>
-         <mads:title>Lettre de Barnabé</mads:title>
-      </mads:titleInfo>
-   </mads:variant>
-   <mads:variant type="other">
-      <mads:titleInfo>
          <mads:title>Sancti Barnabae Apostoli Epistola catholica</mads:title>
       </mads:titleInfo>
    </mads:variant>
@@ -182,21 +187,6 @@
    <mads:variant type="other">
       <mads:titleInfo>
          <mads:title>̓Epistolí̄ Varnáva</mads:title>
-      </mads:titleInfo>
-   </mads:variant>
-   <mads:variant type="other">
-      <mads:titleInfo>
-         <mads:title>Βαρνάβα ἐπιστολὴ</mads:title>
-      </mads:titleInfo>
-   </mads:variant>
-   <mads:variant type="other">
-      <mads:titleInfo>
-         <mads:title>Βαρνάβα ἐπιστολή</mads:title>
-      </mads:titleInfo>
-   </mads:variant>
-   <mads:variant type="other">
-      <mads:titleInfo>
-         <mads:title>Ἐπιστολή Βαρνάβα</mads:title>
       </mads:titleInfo>
    </mads:variant>
    <mads:url displayLabel="VIAF">http://viaf.org/viaf/184315487</mads:url>
