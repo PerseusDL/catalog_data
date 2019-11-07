@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/24990152">
       <mads:namePart>Basilis</mads:namePart>
       <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
       <mads:namePart type="date">v3./2. Jh</mads:namePart>
@@ -16,21 +17,16 @@
     <mads:name type="personal">
       <mads:namePart>Basilis</mads:namePart>
       <mads:namePart type="termsOfAddress">Historiker</mads:namePart>
-      <mads:namePart type="date">v3./2. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:identifier type="uri">http://viaf.org/viaf/24990152</mads:identifier>
-  <mads:identifier type="ctsurn"/>
   <mads:identifier type="tlg">1218</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1594.1</mads:identifier>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="Worldcat Identities"/>
-  <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=basilis-bio-1</mads:url>
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology: "Basilis, Greek writer
+    of uncertain date, the author of a work on India (Ἰνδικά), of which the second book is quoted by Athenaeus. (ix. p. 390b)...."</mads:note> 
+   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=basilis-bio-1</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/24990152</mads:url>
-  <mads:url displayLabel="id.gov"/>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
     <mads:identifier type="tlg">1218.003</mads:identifier>
