@@ -1,12 +1,19 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/105155222/">
       <mads:namePart>Athanasius</mads:namePart>
       <mads:namePart type="termsOfAddress">Saint, Patriarch of Alexandria</mads:namePart>
       <mads:namePart type="date">d. 373</mads:namePart>
     </mads:name>
   </mads:authority>
+  <mads:related type="equivalent">
+    <mads:name>
+      <mads:namePart>Ἀθανάσιος</mads:namePart>
+      <mads:namePart type="termsOfAddress">Ἀλεξανδρείας</mads:namePart>
+    </mads:name>
+  </mads:related>
   <mads:related type="other">
     <mads:name type="personal">
       <mads:namePart>Pseudo-Athanasius</mads:namePart>
@@ -15,57 +22,18 @@
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Atanasio</mads:namePart>
-      <mads:namePart type="termsOfAddress">Saint, Patriarch of Alexandria</mads:namePart>
-      <mads:namePart type="date">d. 373</mads:namePart>
+      <mads:namePart type="termsOfAddress">di Alessandria</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Athanase</mads:namePart>
-      <mads:namePart type="termsOfAddress">Saint, Patriarch of Alexandria</mads:namePart>
-      <mads:namePart type="date">d. 373</mads:namePart>
+      <mads:namePart type="termsOfAddress">d'Alexandrie</mads:namePart>
     </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Af&#xCC;&#x87;anasi&#xCC;&#x84;i&#xCC;&#x86; Veliki&#xCC;&#x84;i&#xCC;&#x86;</mads:namePart>
-      <mads:namePart type="termsOfAddress">Saint, arkhi&#xCC;&#x84;episkop
-                aleksandri&#xCC;&#x84;i&#xCC;&#x86;ski&#xCC;&#x84;i&#xCC;&#x86;</mads:namePart>
-      <mads:namePart type="date">d. 373</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Af&#xCC;&#x87;anasi&#xCC;&#x84;i&#xCC;&#x86; Veliki&#xCC;&#x84;i&#xCC;&#x86;</mads:namePart>
-      <mads:namePart type="termsOfAddress">Saint, Archbishop of Alexandria</mads:namePart>
-      <mads:namePart type="date">d. 373</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Afanasii&#xCC;&#x86;</mads:namePart>
-      <mads:namePart type="termsOfAddress">Saint, episkop
-                aleksandrii&#xCC;&#x86;skii&#xCC;&#x86;</mads:namePart>
-      <mads:namePart type="date">d. 373</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Afanasii&#xCC;&#x86;</mads:namePart>
-      <mads:namePart type="termsOfAddress">Saint, Bishop pf Alexandria</mads:namePart>
-      <mads:namePart type="date">d. 373</mads:namePart>
-    </mads:name>
-  </mads:variant>
+  </mads:variant>  
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Athanasios</mads:namePart>
-      <mads:namePart type="termsOfAddress">Saint, Patriarch of Alexandria</mads:namePart>
-      <mads:namePart type="date">d. 373</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Athana&#xCC;&#x84;siyu&#xCC;&#x84;s</mads:namePart>
       <mads:namePart type="termsOfAddress">Saint, Patriarch of Alexandria</mads:namePart>
       <mads:namePart type="date">d. 373</mads:namePart>
     </mads:name>
@@ -80,8 +48,7 @@
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Athanasius</mads:namePart>
-      <mads:namePart type="termsOfAddress">of Alexandria, Saint</mads:namePart>
-      <mads:namePart type="date">d. 373</mads:namePart>
+      <mads:namePart type="termsOfAddress">of Alexandria</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -94,15 +61,12 @@
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Atanazy Wielki</mads:namePart>
-      <mads:namePart type="termsOfAddress">Saint</mads:namePart>
-      <mads:namePart type="date">d. 373</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Athanasius</mads:namePart>
-      <mads:namePart type="termsOfAddress">von Alexandrien, Saint</mads:namePart>
-      <mads:namePart type="date">d. 373</mads:namePart>
+      <mads:namePart type="termsOfAddress">von Alexandrien</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:identifier type="citeurn">urn:cite:perseus:author.225.1</mads:identifier>
