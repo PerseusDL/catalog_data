@@ -21576,6 +21576,17 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression" displayLabel="Peri kraseōn">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg009.opp-grc1</identifier>
             </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="De temperamentis">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg009.1st1K-grc2</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg0057.tlg009.1st1K-grc2/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0057/tlg009/tlg0057.tlg009.1st1K-grc2.xml</url>
+                </location>
+            </relatedItem>
         </relatedItem>
     </mods>
     <mods displayLabel="De Utilitate Mathematicae-Theon Smyrna-Paris-1892">
@@ -51510,7 +51521,96 @@ p -->
             </originInfo>
         </relatedItem>
     </mods>
-
+<mods displayLabel="Magna Moralia-Aristotle-Susemihl-Teubner-1883">
+    <titleInfo>
+    <title>Aristotelis quae feruntur Magna moralia</title>
+    </titleInfo>
+    <titleInfo type="uniform" nameTitleGroup="1">
+        <title>Magna moralia</title>
+    </titleInfo>
+    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+        valueURI="https://viaf.org/viaf/7524651/">
+        <namePart>Aristotle</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+        </role>
+    </name>
+    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+        valueURI="https://viaf.org/viaf/27847187/">
+        <namePart>Susemihl, Franz</namePart>
+        <namePart type="date">1826-1901</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <place>
+            <placeTerm type="code" authority="marccountry">gw</placeTerm>
+        </place>
+        <place>
+            <placeTerm type="text">Lipsiae</placeTerm>
+        </place>
+        <publisher>in aedibus B. G. Teubneri</publisher>
+        <dateIssued>1883</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <language objectPart="text">
+        <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+    </language>
+    <language objectPart="notes">
+        <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+    </language>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+        <extent>xix, 126 p. 18 cm.</extent>
+    </physicalDescription>
+    <note type="statement of responsibility" altRepGroup="00">Recognovit Franciscus Susemihl.</note>
+    <subject authority="lcsh">
+        <topic>Ethics</topic>
+    </subject>
+    <classification authority="lcc">PA3404.A8 E5 1883</classification>
+    <relatedItem type="series">
+        <titleInfo>
+            <title>
+                Bibliotheca scriptorum Graecorum et Romanorum Teubneriana
+            </title>
+        </titleInfo>
+    </relatedItem>
+    <identifier type="lccn">34010815</identifier>
+    <identifier type="oclc">5092307</identifier>
+    <location>
+        <url displayLabel="Worldcat">https://www.worldcat.org/oclc/613265166</url>
+    </location>
+    <location>
+        <url displayLabel="Internet Archive">https://archive.org/details/aristotelisquae01susegoog/</url>
+    </location>
+    <relatedItem type="constituent" otherType="work" displayLabel="Magna Moralia">
+        <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg022</identifier>
+        <relatedItem type="constituent" otherType="expression" displayLabel="Magna Moralia">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg022.1st1K-grc1</identifier>
+            <location>
+                <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg0086.tlg022/</url>
+            </location>
+            <location>
+                <url displayLabel="First1KGreek"
+                    >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0086/tlg022/tlg0086.tlg022.1st1K-grc1.xml</url>
+            </location>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="expression" displayLabel="Magna Moralia">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg022.opp-grc2</identifier>
+            <part>
+                <extent unit="pages">
+                    <start>1</start>
+                    <end>100</end>
+                </extent>
+            </part>
+            <location>
+                <url displayLabel="Open Content Alliance">https://archive.org/details/aristotelisquae01susegoog/page/n25</url>
+            </location>
+        </relatedItem>
+    </relatedItem>
+</mods>
     <mods displayLabel="Martyrium Petri-Acta Petri-Vouax-Paris-1922">
         <titleInfo>
             <title>Les actes de Pierre</title>
