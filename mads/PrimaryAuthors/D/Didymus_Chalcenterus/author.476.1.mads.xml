@@ -1,16 +1,18 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority lang="lat">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/169533220/">
       <mads:namePart>Didymus</mads:namePart>
       <mads:namePart type="termsOfAddress">Chalcenterus</mads:namePart>
     </mads:name>
   </mads:authority>
-  <mads:variant type="other" lang="grc">
-    <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x394;&#x3AF;&#x3B4;&#x3C5;&#x3BC;&#x3BF;&#x3C2; &#x3C7;&#x3B1;&#x3BB;&#x3BA;&#x3AD;&#x3BD;&#x3C4;&#x3B5;&#x3C1;&#x3BF;&#x3C2;</mads:namePart>
+  <mads:related type="equivalent">
+    <mads:name type="personal">
+      <mads:namePart>Δίδυμος</mads:namePart>
+      <mads:namePart type="termsOfAddress">Χαλκέντερος</mads:namePart>
     </mads:name>
-  </mads:variant>
+  </mads:related>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal" authority="viaf">
       <mads:namePart>Didymus</mads:namePart>
@@ -50,7 +52,7 @@
   <mads:variant type="other" lang="ita">
     <mads:name type="personal">
       <mads:namePart>Didimo</mads:namePart>
-      <mads:namePart type="termsOfAddress">di Alessandria&#x200F;</mads:namePart>
+      <mads:namePart type="termsOfAddress">di Alessandria,</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
@@ -61,8 +63,8 @@
   </mads:variant>
   <mads:variant type="other" lang="spa">
     <mads:name type="personal">
-      <mads:namePart>D&#xED;dimo</mads:namePart>
-      <mads:namePart type="termsOfAddress">de Alejandr&#xED;a </mads:namePart>
+      <mads:namePart>Dídimo </mads:namePart>
+      <mads:namePart type="termsOfAddress">de Alejandría </mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -80,18 +82,17 @@
   <mads:fieldOfActivity>Commentator</mads:fieldOfActivity>
   <mads:fieldOfActivity>Philologist</mads:fieldOfActivity>
   <mads:note type="source">His Didymi Chalcenteri Fragmenta quae supersunt omnia, 1854</mads:note>
-  <mads:note type="source">LC classification schedule: PA3965.D17 (Didymus Chalcenterus, ca. 63 B.C.-10 A.D.)</mads:note>
+  <mads:note type="source">LC classification schedule: PA3965.D17 (Didymus Chalcenterus, 
+    ca. 63 B.C.-10 A.D.)</mads:note>
   <mads:note type="source">Oxford classical dict., 2nd ed. (Didymus, ca. 80-10 B.C.)</mads:note>
-  <mads:note type="source">Oxford comp. to classical lit., 1937 (Didymus, of Alexandria, nicknamed Chalkenteros, ca. 65 B.C.-A.D. 10)</mads:note>
-  <mads:note type="source">InU/Wing STC files (usage: Didymos Chalkenteros)</mads:note>
+  <mads:note type="source">Oxford comp. to classical lit., 1937 (Didymus, of 
+    Alexandria, nicknamed Chalkenteros, ca. 65 B.C.-A.D. 10)</mads:note>  
   <mads:identifier type="citeurn">urn:cite:perseus:author.476.1</mads:identifier>
   <mads:identifier type="lccn">n  85196283</mads:identifier>
   <mads:identifier type="tlg">1312</mads:identifier>
-  
-  
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/169533220/</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Didymus_Chalcenterus</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-n85-196283</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
     <mads:identifier type="tlg">1312.003</mads:identifier>

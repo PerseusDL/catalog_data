@@ -6,7 +6,8 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority lang="lat">
-      <mads:name type="personal">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/17614149">
          <mads:namePart>Didymus</mads:namePart>
          <mads:namePart type="termsOfAddress">Alexandrinus</mads:namePart>
          <mads:namePart type="date">v1. Jh. / 1.Jh. </mads:namePart>
@@ -28,30 +29,24 @@
       <mads:name type="personal">
          <mads:namePart>Didymos</mads:namePart>
          <mads:namePart type="termsOfAddress">von Alexandreia</mads:namePart>
-         <mads:namePart type="date">1. Jh. v. Chr./1.Jh. n. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="eng">
       <mads:name type="personal">
          <mads:namePart>Didymus</mads:namePart>
          <mads:namePart type="termsOfAddress">of Alexandria</mads:namePart>
-         <mads:namePart type="date">1. Jh. v. Chr./1.Jh. n. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Didymus</mads:namePart>
          <mads:namePart type="termsOfAddress">Metrologist</mads:namePart>
-         <mads:namePart type="date">1. Jh. v. Chr./1.Jh. n. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:note type="nonpublic">Maschinell verknuepft mit DBL-Retro-Titeldaten</mads:note>
   <mads:note type="history">Mensurae marmorum ac lignorum</mads:note>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/17614149</mads:url>
   <mads:fieldOfActivity>Mathematician</mads:fieldOfActivity>
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="Worldcat Identities"/>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:identifier type="citeurn">urn:cite:perseus:author.475.1</mads:identifier>
   <mads:identifier type="tlg">0357</mads:identifier>
   <mads:extension>
