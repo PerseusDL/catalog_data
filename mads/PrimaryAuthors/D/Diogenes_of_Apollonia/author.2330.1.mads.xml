@@ -1,64 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2330.1</identifier>
-    <authority lang="eng">
-      <name type="personal" authority="naf">
-	        <namePart>Diogenes</namePart>
-	        <namePart type="termsOfAddress">of Apollonia</namePart>
-	        <namePart type="date">active 5th century B.C</namePart>
-      </name>
-    </authority>
-    <variant type="other" lang="fre">
-      <name type="personal">
-	        <namePart>Diogène</namePart>
-	        <namePart type="termsOfAddress">d'Apollonie</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="grc">
-      <name>
-	        <namePart>Διογένης</namePart>
-	        <namePart type="termsOfAddress">ὁ Ἀπολλωνιάτης</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="lat">
-      <name>
-	        <namePart>Diogenes</namePart>
-	        <namePart type="termsOfAddress">Apolloniates</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="ita">
-      <name>
-	        <namePart>Diogene</namePart>
-	        <namePart>di Apollonia</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="spa">
-      <name>
-	        <namePart>Diógenes</namePart>
-	        <namePart type="termsOfAddress">de Apolonia</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="ara">
-      <name>
-	        <namePart>ديوجانس الأبولوني</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="hun">
-      <name>
-	        <namePart>Apollóniai Diogenész</namePart>
-      </name>
-    </variant>
-    <fieldOfActivity>Philosopher</fieldOfActivity>
-    <note type="source">Laks, A. Diogène d'Apollonie, 1983: t.p. (Diogène d'Apollonie)</note>
-    <note type="source">Encycl. Brit. (Diogenes of Apollonia, Greek philosopher of the 5th cent. B.C., b. in Apollonia on Crete)</note>
-    <identifier type="lccn">n 83225743</identifier>
-    <identifier type="tlg">1319</identifier>
-    <url displayLabel="ID.gov">http://id.loc.gov/rwo/agents/n83225743</url>
-    <url displayLabel="VIAF">http://viaf.org/viaf/177095580</url>
-    <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Diogenes_of_Apollonia</url>
-    <extension>
-      <description>List of related work identifiers</description>
-      <identifier type="tlg">1319.001</identifier>
-      <identifier type="tlg">1319.002</identifier>
-    </extension>    
-  </mads>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
+  <authority lang="eng">
+    <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/177095580/">
+      <namePart>Diogenes</namePart>
+      <namePart type="termsOfAddress">of Apollonia</namePart>
+      <namePart type="date">active 5th century B.C</namePart>
+    </name>
+  </authority>
+  <related type="equivalent" lang="grc">
+    <name>
+      <namePart>Διογένης</namePart>
+      <namePart type="termsOfAddress">ὁ Ἀπολλωνιάτης</namePart>
+    </name>
+  </related>
+  
+  <variant type="other" lang="fre">
+    <name type="personal">
+      <namePart>Diogène</namePart>
+      <namePart type="termsOfAddress">d'Apollonie</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="lat">
+    <name>
+      <namePart>Diogenes</namePart>
+      <namePart type="termsOfAddress">Apolloniates</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="ita">
+    <name>
+      <namePart>Diogene</namePart>
+      <namePart>di Apollonia</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="spa">
+    <name>
+      <namePart>Diógenes</namePart>
+      <namePart type="termsOfAddress">de Apolonia</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="ara">
+    <name>
+      <namePart>ديوجانس الأبولوني</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="hun">
+    <name>
+      <namePart>Apollóniai Diogenész</namePart>
+    </name>
+  </variant>
+  <fieldOfActivity>Philosopher</fieldOfActivity>
+  <note type="source">Laks, A. Diogène d'Apollonie, 1983: t.p. (Diogène d'Apollonie)</note>
+  <note type="source">Encycl. Brit. (Diogenes of Apollonia, Greek philosopher of the 5th cent. B.C.,
+    b. in Apollonia on Crete)</note>
+  <identifier type="citeurn">urn:cite:perseus:author.2330.1</identifier>  
+  <identifier type="lccn">n 83225743</identifier>
+  <identifier type="tlg">1319</identifier>
+  <url displayLabel="ID.gov">http://id.loc.gov/rwo/agents/n83225743</url>
+  <url displayLabel="VIAF">http://viaf.org/viaf/177095580</url>
+  <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Diogenes_of_Apollonia</url>
+  <extension>
+    <description>List of related work identifiers</description>
+    <identifier type="tlg">1319.001</identifier>
+    <identifier type="tlg">1319.002</identifier>
+  </extension>
+</mads>
