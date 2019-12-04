@@ -1,14 +1,15 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/100219557"> 
       <mads:namePart>Caecilius</mads:namePart>
       <mads:namePart type="termsOfAddress">Calactinus</mads:namePart>
     </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x39A;&#x3B1;&#x3B9;&#x3BA;&#x3AF;&#x3BB;&#x3B9;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Καικίλιος</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="eng">
@@ -30,11 +31,8 @@
     </mads:name>
   </mads:variant>
   <mads:note type="source">His Caecilii Calactini Fragmenta, 1967</mads:note>
-  <mads:note type="source">NUC pre-1956 (Caecilius Calactinus; has refs.: Kaikilios; Caecilius, of Calacte)</mads:note>
   <mads:note type="source">Lex. der alten Welt, 1974 (Caecilius von Kalakte, gr. Literaturkritiker)</mads:note>
-  <mads:note type="source">Der kleine Pauly (Caecilius von Kale Akte, Sicily; lived in Augustinian age)</mads:note>
-  <mads:note type="source">LC class. schedule PA3944.C5 (Caecilius, of Calacte (Kal&#x113; Akt&#x113;), 1st cent. B.C.)</mads:note>
-  <mads:note type="source">Frammenti di critica letteraria, retorica e storiografia, 2006: t.p. (Cecilio di Calatte) p. 1 (b. in Caronia, Sicily, ancient name Calatte)</mads:note>
+  <mads:note type="source">Der kleine Pauly (Caecilius von Kale Akte, Sicily, lived in Augustinian age)</mads:note>
   <mads:identifier type="lccn">no 90011615 </mads:identifier>
   <mads:identifier type="tlg">1233</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1597.1</mads:identifier>
