@@ -1,23 +1,27 @@
 <mads:mads version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-0.xsd" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/55571017">
       <mads:namePart>Socrates</mads:namePart>
       <mads:namePart type="termsOfAddress">Scholasticus</mads:namePart>
       <mads:namePart type="date">approximately 379-approximately 440</mads:namePart>
     </mads:name>
   </mads:authority>
+  <mads:related type="equivalent" lang="grc">
+    <mads:name>
+      <mads:namePart>Σωκράτης</mads:namePart>
+      <mads:namePart type="termsOfAddress">ὁ Σχολαστικός</mads:namePart>
+    </mads:name>
+  </mads:related>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Socrate</mads:namePart>
-      <mads:namePart type="termsOfAddress">de Constantinople</mads:namePart>
-      <mads:namePart type="date">approximately 379-approximately 440</mads:namePart>
+      <mads:namePart type="termsOfAddress">de Constantinople</mads:namePart>     
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Socrates</mads:namePart>
-      <mads:namePart type="termsOfAddress">of Constantinople</mads:namePart>
-      <mads:namePart type="date">approximately 379-approximately 440</mads:namePart>
+      <mads:namePart type="termsOfAddress">of Constantinople</mads:namePart>  
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -30,30 +34,30 @@
     <mads:name type="personal">
       <mads:namePart>Socrates</mads:namePart>
       <mads:namePart type="termsOfAddress">Scholasticus</mads:namePart>
-      <mads:namePart type="date">ca. 379-ca. 440</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Sokrates</mads:namePart>
-      <mads:namePart type="termsOfAddress">Scholasticus</mads:namePart>
-      <mads:namePart type="date">approximately 379-approximately 440</mads:namePart>
+      <mads:namePart type="termsOfAddress">Scholasticus</mads:namePart>      
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Sokrates</mads:namePart>
-      <mads:namePart type="termsOfAddress">von Konstantinopel</mads:namePart>
-      <mads:namePart type="date">approximately 379-approximately 440</mads:namePart>
+      <mads:namePart type="termsOfAddress">von Konstantinopel</mads:namePart>      
     </mads:name>
   </mads:variant>
+  <mads:fieldOfActivity>Theologian</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
   <mads:note type="source">His The ecclesiastical history of Socrates, surnamed Scholasticus, 1853</mads:note>
   <mads:note type="source">NUC pre-1956 (Socrates Scholasticus, ca. 379-ca. 440)</mads:note>
   <mads:note type="source">Enc. Brit., 1980 (Socrates, called Socrates Scholasticus, b. ca. 380, d. ca. 450)</mads:note>
   <mads:identifier type="lccn">n  85035333 </mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.2455.1</mads:identifier>
   <mads:identifier type="tlg">2057</mads:identifier>
- <mads:url displayLabel="VIAF"></mads:url>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/55571017</mads:url>
+  <mads:url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Socrates_of_Constantinople</mads:url>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
     <mads:identifier type="tlg">2057.002</mads:identifier>
