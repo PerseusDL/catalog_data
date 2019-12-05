@@ -1,36 +1,34 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/52080981/">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/52080981/">
       <mads:namePart>Callicrates</mads:namePart>
       <mads:namePart type="termsOfAddress">Tyrius</mads:namePart>
       <mads:namePart type="date">3./4. Jh. n. Chr</mads:namePart>
     </mads:name>
   </mads:authority>
-  <mads:variant type="other" lang="grc">
+  <mads:related type="equivalent" lang="grc">
     <mads:name type="personal">
       <mads:namePart>Καλλικράτης</mads:namePart>
     </mads:name>
-  </mads:variant>
+  </mads:related>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Callicrates</mads:namePart>
       <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
-      <mads:namePart type="date">3./4. Jh. n. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Kallikrates</mads:namePart>
       <mads:namePart type="termsOfAddress">von Tyros</mads:namePart>
-      <mads:namePart type="date">3./4. Jh. n. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Kallikrates</mads:namePart>
       <mads:namePart type="termsOfAddress">Historiker</mads:namePart>
-      <mads:namePart type="date">3./4. Jh. n. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -39,9 +37,12 @@
       <mads:namePart type="termsOfAddress">of Tyrius</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:note type="history">FGrH 213: U&#x308;ber Kaiser Aurelianus</mads:note>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  <mads:url displayLabel="Wikipedia">http://la.wikipedia.org/wiki/Callicrates_Tyrius</mads:url>
+  <mads:note type="source">Brill's New Pauly: "Callicrates, 10, of Tyrus, author of 
+    a panegyric on Aurelianus, The excerpt in the Historia Augusta (SHA Aurelian. 4,2-5,6)
+    concerns the omens presaging Aurelian's future status. FGrH 213. "Meister, Klaus
+    (Berlin)Callicrates." Brill's New Pauly. Antiquity volumes edited by: 
+    Hubert Cancik and Helmuth Schneider . Brill, 2008. Brill Online. Tufts University Library. 16 December 2008</mads:note>
   <mads:url displayLabel="VIAF">https://viaf.org/viaf/52080981/</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=callicrates-bio-7</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.305.1</mads:identifier>

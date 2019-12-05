@@ -1,14 +1,15 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/16085183/">
       <mads:namePart>Callinus</mads:namePart>
       <mads:namePart type="termsOfAddress">of Ephesus</mads:namePart>
     </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x39A;&#x3B1;&#x3BB;&#x3BB;&#x1FD6;&#x3BD;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Καλλῖνος</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
@@ -42,7 +43,7 @@
   <mads:variant type="other" lang="fre">
     <mads:name type="personal">
       <mads:namePart>Callinos</mads:namePart>
-      <mads:namePart type="termsOfAddress">d'Eph&#xE8;se</mads:namePart>
+      <mads:namePart type="termsOfAddress">d'Ephèse</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -65,9 +66,11 @@
   <mads:identifier type="lccn">n 81013545 </mads:identifier>
   <mads:fieldOfActivity>Poet</mads:fieldOfActivity>
   <mads:fieldOfActivity>Elegist</mads:fieldOfActivity>
-  
-  
-  
+  <mads:note type="source">Brill's New Pauly: "Callinus, Elegist from Ephesus, c. 650 BC. His only 
+    long fr. (21 verses, 1 W./G.-P., from Stobaeus) urges young men (néoi), presumably 
+    symposiasts, to defend their city...." Bowie, Ewen (Oxford). Callinus." 
+    Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and Helmuth Schneider
+    . Brill, 2008. Brill Online. Tufts University Library. 16 December 2008</mads:note>  
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/16085183
     </mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Callinus</mads:url>
