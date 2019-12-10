@@ -4,16 +4,18 @@
     xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
     version="2.0">
     <mads:authority>
-        <mads:name type="personal" authority="naf">
+        <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/310526516/">
             <mads:namePart>Asclepiades</mads:namePart>
             <mads:namePart type="termsOfAddress">of Samos</mads:namePart>
         </mads:name>
     </mads:authority>
-    <mads:variant type="other" lang="grc">
+    <mads:related type="equivalent">
         <mads:name type="personal">
             <mads:namePart>Aσκληπιάδης</mads:namePart>
+            <mads:namePart type="termsOfAddress">ὁ Σάμιος</mads:namePart>
         </mads:name>
-    </mads:variant>
+    </mads:related>
     <mads:variant type="other">
         <mads:name type="personal">
             <mads:namePart>Sicelidas</mads:namePart>
@@ -28,21 +30,18 @@
         <mads:name type="personal" authority="dnb">
             <mads:namePart>Asclepiades</mads:namePart>
             <mads:namePart type="termsOfAddress">Samius</mads:namePart>
-            <mads:namePart type="date">3. Jh. v. Chr.</mads:namePart>
         </mads:name>
     </mads:variant>
     <mads:variant type="other" lang="ger">
         <mads:name type="personal" authority="dnb">
             <mads:namePart>Asklepiades</mads:namePart>
             <mads:namePart type="termsOfAddress">Epigrammatiker</mads:namePart>
-            <mads:namePart type="date">3. Jh. v. Chr.</mads:namePart>
         </mads:name>
     </mads:variant>
     <mads:variant type="other" lang="ita">
         <mads:name type="personal" authority="dnb">
             <mads:namePart>Asclepiade</mads:namePart>
             <mads:namePart type="termsOfAddress">di Samo</mads:namePart>
-            <mads:namePart type="date">3. Jh. v. Chr.</mads:namePart>
         </mads:name>
     </mads:variant>
     <mads:variant type="other" lang="ger">
@@ -79,7 +78,7 @@
     <mads:identifier type="lccn">n 99014922 </mads:identifier>
     <mads:identifier type="tlg">0137</mads:identifier>
     <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-    <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Asclepiades_of_Samos</mads:url>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/310526516/</mads:url>
     <mads:url displayLabel="Worldcat Identities"
         >http://worldcat.org/identities/lccn-n99-14922</mads:url>
     <mads:url displayLabel="Smith's Dictionary"
