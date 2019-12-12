@@ -6,7 +6,8 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-      <mads:name type="personal">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/66812056">
          <mads:namePart>Asius</mads:namePart>
          <mads:namePart type="termsOfAddress">Samius</mads:namePart>
          <mads:namePart type="date">6. Jh. v. Chr</mads:namePart>
@@ -35,28 +36,24 @@
       <mads:name type="personal">
          <mads:namePart>Asius</mads:namePart>
          <mads:namePart type="termsOfAddress">Epicus</mads:namePart>
-         <mads:namePart type="date">6. Jh. v. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
       <mads:name type="personal">
          <mads:namePart>Asius</mads:namePart>
          <mads:namePart type="termsOfAddress">Lyricus</mads:namePart>
-         <mads:namePart type="date">6. Jh. v. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
       <mads:name type="personal">
          <mads:namePart>Asius</mads:namePart>
          <mads:namePart type="termsOfAddress">Elegiacus</mads:namePart>
-         <mads:namePart type="date">6. Jh. v. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
       <mads:name type="personal">
          <mads:namePart>Asio</mads:namePart>
          <mads:namePart type="termsOfAddress">di Samo</mads:namePart>
-         <mads:namePart type="date">6. Jh. v. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -66,8 +63,7 @@
       </mads:name>
   </mads:variant>
   <mads:fieldOfActivity>Epic Poet</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Elegist</mads:fieldOfActivity>
-  
+  <mads:fieldOfActivity>Elegist</mads:fieldOfActivity>  
   <mads:note type="source">"A'sius, one of the earliest Greek poets, who lived, in all probability,
       about B.C. 700, though some critics would place him at an earlier and others at a later
       period." Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 1 1870, p. 385.</mads:note>

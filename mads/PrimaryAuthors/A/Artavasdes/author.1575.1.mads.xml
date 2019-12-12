@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/74241978/">
       <mads:namePart>Artavasdes</mads:namePart>
       <mads:namePart type="termsOfAddress">Armenien, König</mads:namePart>
       <mads:namePart type="date">ca. v1. Jh</mads:namePart>
     </mads:name>
   </mads:authority>
-  <mads:variant type="other" lang="grc">
-    <mads:name type="personal" authority="Brill">
-      <mads:namePart/>
-    </mads:name>
-  </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Artabazes</mads:namePart>
@@ -21,59 +17,46 @@
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Artauazd</mads:namePart>
-      <mads:namePart type="date">ca. v1. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Artavasdes</mads:namePart>
       <mads:namePart type="termsOfAddress">Armenius</mads:namePart>
-      <mads:namePart type="date">ca. v1. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Artavasdes</mads:namePart>
       <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
-      <mads:namePart type="date">ca. v1. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Artavasdes</mads:namePart>
       <mads:namePart type="termsOfAddress">Sohn des Tigranes</mads:namePart>
-      <mads:namePart type="date">ca. v1. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Artavasdes</mads:namePart>
       <mads:namePart type="termsOfAddress">der Armenier</mads:namePart>
-      <mads:namePart type="date">ca. v1. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Artavazdes</mads:namePart>
-      <mads:namePart type="date">ca. v1. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Artavazd</mads:namePart>
-      <mads:namePart type="date">ca. v1. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:identifier type="tlg">2463</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1575.1</mads:identifier>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="Worldcat Identities"/>
-  <mads:url displayLabel="Smith's Dictionary"/>
-  <mads:url displayLabel="VIAF">http://viaf.org/viaf/74241978</mads:url>
+    <mads:url displayLabel="VIAF">http://viaf.org/viaf/74241978</mads:url>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
     <mads:identifier type="tlg">2463.001
