@@ -6,7 +6,8 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-      <mads:name type="personal" authority="RAK-PND">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/100218815/">
          <mads:namePart>Autolycus</mads:namePart>
          <mads:namePart type="termsOfAddress">Pitanaeus</mads:namePart>
          <mads:namePart type="date">um 300 v.Chr</mads:namePart>
@@ -27,14 +28,12 @@
       <mads:name type="personal">
          <mads:namePart>Autolycus</mads:namePart>
          <mads:namePart type="termsOfAddress">Astronomus</mads:namePart>
-         <mads:namePart type="date">um 300 v.Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
       <mads:name type="personal">
          <mads:namePart>Autolycus</mads:namePart>
          <mads:namePart type="termsOfAddress">Pitanensis</mads:namePart>
-         <mads:namePart type="date">um 300 v.Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="cat">
@@ -47,7 +46,6 @@
       <mads:name type="personal">
          <mads:namePart>Autolycus</mads:namePart>
          <mads:namePart type="termsOfAddress">of Pitane</mads:namePart>
-         <mads:namePart type="date">c. 360 BC – c. 290 BC</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
@@ -60,20 +58,17 @@
       <mads:name type="personal">
          <mads:namePart>Autolycos</mads:namePart>
          <mads:namePart type="termsOfAddress">von Pitane</mads:namePart>
-         <mads:namePart type="date">um 300 v.Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
       <mads:name type="personal">
          <mads:namePart>Autolykos</mads:namePart>
          <mads:namePart type="termsOfAddress">von Pitane</mads:namePart>
-         <mads:namePart type="date">um 300 v.Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
       <mads:name type="personal">
          <mads:namePart>Autolykos</mads:namePart>
-         <mads:namePart type="date">um 300 v.Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
@@ -94,7 +89,6 @@
       <mads:name type="personal">
          <mads:namePart>Autolico</mads:namePart>
          <mads:namePart type="termsOfAddress">Astronomo</mads:namePart>
-         <mads:namePart type="date">um 300 v.Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -120,8 +114,7 @@
       </mads:name>
   </mads:variant>
   <mads:fieldOfActivity>Astronomer</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Mathematician</mads:fieldOfActivity>
-  
+  <mads:fieldOfActivity>Mathematician</mads:fieldOfActivity>  
   <mads:note type="source">"Autolycus, a mathematician, who is said to have been a native of
       Pitane...he wrote two astronomical treatises, which are still extant..." Smith, Volume 1, pg.
       447.</mads:note>
@@ -133,12 +126,11 @@
       stars in mathematical terms...." from Brill's New Pauly, Folkerts, Menso (München).
       "Autolycus." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and Helmuth
       Schneider . Brill, 2007. Brill Online. Tufts University Library. 30 October 2007</mads:note>
-  <mads:note type="source"/>
   <mads:identifier type="citeurn">urn:cite:perseus:author.245.1</mads:identifier>
   <mads:identifier type="tlg">1210</mads:identifier>
   <mads:fieldOfActivity>Geographer</mads:fieldOfActivity>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Autolycus_of_Pitane</mads:url>
-  <mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|118924044</mads:url>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/100218815/</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000462</mads:url>
   <mads:extension>
       <mads:description>List of related work identifiers</mads:description>

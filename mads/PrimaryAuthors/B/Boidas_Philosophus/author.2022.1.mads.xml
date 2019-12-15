@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2022.1</identifier>
-    <authority>
-      <name type="personal" authority="naf">
-	        <namePart>Boidas</namePart>
-	        <namePart type="termsOfAddress">Philosophus</namePart>
-      </name>
-    </authority>
-    <variant lang="grc">
-      <name type="personal">
-	        <namePart>Βοίδας</namePart>
-      </name>
-    </variant>
-    <identifier type="tlg">2230</identifier>
-    <fieldOfActivity>Philosopher</fieldOfActivity>
-    <url displayLabel="viaf">http://viaf.org/viaf/37304307</url>
-    <extension>
-      <description>List of related work identifiers</description>
-      <identifier type="tlg">2230.001</identifier>
-    </extension>    
-  </mads>
+<mads xmlns="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
+  <authority>
+    <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/37304307">
+      <namePart>Boidas</namePart>
+      <namePart type="termsOfAddress">Philosophus</namePart>
+    </name>
+  </authority>
+  <variant lang="grc">
+    <name type="personal">
+      <namePart>Βοίδας</namePart>
+    </name>
+  </variant>
+  <variant lang="lat">
+    <name type="personal">
+      <namePart>Βοidas</namePart>
+      <namePart type="termsOfAddress"> Pythagoreer‏ </namePart>
+    </name>
+  </variant>
+  <identifier type="tlg">2230</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2022.1</identifier>
+  <fieldOfActivity>Philosopher</fieldOfActivity>
+  <url displayLabel="viaf">http://viaf.org/viaf/37304307</url>
+  <extension>
+    <description>List of related work identifiers</description>
+    <identifier type="tlg">2230.001</identifier>
+  </extension>
+</mads>
