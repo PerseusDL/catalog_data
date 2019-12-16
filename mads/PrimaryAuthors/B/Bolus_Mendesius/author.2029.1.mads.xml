@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2029.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority lang="lat">
-      <name type="personal">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/50034301"> 
         <namePart>Bolus</namePart>
         <namePart type="termsOfAddress">Mendesius</namePart>
         <namePart type="date">ca. v3. Jh</namePart>
@@ -67,9 +69,15 @@
         <namePart>ボロス</namePart>
       </name>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2029.1</identifier>
     <identifier type="uri">http://viaf.org/viaf/50034301</identifier>
     <identifier type="tlg">1306</identifier>
-    <note type="source">Smith's Dictionary: "Bolus, Under this name Suidas, and Eudocia after him, mention a Pythagorean philosopher of Mende, to whom they ascribe several works, which are otherwise entirely unknown. From this Pythagorean, Suidas distinguishes a Bolus who was a philosopher of the school of Democritus, who wrote on medicine and also an historical work. But, from a passage of Columella (7.5; comp. Stobaeus, Serm. 51), it appears that Bolus of Mende and the follower of Democritus were one and the same person....."</note>
+    <note type="source">Smith's Dictionary: "Bolus, Under this name Suidas, and Eudocia after him,
+      mention a Pythagorean philosopher of Mende, to whom they ascribe several works, which 
+      are otherwise entirely unknown. From this Pythagorean, Suidas distinguishes a 
+      Bolus who was a philosopher of the school of Democritus, who wrote on medicine 
+      and also an historical work. But, from a passage of Columella (7.5; comp. Stobaeus,
+      Serm. 51), it appears that Bolus of Mende and the follower of Democritus were one and the same person....."</note>
     <fieldOfActivity>Philosopher</fieldOfActivity>
     <fieldOfActivity>Pre-Socratic</fieldOfActivity>
     <fieldOfActivity>Pythagorean</fieldOfActivity>
