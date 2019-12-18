@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/17613949/">
       <mads:namePart>Carcinus</mads:namePart>
       <mads:namePart type="termsOfAddress">Tragicus</mads:namePart>
       <mads:namePart type="date">um 380/376 v. Chr</mads:namePart>
@@ -9,84 +10,73 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x39A;&#x3B1;&#x3C1;&#x3BA;&#x3AF;&#x3BD;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Καρκίνος</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Karkinos</mads:namePart>
       <mads:namePart type="termsOfAddress">Tragiker</mads:namePart>
-      <mads:namePart type="date">um 380/376 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Karkinos</mads:namePart>
       <mads:namePart type="termsOfAddress">Sohn des Xenokles</mads:namePart>
-      <mads:namePart type="date">um 380/376 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Carcinus</mads:namePart>
       <mads:namePart type="termsOfAddress">Iunior</mads:namePart>
-      <mads:namePart type="date">um 380/376 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
     <mads:name type="personal">
       <mads:namePart>Carcino</mads:namePart>
       <mads:namePart type="termsOfAddress">di Agrigento</mads:namePart>
-      <mads:namePart type="date">um 380/376 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Carcino</mads:namePart>
       <mads:namePart type="termsOfAddress">Poeta Tragico</mads:namePart>
-      <mads:namePart type="date">um 380/376 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Carcinus</mads:namePart>
       <mads:namePart type="termsOfAddress">Minor</mads:namePart>
-      <mads:namePart type="date">um 380/376 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Carcinus</mads:namePart>
       <mads:namePart type="termsOfAddress">the Younger</mads:namePart>
-      <mads:namePart type="date">um 380/376 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Carcinus</mads:namePart>
       <mads:namePart type="termsOfAddress">of Akragas</mads:namePart>
-      <mads:namePart type="date">um 380/376 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Carcinus</mads:namePart>
       <mads:namePart type="termsOfAddress">Dramatist</mads:namePart>
-      <mads:namePart type="date">um 380/376 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Karkinos</mads:namePart>
-      <mads:namePart type="termsOfAddress">der Ju&#x308;ngere</mads:namePart>
-      <mads:namePart type="date">um 380/376 v. Chr</mads:namePart>
+      <mads:namePart type="termsOfAddress">der Jüngere</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Carcinus</mads:namePart>
       <mads:namePart type="termsOfAddress">Filius Xenochi</mads:namePart>
-      <mads:namePart type="date">um 380/376 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -100,6 +90,14 @@
       <mads:namePart>Carc.</mads:namePart>
     </mads:name>
   </mads:variant>
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 1, 1867, p. 612: "Carcinus....the younger
+    Carcinus was a son either of Theodectes or Xenocles...The tragedies which are referred to by the ancients under the name of Carcinus, 
+    probably all belong to the younger Carcinus..."</mads:note>
+  <mads:note type="source">Brill's New Pauly: "Carcnius, Tragedian, 5th/4th cent B.C., tragic poet from Thoricus,
+    grandson of C. [3], son of tragic poet Xenocles, c. 420/410 -- before 341/40 BC. He stayed in Sicily on numerous 
+    occasions and presumably received the citizenship of Acragas. He is said to have written 160 plays (TrGF I 70 T 1)
+    and achieved 11 victories at the Dionysia..." Zimmermann, Bernhard (Freiburg). "Carcinus."
+    Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and Helmuth Schneider . Brill, 2008. Brill Online. Tufts University Library. 29 December 2008</mads:note>
   <mads:fieldOfActivity>Tragic Poet</mads:fieldOfActivity> 
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Carcinus_(writer)</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/17613949/</mads:url>
