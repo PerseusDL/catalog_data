@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2305.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/8180547">
         <namePart>Themistocles</namePart>
         <namePart type="date">approximately 524 B.C.-approximately 459 B.C</namePart>
       </name>
@@ -158,7 +160,12 @@
         <namePart>테미스토클레스</namePart>
       </name>
     </variant>
-    <note type="source">Brill's New Pauly: "Themistocles, Athenian, of the Phrearrhii deme in the Leontis phyle, and of the family of the Lycomidae, b. c. 525 BC, the son of Neocles [1] (Hdt. 7,143 et alibi; Nep. T. 1,1; Plut. T. 1,1 and 4; Aristid. 5,4) and a perhaps non-Athenian mother (cf. Nep. T. 1,1; Plut. T. 1,2); an important politician at the time of the Persian Wars....</note>
+  <identifier type="citeurn">urn:cite:perseus:author.2305.1</identifier>
+    <note type="source">Brill's New Pauly: "Themistocles, Athenian, of the Phrearrhii
+      deme in the Leontis phyle, and of the family of the Lycomidae, b. c. 525 BC, 
+      the son of Neocles [1] (Hdt. 7,143 et alibi; Nep. T. 1,1; Plut. T. 1,1 and 4; 
+      Aristid. 5,4) and a perhaps non-Athenian mother (cf. Nep. T. 1,1; Plut. T. 1,2);
+      an important politician at the time of the Persian Wars....</note>
     <fieldOfActivity>Epistolographer</fieldOfActivity>
     <fieldOfActivity>Politician</fieldOfActivity>   
     <url displayLabel="VIAF">http://viaf.org/viaf/8180547</url>
