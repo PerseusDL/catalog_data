@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2051.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/74190844">
         <namePart>Chion</namePart>
         <namePart type="termsOfAddress">of Heraclea</namePart>
       </name>
@@ -46,7 +48,6 @@
       <name type="personal">
         <namePart>Chion</namePart>
         <namePart type="termsOfAddress">Epistolographus</namePart>
-        <namePart type="date">v4. Jh</namePart>
       </name>
     </variant>
     <variant type="other" lang="ger">
@@ -64,21 +65,18 @@
     <variant type="other">
       <name type="personal">
         <namePart>Chion</namePart>
-        <namePart type="date">v4. Jh</namePart>
       </name>
     </variant>
     <variant type="other">
       <name type="personal">
         <namePart>Chio</namePart>
         <namePart type="termsOfAddress">Epistolographus</namePart>
-        <namePart type="date">v4. Jh</namePart>
       </name>
     </variant>
     <variant type="other">
       <name type="personal">
         <namePart>Chio</namePart>
         <namePart type="termsOfAddress">Heracleensis</namePart>
-        <namePart type="date">v4. Jh</namePart>
       </name>
     </variant>
     <variant type="other">
@@ -106,7 +104,12 @@
         <namePart>ヘラクレアのキオン</namePart>
       </name>
     </variant>
-    <note type="source">Brill's New Pauly: "Chion, From Heraclea, pupil of Plato, in 353/352 BC he killed Clearchus, tyrant of Heraclea. A collection of 17 letters in his name has come down to us,....Although the authenticity of these letters has found defenders [1], they are in all probability spurious; they were probably written in the 1st cent. AD, and perhaps originated within Heraclea, where the life and deeds of the historic C. were perpetuated by indigenous historians ...."Fusillo, Massimo (L'Aquila) and Galli, Lucia (Florence), “Chion”, in: Brill’s New Pauly, Antiquity volumes edited by: Hubert Cancik and , Helmuth Schneider. Consulted online on 15 December 2016</note>
+  <identifier type="citeurn">urn:cite:perseus:author.2051.1</identifier>
+    <note type="source">Brill's New Pauly: "Chion, From Heraclea, pupil of Plato, in 353/352 BC he killed Clearchus, tyrant of Heraclea. 
+      A collection of 17 letters in his name has come down to us,....Although the authenticity of these letters has found defenders [1], 
+      they are in all probability spurious; they were probably written in the 1st cent. AD, and perhaps originated within Heraclea, where the
+      life and deeds of the historic C. were perpetuated by indigenous historians ...."Fusillo, Massimo (L'Aquila) and Galli, Lucia (Florence), 
+      “Chion”, in: Brill’s New Pauly, Antiquity volumes edited by: Hubert Cancik and , Helmuth Schneider. Consulted online on 15 December 2016</note>
     <fieldOfActivity>Epistolographer</fieldOfActivity>
     <url displayLabel="VIAF">http://viaf.org/viaf/74190844</url>
     <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Chion_of_Heraclea</url>
