@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2160.1</identifier>
+<mads version="2.0"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-0.xsd"
+  xmlns="http://www.loc.gov/mads/v2" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <authority>
-      <name type="personal" authority="">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/158032288">
         <namePart>Ecphantus</namePart>
       </name>
     </authority>
@@ -46,6 +49,7 @@
     <fieldOfActivity>Philosopher</fieldOfActivity>
     <fieldOfActivity>Pythagorean</fieldOfActivity>
     <fieldOfActivity>Pre-Socratic</fieldOfActivity>
+  <identifier type="citeurn">urn:cite:perseus:author.2160.1</identifier>
     <note type="source">Brill's New Pauly: "Ecphantus, Pythagorean from Syracuse, probably of the 4th cent. BC..."</note>
     <url displayLabel="VIAF">http://viaf.org/viaf/158032288</url>
     <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Ecphantus_the_Pythagorean</url>
