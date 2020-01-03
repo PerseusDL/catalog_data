@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
+  version="2.0">
   <mads:authority lang="lat">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/78769600">
       <mads:namePart>Cicero, Marcus Tullius</mads:namePart>
     </mads:name>
   </mads:authority>
@@ -20,52 +24,46 @@
       <mads:namePart>Tullius Cicero, Marcus</mads:namePart>
     </mads:name>
   </mads:variant>
-      <mads:variant type="other" lang="grc">
+  <mads:variant type="other" lang="grc">
     <mads:name type="personal">
       <mads:namePart>Κικέρωνας, Μάρκος Τύλλιος</mads:namePart>
     </mads:name>
   </mads:variant>
-    <mads:variant type="other" lang="grc">
+  <mads:variant type="other" lang="grc">
     <mads:name type="personal">
       <mads:namePart>Κικέρωνας</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ara">
     <mads:name type="personal">
-      <mads:namePart>&#x634;&#x64A;&#x634;&#x631;&#x648;&#x646;</mads:namePart>
+      <mads:namePart>شيشرون</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="chi">
     <mads:name type="personal">
-      <mads:namePart>&#x897F;&#x585E;&#x7F57;</mads:namePart>
+      <mads:namePart>西塞罗</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
     <mads:name type="personal">
-      <mads:namePart>Cic&#xE9;ron</mads:namePart>
+      <mads:namePart>西塞罗</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="gre">
     <mads:name type="personal">
-      <mads:namePart>Kiker&#x14D;n</mads:namePart>
+      <mads:namePart>Kikerōn</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="heb">
     <mads:name type="personal">
-      <mads:namePart>&#x5E6;&#x5D9;&#x5E6;&#x5E8;&#x5D5;&#x5DF;, &#x5DE;&#x5D0;&#x5E8;&#x5E7;&#x5D5;&#x5E1; &#x5D8;&#x5D5;&#x5DC;&#x5DC;&#x5D9;&#x5D5;&#x5E1;</mads:namePart>
+      <mads:namePart>ציצרון, מארקוס טולליוס</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="heb">
     <mads:name type="personal">
-      <mads:namePart>&#x5E7;&#x5D9;&#x5E7;&#x5E8;&#x5D5;, &#x5DE;&#x5D0;&#x5E8;&#x5E7;&#x5D5;&#x5E1; &#x5D8;&#x5D5;&#x5DC;&#x5D9;&#x5D5;&#x5E1;</mads:namePart>
+      <mads:namePart>קיקרו, מארקוס טוליוס</mads:namePart>
     </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="heb">
-    <mads:name type="personal">
-      <mads:namePart>&#x5E7;&#x5D9;&#x5E7;&#x5E8;&#x5D5;, &#x5DE;&#x5E8;&#x5E7;&#x5D5;&#x5E1; &#x5D8;&#x5D5;&#x5DC;&#x5D9;&#x5D5;&#x5E1;</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="ita">
+  </mads:variant>  <mads:variant type="other" lang="ita">
     <mads:name type="personal">
       <mads:namePart>Cicerone</mads:namePart>
     </mads:name>
@@ -82,12 +80,12 @@
   </mads:variant>
   <mads:variant type="other" lang="jap" transliteration="rom">
     <mads:name type="personal">
-      <mads:namePart>&#x1E32;i&#x1E33;ero</mads:namePart>
+      <mads:namePart>Ḳiḳero</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="jap">
     <mads:name type="personal">
-      <mads:namePart>&#x30AD;&#x30B1;&#x30ED;</mads:namePart>
+      <mads:namePart>キケロ</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="pol">
@@ -97,22 +95,22 @@
   </mads:variant>
   <mads:variant type="other" lang="rus">
     <mads:name type="personal">
-      <mads:namePart>&#x41C;&#x430;&#x440;&#x43A; &#x422;&#x443;&#x43B;&#x43B;&#x438;&#x439; &#x426;&#x438;&#x446;&#x435;&#x440;&#x43E;&#x43D;</mads:namePart>
+      <mads:namePart>Марк Туллий Цицерон</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="spa">
     <mads:name type="personal">
-      <mads:namePart>Cicer&#xF3;n, Marco Tulio</mads:namePart>
+      <mads:namePart>Cicerón, Marco Tulio</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="spa">
     <mads:name type="personal">
-      <mads:namePart>Cicer&#xF3;n, M. Tulio (Marco Tulio)</mads:namePart>
+      <mads:namePart>Cicerón, M. Tulio (Marco Tulio)</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
-      <mads:namePart>&#x1E32;i&#x1E33;ero, Mar&#x1E33;us &#x1E6C;ulyus</mads:namePart>
+      <mads:namePart>Ḳiḳero, Marḳus Ṭulyus</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
@@ -141,11 +139,12 @@
   <mads:fieldOfActivity>Orator</mads:fieldOfActivity>
   <mads:fieldOfActivity>Statesman</mads:fieldOfActivity>
   <mads:fieldOfActivity>Philosopher</mads:fieldOfActivity>
-  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Cicero</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/78769600</mads:url>
-  <mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-n79-32166</mads:url>
-  <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000723</mads:url>
+  <mads:url displayLabel="Worldcat Identities"
+    >http://orlabs.oclc.org/identities/lccn-n79-32166</mads:url>
+  <mads:url displayLabel="Smith's Dictionary"
+    >http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000723</mads:url>
   <mads:identifier type="tlg">2165</mads:identifier>
   <mads:identifier type="phi">474</mads:identifier>
   <mads:identifier type="stoa author-text">stoa0087</mads:identifier>
