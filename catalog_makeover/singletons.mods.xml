@@ -16168,6 +16168,87 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
+    <mods displayLabel="De Consuetudinibus-Galen-Muller-1879">
+        <titleInfo>
+            <title>Galeni Libellus De Consuetudinibus</title>
+        </titleInfo>
+        <titleInfo type="alternative">
+            <title>Galeni libellum peri ethōn</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/44299175">
+            <namePart>Galen</namePart>
+            <role>
+                <roleTerm type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/29607954">
+            <namePart>Müller, Iwan von</namePart>
+            <namePart type="date">1830-1917</namePart>
+            <role>
+                <roleTerm type="text">editor</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Erlangen</placeTerm>
+            </place>
+            <publisher>Universität Erlangen</publisher>
+            <dateIssued>1879</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <language objectPart="notes">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>19 p.</extent>
+        </physicalDescription>
+        <identifier type="oclc">495352471</identifier>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/495352471</url>
+        </location>
+        <location>
+            <url displayLabel="BSB"
+                >http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10930900-8</url>
+        </location>
+        <note type="statement of responsibility">Galenus; recensuit Iwan von Mueller</note>
+        <relatedItem type="constituent" otherType="work" displayLabel="De consuetudinibus">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg103</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="De consuetudinibus">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg103.1st1K-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg0057.tlg103.1st1K-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0057/tlg103/tlg0057.tlg103.1st1K-grc1.xml</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="De consuetudinibus">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg103.opp-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>5</start>
+                        <end>19</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="BNB"
+                        >https://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10930900_00009.html</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+    </mods>
     <mods displayLabel="De Die Natali-Censorinus-Sallmannn-Teubner-1983">
         <titleInfo>
             <title>Censorini de die natali liber ad Q. Caerellium</title>
@@ -29278,6 +29359,85 @@ but this is where the TLG has left off for numbering-->
                 <identifier type="ctsurn">urn:cts:greekLit:tlg3130.tlg001.opp-grc1</identifier>
             </relatedItem>
         </relatedItem>
+    </mods>
+    <mods displayLabel="Epistulae Privatae-Teubner-Witkowski-1911">
+    <titleInfo>
+        <title>Epistulae privatae Graecae quae in papyris aetatis Lagidarum servantur</title>
+    </titleInfo>
+    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/79392727">
+        <namePart>Witkowski, Stanisław</namePart>
+        <namePart type="date">1866-1950</namePart>
+        <role>
+            <roleTerm type="text">editor</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <place>
+            <placeTerm type="code" authority="marccountry">gw</placeTerm>
+        </place>
+        <place>
+            <placeTerm type="text">Leipzig</placeTerm>
+        </place>
+        <publisher>Teubner</publisher>
+        <dateIssued>1911</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <language objectPart="text">
+        <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+    </language>
+    <language objectPart="notes">
+        <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+    </language>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+        <extent>xxvi, 194 p.</extent>
+    </physicalDescription>
+    <note type="statement of responsibility">edidit Stanislaus Witowski</note>
+    <note>Includes index</note>
+    <subject authority="lcsh">
+        <topic>Manuscripts, Greek (Papyri)</topic>
+    </subject>
+    <subject authority="lcsh">
+        <topic>Letter writing, Greek</topic>
+        <geographic>Egypt</geographic>
+    </subject>
+    <subject authority="lcsh">
+        <topic>Letter writing, Greek</topic>
+    </subject>
+    <subject authority="lcsh">
+        <topic>Egypt</topic>
+    </subject>
+    <identifier type="oclc">857370000</identifier>
+    <location>
+        <url displayLabel="WorldCat">http://www.worldcat.org/oclc/857370000</url>
+    </location>
+    <location>
+        <url displayLabel="HathiTrust">http://hdl.handle.net/2027/hvd.32044085074045</url>
+    </location>
+    <relatedItem type="constituent" otherType="work" displayLabel="Epistulae">
+        <identifier type="ctsurn">urn:cts:greekLit:tlg0589.tlg001</identifier>
+        <relatedItem type="constituent" otherType="expression" displayLabel="Epistulae">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0589.tlg001.opp-grc1</identifier>
+            <name type="corporate" authority="tlg">
+                <namePart>Epistulae Privatae</namePart>
+                <role>
+                    <roleTerm type="text">creator</roleTerm>
+                </role>
+            </name>
+            <part>
+                <extent unit="pages">
+                    <start>4</start>
+                    <end>137</end>
+                </extent>
+            </part>
+            <location>
+                <url displayLabel="HathiTrust"
+                    >https://hdl.handle.net/2027/hvd.32044085074045?urlappend=%3Bseq=48</url>
+            </location>
+        </relatedItem>
+    </relatedItem>
     </mods>
     <mods displayLabel="Epistulae Theologicae-Gregory Nazianzenus-Gallay\Jourjon-Cerf-1974">
         <titleInfo type="uniform" lang="lat">
