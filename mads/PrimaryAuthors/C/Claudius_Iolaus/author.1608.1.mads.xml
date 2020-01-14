@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable" lang="lat">
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/32386153">
       <mads:namePart>Claudius</mads:namePart>
       <mads:namePart type="termsOfAddress">Iolaus</mads:namePart>
       <mads:namePart type="date">1. Jh</mads:namePart>
@@ -10,27 +11,23 @@
   <mads:related type="equivalent" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Claudius</mads:namePart>
-      <mads:namePart type="termsOfAddress">Iolaus</mads:namePart>
-      <mads:namePart type="date">1. Jh</mads:namePart>
+      <mads:namePart type="termsOfAddress">Iolaus</mads:namePart>      
     </mads:name>
   </mads:related>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Claudius</mads:namePart>
-      <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
-      <mads:namePart type="date">1. Jh</mads:namePart>
+      <mads:namePart type="termsOfAddress">Historicus</mads:namePart>      
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
-      <mads:namePart>Iolaos, Claudius</mads:namePart>
-      <mads:namePart type="date">1. Jh</mads:namePart>
+      <mads:namePart>Iolaos, Claudius</mads:namePart>      
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
-      <mads:namePart>Iolaus, Claudius</mads:namePart>
-      <mads:namePart type="date">1. Jh</mads:namePart>
+      <mads:namePart>Iolaus, Claudius</mads:namePart>      
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -49,13 +46,12 @@
   <mads:identifier type="tlg">1268</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1608.1</mads:identifier>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="Worldcat Identities"/>
-  <mads:url displayLabel="Smith's Dictionary"/>
+  <mads:note type="source">"Claudius, Julius, or JOLAUS, a Greek writer of unknown date, and probably a freedman of some Roman, was the author 
+    of a work on Phoenicia (Φοινικικά) in three books at least. (Steph. Byz. s. vv. Ἂκη, Ἰουδαία, Δῶρος; Etym. s. v. Γάδειπα.) This appears
+    to be the same Joläus, who wrote a work on the Peloponnesus (Πελοποννησιακά, Schol. ad Nicand. Ther. 521) ; he spoke in one of 
+    his works of the city Lampe in Crete. (Steph. Byz. s. v. Λάμπη.)</mads:note>  
+  <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=claudius-julius-bio-1</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/32386153</mads:url>
-  <mads:url displayLabel="id.gov"/>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
     <mads:identifier type="tlg">1268.002</mads:identifier>
