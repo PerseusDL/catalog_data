@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  version="2.0"
+  xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable" lang="lat">
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/47152910">
       <mads:namePart>Herodorus</mads:namePart>
       <mads:namePart type="termsOfAddress">Heracleensis</mads:namePart>
       <mads:namePart type="date">um 400 v. Chr</mads:namePart>
@@ -9,77 +13,67 @@
   </mads:authority>
   <mads:related type="equivalent" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>H&#x3C1;&#x3CC;&#x3B4;&#x3C9;&#x3C1;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Hρόδωρος</mads:namePart>
     </mads:name>
   </mads:related>
   <mads:related type="equivalent" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Herodorus</mads:namePart>
       <mads:namePart type="termsOfAddress">Heracleensis</mads:namePart>
-      <mads:namePart type="date">um 400 v. Chr</mads:namePart>
     </mads:name>
   </mads:related>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Herodoros</mads:namePart>
       <mads:namePart type="termsOfAddress">Mythograph</mads:namePart>
-      <mads:namePart type="date">um 400 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Herodoros</mads:namePart>
       <mads:namePart type="termsOfAddress">Vater des Bryson</mads:namePart>
-      <mads:namePart type="date">um 400 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Herodoros</mads:namePart>
       <mads:namePart type="termsOfAddress">vom Pontos</mads:namePart>
-      <mads:namePart type="date">um 400 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Herodoros</mads:namePart>
       <mads:namePart type="termsOfAddress">von Herakleia</mads:namePart>
-      <mads:namePart type="date">um 400 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Herodorus</mads:namePart>
       <mads:namePart type="termsOfAddress">Heracleota</mads:namePart>
-      <mads:namePart type="date">um 400 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="eng">
     <mads:name type="personal">
       <mads:namePart>Herodorus</mads:namePart>
       <mads:namePart type="termsOfAddress">Historian</mads:namePart>
-      <mads:namePart type="date">um 400 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Herodorus</mads:namePart>
       <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
-      <mads:namePart type="date">um 400 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="eng">
     <mads:name type="personal">
       <mads:namePart>Herodorus</mads:namePart>
       <mads:namePart type="termsOfAddress">of Heraclea</mads:namePart>
-      <mads:namePart type="date">um 400 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Herodor</mads:namePart>
       <mads:namePart type="termsOfAddress">von Herakleia</mads:namePart>
-      <mads:namePart type="date">um 400 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="spa">
@@ -99,12 +93,7 @@
     </mads:name>
   </mads:variant>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  
-  
-  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Herodorus</mads:url>
-  <mads:url displayLabel="Worldcat Identities"/>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/47152910</mads:url>
   <mads:url displayLabel="Dataset description">http://viaf.org/viaf/data</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.727.1</mads:identifier>
@@ -113,11 +102,6 @@
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
     <mads:identifier type="tlg">1427.001</mads:identifier>
-  </mads:extension>
-  <mads:extension>
-    <mads:gender>
-      <mads:genderTerm>male</mads:genderTerm>
-    </mads:gender>
   </mads:extension>
   <mads:recordInfo>
     <mads:recordOrigin>Converted from MARCXML to MADS version 2.0 (Revision 2.10)</mads:recordOrigin>
