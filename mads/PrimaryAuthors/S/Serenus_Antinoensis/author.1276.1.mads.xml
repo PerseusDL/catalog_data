@@ -6,7 +6,8 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+          valueURI="http://viaf.org/viaf/12391352">
          <mads:namePart>Serenus</mads:namePart>
          <mads:namePart type="termsOfAddress">Antinoensis</mads:namePart>
       </mads:name>
@@ -64,8 +65,6 @@
       </mads:name>
   </mads:variant>
   <mads:note type="nonpublic">Data provided by the ESTC/BL</mads:note>
-  <mads:note type="source">Apollonius, of Perga. Apollonii Pergæi Conicorum libri octo, et Sereni
-      Antissensis De sectione cylindri &amp; coni libri duo, 1710</mads:note>
   <mads:note type="source">NUC pre-56 (Serenus, Antinoensis)</mads:note>
   <mads:note type="source">BM (Serenus, of Anzi)</mads:note>
   <mads:note type="source">Serenus d'Antinoe dans la tradition apollonienne et archimedienne, 2002:
@@ -74,12 +73,9 @@
   <mads:identifier type="lccn">nr 93035833</mads:identifier>
   <mads:fieldOfActivity>Mathematician</mads:fieldOfActivity>
   <mads:fieldOfActivity>Geometer</mads:fieldOfActivity>
-  
-  
-  
+    <mads:note type="source">Brill's New Pauly: "Serenus, mathematician, presumably 4th century, from Eypgt (Antinoupolis), probably
+        lived in the 4th cent. AD. S. wrote two works (surviving complete) on conic sections..."</mads:note>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Serenus_of_Antinoeia</mads:url>
-  <mads:url displayLabel="Worldcat Identities"/>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/12391352</mads:url>
   <mads:identifier type="tlg">2055</mads:identifier>
   <mads:extension>
