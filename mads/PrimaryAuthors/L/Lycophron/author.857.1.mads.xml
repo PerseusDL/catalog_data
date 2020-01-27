@@ -1,15 +1,16 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf"
+      valueURI="https://viaf.org/viaf/68976194/">
       <mads:namePart>Lycophron</mads:namePart>
     </mads:name>
   </mads:authority>
-  <mads:variant type="other" lang="grc">
+  <mads:related type="equivalent" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x39B;&#x3C5;&#x3BA;&#x3CC;&#x3C6;&#x3C1;&#x3C9;&#x3BD;</mads:namePart>
+      <mads:namePart>Λυκόφρων</mads:namePart>
     </mads:name>
-  </mads:variant>
+  </mads:related>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Lykophron</mads:namePart>
@@ -18,7 +19,7 @@
   </mads:variant>
   <mads:variant type="other" lang="spa">
     <mads:name type="personal">
-      <mads:namePart>Licofr&#xF3;n</mads:namePart>
+      <mads:namePart>Licofrón</mads:namePart>
       <mads:namePart type="termsOfAddress">de Calcis</mads:namePart>
     </mads:name>
   </mads:variant>
@@ -44,19 +45,21 @@
       <mads:namePart>Lyc.</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:note type="source">His Lykophronos tou Chalkideo&#x304;s Alexandra = Lycophronis Chalcidensis
-      Alexandra, 1697</mads:note>
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 2, 1867, p. 848: "Lycophron, the celebrated 
+    Alexandrian grammarian and poet, was a native of Chalcis in Euboea......A question has been
+    raised respecting the identity of Lycophron the tragedian and Lycophron the author of the poem Cassandra..."</mads:note>
   <mads:note type="source">Oxford classical dict. 2d ed. (Lycophron, b. ca. 320 B.C., of Chalcis in
       Euboea; killed by an arrow)</mads:note>
+<mads:note type="source"> Brill's New Pauly: "The poem entitled ‘Alexandra’, comprising 1,474 iambic trimeters, has been passed down to us under the name of L. [5]. But
+  the scholiast on v. 1126 already assumes that the work could not be by the tragedian L. but must be by another author
+  because of the vaticinium ex eventu, in which the rise of the descendants of Aeneas, i.e. the Romans, to world power is announced..."</mads:note>
   <mads:note type="source">LC data base, 11/2/85 (hdg.: Lycophron)</mads:note>
   <mads:note type="source">His Alessandra, 1991: t.p. (Licofrone)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.857.1</mads:identifier>
   <mads:identifier type="lccn">n 85216215</mads:identifier>
   <mads:fieldOfActivity>Tragic Poet</mads:fieldOfActivity>
   <mads:fieldOfActivity>Grammarian</mads:fieldOfActivity>
-  
-  
-  
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/68976194/</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Lycophron</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-n85-216215</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0002.001;didno=ACL3129.0002.001;view=image;seq=00000858s</mads:url>

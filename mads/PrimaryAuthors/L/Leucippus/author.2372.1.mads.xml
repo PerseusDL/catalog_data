@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2372.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority lang="lat">
-      <name type="personal" authority="viaf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/71029333">
         <namePart>Leucippus</namePart>
       </name>
     </authority>
-    <variant type="other" lang="grc">
+    <related type="equivalent" lang="grc">
       <name type="personal">
         <namePart>Λεύκιππος</namePart>
       </name>
-    </variant>
+    </related>
     <variant type="other" lang="ara">
       <name type="personal">
         <namePart>ليوكيبوس</namePart>
@@ -46,14 +48,12 @@
       <name type="personal">
         <namePart>Leucippus</namePart>
         <namePart type="termsOfAddress">Abderita</namePart>
-        <namePart type="date">ca. v5. Jh</namePart>
       </name>
     </variant>
     <variant type="other" lang="lat">
       <name type="personal">
         <namePart>Leucippus</namePart>
         <namePart type="termsOfAddress">Eleaticus</namePart>
-        <namePart type="date">ca. v5. Jh</namePart>
       </name>
     </variant>
     <variant type="other">
@@ -80,7 +80,6 @@
       <name type="personal">
         <namePart>Leukipp</namePart>
         <namePart type="termsOfAddress">von Milet</namePart>
-        <namePart type="date">ca. v5. Jh</namePart>
       </name>
     </variant>
     <variant type="other">
@@ -174,10 +173,13 @@
         <namePart>Leucipp.</namePart>
       </name>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2372.1</identifier>
     <url displayLabel="VIAF">http://viaf.org/viaf/71029333</url>
     <identifier type="uri">http://viaf.org/viaf/71029333</identifier>
     <identifier type="tlg">1461</identifier>
-    <note type="source">Smith's Dictionary: "Leucippus, a Grecian philosopher, who is on all hands admitted to have been the founder of the atomic theory of the ancient philosophy. Where and when he was born we have no data for deciding. Miletus, Abdera, and Elis have been assigned as his birth-place... "</note>
+    <note type="source">Smith's Dictionary: "Leucippus, a Grecian philosopher, who is on all hands admitted to have
+      been the founder of the atomic theory of the ancient philosophy. Where and when he was born we have no data for 
+      deciding. Miletus, Abdera, and Elis have been assigned as his birth-place... "</note>
     <fieldOfActivity>Philosopher</fieldOfActivity>
     <fieldOfActivity>Pre-Socratic</fieldOfActivity>
     <url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=leucippus-bio-8</url>

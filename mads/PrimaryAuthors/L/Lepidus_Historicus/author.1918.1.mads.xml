@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/data">
       <mads:namePart>Lepidus</mads:namePart>
       <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
       <mads:namePart type="date">Person der Antike</mads:namePart>
     </mads:name>
   </mads:authority>
+ <mads:related type="equivalent" lang="grc">
+   <mads:name>
+     <mads:namePart>Παρθυαῖος</mads:namePart>
+   </mads:name>
+ </mads:related>
   <mads:identifier type="tlg">1459</mads:identifier>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology: "Lepidus, an author of unknown date, wrote in Greek an abridgement of history, 
+    of which Stephanus of Byzantium quotes the first and eighth books (s. vv. Τεγέα, Βουθρωτός, Σκόποι)..."</mads:note>
   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=lepidus-bio-31</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/61941569</mads:url>
   <mads:extension>

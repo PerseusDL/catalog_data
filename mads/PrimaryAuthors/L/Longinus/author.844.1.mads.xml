@@ -1,24 +1,25 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/n84160046">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/281851250">
       <mads:namePart>Longinus</mads:namePart>
       <mads:namePart type="date">1st cent</mads:namePart>
     </mads:name>
   </mads:authority>
+  <mads:related type="equivalent" lang="grc">
+    <mads:name type="personal">
+      <mads:namePart>Παραβολή</mads:namePart>
+    </mads:name>
+  </mads:related>
+  <mads:variant type="other" lang="ara">
+    <mads:name type="personal">
+      <mads:namePart>لونجينوس</mads:namePart>
+    </mads:name>
+  </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Pseudo-Longinus</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="grc">
-    <mads:name type="personal">
-      <mads:namePart>&#x3A0;&#x3B1;&#x3C1;&#x3B1;&#x3B2;&#x3BF;&#x3BB;&#x3AE;</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="ara">
-    <mads:name type="personal">
-      <mads:namePart>&#x644;&#x648;&#x646;&#x62C;&#x64A;&#x646;&#x648;&#x633;</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
@@ -64,10 +65,10 @@
   <mads:note type="source">Oxford classical dict. (Longinus, Ps.-Longinus, name commonly assigned to the unknown author of On
   the sublime, owing to its  long but mistaken association with Cassius Longinus-was probably a first-century rhetor (fl. A.D. 890?))</mads:note>
   <mads:note type="source">Encyc. Britannica, micropaedia (Longinus- fl. early 1st cent. A.D.- name sometimes assigned to the author of On the sublime)</mads:note>
-  <mads:note type="source">Grant, M. Greek &amp; Latin authors, 1980 (Longinus; name traditionally assigned to the Greek literary critic who wrote the 
-        treatise On the sublime (Peri hupsous) incorrectly identified as Dionysius Longinus, Dionysius of Halicarnassus, or Cassius Longinus, ca. 213-273; 
+  <mads:note type="source">Grant, M. Greek &amp; Latin authors, 1980 (Longinus, name traditionally assigned to the Greek literary critic who wrote the 
+        treatise On the sublime (Peri hupsous) incorrectly identified as Dionysius Longinus, Dionysius of Halicarnassus, or Cassius Longinus, ca. 213-273, 
         the author lived in the earlier part of the 1st cent. A.D.)</mads:note>
-  <mads:note type="source">Papyros Larous (under the name Longinos passes the work Peri hypsous [On the sublime], a work of the first part of the 1st cent.; not by Kassios Longinos)</mads:note>
+  <mads:note type="source">Papyros Larous (under the name Longinos passes the work Peri hypsous [On the sublime], a work of the first part of the 1st cent., not by Kassios Longinos)</mads:note>
   <mads:note type="source">Da Longino a Longino, 1987: p. 7 (Pseudo Longino)</mads:note>
   <mads:note type="source">His Del sublime, c1991: t.p. (Dionisio Longino)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.844.1</mads:identifier>
@@ -76,11 +77,12 @@
   <mads:fieldOfActivity>Critic</mads:fieldOfActivity>
   <mads:fieldOfActivity>Rhetor</mads:fieldOfActivity>
   <mads:fieldOfActivity>Fictitious Author</mads:fieldOfActivity>
-  
+  <mads:note type="source">Brill's New Pauly: "Pseudo-Longinus, As the treatise Περὶ ὕψους (Perì hýpsous, ‘On the Sublime’, often quoted 
+    by its Latin title De sublimitate) is not mentioned in ancient sources, its dating and authorship are largely hypothetical. .....
+    from "Pseudo-Longinus." Brill’s New Pauly. Brill Online, 2013. Reference. Tufts University Library. 30 April 2013</mads:note>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/281851250</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Longinus_%28literature%29</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n84-160046</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
     <mads:identifier type="tlg">0560.001</mads:identifier>
