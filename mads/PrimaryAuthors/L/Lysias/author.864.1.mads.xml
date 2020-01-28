@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/183417170/">
       <mads:namePart>Lysias</mads:namePart>
     </mads:name>
   </mads:authority>
@@ -12,18 +13,18 @@
   </mads:variant>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x39B;&#x3C5;&#x3C3;&#x3AF;&#x3B1;&#x3C2;</mads:namePart>
+      <mads:namePart>Λυσίας</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="cat">
     <mads:name type="personal">
-      <mads:namePart>L&#xFC;sziasz
+      <mads:namePart>Lüsziasz 
             </mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="hun">
     <mads:name type="personal">
-      <mads:namePart>L&#xED;sies</mads:namePart>
+      <mads:namePart>Lísies</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
@@ -33,7 +34,7 @@
   </mads:variant>
   <mads:variant type="other" lang="jap">
     <mads:name type="personal">
-      <mads:namePart>&#x30EA;&#x30E5;&#x30B7;&#x30A2;&#x30B9;</mads:namePart>
+      <mads:namePart>リュシアス</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="pol">
@@ -57,16 +58,13 @@
       <mads:namePart>Lys.</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:note type="source">His Der Ra&#xCC;&#x88;cher seiner Ehre, 1983: t.p. (Lysias) p. 4 of
-        cover (ca. 445-ca. 380 B.C.)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.864.1</mads:identifier>
   <mads:identifier type="lccn">n 50000909 </mads:identifier>
   <mads:fieldOfActivity>Orator</mads:fieldOfActivity>
   <mads:fieldOfActivity>Attic Orator</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Logographer</mads:fieldOfActivity>
-  
-  
-  
+  <mads:fieldOfActivity>Logographer</mads:fieldOfActivity>  
+  <mads:note type="source">Brill's New Pauly: "Attic logographos, 459/8 or c. 445 to c. 380 BC</mads:note>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/183417170/</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Lysias</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-n50-909</mads:url>
   <mads:url displayLabel="Smith's Dictionary"/>
