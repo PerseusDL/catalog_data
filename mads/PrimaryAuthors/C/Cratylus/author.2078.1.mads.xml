@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2078.1</identifier>
-    <authority>
-      <name type="personal" authority="naf">
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
+<authority>
+  <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+    valueURI="http://viaf.org/viaf/47152640">
 	        <namePart>Cratylus</namePart>
       </name>
     </authority>
@@ -41,8 +43,11 @@
 	        <namePart>Kratülosz</namePart>
       </name>
     </variant>
-    <note type="source">Smith's Dictionary: "Cratylus, a Greek philosopher, and an elder contemporary of Plato. He professed the doctrines of Heracleitus, and made Plato acquainted with them....."</note>
+    <note type="source">Smith's Dictionary: "Cratylus, a Greek philosopher, 
+      and an elder contemporary of Plato. He professed the doctrines of Heracleitus, 
+      and made Plato acquainted with them....."</note>
     <identifier type="tlg">2291</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2078.1</identifier>
     <fieldOfActivity>Philosopher</fieldOfActivity>
     <url displayLabel="viaf">http://viaf.org/viaf/47152640</url>
     <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Cratylus</url>
@@ -50,6 +55,5 @@
     <extension>
       <description>List of related work identifiers</description>
       <identifier type="tlg">2291.001</identifier>
-    </extension>  
-    
+    </extension>      
   </mads>

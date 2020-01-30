@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf"  authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/265076443">
       <mads:namePart>Cratippus</mads:namePart>
       <mads:namePart type="termsOfAddress">of Athens</mads:namePart>
       <mads:namePart type="date">4th cent</mads:namePart>
@@ -9,7 +10,7 @@
   </mads:authority>
   <mads:related type="equivalent" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x39A;&#x3C1;&#x3AC;&#x3C4;&#x3B9;&#x3C0;&#x3C0;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Κράτιππος</mads:namePart>
     </mads:name>
   </mads:related>
   <mads:variant type="other" lang="ger">
@@ -42,12 +43,8 @@
     </mads:name>
   </mads:variant>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  
-  
-  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Cratippus_of_Athens</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-no92-23597</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/171213617/</mads:url>
   <mads:url displayLabel="ID.gov">http://id.loc.gov/authorities/names/no92023597</mads:url>
   <mads:identifier type="tlg">1907</mads:identifier>
@@ -57,7 +54,7 @@
   </mads:extension>
   <mads:note type="source">Hellenica Oxyrhynchia. Cratippi Hellenicorum fragmenta Oxyrhynchia [MI]
     1916</mads:note>
-  <mads:note type="source">Oxford classical dict., 1970: p. 297 (Cratippus of Athens; possibly same
+  <mads:note type="source">Oxford classical dict., 1970: p. 297 (Cratippus of Athens, possibly same
     as the historian of Oxyrhynchus, who wrote the Hellenica Oxyrhynchia)</mads:note>
   <mads:note type="source">Enc. Brittanica, 15th ed. (Cratippus, 4th cent., Greek
     historian)</mads:note>

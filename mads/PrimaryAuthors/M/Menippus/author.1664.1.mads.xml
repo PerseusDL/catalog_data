@@ -6,7 +6,8 @@
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
            version="2.0">
   <mads:authority geographicSubdivision="not applicable">
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+          valueURI="http://viaf.org/viaf/19511191">
          <mads:namePart>Menippus</mads:namePart>
          <mads:namePart type="termsOfAddress">of Gadara</mads:namePart>
       </mads:name>
@@ -14,6 +15,7 @@
   <mads:variant type="other" lang="grc">
       <mads:name type="personal" authority="Brill">
          <mads:namePart>Μένιππος</mads:namePart>
+          <mads:namePart type="termsOfAddress">ὁ Γαδαρεύς</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2166.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+        valueURI="https://viaf.org/viaf/2858297">
 	        <namePart>Oenopides</namePart>
       </name>
     </authority>
@@ -49,8 +51,13 @@
 	        <namePart type="termsOfAddress">of Chius</namePart>
       </name>
     </variant>
-    <note type="source">Smith's Dictionary: "Oenopides, a distinguished astronomer and mathematician, a native of Chios. Plato (Erastae, 100.1) mentions him in conjunction with Anaxagoras, from which it has been concluded that he was a contemporary of the latter. It may have been so, but there is nothing else to confirm the conjecture...."</note>
-    <note type="source">Brill's New Pauly: "Oeonopides, of Chios. Astronomer and mathematician in the 2nd half of the 5th cent. BC...."</note>
+    <note type="source">Smith's Dictionary: "Oenopides, a distinguished astronomer and mathematician, 
+      a native of Chios. Plato (Erastae, 100.1) mentions him in conjunction with Anaxagoras, from which
+      it has been concluded that he was a contemporary of the latter. It may have been so, but there is 
+      nothing else to confirm the conjecture...."</note>
+    <note type="source">Brill's New Pauly: "Oeonopides, of Chios. Astronomer and mathematician in the 
+      2nd half of the 5th cent. BC...."</note>
+  <identifier type="citeurn">urn:cite:perseus:author.2166.1</identifier>
     <identifier type="tlg">2234</identifier>
     <fieldOfActivity>Philosopher</fieldOfActivity>
     <fieldOfActivity>Astronomer</fieldOfActivity>

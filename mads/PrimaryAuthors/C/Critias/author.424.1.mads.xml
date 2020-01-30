@@ -1,16 +1,17 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/17263602/">
       <mads:namePart>Critias</mads:namePart>
       <mads:namePart type="date">ca. 460-ca. 403 B.C</mads:namePart>
     </mads:name>
   </mads:authority>
-  <mads:variant type="other" lang="grc">
+  <mads:related type="equivalent" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x39A;&#x3C1;&#x3B9;&#x3C4;&#x3AF;&#x3B1;&#x3C2;</mads:namePart>
+      <mads:namePart>Κριτίας</mads:namePart>
     </mads:name>
-  </mads:variant>
+  </mads:related>
   <mads:variant type="other" lang="ita">
     <mads:name type="personal">
       <mads:namePart>Crizia</mads:namePart>
@@ -33,16 +34,17 @@
     </mads:name>
   </mads:variant>
   <mads:note type="source">Bultrighini, Umberto. Maledetta democrazia, c1999: t.p. (Crizia)p. 8-9
-        (d. Piero, at the end of 404 or the beginning of 403, B.C.; born around 460, B.C., of an
-        aristocratic family; his cousin was the mother of Plato)</mads:note>
-  <mads:note type="source">LC data base, 10-25-00 (hdg.: Critias, ca. 460-ca. 403 B.C.; usage:
+        (d. Piero, at the end of 404 or the beginning of 403, B.C., born around 460, B.C., of an
+        aristocratic family, his cousin was the mother of Plato)</mads:note>
+  <mads:note type="source">LC data base, 10-25-00 (hdg.: Critias, ca. 460-ca. 403 B.C., usage:
         Critias)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.424.1</mads:identifier>
   <mads:identifier type="lccn">n 00087919 </mads:identifier>
-  <mads:fieldOfActivity>Tragic Poet</mads:fieldOfActivity>
-  
-  
-  
+  <mads:fieldOfActivity>Tragic Poet</mads:fieldOfActivity>  
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 1, 1867, p. 892-893: 
+    "Critias, son of Callaeschrus, and grandson of the above. He was one of the pupils of Socrates, by whose 
+    instructions he profited but little in a moral point of view..</mads:note>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/17263602/</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Critias</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-n00-87919</mads:url>
   <mads:url displayLabel="IEP">http://www.iep.utm.edu/c/critias.htm</mads:url>

@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/4146824308507630171/">
       <mads:namePart>Nossis</mads:namePart>
       <mads:namePart type="termsOfAddress">of Locri</mads:namePart>
       <mads:namePart type="date">3rd cent. B.C</mads:namePart>
@@ -9,7 +10,7 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x39D;&#x3BF;&#x3C3;&#x3C3;&#x3AF;&#x3C2;</mads:namePart>
+      <mads:namePart>Νοσσίς</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
@@ -26,19 +27,18 @@
   </mads:variant>
   <mads:variant type="other" lang="rus">
     <mads:name type="personal">
-      <mads:namePart>&#x41D;&#x43E;&#x441;&#x441;&#x438;&#x434;&#x430;</mads:namePart>
+      <mads:namePart>Носсида</mads:namePart>
     </mads:name>
-  </mads:variant>
-  <mads:note type="source">Harrison, S. Naming the dead, 2005: t.p. verso (Nossis; co-author of text)</mads:note>
-  <mads:note type="source">Salisbury, J.E. Encyclopedia of women in the ancient world, c2001 (Nossis of Locri; fl. ca. 3rd cent. B.C.; Hellenistic poet and epigrammist)</mads:note>
+  </mads:variant>  
+  <mads:note type="source">Salisbury, J.E. Encyclopedia of women in the ancient world, c2001 
+    (Nossis of Locri, fl. ca. 3rd cent. B.C.,
+    Hellenistic poet and epigrammist)</mads:note>
   <mads:note type="source">Lexikon der alten Welt, c1990 (Nossis von Lokroi)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.998.1</mads:identifier>
   <mads:identifier type="lccn">no2007145762</mads:identifier>
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
   <mads:fieldOfActivity>Poetess</mads:fieldOfActivity>
-  
-  
-  
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/4146824308507630171/</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Nossis</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-no2007-145762</mads:url>
   <mads:url displayLabel="Smith's Dictionary"/>
@@ -47,11 +47,7 @@
     <mads:description>List of related work identifiers</mads:description>
     <mads:identifier type="tlg">1540.001</mads:identifier>
   </mads:extension>
-  <mads:extension>
-    <mads:gender>
-      <mads:genderTerm>female</mads:genderTerm>
-    </mads:gender>
-  </mads:extension>
+  
   <mads:recordInfo>
     <mads:recordContentSource authority="marcorg">IEN-Mu</mads:recordContentSource>
     <mads:recordCreationDate encoding="marc">071126</mads:recordCreationDate>
