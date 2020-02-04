@@ -6,7 +6,8 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-      <mads:name type="personal">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/10236135/">
          <mads:namePart>Damostratus</mads:namePart>
          <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
          <mads:namePart type="date">1. Jh. v. Chr</mads:namePart>
@@ -21,14 +22,12 @@
       <mads:name type="personal">
          <mads:namePart>Demostratos</mads:namePart>
          <mads:namePart type="termsOfAddress">Römischer Senator</mads:namePart>
-         <mads:namePart type="date">1. Jh. v. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Damostratos</mads:namePart>
          <mads:namePart type="termsOfAddress">Epigrammatiker</mads:namePart>
-         <mads:namePart type="date">1. Jh. v. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -54,7 +53,6 @@
       July 2007</mads:note>
   <mads:url displayLabel="Wikipedia"/>
   <mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|102389888</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:identifier type="citeurn">urn:cite:perseus:author.439.1</mads:identifier>
   <mads:identifier type="tlg">7000a</mads:identifier>
   <mads:extension>

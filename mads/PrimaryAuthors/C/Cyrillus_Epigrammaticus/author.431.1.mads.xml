@@ -6,7 +6,8 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-      <mads:name type="personal">
+      <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/"
+          valueURI="http://viaf.org/59475754">
          <mads:namePart>Cyrillus</mads:namePart>
          <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
          <mads:namePart type="date">1. Jh. v. Chr./1. Jh. n. Chr</mads:namePart>
@@ -39,18 +40,14 @@
       </mads:name>
   </mads:variant>
   <mads:note type="history">AP 9.369</mads:note>
-  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
-  
+  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity> 
   <mads:note type="source">"Cyrillus, Otherwise unknown author of a distich that, in prescribing
       the single distich as the measure for the perfect epigram, recommends brevity as a precept:
       more than two lines, and you have an epic (Anth. Pal. 9,369). Albiani, Maria Grazia (Bologna);
       Duridanov, Ludmil (Freiburg). "Cyrillus." Brill's New Pauly. Antiquity volumes edited by:
       Hubert Cancik and Helmuth Schneider . Brill, 2007. Brill Online. Tufts University Library. 23
       July 2007</mads:note>
-  <mads:url displayLabel="Wikipedia"/>
   <mads:url displayLabel="VIAF">http://viaf.org/59475754</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:identifier type="citeurn">urn:cite:perseus:author.431.1</mads:identifier>
   <mads:identifier type="tlg">0157</mads:identifier>
   <mads:extension>

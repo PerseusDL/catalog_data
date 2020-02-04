@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/32791548">
       <mads:namePart>Crito</mads:namePart>
       <mads:namePart type="termsOfAddress">Medicus</mads:namePart>
       <mads:namePart type="date">ca. 1./2. Jh</mads:namePart>
@@ -9,8 +10,8 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x39A;&#x3C1;&#x3AF;&#x3C4;&#x3C9;&#x3BD;</mads:namePart>
-      <mads:namePart type="termsOfAddress">&#x3A0;&#x3B9;&#x3B5;&#x3C1;&#x3B9;&#x3CE;&#x3C4;&#x3B7;&#x3C2;</mads:namePart>
+      <mads:namePart>Κρίτων</mads:namePart>
+      <mads:namePart type="termsOfAddress">Πιεριώτης</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -89,10 +90,7 @@
     </mads:name>
   </mads:variant>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Medical Author</mads:fieldOfActivity>
-  
-  
-  <mads:note type="source"/>
+  <mads:fieldOfActivity>Medical Author</mads:fieldOfActivity>  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Criton_of_Pieria</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/32791548</mads:url>
   <mads:url displayLabel="Smith's Dictionary"/>

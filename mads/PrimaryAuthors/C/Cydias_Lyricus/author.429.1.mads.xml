@@ -3,7 +3,8 @@
       version="2.0"
       xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
       <mads:authority>
-            <mads:name type="personal">
+            <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+                  valueURI="https://viaf.org/viaf/66855995/"> 
                   <mads:namePart>Cydias</mads:namePart>
                   <mads:namePart type="termsOfAddress">Lyricus</mads:namePart>
                   <mads:namePart type="date">6./5. Jh. v. Chr</mads:namePart>
@@ -18,7 +19,6 @@
             <mads:name type="personal">
                   <mads:namePart>Cydias</mads:namePart>
                   <mads:namePart type="termsOfAddress">Hermioneus</mads:namePart>
-                  <mads:namePart type="date">6./5. Jh. v. Chr</mads:namePart>
             </mads:name>
       </mads:variant>
       <mads:variant type="other">
@@ -31,25 +31,18 @@
             <mads:name type="personal">
                   <mads:namePart>Kydias</mads:namePart>
                   <mads:namePart type="termsOfAddress">von Athen</mads:namePart>
-                  <mads:namePart type="date">6./5. Jh. v. Chr</mads:namePart>
             </mads:name>
       </mads:variant>
       <mads:variant type="other" lang="ger">
             <mads:name type="personal">
                   <mads:namePart>Kydias</mads:namePart>
                   <mads:namePart type="termsOfAddress">Dichter</mads:namePart>
-                  <mads:namePart type="date">6./5. Jh. v. Chr</mads:namePart>
             </mads:name>
       </mads:variant>
       <mads:variant type="other">
             <mads:name type="personal" authority="lsj">
                   <mads:namePart>Cydias</mads:namePart>
                   <mads:namePart type="termsOfAddress">Lyricus</mads:namePart>
-            </mads:name>
-      </mads:variant>
-      <mads:variant type="abbreviation">
-            <mads:name type="personal" authority="lsj">
-                  <mads:namePart/>
             </mads:name>
       </mads:variant>
       <mads:fieldOfActivity>Poet</mads:fieldOfActivity>
@@ -63,7 +56,6 @@
       (Toronto); Weißenberger, Michael (Greifswald); Hoesch, Nicola (München); Nutton, Vivian
       (London). "Cydias." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and Helmuth
       Schneider . Brill, 2007. Brill Online. Tufts University Library. 23 July 2007</mads:note>
-      <mads:note type="source"/>
       <mads:url displayLabel="Wikipedia">http://ca.wikipedia.org/wiki/C%C3%ADdies_(poeta)</mads:url>
       <mads:url displayLabel="Worldcat Identities"
             >http://www.worldcat.org/identities/np-cydias</mads:url>

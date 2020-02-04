@@ -6,7 +6,8 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-      <mads:name type="personal">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/66855995/">
          <mads:namePart>Cyllenius</mads:namePart>
          <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
          <mads:namePart type="date">1. Jh. n. Chr</mads:namePart>
@@ -26,7 +27,6 @@
       <mads:name type="personal">
          <mads:namePart>Cylienius</mads:namePart>
          <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
-         <mads:namePart type="date">1. Jh. n. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -42,10 +42,11 @@
   </mads:variant>
   <mads:note type="history">AP 9.4,33</mads:note>
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
+    <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 1, 1867, p. 910: "Cyllenius, the 
+        author of two epigrams in the Greek anthology....."</mads:note>
+    <mads:note type="source">Brill's New Pauly: "Author of two epideictic epigrams that show thematic
+        and stylistic affinities with the ‘Garland’ of Philippus, 
+        but which cannot with certainty be traced back to it."</mads:note>  
   <mads:url displayLabel="VIAF">http://viaf.org/64395505</mads:url>
   <mads:url displayLabel="Perseus-Smith">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=cyllenius-bio-2</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000925</mads:url>
