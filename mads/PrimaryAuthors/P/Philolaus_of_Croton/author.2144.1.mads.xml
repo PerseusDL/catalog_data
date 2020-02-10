@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2144.1</identifier>
-    <authority lang="eng">
-      <name type="personal">
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd"> 
+  <authority lang="eng">
+    <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/50021495">
         <namePart>Philolaus</namePart>
         <namePart type="termsOfAddress">of Croton</namePart>
         <namePart type="date">ca. 470 B.C.-</namePart>
@@ -50,21 +52,18 @@
       <name type="personal">
         <namePart>Philolaos</namePart>
         <namePart type="termsOfAddress">of Tarentum</namePart>
-        <namePart type="date">approximately 470 B.C.-</namePart>
       </name>
     </variant>
     <variant type="other" lang="ger">
       <name type="personal">
         <namePart>Philolaos</namePart>
         <namePart type="termsOfAddress">Pythagoreer</namePart>
-        <namePart type="date">v470-v390</namePart>
       </name>
     </variant>
     <variant type="other" lang="spa"> 
       <name type="personal">
         <namePart>Philolaos</namePart>
         <namePart type="termsOfAddress">de Crotone</namePart>
-        <namePart type="date">v470-v390</namePart>
       </name>
     </variant>
     <variant type="other" lang="lat">
@@ -76,13 +75,11 @@
       <name type="personal">
         <namePart>Philolaus</namePart>
         <namePart type="termsOfAddress">Philosophus</namePart>
-        <namePart type="date">v470-v390</namePart>
       </name>
     </variant>
     <variant type="other">
       <name type="personal">
         <namePart>Philoläus</namePart>
-        <namePart type="date">v470-v390</namePart>
       </name>
     </variant>
     <variant type="abbreviation">
@@ -90,6 +87,7 @@
         <namePart>Philol.</namePart>
       </name>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2144.1</identifier>  
     <fieldOfActivity>Pythagorean</fieldOfActivity>
     <fieldOfActivity>Philosopher</fieldOfActivity>
     <fieldOfActivity>Pre-Socratic</fieldOfActivity>

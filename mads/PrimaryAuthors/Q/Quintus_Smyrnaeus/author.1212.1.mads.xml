@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority lang="lat">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/76294608">
       <mads:namePart>Quintus</mads:namePart>
       <mads:namePart type="termsOfAddress">Smyrnaeus</mads:namePart>
       <mads:namePart type="date">4th cent</mads:namePart>
@@ -9,49 +10,43 @@
   </mads:authority>
   <mads:related type="equivalent" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x39A;&#x3CC;&#x3CA;&#x3BD;&#x3C4;&#x3BF;&#x3C2;</mads:namePart>
-      <mads:namePart type="termsOfAddress">&#x3A3;&#x3BC;&#x3C5;&#x3C1;&#x3BD;&#x3B1;&#x1FD6;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Κόϊντος</mads:namePart>
+      <mads:namePart type="termsOfAddress">Κόϊντος</mads:namePart>
     </mads:name>
   </mads:related>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Smyrnaeus, Quintus</mads:namePart>
-      <mads:namePart type="date">4th cent</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="gre">
     <mads:name type="personal">
       <mads:namePart>Kointos</mads:namePart>
       <mads:namePart type="termsOfAddress">ho Smyrnaios</mads:namePart>
-      <mads:namePart type="date">4th cent</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Quintus</mads:namePart>
       <mads:namePart type="termsOfAddress">von Smyrna</mads:namePart>
-      <mads:namePart type="date">4th cent</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
     <mads:name type="personal">
       <mads:namePart>Quintus</mads:namePart>
       <mads:namePart type="termsOfAddress">de Smyrne</mads:namePart>
-      <mads:namePart type="date">4th cent</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Quintus</mads:namePart>
       <mads:namePart type="termsOfAddress">Calaber</mads:namePart>
-      <mads:namePart type="date">4th cent</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="spa">
     <mads:name type="personal">
       <mads:namePart>Quinto</mads:namePart>
       <mads:namePart type="termsOfAddress">de Esmirna</mads:namePart>
-      <mads:namePart type="date">4th cent</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -72,7 +67,6 @@
   <mads:note type="source">Vian, F. Lexique de Quintus de Smyrne, 1984: t.p. (Quintus de Smyrne)</mads:note>
   <mads:note type="source">His Quinti Calabri Derelictorum ab Homero libri quatuordecim, 1541: t.p. (Quinti Calabri ...)</mads:note>
   <mads:note type="source">LC PA class. schedule (Quintus Smyrnaeus; his date is not ascertainable; formerly surnamed "Calaber," because the only known ms. of his work was found in Calabria)</mads:note>
-  <mads:note type="source">Posthome&#xCC;&#x81;ricas, c2004: t.p. (Quinto de Esmirna)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1212.1</mads:identifier>
   <mads:identifier type="lccn">n  84058406 </mads:identifier>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
