@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  version="2.0"
+  xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
     <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
       valueURI="http://viaf.org/viaf/88933794">
@@ -40,7 +43,6 @@
   <mads:related type="equivalent">
     <mads:name type="personal">
       <mads:namePart>Demetrius</mads:namePart>
-      <mads:namePart type="date">(ca 350-283 a.C.)</mads:namePart>
     </mads:name>
   </mads:related>
   <mads:related type="equivalent" lang="ita">
@@ -69,7 +71,6 @@
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Demetrios von Phaleron</mads:namePart>
-      <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -83,7 +84,6 @@
     <mads:name type="personal">
       <mads:namePart>Demetrios</mads:namePart>
       <mads:namePart type="termsOfAddress">Politiker</mads:namePart>
-      <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -96,7 +96,7 @@
     <mads:name type="personal">
       <mads:namePart>Demetrius Phalerus</mads:namePart>
     </mads:name>
-  </mads:variant>  
+  </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Demetrius</mads:namePart>
@@ -113,7 +113,6 @@
     <mads:name type="personal">
       <mads:namePart>Demetrius</mads:namePart>
       <mads:namePart type="termsOfAddress">of Phalerum</mads:namePart>
-      <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -126,47 +125,40 @@
     <mads:name type="personal">
       <mads:namePart>Demetrius</mads:namePart>
       <mads:namePart type="termsOfAddress">Falereus</mads:namePart>
-      <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Demetrius</mads:namePart>
       <mads:namePart type="termsOfAddress">Phalereus Historicus</mads:namePart>
-      <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Demetrius</mads:namePart>
       <mads:namePart type="termsOfAddress">Rhetor</mads:namePart>
-      <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Phalereus, Demetrius</mads:namePart>
-      <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Pseudo-Demetrius</mads:namePart>
       <mads:namePart type="termsOfAddress">Phalereus</mads:namePart>
-      <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Pseudo-Demetrius</mads:namePart>
-      <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Demetrios</mads:namePart>
       <mads:namePart type="termsOfAddress">von Phaleron</mads:namePart>
-      <mads:namePart type="date">ca. 350 - 283 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -184,7 +176,7 @@
   <mads:identifier type="citeurn">urn:cite:perseus:author.455.1</mads:identifier>
   <mads:identifier type="uri">http://viaf.org/viaf/88933794</mads:identifier>
   <mads:fieldOfActivity>Orator</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Historian</mads:fieldOfActivity> 
+  <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Demetrius_of_Phalerum</mads:url>
   <mads:url displayLabel="Worldcat Identities"/>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/88933794</mads:url>

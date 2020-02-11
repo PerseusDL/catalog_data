@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads.xsd">
   <mads:authority geographicSubdivision="not applicable" lang="lat">
-    <mads:name type="personal" authority="viaf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/66856060">
       <mads:namePart>Demetrius</mads:namePart>
       <mads:namePart type="termsOfAddress">Sagalassensis</mads:namePart>
       <mads:namePart type="date">2. Jh</mads:namePart>
     </mads:name>
   </mads:authority>
+  <mads:related type="equivalent" lang="grc">
+    <mads:name type="personal" authority="Brill">
+      <mads:namePart>Δημήτριος</mads:namePart>
+    </mads:name>
+  </mads:related>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Demetrios</mads:namePart>
