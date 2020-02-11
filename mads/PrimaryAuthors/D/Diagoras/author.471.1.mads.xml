@@ -1,26 +1,28 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/100175549/">
       <mads:namePart>Diagoras</mads:namePart>
       <mads:namePart type="termsOfAddress">of Melos</mads:namePart>
     </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x394;&#x3B9;&#x3B1;&#x3B3;&#x3CC;&#x3C1;&#x3B1;&#x3C2;</mads:namePart>
+      <mads:namePart>Διαγόρας</mads:namePart>
+      <mads:namePart type="termsOfAddress">ς ὁ Μήλιος</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="cat">
     <mads:name type="personal" authority="">
-      <mads:namePart>Di&#xE0;gores</mads:namePart>
+      <mads:namePart>Diàgores,</mads:namePart>
       <mads:namePart type="termsOfAddress">de Melos</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
     <mads:name type="personal" authority="">
       <mads:namePart>Diagoras</mads:namePart>
-      <mads:namePart type="termsOfAddress">de M&#xE9;los</mads:namePart>
+      <mads:namePart type="termsOfAddress">de Mélos</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
@@ -43,7 +45,7 @@
   </mads:variant>
   <mads:variant type="other" lang="spa">
     <mads:name type="personal">
-      <mads:namePart>Di&#xE1;goras</mads:namePart>
+      <mads:namePart>Diágoras</mads:namePart>
       <mads:namePart type="termsOfAddress">de Melos</mads:namePart>
     </mads:name>
   </mads:variant>
@@ -70,9 +72,15 @@
   <mads:identifier type="citeurn">urn:cite:perseus:author.471.1</mads:identifier>
   <mads:identifier type="lccn">n 84169475</mads:identifier>
   <mads:fieldOfActivity>Lyric Poet</mads:fieldOfActivity>
-  
-  
-  
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 1, 1867, p. 997-999: "Diagoras, of Melos..
+    He was a poet and philosopher, who throughout antiquity was regarded as an atheist....All that we know of his writings, and especially
+    of his poems shews no trace of irreligion..."</mads:note>
+  <mads:note type="source">Brill's New Pauly: "Diagoras, of Melos, lyric poet. Eusebius' dating of his creative period to between 482/1
+    and 468/7 probably refers to dates of birth, because D. wrote in the late 5th cent.: Aristophanes (Av. 1072ff., with scholia) reports
+    of a trial, in which D. was condemned to death because of his godlessness and desecration of the mysteries. 
+    He is supposed to have written dithyrambs and a paean....." Diagoras." Brill's New Pauly. 
+    Antiquity volumes edited by: Hubert Cancik and Helmuth Schneider . Brill, 2009. Brill Online.</mads:note>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/100175549/</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Diagoras_of_Melos</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-n84-169475</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00001012</mads:url>
