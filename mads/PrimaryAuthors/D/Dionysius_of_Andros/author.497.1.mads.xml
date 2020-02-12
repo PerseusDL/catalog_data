@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/49613968/">
       <mads:namePart>Dionysius</mads:namePart>
       <mads:namePart type="termsOfAddress">Andrius</mads:namePart>
       <mads:namePart type="date">ca. 2. Jh. n. Chr</mads:namePart>
@@ -9,8 +10,8 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x394;&#x3B9;&#x3BF;&#x3BD;&#x3CD;&#x3C3;&#x3B9;&#x3BF;&#x3C2;</mads:namePart>
-      <mads:namePart type="termsOfAddress">&#x391;&#x39D;&#x394;&#x3A1;&#x399;&#x39F;&#x3A5;</mads:namePart>
+      <mads:namePart>Διονύσιος</mads:namePart>
+      <mads:namePart type="termsOfAddress">ΑΝΔΡΙΟΥ</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
@@ -51,11 +52,12 @@
   </mads:variant>
   <mads:note type="history">AP 7.533</mads:note>
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|102391041</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
+  <mads:note type="source">Brill's New Pauly: "D. of Andros Poet of epigrams, Author of a short epigram, which originates either from the
+    ‘Garland’ of Meleager or from that of Philippus. It deals with the popular topic of the fateful connection between Zeus and Bromios, 
+    that is, the connection between rain and wine...Nothing is known about the author
+    the common name does not allow any identification." Degani, Enzo (Bologna). Dionysius." Brill's New Pauly. 
+    Antiquity volumes edited by: Hubert Cancik and Helmuth Schneider . Brill, 2009. Brill Online. Tufts University Library. 10 September 2009</mads:note>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/49613968/</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.497.1</mads:identifier>
   <mads:identifier type="tlg">0168</mads:identifier>
   <mads:extension>
