@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2336.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/32386410">
 	        <namePart>Eurytus</namePart>
       </name>
     </authority>
@@ -31,7 +33,10 @@
 	        <namePart>Евріт</namePart>
       </name>
     </variant>
-    <note type="source">Smith's Dictionary: "Eurytus, an eminent Pythagorean philosopher, whom Iamblichus in one passage (de Vit. Pyth. 28) describes as a native of Croton, while in another (ibidd. 36) he enumerates him among the Tarentine Pythagoreans...."</note>
+  <identifier type="citeurn">urn:cite:perseus:author.2336.1</identifier>
+    <note type="source">Smith's Dictionary: "Eurytus, an eminent Pythagorean philosopher, whom Iamblichus 
+      in one passage (de Vit. Pyth. 28) describes as a native of Croton, while in another (ibidd. 36) he
+      enumerates him among the Tarentine Pythagoreans...."</note>
     <note type="source">Brill's New Pauly: "Eurytus, 2, Pythagorean from Croton...."</note>
     <identifier type="tlg">1362</identifier>
     <fieldOfActivity>Philosopher</fieldOfActivity>
