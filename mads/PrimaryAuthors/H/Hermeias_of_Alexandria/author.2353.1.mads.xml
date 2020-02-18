@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2353.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/22953744">
 	        <namePart>Hermeias</namePart>
 	        <namePart type="termsOfAddress">of Alexandria</namePart>
 	        <namePart type="date">active 5th century</namePart>
@@ -46,7 +48,9 @@
 	        <namePart type="termsOfAddress">di Alessandria</namePart>
       </name>
     </variant>
-    <note type="source">In Platonis Phaedrum scholia, 1971: t.p. (Hermeias von Alexandrien) facsim. t.p. (Hermiae Alexandrini) running title (Hermeiou philosophou)</note>
+  <identifier type="citeurn">urn:cite:perseus:author.2353.1</identifier>
+    <note type="source">In Platonis Phaedrum scholia, 1971: t.p. (Hermeias von Alexandrien) facsim. t.p. 
+      (Hermiae Alexandrini) running title (Hermeiou philosophou)</note>
     <note type="source">Brill's new Pauly online: "Hermias, of Alexandria, Neoplatonist philosopher of the 5th cent. AD. "</note>
     <identifier type="lccn">no 96039842</identifier>
     <identifier type="tlg">2317</identifier>

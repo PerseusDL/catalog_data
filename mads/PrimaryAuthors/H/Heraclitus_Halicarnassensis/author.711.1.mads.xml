@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable" lang="lat">
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/42230362">
       <mads:namePart>Heraclitus</mads:namePart>
       <mads:namePart type="termsOfAddress">Halicarnassensis</mads:namePart>
       <mads:namePart type="date">ca. 3. Jh. v. Chr</mads:namePart>
@@ -9,56 +10,49 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x1F29;&#x3C1;&#x3AC;&#x3BA;&#x3BB;&#x3B5;&#x3B9;&#x3C4;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Ἡράκλειτος</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Heraclitus</mads:namePart>
       <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
-      <mads:namePart type="date">ca. 3. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Heraclitus</mads:namePart>
       <mads:namePart type="termsOfAddress">Lyric Poet</mads:namePart>
-      <mads:namePart type="date">ca. 3. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="eng">
     <mads:name type="personal">
       <mads:namePart>Heraclitus</mads:namePart>
       <mads:namePart type="termsOfAddress">of Halicarnassus</mads:namePart>
-      <mads:namePart type="date">ca. 3. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Herakleitos</mads:namePart>
-      <mads:namePart type="termsOfAddress">Elegeias Poe&#x304;te&#x304;s</mads:namePart>
-      <mads:namePart type="date">ca. 3. Jh. v. Chr</mads:namePart>
+      <mads:namePart type="termsOfAddress">Elegeias Poētēs</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Herakleitos</mads:namePart>
       <mads:namePart type="termsOfAddress">Freund des Kallimachos</mads:namePart>
-      <mads:namePart type="date">ca. 3. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Herakleitos</mads:namePart>
       <mads:namePart type="termsOfAddress">Halikarnasseus</mads:namePart>
-      <mads:namePart type="date">ca. 3. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Herakleitos</mads:namePart>
-      <mads:namePart type="termsOfAddress">von Halikarna&#xDF;</mads:namePart>
-      <mads:namePart type="date">ca. 3. Jh. v. Chr</mads:namePart>
+      <mads:namePart type="termsOfAddress">von Halikarnaß</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -72,22 +66,15 @@
       <mads:namePart>Heraclit.</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:url>http://viaf.org/viaf/42230362</mads:url>
+  <mads:note type="source">Brill's New Pauly: "H. of Halicarnassus Epigrammatist......Poet of epigrams, identifiable as the elegiac
+    poet in Diog. Laert. 9,17 (ἐλεγείας ποιητὴς Ἁλικαρνασσεύς elegeías poiētḕs Halikarnasseús) and friend of Callimachus....". from  
+    Heraclitus I (Gk)." Brill’s New Pauly. Brill Online , 2013. Reference. Tufts University Library. 11 February 2013.</mads:note>
+  <mads:url displayLabel="VIAF">http://viaf.org/viaf/42230362</mads:url>
   <mads:url displayLabel="Dataset description">http://viaf.org/viaf/data</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.711.1</mads:identifier>
   <mads:identifier type="uri">http://viaf.org/viaf/42230362</mads:identifier>
-  <mads:extension>
-    <mads:gender>
-      <mads:genderTerm>male</mads:genderTerm>
-    </mads:gender>
-  </mads:extension>
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="Worldcat Identities"/>
-  <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=heracleitus-bio-9</mads:url>
+   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=heracleitus-bio-9</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/42230362</mads:url>
   <mads:identifier type="tlg">1415</mads:identifier>
   <mads:extension>

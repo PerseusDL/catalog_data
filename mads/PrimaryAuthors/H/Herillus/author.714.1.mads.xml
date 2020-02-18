@@ -6,7 +6,7 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority lang="lat">
-      <mads:name type="personal">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/37304686/">
          <mads:namePart>Herillus</mads:namePart>
          <mads:namePart type="termsOfAddress">Carthaginiensis</mads:namePart>
          <mads:namePart type="date">3. Jh. v. Chr</mads:namePart>
@@ -16,35 +16,30 @@
       <mads:name type="personal">
          <mads:namePart>Herillos</mads:namePart>
          <mads:namePart type="termsOfAddress">Stoiker</mads:namePart>
-         <mads:namePart type="date">3. Jh. v. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
       <mads:name type="personal">
          <mads:namePart>Herillos</mads:namePart>
          <mads:namePart type="termsOfAddress">Schüler des Zenon</mads:namePart>
-         <mads:namePart type="date">3. Jh. v. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
       <mads:name type="personal">
          <mads:namePart>Herillus</mads:namePart>
          <mads:namePart type="termsOfAddress">Philosophus</mads:namePart>
-         <mads:namePart type="date">3. Jh. v. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
       <mads:name type="personal">
          <mads:namePart>Herillus</mads:namePart>
          <mads:namePart type="termsOfAddress">Stoicus</mads:namePart>
-         <mads:namePart type="date">3. Jh. v. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
       <mads:name type="personal">
          <mads:namePart>Herillos</mads:namePart>
          <mads:namePart type="termsOfAddress">von Karthago</mads:namePart>
-         <mads:namePart type="date">3. Jh. v. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -60,11 +55,9 @@
   </mads:variant>
   <mads:fieldOfActivity>Stoic</mads:fieldOfActivity>
   <mads:fieldOfActivity>Philosopher</mads:fieldOfActivity>
-  
-  
-  
+   
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Herillus_of_Carthage</mads:url>
-  <mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|102395055</mads:url>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/37304686/</mads:url>
   <mads:url displayLabel="Smith's Dictionary"/>
   <mads:identifier type="citeurn">urn:cite:perseus:author.714.1</mads:identifier>
   <mads:identifier type="tlg">2169</mads:identifier>

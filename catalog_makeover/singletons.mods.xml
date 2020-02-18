@@ -49030,7 +49030,7 @@ p -->
         <titleInfo type="alternative">
             <title>Hermiae Alexandrini In Platonis Phaedrum scholia</title>
         </titleInfo>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/22953744/">
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/22953744/">
             <namePart>Hermeias</namePart>
             <namePart type="termsOfAddress">of Alexandria</namePart>
             <namePart type="date">active 5th century</namePart>
@@ -51401,7 +51401,6 @@ p -->
             </relatedItem>
         </relatedItem>
     </mods>
-    <!-- LEFT OFF HERE -->
     <mods displayLabel="Leucippe et Clitophon-Achilles Tatius-Gaselee-Loeb-1917">
         <titleInfo lang="eng" type="uniform">
             <title>Leucippe et Clitophon</title>
@@ -51551,6 +51550,13 @@ p -->
                 <title>Teubner</title>
             </titleInfo>
         </relatedItem>
+        <language objectPart="text">
+            <languageTerm type="code">grc</languageTerm>
+        </language>
+        <language objectPart="preface">
+            <languageTerm type="code">lat</languageTerm>
+        </language>
+        
         <identifier type="lccn">29007014</identifier>
         <identifier type="oclc">905427849</identifier>
         <location>
@@ -51574,7 +51580,8 @@ p -->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part>
                         <detail type="volume">
-                            <caption>Pars I</caption>
+                            <caption>Pars</caption>
+                            <number>1</number>
                         </detail>
                     </part>
                     <originInfo>
@@ -51588,7 +51595,8 @@ p -->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
                     <part>
                         <detail type="volume">
-                            <caption>Pars II</caption>
+                            <caption>Pars</caption>
+                            <number>2</number>
                         </detail>
                     </part>
                     <originInfo>
@@ -51602,7 +51610,8 @@ p -->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
                     <part>
                         <detail type="volume">
-                            <caption>Pars III</caption>
+                            <caption>Pars</caption>
+                            <number>3</number>
                         </detail>
                     </part>
                     <originInfo>
@@ -51616,7 +51625,8 @@ p -->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 4">
                     <part>
                         <detail type="volume">
-                            <caption>Pars IV</caption>
+                            <caption>Pars</caption>
+                            <number>4</number>
                         </detail>
                     </part>
                     <originInfo>
@@ -51632,7 +51642,7 @@ p -->
     </mods>
 
     <mods displayLabel="Lexicon Homericum-Apollonius Sophista-Bekker-Reimer-1833">
-        <titleInfo lang="eng" type="uniform">
+        <titleInfo lang="lat" type="uniform">
             <title>Lexicon Homericum</title>
         </titleInfo>
         <part>
@@ -51640,6 +51650,23 @@ p -->
                 <total>41344</total>
             </extent>
         </part>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/266713061/">
+            <namePart>Apollonius</namePart>
+            <namePart type="termsOfAddress">Sophista,</namePart>
+            <namePart type="date">fl.1. Jh</namePart>
+            <role>
+                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/44387193/">
+            <namePart>Bekker, Immanuel</namePart>
+            <namePart type="date">1785-1871</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -51658,13 +51685,11 @@ p -->
             <extent>iv, 195 p.</extent>
         </physicalDescription>
         <classification authority="lcc">4PA Gr 599</classification>
-        <location>
-            <url displayLabel="LC Permalink"/>
-        </location>
         <identifier type="oclc">64296883</identifier>
         <identifier type="lccn">ltf91043604</identifier>
+        <!-- 
         <identifier displayLabel="isLexiconTo" type="tlg">0012.001</identifier>
-        <identifier displayLabel="isLexiconTo" type="tlg">0012.002</identifier>
+        <identifier displayLabel="isLexiconTo" type="tlg">0012.002</identifier> -->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/64296883</url>
         </location>
@@ -51677,23 +51702,9 @@ p -->
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/266713061/">
-            <namePart>Apollonius</namePart>
-            <namePart type="termsOfAddress">Sophista,</namePart>
-            <namePart type="date">fl.1. Jh</namePart>
-            <role>
-                <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/44387193/">
-            <namePart>Bekker, Immanuel</namePart>
-            <namePart type="date">1785-1871</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
+        <language objectPart="preface">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
         <relatedItem type="constituent" otherType="work" displayLabel="Lexicon Homericum">
             <identifier type="ctsurn">urn:cts:greekLit:tlg1168.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Lexicon Homericum">
@@ -51701,7 +51712,7 @@ p -->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Lexicon in Decem Oratores Atticos-Harpocration-Dindorf-Perseus-1853">
+    <mods displayLabel="Lexicon in Decem Oratores Atticos-Harpocration-Dindorf-1853-Perseus-Greek">
         <titleInfo>
             <title>Lexicon in decem oratores Atticos</title>
         </titleInfo>
@@ -51735,6 +51746,9 @@ p -->
         </originInfo>
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+        </language>
+        <language objectPart="notes">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
         </language>
         <physicalDescription>
             <form authority="marcform">print</form>
@@ -51788,6 +51802,21 @@ p -->
         <titleInfo>
             <title>Quinti Sereni Liber medicinalis</title>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/83157548/">
+            <namePart>Serenus Sammonicus, Quintus</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/24820249/">
+            <namePart>Vollmer, Friedrich</namePart>
+            <namePart type="date">1867-1923</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -51835,21 +51864,6 @@ p -->
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/83157548/">
-            <namePart>Serenus Sammonicus, Quintus</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/24820249/">
-            <namePart>Vollmer, Friedrich</namePart>
-            <namePart type="date">1867-1923</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Medicine, Greek and Roman</topic>
         </subject>
@@ -52184,7 +52198,7 @@ p -->
         </relatedItem>
     </mods>
     <mods displayLabel="Lysistrata-Aristophanes-Lindsay-Perseus-English-1\2">
-        <titleInfo lang="eng" type="uniform">
+        <titleInfo lang="lat" type="uniform">
             <title>Lysistrata</title>
         </titleInfo>
         <part>
@@ -52223,20 +52237,21 @@ p -->
                         >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0242</url>
                 </location>
             </relatedItem>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="expression"
-            displayLabel="Lysistrata Epidoc Edition">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0019.tlg007.perseus-eng2</identifier>
-            <name authority="" type="personal">
-                <namePart>Almas, Bridget</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">encoder</roleTerm>
-                </role>
-            </name>
-            <originInfo>
-                <edition>Epidoc Edition</edition>
-                <dateCreated>2014</dateCreated>
-            </originInfo>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Lysistrata Epidoc Edition">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0019.tlg007.perseus-eng2</identifier>
+                <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                    valueURI="http://viaf.org/viaf/309842234/">
+                    <namePart>Almas, Bridget</namePart>
+                    <role>
+                        <roleTerm authority="marcrelator" type="text">encoder</roleTerm>
+                    </role>
+                </name>
+                <originInfo>
+                    <edition>Epidoc Edition</edition>
+                    <dateCreated>2014</dateCreated>
+                </originInfo>
+            </relatedItem>
         </relatedItem>
     </mods>
     <mods displayLabel="Magna Moralia-Aristotle-Susemihl-Teubner-1883">
@@ -52298,11 +52313,14 @@ p -->
         <identifier type="lccn">34010815</identifier>
         <identifier type="oclc">5092307</identifier>
         <location>
-            <url displayLabel="Worldcat">https://www.worldcat.org/oclc/613265166</url>
+            <url displayLabel="Worldcat">https://www.worldcat.org/oclc/5092307</url>
         </location>
         <location>
             <url displayLabel="Internet Archive"
                 >https://archive.org/details/aristotelisquae01susegoog/</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/uc1.$b287210?urlappend=%3Bseq=4</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Magna Moralia">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg022</identifier>
@@ -52357,6 +52375,9 @@ p -->
         </originInfo>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <language objectPart="notes">
+            <languageTerm authority="iso639-2b" type="code">fre</languageTerm>
         </language>
         <physicalDescription>
             <form authority="marcform">print</form>
@@ -52479,7 +52500,6 @@ p -->
                 <title>Teubner</title>
             </titleInfo>
         </relatedItem>
-
         <subject authority="lcsh">
             <topic>Astronomy</topic>
             <topic>Works Until 1800</topic>
@@ -52492,7 +52512,8 @@ p -->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part type="volume">
                         <detail type="volume">
-                            <number>Fasciculus Prior</number>
+                            <caption>Fasciculus</caption>
+                            <number>Prior</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-4">
@@ -52515,7 +52536,8 @@ p -->
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
                     <part type="volume">
                         <detail type="volume">
-                            <number>Fasciculus Alter</number>
+                            <caption>Fasciculus</caption>
+                            <number>Alter</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 5-8">
@@ -52569,6 +52591,9 @@ p -->
             <edition>Editio Stereotypa</edition>
             <issuance>monographic</issuance>
         </originInfo>
+        <language objectPart="notes">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
@@ -52597,7 +52622,7 @@ p -->
         </relatedItem>
     </mods>
     <mods displayLabel="Medea-Euripides-Murray-Oxford-1906 (1946)">
-        <titleInfo lang="eng" type="uniform">
+        <titleInfo type="uniform">
             <title>Medea</title>
         </titleInfo>
         <part>
@@ -52609,6 +52634,21 @@ p -->
             <nonSort>The</nonSort>
             <title>Medea of Euripides</title>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/265326651">
+            <namePart>Euripides</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/69007721/">
+            <namePart>Murray, Gilbert</namePart>
+            <namePart type="date">1866-1957</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -52656,21 +52696,6 @@ p -->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/265326651">
-            <namePart>Euripides</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/69007721/">
-            <namePart>Murray, Gilbert</namePart>
-            <namePart type="date">1866-1957</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Medea (Greek mythology)</topic>
             <topic>Drama</topic>
@@ -52700,8 +52725,8 @@ p -->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/39962541">
-            <namePart>Lamacchia, Rosa.</namePart>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/39962541">
+            <namePart>Lamacchia, Rosa</namePart>
             <namePart type="date">1921-1989</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
@@ -52772,7 +52797,7 @@ p -->
         </relatedItem>
     </mods>
 
-    <mods displayLabel="Meditations-Marcus Aurelius-Leopold-OCT-1908-OPP\Perseus">
+    <mods displayLabel="Meditations-Marcus Aurelius-Leopold-OCT-1908-OPP\Perseus-Greek">
         <titleInfo type="uniform" lang="eng">
             <title>Meditations</title>
         </titleInfo>
@@ -52787,6 +52812,23 @@ p -->
         <titleInfo>
             <title>M. Antoninus imperator ad se ipsum</title>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/102895066/">
+            <namePart>Marcus Aurelius</namePart>
+            <namePart type="termsOfAddress">Emperor of Rome</namePart>
+            <namePart type="date">121-180</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/29576155/">
+            <namePart>Leopold, Jan Hendrik</namePart>
+            <namePart type="date">1865-1925</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -52833,31 +52875,20 @@ p -->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/mantoninusimpera00marcuoft</url>
         </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/uc1.b3218103</url>
+        </location>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/102895066/">
-            <namePart>Marcus Aurelius</namePart>
-            <namePart type="termsOfAddress">Emperor of Rome</namePart>
-            <namePart type="date">121-180</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/29576155/">
-            <namePart>Leopold, Jan Hendrik</namePart>
-            <namePart type="date">1865-1925</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
+        <language objectPart="notes">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
         <relatedItem type="constituent" otherType="work"
             displayLabel="M. Antonius Imperator Ad Se Ipsum">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0562.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="M. Antonius Imperator Ad Se Ipsum">
+                displayLabel="Τὰ εἰς ἑαυτόν">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0562.tlg001.opp-grc2</identifier>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression"
@@ -52886,6 +52917,23 @@ p -->
             <nonSort>The </nonSort>
             <title>thoughts of the Emperor M. Aurelius Antoninus</title>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/102895066/">
+            <namePart>Marcus Aurelius</namePart>
+            <namePart type="termsOfAddress">Emperor of Rome</namePart>
+            <namePart type="date">121-180</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/52461184/">
+            <namePart>Long, George</namePart>
+            <namePart type="date">1800-1879</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -52924,28 +52972,11 @@ p -->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/102895066/">
-            <namePart>Marcus Aurelius</namePart>
-            <namePart type="termsOfAddress">Emperor of Rome</namePart>
-            <namePart type="date">121-180</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/52461184/">
-            <namePart>Long, George</namePart>
-            <namePart type="date">1800-1879</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-            </role>
-        </name>
         <relatedItem type="constituent" otherType="work"
             displayLabel="M. Antonius Imperator Ad Se Ipsum">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0562.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="M. Antonius Imperator Ad Se Ipsum">
+                displayLabel="Meditations">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0562.tlg001.opp-eng1</identifier>
             </relatedItem>
         </relatedItem>
@@ -52966,7 +52997,7 @@ p -->
                 <roleTerm type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/120153193">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/120153193">
             <namePart>Dalfen, Joachim</namePart>
             <namePart type="date">1936-</namePart>
             <role>
@@ -52989,6 +53020,9 @@ p -->
         </originInfo>
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+        </language>
+        <language objectPart="notes">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
         </language>
         <physicalDescription>
             <form authority="marcform">print</form>
@@ -53015,7 +53049,7 @@ p -->
             displayLabel="Marci Aurelii Antonini ad se ipsum libri XII">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0562.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="Marci Aurelii Antonini ad se ipsum libri XII">
+                displayLabel=" Τὰ εἰς ἑαυτόν">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0562.tlg001.opp-grc3</identifier>
             </relatedItem>
         </relatedItem>
@@ -53083,6 +53117,9 @@ p -->
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/30618946</url>
         </location>
         <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/chi.24083083</url>
+        </location>
+        <location>
             <url displayLabel="Open Content Alliance">
                 http://www.archive.org/details/commentariorumqu00marcuoft</url>
         </location>
@@ -53100,13 +53137,11 @@ p -->
             displayLabel="M. Antonius Imperator Ad Se Ipsum">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0562.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="M. Antonius Imperator Ad Se Ipsum">
+                displayLabel="Τὰ εἰς ἑαυτόν">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0562.tlg001.opp-grc1</identifier>
             </relatedItem>
         </relatedItem>
     </mods>
-
-
     <mods displayLabel="Menaechmi-Plautus-Goetz/Scholl-Teubner-1930">
         <titleInfo>
             <title>T. Macci Plauti Menaechmi</title>
@@ -53121,14 +53156,14 @@ p -->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/49984473">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/49984473">
             <namePart>Goetz, Georg</namePart>
             <namePart type="date">1849-1932</namePart>
             <role>
                 <roleTerm type="text">editor</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/20053312">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/20053312">
             <namePart>Schöll, Fritz</namePart>
             <namePart type="date">1850-1919</namePart>
             <role>
@@ -53186,6 +53221,21 @@ p -->
             <nonSort>The </nonSort>
             <title>Menaechmi of Plautus</title>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/66462281/">
+            <namePart>Plautus, Titus Maccius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/46837585/">
+            <namePart>Fowler, Harold North</namePart>
+            <namePart type="date">1859-1955</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -53228,21 +53278,6 @@ p -->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/66462281/">
-            <namePart>Plautus, Titus Maccius</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/46837585/">
-            <namePart>Fowler, Harold North</namePart>
-            <namePart type="date">1859-1955</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <relatedItem type="constituent" otherType="work" displayLabel="Menaechmi">
             <identifier type="ctsurn">urn:cts:latinLit:phi0119.phi010</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Menaechmi">
@@ -53251,7 +53286,7 @@ p -->
         </relatedItem>
     </mods>
 
-    <mods displayLabel="Memorabilia-Xenophon-Teubner-1934">
+    <mods displayLabel="Memorabilia-Xenophon-Hude-Teubner-1934">
         <titleInfo>
             <title>Xenophōntos Commentari</title>
         </titleInfo>
@@ -53265,7 +53300,7 @@ p -->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/39450431">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/39450431">
             <namePart>Hude, Karl</namePart>
             <namePart type="date">1860-1936</namePart>
             <role>
@@ -53393,10 +53428,10 @@ p -->
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id407994920</url>
         </location>
         <relatedItem type="constituent" otherType="work"
-            displayLabel="P. Ovidii Nasonis metamorphoses">
+            displayLabel="Metamorphoses">
             <identifier type="ctsurn">urn:cts:latinLit:phi0959.phi006</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="P. Ovidii Nasonis metamorphoses">
+                displayLabel="Metamorphoses">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0959.phi006.opp-lat8</identifier>
             </relatedItem>
         </relatedItem>
@@ -53414,6 +53449,21 @@ p -->
             <title>P. Ovidii Nasonis metamorphoseon XIII</title>
             <subTitle>The metamorphoses of Ovid, book XIII</subTitle>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/88342447/">
+            <namePart>Ovid</namePart>
+            <namePart type="date">43 B.C.-17 or 18 A.D</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="none" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/5616149235104176690007/">
+            <namePart>Simmons, Charles</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <genre authority="marc">bibliography</genre>
         <originInfo>
@@ -53449,21 +53499,7 @@ p -->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/88342447/">
-            <namePart>Ovid</namePart>
-            <namePart type="date">43 B.C.-17 or 18 A.D</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="none" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/5616149235104176690007/">
-            <namePart>Simmons, Charles</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
+
         <subject authority="lcsh">
             <topic>Metamorphosis</topic>
             <topic>Mythology</topic>
@@ -53496,43 +53532,6 @@ p -->
             <title>P. Ovidius Naso</title>
             <partName>Metamorphoses</partName>
         </titleInfo>
-        <identifier type="oclc">42705682</identifier>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">gw</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Lipsiae</placeTerm>
-            </place>
-            <publisher>in aedibus B.G. Teubneri</publisher>
-            <dateIssued>1922</dateIssued>
-            <edition>Editio minor</edition>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>374 p.</extent>
-        </physicalDescription>
-        <note type="statement of responsibility">edidit R. Ehwald.</note>
-        <classification authority="lcc">PA6104</classification>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/42705682</url>
-        </location>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/osu.32435058194234</url>
-        </location>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Bibliotheca scriptorum graecorum et romanorum Teubneriana. [S. r.]</title>
-            </titleInfo>
-            <titleInfo type="abbreviated">
-                <title>Teubner</title>
-            </titleInfo>
-        </relatedItem>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/88342447/">
             <namePart>Ovid</namePart>
@@ -53557,6 +53556,43 @@ p -->
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Lipsiae</placeTerm>
+            </place>
+            <publisher>in aedibus B.G. Teubneri</publisher>
+            <dateIssued>1922</dateIssued>
+            <edition>Editio minor</edition>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>374 p.</extent>
+        </physicalDescription>
+        <note type="statement of responsibility">edidit R. Ehwald.</note>
+        <classification authority="lcc">PA6104</classification>
+        <identifier type="oclc">42705682</identifier>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/42705682</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/osu.32435058194234</url>
+        </location>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Bibliotheca scriptorum graecorum et romanorum Teubneriana</title>
+            </titleInfo>
+            <titleInfo type="abbreviated">
+                <title>Teubner</title>
+            </titleInfo>
+        </relatedItem>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>       
         <subject authority="lcsh">
             <topic>Epistolary poetry, Latin</topic>
         </subject>
@@ -53569,6 +53605,7 @@ p -->
         <subject authority="lcsh">
             <topic>Fables, Latin</topic>
         </subject>
+        
         <relatedItem type="constituent" otherType="work" displayLabel="Metamorphoses">
             <identifier type="ctsurn">urn:cts:latinLit:phi0959.phi006</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Metamorphoses">
@@ -53576,7 +53613,7 @@ p -->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Metamporphoses-Ovid-More-Cornhill-1922-Perseus-English">
+    <mods displayLabel="Metamporphoses-Ovid-More-Cornhill-1922-Perseus-English-1">
         <titleInfo lang="eng" type="uniform">
             <title>Metamorphoses</title>
         </titleInfo>
@@ -53585,8 +53622,6 @@ p -->
                 <total>78023</total>
             </extent>
         </part>
-        <identifier type="lccn">22012850</identifier>
-        <identifier type="oclc">24965574</identifier>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/88342447/">
             <namePart>Ovid</namePart>
@@ -53637,6 +53672,8 @@ p -->
             <topic>Mythology</topic>
             <genre>Poetry</genre>
         </subject>
+        <identifier type="lccn">22012850</identifier>
+        <identifier type="oclc">24965574</identifier>
         <classification authority="lcc">PA6522.M2 M6</classification>
         <relatedItem type="constituent" otherType="work" displayLabel="Metamorphoses">
             <identifier type="ctsurn">urn:cts:latinLit:phi0959.phi006</identifier>
@@ -53663,8 +53700,6 @@ p -->
             <nonSort>The</nonSort>
             <title>XV bookes of P. Ouidius Naso, entytuled Metamorphosis</title>
         </titleInfo>
-        <identifier type="lccn">2004574082</identifier>
-        <identifier type="oclc">15050230</identifier>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/88342447/">
             <namePart>Ovid</namePart>
@@ -53720,6 +53755,8 @@ p -->
             </hierarchicalGeographic>
         </subject>
         <classification authority="lcc">PA6522.M2 G6 1567</classification>
+        <identifier type="lccn">2004574082</identifier>
+        <identifier type="oclc">15050230</identifier>
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/2004574082</url>
         </location>
@@ -53834,7 +53871,7 @@ p -->
             </relatedItem>
         </relatedItem>
     </mods>
-
+<!-- LEFT OFF HERE -->
     <mods displayLabel="Metamorphoses-Apuleius-Adlington-Richards-1913">
         <titleInfo lang="lat" type="uniform">
             <title>Metamorphoses</title>
