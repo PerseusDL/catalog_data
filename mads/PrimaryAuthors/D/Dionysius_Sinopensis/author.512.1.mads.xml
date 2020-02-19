@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/113145542402896640169/">
       <mads:namePart>Dionysius</mads:namePart>
       <mads:namePart type="termsOfAddress">of Sinope</mads:namePart>
       <mads:namePart type="date">4th cent. B.C</mads:namePart>
@@ -9,28 +10,25 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x394;&#x3B9;&#x3BF;&#x3BD;&#x3CD;&#x3C3;&#x3B9;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Διονύσιος</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Dionysios</mads:namePart>
       <mads:namePart type="termsOfAddress">of Sinope</mads:namePart>
-      <mads:namePart type="date">4th cent. B.C</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Dionysius</mads:namePart>
       <mads:namePart type="termsOfAddress">Comicus</mads:namePart>
-      <mads:namePart type="date">5./4. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Dionysios</mads:namePart>
       <mads:namePart type="termsOfAddress">von Sinope</mads:namePart>
-      <mads:namePart type="date">5./4. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
@@ -38,26 +36,16 @@
       <mads:namePart>Denys</mads:namePart>
       <mads:namePart type="termsOfAddress">de Sinope</mads:namePart>
     </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Dionysios</mads:namePart>
-      <mads:namePart type="termsOfAddress">Komo&#x308;diendichter</mads:namePart>
-      <mads:namePart type="date">5./4. Jh. v. Chr</mads:namePart>
-    </mads:name>
-  </mads:variant>
+ </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Dionysios</mads:namePart>
       <mads:namePart type="termsOfAddress">Lustspieldichter</mads:namePart>
-      <mads:namePart type="date">5./4. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Dionysios</mads:namePart>
-      <mads:namePart type="termsOfAddress">Dichter der Mittleren Komo&#x308;die</mads:namePart>
-      <mads:namePart type="date">5./4. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -79,11 +67,16 @@
       comedy poet)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.512.1</mads:identifier>
   <mads:identifier type="lccn">no2008072427</mads:identifier>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|102390991</mads:url>
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 1, 1867, p. 1044-5: "Dionysius,
+    of Sinope, an Athenian comic poet of the middle comedy..He appears from indications in the fragments of 
+    his plays, to have been younger than Archestratus, to have flourished about the same time as Nicostratus,
+    the son of Aristophanes..."</mads:note>  
+  <mads:note type="source">Brill's New Pauly: "Author of comedies, from Sinope [1. test. 1], 
+    victor in the Lenaea (2nd half of the 4th cent. BC) [1st test. 2]. The titles of four plays
+    (Ἀκοντιζόμενος, Θεσμοφόρος, Ὁμώνυμοι, Σῴζουσα or Σώτειρα) and 10 fragments have survived...." 
+    Hidber, Thomas (Bern). "Dionysius." Brill's New Pauly. 
+    Antiquity volumes edited by: Hubert Cancik and Helmuth Schneider .</mads:note>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/113145542402896640169/</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00001059</mads:url>
   <mads:identifier type="tlg">0445</mads:identifier>
   <mads:extension>
