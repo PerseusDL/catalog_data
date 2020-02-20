@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2154.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority lang="lat">
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/65318710/">
 	        <namePart>Hippodamus</namePart>
 	        <namePart type="termsOfAddress">of Miletus</namePart>
       </name>
@@ -49,6 +51,7 @@
     </variant>
     <fieldOfActivity>Philosopher</fieldOfActivity>
     <fieldOfActivity>Architectural Author</fieldOfActivity>
+  <identifier type="citeurn">urn:cite:perseus:author.2154.1</identifier>  
     <note type="source">Brill's New Pauly: "Hippodamus, of Miletus. Greek architect, town planner and author of writings on political theory, ..."</note>
     <note type="source">Castagnoli, F. Ippodamo di Mileto ... 1956</note>
     <note type="source">Las ciudades teóricas de Hipódamo de Mileto, 1987: t.p</note>
