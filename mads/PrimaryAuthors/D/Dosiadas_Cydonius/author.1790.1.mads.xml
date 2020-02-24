@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/12693715">
       <mads:namePart>Dosiadas</mads:namePart>
       <mads:namePart type="termsOfAddress">Cydonius</mads:namePart>
       <mads:namePart type="date">v4./3. Jh</mads:namePart>
@@ -16,14 +17,12 @@
     <mads:name type="personal">
       <mads:namePart>Dosiadas</mads:namePart>
       <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
-      <mads:namePart type="date">v4./3. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Dosiadas</mads:namePart>
       <mads:namePart type="termsOfAddress">von Kydonia</mads:namePart>
-      <mads:namePart type="date">v4./3. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -41,12 +40,8 @@
   <mads:identifier type="uri">http://viaf.org/viaf/12693715</mads:identifier>
   <mads:identifier type="tlg">1338</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1790.1</mads:identifier>
-  <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="Worldcat Identities"/>
-  <mads:url displayLabel="Smith's Dictionary"/>
+  <mads:fieldOfActivity>Historian</mads:fieldOfActivity>  
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/12693715</mads:url>
-  <mads:url displayLabel="id.gov"/>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
     <mads:identifier type="tlg">1338.003</mads:identifier>

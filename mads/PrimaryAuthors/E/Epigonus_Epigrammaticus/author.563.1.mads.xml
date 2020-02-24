@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/2857864/">
       <mads:namePart>Epigonus</mads:namePart>
       <mads:namePart type="termsOfAddress">Thessalonicensis</mads:namePart>
       <mads:namePart type="date">1. Jh. v. Chr</mads:namePart>
@@ -9,7 +10,7 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>E&#x3C0;&#x3AF;&#x3B3;&#x3BF;&#x3BD;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Eπίγονος</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="eng">
@@ -20,7 +21,7 @@
   </mads:variant>
   <mads:variant type="other" lang="fre">
     <mads:name type="personal">
-      <mads:namePart>&#xC9;pigone,</mads:namePart>
+      <mads:namePart>Épigone,</mads:namePart>
       <mads:namePart type="termsOfAddress">de Thessalonique</mads:namePart>
     </mads:name>
   </mads:variant>
@@ -39,16 +40,19 @@
     <mads:name type="personal">
       <mads:namePart>Epigonus</mads:namePart>
       <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
-      <mads:namePart type="date">1. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:note type="history">AP 9.261</mads:note>
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
-  
-  
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 2, 1867, p. 37: "Epigonus,
+    of Thessalonica, the author of two epigrams in the Greek Anthology..."</mads:note>
+  <mads:note type="source">Brill's New Pauly: "Epigrammatist from Thessalonica, author of a funny epideictic poem
+    from the ‘Garland’ of Philippus about an old grapevine (however, the word σταφυλή (staphylḗ) alludes to the 
+    woman's name of Σταφύλη Staphŷle), who once was rich with grapes and is now covered in wrinkles (Anth. Pal. 9,261)...." 
+    Degani, Enzo (Bologna). "Epigonus." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and Helmuth Schneider .
+    Brill, 2009. Brill Online</mads:note>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Epigonus_of_Thessalonica</mads:url>
-  <mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|102392188</mads:url>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/2857864/</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0002.001;didno=ACL3129.0002.001;view=image;seq=00000047</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.563.1</mads:identifier>
   <mads:identifier type="tlg">0179</mads:identifier>

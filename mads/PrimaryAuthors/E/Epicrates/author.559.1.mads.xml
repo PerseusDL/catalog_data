@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="http://www.viaf.org/viaf/"
+      valueURI="http://www.viaf.org/viaf/32386406">
       <mads:namePart>Epicrates</mads:namePart>
       <mads:namePart type="termsOfAddress">Comicus</mads:namePart>
       <mads:namePart type="date">4. Jh. v. Chr</mads:namePart>
@@ -9,28 +10,13 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x1F18;&#x3C0;&#x3B9;&#x3BA;&#x3C1;&#x3AC;&#x3C4;&#x3B7;&#x3C2;</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="ger">
-    <mads:name type="personal">
-      <mads:namePart>Epikrates</mads:namePart>
-      <mads:namePart type="termsOfAddress">Komo&#x308;diendichter</mads:namePart>
-      <mads:namePart type="date">4. Jh. v. Chr</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="ger">
-    <mads:name type="personal">
-      <mads:namePart>Epikrates</mads:namePart>
-      <mads:namePart type="termsOfAddress">Dichter der Mittleren Komo&#x308;die</mads:namePart>
-      <mads:namePart type="date">4. Jh. v. Chr</mads:namePart>
+      <mads:namePart>Ἐπικράτης</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Epikrates</mads:namePart>
       <mads:namePart type="termsOfAddress">von Ambrakia</mads:namePart>
-      <mads:namePart type="date">4. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -46,9 +32,11 @@
   </mads:variant>
   <mads:note type="genre">Middle Comedy</mads:note>
   <mads:fieldOfActivity>Comic Poet</mads:fieldOfActivity>
-  
-  
-  
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 2, 1867, p. 31: "Epicrates, of 
+    Ambracia, was an Athenian comic poet of the middle comedy, according to the testimony of Athenaeus...."</mads:note>
+  <mads:note type="source">Brill's New Pauly: "From Ambracia, writer of Middle Comedy [1. test. 2], active
+    around 380-350 BC [2. 197f.] six play titles and eleven fragments are extant...." Bäbler, Balbina (Göttingen)
+    Bäbler, Balbina (Göttingen). "Epicrates." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and Helmuth Schneide.</mads:note>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Epicrates_of_Ambracia</mads:url>
   <mads:url displayLabel="VIAF">http://www.viaf.org/viaf/32386406</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;q1=Epicrates;rgn=full%20text;idno=ACL3129.0002.001;didno=ACL3129.0002.001;view=image;seq=00000041</mads:url>
