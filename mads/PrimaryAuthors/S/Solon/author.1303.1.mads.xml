@@ -6,7 +6,8 @@
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
            version="2.0">
   <mads:authority>
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/81144814374407675870/">
          <mads:namePart>Solon</mads:namePart>
          <mads:namePart type="date">ca. 630-ca. 560 B.C</mads:namePart>
       </mads:name>
@@ -77,17 +78,19 @@
          <mads:namePart>Sol.</mads:namePart>
       </mads:name>
   </mads:variant>
-  <mads:note type="source">Enc. brit., 15th ed. (Solon; Athenian statesman and poet; b. ca. 630 BC; d. ca. 560 BC)</mads:note>
+    <mads:note type="source">Brill's New Pauly: "S. (b. c. 640 BC), an Athenian of the family of the Medontidae, 
+        supposedly related through the maternal line with Peisistratus [4], the most important Greek legislator 
+        (alongside the legendary Spartan Lycurgus [4]) of the Archaic period and the first prominent Athenian poet...."</mads:note>
+  <mads:note type="source">Enc. brit., 15th ed. (Solon, Athenian statesman and poet, b. ca. 630 BC,
+      d. ca. 560 BC)</mads:note>
   <mads:note type="source">Le vite di Solone e di Poplicola, 1924</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1303.1</mads:identifier>
   <mads:identifier type="lccn">n  79110932 </mads:identifier>
   <mads:fieldOfActivity>Elegist</mads:fieldOfActivity>
   <mads:fieldOfActivity>Lyric Poet</mads:fieldOfActivity>
   <mads:fieldOfActivity>Philosopher</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Septem Sapientes</mads:fieldOfActivity>
-  
-  <mads:fieldOfActivity>Statesman</mads:fieldOfActivity>
-  
+  <mads:fieldOfActivity>Septem Sapientes</mads:fieldOfActivity>  
+  <mads:fieldOfActivity>Statesman</mads:fieldOfActivity>  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Solon</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/290232318</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-n79-110932</mads:url>

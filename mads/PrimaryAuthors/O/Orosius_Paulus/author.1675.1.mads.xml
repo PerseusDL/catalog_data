@@ -1,7 +1,10 @@
 <?xml version="1.0"?>
-<mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+<mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable" lang="lat">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/2479624/">
       <mads:namePart>Orosius, Paulus</mads:namePart>
     </mads:name>
   </mads:authority>
@@ -17,7 +20,7 @@
   </mads:variant>
   <mads:variant type="other" lang="ara" transliteration="rom">
     <mads:name type="personal">
-      <mads:namePart>&#x16A;r&#x16B;sy&#x16B;s</mads:namePart>
+      <mads:namePart>Ūrūsyūs</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
@@ -27,7 +30,7 @@
   </mads:variant>
   <mads:variant type="other" lang="spa">
     <mads:name type="personal">
-      <mads:namePart>Or&#xF3;sio, Paulo</mads:namePart>
+      <mads:namePart>Orósio, Paulo</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -38,17 +41,17 @@
   </mads:variant>
   <mads:variant type="other" lang="pol">
     <mads:name type="personal">
-      <mads:namePart>Orozi&#x12D;, Pavel</mads:namePart>
+      <mads:namePart>Oroziĭ, Pavel</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ara">
     <mads:name type="personal">
-      <mads:namePart>&#x627;&#x648;&#x631;&#x648;&#x633;&#x64A;&#x648;&#x633;</mads:namePart>
+      <mads:namePart>اوروسيوس</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ara">
     <mads:name type="personal">
-      <mads:namePart>&#x647;&#x631;&#x648;&#x634;&#x64A;&#x648;&#x634;&#x60C; &#x67E;&#x627;&#x648;&#x644;&#x648;&#x633;</mads:namePart>
+      <mads:namePart>هروشيوش، پاولوس</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="abbreviation">
@@ -62,8 +65,10 @@
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
   <mads:fieldOfActivity>Theologian</mads:fieldOfActivity>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Orosius</mads:url>
-  <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n50-2187</mads:url>
-  <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=orosius-paulus-bio-1</mads:url>
+  <mads:url displayLabel="Worldcat Identities"
+    >http://www.worldcat.org/wcidentities/lccn-n50-2187</mads:url>
+  <mads:url displayLabel="Smith's Dictionary"
+    >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=orosius-paulus-bio-1</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/2479624</mads:url>
   <mads:url displayLabel="Id.gov">http://id.loc.gov/authorities/names/n50002187</mads:url>
   <mads:extension>

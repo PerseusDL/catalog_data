@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2139.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority lang="lat">
-      <name type="personal" authority="viaf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/280092172">
 	        <namePart>Osius</namePart>
 	        <namePart type="termsOfAddress">Cordubensis</namePart>
       </name>
@@ -11,7 +13,6 @@
       <name type="personal">
 	        <namePart>Hosius</namePart>
 	        <namePart type="termsOfAddress">Cordubensis</namePart>
-	        <namePart type="date">approximately 256-approximately 358</namePart>
       </name>
     </variant>
     <variant type="other">
@@ -36,7 +37,6 @@
       <name type="personal">
 	        <namePart>Ossius</namePart>
 	        <namePart type="termsOfAddress">of Cordova</namePart>
-	        <namePart type="date">approximately 256-approximately 358</namePart>
       </name>
     </variant>
     <variant type="other">
@@ -46,8 +46,10 @@
 	        <namePart type="date">256-357</namePart>
       </name>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2139.1</identifier>
     <note type="source">LCCN a 54004942: De Clercq, V.C. Ossius of Cordova, 1954 (hdg.: Hosius, Bp. of Cordoba, 256?-357?)</note>
-    <note type="source">New Cath. encyc. (Hosius of Córdoba, bishop, ecclesiastical counselor of Contantine I, b. probably Córdoba, ca. 256, d. Córdoba, ca. 256, Ossius became bishop of Córdoba, ca. 295)</note>
+    <note type="source">New Cath. encyc. (Hosius of Córdoba, bishop, ecclesiastical counselor of Contantine I, b. probably Córdoba, 
+      ca. 256, d. Córdoba, ca. 256, Ossius became bishop of Córdoba, ca. 295)</note>
     <identifier type="lccn">n 2005003867</identifier>
     <identifier type="stoa">stoa0215d</identifier>
     <fieldOfActivity>Theologian</fieldOfActivity>

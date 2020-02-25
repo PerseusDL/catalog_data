@@ -1,19 +1,13 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/215835200/">
       <mads:namePart>Orientius</mads:namePart>
       <mads:namePart type="termsOfAddress">Saint</mads:namePart>
       <mads:namePart type="date">active 430-440</mads:namePart>
     </mads:name>
   </mads:authority>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Orientius</mads:namePart>
-      <mads:namePart type="termsOfAddress">Saint</mads:namePart>
-      <mads:namePart type="date">fl. 430-440</mads:namePart>
-    </mads:name>
-  </mads:variant>
   <mads:variant type="other" lang="cat">
     <mads:name type="personal" authority="viaf">
       <mads:namePart>Orenci</mads:namePart>
@@ -40,6 +34,9 @@
       <mads:namePart type="termsOfAddress">z Auch</mads:namePart>
     </mads:name>
   </mads:variant>
+  <mads:note type="source">Brill's New Pauly: "Orientius, Christian poet of the early 5th cent. AD from Gaul
+    probably identical with the eponymous bishop of Auch (southwestern France)...." Schwind, Johannes (Trier).
+    "Orientius." Brill’s New Pauly. Antiquity volumes edited by: Hubert Cancik and , Helmuth Schneider. Brill Online, 2014.</mads:note>
   <mads:note type="source">Poetae Christiani minores, 1972: t.p. (Orientii)</mads:note>
   <mads:note type="source">RLIN, 12/5/96 (hdg.: Orientius, Saint, Bp. of Auch, fl. 439; usage</mads:note>
   <mads:note type="source">Clavis patrum Latinorum, 1995: p. 479 (Orientius (Episcopus Ausciensis?); fl. in France 430-440)</mads:note>
@@ -49,11 +46,8 @@
   <mads:identifier type="citeurn">urn:cite:perseus:author.1674.1</mads:identifier>
   <mads:fieldOfActivity>Saint</mads:fieldOfActivity>
   <mads:fieldOfActivity>Poet</mads:fieldOfActivity>
-  
-  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Orientius</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-nr96-43718</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/215835200</mads:url>
   <mads:url displayLabel="id.gov">http://id.loc.gov/authorities/names/nr96043718</mads:url>
   <mads:extension>
