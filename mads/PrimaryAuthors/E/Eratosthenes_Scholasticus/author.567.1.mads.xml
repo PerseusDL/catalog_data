@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/27457183/">
       <mads:namePart>Eratosthenes</mads:namePart>
       <mads:namePart type="termsOfAddress">Scholasticus</mads:namePart>
       <mads:namePart type="date">fl.6. Jh</mads:namePart>
@@ -9,27 +10,24 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x1F18;&#x3C1;&#x3B1;&#x3C4;&#x3BF;&#x3C3;&#x3B8;&#x3AD;&#x3BD;&#x3B7;&#x3C2;</mads:namePart>
-      <mads:namePart type="termsOfAddress">&#x3C3;&#x3C7;&#x3BF;&#x3BB;&#x3B1;&#x3C3;&#x3C4;&#x3B9;&#x3BA;&#x1F78;&#x3C2;</mads:namePart>
+      <mads:namePart>Ἐρατοσθένης</mads:namePart>
+      <mads:namePart type="termsOfAddress">σχολαστικὸς</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
     <mads:name type="personal">
-      <mads:namePart>Eratosthe&#x300;ne</mads:namePart>
+      <mads:namePart>Eratosthène</mads:namePart>
       <mads:namePart type="termsOfAddress">le Scolastique</mads:namePart>
-      <mads:namePart type="date">fl.6. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Scholasticus, Eratosthenes</mads:namePart>
-      <mads:namePart type="date">fl.6. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Erasthones Scholastikos</mads:namePart>
-      <mads:namePart type="date">fl.6. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -45,10 +43,15 @@
   </mads:variant>
   <mads:note type="history">Epigrammata</mads:note>
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
+  <mads:note type="source">Brill's New Pauly: "Writer of epigrams of the Justinian period 
+    (2nd half of the 6th cent. AD), of whose epigrams at least five from the ‘Kyklos’ of 
+    Agathias are extant (disputed are Anth. Pal. 5,243f. 246, 7,601, they may only with
+    difficulty be attributed to him). These are erotic (5,242. the first poem is uncommonly obscene),
+     ddedicatory (6,77f.) and epideictic (9,444) epigrams that may no longer be described as carefully written...
+    ." Degani, Enzo (Bologna). "Eratosthenes." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and Helmuth Schneider . Brill, 2009. Brill Online. Tufts University Library.</mads:note>
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 2, 1867, p. 47: "Eratosthenes
+    Scholasticus, the author of four epigrams in the Greek Anthology...to which may be added, on the authority 
+    of the Vatican MS, a fifth, which stands in the Anthology among those of Paul the Silentiary...."</mads:note> 
   <mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|102466513</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0002.001;didno=ACL3129.0002.001;view=image;seq=00000057</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.567.1</mads:identifier>
