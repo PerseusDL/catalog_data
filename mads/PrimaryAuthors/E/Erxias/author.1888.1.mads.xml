@@ -1,29 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mads:mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal" authority="">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/37304590">
       <mads:namePart>Erxias</mads:namePart>
       <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
       <mads:namePart type="date">ca. 2.Jh.v.Chr</mads:namePart>
     </mads:name>
   </mads:authority>
+  <mads:variant>
+    <mads:name>
+      <mads:namePart>Ergias</mads:namePart>
+    </mads:name>
+  </mads:variant>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart/>
+      <mads:namePart>Ἐργίας</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:identifier type="uri">http://viaf.org/viaf/37304590</mads:identifier>
-  <mads:identifier type="ctsurn"/>
   <mads:identifier type="tlg">2312</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1888.1</mads:identifier>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="Worldcat Identities"/>
-  
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology: "Ergias, Ergi/as) of Rhodes, 
+    is mentioned as the author of a work on his native island. (Athen. 8.360.) Gesner and others are of opinion that
+    Ergias is the same person as Erxias, who was the author of Κολοφωνιακά. (Athen. 13.561.) But which of the two names,
+    Ergias or Erxias, is the correct one, cannot be determined.</mads:note>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/37304590</mads:url>
-  <mads:url displayLabel="id.gov"/>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
     <mads:identifier type="tlg">2312.002</mads:identifier>
