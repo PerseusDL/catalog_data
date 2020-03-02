@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads.xsd">
   <mads:authority geographicSubdivision="not applicable" lang="lat">
-    <mads:name type="personal" authority="viaf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/69321199/">
       <mads:namePart>Euthymenes</mads:namePart>
       <mads:namePart type="termsOfAddress">Massiliensis</mads:namePart>
       <mads:namePart type="date">v6. Jh</mads:namePart>
@@ -22,35 +23,24 @@
     <mads:name type="personal">
       <mads:namePart>Euthymenes</mads:namePart>
       <mads:namePart type="termsOfAddress">Chronograph</mads:namePart>
-      <mads:namePart type="date">v6. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Euthymenes</mads:namePart>
       <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
-      <mads:namePart type="date">v6. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Euthymenes</mads:namePart>
       <mads:namePart type="termsOfAddress">von Massalia</mads:namePart>
-      <mads:namePart type="date">v6. Jh</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="ger">
-    <mads:name type="personal">
-      <mads:namePart>Euthymenes</mads:namePart>
-      <mads:namePart type="termsOfAddress">von Massilia</mads:namePart>
-      <mads:namePart type="date">v6. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
     <mads:name type="personal">
       <mads:namePart>Eutimene</mads:namePart>
       <mads:namePart type="termsOfAddress">di Marsiglia</mads:namePart>
-      <mads:namePart type="date">v6. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="pol">
@@ -63,13 +53,17 @@
   <mads:identifier type="tlg">2170</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1834.1</mads:identifier>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  
-  
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology: "Euthymanes, or more correctly EUTHY'MENES
+    (Εὐθυμένης, of Massilia, is referred to several times as the author of a geographical work, the real nature of which,
+    however, is unknown. .."</mads:note> 
+  <mads:note type="source">Brill's New Pauly: "Euthymenes of Massalia, Greek seafarer, probably of the 6th-5th cents. BC,...
+    His work, probably a periplous (cf. Marcianus of Heraclea, epit. 2, GGM 1, 565), is lost
+    only his thesis regarding the annual inundation of the Nile, which may have already been known to Herodotus
+    (via Hecataeus?) (Hdt. 2,20f. Hecat. FGrH 1 F 278), appears repeatedly in doxographies...."
+    Brodersen, Kai (Mannheim). "Euthymenes of Massalia." Brill’s New Pauly. Antiquity volumes edited by: Hubert Cancik and , Helmuth Schneider. Brill Online, 2015</mads:note>
   <mads:url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Euthymenes</mads:url>
-  <mads:url displayLabel="Worldcat Identities"/>
   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=euthymanes-bio-1</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/69321199</mads:url>
-  <mads:url displayLabel="id.gov"/>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
     <mads:identifier type="tlg">2170.001</mads:identifier>
