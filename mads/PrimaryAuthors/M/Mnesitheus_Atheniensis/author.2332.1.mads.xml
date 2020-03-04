@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2332.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="viaf">
+      <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+        valueURI="https://viaf.org/viaf/399046/">
         <namePart>Mnesitheus</namePart>
         <namePart type="termsOfAddress">Atheniensis</namePart>
         <namePart type="date">v4./3. Jh</namePart>
       </name>
     </authority>
-    <variant type="equivalent">
+    <variant type="other">
       <name type="personal">
         <namePart>Mnesiteu</namePart>
       </name>
@@ -33,7 +35,6 @@
       <name type="personal">
         <namePart>Mnesitheus</namePart>
         <namePart type="termsOfAddress">Medicus</namePart>
-        <namePart type="date">v4./3. Jh</namePart>
       </name>
     </variant>
     <variant type="other">
@@ -48,8 +49,14 @@
       </name>
     </variant>
     <fieldOfActivity>Physician</fieldOfActivity>
-    <note type="source">Brill's New Pauly: "Mnesitheus, Athenian doctor, fl. 350 BC. His tomb was seen by Paus. (1,37,4). He was wealthy enough to erect statues and was one of the dedicators of the beautiful ex-voto inscription to Asclepius IG II2 1449. He is frequently associated with Dieuches [1]; he wrote extensively about dietetics including diets for children..." Nutton, Vivian (London), “Mnesitheus”, in: Brill’s New Pauly, Antiquity volumes edited by: Hubert Cancik and , Helmuth Schneider. Consulted online on 29 September 2017</note>
+    <note type="source">Brill's New Pauly: "Mnesitheus, Athenian doctor, fl. 350 BC. 
+      His tomb was seen by Paus. (1,37,4). He was wealthy enough to erect statues and was
+      one of the dedicators of the beautiful ex-voto inscription to Asclepius IG II2 1449. 
+      He is frequently associated with Dieuches [1]; he wrote extensively about dietetics 
+      including diets for children..." Nutton, Vivian (London), “Mnesitheus”, in: Brill’s New Pauly,
+      Antiquity volumes edited by: Hubert Cancik and , Helmuth Schneider. Consulted online on 29 September 2017</note>
     <url displayLabel="VIAF">http://viaf.org/viaf/399046</url>
+  <identifier type="citeurn">urn:cite:perseus:author.2332.1</identifier>
     <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Mnesitheus</url>
     <identifier type="uri">http://viaf.org/viaf/399046</identifier>
     <identifier type="tlg">0701</identifier>

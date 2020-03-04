@@ -1,38 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads.xsd">
   <mads:authority geographicSubdivision="not applicable" lang="lat">
-    <mads:name type="personal" authority="">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/34843975//">
       <mads:namePart>Mnesimachus</mads:namePart>
       <mads:namePart type="termsOfAddress">Phaselinus</mads:namePart>
       <mads:namePart type="date">v4./3. Jh</mads:namePart>
     </mads:name>
   </mads:authority>
+  <mads:related type="equivalent" lang="grc">
+    <mads:name>
+      <mads:namePart>Μνησίμαχος</mads:namePart>
+    </mads:name>
+  </mads:related>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Mnesimachos</mads:namePart>
-      <mads:namePart type="termsOfAddress">Grammatiker</mads:namePart>
-      <mads:namePart type="date">v4./3. Jh</mads:namePart>
+      <mads:namePart type="termsOfAddress">Grammatiker</mads:namePart>      
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Mnesimachos</mads:namePart>
-      <mads:namePart type="termsOfAddress">von Phaselis</mads:namePart>
-      <mads:namePart type="date">v4./3. Jh</mads:namePart>
+      <mads:namePart type="termsOfAddress">von Phaselis</mads:namePart>      
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Mnesimachus</mads:namePart>
-      <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
-      <mads:namePart type="date">v4./3. Jh</mads:namePart>
+      <mads:namePart type="termsOfAddress">Historicus</mads:namePart>      
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Mnesimachus</mads:namePart>
-      <mads:namePart type="termsOfAddress">Phaselita</mads:namePart>
-      <mads:namePart type="date">v4./3. Jh</mads:namePart>
+      <mads:namePart type="termsOfAddress">Phaselita</mads:namePart>      
     </mads:name>
   </mads:variant>
   <mads:identifier type="tlg">2565</mads:identifier>

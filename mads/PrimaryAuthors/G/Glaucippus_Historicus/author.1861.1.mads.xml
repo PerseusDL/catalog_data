@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads.xsd">
   <mads:authority geographicSubdivision="not applicable" lang="lat">
-    <mads:name type="personal" authority="">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf"
+      valueURI="https://viaf.org/viaf/5317939/">
       <mads:namePart>Glaucippus</mads:namePart>
       <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
       <mads:namePart type="date">v300</mads:namePart>
@@ -16,33 +17,31 @@
     <mads:name type="personal">
       <mads:namePart>Glaukippos</mads:namePart>
       <mads:namePart type="termsOfAddress">Historiker</mads:namePart>
-      <mads:namePart type="date">v300</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Glaukippos</mads:namePart>
       <mads:namePart type="termsOfAddress">Redner</mads:namePart>
-      <mads:namePart type="date">v300</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Glaukippos</mads:namePart>
       <mads:namePart type="termsOfAddress">Sohn des Hypereides</mads:namePart>
-      <mads:namePart type="date">v300</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:identifier type="uri">http://viaf.org/viaf/5317939</mads:identifier>
   <mads:identifier type="tlg">2191</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1861.1</mads:identifier>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="Worldcat Identities"/>
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology: "Glaucippus, a son of the Athenian orator Hyperides, is said by Plutarch (Vit. x. Orat. p. 848), who 
+    calls him a rhetor, to have written orations, one of which, viz. against Phocion, is mentioned by Plutarch himself. (Phoc. 4
+    comp. Athen. 13.590 Sid. s. v. Γλαύκιππος Phot. Bibl. Cod. 266. p. 495, ed. Bekker.) Whether he is the same as
+    the rhetorician Glaucippus, of whom a fragment is preserved by Seneca (Controv. 4.25), or as the Glaucippus
+    who wrote on the Sacra of the Athenians (Macr. 1.13), is uncertain...."</mads:note>
   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=glaucippus-bio-1</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/5317939</mads:url>
-  <mads:url displayLabel="id.gov"/>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
     <mads:identifier type="tlg">2191.001</mads:identifier>

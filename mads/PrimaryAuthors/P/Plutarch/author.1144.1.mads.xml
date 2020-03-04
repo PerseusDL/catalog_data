@@ -1,16 +1,17 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/32140876/">
       <mads:namePart>Plutarch</mads:namePart>
     </mads:name>
   </mads:authority>
-  <mads:variant type="other" lang="grc">
+  <mads:related type="equivalent" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x3A0;&#x3BB;&#x3BF;&#x3C5;&#x301;&#x3C4;&#x3B1;&#x3C1;&#x3C7;&#x3BF;&#x3C2;</mads:namePart>
-      <mads:namePart type="termsOfAddress">&#x3BF;&#x314; &#x3A7;&#x3B1;&#x3B9;&#x3C1;&#x3C9;&#x3BD;&#x3B5;&#x3C5;&#x301;&#x3C2;</mads:namePart>
+      <mads:namePart>Πλούταρχος</mads:namePart>
+      <mads:namePart type="termsOfAddress">ὁ Χαιρωνεύς</mads:namePart>
     </mads:name>
-  </mads:variant>
+  </mads:related>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Plutarchus</mads:namePart>
@@ -34,12 +35,12 @@
   </mads:variant>
   <mads:variant type="other" lang="ara">
     <mads:name type="personal">
-      <mads:namePart>&#x67E;&#x644;&#x648;&#x62A;&#x627;&#x631;&#x62E;</mads:namePart>
+      <mads:namePart>پلوتارخ</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ara" transliteration="rom">
     <mads:name type="personal">
-      <mads:namePart>Blu&#x304;ta&#x304;rkhu&#x304;s</mads:namePart>
+      <mads:namePart>Blūtārkhūs</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="arm" transliteration="rom">
@@ -61,7 +62,6 @@
   <mads:variant type="other" lang="fre">
     <mads:name type="personal">
       <mads:namePart>Plutarque</mads:namePart>
-      <mads:namePart type="termsOfAddress">de Ch&#xE9;ron&#xE9;e</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
@@ -77,13 +77,12 @@
   </mads:variant>
   <mads:variant type="other" lang="heb">
     <mads:name type="personal">
-      <mads:namePart>&#x5E4;&#x5DC;&#x5D5;&#x5D8;&#x5D0;&#x5E8;&#x5DB;&#x5D5;&#x5E1;</mads:namePart>
+      <mads:namePart>פלוטארכוס</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
     <mads:name type="personal">
       <mads:namePart>Plutarco</mads:namePart>
-      <mads:namePart type="termsOfAddress">di Cheronea&#x200F;</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="rus">
@@ -98,12 +97,12 @@
   </mads:variant>
   <mads:variant type="other" lang="rus" transliteration="rom">
     <mads:name type="personal">
-      <mads:namePart>&#x41F;&#x43B;&#x443;&#x442;&#x430;&#x440;&#x445;</mads:namePart>
+      <mads:namePart>Плутарх</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="rus" transliteration="rom">
     <mads:name type="personal">
-      <mads:namePart>&#x41F;&#x43B;&#x443;&#x442;&#x430;&#x445;</mads:namePart>
+      <mads:namePart>Плутах</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="spa">
@@ -156,17 +155,12 @@
   </mads:variant>
   <mads:note type="source">Oxford classical dict., 2nd ed. (Plutarch, of Chaeronea, b. before A.D.
       50, d. after A.D. 120)</mads:note>
-  <mads:note type="source">Risa&#x304;lat Blu&#x304;ta&#x304;rkhu&#x304;s &#x2BB;an I&#x304;zi&#x304;s wa-U&#x304;zi&#x304;ri&#x304;s, 1977</mads:note>
-  <mads:note type="source">LC classification, in ClassificationWeb, 17 March 2009 (Plutarch.
-      &#x3A0;&#x3BB;&#x3BF;&#x3C5;&#x301;&#x3C4;&#x3B1;&#x3C1;&#x3C7;&#x3BF;&#x3C2; &#x3BF;&#x314; &#x3A7;&#x3B1;&#x3B9;&#x3C1;&#x3C9;&#x3BD;&#x3B5;&#x3C5;&#x301;&#x3C2;)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1144.1</mads:identifier>
   <mads:identifier type="lccn">n 79026763</mads:identifier>
   <mads:fieldOfActivity>Biographer</mads:fieldOfActivity>
   <mads:fieldOfActivity>Philosopher</mads:fieldOfActivity>
   <mads:fieldOfActivity>Moralist</mads:fieldOfActivity>
-  
-  
-  
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/32140876/</mads:url>  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Plutarch</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-n79-26763</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:alphabetic+letter=P:entry+group=33:entry=plutarchus-bio-1</mads:url>
