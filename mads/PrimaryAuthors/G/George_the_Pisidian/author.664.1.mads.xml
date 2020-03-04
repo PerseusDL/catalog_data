@@ -1,20 +1,21 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority lang="eng">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/299733152">
       <mads:namePart>George</mads:namePart>
       <mads:namePart type="termsOfAddress">the Pisidian</mads:namePart>
     </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x393;&#x3B5;&#x3CE;&#x3C1;&#x3B3;&#x3B9;&#x3BF;&#x3C2; &#x3A0;&#x3B9;&#x3C3;&#x3AF;&#x3B4;&#x3B7;&#x3C2;</mads:namePart>
+      <mads:namePart>Γεώργιος </mads:namePart>
+      <mads:namePart type="termsOfAddress">Πισίδης</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Georgius Pisida</mads:namePart>
-      <mads:namePart type="date">fl. 610-641</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
@@ -42,8 +43,8 @@
   </mads:variant>
   <mads:variant type="other" lang="gre">
     <mads:name type="personal">
-      <mads:namePart>Geo&#x304;rgios</mads:namePart>
-      <mads:namePart type="termsOfAddress">ho Piside&#x304;s</mads:namePart>
+      <mads:namePart>Geōrgios</mads:namePart>
+      <mads:namePart type="termsOfAddress">ho Pisidēs</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
@@ -63,15 +64,20 @@
   <mads:fieldOfActivity>Theologian</mads:fieldOfActivity>
   <mads:fieldOfActivity>Poet</mads:fieldOfActivity>
   <mads:identifier type="tlg">2701</mads:identifier>
-  
-  
-  
+  <mads:note type="source">Brill's New Pauly:"Born in Pisidia, died in c. AD 631/634. Diákonos, 
+    skeuophýlax and referendários at the church of St. Sophia in Constantinople, one of the greatest 
+    Byzantine poets. Highly revered and often imitated, G. treats the Persian campaign of Emperor
+    Heraclius (Expeditio Persica, Bellum Avaricum, Heraclias, etc.) in his epic-encomiastic ....
+    poems, and deals in part with philosophical, in part with purely dogmatic topics in his theological 
+    works (Hexaemeron, a didactic poem that was translated also into Armenian and Slavic,..." 
+    Vassis, Ioannis (Athens). "Georgius." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and
+    Helmuth Schneider . Brill, 2010. Brill Online. Tufts University Library. 20 December 2010 .</mads:note>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/299733152</mads:url> 
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/George_Pisida</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n80-135304</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
-    <mads:identifier type="tlg">2701.16</mads:identifier>
+    <mads:identifier type="tlg">2701.016</mads:identifier>
   </mads:extension>
   <mads:recordInfo>
     <mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource>

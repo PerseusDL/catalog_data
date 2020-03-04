@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority geographicSubdivision="not applicable" lang="lat">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/305409681">
       <mads:namePart>Sozomen</mads:namePart>
       <mads:namePart type="date">approximately 400-approximately 450</mads:namePart>
     </mads:name>
@@ -9,7 +10,6 @@
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Sozomen</mads:namePart>
-      <mads:namePart type="date">ca. 400-ca. 450</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -25,7 +25,7 @@
   </mads:variant>
   <mads:variant type="other" lang="fre">
     <mads:name type="personal">
-      <mads:namePart>Sozom&#xE8;ne</mads:namePart>
+      <mads:namePart>Sozomène</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
@@ -36,11 +36,6 @@
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Sozomeno, Salaminio Ermia</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Sozomeno, Salamone Ermia</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -78,14 +73,13 @@
   </mads:variant>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x3A3;&#x3C9;&#x3B6;&#x3BF;&#x3BC;&#x3B5;&#x3BD;&#xF3;&#x3C2;</mads:namePart>
+      <mads:namePart>Σωζομενóς</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:note type="nonpublic">Non-latin reference not evaluated</mads:note>
-  <mads:note type="source">His Histoire eccl&#xE9;siastique, 1983- : v. 1, t.p. (Sozom&#xE8;ne)</mads:note>
-  <mads:note type="source">Encyc. Brit. (Sozomen; Greek: Salamanes Hermeios Sozomenos, b.c. AD 400, d.c. AD 450, Constantinople)</mads:note>
-  <mads:note type="source">New Cath. encyc. (Sozomen, Greek Church historian; b. ca. 400, d. ca. 450, Salaminius Hermias Sozomen)</mads:note>
-  <mads:note type="source">LC data base 5-1-84 (hdg.: Sozomenus, Hermias, 5th cent.)</mads:note>
+  <mads:note type="source">Encyc. Brit. (Sozomen; Greek: Salamanes Hermeios Sozomenos,
+    b.c. AD 400, d.c. AD 450, Constantinople)</mads:note>
+  <mads:note type="source">New Cath. encyc. (Sozomen, Greek Church historian, b. ca. 400, d. ca. 450, Salaminius Hermias 
+    Sozomen)</mads:note>
   <mads:note type="source">Oxford class. dict. (Sozomen, d.c. AD 450)</mads:note>
   <mads:note type="source">Smith. Class. dict. (Sozomenus, usually called Sozomen in English, 5th cent.)</mads:note>
   <mads:note type="source">Peck. Harper's dict. classical lit. (Sozomenus, usually called Sozomen in English; 5th cent.)</mads:note>

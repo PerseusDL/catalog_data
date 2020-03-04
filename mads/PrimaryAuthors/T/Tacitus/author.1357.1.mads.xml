@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/100226923">
       <mads:namePart>Tacitus, Cornelius</mads:namePart>
     </mads:name>
   </mads:authority>
@@ -32,22 +33,22 @@
   </mads:variant>
   <mads:variant type="other" lang="ara">
     <mads:name type="personal">
-      <mads:namePart>&#x62A;&#x627;&#x633;&#x64A;&#x62A;&#x633;</mads:namePart>
+      <mads:namePart>تاسيتس</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="cat">
     <mads:name type="personal">
-      <mads:namePart>T&#xE0;cit</mads:namePart>
+      <mads:namePart>Tàcit</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="cat">
     <mads:name type="personal">
-      <mads:namePart>Gaius Corneli T&#xE0;cit</mads:namePart>
+      <mads:namePart>Gaius Corneli Tàcit</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="chi">
     <mads:name type="personal">
-      <mads:namePart>&#x5854;&#x897F;&#x4F57;</mads:namePart>
+      <mads:namePart>塔西佗</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
@@ -58,7 +59,7 @@
   </mads:variant>
   <mads:variant type="other" lang="heb">
     <mads:name type="personal">
-      <mads:namePart>&#x5D8;&#x5D0;&#x5E7;&#x5D9;&#x5D8;&#x5D5;&#x5E1;, &#x5E7;&#x5D5;&#x5E8;&#x5E0;&#x5DC;&#x5D9;&#x5D5;&#x5E1;</mads:namePart>
+      <mads:namePart>טאקיטוס, קורנליוס</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
@@ -73,7 +74,7 @@
   </mads:variant>
   <mads:variant type="other" lang="jap">
     <mads:name type="personal">
-      <mads:namePart>&#x30BF;&#x30AD;&#x30C8;&#x30A5;&#x30B9;</mads:namePart>
+      <mads:namePart>タキトゥス</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="pol">
@@ -88,17 +89,17 @@
   </mads:variant>
   <mads:variant type="other" lang="rom">
     <mads:name type="personal">
-      <mads:namePart>Gaius Corneli T&#xE0;cit</mads:namePart>
+      <mads:namePart>Gaius Corneli Tàcit</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="spa">
     <mads:name type="personal">
-      <mads:namePart>T&#xE1;cito</mads:namePart>
+      <mads:namePart>Tácito</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="spa">
     <mads:name type="personal">
-      <mads:namePart>T&#xE1;cito, Cayo Cornelio</mads:namePart>
+      <mads:namePart>Tácito, Cayo Cornelio</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="">
@@ -108,12 +109,7 @@
   </mads:variant>
   <mads:variant type="other" lang="rus">
     <mads:name type="personal">
-      <mads:namePart>&#x41F;&#x443;&#x431;&#x43B;&#x438;&#x439; &#x41A;&#x43E;&#x440;&#x43D;&#x435;&#x43B;&#x438;&#x439; &#x422;&#x430;&#x446;&#x438;&#x442;&#x200F;</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="rus" transliteration="rom">
-    <mads:name type="personal">
-      <mads:namePart>Tat&#xFE20;s&#xFE21;it, Korneli&#x12D;&#x200F; </mads:namePart>
+      <mads:namePart>Публий Корнелий Тацит‏</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="abbreviation">
@@ -139,6 +135,7 @@
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
   <mads:fieldOfActivity>Annalist</mads:fieldOfActivity>
   <mads:fieldOfActivity>Senator</mads:fieldOfActivity>
+  <mads:url displayLabel="VIAF">http://viaf.org/viaf/100226923</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Tacitus</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-n80-145600</mads:url>
   <mads:identifier type="phi">1351</mads:identifier>
