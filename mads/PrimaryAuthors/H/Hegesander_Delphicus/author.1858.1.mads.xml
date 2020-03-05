@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal" authority="">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/47152877">
       <mads:namePart>Hegesander</mads:namePart>
       <mads:namePart type="termsOfAddress">Delphicus</mads:namePart>
       <mads:namePart type="date">v2. Jh</mads:namePart>
@@ -21,35 +22,30 @@
     <mads:name type="personal">
       <mads:namePart>Egesandro</mads:namePart>
       <mads:namePart type="termsOfAddress">di Delfi</mads:namePart>
-      <mads:namePart type="date">v2. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Hegesander</mads:namePart>
       <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
-      <mads:namePart type="date">v2. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Hegesandros</mads:namePart>
       <mads:namePart type="termsOfAddress">Dichter</mads:namePart>
-      <mads:namePart type="date">v2. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Hegesandros</mads:namePart>
       <mads:namePart type="termsOfAddress">von Delphi</mads:namePart>
-      <mads:namePart type="date">v2. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Hegesandros</mads:namePart>
       <mads:namePart type="termsOfAddress">von Delphoi</mads:namePart>
-      <mads:namePart type="date">v2. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -68,13 +64,11 @@
   <mads:identifier type="tlg">1392</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1858.1</mads:identifier>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  
-  
+  <mads:note type="source">Brill's New Pauly: "H. of Delphi, author of anecdotes, 2nd cent. AD, author of Hypomnḗmata in
+    at least six books, a collection of entertaining and piquant curiosities and anecdotes with historical background....</mads:note>
   <mads:url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Hegesander_%28historian%29</mads:url>
-  <mads:url displayLabel="Worldcat Identities"/>
   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=hegesander-bio-1a</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/47152877</mads:url>
-  <mads:url displayLabel="id.gov"/>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
     <mads:identifier type="tlg">1392.001</mads:identifier>
