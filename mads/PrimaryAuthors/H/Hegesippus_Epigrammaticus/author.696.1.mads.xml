@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/74242146/">
       <mads:namePart>Hegesippus</mads:namePart>
       <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
       <mads:namePart type="date">3. Jh. v. Chr</mads:namePart>
@@ -9,28 +10,25 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x1F29;&#x3B3;&#x3AE;&#x3C3;&#x3B9;&#x3C0;&#x3C0;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Ἡγήσιππος</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Hegesippos</mads:namePart>
       <mads:namePart type="termsOfAddress">Dichter</mads:namePart>
-      <mads:namePart type="date">3. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Hegesippos</mads:namePart>
       <mads:namePart type="termsOfAddress">Epigrammatiker des Meleagros-Kranzes</mads:namePart>
-      <mads:namePart type="date">3. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Hegesippus</mads:namePart>
       <mads:namePart type="termsOfAddress">Epigrammatist</mads:namePart>
-      <mads:namePart type="date">3. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -47,12 +45,7 @@
   <mads:identifier type="citeurn">urn:cite:perseus:author.696.1</mads:identifier>
   <mads:identifier type="uri">http://viaf.org/viaf/74242146</mads:identifier>
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/74242146</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:identifier type="tlg">1396</mads:identifier>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>

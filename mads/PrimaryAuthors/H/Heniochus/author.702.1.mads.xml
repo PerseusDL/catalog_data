@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal" authority="RAK-PND">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf"
+      valueURI="https://viaf.org/viaf/305392608/">
       <mads:namePart>Heniochus</mads:namePart>
       <mads:namePart type="termsOfAddress">Comicus</mads:namePart>
       <mads:namePart type="date">357-355</mads:namePart>
@@ -9,7 +10,7 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x1F29;&#x3BD;&#x3AF;&#x3BF;&#x3C7;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Ἡνίοχος</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
@@ -32,21 +33,7 @@
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Heniochos</mads:namePart>
-      <mads:namePart type="termsOfAddress">Dichter der Mittleren Komo&#x308;die</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="ger">
-    <mads:name type="personal">
-      <mads:namePart>Heniochos</mads:namePart>
       <mads:namePart type="termsOfAddress">von Athen</mads:namePart>
-      <mads:namePart type="date">357-355</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="ger">
-    <mads:name type="personal">
-      <mads:namePart>Heniochos</mads:namePart>
-      <mads:namePart type="termsOfAddress">Lustspieldichter</mads:namePart>
-      <mads:namePart type="date">357-355</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -60,14 +47,10 @@
       <mads:namePart>Henioch.</mads:namePart>
     </mads:name>
   </mads:variant>
+  <mads:note type="sorce">Brill's New Pauly: "Heniochus, Writer of Middle Comedy, of whose work the Suda still mentions eight titles.."</mads:note>
   <mads:fieldOfActivity>Comic Poet</mads:fieldOfActivity>
   <mads:note type="source">Pauly</mads:note>
-  <mads:note type="history">Dichter der Mittleren Komo&#x308;die aus Athen</mads:note>
-  
-  
-  
   <mads:url displayLabel="Wikipedia">http://ca.wikipedia.org/wiki/Henioc</mads:url>
-  <mads:url displayLabel="Worldcat Identities"/>
   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=heniochus-bio-1</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/398896/</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.702.1</mads:identifier>
