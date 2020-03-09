@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2204.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name authority="naf">
+      <name authority="viaf" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/526149294314180521697/">
         <namePart>Iliu persis</namePart>
       </name>
     </authority>
-    <variant type="other">
-      <mads:titleInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      xmlns:mads="http://www.loc.gov/mads/v2"
-                      authority="naf">
-        <mads:title>Iliu persis</mads:title>
-      </mads:titleInfo>
-    </variant>
     <variant type="other" lang="lat">
       <name>
         <namePart>Iliupersis</namePart>
@@ -24,7 +17,11 @@
         <namePart>Ἰλίου πέρσις</namePart>
       </name>
     </variant>
-    <note type="source">Brill's New Pauly: "Iliupersis, Lost part of an epic of the Epic cycle; except for brief summary of its contents in the chrestomathia by Proclus and in the epitome by Apollodorusof Athens and some testimonies there is only one literal quotation with eight hexameters.... The author is usually specified as Arctinus, Aristot. ibid. speaks only of ‘the author of the Little Iliad’..." Latacz, Joachim (Basle), “Iliupersis”, in: Brill’s New Pauly, Antiquity volumes edited by: Hubert Cancik and , Helmuth Schneider. Consulted online on 15 August 2017</note>
+    <note type="source">Brill's New Pauly: "Iliupersis, Lost part of an epic of the Epic cycle, 
+      except for brief summary of its contents in the chrestomathia by Proclus and in the epitome
+      by Apollodorusof Athens and some testimonies there is only one literal quotation with eight hexameters....
+      The author is usually specified as Arctinus, Aristot. ibid. speaks only of ‘the author of the Little Iliad’..." 
+      Latacz, Joachim (Basle), “Iliupersis”, in: Brill’s New Pauly, Antiquity volumes edited by: Hubert Cancik and , Helmuth Schneider. Consulted online on 15 August 2017</note>
     <identifier type="uri">http://viaf.org/viaf/526149294314180521697</identifier>
     <identifier type="tlg">1445</identifier>
     <url displayLabel="VIAF">http://viaf.org/viaf/526149294314180521697</url>

@@ -53871,7 +53871,6 @@ p -->
             </relatedItem>
         </relatedItem>
     </mods>
-<!-- LEFT OFF HERE -->
     <mods displayLabel="Metamorphoses-Apuleius-Adlington-Richards-1913">
         <titleInfo lang="lat" type="uniform">
             <title>Metamorphoses</title>
@@ -53880,39 +53879,11 @@ p -->
             <extent unit="words">
                 <total>56395</total>
             </extent>
-        </part>
+        </part> 
         <titleInfo>
             <nonSort>The</nonSort>
             <title>golden asse of Apuleius</title>
-        </titleInfo>
-        <identifier type="oclc">3586534</identifier>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">enk</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">London</placeTerm>
-            </place>
-            <publisher>Grant Richards Ltd.</publisher>
-            <dateIssued>1913</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>xlviii, 278 p., [1] leaf of plates : facsim. ; 24 cm</extent>
-        </physicalDescription>
-        <classification authority="lcc">PA6209.M3</classification>
-        <classification authority="ddc">878.9</classification>
-        <location>
-            <url displayLabel="WorldCat">http://worldcat.org/oclc/3586534</url>
-        </location>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015011822700</url>
-        </location>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-        </language>
+        </titleInfo>   
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/32115433/">
             <namePart>Apuleius</namePart>
@@ -53935,6 +53906,35 @@ p -->
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
         </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">enk</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">London</placeTerm>
+            </place>
+            <publisher>Grant Richards Ltd.</publisher>
+            <dateIssued>1913</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>xlviii, 278 p., [1] leaf of plates : facsim. ; 24 cm</extent>
+        </physicalDescription>
+        <classification authority="lcc">PA6209.M3</classification>
+        <classification authority="ddc">878.9</classification>
+        <location>
+            <url displayLabel="WorldCat">http://worldcat.org/oclc/3586534</url>
+        </location>
+        <identifier type="oclc">3586534</identifier>       
+        <location>
+            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015011822700</url>
+        </location>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        </language>
+
         <relatedItem type="constituent" otherType="work" displayLabel="Metamorphoses">
             <identifier type="ctsurn">urn:cts:latinLit:phi1212.phi002</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Metamorphoses">
@@ -53957,7 +53957,33 @@ p -->
             <title>golden ass</title>
             <subTitle>being the Metamorphoses of Lucius Apuleius</subTitle>
         </titleInfo>
-        <identifier type="oclc">1724202</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/32115433/">
+            <namePart>Apuleius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/265974594/">
+            <namePart>Adlington, William</namePart>
+            <namePart type="date">fl. 1566</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/54163116/">
+            <namePart>Gaselee, Stephen</namePart>
+            <namePart type="termsOfAddress">Sir</namePart>
+            <namePart type="date">1882-1943</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -53992,6 +54018,7 @@ p -->
                 <title>The Loeb classical library</title>
             </titleInfo>
         </relatedItem>
+        <identifier type="oclc">1724202</identifier>
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/1724202</url>
         </location>
@@ -54007,34 +54034,7 @@ p -->
         </language>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/32115433/">
-            <namePart>Apuleius</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/265974594/">
-            <namePart>Adlington, William</namePart>
-            <namePart type="date">fl. 1566</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/54163116/">
-            <namePart>Gaselee, Stephen</namePart>
-            <namePart type="termsOfAddress">Sir</namePart>
-            <namePart type="date">1882-1943</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-            </role>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
+        </language>      
         <relatedItem type="constituent" otherType="work" displayLabel="Metamorphoses">
             <identifier type="ctsurn">urn:cts:latinLit:phi1212.phi002</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Metamorphoses">
@@ -54044,7 +54044,7 @@ p -->
                 <identifier type="ctsurn">urn:cts:latinLit:phi1212.phi002.opp-lat3</identifier>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="Metamorphoses. Latin.">
+                displayLabel="Metamorphoses">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1212.phi002.perseus-lat1</identifier>
                 <identifier>Perseus:text:2008.01.0502</identifier>
                 <location>
@@ -54073,7 +54073,7 @@ p -->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/52422543/">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/52422543/">
             <namePart>Vliet, Johannes van der</namePart>
             <namePart type="date">1847-1902</namePart>
             <role>
@@ -54099,7 +54099,7 @@ p -->
         <classification authority="lcc">PA6104 .A74</classification>
         <relatedItem type="series">
             <titleInfo>
-                <title>Bibliotheca scriptorum graecorum et romanorum Teubneriana. [S.r.]</title>
+                <title>Bibliotheca scriptorum graecorum et romanorum Teubneriana</title>
             </titleInfo>
             <titleInfo type="abbreviated">
                 <title>Teubner</title>
@@ -54123,6 +54123,9 @@ p -->
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=ulBBAAAAMAAJ</url>
         </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/hvd.32044020412961</url>
+        </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Metamorphoses">
             <identifier type="ctsurn">urn:cts:latinLit:phi1212.phi002</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Metamorphoses">
@@ -54130,7 +54133,7 @@ p -->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Metaphrasis in Theophrastum-Bywater-CAG-Reimer-1886">
+    <mods displayLabel="Metaphrasis in Theophrastum-Priscianus Lydus-Bywater-CAG-Reimer-1886">
         <titleInfo>
             <title>Metaphrasis in Theophrastum</title>
         </titleInfo>
@@ -54226,7 +54229,7 @@ p -->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/46762703">
+        <name authority="viaf" type="personal"  authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/46762703">
             <namePart>Jaeger, Werner</namePart>
             <namePart type="date">1888-1961</namePart>
             <role>
@@ -54284,7 +54287,7 @@ p -->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Metaphysica-Aristotle-Christ-Teubner-1906-">
+    <mods displayLabel="Metaphysica-Aristotle-Christ-Teubner-1906">
         <titleInfo lang="lat" type="uniform">
             <title>Metaphysics</title>
         </titleInfo>
@@ -54302,7 +54305,21 @@ p -->
         <titleInfo type="abbreviated" authority="lsj">
             <title>Arist.Metaph.</title>
         </titleInfo>
-        <identifier type="oclc">7870460</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/7524651/">
+            <namePart>Aristotle</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/46884378/">
+            <namePart>Christ, Wilhelm von</namePart>
+            <namePart type="date">1831-1906</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -54330,6 +54347,7 @@ p -->
                 <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
             </titleInfo>
         </relatedItem>
+        <identifier type="oclc">7870460</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/7870460</url>
         </location>
@@ -54337,28 +54355,18 @@ p -->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/aristotelismetap00aris</url>
         </location>
-
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=KqtfAAAAMAAJ</url>
         </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/iau.31858007520392</url>
+        </location>
+        <language objectPart="notes">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/7524651/">
-            <namePart>Aristotle</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/46884378/">
-            <namePart>Christ, Wilhelm von</namePart>
-            <namePart type="date">1831-1906</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Metaphysics</topic>
         </subject>
@@ -54387,7 +54395,21 @@ p -->
         <titleInfo type="abbreviated" authority="lsj">
             <title>Arist.Metaph.</title>
         </titleInfo>
-        <identifier type="oclc">889990050</identifier>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/7524651/">
+            <namePart>Aristotle</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/46884378/">
+            <namePart>Christ, Wilhelm von</namePart>
+            <namePart type="date">1831-1906</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -54412,6 +54434,7 @@ p -->
                 <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
             </titleInfo>
         </relatedItem>
+        <identifier type="oclc">889990050</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/889990050</url>
         </location>
@@ -54424,21 +54447,6 @@ p -->
         <language objectPart="preface">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/7524651/">
-            <namePart>Aristotle</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/46884378/">
-            <namePart>Christ, Wilhelm von</namePart>
-            <namePart type="date">1831-1906</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Metaphysics</topic>
         </subject>
@@ -54461,7 +54469,6 @@ p -->
         <titleInfo>
             <title>Aristotle's Metaphysics</title>
         </titleInfo>
-        <identifier type="oclc">7358999</identifier>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/7524651/">
             <namePart>Aristotle</namePart>
@@ -54490,14 +54497,18 @@ p -->
             <dateIssued encoding="marc">1924</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
-        <language>
+        <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <language objectPart="prefacae">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
         <physicalDescription>
             <form authority="marcform">print</form>
             <extent>2 v. : ill. ; 23 cm</extent>
         </physicalDescription>
         <classification authority="lcc">PA3893 .M5 1924</classification>
+        <identifier type="oclc">7358999</identifier>
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/7358999</url>
         </location>
@@ -54572,6 +54583,9 @@ p -->
         <location>
             <url displayLabel="HathiTrust">https://hdl.handle.net/2027/mdp.39015027645228</url>
         </location>
+        <language objectPart="preface">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
@@ -54582,8 +54596,7 @@ p -->
             </relatedItem>
         </relatedItem>
     </mods>
-
-    <mods displayLabel="Myriobiblion sive Bibliotheca-Photius-Migne-1860">
+    <mods displayLabel="Myriobiblion sive Bibliotheca-Photius-PG 10-Migne-1860">
         <titleInfo type="alternative">
             <title>Myriobiblion sive Bibliotheca</title>
         </titleInfo>
@@ -54599,7 +54612,7 @@ p -->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/64009375">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/64009375">
             <namePart>Migne, Jacques Paul</namePart>
             <namePart type="date">1800-1875</namePart>
             <role>
@@ -54690,7 +54703,7 @@ p -->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/17237650">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/17237650">
             <namePart>Conca, Fabrizio</namePart>
             <namePart type="date">1944-</namePart>
             <role>
@@ -54714,6 +54727,9 @@ p -->
         </originInfo>
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+        </language>
+        <language objectPart="preface">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
         </language>
         <physicalDescription>
             <form authority="marcform">print</form>
@@ -54852,7 +54868,7 @@ p -->
         </subject>
         <relatedItem type="constituent" otherType="work" displayLabel="Naturales Quaestiones">
             <identifier type="ctsurn">urn:cts:latinLit:phi1017.phi016</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Natura Questions">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Natural Questions">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1017.phi016.opp-eng1</identifier>
             </relatedItem>
         </relatedItem>
@@ -54998,7 +55014,6 @@ p -->
         <location>
             <url displayLabel="SLUB">http://digital.slub-dresden.de/id412954885</url>
         </location>
-
         <relatedItem type="constituent" otherType="work"
             displayLabel="L. Annaei Senecae Naturalium quaestionum libros VIII">
             <identifier type="ctsurn">urn:cts:latinLit:phi1017.phi016</identifier>
@@ -55008,7 +55023,7 @@ p -->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Naturalis Historia-Pliny the Elder-Les Belles Lettres-Various">
+    <mods displayLabel="Naturalis Historia-Pliny the Elder-Les Belles Lettres-Vol 1-2-11-14-(Beaujeu-Ernout-Pepin-Andre)">
         <titleInfo type="translated" lang="fre">
             <title>Histoire naturelle</title>
         </titleInfo>
@@ -55033,21 +55048,39 @@ p -->
             </place>
             <publisher>Les Belles Lettres</publisher>
             <issuance>monographic</issuance>
+            <dateIssued>1950, 1947, 1958</dateIssued>
         </originInfo>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">fre</languageTerm>
+        </language>
         <physicalDescription>
             <extent>4 volumes of 36 digitized by SLUB</extent>
         </physicalDescription>
+        <note>French translation covered as part of SLUB edition</note>
         <typeOfResource>text</typeOfResource>
         <subject authority="lcsh">
             <topic>Natural history</topic>
             <genre>Pre-Linnean works</genre>
         </subject>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Collection des universités de France.</title>
+            </titleInfo>
+        </relatedItem>
         <identifier type="oclc">610379667</identifier>
+        <note>Latin text and French translation on opposite pages.</note>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/610379667</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Naturalis Historia">
             <identifier type="ctsurn">urn:cts:latinLit:phi0978.phi001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Histoire naturelle">
+                <identifier type="ctsurn">urn:cts:latinLit:phi0978.phi001.opp-fre1</identifier>
+                <!-- Placeholder URN since there is a French translation in the physical books -->
+            </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Naturalis Historia">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0978.phi001.opp-lat9</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
@@ -55068,7 +55101,7 @@ p -->
                     <originInfo>
                         <dateIssued>1950</dateIssued>
                     </originInfo>
-                    <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/34452754">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/34452754">
                         <namePart>Beaujeu, Jean</namePart>
                         <namePart type="date">1916-1995</namePart>
                         <role>
@@ -55095,13 +55128,16 @@ p -->
                             </detail>
                         </part>
                     </relatedItem>
-                    <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/34452754">
+                    <name authority="viaf" type="personal"  authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/34452754">
                         <namePart>Beaujeu, Jean</namePart>
                         <namePart type="date">1916-1995</namePart>
                         <role>
                             <roleTerm authority="marcrelator" type="text">editor</roleTerm>
                         </role>
                     </name>
+                    <originInfo>
+                        <dateIssued>1950</dateIssued>
+                    </originInfo>
                     <tableOfContents>Book II</tableOfContents>
                     <location>
                         <url displayLabel="SLUB">http://digital.slub-dresden.de/id416000444</url>
@@ -55125,14 +55161,14 @@ p -->
                     <originInfo>
                         <dateIssued>1947</dateIssued>
                     </originInfo>
-                    <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/109266329">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/109266329">
                         <namePart>Ernout, Alfred</namePart>
                         <namePart type="date">1879-1973</namePart>
                         <role>
                             <roleTerm authority="marcrelator" type="text">editor</roleTerm>
                         </role>
                     </name>
-                    <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/72267">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/72267">
                         <namePart>Pepin, Roger</namePart>
                         <role>
                             <roleTerm authority="marcrelator" type="text">editor</roleTerm>
@@ -55146,6 +55182,7 @@ p -->
                     <part>
                         <detail type="volume">
                             <caption>Volume</caption>
+                            <number>14</number>
                         </detail>
                     </part>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 14">
@@ -55156,13 +55193,17 @@ p -->
                             </detail>
                         </part>
                     </relatedItem>
-                    <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/95296077">
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/95296077">
                         <namePart>Andre, Jacques</namePart>
                         <namePart type="date">1910-1994</namePart>
                         <role>
                             <roleTerm authority="marcrelator" type="text">editor</roleTerm>
                         </role>
                     </name>
+                    <originInfo>
+                        <dateIssued>1958</dateIssued>
+                    </originInfo>
+                    <tableOfContents>Book XIV</tableOfContents>
                     <location>
                         <url displayLabel="SLUB">http://digital.slub-dresden.de/id417068891</url>
                     </location>
@@ -55171,12 +55212,12 @@ p -->
         </relatedItem>
     </mods>
 
-    <mods displayLabel="Naturalis Historia-Pliny the Elder-Bostock/Riley-Bohn-1855-1857-Perseus\OPP">
+    <mods displayLabel="Naturalis Historia-Pliny the Elder-Bostock/Riley-Bohn-1855-1857-OPP\Perseus-English1">
         <titleInfo lang="lat" type="uniform">
             <title>Naturalis Historia</title>
         </titleInfo>
         <titleInfo>
-            <nonSort>The </nonSort>
+            <nonSort>The</nonSort>
             <title>natural history of Pliny</title>
             <partNumber>6 volumes</partNumber>
         </titleInfo>
@@ -55269,6 +55310,9 @@ p -->
                             </detail>
                         </part>
                     </relatedItem>
+                    <originInfo>
+                        <dateIssued>1855</dateIssued>
+                    </originInfo>
                     <tableOfContents>Book I-V</tableOfContents>
                     <location>
                         <url displayLabel="Open Content Alliance"
@@ -55285,7 +55329,7 @@ p -->
                             <caption>Volume</caption>
                             <number>2</number>
                         </detail>
-                    </part>
+                    </part>                    
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 6-10">
                         <part>
                             <detail type="book">
@@ -55294,6 +55338,9 @@ p -->
                             </detail>
                         </part>
                     </relatedItem>
+                    <originInfo>
+                        <dateIssued>1855</dateIssued>
+                    </originInfo>
                     <tableOfContents>Book VI-X</tableOfContents>
                     <location>
                         <url displayLabel="Open Content Alliance"
@@ -55319,6 +55366,9 @@ p -->
                             </detail>
                         </part>
                     </relatedItem>
+                    <originInfo>
+                        <dateIssued>1855</dateIssued>
+                    </originInfo>
                     <tableOfContents>Book XI-XVII</tableOfContents>
                     <location>
                         <url displayLabel="Open Content Alliance"
@@ -55344,6 +55394,9 @@ p -->
                             </detail>
                         </part>
                     </relatedItem>
+                    <originInfo>
+                        <dateIssued>1856</dateIssued>
+                    </originInfo>       
                     <tableOfContents>Book XVIII-XXIII</tableOfContents>
                     <location>
                         <url displayLabel="Open Content Alliance"
@@ -55369,6 +55422,9 @@ p -->
                             </detail>
                         </part>
                     </relatedItem>
+                    <originInfo>
+                        <dateIssued>1856</dateIssued>
+                    </originInfo>
                     <tableOfContents>Book XXIV-XXXI</tableOfContents>
                     <location>
                         <url displayLabel="Open Content Alliance"
@@ -55385,7 +55441,7 @@ p -->
                             <caption>Volume</caption>
                             <number>6</number>
                         </detail>
-                    </part>
+                    </part>                    
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 32-38">
                         <part>
                             <detail type="book">
@@ -55394,6 +55450,9 @@ p -->
                             </detail>
                         </part>
                     </relatedItem>
+                    <originInfo>
+                        <dateIssued>1857</dateIssued>
+                    </originInfo>
                     <tableOfContents>Book XXXII-XXXVII, Index</tableOfContents>
                     <location>
                         <url displayLabel="Open Content Alliance"
@@ -55407,6 +55466,7 @@ p -->
             </relatedItem>
         </relatedItem>
     </mods>
+    <!-- LEFT OFF HERE -->
     <mods displayLabel="Naturalis Historia-Pliny the Elder-Jan/Mayhoff-Teubner-1892-1909">
         <titleInfo lang="lat" type="uniform">
             <title>Naturalis Historia</title>

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2125.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/2858041">
 	        <namePart>Iccus</namePart>
       </name>
     </authority>
@@ -30,8 +32,10 @@
       </name>
     </variant>
     <identifier type="tlg">2226</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2125.1</identifier>
     <fieldOfActivity>Philosopher</fieldOfActivity>
-    <note type="source">Smith's Dictionary: "Iccus, Of Tarentum, a distinguished athlete and teacher of gymnastics. Pausanias (6.10.2) calls him the best gymnast of his age, that is, of the period about Ol. 77, or B. C. 470....."</note>
+    <note type="source">Smith's Dictionary: "Iccus, Of Tarentum, a distinguished athlete and teacher of gymnastics. 
+      Pausanias (6.10.2) calls him the best gymnast of his age, that is, of the period about Ol. 77, or B. C. 470....."</note>
     <url displayLabel="viaf">http://viaf.org/viaf/2858041</url>
     <extension>
       <description>List of related work identifiers</description>
