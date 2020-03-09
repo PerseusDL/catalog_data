@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/10236306/">
       <mads:namePart>Hyperochus</mads:namePart>
       <mads:namePart type="termsOfAddress">Cumaeus</mads:namePart>
       <mads:namePart type="date">v3. Jh</mads:namePart>
@@ -16,22 +17,25 @@
     <mads:name type="personal">
       <mads:namePart>Hyperochos</mads:namePart>
       <mads:namePart type="termsOfAddress">von Kyme</mads:namePart>
-      <mads:namePart type="date">v3. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Hyperochus</mads:namePart>
       <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
-      <mads:namePart type="date">v3. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:identifier type="uri">http://viaf.org/viaf/10236306</mads:identifier>
   <mads:identifier type="tlg">2396</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1951.1</mads:identifier>
-  <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  
-  
+  <mads:fieldOfActivity>Historian</mads:fieldOfActivity>  
+  <mads:note type="source">Smith's Dictionary: "Hyperochus, the generally acknowledged author of a
+    metricalaccount of Cumae, mentioned by Athenaeus (xii. p. 528d.), and Pausanias (10.12.8), who
+    refers to what he had written respecting the Cumaean sybil...."</mads:note>
+  <mads:note type="source">Brill's New Pauly: "Hyperochus, from the Lower Italian Cyme, period unknown 
+    (according to Jacoby, commentary on H., FGrH 576) 3rd cent. BC at the earliest, 2nd cent. AD at the latest). 
+    Author of a local history of Cyme (Kymaiká), of which only 3 fragments are extant....." Meister, Klaus (Berlin). 
+    "Hyperochus." Brill’s New Pauly. Antiquity volumes edited by: Hubert Cancik and , Helmuth Schneider. Brill Online, 2015. Reference. Tufts University.</mads:note>
   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=hyperochus-bio-1</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/10236306</mads:url>
   <mads:extension>
