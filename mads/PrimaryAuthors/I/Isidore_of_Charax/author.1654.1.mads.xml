@@ -1,15 +1,16 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/19834779/">
       <mads:namePart>Isidore</mads:namePart>
       <mads:namePart type="termsOfAddress">of Charax</mads:namePart>
     </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x1F38;&#x3C3;&#x3AF;&#x3B4;&#x3C9;&#x3C1;&#x3BF;&#x3C2;</mads:namePart>
-      <mads:namePart type="termsOfAddress">&#x3A7;&#x3B1;&#x3C1;&#x3B1;&#x3BA;&#x3B7;&#x3BD;&#x3CC;&#x3C2;</mads:namePart>
+      <mads:namePart>Ἰσίδωρος</mads:namePart>
+      <mads:namePart type="termsOfAddress">Χαρακηνός</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
@@ -21,7 +22,7 @@
   <mads:variant type="other" lang="spa">
     <mads:name type="personal">
       <mads:namePart>Isidoro</mads:namePart>
-      <mads:namePart type="termsOfAddress">de C&#xE1;rax</mads:namePart>
+      <mads:namePart type="termsOfAddress">de Cárax</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
@@ -45,10 +46,8 @@
   <mads:identifier type="tlg">0070</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1654.1</mads:identifier>
   <mads:fieldOfActivity>Geographer</mads:fieldOfActivity>
-  
+  <mads:note type="source">Brill's New Pauly:"I. of Charax Geographer, end of 1st cent. BC"</mads:note>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Isidore_of_Charax</mads:url>
-  <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-nr88-11270</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/202483690</mads:url>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>

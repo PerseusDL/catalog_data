@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority lang="lat">
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/20069371/">
       <mads:namePart>Iophon</mads:namePart>
       <mads:namePart type="termsOfAddress">Tragicus</mads:namePart>
       <mads:namePart type="date">5. Jh. v. Chr</mads:namePart>
@@ -9,56 +10,49 @@
   </mads:authority>
   <mads:related type="equivalent" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x1F38;&#x3BF;&#x3C6;&#x1FF6;&#x3BD;</mads:namePart>
+      <mads:namePart>Ἰοφῶν</mads:namePart>
     </mads:name>
   </mads:related>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Jophon</mads:namePart>
       <mads:namePart type="termsOfAddress">von Athen</mads:namePart>
-      <mads:namePart type="date">5. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Jophon</mads:namePart>
       <mads:namePart type="termsOfAddress">Tragiker</mads:namePart>
-      <mads:namePart type="date">5. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Jophon</mads:namePart>
       <mads:namePart type="termsOfAddress">Sohn des Sophokles</mads:namePart>
-      <mads:namePart type="date">5. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Iopho</mads:namePart>
       <mads:namePart type="termsOfAddress">Tragicus</mads:namePart>
-      <mads:namePart type="date">5. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
     <mads:name type="personal">
       <mads:namePart>Iofonte</mads:namePart>
       <mads:namePart type="termsOfAddress">Figlio di Sofocle</mads:namePart>
-      <mads:namePart type="date">5. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
     <mads:name type="personal">
       <mads:namePart>Iofonte</mads:namePart>
       <mads:namePart type="termsOfAddress">Poeta Tragico</mads:namePart>
-      <mads:namePart type="date">5. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Iophon</mads:namePart>
       <mads:namePart type="termsOfAddress">von Athen</mads:namePart>
-      <mads:namePart type="date">5. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -67,17 +61,10 @@
       <mads:namePart type="termsOfAddress">Tragicus</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:variant type="abbreviation">
-    <mads:name type="personal" authority="lsj">
-      <mads:namePart/>
-    </mads:name>
-  </mads:variant>
   <mads:fieldOfActivity>Tragic Poet</mads:fieldOfActivity>
-  
-  
-  
+  <mads:note type="source">Brill's New Pauly: "Iophon, Athenian tragedian, 5th cent. BC, a son of Sophocles and author of 50 plays ...."</mads:note>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Iophon</mads:url>
-  <mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|102396329</mads:url>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/20069371/</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=iophon-bio-1</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.766.1</mads:identifier>
   <mads:identifier type="tlg">0311</mads:identifier>

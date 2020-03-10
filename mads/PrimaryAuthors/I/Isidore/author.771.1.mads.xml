@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority lang="eng">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/803890/">
       <mads:namePart>Isidore</mads:namePart>
       <mads:namePart type="termsOfAddress">of Seville, Saint</mads:namePart>
       <mads:namePart type="date">d. 636</mads:namePart>
@@ -11,32 +12,23 @@
     <mads:name type="personal">
       <mads:namePart>Isidore</mads:namePart>
       <mads:namePart type="termsOfAddress">Bishop of Seville</mads:namePart>
-      <mads:namePart type="date">d. 636</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="eng">
     <mads:name type="personal">
       <mads:namePart>Seville, Isidore of</mads:namePart>
       <mads:namePart type="termsOfAddress">Saint</mads:namePart>
-      <mads:namePart type="date">d. 636</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Isidorus</mads:namePart>
       <mads:namePart type="termsOfAddress">Hispalensis</mads:namePart>
-      <mads:namePart type="date">d. 636</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Isidorus Hispalensis</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="lat">
-    <mads:name type="personal">
-      <mads:namePart>Isidorus</mads:namePart>
-      <mads:namePart type="date">d. 636</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
@@ -48,15 +40,11 @@
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Sevilla, Isidor von</mads:namePart>
-      <mads:namePart type="termsOfAddress">Saint</mads:namePart>
-      <mads:namePart type="date">d. 636</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Von Sevilla, Isidor</mads:namePart>
-      <mads:namePart type="termsOfAddress">Saint</mads:namePart>
-      <mads:namePart type="date">d. 636</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
@@ -68,15 +56,11 @@
   <mads:variant type="other" lang="ita">
     <mads:name type="personal">
       <mads:namePart>Sevilla, Isidoro de</mads:namePart>
-      <mads:namePart type="termsOfAddress">Saint</mads:namePart>
-      <mads:namePart type="date">d. 636</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
     <mads:name type="personal">
       <mads:namePart>De Sevilla, Isidoro</mads:namePart>
-      <mads:namePart type="termsOfAddress">Saint</mads:namePart>
-      <mads:namePart type="date">d. 636</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="pol">
@@ -96,6 +80,8 @@
       <mads:namePart>Isid.</mads:namePart>
     </mads:name>
   </mads:variant>
+  <mads:note type="source">Brill's New Pauly: "Isidorus Bishop of Hispalis, theologian and author of encyclopaedic writings ... 
+    of the last phase of antiquity, born about 560, died in 636...."</mads:note>
   <mads:note type="source">Author's Die altdeutschen ... 1874</mads:note>
   <mads:note type="source">His Isidori Hispalensis de natura rerum, 1857: t.p. (Isidori Hispalensis)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.771.1</mads:identifier>
@@ -103,8 +89,7 @@
   <mads:fieldOfActivity>Grammarian</mads:fieldOfActivity>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
   <mads:fieldOfActivity>Bishop</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Saint</mads:fieldOfActivity>
-  
+  <mads:fieldOfActivity>Saint</mads:fieldOfActivity>  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Isidore_of_Seville</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n80-139470</mads:url>
   <mads:url displayLabel="Smith's Dictionary"/>
