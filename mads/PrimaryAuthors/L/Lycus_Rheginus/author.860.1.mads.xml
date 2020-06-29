@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable" lang="lat">
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI=" http://viaf.org/viaf/"
+      valueURI=" http://viaf.org/viaf/27455561">
       <mads:namePart>Lycus</mads:namePart>
       <mads:namePart type="termsOfAddress">Rheginus</mads:namePart>
       <mads:namePart type="date">3. Jh. v. Chr</mads:namePart>
@@ -9,42 +10,37 @@
   </mads:authority>
   <mads:related type="equivalent" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x39B;&#x3CD;&#x3BA;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Λύκος</mads:namePart>
     </mads:name>
   </mads:related>
   <mads:variant type="other" lang="ita">
     <mads:name type="personal">
       <mads:namePart>Lico</mads:namePart>
       <mads:namePart type="termsOfAddress">Etnografo</mads:namePart>
-      <mads:namePart type="date">3. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
     <mads:name type="personal">
       <mads:namePart>Lico</mads:namePart>
       <mads:namePart type="termsOfAddress">Storico</mads:namePart>
-      <mads:namePart type="date">3. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
     <mads:name type="personal">
       <mads:namePart>Lico</mads:namePart>
       <mads:namePart type="termsOfAddress">di Reggio</mads:namePart>
-      <mads:namePart type="date">3. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Lycus</mads:namePart>
       <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
-      <mads:namePart type="date">3. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Lykos</mads:namePart>
       <mads:namePart type="termsOfAddress">Historiker</mads:namePart>
-      <mads:namePart type="date">3. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
@@ -59,25 +55,14 @@
       <mads:namePart>Lycus</mads:namePart>
       <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
     </mads:name>
-  </mads:variant>
-  <mads:variant type="abbreviation">
-    <mads:name type="personal" authority="lsj">
-      <mads:namePart/>
-    </mads:name>
-  </mads:variant>
-  <mads:extension>
-    <mads:gender>
-      <mads:genderTerm>male</mads:genderTerm>
-    </mads:gender>
-  </mads:extension>
+  </mads:variant>  
+  <mads:note type="source">Brill's New Pauly: "L. of Rhegium Ethnographer and historiographer, 3rd cent. BC...
+    Adoptive father of the tragedian Lycophron [5]. L. stayed as a respected man in Alexandria c. 290 BC.
+    A Historía tês Libýēs and Perì Sikelías have been attested for him...". Meister, Karl 
+    (Berlin). "Lycus." Brill’s New Pauly. Brill Online, 2013. Reference. Tufts University Library. 
+    22 February 2013</mads:note>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
   <mads:fieldOfActivity>Ethnographer</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="Worldcat Identities"/>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/27455561</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.860.1</mads:identifier>
   <mads:identifier type="tlg">1470</mads:identifier>

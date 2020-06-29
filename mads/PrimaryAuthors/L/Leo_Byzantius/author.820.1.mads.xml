@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable" lang="lat">
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/61941553/">
       <mads:namePart>Leo</mads:namePart>
       <mads:namePart type="termsOfAddress">Byzantius</mads:namePart>
       <mads:namePart type="date">um 340 v. Chr</mads:namePart>
@@ -11,49 +12,42 @@
     <mads:name type="personal">
       <mads:namePart>Leo</mads:namePart>
       <mads:namePart type="termsOfAddress">Byzantius</mads:namePart>
-      <mads:namePart type="date">um 340 v. Chr</mads:namePart>
     </mads:name>
   </mads:related>
   <mads:variant type="other" lang="ita">
     <mads:name type="personal">
       <mads:namePart>Leone</mads:namePart>
       <mads:namePart type="termsOfAddress">Scolaro di Aristotele</mads:namePart>
-      <mads:namePart type="date">um 340 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
     <mads:name type="personal">
       <mads:namePart>Leone</mads:namePart>
       <mads:namePart type="termsOfAddress">Storico</mads:namePart>
-      <mads:namePart type="date">um 340 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
     <mads:name type="personal">
       <mads:namePart>Leone</mads:namePart>
       <mads:namePart type="termsOfAddress">di Bissanzio</mads:namePart>
-      <mads:namePart type="date">um 340 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Leon</mads:namePart>
       <mads:namePart type="termsOfAddress">Historiker</mads:namePart>
-      <mads:namePart type="date">um 340 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Leon</mads:namePart>
       <mads:namePart type="termsOfAddress">Sohn des Leon</mads:namePart>
-      <mads:namePart type="date">um 340 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Leon</mads:namePart>
       <mads:namePart type="termsOfAddress">von Byzantion</mads:namePart>
-      <mads:namePart type="date">um 340 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
@@ -67,7 +61,6 @@
     <mads:name type="personal">
       <mads:namePart>Leo</mads:namePart>
       <mads:namePart type="termsOfAddress">Byzantinus</mads:namePart>
-      <mads:namePart type="date">um 340 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
@@ -81,26 +74,16 @@
     <mads:name type="personal">
       <mads:namePart>Leo</mads:namePart>
       <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
-      <mads:namePart type="date">um 340 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:url>http://viaf.org/viaf/61941553</mads:url>
+  <mads:note type="source">Brill's New Pauly: "Leon, envoy, 4th cent. B.C.,Son of Leon, from Byzantium,
+    a student of Plato at Athens, friend of Phocion, famous as a sophistḗs because of his quick-wittedness..."
+    from " Leon." Brill’s New Pauly. Brill Online , 2013. Reference. Tufts University Library. 17 January 2013</mads:note>
   <mads:url displayLabel="Dataset description">http://viaf.org/viaf/data</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.820.1</mads:identifier>
-  <mads:identifier type="uri">http://viaf.org/viaf/61941553</mads:identifier>
-  <mads:extension>
-    <mads:gender>
-      <mads:genderTerm>male</mads:genderTerm>
-    </mads:gender>
-  </mads:extension>
+  <mads:identifier type="uri">http://viaf.org/viaf/61941553</mads:identifier> 
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
   <mads:fieldOfActivity>Philosopher</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="Worldcat Identities"/>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/61941553</mads:url>
   <mads:identifier type="tlg">1941</mads:identifier>
   <mads:extension>
