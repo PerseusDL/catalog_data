@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/17614385/">
       <mads:namePart>Lysippus</mads:namePart>
       <mads:namePart type="termsOfAddress">Comicus</mads:namePart>
       <mads:namePart type="date">5. Jh. v. Chr</mads:namePart>
@@ -9,7 +10,7 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x39B;&#x3CD;&#x3C3;&#x3B9;&#x3C0;&#x3C0;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Λύσιππος</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
@@ -25,22 +26,17 @@
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Lysippos</mads:namePart>
-      <mads:namePart type="termsOfAddress">Dichter der Alten Komo&#x308;die</mads:namePart>
-      <mads:namePart type="date">5. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Lysippos</mads:namePart>
-      <mads:namePart type="termsOfAddress">Komo&#x308;diendichter</mads:namePart>
-      <mads:namePart type="date">5. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
     <mads:name type="personal">
       <mads:namePart>Lisippo</mads:namePart>
       <mads:namePart type="termsOfAddress">Poeta della Commedia Vecchia</mads:namePart>
-      <mads:namePart type="date">5. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="spa">
@@ -59,12 +55,12 @@
       <mads:namePart>Lysipp.</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:fieldOfActivity>Comic Poet</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="Worldcat Identities">http://viaf.org/processed/DNB|102397783</mads:url>
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 2, 1867, p. 871: 
+    "Lysippus, literary, 1) An Arcadius, a comic poet of the Old Comedy..."</mads:note>
+  <mads:note type="source">Brill's New Pauly: "Lysippus, 1, Writer of the old comedy, c. 400 BC,...Only three 
+    titles of plays are extant fragments (apart from three without a title) are only attributed to the ‘Bacchae’ (Βάκχαι).."</mads:note>
+  <mads:fieldOfActivity>Comic Poet</mads:fieldOfActivity>   
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/17614385/</mads:url> 
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0002.001;didno=ACL3129.0002.001;view=image;seq=00000881</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.865.1</mads:identifier>
   <mads:identifier type="tlg">0472</mads:identifier>
