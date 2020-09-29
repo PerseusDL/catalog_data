@@ -1,37 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2161.1</identifier>
-    <authority>
-      <name type="personal" authority="viaf">
-	        <namePart>Menestor</namePart>
-	        <namePart type="termsOfAddress">Sybarita</namePart>
-	        <namePart type="date">v5. Jh.</namePart>
-      </name>
-    </authority>
-    <variant type="other" lang="grc">
-      <name>
-	        <namePart>Μενέστωρ</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="ita">
-      <name>
-	        <namePart>Menestore</namePart>
-	        <namePart type="termsOfAddress">Botanico</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="ita">
-      <name>
-	        <namePart>Menestore</namePart>
-	        <namePart type="termsOfAddress">di Sibari</namePart>
-      </name>
-    </variant>
-    <note type="source">Brill's New Pauly: "Menestor, A Pythagorean from Sybaris, contemporary of Empedocles (5th cent. BC) and according to Iambl. VP 267 the earliest Greek botanist...." Hünemörder, Christian (Hamburg), “Menestor”, in: Brill’s New Pauly, Antiquity volumes edited by: Hubert Cancik and , Helmuth Schneider. Consulted online on 01 September 2016</note>
-    <identifier type="tlg">2228</identifier>
-    <fieldOfActivity>Philosopher</fieldOfActivity>
-    <fieldOfActivity>Pythagorean</fieldOfActivity>
-    <url displayLabel="viaf">http://viaf.org/viaf/24990609</url>
-    <extension>
-      <description>List of related work identifiers</description>
-      <identifier type="tlg">2228.001</identifier>
-    </extension>    
-  </mads>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
+  <authority>
+    <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/24990609">
+      <namePart>Menestor</namePart>
+      <namePart type="termsOfAddress">Sybarita</namePart>
+      <namePart type="date">v5. Jh.</namePart>
+    </name>
+  </authority>
+  <variant type="other" lang="grc">
+    <name>
+      <namePart>Μενέστωρ</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="ita">
+    <name>
+      <namePart>Menestore</namePart>
+      <namePart type="termsOfAddress">Botanico</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="ita">
+    <name>
+      <namePart>Menestore</namePart>
+      <namePart type="termsOfAddress">di Sibari</namePart>
+    </name>
+  </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2161.1</identifier>
+  <note type="source">Brill's New Pauly: "Menestor, A Pythagorean from Sybaris, contemporary of
+    Empedocles (5th cent. BC) and according to Iambl. VP 267 the earliest Greek botanist...."
+    Hünemörder, Christian (Hamburg), “Menestor”, in: Brill’s New Pauly, Antiquity volumes edited by:
+    Hubert Cancik and , Helmuth Schneider. Consulted online on 01 September 2016</note>
+  <identifier type="tlg">2228</identifier>
+  <fieldOfActivity>Philosopher</fieldOfActivity>
+  <fieldOfActivity>Pythagorean</fieldOfActivity>
+  <url displayLabel="viaf">http://viaf.org/viaf/24990609</url>
+  <extension>
+    <description>List of related work identifiers</description>
+    <identifier type="tlg">2228.001</identifier>
+  </extension>
+</mads>

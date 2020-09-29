@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2209.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority lang="lat">
       <name type="personal">
         <namePart>Menecrates</namePart>
         <namePart type="termsOfAddress">Tyrius</namePart>
       </name>
     </authority>
-    <variant type="equivalent" lang="lat">
+    <related type="equivalent" lang="lat">
       <name type="personal">
         <namePart>Menecrates</namePart>
         <namePart type="termsOfAddress">Historicus</namePart>
       </name>
-    </variant>
+    </related>
     <variant type="other" lang="grc">
       <name type="personal" authority="Brill">
         <namePart>Μενεκράτης</namePart>
@@ -20,7 +21,7 @@
       </name>
     </variant>
     <fieldOfActivity>Historian</fieldOfActivity>
-    <url displayLabel="Wikipedia"/>
+  <identifier type="citeurn">urn:cite:perseus:author.2209.1</identifier>
     <identifier type="tlg">4346</identifier>
     <extension>
       <description>List of related work identifiers</description>
