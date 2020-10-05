@@ -6,7 +6,8 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-      <mads:name type="personal">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/5318072/">
          <mads:namePart>Nicaenetus</mads:namePart>
          <mads:namePart type="termsOfAddress">Samius</mads:namePart>
          <mads:namePart type="date">3./2. Jh. v. Chr</mads:namePart>
@@ -21,35 +22,30 @@
       <mads:name type="personal">
          <mads:namePart>Nikainetos</mads:namePart>
          <mads:namePart type="termsOfAddress">von Samos</mads:namePart>
-         <mads:namePart type="date">3./2. Jh. v. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Nicaenetus</mads:namePart>
          <mads:namePart type="termsOfAddress">Epicus</mads:namePart>
-         <mads:namePart type="date">3./2. Jh. v. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Nicaenetus</mads:namePart>
          <mads:namePart type="termsOfAddress">Abderita</mads:namePart>
-         <mads:namePart type="date">3./2. Jh. v. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Nicaenetus</mads:namePart>
          <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
-         <mads:namePart type="date">3./2. Jh. v. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Nikainetos</mads:namePart>
          <mads:namePart type="termsOfAddress">von Abdera</mads:namePart>
-         <mads:namePart type="date">3./2. Jh. v. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -65,12 +61,16 @@
   </mads:variant>
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
   <mads:fieldOfActivity>Epic Poet</mads:fieldOfActivity>
-  
-  
-  
+    <mads:note type="source">Brill's New Pauly: "Nicaenetus of Samos or Abdera in Thrace (Ath. 13,590b
+        Steph. Byz. 6,7 s.v. Ἄβδηρα calls him an ‘Abderite’), 2nd half of 3rd cent. BC
+        he may indeed have come from Abdera, but lived on Samos, Menodotus of Samos
+        describing him as an ‘epichoric poet, who often demonstrated his love for the
+        history of this region’ (Ath. 15,673b = FGrH 541 F 1 preserves a sympotic
+        epigram of N. on the Carian custom of wearing garlands of plaited lýgos..." Fornaro, Sotera (Sassari). 
+        "Nicaenetus." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and Helmuth Schneider . 
+        Brill, 2009. Brill Online. Tufts University Library. 25 September 2009</mads:note> 
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Nicaenetus_of_Samos</mads:url>
-  <mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|102400318</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/5318072/</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.973.1</mads:identifier>
   <mads:identifier type="tlg">0218</mads:identifier>
   <mads:extension>

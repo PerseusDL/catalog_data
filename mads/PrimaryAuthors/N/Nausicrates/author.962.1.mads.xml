@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/57001817/">
       <mads:namePart>Nausicrates</mads:namePart>
       <mads:namePart type="termsOfAddress">Comicus</mads:namePart>
       <mads:namePart type="date">4. Jh. v. Chr</mads:namePart>
@@ -9,14 +10,12 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x39D;&#x3B1;&#x3C5;&#x3C3;&#x3B9;&#x3BA;&#x3C1;&#x3AC;&#x3C4;&#x3B7;&#x3C2;</mads:namePart>
+      <mads:namePart>Ναυσικράτης</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Nausikrates</mads:namePart>
-      <mads:namePart type="termsOfAddress">Dichter der Mittleren Komo&#x308;die</mads:namePart>
-      <mads:namePart type="date">4. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
@@ -36,9 +35,11 @@
     </mads:name>
   </mads:variant>
   <mads:fieldOfActivity>Comic Poet</mads:fieldOfActivity>
-  
-  
-  
+  <mads:note type="source">Brill's New Pauly: "Poet of Middle Comedy, in the list of the victors at
+    the Lenaea he is mentioned two places after Antiphanes and two places ahead of Alexis with three victories...... 
+    Athenaeus quotes short passages from N.'s pieces Ναύκληροι (Naúklēroi) and Περσίς (Persís), among them culinary 
+    riddles possibly by a cook..." Hidber, Thomas (Berne). "Nausicrates." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and
+    Helmuth Schneider . Brill, 2010. Brill Online. Tufts University Library. 30 November 2010 .</mads:note>
   <mads:url displayLabel="Wikipedia">http://ca.wikipedia.org/wiki/Naus%C3%ADcrates</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/57001817/</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0002.001;didno=ACL3129.0002.001;view=image;seq=00001155</mads:url>
