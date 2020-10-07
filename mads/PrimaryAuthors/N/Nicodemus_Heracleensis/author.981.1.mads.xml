@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority lang="lat">
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/34844008/">
       <mads:namePart>Nicodemus</mads:namePart>
       <mads:namePart type="termsOfAddress">Heracleensis</mads:namePart>
       <mads:namePart type="date">1./2. Jh. n. Chr</mads:namePart>
@@ -11,21 +12,18 @@
     <mads:name type="personal">
       <mads:namePart>Nikodemos</mads:namePart>
       <mads:namePart type="termsOfAddress">von Herakleia</mads:namePart>
-      <mads:namePart type="date">1./2. Jh. n. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Nicodemus</mads:namePart>
       <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
-      <mads:namePart type="date">1./2. Jh. n. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
     <mads:name type="personal">
       <mads:namePart>Nicodemo</mads:namePart>
       <mads:namePart type="termsOfAddress">di Eraclea</mads:namePart>
-      <mads:namePart type="date">1./2. Jh. n. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -41,12 +39,7 @@
   </mads:variant>
   <mads:note type="history">AP 6.314-320,323; 9.53</mads:note>
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|102400563</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/34844008/</mads:url>  
   <mads:identifier type="citeurn">urn:cite:perseus:author.981.1</mads:identifier>
   <mads:identifier type="tlg">1536</mads:identifier>
   <mads:extension>
