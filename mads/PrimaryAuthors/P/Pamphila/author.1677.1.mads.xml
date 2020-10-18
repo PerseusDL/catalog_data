@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/52498957">
       <mads:namePart>Pamphila</mads:namePart>
       <mads:namePart type="date">ca. 1. Jh</mads:namePart>
     </mads:name>
@@ -15,35 +16,30 @@
     <mads:name type="personal">
       <mads:namePart>Pamphila</mads:namePart>
       <mads:namePart type="termsOfAddress">Epidauria</mads:namePart>
-      <mads:namePart type="date">ca. 1. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Pamphila</mads:namePart>
       <mads:namePart type="termsOfAddress">Grammatikerin</mads:namePart>
-      <mads:namePart type="date">ca. 1. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Pamphila</mads:namePart>
       <mads:namePart type="termsOfAddress">Historica</mads:namePart>
-      <mads:namePart type="date">ca. 1. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Pamphila</mads:namePart>
       <mads:namePart type="termsOfAddress">of Epidauros</mads:namePart>
-      <mads:namePart type="date">ca. 1. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Pamphila</mads:namePart>
       <mads:namePart type="termsOfAddress">von Epidauros</mads:namePart>
-      <mads:namePart type="date">ca. 1. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
@@ -56,7 +52,6 @@
     <mads:name type="personal">
       <mads:namePart>Panfila</mads:namePart>
       <mads:namePart type="termsOfAddress">di Epidauro</mads:namePart>
-      <mads:namePart type="date">ca. 1. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -65,32 +60,18 @@
       <mads:namePart type="termsOfAddress">Historica</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:variant type="abbreviation">
-    <mads:name type="personal" authority="lsj">
-      <mads:namePart/>
-    </mads:name>
-  </mads:variant>
   <mads:url>http://viaf.org/viaf/52498957</mads:url>
   <mads:url displayLabel="Dataset description">http://viaf.org/viaf/data</mads:url>
   <mads:identifier type="uri">http://viaf.org/viaf/52498957</mads:identifier>
   <mads:identifier type="ctsurn">urn:cts:greekLit:tlg1828</mads:identifier>
   <mads:identifier type="tlg">1828</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1677.1</mads:identifier>
-  <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  
-  
+  <mads:fieldOfActivity>Historian</mads:fieldOfActivity>  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Pamphile_of_Epidaurus</mads:url>
-  <mads:url displayLabel="Worldcat Identities"/>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/52498957</mads:url>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
     <mads:identifier type="tlg">1828.001</mads:identifier>
-  </mads:extension>
-  <mads:extension>
-    <mads:gender>
-      <mads:genderTerm>female</mads:genderTerm>
-    </mads:gender>
   </mads:extension>
   <mads:recordInfo>
     <mads:recordOrigin>Converted from MARCXML to MADS version 2.0 (Revision 2.13)</mads:recordOrigin>

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2268.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority lang="lat">
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/262938015">
 	        <namePart>Novatianus</namePart>
       </name>
     </authority>
@@ -36,12 +38,14 @@
 	        <namePart>Novatus</namePart>
       </name>
     </variant>
-    <note type="nonpublic">Data provided by the ESTC/BL</note>
+  <identifier type="citeurn">urn:cite:perseus:author.2268.1</identifier>
     <note type="source">His Novatiani presbyteri Romani Opera quæ supersunt omnia, 1728</note>
-    <note type="source">Oxford classical dictionary, 1964: p.611 (Novatianus, Roman presbyter, anti-pope, founder of the Novatiani, martyred under Valerian)</note>
+    <note type="source">Oxford classical dictionary, 1964: p.611 (Novatianus, Roman presbyter,
+      anti-pope, founder of the Novatiani, martyred under Valerian)</note>
     <note type="source">NUC pre-56 (Novatianus)</note>
     <note type="source">Gli spettacoli, c2001: t.p. (Novaziano)</note>
-    <note type="source">Wikipedia, 28 August 2015 (Novatian; ca. 200-258, scholar, priest, theologian, antipope, name also given Novatus, opponent of Cyprian)</note>
+    <note type="source">Wikipedia, 28 August 2015 (Novatian; ca. 200-258, scholar, priest, 
+      theologian, antipope, name also given Novatus, opponent of Cyprian)</note>
     <identifier type="lccn">nr 93028959</identifier>
     <identifier type="stoa">stoa0213c</identifier>
     <fieldOfActivity>Theologian</fieldOfActivity>
