@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2159.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
       <name>
         <namePart>Parmeniscus</namePart>
@@ -31,14 +32,14 @@
         <namePart>Parmeniskos</namePart>
       </name>
     </variant>
-    <note type="source">Smith's Dictionary: "Parmeniscus, 2, Of Metapontum, who probably lived about the middle of the fifth century B. C. Iamblichus (Vit. Pythugor. 100.36) calls him (according to the common reading) Παρμίσκος, and ranks him among the celebrated Pythagorean philosophers..."</note>
-    <note type="source"/>
-    <note type="source"/>
+    <note type="source">Smith's Dictionary: "Parmeniscus, 2, Of Metapontum, who probably lived about
+      the middle of the fifth century B. C. Iamblichus (Vit. Pythugor. 100.36) calls him (according to
+      the common reading) Παρμίσκος, and ranks him among the celebrated Pythagorean philosophers..."</note>
+  <identifier type="citeurn">urn:cite:perseus:author.2159.1</identifier>
     <identifier type="tlg">2225</identifier>
     <fieldOfActivity>Pre-Socratic</fieldOfActivity>
     <fieldOfActivity>Philosopher</fieldOfActivity>
     <url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=parmeniscus-bio-2</url>
-   <!-- typical values for displayLabel include Wikipedia, VIAF, Smith's Dictionary, Worldcat Identities, -->
     <extension>
       <description>List of related work identifiers</description>
       <identifier type="tlg">2225.001</identifier>

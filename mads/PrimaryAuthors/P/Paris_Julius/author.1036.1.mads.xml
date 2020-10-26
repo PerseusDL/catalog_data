@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority lang="lat">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/54546791/">
       <mads:namePart>Paris, Julius</mads:namePart>
     </mads:name>
   </mads:authority>
@@ -10,6 +11,18 @@
       <mads:namePart>Paris, Iulius</mads:namePart>
     </mads:name>
   </mads:variant>
+  <mads:variant type="other" lang="lat">
+    <mads:name type="personal">
+      <mads:namePart>Iulius Paris</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="ita">
+    <mads:name type="personal">
+      <mads:namePart>Giulio Paride</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology: "the abbreviator of Valerius Maximus, is spoken of in the life of the latter. "
+   </mads:note>
   <mads:note type="source">nuc86-41231: Valerius Maximus. Factorum et dictorum memorabilium ... [MI] 1865 (usage on MH rept.: Iulii Paridis)</mads:note>
   <mads:note type="source">NUC Pre-56, nv0016382 (hdg.: Paris, Julius, fl. ca. 500)</mads:note>
   <mads:note type="source">Valeri Maximi Facta et dicta memorabilia, 1998: p. xi-xii (Iulius Paris)</mads:note>
@@ -18,13 +31,9 @@
   <mads:identifier type="stoa author">stoa0220</mads:identifier>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
   <mads:fieldOfActivity>Compiler</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n86-825160</mads:url>
+    <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n86-825160</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=paris-julius-bio-1</mads:url>
-  <mads:url displayLabel="VIAF">http://viaf.org/viaf/42272385 </mads:url>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/54546791/</mads:url>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
     <mads:identifier type="stoa author-text">stoa0220-stoa001</mads:identifier>

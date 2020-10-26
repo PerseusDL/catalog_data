@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2238.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/35251805/">
 	        <namePart>Papinian</namePart>
 	        <namePart type="date">-212</namePart>
       </name>
@@ -31,13 +33,18 @@
       </name>
     </variant>
     <fieldOfActivity>Jurist</fieldOfActivity>
-    <note type="source">nuc88-59397: Lex Burgundionum. Leges Burgundionum, 1973 (hdg. on CtY rept.: Papinianus, Aemilius, d. 212, usage: Papinianus)</note>
+  <identifier type="citeurn">urn:cite:perseus:author.2238.1</identifier>
+    <note type="source">nuc88-59397: Lex Burgundionum. Leges Burgundionum, 1973 (hdg. on CtY rept.: 
+      Papinianus, Aemilius, d. 212, usage: Papinianus)</note>
     <note type="source">NUC pre-1956 (hdg.: Papinianus, Aemilius, usage: Papinianus)</note>
     <note type="source">Encyc. Brit. (Papinian, full name Aemilius Papinianus, b. ca. A.D. 140; d. 212)</note>
     <note type="source">Webster's biog. dict. (Papinian, d. 212 A.D.)</note>
     <note type="source">Collier's encycl. (Papinian)</note>
-    <note type="source">Oxford classical dict. (Papinianus, Aemilius, one of the great classical Roman jurists; executed in 212)</note>
-    <note type="source">Rustici, G. Papinianus, 1613: t.p. (Papinianus; ... Aemilij Pauli Papiniani, iurisconsulti) p. 10 (his epitaph: D. m. [dis manibusque] Aemilio Paulo Papiniano, praefecto praetorio, iurisconsulto, qui vixit annos XXXVI, dies X et menses III ... heu parentes fecerunt filio optimo; [if he died in his 36th year, survived by both parents, he could not have been born in A.D. 140])</note>
+    <note type="source">Oxford classical dict. (Papinianus, Aemilius, one of the great classical 
+      Roman jurists, executed in 212)</note>
+    <note type="source">Rustici, G. Papinianus, 1613: t.p. (Papinianus, ... Aemilij Pauli Papiniani,
+      iurisconsulti) p. 10 (his epitaph: D. m. [dis manibusque] Aemilio Paulo Papiniano, praefecto praetorio, 
+      iurisconsulto, qui vixit annos XXXVI, dies X et menses III ... heu parentes fecerunt filio optimo; [if he died in his 36th year, survived by both parents, he could not have been born in A.D. 140])</note>
     <identifier type="lccn">n 88636515</identifier>
     <identifier type="stoa">stoa0218b</identifier>
     <url displayLabel="VIAF">http://viaf.org/viaf/35251805/</url>
@@ -45,6 +52,5 @@
     <extension>
       <description>List of related work identifiers</description>
       <identifier type="stoa author-text">stoa0218b-stoa001</identifier>
-    </extension> 
-    
+    </extension>     
   </mads>

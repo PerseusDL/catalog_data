@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/42230499/">
       <mads:namePart>Pancrates</mads:namePart>
       <mads:namePart type="termsOfAddress">Arcadius</mads:namePart>
       <mads:namePart type="date">fl.3./2.Jh. v. Chr</mads:namePart>
@@ -9,34 +10,30 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x3A0;&#x3B1;&#x3B3;&#x3BA;&#x3C1;&#x3AC;&#x3C4;&#x3B7;&#x3C2;</mads:namePart>
+      <mads:namePart>Παγκράτης</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Pancrates</mads:namePart>
       <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
-      <mads:namePart type="date">fl.3./2.Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Pankrates</mads:namePart>
       <mads:namePart type="termsOfAddress">Dichter</mads:namePart>
-      <mads:namePart type="date">fl.3./2.Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Pankrates</mads:namePart>
       <mads:namePart type="termsOfAddress">Arkader</mads:namePart>
-      <mads:namePart type="date">fl.3./2.Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
     <mads:name type="personal">
       <mads:namePart>Pancrate</mads:namePart>
-      <mads:namePart type="termsOfAddress"/>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
@@ -57,15 +54,17 @@
     </mads:name>
   </mads:variant>
   <mads:note type="source">PND, Pauly 1</mads:note>
-  <mads:note type="history">Werkzuordnung bzw. Identita&#x308;t mit Pancrates &lt;Epicus&gt;
-      umstritten; AP 6.117,356; 7.653; Fragm. apud Athenaeum 7.283a,305c-d,321f; Arkader, Dichter
-      wahrsch. hellenist. Werke</mads:note>
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 3, 1867, p. 110: "Pancrates, An
+    epigrammatic poet, who had a place in the Garland of Meleager, and three of whose epigrams are preserved in the Greek 
+    Anthology..."</mads:note>  
+  <mads:note type="source">Brill's New Pauly: "Pancrates, Epigrammatist of the 'Garland' of Meleager [8] (Anth. Pal. 4,1,18): 
+    two votive poems in the manner of Leonidas [3] of Tarentum (ibid. 6,117
+    356) and a funerary poem (ibid. 7,653: possibly in an inscription, cf. GVI 841) are preserved...." 
+    Albiani, Maria Grazia (Bologna). "Pancrates." Brill's New Pauly. Antiquity volumes edited by: 
+    Hubert Cancik and Helmuth Schneider . Brill, 2009. Brill Online</mads:note>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/42230499</mads:url>
+ 
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0003.001;didno=ACL3129.0003.001;view=image;seq=00000118</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1030.1</mads:identifier>
   <mads:identifier type="tlg">1556</mads:identifier>
