@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/7775315/">
       <mads:namePart>Patrocles</mads:namePart>
       <mads:namePart type="termsOfAddress">Thurius</mads:namePart>
       <mads:namePart type="date">4. Jh. v. Chr</mads:namePart>
@@ -16,8 +17,8 @@
   </mads:variant>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x3A0;&#x3B1;&#x3C4;&#x3C1;&#x3BF;&#x3BA;&#x3BB;&#x1FC6;&#x3C2;</mads:namePart>
-      <mads:namePart type="termsOfAddress">&#x398;&#x3BF;&#x3CD;&#x3C1;&#x3B9;&#x3BF;&#x3C3;</mads:namePart>
+      <mads:namePart>Πατροκλῆς</mads:namePart>
+      <mads:namePart type="termsOfAddress">Θούριοσ</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -32,12 +33,8 @@
     </mads:name>
   </mads:variant>
   <mads:fieldOfActivity>Tragic Poet</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|102401802</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
+  <mads:note type="source">Brill's New Pauly: "Patrocles, 5, Tragedian from Thurioi,"</mads:note>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/7775315/</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1047.1</mads:identifier>
   <mads:identifier type="tlg">0324</mads:identifier>
   <mads:extension>

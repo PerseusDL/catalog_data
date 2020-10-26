@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/27455705/">
       <mads:namePart>Parmeno</mads:namePart>
       <mads:namePart type="termsOfAddress">Byzantius</mads:namePart>
       <mads:namePart type="date">3. Jh. v. Chr</mads:namePart>
@@ -9,28 +10,25 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x3A0;&#x3B1;&#x3C1;&#x3BC;&#x3AD;&#x3BD;&#x3C9;&#x3BD;</mads:namePart>
+      <mads:namePart>Παρμένων</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Parmeno</mads:namePart>
       <mads:namePart type="termsOfAddress">Iambographus</mads:namePart>
-      <mads:namePart type="date">3. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Parmenon</mads:namePart>
       <mads:namePart type="termsOfAddress">von Byzantion</mads:namePart>
-      <mads:namePart type="date">3. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Parmenon</mads:namePart>
       <mads:namePart type="termsOfAddress">Dichter von Hinkiamben</mads:namePart>
-      <mads:namePart type="date">3. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -38,19 +36,12 @@
       <mads:namePart>Parmeno</mads:namePart>
       <mads:namePart type="termsOfAddress">Iambographus</mads:namePart>
     </mads:name>
-  </mads:variant>
-  <mads:variant type="abbreviation">
-    <mads:name type="personal" authority="lsj">
-      <mads:namePart/>
-    </mads:name>
-  </mads:variant>
-  
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="Worldcat Identities"/>
-  <mads:url displayLabel="Smith's Dictionary"/>
+  </mads:variant>  
+  <mads:fieldOfActivity>Iambograph</mads:fieldOfActivity>
+  <mads:fieldOfActivity>Poet</mads:fieldOfActivity>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/27455705/</mads:url>
+  <mads:note type="source">Brill's New Pauly: "Parmenon, from Byzantium, Hellenistic poet. Four 
+    fragments of his choliambic verses are still extant..."</mads:note>  
   <mads:identifier type="citeurn">urn:cite:perseus:author.1040.1</mads:identifier>
   <mads:identifier type="tlg">1566</mads:identifier>
   <mads:extension>
