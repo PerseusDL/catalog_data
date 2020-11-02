@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2266.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="viaf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/2858330">
 	        <namePart>Petron</namePart>
 	        <namePart type="termsOfAddress">Himeraeus</namePart>
 	        <namePart type="date">v. 6. Jh.</namePart>
@@ -14,8 +16,10 @@
       </name>
     </variant>
     <fieldOfActivity>Philosopher</fieldOfActivity>
+  <identifier type="citeurn">urn:cite:perseus:author.2266.1</identifier>
     <fieldOfActivity>Pre-Socratic</fieldOfActivity>
-    <note type="source">Brill's New Pauly: "Petron, Considered by Diels/Kranz to be one of the older Pythagoreans (No. 16)..."</note>  
+    <note type="source">Brill's New Pauly: "Petron, Considered by Diels/Kranz
+      to be one of the older Pythagoreans (No. 16)..."</note>  
     <identifier type="tlg">2247</identifier>
     <identifier type="uri">http://viaf.org/viaf/2858330</identifier>
     <url displayLabel="viaf">http://viaf.org/viaf/2858330</url>

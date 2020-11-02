@@ -1,14 +1,15 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/"
+      valueURI="http://viaf.org/viaf/22151075">
       <mads:namePart>Priscus</mads:namePart>
       <mads:namePart type="date">5th cent</mads:namePart>
     </mads:name>
   </mads:authority>
   <mads:related type="equivalent" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x3A0;&#x3C1;&#x3B5;&#x1FD6;&#x3C3;&#x3BA;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Πρεῖσκος</mads:namePart>
     </mads:name>
   </mads:related>
   <mads:variant type="other" lang="cat">
@@ -50,9 +51,11 @@
   <mads:identifier type="citeurn">urn:cite:perseus:author.1182.1</mads:identifier>
   <mads:identifier type="tlg">2946</mads:identifier>
   <mads:identifier type="lccn">n 84080832</mads:identifier>
-  
-  
-  
+  <mads:note type="source">Brill's New Pauly: "5th cent. AD Greek historian and rhetor, b. at the latest 
+    around AD 420 in Panion in Thrace, died after 472. Probably initially a teacher of rhetoric, then adsessor 
+    of the comes Maximinus [4], in whose entourage in 449 he took part in an embassy to Attila, king of the Huns,
+    commissioned by the emperor Theodosius II.... " from Elvers, Karl-Ludwig (Bochum). "Priscus."
+    Brill’s New Pauly. Brill Online, 2013. Reference. Tufts University Library. 04 April 2013.</mads:note>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Priscus</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n84-80832</mads:url>
   <mads:url displayLabel="Smith's Dictionary"/>

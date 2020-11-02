@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2310.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority lang="lat">
-      <name type="personal" authority="viaf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/49614217">
         <namePart>Phaestus</namePart>
         <namePart type="termsOfAddress">Epicus</namePart>
         <namePart type="date">ca. 4.Jh.v.Chr</namePart>
@@ -17,11 +19,11 @@
       <name type="personal">
         <namePart>Phaistos</namePart>
         <namePart type="termsOfAddress">Epiker</namePart>
-        <namePart type="date">ca. 4.Jh.v.Chr</namePart>
       </name>
     </variant>
     <fieldOfActivity>Historian</fieldOfActivity>
     <identifier type="tlg">1580</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2310.1</identifier>
     <url displayLabel="VIAF">http://viaf.org/viaf/49614217</url>
     <identifier type="uri">http://viaf.org/viaf/49614217</identifier>
     <extension>

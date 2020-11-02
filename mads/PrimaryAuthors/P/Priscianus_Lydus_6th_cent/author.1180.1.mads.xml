@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority lang="lat">
-    <mads:name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n2007041361">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/262066509/">
       <mads:namePart>Priscianus</mads:namePart>
       <mads:namePart type="termsOfAddress">Lydus</mads:namePart>
       <mads:namePart type="date">6th cent</mads:namePart>
@@ -9,22 +10,20 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x3A0;&#x3C1;&#x3B9;&#x3C3;&#x3BA;&#x3B9;&#x3B1;&#x3BD;&#x3CC;&#x3C2;</mads:namePart>
-      <mads:namePart type="termsOfAddress">&#x39B;&#x3C5;&#x3B4;&#x3CC;&#x3C2;</mads:namePart>
+      <mads:namePart>Πρισκιανός</mads:namePart>
+      <mads:namePart type="termsOfAddress"> Λυδός</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="eng">
     <mads:name type="personal">
       <mads:namePart>Priscianus</mads:namePart>
       <mads:namePart type="termsOfAddress">of Lydia</mads:namePart>
-      <mads:namePart type="date">6th cent</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="eng">
     <mads:name type="personal">
       <mads:namePart>Priscian</mads:namePart>
       <mads:namePart type="termsOfAddress">of Lydia</mads:namePart>
-      <mads:namePart type="date">6th cent</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
@@ -56,12 +55,6 @@
       <mads:namePart>Prisc.Lyd.</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:variant type="other" lang="rus">
-    <mads:name type="personal" authority="wiki">
-      <mads:namePart>&#x41F;&#x440;&#x438;&#x441;&#x43A;&#x438;&#x430;&#x43D;</mads:namePart>
-      <mads:namePart type="termsOfAddress">&#x41B;&#x438;&#x434;&#x438;&#x439;&#x441;&#x43A;&#x438;&#x439;</mads:namePart>
-    </mads:name>
-  </mads:variant>
   <mads:note type="source">Supplementum Aristotelicum, 1976: v. 1, pt. 2, t.p. (Prisciani Lydi)</mads:note>
   <mads:note type="source">PA class schedule (Priscianus, Lydus, 6th cent. A.D.)</mads:note>
   <mads:note type="source">LC database, June 11, 2007 (hdg.: Priscianus, of Lydia)</mads:note>
@@ -70,20 +63,12 @@
   <mads:identifier type="lccn">n 2007041361</mads:identifier>
   <mads:identifier type="tlg">4014</mads:identifier>
   <mads:fieldOfActivity>Neoplatonist</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Philosopher</mads:fieldOfActivity>
-  
+  <mads:fieldOfActivity>Philosopher</mads:fieldOfActivity>  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Priscian_of_Lydia</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-n2007-41361</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/107532647</mads:url>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
     <mads:identifier type="tlg">4014.001</mads:identifier>
   </mads:extension>
-  <mads:recordInfo>
-    <mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource>
-    <mads:recordCreationDate encoding="marc">070611</mads:recordCreationDate>
-    <mads:recordChangeDate encoding="iso8601">20070611152547.0</mads:recordChangeDate>
-    <mads:recordIdentifier>oca07434312 </mads:recordIdentifier>
-  </mads:recordInfo>
 </mads:mads>

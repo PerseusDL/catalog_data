@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2182.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/100205952">
         <namePart>Phalaris</namePart>
         <namePart type="termsOfAddress">Tyrant of Agrigentum</namePart>
         <namePart type="date">6th century B.C</namePart>
@@ -44,7 +46,14 @@
         <namePart type="date">m. c. 554 a.C</namePart>
       </name>
     </variant>
-    <note type="source">Brill's New Pauly: "Phalaris, Tyrant of Acragas, son of Leodamas of Rhodes, The fabricated collection of his correspondence became the object of early modern philological criticismruled the city, which was founded c. 580 BC, from c. 570-555 BC..... The fabricated collection of his correspondence became the object of early modern philological criticism...." Patzek, Barbara (Wiesbaden), “Phalaris”, in: Brill’s New Pauly, Antiquity volumes edited by: Hubert Cancik and , Helmuth Schneider. Consulted online on 15 December 2016</note>
+  <identifier type="citeurn">urn:cite:perseus:author.2182.1</identifier>
+    <note type="source">Brill's New Pauly: "Phalaris, Tyrant of Acragas, son of
+      Leodamas of Rhodes, The fabricated collection of his correspondence became the 
+      object of early modern philological criticism ruled the city, which was founded
+      c. 580 BC, from c. 570-555 BC..... The fabricated collection of his correspondence 
+      became the object of early modern philological criticism...." Patzek, Barbara (Wiesbaden), 
+      “Phalaris”, in: Brill’s New Pauly, Antiquity volumes edited by: Hubert Cancik and , 
+      Helmuth Schneider. Consulted online on 15 December 2016</note>
     <identifier type="uri">http://viaf.org/viaf/100205952</identifier>
     <identifier type="tlg">0053</identifier>
     <fieldOfActivity>Epistolographer</fieldOfActivity>

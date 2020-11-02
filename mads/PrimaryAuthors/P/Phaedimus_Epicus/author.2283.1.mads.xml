@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2283.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/77753363">
         <namePart>Phaedimus</namePart>
         <namePart type="termsOfAddress">Epicus</namePart>
         <namePart type="date">3. Jh. v. Chr</namePart>
@@ -12,7 +14,6 @@
       <name type="personal">
         <namePart>Phaedimus</namePart>
         <namePart type="termsOfAddress">Macedo</namePart>
-        <namePart type="date">3. Jh. v. Chr</namePart>
       </name>
     </variant>
     <variant type="other" lang="grc">
@@ -21,6 +22,7 @@
         <namePart type="termsOfAddress">Βισανθηνός</namePart>
       </name>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2283.1</identifier>
     <fieldOfActivity>Epic Poet</fieldOfActivity>
     <note>Brill's New Pauly new equates this author with Phaedimus Elegist (tlg1577)</note>
     <note type="source">TLG Canon of Greek Authors and Works, Third Edition, pg. 300</note>

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2278.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/89616757">
 	        <namePart>Paulinus</namePart>
 	        <namePart type="termsOfAddress">of Milan</namePart>
 	        <namePart type="date">active 4th century-5th century</namePart>
@@ -38,6 +40,7 @@
 	        <namePart type="termsOfAddress">von Mailand</namePart>
       </name>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2278.1</identifier>
     <note type="source">His Das Leben des Heiligen Ambrosius, 1967: p. 5 (Paulinus von Mailand)</note>
     <note type="source">Early Christian biographies, 1952: p. xi (Paulinus of Milan, biographer of St. Ambrose)</note>
     <note type="source">Dict. de spiritualité, 1983 (Paulin de Milan, diacre, fin 4e-debut 5e siecle)</note>
