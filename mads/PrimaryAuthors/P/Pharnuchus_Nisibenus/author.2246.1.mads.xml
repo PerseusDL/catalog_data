@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2246.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority lang="lat">
-      <name type="personal" authority="viaf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/42230520">
         <namePart>Pharnuchus</namePart>
         <namePart type="termsOfAddress">Nisibenus</namePart>
         <namePart type="date">v1. Jh. / 1. Jh</namePart>
@@ -27,7 +29,12 @@
         <namePart type="date">v1. Jh. / 1. Jh</namePart>
       </name>
     </variant>
-    <note type="source">Smith's Dictionary: "Pharnuchus, 4, an historian of uncertain date, who wrote a history of Persia. He was a native of Antioch in Mesopotamia, and, as this town was called Asibe or Nasibe by its inhabitants, Pharnuchus received the name of Asibenus or Nasibenus. (Steph. Byz. s. v. Άντιόχεια ; Voss. de Hist. Graec. p. 483, ed. Westermann ; comp. Fabr. Bibl. Graec. vol. iii. p. 540.)..."</note>
+  <identifier type="citeurn">urn:cite:perseus:author.2246.1</identifier>
+    <note type="source">Smith's Dictionary: "Pharnuchus, 4, an historian of uncertain date, 
+      who wrote a history of Persia. He was a native of Antioch in Mesopotamia, and, as this town
+      was called Asibe or Nasibe by its inhabitants, Pharnuchus received the name of Asibenus or 
+      Nasibenus. (Steph. Byz. s. v. Άντιόχεια , Voss. de Hist. Graec. p. 483, ed. Westermann , comp. 
+      Fabr. Bibl. Graec. vol. iii. p. 540.)..."</note>
     <fieldOfActivity>Historian</fieldOfActivity>
     <url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=pharnuchus-bio-4</url>
     <url displayLabel="VIAF">http://viaf.org/viaf/42230520</url>

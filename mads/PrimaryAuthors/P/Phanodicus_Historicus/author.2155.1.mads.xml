@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2155.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority lang="lat">
-      <name type="personal" authority="viaf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/74242373">
         <namePart>Phanodicus</namePart>
         <namePart type="termsOfAddress">Historicus</namePart>
         <namePart type="date">v2. Jh</namePart>
@@ -19,9 +21,11 @@
         <namePart type="termsOfAddress">Historiker</namePart>
         <namePart type="date">v2. Jh</namePart>
       </name>
-    </variant>
+    </variant>  
+  <identifier type="citeurn">urn:cite:perseus:author.2155.1</identifier>
     <fieldOfActivity>Historian</fieldOfActivity>
-    <note type="source">Smith's Dictionary: "Phanodicus, a Greek writer of uncertain date, wrote a work entitled Δηλιακά. (Schol. ad Apoll. Rhod. 1.211, 419; Diog. Laert. 1.31, 82.)...."</note>
+    <note type="source">Smith's Dictionary: "Phanodicus, a Greek writer of uncertain date, 
+      wrote a work entitled Δηλιακά. (Schol. ad Apoll. Rhod. 1.211, 419; Diog. Laert. 1.31, 82.)...."</note>
     <url displayLabel="VIAF">http://viaf.org/viaf/74242373</url>
     <url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=phanodicus-bio-1</url>
     <identifier type="uri">http://viaf.org/viaf/74242373</identifier>

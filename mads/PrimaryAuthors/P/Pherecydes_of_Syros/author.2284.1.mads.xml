@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2284.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority lang="lat">
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/289101007/">
 	        <namePart>Pherecydes</namePart>
 	        <namePart type="termsOfAddress">of Syros</namePart>
 	        <namePart type="date">active 6th century B.C</namePart>
       </name>
     </authority>
+  <variant type="other" lang="grc">
+    <name type="personal">
+      <namePart>Φερεκύδης</namePart>
+      <namePart type="termsOfAddress">ο Σύριος</namePart> 
+    </name>
+  </variant>
     <variant type="other" lang="ita">
       <name type="personal">
 	        <namePart>Ferecides</namePart>
 	        <namePart type="termsOfAddress">de Siro</namePart> 
-      </name>
-    </variant>
-    <variant type="other" lang="lat">
-      <name type="personal">
-	        <namePart>Pherecydes</namePart>
-	        <namePart type="termsOfAddress">of Syros</namePart>
       </name>
     </variant>
     <variant type="other" lang="">
@@ -33,14 +35,20 @@
       </name>
     </variant>
     <note type="nonpublic">Encycl. Americana; Academic American encycl</note>
-    <note type="source">Schibli, H. S. Pherekydes of Syros, 1989: CIP info. (Pherekydes of Syros, reputed teacher of Pythagoras; wrote a book about the birth of the gods and the origin of cosmos in the 6th cent. B.C.)</note>
-    <note type="source">Oxford classical dict. (Pherecydes of Syros, fl. ca. 550 B.C., early prose writer and author of "Heptamychos," a cosmogonic myth)</note>
-    <note type="source">Encycl. Britannica, 15th ed. (Pherecydes of Syros, fl. ca. 550 B.C.; known for his work "Heptamychos")</note>
-    <note type="source">Megalē Hellēnikē enkykl. (Pherekydēs, ancient Greek philosopher from Syros, fl. ca. 6th cent. B.C.; author of "Pentemychos")</note>
-    <note type="source">Papyros-Larous (Pherekydēs, ho Syrios, 6th cent. B.C.; wrote a work on the nature of deities (Pentemychos or Heptamychos))</note>
+    <note type="source">Schibli, H. S. Pherekydes of Syros, 1989: CIP info. (Pherekydes of Syros, reputed teacher of
+      Pythagoras, wrote a book about the birth of the gods and the origin of cosmos in the 6th cent. B.C.)</note>
+    <note type="source">Oxford classical dict. (Pherecydes of Syros, fl. ca. 550 B.C., early prose
+      writer and author of "Heptamychos," a cosmogonic myth)</note>
+    <note type="source">Encycl. Britannica, 15th ed. (Pherecydes of Syros, fl. ca. 550 B.C.,
+      known for his work "Heptamychos")</note>
+    <note type="source">Megalē Hellēnikē enkykl. (Pherekydēs, ancient Greek philosopher from Syros, 
+      fl. ca. 6th cent. B.C., author of "Pentemychos")</note>
+    <note type="source">Papyros-Larous (Pherekydēs, ho Syrios, 6th cent. B.C.,
+      wrote a work on the nature of deities (Pentemychos or Heptamychos))</note>
     <note type="source">La aurora del pensamiento griego, c2000: t.p. (Ferecides) p. 87 (Ferecides de Siro)</note>
     <fieldOfActivity>Philosopher</fieldOfActivity>
     <fieldOfActivity>Epistolary</fieldOfActivity>
+  <identifier type="citeurn">urn:cite:perseus:author.2284.1</identifier>
     <identifier type="lccn">n 88152183</identifier>
     <identifier type="tlg">0630</identifier>
     <identifier type="tlg">1585</identifier>

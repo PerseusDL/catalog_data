@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/57001893/">
       <mads:namePart>Phanias</mads:namePart>
       <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
       <mads:namePart type="date">3. Jh. v. Chr</mads:namePart>
@@ -16,7 +17,7 @@
   </mads:variant>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x3A6;&#x3B1;&#x3BD;&#x3AF;&#x3B1;&#x3C2;</mads:namePart>
+      <mads:namePart>Φανίας</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -32,12 +33,12 @@
   </mads:variant>
   <mads:note type="history">AP 6.294,295,297,299,304,307; 7.537; 12.31</mads:note>
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
+  <mads:note type="source">Brill's New Pauly: "Phanias, Epigrammatist, perhaps among the last (2nd-1st cent. BC?) 
+    of the Garland of Meleager (Anth. Pal. 4,1,54), also a grammatikós (lemma on 7,537). Among the eight poems of his 
+    to survive (including one erotic one: 12,31), minute accounts of work tools and everyday objects predominate..." 
+    from Albiani, Maria Grazia (Bologna). "Phanias." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and
+    Helmuth Schneider . Brill, 2011. Brill Online. Tufts University Library. 30 March 2011</mads:note>  
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/57001893/</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1072.1</mads:identifier>
   <mads:identifier type="tlg">1582</mads:identifier>
   <mads:extension>
