@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/10236594/">
       <mads:namePart>Philiades</mads:namePart>
       <mads:namePart type="termsOfAddress">Megarensis</mads:namePart>
       <mads:namePart type="date">Person der Antike</mads:namePart>
@@ -9,7 +10,7 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x3A6;&#x3B9;&#x3BB;&#x3B9;&#x3AC;&#x3B4;&#x3B1;&#x3C2;</mads:namePart>
+      <mads:namePart>Φιλιάδας</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="">
@@ -40,11 +41,12 @@
   </mads:variant>
   <mads:note type="history">App. Anth. 3.19</mads:note>
   <mads:fieldOfActivity>Lyric Poet</mads:fieldOfActivity>
-  
-  
-  
+  <mads:note type="source">Brill's New Pauly: "Philiadas, of Megara. Steph. Byz. s.v. Θέσπεια ascribes
+    to him an ἐπίγραμμα τῶν ἀναιρεθέντων ὑπὸ τῶν Περσῶν ('epigram on those who fell against the Persians') 
+    from which he quotes an elegiac distich....". Di Marco, Massimo (Fondi Latina). "Philiadas." Brill’s New Pauly. 
+    Brill Online, 2013. Reference. Tufts University Library. 10 May 2013</mads:note>
   <mads:url displayLabel="Wikipedia">http://ca.wikipedia.org/wiki/Filiades</mads:url>
-  <mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|102402620</mads:url>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/10236594/</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=philiadas-bio-1</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1082.1</mads:identifier>
   <mads:identifier type="tlg">1587</mads:identifier>
