@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2107.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/34844065">
         <namePart>Philteas</namePart>
         <namePart type="termsOfAddress">Historicus</namePart>
         <namePart type="date">ca. 4.Jh.v.Chr</namePart>
@@ -13,7 +15,11 @@
         <namePart>Φιλτέας</namePart>
       </name>
     </variant>
-    <note type="source of activity">"Philteas, of Calacte, an historical writer, the author of a work in the Ionic dialect, entitled Ναξιακά, of which the third book is quoted by Tzetzes (Schol. ad Lycophr. 633). He is also mentioned in a passage of Eustathius (ad Hom. p. 1885. 51), where, however, the name is corrupted into Philetas, and Eudocia, copying the error, places the Ναξλακά among the works of Philetas of Cos (Violar. p. 424)..."</note>
+  <identifier type="citeurn">urn:cite:perseus:author.2107.1</identifier>
+    <note type="source of activity">"Philteas, of Calacte, an historical writer, the author of a work
+      in the Ionic dialect, entitled Ναξιακά, of which the third book is quoted by Tzetzes (Schol. ad Lycophr. 633).
+      He is also mentioned in a passage of Eustathius (ad Hom. p. 1885. 51), where, however, the name is corrupted 
+      into Philetas, and Eudocia, copying the error, places the Ναξλακά among the works of Philetas of Cos (Violar. p. 424)..."</note>
     <fieldOfActivity>Historian</fieldOfActivity>
     <url displayLabel="VIAF">http://viaf.org/viaf/34844065</url>
     <url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=philteas-bio-1</url>

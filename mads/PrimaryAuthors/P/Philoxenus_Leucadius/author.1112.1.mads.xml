@@ -6,7 +6,8 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-      <mads:name type="personal">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/74242432/">
          <mads:namePart>Philoxenus</mads:namePart>
          <mads:namePart type="termsOfAddress">Leucadius</mads:namePart>
          <mads:namePart type="date">5./4. Jh. v. Chr</mads:namePart>
@@ -21,28 +22,24 @@
       <mads:name type="personal">
          <mads:namePart>Philoxenos</mads:namePart>
          <mads:namePart type="termsOfAddress">von Leukas</mads:namePart>
-         <mads:namePart type="date">5./4. Jh. v. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Philoxenus</mads:namePart>
          <mads:namePart type="termsOfAddress">Lyricus</mads:namePart>
-         <mads:namePart type="date">5./4. Jh. v. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="eng">
       <mads:name type="personal">
          <mads:namePart>Philoxenus</mads:namePart>
          <mads:namePart type="termsOfAddress">of Leucas</mads:namePart>
-         <mads:namePart type="date">5./4. Jh. v. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
       <mads:name type="personal">
          <mads:namePart>Filosseno</mads:namePart>
          <mads:namePart type="termsOfAddress">di Leucade</mads:namePart>
-         <mads:namePart type="date">5./4. Jh. v. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -64,11 +61,14 @@
   </mads:variant>
   <mads:fieldOfActivity>Lyric Poet</mads:fieldOfActivity>
   <mads:fieldOfActivity>Gastronomical Poet</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|10240318X</mads:url>
+    <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 3, 
+        1867, p. 334: "Philoxenus, 2, the Leucadian...."</mads:note>
+    <mads:note type="source">Brill's New Pauly: "Philostratus, of Lecuas, gastronomic poet... at the beginning of the
+        4th cent. BC, author of a Deîpnon in hexameters mentioned in Athen. 1,5b, of which the comedian Plato...cites 
+        a dozen verses in his 'Phaon' (of 391 BC)..." Montanari, Ornella (Bologna). Philoxenus." Brill's New Pauly. 
+        Antiquity volumes edited by: Hubert Cancik and
+        Helmuth Schneider . Brill, 2010. Brill Online. Tufts University Library. 31 August 2010</mads:note>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/74242432/</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=acl3129.0003.001;didno=ACL3129.0003.001;view=image;seq=342;page=root;size=100;frm=frameset;</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1112.1</mads:identifier>
   <mads:identifier type="tlg">0380</mads:identifier>

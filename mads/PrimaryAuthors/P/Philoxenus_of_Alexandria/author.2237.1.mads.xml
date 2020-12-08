@@ -1,97 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2237.1</identifier>
-    <authority lang="eng">
-      <name type="personal" authority="naf">
-        <namePart>Philoxenus</namePart>
-        <namePart type="termsOfAddress">of Alexandria</namePart>
-        <namePart type="date">active 1st century B.C</namePart>
-      </name>
-    </authority>
-    <variant type="other" lang="lat">
-      <name type="personal">
-        <namePart>Pseudo-Philoxenus</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="grc">
-      <name type="personal">
-        <namePart>Φιλόξενος</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="lat">
-      <name type="personal">
-        <namePart>Philoxenus Alexandrinus</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="lat">
-      <name type="personal">
-        <namePart>Philoxenus</namePart>
-        <namePart type="termsOfAddress">Alexandrinus</namePart>
-        <namePart type="date">ca. v1. Jh</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="fre"> 
-      <name type="personal">
-        <namePart>Philoxène </namePart>
-        <namePart type="termsOfAddress">d'Alexandrie</namePart>
-        <namePart type="date">01..-02.. av. J.-C</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="iat">
-      <name type="personal">
-        <namePart>Filosseno</namePart>
-        <namePart type="termsOfAddress">Grammatico</namePart>
-        <namePart type="date">ca. v1. Jh</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="ita">
-      <name type="personal">
-        <namePart>Filosseno</namePart>
-        <namePart type="termsOfAddress">di Alessandria</namePart>
-        <namePart type="date">ca. v1. Jh</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="ger">
-      <name type="personal">
-        <namePart>Philoxenos</namePart>
-      </name>
-    </variant>
-    <variant type="other" lang="ger">
-      <name type="personal">
-        <namePart>Philoxenos</namePart>
-        <namePart type="termsOfAddress">Alexandreios</namePart>
-        <namePart type="date">ca. v1. Jh</namePart>
-      </name>
-    </variant>
-    <variant type="other">
-      <name type="personal">
-        <namePart>Philoxenos</namePart>
-        <namePart type="termsOfAddress">von Alexandreia</namePart>
-        <namePart type="date">ca. v1. Jh</namePart>
-      </name>
-    </variant>
-    <variant type="other">
-      <name type="personal">
-        <namePart>Philoxenus</namePart>
-        <namePart type="termsOfAddress">of Alexandria</namePart>
-        <namePart type="date">1st cent. B.C</namePart>
-      </name>
-    </variant>
-    <variant type="other">
-      <name type="personal">
-        <namePart>Philoxenus</namePart>
-        <namePart type="termsOfAddress">Grammaticus</namePart>
-        <namePart type="date">ca. v1. Jh</namePart>
-      </name>
-    </variant>
-    <note type="source">Brill's New Pauly: "Philoxenus, Greek grammarian from Alexandria, 1st cent. BC... . from Alexandria. Versatile grammarian of the 1st cent. BC [1. 3-7], a scholar and teacher in Rome (Suda φ 394). P. wrote no fewer than 19 works...""</note>
-    <fieldOfActivity>Grammarian</fieldOfActivity>
-    <identifier type="tlg">1602</identifier>
-    <url displayLabel="VIAF">http://viaf.org/viaf/261548342</url>
-    <url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=philoxenus-bio-6</url>
-    <identifier type="uri">http://viaf.org/viaf/261548342</identifier>
-    <extension>
-      <description>List of related work identifiers</description>
-      <identifier type="tlg">1602.001</identifier>
-    </extension>    
-  </mads>
+<mads xmlns="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
+  <authority lang="eng">
+    <name type="personal" authority="viaf" authorityURI="viaf.org/viaf/"
+      valueURI="viaf.org/viaf/261548342/">
+      <namePart>Philoxenus</namePart>
+      <namePart type="termsOfAddress">of Alexandria</namePart>
+      <namePart type="date">active 1st century B.C</namePart>
+    </name>
+  </authority>
+  <variant type="other" lang="lat">
+    <name type="personal">
+      <namePart>Pseudo-Philoxenus</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="grc">
+    <name type="personal">
+      <namePart>Φιλόξενος</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="lat">
+    <name type="personal">
+      <namePart>Philoxenus Alexandrinus</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="lat">
+    <name type="personal">
+      <namePart>Philoxenus</namePart>
+      <namePart type="termsOfAddress">Alexandrinus</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="fre">
+    <name type="personal">
+      <namePart>Philoxène </namePart>
+      <namePart type="termsOfAddress">d'Alexandrie</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="iat">
+    <name type="personal">
+      <namePart>Filosseno</namePart>
+      <namePart type="termsOfAddress">Grammatico</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="ita">
+    <name type="personal">
+      <namePart>Filosseno</namePart>
+      <namePart type="termsOfAddress">di Alessandria</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="ger">
+    <name type="personal">
+      <namePart>Philoxenos</namePart>
+    </name>
+  </variant>
+  <variant type="other" lang="ger">
+    <name type="personal">
+      <namePart>Philoxenos</namePart>
+      <namePart type="termsOfAddress">Alexandreios</namePart>
+    </name>
+  </variant>
+  <variant type="other">
+    <name type="personal">
+      <namePart>Philoxenos</namePart>
+      <namePart type="termsOfAddress">von Alexandreia</namePart>
+    </name>
+  </variant>
+  <variant type="other">
+    <name type="personal">
+      <namePart>Philoxenus</namePart>
+      <namePart type="termsOfAddress">of Alexandria</namePart>
+    </name>
+  </variant>
+  <variant type="other">
+    <name type="personal">
+      <namePart>Philoxenus</namePart>
+      <namePart type="termsOfAddress">Grammaticus</namePart>
+    </name>
+  </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2237.1</identifier>
+  <note type="source">Brill's New Pauly: "Philoxenus, Greek grammarian from Alexandria, 1st cent. BC... . 
+      from Alexandria. Versatile grammarian of the 1st cent. BC [1. 3-7], a scholar and teacher in Rome (Suda φ 394). P. 
+      wrote no fewer than 19 works...""</note>
+  <fieldOfActivity>Grammarian</fieldOfActivity>
+  <identifier type="tlg">1602</identifier>
+  <url displayLabel="VIAF">http://viaf.org/viaf/261548342</url>
+  <url displayLabel="Smith's Dictionary"
+    >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=philoxenus-bio-6</url>
+  <identifier type="uri">http://viaf.org/viaf/261548342</identifier>
+  <extension>
+    <description>List of related work identifiers</description>
+    <identifier type="tlg">1602.001</identifier>
+  </extension>
+</mads>

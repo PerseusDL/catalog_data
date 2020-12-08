@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2168.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority lang="lat">
-      <name type="personal" authority="viaf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/34844054">
         <namePart>Philo</namePart>
         <namePart type="termsOfAddress">Tarsensis</namePart>
         <namePart type="date">1./2. Jh</namePart>
@@ -17,7 +19,6 @@
       <name type="personal">
         <namePart>Philo</namePart>
         <namePart type="termsOfAddress">Tarsensis</namePart>
-        <namePart type="date">1./2. Jh</namePart>
       </name>
     </variant>
     <variant type="other">
@@ -33,9 +34,10 @@
         <namePart type="date">1./2. Jh</namePart>
       </name>
     </variant>
-    
+  <identifier type="citeurn">urn:cite:perseus:author.2168.1</identifier>
     <fieldOfActivity>Pharmacological writer</fieldOfActivity>
-    <note type="source">Brill's New Pauly: "Ph. of Tarsus Pharmacologist, 1st cent., Inventor of an antidote which bears his name (φιλόνειον/philóneion) and is mentioned by Galen (13, 267-269)...."</note>
+    <note type="source">Brill's New Pauly: "Ph. of Tarsus Pharmacologist, 1st cent., Inventor of
+      an antidote which bears his name (φιλόνειον/philóneion) and is mentioned by Galen (13, 267-269)...."</note>
     <url displayLabel="VIAF">http://viaf.org/viaf/34844054</url>
     <identifier type="uri">http://viaf.org/viaf/34844054</identifier>
     <identifier type="tlg">0706</identifier>

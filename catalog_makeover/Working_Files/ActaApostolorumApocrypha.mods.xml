@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+    <titleInfo>
+        <title>Acta apostolorum apocrypha</title>
+    </titleInfo>
+    <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/56713311">
+        <namePart>Tischendorf, Constantin von,</namePart>
+        <namePart type="date">1815-1874</namePart>
+        <role>
+            <roleTerm type="text">editor</roleTerm>
+        </role>
+    </name>
+    <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/25402935/">
+        <namePart>Lipsius, Richard Adelbert,</namePart>
+        <namePart type="date">1830-1892</namePart>
+        <role>
+            <roleTerm type="text">editor</roleTerm>
+        </role>
+    </name>
+    <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/77062188/">
+        <namePart>Bonnet, Max,</namePart>
+        <namePart type="date">1841-1917</namePart>
+        <role>
+            <roleTerm type="text">editor</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <place>
+            <placeTerm type="code" authority="marccountry">gw</placeTerm>
+        </place>
+        <issuance>monographic</issuance>
+        <place>
+            <placeTerm type="text">Lipsiae</placeTerm>
+        </place>
+        <publisher>Avenarius et Mendelssohn</publisher>
+        <dateIssued>1891-1903</dateIssued>
+    </originInfo>
+    <language>
+        <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+    </language>
+    <language>
+        <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+    </language>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+        <extent>2 volumes in 3</extent>
+    </physicalDescription>
+    <classification authority="lcc">BS2870.G7 T5</classification>
+    <identifier type="oclc">57387351</identifier>
+    <tableOfContents>v. 1. Acta Petri. Acta Pauli. Acta Petri et Pauli. Acta Pauli et Theclae. Acta Thaddaei / 
+        edidit Ricardus Adelbertus Lipsius --
+        v. 2, pt. 1. Passio Andreae. Ex actis Andreae. Martyria Andreae. Acta Andreae et Matthiae. Acta Petri et Andreae. 
+        Passio Bartholomaei. Acta Ioannis. Martyrium Matthiaei / edidit Maximilanus Bonnet
+        v. 2, pt. 2. Acta Philippi et acta Thomae, accedunt Acta Barnabae / edidit Maximilianus Bonnet.</tableOfContents>
+    <location>
+        <url displayLabel="Worldcat">https://www.worldcat.org/title/acta-apostolorum-apocrypha/oclc/57387351</url>
+    </location>
+    <relatedItem type="constituent" otherType="volume" displayLabel="Vol 2-Part 2">
+        <part type="volume">
+            <detail type="volume">
+                <title>Acta Philippi et acta Thomae, accedunt Acta Barnabae</title>
+                <caption>Volume</caption>
+                <number>2</number>
+                <caption>Part</caption>
+                <number>2</number>
+            </detail>
+        </part>
+        <originInfo>
+            <dateIssued>1903</dateIssued>
+        </originInfo>
+        <location>
+            <url displayLabel=""></url>
+        </location>
+        <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/77062188/">
+            <namePart>Bonnet, Max,</namePart>
+            <namePart type="date">1841-1917</namePart>
+            <role>
+                <roleTerm type="text">editor</roleTerm>
+            </role>
+        </name>
+        <tableOfContents>Acta Philippi-Acta Thomae-Acta Barnabae</tableOfContents>
+        <relatedItem type="constituent" otherType="work" displayLabel="">
+            <identifier type="ctsurn">urn:cts:greekLit:</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="">
+                <identifier type="ctsurn"></identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="">
+                <identifier type="ctsurn"></identifier>
+                <part>
+                    <extent unit="pages">
+                        <start></start>
+                        <end></end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="Open Content Alliance"></url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+    </relatedItem>
+</mods>
