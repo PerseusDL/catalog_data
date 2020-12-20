@@ -6,7 +6,8 @@
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
            version="2.0">
   <mads:authority lang="lat">
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/89002230/">
          <mads:namePart>Achilles Tatius</mads:namePart>
       </mads:name>
   </mads:authority>
@@ -44,13 +45,11 @@
   <mads:variant type="other" lang="por">
       <mads:name type="personal">
          <mads:namePart>Aquiles Tácio</mads:namePart>
-         <mads:namePart type="date">séc. II</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="por">
       <mads:name type="personal">
          <mads:namePart>Tácio, Aquiles,</mads:namePart>
-         <mads:namePart type="date">séc. II</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="spa">
@@ -75,8 +74,7 @@
       </mads:name>
   </mads:variant>
   <mads:note type="source">Storie d'amore autiche, 1987: p. 409 (Achille Tazio)</mads:note>
-  <mads:fieldOfActivity>Erotic Author</mads:fieldOfActivity>
-  
+  <mads:fieldOfActivity>Erotic Author</mads:fieldOfActivity>  
   <mads:fieldOfActivity>Novelist</mads:fieldOfActivity>
   <mads:identifier type="citeurn">urn:cite:perseus:author.10.1</mads:identifier>
   <mads:identifier type="lccn">n 80009786 </mads:identifier>

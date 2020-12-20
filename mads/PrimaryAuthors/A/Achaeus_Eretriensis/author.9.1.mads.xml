@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/47115221/">
       <mads:namePart>Achaeus</mads:namePart>
       <mads:namePart type="termsOfAddress">Eretriensis</mads:namePart>
       <mads:namePart type="date">ca. 484 - ca. 401 v. Chr</mads:namePart>
@@ -9,49 +10,43 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x1F08;&#x3C7;&#x3B1;&#x3B9;&#x3CC;&#x3C2;</mads:namePart>
+      <mads:namePart>Ἀχαιός</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Achaios</mads:namePart>
       <mads:namePart type="termsOfAddress">von Eretria</mads:namePart>
-      <mads:namePart type="date">ca. 484 - ca. 401 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Achaios</mads:namePart>
       <mads:namePart type="termsOfAddress">Tragiker</mads:namePart>
-      <mads:namePart type="date">ca. 484 - ca. 401 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Achaios</mads:namePart>
       <mads:namePart type="termsOfAddress">Sohn des Pythodoros</mads:namePart>
-      <mads:namePart type="date">ca. 484 - ca. 401 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Achaeus</mads:namePart>
       <mads:namePart type="termsOfAddress">Tragicus</mads:namePart>
-      <mads:namePart type="date">ca. 484 - ca. 401 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Acheo</mads:namePart>
       <mads:namePart type="termsOfAddress">di Eretria</mads:namePart>
-      <mads:namePart type="date">ca. 484 - ca. 401 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Acheo</mads:namePart>
       <mads:namePart type="termsOfAddress">Poeta Tragico</mads:namePart>
-      <mads:namePart type="date">ca. 484 - ca. 401 v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -77,10 +72,16 @@
       <mads:namePart>Achae.</mads:namePart>
     </mads:name>
   </mads:variant>
+  <mads:note type="source">Brill's New Pauly: "Achaeus, 2, of Eritrea, tragedian, according to Suda....First appears 
+    448/7-445/4, together with Euripides one triumph...." from Pressler, Frank (Heidelberg)
+    Mehl, Andreas (Halle/Saale). "Achaeus." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and Helmuth Schneider .
+    Brill, 2008. Brill Online.</mads:note>
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 1, 1867, p. 8: "Achaeus, 3, of 
+    Eretreia, in Euboea, a tragic poet, was born B.C. 484, the year in which Aeschylus gained his first victory, and four
+    years before the birth of Euripides. In B.C. 477, he contended with Sophocles and Euripides...he nevertheless gained 
+    the prize only once......"</mads:note>
   <mads:fieldOfActivity>Tragic Poet</mads:fieldOfActivity>
-  
-  
-  <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Achaeus_of_Eretria</mads:url>
+    <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Achaeus_of_Eretria</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/47115221/</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;q1=Achaeus;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000023</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.9.1</mads:identifier>
@@ -89,13 +90,4 @@
     <mads:description>List of related work identifiers</mads:description>
     <mads:identifier type="tlg">0309.001</mads:identifier>
   </mads:extension>
-  <mads:recordInfo>
-    <mads:recordContentSource authority="marcorg">0000</mads:recordContentSource>
-    <mads:recordCreationDate encoding="marc">900616</mads:recordCreationDate>
-    <mads:recordChangeDate encoding="iso8601">19960808122005.0</mads:recordChangeDate>
-    <mads:recordIdentifier source="DNB">DNB|100731554</mads:recordIdentifier>
-    <mads:languageOfCataloging>
-      <mads:languageTerm authority="iso639-2b" type="code">ger</mads:languageTerm>
-    </mads:languageOfCataloging>
-  </mads:recordInfo>
 </mads:mads>
