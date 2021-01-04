@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable" lang="lat">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/2187365/">
       <mads:namePart>Aemilius Asper</mads:namePart>
       <mads:namePart type="date">active 2nd century</mads:namePart>
     </mads:name>
@@ -20,19 +21,21 @@
   </mads:variant>
   <mads:variant type="other" lang="por">
     <mads:name type="personal">
-      <mads:namePart>Em&#xED;lio Aspro</mads:namePart>
+      <mads:namePart>Emílio Aspro</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:note type="source">Manuscrits classiques latins de la Bibliotheque Vaticane. Tome III, 1&#xE8;re partie (Vat. lat. 224-2900):
-    p. 73 (under Vat. Lat. 1491: Asper, Ars grammatica)</mads:note>
+  <mads:note type="source">Brill's New Pauly: "Aemilius Asper, The grammarian A., most likely from the late 2nd cent. 
+    AD, sums up the tension between archaistic and classical tendencies of the school canon in the 2nd cent. with his 
+    explanations of Terentius, Vergilius and Sallustius. In his exegesis, the interest in historical-linguistic detailed
+    phenomena takes second place to textual criticism, stylistics and the comparison with Greek classics....." 
+    Schmidt, Peter L. (Constance) "Aemilius Asper." Brill’s New Pauly. Antiquity volumes edited by: 
+    Hubert Cancik and , Helmuth Schneider. Brill Online, 2014. Reference. Tufts University. 18 December 2014</mads:note>
   <mads:note type="source">Oxford classical dict., 1996 (Aemilius Asper; 2nd cent. grammarian)</mads:note>
   <mads:identifier type="lccn">no2004105320</mads:identifier>
-  <mads:identifier type="ctsurn"/>
   <mads:identifier type="phi">1363</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1770.1</mads:identifier>
   <mads:fieldOfActivity>Grammarian</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Commentator</mads:fieldOfActivity>
-  
+  <mads:fieldOfActivity>Commentator</mads:fieldOfActivity>  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Aemilius_Asper</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-no2004105320/</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=asper-bio-1</mads:url>

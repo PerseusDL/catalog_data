@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2097.1</identifier>
+<mads  xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name>
+      <name authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/175229436/">
         <namePart>Aegritudo Perdicae</namePart>
       </name>
     </authority>  
@@ -18,8 +20,11 @@
 	        <namePart>Carmen de aegritudine Perdicae‏ </namePart>
       </name>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2097.1</identifier>
     <note type="source">Aegritudo perdicae, 2001: t.p. ; p. 1 (Egritudo perdicae)</note>
-    <note type="source">Brill's New pauly: "Aegritudo perdicae, Epyllium (250 hexameters) preserved in the Codex Harleianus 3685 (15th cent.), in which Perdicas' disastrous love for his mother on his return from his studies in Athens is treated. with considerable empathy, as a psychic illness....."</note>
+    <note type="source">Brill's New pauly: "Aegritudo perdicae, Epyllium (250 hexameters) preserved 
+      in the Codex Harleianus 3685 (15th cent.), in which Perdicas' disastrous love for his mother 
+      on his return from his studies in Athens is treated. with considerable empathy, as a psychic illness....."</note>
     <identifier type="lccn">no2002076658</identifier>
     <identifier type="stoa">stoa0010a</identifier>
     <url displayLabel="VIAF">http://viaf.org/viaf/175229436/</url>
