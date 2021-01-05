@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2057.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/25837492">
         <namePart>Africanus, Sextus Caecilius</namePart>
         <namePart type="date">active 2nd century</namePart>
       </name>
@@ -15,27 +17,23 @@
     <variant type="other" lang="lat">
       <name type="personal">
         <namePart>Africanus, Sextus Caecilius</namePart>
-        <namePart type="date">2nd cent</namePart>
       </name>
     </variant>
     <variant type="other" lang="lat">
       <name type="personal">
         <namePart>Africanus</namePart>
         <namePart type="termsOfAddress">Iurisconsultus</namePart>
-        <namePart type="date">ca. 2. Jh</namePart>
       </name>
     </variant>
     <variant type="other" lang="lat">
       <name type="personal">
         <namePart>Caecilius Africanus, Sextus</namePart>
-        <namePart type="date">ca. 2. Jh</namePart>
       </name>
     </variant>
     <variant type="other" lang="lat">
       <name type="personal">
         <namePart>Caecilius</namePart>
         <namePart type="termsOfAddress">Africanus</namePart>
-        <namePart type="date">ca. 2. Jh</namePart>
       </name>
     </variant>
     <variant type="other" lang="ita">
@@ -57,8 +55,11 @@
     </variant>
     <fieldOfActivity>Jurist</fieldOfActivity>
     <note type="source">Brill's New Pauly: "C. Africanus, Sex. Jurist under Hadrian, 2nd cent. AD..."</note>
-    <note type="source">Smith's Dictionary: "Africa'nus, Sex. Caeci'lius, a classical Roman jurisconsult, who lived under Antoninus Pius. He was probably a pupil of Salvius Julianus, the celebrated reformer of the Edict under Hadrian....".</note>
+    <note type="source">Smith's Dictionary: "Africa'nus, Sex. Caeci'lius, a classical Roman jurisconsult, 
+      who lived under Antoninus Pius. He was probably a pupil of Salvius Julianus, the celebrated reformer 
+      of the Edict under Hadrian....".</note>
     <identifier type="stoa">stoa0066</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2057.1</identifier>
     <identifier type="uri">http://viaf.org/viaf/25837492</identifier>
     <url displayLabel="VIAF">http://viaf.org/viaf/25837492</url>
     <url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=africanus-sex-caecilius-bio-1</url>
