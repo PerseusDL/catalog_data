@@ -18,49 +18,23 @@
                 <mods:identifier type="ctsurn">urn:cts:greekLit:tlg0559.tlg014.opp-grc1</mods:identifier>
                 <mods:tableOfContents xmlns="http://www.loc.gov/mods/v3">Tabula Heroniana I-V -- Fragmentum De Orgyria-- Tabula Heroniana
                     VI-VII--Fragmentum de Quadratis Et Cubicis Mensuris Priori Tabulae Subiunctum --
-                    Tabula Heroniana VIII --</mods:tableOfContents>
+                    Tabula Heroniana VIII --Mensura Navis Ex Heronis Introductione Stereometrica -- Mensura
+                    dolii ex altera collectione stereometrica -- Simile Problema ex codem libro --
+                    Tertium eiusdem generis problema -- Mensura navis ex Heronis Libro -- Simile
+                    Problema ex codem libro -- Mensura Fossae -- Fragmentum loci Heroniani qui
+                    inscribitur --</mods:tableOfContents>
                 <mods:part xmlns="http://www.loc.gov/mods/v3">
                     <mods:extent unit="pages">
-                        <mods:list>180-197</mods:list>
+                        <mods:list>180-197, 202-205</mods:list>
                     </mods:extent>
                 </mods:part>
                 <mods:location xmlns="http://www.loc.gov/mods/v3">
+                    <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=rBwAAAAAYAAJ&amp;pg=PA202</mods:url>
+                </mods:location>
+                <mods:location xmlns="http://www.loc.gov/mods/v3">
                     <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=rBwAAAAAYAAJ&amp;pg=PA180</mods:url>
                 </mods:location>
-                <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="host" displayLabel="Part I">
-                    <mods:titleInfo>
-                        <mods:title>Fragmenta De Mensuris Porrectis et Quadratis</mods:title>
-                    </mods:titleInfo>
-                    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-                 authority="naf"
-                 type="personal"
-                 ns2:href="http://errol.oclc.org/laf/no99-51788.html">
-                        <mods:namePart>Hultsch, Fridericus (Friedrich Otto)</mods:namePart>
-                        <mods:namePart type="date">1833-1906</mods:namePart>
-                        <mods:role>
-                            <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-                        </mods:role>
-                    </mods:name>
-                    <mods:language objectPart="text">
-                        <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
-                    </mods:language>
-                    <mods:language objectPart="titles">
-                        <mods:languageTerm type="code" authority="iso639-2b">latin</mods:languageTerm>
-                    </mods:language>
-                    
-                    <mods:part>
-                        <mods:extent unit="pages">
-                            <mods:start>179</mods:start>
-                            <mods:end>201</mods:end>
-                        </mods:extent>
-                    </mods:part>
-                    <mods:location>
-                        <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=rBwAAAAAYAAJ&amp;pg=PA179</mods:url>
-                    </mods:location>
-                    <mods:location>
-                        <mods:url displayLabel="Open Content Alliance">http://www.archive.org/stream/metrologicorumsc01hultuoft#page/n205/mode/2up</mods:url>
-                    </mods:location>
-                    <mods:relatedItem type="host">
+                       <mods:relatedItem type="host">
                         <mods:titleInfo>
                             <mods:title>Metrologicorum scriptorum reliquiae</mods:title>
                             <mods:subTitle>Quo scriptores Graeci continentur</mods:subTitle>
@@ -142,7 +116,6 @@
                             <mods:recordIdentifier>9697851</mods:recordIdentifier>
                         </mods:recordInfo>
                     </mods:relatedItem>
-                </mods:relatedItem>
                 <mods:language xmlns="http://www.loc.gov/mods/v3" objectPart="text">
                     <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
                 </mods:language>
