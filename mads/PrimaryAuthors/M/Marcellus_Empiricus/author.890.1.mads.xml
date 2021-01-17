@@ -6,7 +6,8 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority lang="lat">
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/196567001/">
          <mads:namePart>Marcellus</mads:namePart>
          <mads:namePart type="termsOfAddress">Empiricus</mads:namePart>
       </mads:name>
@@ -34,15 +35,15 @@
       </mads:name>
   </mads:variant>
   <mads:note type="source">His De medicamentis liber, 1889: t.p. (Marcelli ...)</mads:note>
-  <mads:note type="source">NUC, pre-&amp;#039;56 (Marcellus, Empiricus)</mads:note>
   <mads:note type="source">Brit. Mus. cat. (Marcellus, Empiricus)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.890.1</mads:identifier>
   <mads:identifier type="lccn">n 83218012</mads:identifier>
   <mads:fieldOfActivity>Physician</mads:fieldOfActivity>
   <mads:fieldOfActivity>Medical Writer</mads:fieldOfActivity>
-  
-  
-  <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Marcellus_Empiricus</mads:url>
+    <mads:note type="source">Brill's New Pauly: " M. Empiricus Author of treatise on medicine, 
+        4th/ 5th cent. AD, [8] M. Empiricus..."</mads:note>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/196567001/</mads:url>
+    <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Marcellus_Empiricus</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/identities/lccn-n83-218012</mads:url>
   <mads:url displayLabel="Smith's Dictionary"/>
   <mads:identifier type="stoa author">stoa0190a</mads:identifier>
