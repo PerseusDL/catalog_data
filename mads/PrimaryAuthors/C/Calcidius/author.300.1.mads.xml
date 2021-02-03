@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/266558598">
       <mads:namePart>Calcidius</mads:namePart>
     </mads:name>
   </mads:authority>
@@ -10,12 +11,7 @@
       <mads:namePart>Chalcidius</mads:namePart>
       <mads:namePart type="date"> um 400 n. Chr.</mads:namePart>
     </mads:name>
-  </mads:related>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Chalcidius</mads:namePart>
-    </mads:name>
-  </mads:variant>
+  </mads:related>  
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Calcidio</mads:namePart>
@@ -26,13 +22,11 @@
       <mads:namePart>Calcidi</mads:namePart>
     </mads:name>
   </mads:variant>
-      <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Calcidi</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:note type="history">C(h)alcidius; Calcidius more correct, 4th cent. A.D., Christian trans.
+  <mads:note type="history">C(h)alcidius, Calcidius more correct, 4th cent. A.D., Christian trans.
       and comment. on Plato&amp;#039;s Timaeus</mads:note>
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 1, 1867, p. 679-680: "Chalcidius,
+    ....was a Platonic philosopher, who lived probably during the sixth century of the Christian aera...."</mads:note>
+  <mads:note type="source">Brill's New Pauly: "Calcidius, not Chalcidius. Christian philosopher, his dates are disputed...</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.300.1</mads:identifier>
   <mads:identifier type="lccn">n 79027140</mads:identifier>
   <mads:fieldOfActivity>Philosopher</mads:fieldOfActivity>

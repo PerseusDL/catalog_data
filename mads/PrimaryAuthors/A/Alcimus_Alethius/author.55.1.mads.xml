@@ -6,7 +6,8 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority lang="lat">
-      <mads:name type="personal">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/59475555/">
          <mads:namePart>Alcimus Alethius, Latinus</mads:namePart>
          <mads:namePart type="date">um 355 n. Chr</mads:namePart>
       </mads:name>
@@ -14,28 +15,24 @@
   <mads:variant type="other" lang="lat">
       <mads:name type="personal">
          <mads:namePart>Alcimus, Latinus</mads:namePart>
-         <mads:namePart type="date">um 355 n. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
       <mads:name type="personal">
          <mads:namePart>Alcimus</mads:namePart>
          <mads:namePart type="termsOfAddress">Alethius</mads:namePart>
-         <mads:namePart type="date">um 355 n. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
       <mads:name type="personal">
          <mads:namePart>Alcimus</mads:namePart>
          <mads:namePart type="termsOfAddress">Rhetor</mads:namePart>
-         <mads:namePart type="date">um 355 n. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
       <mads:name type="personal">
          <mads:namePart>Alcimus</mads:namePart>
          <mads:namePart type="termsOfAddress">von Aquitanien</mads:namePart>
-         <mads:namePart type="date">um 355 n. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant>
@@ -47,13 +44,11 @@
       <mads:name type="personal">
          <mads:namePart>Alcimus</mads:namePart>
          <mads:namePart type="termsOfAddress">Lehrer des Julian</mads:namePart>
-         <mads:namePart type="date">um 355 n. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Alethius, Latinus Alcimus</mads:namePart>
-         <mads:namePart type="date">um 355 n. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -91,7 +86,7 @@
       <mads:identifier type="stoa author-text">stoa0019a-stoa001</mads:identifier>
   </mads:extension>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Alcimus_Alethius</mads:url>
-  <mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|102378673</mads:url>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/59475555/</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000117</mads:url>
   <mads:recordInfo>
       <mads:recordContentSource authority="marcorg">0000</mads:recordContentSource>

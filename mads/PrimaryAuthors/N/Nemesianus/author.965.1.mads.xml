@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority lang="lat">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/299517335/">
       <mads:namePart>Nemesianus, Marcus Aurelius Olympius</mads:namePart>
     </mads:name>
   </mads:authority>
@@ -22,7 +23,7 @@
   </mads:variant>
   <mads:variant type="other" lang="fre">
     <mads:name type="personal">
-      <mads:namePart>N&#xE9;m&#xE9;sien</mads:namePart>
+      <mads:namePart>Némésien</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
@@ -69,8 +70,15 @@
   <mads:identifier type="citeurn">urn:cite:perseus:author.965.1</mads:identifier>
   <mads:identifier type="lccn">n 50001377 </mads:identifier>
   <mads:fieldOfActivity>Bucolic Poet</mads:fieldOfActivity>
-  
-  
+  <mads:note type="source">Brill's New Pauly: "Nemesianus, M. Aurelius N. Author of bucolic writings, before AD 284?, 
+    the name Carthagin(i)ensis appended in some MSS indicates, N. came from Africa. He wrote four bucolic poems (Bucolica,
+    Buc.) and a didactic poem about hunting (Cynegetica, Cyn.), of which verses 1-325 are extant. The dedication of the Cyn.
+    to the emperors Carinus and Numerianus..enables dating to shortly before AD 284. Whether N. also wrote Halieutica
+    and Nautica, as maintained by SHA Car. 11,2, is doubtful, as is the authenticity of two fragments of a didactic 
+    poem on catching birds (De aucipio) ..." from üppers, Jochem (Düsseldorf)
+    . "Nemesianus." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and
+    Helmuth Schneider . Brill, 2010. Brill Online. Tufts University Library.</mads:note>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/299517335/</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Marcus_Aurelius_Olympius_Nemesianus</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-n50-1377</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0002.001;didno=ACL3129.0002.001;view=image;seq=00001161</mads:url>
