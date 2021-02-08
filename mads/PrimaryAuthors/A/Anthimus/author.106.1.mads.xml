@@ -6,7 +6,8 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/251360547">
          <mads:namePart>Anthimus</mads:namePart>
       </mads:name>
   </mads:authority>
@@ -30,27 +31,23 @@
       <mads:name type="personal" authority="SWD">
          <mads:namePart>Anthimus</mads:namePart>
          <mads:namePart type="termsOfAddress">Arzt</mads:namePart>
-         <mads:namePart type="date">um 511/34</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Medicus Anthimus</mads:namePart>
-         <mads:namePart type="date">um 511/34</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
       <mads:name type="personal">
          <mads:namePart>Anthimos</mads:namePart>
          <mads:namePart type="termsOfAddress">Byzantinischer Arzt</mads:namePart>
-         <mads:namePart type="date">um 511/34</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Anthimos</mads:namePart>
          <mads:namePart type="termsOfAddress">Arzt</mads:namePart>
-         <mads:namePart type="date">um 511/34</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -63,20 +60,17 @@
       <mads:name type="personal">
          <mads:namePart>Anthimus</mads:namePart>
          <mads:namePart type="termsOfAddress">Greek Physician</mads:namePart>
-         <mads:namePart type="date">um 511/34</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
       <mads:name type="personal">
          <mads:namePart>Anthime</mads:namePart>
-         <mads:namePart type="date">um 511/34</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Anthimus</mads:namePart>
          <mads:namePart type="termsOfAddress">Griechischer Arzt</mads:namePart>
-         <mads:namePart type="date">um 511/34</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:fieldOfActivity>Physician</mads:fieldOfActivity>
@@ -88,7 +82,10 @@
   <mads:note type="source">LC manual auth. cd. (hdg.: Anthimus, Physician)</mads:note>
   <mads:note type="source">Oxford cl. dict. (Anthimus, a Greek physician at the court of Emperor
       Zeno (474-91))</mads:note>
-  
+    <mads:note type="source">Brill's New Pauly: "Greek doctor who soon after AD 511 wrote a brief Latin treatise
+        in letter form about dietetics, De observatione ciborum ad Theodoricum regem Francorum epistula." from: 
+        Schmitt-Pantel, Pauline (Paris). "Anthimus." Brill's New Pauly. Antiquity volumes edited by: Hubert
+        Cancik and Helmuth Schneider . Brill, 2008. Brill Online. Tufts University Library. 09 June 2008</mads:note>
   <mads:note type="source">Kl. Pauly (Anthimos)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.106.1</mads:identifier>
   <mads:identifier type="lccn">n 88106327 </mads:identifier>
