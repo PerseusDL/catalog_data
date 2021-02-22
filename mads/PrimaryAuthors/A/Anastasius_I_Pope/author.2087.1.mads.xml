@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2087.1</identifier>
+<mads     xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf"
+        valueURI="http://viaf.org/viaf/5736378">
 	        <namePart>Anastasius</namePart>
 	        <namePart type="termsOfAddress">I, Pope</namePart>
 	        <namePart type="date">-401</namePart>
@@ -22,9 +24,11 @@
       </name>
     </variant>
     <note type="source">S. Anastasii I., 1845</note>
-    <note type="source">Catholic Encyclopedia www site, 1 Oct. 2007: Pope St. Anastasius I page (became pope in 399, died 401)</note>
+    <note type="source">Catholic Encyclopedia www site, 1 Oct. 2007: Pope St.
+      Anastasius I page (became pope in 399, died 401)</note>
     <identifier type="lccn">nb2007022373</identifier>
     <identifier type="stoa">stoa0024c</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2087.1</identifier>
     <fieldOfActivity>Pope</fieldOfActivity>
     <url displayLabel="viaf">http://viaf.org/viaf/5736378</url>
     <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Pope_Anastasius_I</url>
