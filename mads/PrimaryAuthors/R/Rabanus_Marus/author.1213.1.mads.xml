@@ -6,7 +6,8 @@
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
            version="2.0">
   <mads:authority>
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf"
+          valueURI="https://viaf.org/viaf/95147534">
          <mads:namePart>Rabanus Maurus</mads:namePart>
          <mads:namePart type="termsOfAddress">Archbishop of Mainz</mads:namePart>
          <mads:namePart type="date">784?-856</mads:namePart>
@@ -15,51 +16,33 @@
   <mads:variant>
       <mads:name type="personal">
          <mads:namePart>Hrabanus Maurus</mads:namePart>
-         <mads:namePart type="termsOfAddress">Abp</mads:namePart>
-         <mads:namePart type="date">784?-856</mads:namePart>
-      </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-      <mads:name type="personal">
-         <mads:namePart>Hrabanus Maurus</mads:namePart>
-         <mads:namePart type="termsOfAddress">Archbishop of Mainz</mads:namePart>
-         <mads:namePart type="date">784?-856</mads:namePart>
+         <mads:namePart type="termsOfAddress">Abp</mads:namePart>         
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Rabanus Magnentius Maurus</mads:namePart>
-         <mads:namePart type="termsOfAddress">Archbishop of Mainz</mads:namePart>
-         <mads:namePart type="date">784?-856</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Raban Maur</mads:namePart>
-         <mads:namePart type="termsOfAddress">Archbishop of Mainz</mads:namePart>
-         <mads:namePart type="date">784?-856</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
-         <mads:namePart>Rhabanus Maurus</mads:namePart>
-         <mads:namePart type="termsOfAddress">Archbishop of Mainz</mads:namePart>
-         <mads:namePart type="date">784?-856</mads:namePart>
+         <mads:namePart>Rhabanus Maurus</mads:namePart>         
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
-         <mads:namePart>Mauro, Rabano</mads:namePart>
-         <mads:namePart type="termsOfAddress">Archbishop of Mainz</mads:namePart>
-         <mads:namePart type="date">784?-856</mads:namePart>
+         <mads:namePart>Mauro, Rabano</mads:namePart>         
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Einhard, Hraban</mads:namePart>
-         <mads:namePart type="termsOfAddress">Archbishop of Mainz</mads:namePart>
-         <mads:namePart type="date">784?-856</mads:namePart>
-      </mads:name>
+               </mads:name>
   </mads:variant>
   <mads:note type="source">Enc. Amer. (Rabanus Maurus, also Hrabanus Maurus or Rhabanus Maurus, b. 
         ?776, d. Feb. 4, 856)</mads:note>
@@ -72,11 +55,9 @@
   <mads:identifier type="lccn">n  81125846 </mads:identifier>
   <mads:identifier type="stoa author">stoa0241</mads:identifier>
   <mads:fieldOfActivity>Archbishop</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Latin Poet</mads:fieldOfActivity>
-  
+  <mads:fieldOfActivity>Latin Poet</mads:fieldOfActivity>  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Rabanus_Maurus</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n81-125846</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/95147534
     </mads:url>
   <mads:extension>
