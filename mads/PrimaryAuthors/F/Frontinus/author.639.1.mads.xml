@@ -6,7 +6,8 @@
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
            version="2.0">
   <mads:authority>
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/12349897/">
          <mads:namePart>Frontinus, Sextus Julius</mads:namePart>
       </mads:name>
   </mads:authority>
@@ -77,7 +78,10 @@
   </mads:variant>
   <mads:fieldOfActivity>Agricultural Author</mads:fieldOfActivity>
   <mads:fieldOfActivity>Military Author</mads:fieldOfActivity>
-  
+    <mads:note type="source">mith's Dictionary of Greek and Roman Biography and Mythology, Vol 2, 1867, p. 181: "Frontinus, Sex. Julius, 
+        of whose origin and early career we know nothing, first appears in history under Vespasian, at the beginning of A.D. 70 ....Two 
+        works undoubtedly by this author are still extant... I. Strategematicon Libri IV .... and II. De Aquaeductibus Urbis Romae Libri II
+    ..."</mads:note>
    <mads:note type="source">Wasserversorgung im antiken Rom, 1982: t.p. (Sextus Iulius Frontinus)
         pref. (water commissioner of the city of Rome from A.D. 97-103)</mads:note>
   <mads:note type="source">LC data base, 12-7-83 (hdg.: Frontinus, Sextus Julius)</mads:note>
