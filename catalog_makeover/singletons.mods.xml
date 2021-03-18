@@ -15895,6 +15895,12 @@ but this is where the TLG has left off for numbering-->
                         <url displayLabel="GoogleBooks"
                             >http://books.google.com/books?id=yevctmDgjOcC</url>
                     </location>
+                    <location>
+                        <url displayLabel="Open Content Alliance">https://archive.org/details/noniimarcellidec01noni</url>
+                    </location>
+                    <location>
+                        <url displayLabel="HathiTrust">https://hdl.handle.net/2027/umn.319510023264422</url>
+                    </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
                     <part type="volume">
@@ -15920,6 +15926,9 @@ but this is where the TLG has left off for numbering-->
                         <url displayLabel="Open Content Alliance"
                             >http://www.archive.org/details/decompendiosadoc02noniuoft</url>
                     </location>
+                    <location>
+                        <url displayLabel="HathiTrust">https://hdl.handle.net/2027/umn.31951d00803858t</url>
+                    </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
                     <part type="volume">
@@ -15943,6 +15952,9 @@ but this is where the TLG has left off for numbering-->
                     <location>
                         <url displayLabel="Open Content Alliance"
                             >http://www.archive.org/details/decompendiosadoc03noniuoft</url>
+                    </location>
+                    <location>
+                        <url displayLabel="HathiTrust">https://hdl.handle.net/2027/umn.319510023264430</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -21279,6 +21291,9 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Perseus" note="Latin"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0130</url>
+                </location>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:latinLit:phi0550.phi001.perseus-lat1/</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -27092,6 +27107,9 @@ but this is where the TLG has left off for numbering-->
                     <dateModified>2015</dateModified>
                     <edition>Epidoc edition</edition>
                 </originInfo>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:latinLit:phi1294.phi002.perseus-lat2/</url>
+                </location>
                 <location>
                     <url displayLabel="Perseus" note="Latin" access="raw object"
                         >https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi1294/phi002/phi1294.phi002.perseus-lat2.xml</url>
@@ -49378,6 +49396,133 @@ p -->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="In Platonis Phaedrum scholia">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg2317.tlg001.opp-grc1</identifier>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods displayLabel="In Platonis Rem Publicam-Proclus-Kroll-Teubner-1899-1901-Greek-1st1K">
+        <titleInfo>
+            <title>
+                Procli Diadochi in Platonis Rem publicam commentarii
+            </title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/102369543/">
+            <namePart>Proclus,</namePart>
+            <namePart type="date">ca. 410-485</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/71461012/">
+            <namePart>Kroll, Wilhelm</namePart>
+            <namePart type="date">1869-1939</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">ge</placeTerm>
+            </place>
+            <dateIssued point="start" encoding="marc">1899</dateIssued>
+            <dateIssued point="end" encoding="marc">1901</dateIssued>
+            <issuance>monographic</issuance>
+            <place>
+                <placeTerm type="text">Lipsiae</placeTerm>
+            </place>
+            <publisher>in aedibvs B. G. Teubneri</publisher>
+            <dateIssued>1899-1901</dateIssued>
+        </originInfo>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
+            </titleInfo>
+            <titleInfo type="abbreviated">
+                <title>Teubner</title>
+            </titleInfo>
+        </relatedItem>
+        <language objectPart="notes">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>2 v. 19 cm.</extent>
+        </physicalDescription>
+        <subject authority="lcsh">
+            <name type="personal">
+                <namePart>Plato.</namePart>
+            </name>
+            <titleInfo>
+                <title>Republic</title>
+            </titleInfo>
+        </subject>
+        <classification authority="lcc">PA3404 .P8 1899</classification>
+        <identifier type="lccn">05021319</identifier>
+        <identifier type="oclc">1982801</identifier>
+        <location>
+            <url displayLabel="Worldcat">https://www.worldcat.org/oclc/1982801</url>
+        </location>
+        <relatedItem type="constituent" otherType="work"
+            displayLabel="In Platonis Rem Publicam Commentarii">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg4036.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="In Platonis Rem Publicam Commentarii">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg4036.tlg001.opp-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg4036.tlg001.opp-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg4036/tlg001/tlg4036.tlg001.opp-grc1.xml</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="In Platonis Rem Publicam Commentarii">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg4036.tlg001.opp-grc2</identifier>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
+                    <part type="volume">
+                        <detail type="volume">
+                            <caption>Volume</caption>
+                            <number>1</number>
+                        </detail>
+                    </part>
+                    <originInfo>
+                        <dateIssued>1899</dateIssued>
+                    </originInfo>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >https://www.archive.org/details/proclidiadochiin01procuoft</url>
+                    </location>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015053160373</url>
+                    </location>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
+                    <part type="volume">
+                        <detail type="volume">
+                            <caption>Volume</caption>
+                            <number>2</number>
+                        </detail>
+                    </part>
+                    <originInfo>
+                        <dateIssued>1901</dateIssued>
+                    </originInfo>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >https://www.archive.org/details/proclidiadochiin02procuoft</url>
+                    </location>
+                    <location>
+                        <url displayLabel="HathiTrust"
+                            >https://hdl.handle.net/2027/mdp.39015053160381</url>
+                    </location>
+                </relatedItem>
             </relatedItem>
         </relatedItem>
     </mods>

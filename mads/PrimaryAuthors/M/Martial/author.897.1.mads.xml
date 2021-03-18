@@ -6,7 +6,8 @@
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
            version="2.0">
   <mads:authority lang="eng">
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/8099277/">
          <mads:namePart>Martial</mads:namePart>
       </mads:name>
   </mads:authority>
@@ -91,8 +92,18 @@
   <mads:identifier type="lccn">n 82013667 </mads:identifier>
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
   <mads:fieldOfActivity>Latin Poet</mads:fieldOfActivity>
-  
-  
+    <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 2, 1867, p. 964-966: "Martialis,
+        M. Valerius, the epigrammatist. Whatever information regarding the personal history of this writer is derived almost
+        exclusively from his works..."</mads:note>
+    <mads:note displayLabel="source">Brill's New Pauly: "Martialis, M. Valerius...the epigrammatist M. was born between AD 38 
+        and 41 (cf. Mart. 10,24: 57th birthday) in Bilbilis in the province of Hispania Tarraconensis. Around 64, he came to Rome 
+        (10,103), where he was probably at first promoted in the circle of Seneca. His poetic production does not become tangible 
+        for us until much later, when he celebrated the inauguration of the amphitheatrum Flavianum ( Colosseum) in 80 with a book 
+        of epigrams (De spectaculis or Epigrammaton liber), preserved only in excerpts. The books Xenia and Apophoreta, counted as 
+        bks. 13 and 14, follow later (c. 83-85). The 12-bk. Epigrammata took shape gradually in the years 86 to c. 102. .." Lausberg,
+        Marion (Augsburg). "Martialis." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and
+        Helmuth Schneider . Brill, 2010. Brill Online. Tufts University Library. 03 November 2010</mads:note>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/8099277/</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Martial</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-n82-13667</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0002.001;didno=ACL3129.0002.001;view=image;seq=00000974</mads:url>

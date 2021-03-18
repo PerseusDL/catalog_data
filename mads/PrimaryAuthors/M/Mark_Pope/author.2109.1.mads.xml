@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2109.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/63537794">
 	        <namePart>Mark</namePart>
 	        <namePart type="termsOfAddress">Pope</namePart>
 	        <namePart type="date">-336</namePart>
@@ -18,7 +20,6 @@
       <name type="personal">
 	        <namePart>Markus</namePart>
 	        <namePart type="termsOfAddress">Papst</namePart>
-	        <namePart type="date">d. 336</namePart>
       </name>
     </variant>
     <variant type="other">
@@ -39,11 +40,13 @@
 	        <namePart type="termsOfAddress">de Ostia</namePart>
       </name>
     </variant>
-    <note type="source">Catholic Encyclopedia www site, 29 Oct. 2007: Pope St. Mark page (consecrated pope, 18 Jan. 336, died 7 Oct. 336)</note>
+    <note type="source">Catholic Encyclopedia www site, 29 Oct. 2007: Pope St. Mark page (consecrated pope,
+      18 Jan. 336, died 7 Oct. 336)</note>
     <identifier type="lccn">nb2007024710</identifier>
     <identifier type="stoa">stoa0191b</identifier>
     <fieldOfActivity>Pope</fieldOfActivity>
     <fieldOfActivity>Saint</fieldOfActivity>
+  <identifier type="citeurn">urn:cite:perseus:author.2109.1</identifier>
     <url displayLabel="viaf">http://viaf.org/viaf/63537794</url>
     <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Pope_Mark</url>
     <url displayLabel="WorldCat Identities">https://www.worldcat.org/identities/lccn-nb2007024710/</url>

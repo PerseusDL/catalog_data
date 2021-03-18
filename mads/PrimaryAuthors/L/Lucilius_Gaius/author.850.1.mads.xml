@@ -6,7 +6,8 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority lang="lat">
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/89131128/">
          <mads:namePart>Lucilius, Gaius</mads:namePart>
          <mads:namePart type="date">ca. 180-ca. 102 B.C</mads:namePart>
       </mads:name>
@@ -29,37 +30,31 @@
   <mads:variant type="other" lang="lat">
       <mads:name type="personal">
          <mads:namePart>Lucilius, C. (Caius)</mads:namePart>
-         <mads:namePart type="date">ca. 180-ca. 102 B.C</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
       <mads:name type="personal">
          <mads:namePart>Lucilius, Caius</mads:namePart>
-         <mads:namePart type="date">ca. 180 B.C.-ca. 102 B.C</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="cat">
       <mads:name type="personal">
          <mads:namePart>Gai Lucili</mads:namePart>
-         <mads:namePart type="date">160 aC - 103 aC</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
       <mads:name type="personal">
          <mads:namePart>Lucilio, Gaio</mads:namePart>
-         <mads:namePart type="date">ca. 180-ca. 102 B.C</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
       <mads:name type="personal">
          <mads:namePart>Gaio Lucilio</mads:namePart>
-         <mads:namePart type="date">ca. 180-ca. 102 B.C</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="spa">
       <mads:name type="personal">
          <mads:namePart>Cayo Lucilio</mads:namePart>
-         <mads:namePart type="date">ca. 180-ca. 102 B.C</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="abbreviation">
@@ -75,13 +70,20 @@
   <mads:note type="source">Oxford classical dict., 1970 (Lucilius, Gaius; d. 101/2 BC)</mads:note>
   <mads:note type="source">Brit 3 (Lucilius, Gaius; b. c. 180 BC, Suessa Aurunca, Campania; d. c.
       103 or 102 BC)</mads:note>
+    <mads:note type="source">Brill's New Pauly: "C. Lucilius, Satirical poet, he birth and death dates
+        of the ‘inventor’ (inventor, Hor. Sat. 1,10,48) of Roman verse satire ( Satire) remain disputed..
+        ..As the first Roman equestrian to consider writing poetry as suitable for his class, he added, 
+        with intellectual independence and social critical intent, satirical bite to the satura created by
+        Ennius. He seems to have carried on a political as well as literary feud with Accius and the collegium poetarum..
+        ..A collection of 30 bks. was in circulation. ... Of the works as a whole, barely 1400 vv. have been preserved in
+        fragments, most of them in Nonius, whose uniform manner of citation is useful for the reconstruction of thematic 
+        relationships..." Christes, Johannes (Berlin). "Lucilius." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and
+        Helmuth Schneider . Brill, 2011. Brill Online.</mads:note>
   <mads:note type="history">d. 103 or 02 B.C</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.850.1</mads:identifier>
   <mads:identifier type="lccn">n 50079083</mads:identifier>
   <mads:fieldOfActivity>Satirist</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Latin Poet</mads:fieldOfActivity>
-  
-  
+  <mads:fieldOfActivity>Latin Poet</mads:fieldOfActivity>   
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Gaius_Lucilius</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-n50-79083</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;q1=Lucilius;rgn=full%20text;idno=ACL3129.0002.001;didno=ACL3129.0002.001;view=image;seq=00000833</mads:url>
