@@ -6,7 +6,8 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-      <mads:name type="personal">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/79068858/">
          <mads:namePart>Catullus</mads:namePart>
          <mads:namePart type="termsOfAddress">Poeta</mads:namePart>
          <mads:namePart type="date">1. Jh. n. Chr</mads:namePart>
@@ -16,26 +17,25 @@
       <mads:name type="personal">
          <mads:namePart>Catullus</mads:namePart>
          <mads:namePart type="termsOfAddress">Dichter</mads:namePart>
-         <mads:namePart type="date">1. Jh. n. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Catullus</mads:namePart>
          <mads:namePart type="termsOfAddress">Verfasser von Mimen</mads:namePart>
-         <mads:namePart type="date">1. Jh. n. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:note type="history">Phasma; Laureolus</mads:note>
   <mads:fieldOfActivity>Latin Poet</mads:fieldOfActivity>
   <mads:fieldOfActivity>Comic Poet</mads:fieldOfActivity>
   <mads:fieldOfActivity>Mimographer</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
+    <mads:note type="source">Brill's New Pauly: "Catullus, Mimographus, writer of mimes, His life dates and 
+        circumstances are unknown. C. achieved fame as a result of the mime Laureolus -- performed shortly before
+        Caligula's murder -- in which the escape, capture and crucifixion of the robber Laureolus were presented and the 
+        stage was awash with fake blood (Suet. Cal. 57,4) real blood flowed in AD 80 when a condemned criminal had to play 
+        Laureolus at the Amphitheater...." Benz, Lore (Kiel). "Catullus." Brill's New Pauly. Antiquity volumes
+        edited by: Hubert Cancik and Helmuth Schneider . Brill, 2009. Brill Online.</mads:note>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/59475708/</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:identifier type="citeurn">urn:cite:perseus:author.336.1</mads:identifier>
   <mads:identifier type="stoa author">stoa0081a</mads:identifier>
   <mads:extension>
