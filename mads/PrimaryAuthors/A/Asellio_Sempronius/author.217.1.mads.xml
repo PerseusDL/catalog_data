@@ -6,7 +6,8 @@
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
            version="2.0">
   <mads:authority>
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/59144814342924971191/">
          <mads:namePart>Asellio, Sempronius</mads:namePart>
          <mads:namePart type="date">fl. 150-91 B.C</mads:namePart>
       </mads:name>
@@ -14,19 +15,16 @@
   <mads:variant type="other">
       <mads:name type="personal" authority="phi">
          <mads:namePart>Sempronius Asellio</mads:namePart>
-         <mads:namePart type="date">fl. 150-91 B.C</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Asellio, P. Sempronius</mads:namePart>
-         <mads:namePart type="date">fl. 150-91 B.C</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Asellio, Gaius Sempronius</mads:namePart>
-         <mads:namePart type="date">fl. 150-91 B.C</mads:namePart>
       </mads:name>
   </mads:variant>
     <mads:variant type="abbreviation">
@@ -37,15 +35,15 @@
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
   <mads:note type="source">Rerum gestarum libri [CF] 1991: PHI CD ROM #5.3, Latin Canon,
         bibliographic screen (Sempronius Asellio)</mads:note>
-  <mads:note type="source">Pauly-Wissowa: . 2, Reihe, 4. Halbbd.; "Sempronius", #15 (Sempronius
-        Asellio; author of contemporary history; military tribune at Numantia, 134-133 B.C.,
-        therefore not identifiable with the praetor L. Sempronius Asellio of 100 B.C.; his history
+  <mads:note type="source">Pauly-Wissowa: . 2, Reihe, 4. Halbbd, "Sempronius", #15 (Sempronius
+        Asellio, author of contemporary history, military tribune at Numantia, 134-133 B.C.,
+        therefore not identifiable with the praetor L. Sempronius Asellio of 100 B.C., his history
         extends to 91 B.C.)</mads:note>
-  <mads:note type="source">Oxford class. dict., 1st ed.: p. 107 (Asellio, Sempronius; historian;
-        military tribune at Numantia, 134-133 B.C.; wrote a history of his own times, extending to
+  <mads:note type="source">Oxford class. dict., 1st ed.: p. 107 (Asellio, Sempronius, historian,
+        military tribune at Numantia, 134-133 B.C., wrote a history of his own times, extending to
         91 B.C.)</mads:note>
   <mads:note type="source">Peter, H. Historicorum romanorum reliquiae, 1914: p. ccxlii (Sempronius
-        Asellio; b. before 150 B.C.; military tribune at Numantia, 134-133 B.C.; wrote history
+        Asellio; b. before 150 B.C., military tribune at Numantia, 134-133 B.C., wrote history
         extending to 91 B.C.)</mads:note>
   <mads:note type="source">Dict. of Greek and Roman biography and mythology, 1967: v. 1, p. 384
         (Asellio, P. Sempronius)</mads:note>
@@ -54,6 +52,7 @@
   <mads:identifier type="citeurn">urn:cite:perseus:author.217.1</mads:identifier>
   <mads:identifier type="lccn">nr 95028757</mads:identifier>
   <mads:identifier type="phi">300</mads:identifier>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/59144814342924971191/</mads:url>
   <mads:url displayLabel="Id.gov">http://id.loc.gov/authorities/names/nr95028757</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Sempronius_Asellio</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-nr95-28757</mads:url>
