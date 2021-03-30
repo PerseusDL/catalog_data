@@ -18132,7 +18132,7 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
 
-    <mods displayLabel="De Medicina-Celsus-Loeb-Spencer-OPP\Perseus Latin 1-English 1">
+    <mods displayLabel="De Medicina-Celsus-Loeb-Spencer-OPP\Perseus Latin 1\4-English 1\2">
         <titleInfo lang="lat" type="uniform">
             <title>De Medicina</title>
         </titleInfo>
@@ -18225,8 +18225,17 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Perseus" note="Latin"
                         >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.02.0141</url>
-                </location>
+                </location>                
                 <!-- Do I need this info here it could be retrieved from catalog_data -->
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="De Medicina">
+                <identifier type="ctsurn">urn:cts:latinLit:phi0836.phi002.perseus-lat4</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:latinLit:phi0836.phi002.perseus-lat4/</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Latin">https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0836/phi002/phi0836.phi002.perseus-lat4.xml</url>
+                </location>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="De Medicina">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0836.phi002.perseus-eng1</identifier>
@@ -18236,9 +18245,18 @@ but this is where the TLG has left off for numbering-->
                         >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.02.0142</url>
                 </location>
             </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="De Medicina">
+                <identifier type="ctsurn">urn:cts:latinLit:phi0836.phi002.perseus-eng2</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:latinLit:phi0836.phi002.perseus-eng2/</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Latin" note="English">https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0836/phi002/phi0836.phi002.perseus-eng2.xml</url>
+                </location>
+            </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="De Medicina-Celsus-Daremberg-Teubner-1891-OPP\Perseus Latin 2">
+    <mods displayLabel="De Medicina-Celsus-Daremberg-Teubner-1891-OPP\Perseus Latin 2\5">
         <titleInfo lang="lat" type="uniform">
             <title>De Medicina</title>
         </titleInfo>
@@ -18324,6 +18342,15 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Perseus" note="Latin"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0086</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="De Medicina">
+                <identifier type="ctsurn">urn:cts:latinLit:phi0836.phi002.perseus-lat5</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:latinLit:phi0836.phi002.perseus-lat5/</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Latin">https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0836/phi002/phi0836.phi002.perseus-lat5.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
