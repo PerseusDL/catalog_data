@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable" lang="lat">
-    <mads:name type="personal" valueURI="http://id.loc.gov/authorities/names/n80008471">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/64001057/">
       <mads:namePart>Victor, Sextus Aurelius</mads:namePart>
     </mads:name>
   </mads:authority>
@@ -18,7 +19,7 @@
   </mads:related>
   <mads:related type="equivalent" lang="spa">
     <mads:name type="personal">
-      <mads:namePart>Aurelio V&#xED;ctor, Sexto</mads:namePart>
+      <mads:namePart>Aurelio Víctor, Sexto</mads:namePart>
     </mads:name>
   </mads:related>
   <mads:related type="equivalent" lang="lat">
@@ -34,11 +35,6 @@
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Aureli Victor, Sext</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="lat">
-    <mads:name type="personal">
-      <mads:namePart>Aurelio V&#xED;ctor</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
@@ -71,11 +67,6 @@
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Aureliusz Wiktor, Sekstus</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Pseudo-Aure&#x301;lius Victor</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -142,14 +133,10 @@
       <mads:namePart>Viktor, Sextus Aurelius</mads:namePart>
     </mads:name>
   </mads:variant>
+
   <mads:variant type="other">
     <mads:name type="personal">
-      <mads:namePart>Viktor, Sextus Aurelius</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>V&#xED;ctor, Aurelio</mads:namePart>
+      <mads:namePart>Víctor, Aurelio</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -161,19 +148,10 @@
   <mads:url displayLabel="Dataset description">http://viaf.org/viaf/data</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1469.1</mads:identifier>
   <mads:identifier type="uri">http://viaf.org/viaf/64001057</mads:identifier>
-  <mads:extension>
-    <mads:gender>
-      <mads:genderTerm>male</mads:genderTerm>
-    </mads:gender>
-  </mads:extension>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Biographer</mads:fieldOfActivity>
-  
-  
-  
+  <mads:fieldOfActivity>Biographer</mads:fieldOfActivity>  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Aurelius_Victor</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n80-8471</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/64001057</mads:url>
   <mads:identifier type="stoa author">stoa0043</mads:identifier>
   <mads:identifier type="stoa author">stoa0044</mads:identifier>

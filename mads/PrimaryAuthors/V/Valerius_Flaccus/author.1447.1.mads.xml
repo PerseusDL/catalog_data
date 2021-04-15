@@ -6,7 +6,8 @@
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
            version="2.0">
   <mads:authority lang="lat">
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/100899421/">
          <mads:namePart>Valerius Flaccus, Gaius</mads:namePart>
          <mads:namePart type="date">1st cent</mads:namePart>
       </mads:name>
@@ -47,20 +48,17 @@
   </mads:variant>
   <mads:variant type="other" lang="lat">
       <mads:name type="personal">
-         <mads:namePart>Valerius Flaccus</mads:namePart>
-         <mads:namePart type="date">1st cent</mads:namePart>
+         <mads:namePart>Valerius Flaccus</mads:namePart>         
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
       <mads:name type="personal">
-         <mads:namePart>Valerius Flaccus Setinus Balbus, C</mads:namePart>
-         <mads:namePart type="date">1st cent</mads:namePart>
+         <mads:namePart>Valerius Flaccus Setinus Balbus, C</mads:namePart>         
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
       <mads:name type="personal">
-         <mads:namePart>Flaccus, Gaius Valerius</mads:namePart>
-         <mads:namePart type="date">1st cent</mads:namePart>
+         <mads:namePart>Flaccus, Gaius Valerius</mads:namePart>         
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="cat">
@@ -109,18 +107,18 @@
       </mads:name>
   </mads:variant>
   <mads:note type="source">His Valerius Flaccus, 1503: p. 9 (C. Valerii Flacci Setini Balbi ...)</mads:note>
-  <mads:note type="source">Oxford class. dict., 2nd ed. (Valerius Flaccus, Gaius, a poet; d. prematurely before completing 8th bk. of his Argonautica in 92 or 93)</mads:note>
+  <mads:note type="source">Oxford class. dict., 2nd ed. (Valerius Flaccus, Gaius, a poetm
+      d. prematurely before completing 8th bk. of his Argonautica in 92 or 93)</mads:note>
   <mads:note type="source">New encycl. Brit. (Valerius Flaccus, Gaius (fl. 1st cent. A.D.))</mads:note>
-  <mads:note type="source">Pauly-Wissowa: 2. Reihe, 15. Halbbd., column 9 (C. Valerius Flaccus Setinus Balbus; probably deceased by ca. 93)</mads:note>
-  <mads:note type="source">LC data base, 2-5-85 (hdg.: Valerius Flaccus, C.; usage: Valerius Flaccus)</mads:note>
+  <mads:note type="source">Pauly-Wissowa: 2. Reihe, 15. Halbbd., column 9 (C. Valerius Flaccus
+      Setinus Balbus, probably deceased by ca. 93)</mads:note>
+  <mads:note type="source">LC data base, 2-5-85 (hdg.: Valerius Flaccus, C., usage: Valerius Flaccus)</mads:note>
   <mads:note type="source">Salemme, C. Medea, 1991: t.p. (Valerio Flacco)</mads:note>
   <mads:fieldOfActivity>Epic Poet</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Latin Poet</mads:fieldOfActivity>
-  
-  
+  <mads:fieldOfActivity>Latin Poet</mads:fieldOfActivity>  
   <mads:url displayLabel="Wikipedia">http://worldcat.org/identities/lccn-n84-216357</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://en.wikipedia.org/wiki/Gaius_Valerius_Flaccus</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/100899421/</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1447.1</mads:identifier>
   <mads:identifier type="phi">1035</mads:identifier>
   <mads:identifier type="stoa author">stoa0284</mads:identifier>

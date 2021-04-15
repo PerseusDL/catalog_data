@@ -6676,6 +6676,22 @@
         <titleInfo>
             <title>C. Valeri Flacci Setini Balbi Argonauticon libri octo</title>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100899421/">
+            <namePart>Valerius Flaccus, Gaius</namePart>
+            <namePart type="date">1st cent</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/32395404/">
+            <namePart>Kramer, Otto</namePart>
+            <namePart type="date">1887-</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -6719,22 +6735,6 @@
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/100899421/">
-            <namePart>Valerius Flaccus, Gaius</namePart>
-            <namePart type="date">1st cent</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/32395404/">
-            <namePart>Kramer, Otto</namePart>
-            <namePart type="date">1887-</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Epic poetry, Latin</topic>
         </subject>
@@ -6781,11 +6781,12 @@
                     <url displayLabel="Perseus Canonical" note="Latin"
                         >https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi1035/phi001/phi1035.phi001.perseus-lat2.xml</url>
                 </location>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:latinLit:phi1035.phi001.perseus-lat2</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
-
-
     <mods displayLabel="Argonautica-Valerius Flaccus-Weidmann-1871">
         <titleInfo lang="lat" type="uniform">
             <title>Argonautica</title>
@@ -8804,7 +8805,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Bellum Iugurthinum-Sallust-Perseus-Latin-Unknown">
+    <mods displayLabel="Bellum Iugurthinum-Sallust-Perseus-Latin2/4-Unknown">
         <titleInfo lang="lat" type="uniform">
             <title>Bellum Iugurthinum</title>
         </titleInfo>
@@ -8836,6 +8837,15 @@ but this is where the TLG has left off for numbering-->
                     <url displayLabel="Perseus" note="Latin"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0125
                     </url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Bellum Iugurthinum">
+                <identifier type="ctsurn">urn:cts:latinLit:phi0631.phi002.perseus-lat4</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:latinLit:phi0631.phi002.perseus-lat4</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Latin">https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0631/phi001/phi0631.phi002.perseus-lat4.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -11193,7 +11203,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Catilinae Coniuratio-Sallust-Perseus-Latin-Unknown">
+    <mods displayLabel="Catilinae Coniuratio-Sallust-Perseus-Latin2/4-Unknown">
         <titleInfo authority="phi" lang="lat" type="uniform">
             <title>Catilinae Coniuratio</title>
         </titleInfo>
@@ -11223,6 +11233,15 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Perseus" note="Latin"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0123</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Catilinae Coniuratio">
+                <identifier type="ctsurn">urn:cts:latinLit:phi0631.phi001.perseus-lat4</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Latin">https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0631/phi001/phi0631.phi001.perseus-lat4.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -13487,6 +13506,9 @@ but this is where the TLG has left off for numbering-->
         </location>
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/10884460</url>
+        </location>
+        <location>
+            <url displayLabel="Open Content Alliance">https://archive.org/details/cuascriboniilarg00scri</url>
         </location>
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=13EIAAAAIAAJ</url>
@@ -17282,7 +17304,7 @@ but this is where the TLG has left off for numbering-->
             <title>De fluminibus</title>
         </titleInfo>
         <titleInfo>
-            <title>Vibi Seqvestris de flvminibvs etc libellvs</title>
+            <title>Vibi Sequestris de fluminibus etc libellus</title>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/250888845/">
@@ -27255,7 +27277,7 @@ but this is where the TLG has left off for numbering-->
                     <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:latinLit:phi1294.phi002.perseus-lat2/</url>
                 </location>
                 <location>
-                    <url displayLabel="Perseus" note="Latin" access="raw object"
+                    <url displayLabel="Perseus" note="Latin"
                         >https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi1294/phi002/phi1294.phi002.perseus-lat2.xml</url>
                 </location>
             </relatedItem>

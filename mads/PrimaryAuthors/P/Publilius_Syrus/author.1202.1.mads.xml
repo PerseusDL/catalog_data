@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority lang="lat">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/22130553/">
       <mads:namePart>Publilius</mads:namePart>
       <mads:namePart type="termsOfAddress">Syrus</mads:namePart>
       <mads:namePart type="date">1st cent. B.C</mads:namePart>
@@ -15,14 +16,12 @@
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Syrus, Publilius</mads:namePart>
-      <mads:namePart type="date">1st cent. B.C</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Publius</mads:namePart>
       <mads:namePart type="termsOfAddress">Syrus</mads:namePart>
-      <mads:namePart type="date">1st cent. B.C</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
@@ -34,14 +33,12 @@
     <mads:name type="personal">
       <mads:namePart>Publilius</mads:namePart>
       <mads:namePart type="termsOfAddress">Mimographer</mads:namePart>
-      <mads:namePart type="date">ca. 1. Jh. v. Chr</mads:namePart>
-    </mads:name>
+          </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Publilius</mads:namePart>
       <mads:namePart type="termsOfAddress">Mimus</mads:namePart>
-      <mads:namePart type="date">ca. 1. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
@@ -57,19 +54,18 @@
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Publius Syrus</mads:namePart>
-      <mads:namePart type="date">1. stol. p&#x159;. Kr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
-      <mads:namePart>Publius de Syrie</mads:namePart>
+      <mads:namePart>Publius</mads:namePart>
+      <mads:namePart type="termsOfAddress">de Syrie</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Publilius</mads:namePart>
       <mads:namePart type="termsOfAddress">von Antiocheia</mads:namePart>
-      <mads:namePart type="date">ca. 1. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
@@ -80,11 +76,6 @@
   <mads:variant type="other" lang="pol">
     <mads:name type="personal">
       <mads:namePart>Publiliusz Syrus</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="por">
-    <mads:name type="personal">
-      <mads:namePart>P&#xFA;blio Siro</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="spa">
@@ -108,8 +99,7 @@
       cent. B.C.)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1202.1</mads:identifier>
   <mads:identifier type="lccn">n 85194948</mads:identifier>
-  <mads:fieldOfActivity>Mimographer</mads:fieldOfActivity>
-  
+  <mads:fieldOfActivity>Mimographer</mads:fieldOfActivity>  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Publilius_Syrus</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n85-194948</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/22130553</mads:url>
