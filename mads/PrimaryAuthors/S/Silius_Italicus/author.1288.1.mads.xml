@@ -6,7 +6,8 @@
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
            version="2.0">
   <mads:authority>
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/27071645/">
          <mads:namePart>Silius Italicus, Tiberius Catius</mads:namePart>
       </mads:name>
   </mads:authority>
@@ -88,12 +89,14 @@
          <mads:namePart>Sil.</mads:namePart>
       </mads:name>
   </mads:variant>
-  <mads:note type="source">His Sillij Italici opus de Bello Punico Secundo, 1515 [i.e. 1516]: leaf 2 verso 
+  <mads:note type="source">His Sillij Italici opus de Bello Punico Secundo, 1515 [i.e. 1516]:
+      leaf 2 verso 
         (Sillius Italicus; b. in the city of Italica in Spain)</mads:note>
-  <mads:note type="source">Oxford class. dict., 2nd ed. (Silius Italicus; an inscription gives his full name, Tiberius 
-        Catius Asconius Silius Italicus; birthplace uncertain, perhaps Patavium, but not Italica in Spain; d. ca. A.D. 101 aged 75)</mads:note>
+  <mads:note type="source">Oxford class. dict., 2nd ed. (Silius Italicus, an inscription
+      gives his full name, Tiberius 
+        Catius Asconius Silius Italicus; birthplace uncertain, perhaps Patavium,
+        but not Italica in Spain; d. ca. A.D. 101 aged 75)</mads:note>
   <mads:note type="source">Laudizi, G. Silio Italico, 1989: jkt (28-103; Roman consul in 68 A.D.)</mads:note>
-  <mads:note type="source">Das VerhaÌ&#x88;ltnis der Punica des C. Silius Italicus zur dritten Dekade des T. Livius, 1883</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1288.1</mads:identifier>
   <mads:identifier type="lccn">n  79120267 </mads:identifier>
   <mads:identifier type="phi">1345</mads:identifier>
@@ -101,8 +104,18 @@
   <mads:fieldOfActivity>Epic Poet</mads:fieldOfActivity>
   <mads:fieldOfActivity>Latin Poet</mads:fieldOfActivity>
   <mads:fieldOfActivity>Stoic</mads:fieldOfActivity>
-  
-  
+    <mads:note type="source">"Smith's Dictionary of Greek and Roman Biography and Mythology, 
+        Vol 3, 1867, p. 824-: "C. Silius Italicus, the most voluminous among the Roman 
+        writers of heroic verse...."</mads:note> 
+    <mads:note type="source">Brill's New Pauly: "S. Italicus Epic poet, 1st cent.,he dates 
+        of Tib. Catius Asconius S. I. - his full name is known from an inscription - can be
+        narrowed down to c. AD 25/6 to c. AD 101/2. Martial mentions S. (Epist. 4,14 and 7,63).
+        Pliny [2] the Younger provides information about S.’ career in his obituary written shortly
+        after AD 100 (Epist. 3,7): after a successful political career as a consul in AD 68 and
+        prosecutor and proconsul in Asia (probably AD 77) the propertied poet moved back 
+        to his estates in Campania. His ardent admiration for Cicero and, above all, Virgil 
+        is authenticated. He composed Punica, his only extant work, probably largely in the 
+        reign of Domitian...."</mads:note>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Silius_Italicus</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-n79-120267</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/27071645/</mads:url>
