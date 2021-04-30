@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
-    <!-- currently only contains Greek works -->
+    <!-- currently only contains Greek works in First1K -->
     <titleInfo>
         <title>Acta apostolorum apocrypha</title>
     </titleInfo>
@@ -19,13 +19,6 @@
         <namePart type="date">1830-1892</namePart>
         <role>
             <roleTerm type="text">editor</roleTerm>
-        </role>
-    </name>
-    <name type="corporate" authority="viaf" authorityURI="http://viaf.org/viaf/"
-        valueURI="http://viaf.org/viaf/695145858156323022501">
-        <namePart>Acta Pauli</namePart>
-        <role>
-            <roleTerm type="text">creator</roleTerm>
         </role>
     </name>
     <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
@@ -75,14 +68,22 @@
     <relatedItem type="constituent" otherType="volume" displayLabel="Vol 1">
         <part type="volume">
             <detail type="volume">
-                <title>Acta Petri. Acta Pauli. Acta Petri et Pauli. Acta Pauli et Theclae. Acta Thaddae</title>
+                <title>Acta apostolorum apocrypha</title>
                 <caption>Volume</caption>
                 <number>1</number>
+                <title>Acta Petri. Acta Pauli. Acta Petri et Pauli. Acta Pauli et Theclae. Acta Thaddae</title>
             </detail>
         </part>
         <originInfo>
             <dateIssued>1891</dateIssued>
         </originInfo>
+        <name type="corporate" authority="viaf" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/695145858156323022501">
+            <namePart>Acta Pauli</namePart>
+            <role>
+                <roleTerm type="text">creator</roleTerm>
+            </role>
+        </name>
         <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/25402935">
             <namePart>Lipsius, Richard Adelbert</namePart>
@@ -94,7 +95,6 @@
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/wu.89013863634</url>
         </location>
-
         <relatedItem type="constituent" otherType="work" displayLabel="Martyrium Pauli">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0388.002</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Martyrium Pauli">
@@ -148,12 +148,13 @@
     <relatedItem type="constituent" otherType="volume" displayLabel="Vol 2-Part 1">
         <part type="volume">
             <detail type="volume">
-                <title>Passio Andreae. Ex actis Andreae. Martyria Andreae. Acta Andreae et Matthiae. Acta Petri et Andreae. 
-                    Passio Bartholomaei. Acta Ioannis. Martyrium Matthiaei</title>
+                <title>Acta apostolorum apocrypha</title>
                 <caption>Volume</caption>
                 <number>2</number>
                 <caption>Part</caption>
                 <number>1</number>
+                <title>Passio Andreae. Ex actis Andreae. Martyria Andreae. Acta Andreae et Matthiae. Acta Petri et Andreae. 
+                    Passio Bartholomaei. Acta Ioannis. Martyrium Matthiaei</title>
             </detail>
         </part>
         <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
@@ -246,11 +247,12 @@
     <relatedItem type="constituent" otherType="volume" displayLabel="Vol 2-Part 2">
         <part type="volume">
             <detail type="volume">
-                <title>Acta Philippi et acta Thomae, accedunt Acta Barnabae</title>
+                <title>Acta apostolorum apocrypha</title>
                 <caption>Volume</caption>
                 <number>2</number>
                 <caption>Part</caption>
                 <number>2</number>
+                <title>Acta Philippi et acta Thomae, accedunt Acta Barnabae</title>
             </detail>
         </part>
         <originInfo>

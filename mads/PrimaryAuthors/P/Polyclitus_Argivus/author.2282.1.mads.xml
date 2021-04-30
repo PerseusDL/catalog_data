@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2282.1</identifier>
+<mads     xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/807647">
         <namePart>Polyclitus</namePart>
         <namePart type="termsOfAddress">Argivus</namePart>
         <namePart type="date">ca. tätig v450-410</namePart>
@@ -23,21 +25,18 @@
       <name type="personal">
         <namePart>Polykleitos</namePart>
         <namePart type="termsOfAddress">Erzgießer</namePart>
-        <namePart type="date">ca. tätig v450-410</namePart>
       </name>
     </variant>
     <variant type="other">
       <name type="personal">
         <namePart>Polykleitos</namePart>
         <namePart type="termsOfAddress">Künstler</namePart>
-        <namePart type="date">ca. tätig v450-410</namePart>
       </name>
     </variant>
     <variant type="other">
       <name type="personal">
         <namePart>Polykleitos</namePart>
         <namePart type="termsOfAddress">von Argos</namePart>
-        <namePart type="date">ca. tätig v450-410</namePart>
       </name>
     </variant>
     <variant type="other">
@@ -51,6 +50,7 @@
         <namePart type="termsOfAddress">von Argos</namePart>
       </name>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2282.1</identifier>
     <url displayLabel="VIAF">http://viaf.org/viaf/807647</url>
     <identifier type="uri">http://viaf.org/viaf/807647</identifier>
     <identifier type="tlg">1625</identifier>
