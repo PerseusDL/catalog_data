@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/103210690/">
       <mads:namePart>Phylarchus</mads:namePart>
       <mads:namePart type="termsOfAddress">of Athens</mads:namePart>
       <mads:namePart type="date">3rd cent. B.C</mads:namePart>
@@ -9,12 +10,12 @@
   </mads:authority>
   <mads:related type="equivalent" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x3A6;&#x3CD;&#x3BB;&#x3B1;&#x3C1;&#x3C7;o&#x3C2;</mads:namePart>
+      <mads:namePart>Φύλαρχoς</mads:namePart>
     </mads:name>
   </mads:related>
   <mads:variant type="other" lang="ara">
     <mads:name type="personal" authority="wiki">
-      <mads:namePart>&#x641;&#x64A;&#x644;&#x627;&#x631;&#x62E;&#x648;&#x633;</mads:namePart>
+      <mads:namePart>فيلارخوس</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
@@ -26,14 +27,12 @@
     <mads:name type="personal">
       <mads:namePart>Phylarchos</mads:namePart>
       <mads:namePart type="termsOfAddress">von Athen</mads:namePart>
-      <mads:namePart type="date">3. Jh. v. Chr.&#x200F; </mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Phylarchos</mads:namePart>
       <mads:namePart type="termsOfAddress">von Naukratis</mads:namePart>
-      <mads:namePart type="date">3. Jh. v. Chr.&#x200F; </mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
@@ -58,16 +57,16 @@
       <mads:namePart>Phylarch.</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:note type="source">P&#xE9;dech, P. Trois historiens m&#xE9;connus, 1989: t.p. (Phylarque)</mads:note>
   <mads:note type="source">Oxford class. dict. (Phylarchus of Athens; historian)</mads:note>
   <mads:note type="source">Encycl. Papyros-Larous (Phylarchos, Greek historian of the 3rd cent. B.C.)</mads:note>
   <mads:note type="notFound">Encyc. Brit. 1972</mads:note>
   <mads:identifier type="lccn">n  90715620 </mads:identifier>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Phylarchus</mads:url>
+  <mads:note type="source">
+    Brill's New Pauly: "P. from Athens or Naucratis (FGrH 81 T 1), Greek historian of the 3rd cent.
+    BC, one of the main representatives of 'tragic' or 
+    'mimetic' historiography.."</mads:note>
+    <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Phylarchus</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-n90-715620</mads:url>
   <mads:url displayLabel="Smith's Dictionary"/>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/103210690/</mads:url>

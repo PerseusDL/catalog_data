@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-  <identifier type="citeurn">urn:cite:perseus:author.2136.1</identifier>
+<mads  xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
   <authority>
-    <name type="personal" authority="naf">
+    <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/17003871">
       <namePart>Platonius</namePart>
       <namePart type="date">active 9th century-10th century</namePart>
     </name>
@@ -33,6 +35,7 @@
   <identifier type="lccn">no2007068284</identifier>
   <identifier type="tlg">1615</identifier>
   <fieldOfActivity>Grammarian</fieldOfActivity>
+  <identifier type="citeurn">urn:cite:perseus:author.2136.1</identifier>
   <url displayLabel="viaf">http://viaf.org/viaf/17003871</url>
   <extension>
     <description>List of related work identifiers</description>
