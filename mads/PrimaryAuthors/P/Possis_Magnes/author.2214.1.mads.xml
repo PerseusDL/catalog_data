@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2214.1</identifier>
+<mads 
+  xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/399120">
         <namePart>Possis</namePart>
         <namePart type="termsOfAddress">Magnes</namePart>
         <namePart type="date">v3./2. Jh</namePart>
@@ -17,18 +20,18 @@
       <name type="personal">
         <namePart>Possis</namePart>
         <namePart type="termsOfAddress">Historicus</namePart>
-        <namePart type="date">v3./2. Jh</namePart>
       </name>
     </variant>
     <variant type="other" lang="ger">
       <name type="personal">
         <namePart>Possis</namePart>
         <namePart type="termsOfAddress">von Magnesia</namePart>
-        <namePart type="date">v3./2. Jh</namePart>
       </name>
     </variant>
     <fieldOfActivity>Historian</fieldOfActivity>
-    <note type="source">Smith's Dictionary: "Possis, a Greek writer, mentioned only by Athenaeus, who cites two of his works, namely, the third book of his history of the Amazons...."</note>
+  <identifier type="citeurn">urn:cite:perseus:author.2214.1</identifier>
+    <note type="source">Smith's Dictionary: "Possis, a Greek writer, 
+      mentioned only by Athenaeus, who cites two of his works, namely, the third book of his history of the Amazons...."</note>
     <identifier type="tlg">2333</identifier>
     <url displayLabel="VIAF">http://viaf.org/viaf/399120</url>
     <url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=possis-bio-1</url>
