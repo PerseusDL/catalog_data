@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2317.1</identifier>
+<mads  xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/10236663">
         <namePart>Praxion</namePart>
         <namePart type="termsOfAddress">Megarensis</namePart>
         <namePart type="date">v4. Jh</namePart>
@@ -34,8 +36,10 @@
         <namePart type="date">v4. Jh</namePart>
       </name>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2317.1</identifier>
     <fieldOfActivity>Historian</fieldOfActivity>
-    <note type="source">Smith's Dictionary: "Praxion, a Greek writer, on the history of Megara (Suidas, Harpocrat. and Phot. s. v. Σκίρον ; Schol. ad Aristoph. Eccles. 18.)...."</note>
+    <note type="source">Smith's Dictionary: "Praxion, a Greek writer, on the history of
+      Megara (Suidas, Harpocrat. and Phot. s. v. Σκίρον ; Schol. ad Aristoph. Eccles. 18.)...."</note>
     <url displayLabel="VIAF">http://viaf.org/viaf/10236663</url>
     <url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=praxion-bio-1</url>
     <identifier type="uri">http://viaf.org/viaf/10236663</identifier>

@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf"  authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/44692856/">
       <mads:namePart>Ptolemaeus</mads:namePart>
       <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
       <mads:namePart type="date">ca. 1.Jh.v.Chr</mads:namePart>
@@ -9,7 +10,7 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x3A0;&#x3C4;&#x3BF;&#x3BB;&#x3B5;&#x3BC;&#x3B1;&#x1FD6;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Πτολεμαῖος</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -26,13 +27,7 @@
   <mads:identifier type="citeurn">urn:cite:perseus:author.1198.1</mads:identifier>
   <mads:identifier type="uri">http://viaf.org/viaf/44692856</mads:identifier>
   <mads:identifier type="tlg">1640</mads:identifier>
-  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="Worldcat Identities"/>
-  <mads:url displayLabel="Smith's Dictionary"/>
+  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>  
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/44692856</mads:url>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>

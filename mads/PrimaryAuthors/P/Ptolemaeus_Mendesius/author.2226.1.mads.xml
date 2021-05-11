@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2226.1</identifier>
+<mads  xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority lang="lat">
-      <name type="personal">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/24990818"> 
         <namePart>Ptolemaeus</namePart>
         <namePart type="termsOfAddress">Mendesius</namePart>
         <namePart type="date">ca. 1.Jh.n.Chr</namePart>
@@ -12,33 +14,29 @@
       <name type="personal">
         <namePart>Ptolemaeus</namePart>
         <namePart type="termsOfAddress">Historicus</namePart>
-        <namePart type="date">ca. 1.Jh.n.Chr</namePart>
       </name>
     </variant>
     <variant type="other" lang="lat">
       <name type="personal">
         <namePart>Ptolemaeus</namePart>
         <namePart type="termsOfAddress">Mendesicus</namePart>
-        <namePart type="date">ca. 1.Jh.n.Chr</namePart>
       </name>
     </variant>
     <variant type="other" lang="ger">
       <name type="personal">
         <namePart>Ptolemaios</namePart>
         <namePart type="termsOfAddress">Priester</namePart>
-        <namePart type="date">ca. 1.Jh.n.Chr</namePart>
       </name>
     </variant>
     <variant type="other" lang="ger">
       <name type="personal">
         <namePart>Ptolemaios</namePart>
         <namePart type="termsOfAddress">von Mendes</namePart>
-        <namePart type="date">ca. 1.Jh.n.Chr</namePart>
       </name>
     </variant>
     <fieldOfActivity>Historian</fieldOfActivity>
     <url displayLabel="VIAF">http://viaf.org/viaf/24990818</url>
-    <url displayLabel="Dataset description">http://viaf.org/viaf/data</url>
+  <identifier type="citeurn">urn:cite:perseus:author.2226.1</identifier>
     <identifier type="uri">http://viaf.org/viaf/24990818</identifier>
     <identifier type="tlg">1647</identifier>
     <extension>
