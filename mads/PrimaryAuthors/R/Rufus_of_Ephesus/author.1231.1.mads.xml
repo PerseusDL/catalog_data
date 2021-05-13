@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/42630594">
       <mads:namePart>Rufus</mads:namePart>
       <mads:namePart type="termsOfAddress">of Ephesus</mads:namePart>
     </mads:name>
@@ -35,12 +36,7 @@
       <mads:namePart type="termsOfAddress">Ephesius</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:variant type="other" lang="fre">
-    <mads:name type="personal">
-      <mads:namePart>Rufus</mads:namePart>
-      <mads:namePart type="termsOfAddress">d'Ephe&#x300;se</mads:namePart>
-    </mads:name>
-  </mads:variant>
+  
   <mads:variant type="other" lang="eng">
     <mads:name type="personal">
       <mads:namePart>Ruphus</mads:namePart>
@@ -58,18 +54,18 @@
       <mads:namePart>Ruf.</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:note type="source">Dict. of scientific biog., 1975 (Rufus of Ephesus, fl. late 1st cent. B.C. to mid-first cent. A.D. [?])</mads:note>
+  <mads:note type="source">Dict. of scientific biog., 1975 (Rufus of Ephesus, fl. 
+    late 1st cent. B.C. to mid-first cent. A.D. [?])</mads:note>
   <mads:note type="source">BM (Rufus, of Ephesus)</mads:note>
-  <mads:note type="source">Universal pronouncing dict. of biog. and myth., 1915 (Rufus or Ruphus, called Rufus Ephesius)</mads:note>
+  <mads:note type="source">Universal pronouncing dict. of biog. and myth., 1915 (Rufus 
+    or Ruphus, called Rufus Ephesius)</mads:note>
   <mads:note type="source">LC in OCLC, 6/3/83 (hdg.: Rufus, of Ephesus, usage: Rufus von Ephesos)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1231.1</mads:identifier>
   <mads:identifier type="lccn">n  83122630</mads:identifier>
   <mads:fieldOfActivity>Physician</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Medical Author</mads:fieldOfActivity>
-  
+  <mads:fieldOfActivity>Medical Author</mads:fieldOfActivity>  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Rufus_of_Ephesus</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n83-122630</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/42630594</mads:url>
   <mads:identifier type="tlg">0564</mads:identifier>
     <mads:identifier type="stoa">stoa0244e</mads:identifier>

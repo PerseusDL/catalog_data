@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2106.1</identifier>
+<mads  xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority lang="lat">
-      <name type="personal" authority="viaf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf"
+        valueURI="http://viaf.org/viaf/49614272">
         <namePart>Pythaenetus</namePart>
         <namePart type="termsOfAddress">Historicus</namePart>
         <namePart type="date">v3./2. Jh</namePart>
@@ -20,11 +22,13 @@
         <namePart type="date">v3./2. Jh</namePart>
       </name>
     </variant>
-    <note type="source">Smith's Dictionary: "Pythaentus, wrote a work on Aegina. (Athen. 13.589f; Schol. ad Apoll. Rhod. 4.1712; Schol. ad Pind. Ol. 9.107, ad Nem. 5.81, 6.53; Schol. ad Lycophr. 175.)...."</note>
+  <identifier type="citeurn">urn:cite:perseus:author.2106.1</identifier>
     <fieldOfActivity>Historian</fieldOfActivity>
     <url displayLabel="VIAF">http://viaf.org/viaf/49614272</url>
     <url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=pythaenetus-bio-1</url>
     <identifier type="uri">http://viaf.org/viaf/49614272</identifier>
-    <identifier type="tlg">1649</identifier>
-    
+    <identifier type="tlg">1649</identifier>   
+  <note type="source">Smith's Dictionary: "Pythaentus, wrote a work on Aegina.
+    (Athen. 13.589f; Schol. ad Apoll. Rhod. 4.1712; Schol. ad Pind. Ol. 9.107, ad Nem. 
+    5.81, 6.53; Schol. ad Lycophr. 175.)...."</note>
   </mads>

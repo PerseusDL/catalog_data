@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/27455952">
       <mads:namePart>Tullius</mads:namePart>
       <mads:namePart type="termsOfAddress">Sabinus</mads:namePart>
       <mads:namePart type="date">1. Jh. n. Chr</mads:namePart>
@@ -9,14 +10,13 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x3A3;&#x3B1;&#x3B2;&#x1FD6;&#x3BD;&#x3BF;&#x3C2;</mads:namePart>
-      <mads:namePart>&#x393;&#x3C1;&#x3B1;&#x3BC;&#x3BC;&#x3B1;&#x3C4;&#x3B9;&#x3BA;&#x3CC;&#x3C2;</mads:namePart>
+      <mads:namePart>Σαβῖνος</mads:namePart>
+      <mads:namePart>Γραμματικός</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Sabinus, Tullius</mads:namePart>
-      <mads:namePart type="date">1. Jh. n. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -29,7 +29,6 @@
     <mads:name type="personal">
       <mads:namePart>Tullius</mads:namePart>
       <mads:namePart type="termsOfAddress">Grammaticus</mads:namePart>
-      <mads:namePart type="date">1. Jh. n. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -47,11 +46,13 @@
   <mads:identifier type="uri">http://viaf.org/viaf/27455952</mads:identifier>
   <mads:identifier type="tlg">1745</mads:identifier>
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="Worldcat Identities"/>
+  <mads:note type="source">Brill's New Pauly: "S. Grammatikos Epigrammatist, Named in
+    the Anthologia Palatina as the author of an epigram probably originating from the Garland 
+    of Philippus [22] (Anth. Pal. 6,158)..... He was possibly identical with Tullius S.
+    (according to Planudes, however, with T. Geminus...), the author of a solemn poem...
+    (also from the Garland of Philip) about the highly unusual death of a mouse (Anth. Pal.
+    9,410)..." Albiani, Maria Grazia (Bologna) "Sabinus." Brill’s New Pauly. Brill Online, 2013.
+    Reference. Tufts University Library. 30 May 2013 .</mads:note>  
   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=sabinus-bio-6</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/27455952</mads:url>
   <mads:extension>

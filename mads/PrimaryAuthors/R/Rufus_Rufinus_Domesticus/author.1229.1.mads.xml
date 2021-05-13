@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal" authority="viaf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/4961429"> 
       <mads:namePart>Rufus</mads:namePart>
       <mads:namePart type="termsOfAddress">Domesticus</mads:namePart>
       <mads:namePart type="date">ca. 3. Jh</mads:namePart>
@@ -9,35 +10,31 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x1FEC;&#x3BF;&#x3C5;&#x3C6;&#x1FD6;&#x3BD;&#x3BF;&#x3C2;</mads:namePart>
-      <mads:namePart type="termsOfAddress">&#x394;&#x3BF;&#x3BC;&#x3AD;&#x3C3;&#x3C4;&#x3B9;&#x3BA;&#x3BF;</mads:namePart>
+      <mads:namePart>Ῥουφῖνος</mads:namePart>
+      <mads:namePart type="termsOfAddress">Δομέστικο</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Domesticus, Rufus</mads:namePart>
-      <mads:namePart type="date">ca. 3. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Rufinus</mads:namePart>
       <mads:namePart type="termsOfAddress">Domesticus</mads:namePart>
-      <mads:namePart type="date">ca. 3. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Rufinus</mads:namePart>
       <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
-      <mads:namePart type="date">ca. 3. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Rufus</mads:namePart>
       <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
-      <mads:namePart type="date">ca. 3. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -55,10 +52,11 @@
   <mads:identifier type="uri">http://viaf.org/viaf/49614293</mads:identifier>
   <mads:identifier type="tlg">4041</mads:identifier>
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-    
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="Worldcat Identities"/>
-  <mads:url displayLabel="Smith's Dictionary"/>
+  <mads:note type="source">Brill's New Pauly: "R. (Rufus?) Domesticus Epigrammatist, An 
+    epigrammatist of the Cycle of Agathias distinguished by the title 'imperial bodyguard'. ...
+    single erotic monostich by R. survives (ibid. 5,284: ascribed by Planudes to a 'Rufus').... 
+    Albiani, Maria Grazia (Bologna). "Rufinus." Brill’s New Pauly. Brill Online, 2013. Reference.
+    Tufts University Library. 14 May 2013"</mads:note>    
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/49614293</mads:url>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>

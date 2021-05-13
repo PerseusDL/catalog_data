@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/53033223">
       <mads:namePart>Pyrrhus</mads:namePart>
       <mads:namePart type="termsOfAddress">King of Epirus</mads:namePart>
       <mads:namePart type="date">318 B.C.-272 B.C</mads:namePart>
@@ -9,21 +10,12 @@
   </mads:authority>
   <mads:related type="equivalent" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x3A0;&#x3CD;&#x3C1;&#x3C1;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Πύρρος</mads:namePart>
     </mads:name>
   </mads:related>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Pirr</mads:namePart>
-      <mads:namePart type="termsOfAddress">T&#x361;Sar&#x2B9;</mads:namePart>
-      <mads:namePart type="date">318 B.C.-272 B.C</mads:namePart>
-    </mads:name>
-  </mads:variant>
   <mads:variant type="other" lang="ita">
     <mads:name type="personal">
       <mads:namePart>Pirro</mads:namePart>
-      <mads:namePart type="termsOfAddress">King of Epirus</mads:namePart>
-      <mads:namePart type="date">318 B.C.-272 B.C</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
@@ -36,38 +28,28 @@
     <mads:name type="personal">
       <mads:namePart>Pirro</mads:namePart>
       <mads:namePart type="termsOfAddress">Re di Epiro</mads:namePart>
-      <mads:namePart type="date">318 B.C.-272 B.C</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Pyrrhus</mads:namePart>
       <mads:namePart type="termsOfAddress">King of Epirus</mads:namePart>
-      <mads:namePart type="date">318-272 B.C</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Pyrros</mads:namePart>
       <mads:namePart type="termsOfAddress">King of Epirus</mads:namePart>
-      <mads:namePart type="date">318 B.C.-272 B.C</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:note type="source">Garouphalias, P. Pyrros, ho Vasileus t&#x113;s &#x112;peirou, 1972 (subj.) t.p. (Pyrros)</mads:note>
-  <mads:note type="source">Taranto e gli xeniko&#x131;&#x300; stratego&#x131;&#x301;, 1998: p. 113 (Pirro)</mads:note>
-  <mads:note type="source">Encic. ital., 1935 (hdg.: Pirro, Re di Epiro; b. 319 or 318 B.C.; d. 273 or 272 B.C.)</mads:note>
-  <mads:note type="source">T&#x361;Sar&#x2B9; Pirr, 2002</mads:note>
   <mads:identifier type="lccn">n  82074292 </mads:identifier>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
   <mads:fieldOfActivity>King</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Pyrrhus_of_Epirus</mads:url>
+  <mads:note type="source">Brill's New Pauly: "Pyrrhus, King of Epirus, 306-302 and 297-272 BC,
+    and of Macedonia 288-284..."</mads:note>
+    <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Pyrrhus_of_Epirus</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n82-74292</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
-  <mads:url displayLabel="VIAF">http://viaf.org/viaf/53033223
-  </mads:url>
+  <mads:url displayLabel="VIAF">http://viaf.org/viaf/53033223</mads:url>
   <mads:identifier type="tlg">2160</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1204.1</mads:identifier>
   <mads:extension>
