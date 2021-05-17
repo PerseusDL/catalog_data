@@ -9610,6 +9610,98 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
+    <mods displayLabel="Book of Isaiah-Ottley-Clay-1904-First1K">
+        <!-- Catalog record is for Volume 1 only -->
+        <titleInfo>
+            <nonSort xml:space="preserve">The</nonSort>
+            <title>
+                book of Isaiah according to the Septuagint (Codex alexandrinus)
+            </title>
+        </titleInfo>
+        <titleInfo type="uniform">
+            <title>Bible. Septuagint</title>
+            <partName>Isaiah. Greek.</partName>
+        </titleInfo>
+        <titleInfo type="uniform">
+            <title>Bible</title>
+            <partName>Isaiah</partName>
+        </titleInfo>
+        <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+            displayLabel="http://viaf.org/viaf/63914566/">
+            <namePart>Ottley, Richard Rusden,</namePart>
+            <namePart type="date">1864-1946</namePart>
+            <role>
+                <roleTerm type="text">editor</roleTerm>
+            </role>
+            <role>
+                <roleTerm type="text">translator</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">enk</placeTerm>
+            </place>
+            <dateIssued point="start" encoding="marc">1904</dateIssued>
+            <dateIssued point="end" encoding="marc">1906</dateIssued>
+            <issuance>monographic</issuance>
+            <place>
+                <placeTerm type="text">London</placeTerm>
+            </place>
+            <publisher>C. J. Clay and sons</publisher>
+            <dateIssued>1904-06</dateIssued>
+        </originInfo>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+        </language>
+        <physicalDescription>
+            <extent>2 v. 19 cm.</extent>
+        </physicalDescription>
+        <classification authority="lcc">BS1514 .G807</classification>  
+        <identifier type="lccn">05010567</identifier>
+        <identifier type="oclc">522215003</identifier>
+        <location>
+            <url displayLabel="Worldcat">https://www.worldcat.org/oclc/522215003</url>
+        </location>
+        <relatedItem type="constituent" otherType="volume" displayLabel="Vol 1">
+            <part type="volume">
+                <detail type="volume">
+                    <caption>Volume</caption>
+                    <number>1</number>
+                </detail>
+            </part>
+            <originInfo>
+                <dateIssued>1904</dateIssued>
+            </originInfo>
+            <location>
+                <url displayLabel="Open Content Alliance">https://archive.org/details/IsaiahAccordingToTheSeptuagint</url>
+            </location>            
+        <relatedItem type="constituent" otherType="work" displayLabel="Isaias">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0527.tlg048</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Isaiah">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0527.tlg048.opp-eng2</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0527.tlg048.opp-eng2</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0527/tlg048/tlg0527.tlg048.opp-eng2.xml</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Isaias">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0527.tlg048.opp-grc2</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0527.tlg048.opp-grc2</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0527/tlg048/tlg0527.tlg048.opp-grc2.xml</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+        </relatedItem>
+    </mods>
     <mods displayLabel="Breviarium historiae romanae-Eutropius-Santini-Teubner-1979">
         <titleInfo lang="lat" type="uniform">
             <title>Breviarium historiae romanae</title>
@@ -11620,6 +11712,15 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression" displayLabel="Tabula">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg1247.tlg001.opp-grc1</identifier>
             </relatedItem>
+                  <relatedItem type="constituent" otherType="expression" displayLabel="Tabula">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg1247.tlg001.1st1K-grc1</identifier>
+                      <!-- Not yet in Scaife Viewer or Github yet
+                    <location>
+                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg1247.tlg001.1st1K-grc1</url>                                      
+                    <location>
+                        <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/tlg1247/tlg001/tlg1247.tlg001.1st1K-grc1.xml</url>
+                    </location>   -->
+                </relatedItem>
         </relatedItem>
     </mods>
     <mods displayLabel="Characters-Theophrastus-Immisch-Teubner-1923">
@@ -25448,6 +25549,69 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Ecloga chronographica">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg3045.tlg001.opp-gre1</identifier>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods displayLabel="Ecclesiasticus-Hart-Cambridge-1909-1st1K">
+        <titleInfo>
+            <title>Ecclesiasticus</title>
+            <subTitle>the Greek text of Codex 248</subTitle>
+        </titleInfo>
+        <name authority="viaf" type="personal"  authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/89070715/">
+            <namePart>Hart, J.H.A. (John Henry Arthur)</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>            
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <note>edited with a textual commentary and prolegomena</note>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">enk</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Cambridge</placeTerm>
+            </place>
+            <publisher>Cambridge University Press</publisher>
+            <dateIssued>1909</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <language objectPart="notes">
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent></extent>
+        </physicalDescription>
+        <subject authority="lcsh">
+            <topic>Bible</topic>
+            <topic>O.T.</topic>
+            <topic>Apocrypha</topic>
+            <topic>Ecclesiasticus</topic>
+        </subject>
+        <identifier type="oclc">689315891</identifier>
+        <location>
+            <url displayLabel="Open Content Alliance">https://archive.org/details/ecclesiasticusgr00hart/</url>
+        </location>
+        <location>
+            <url displayLabel="Worldcat">https://www.worldcat.org/title/ecclesiasticus-the-greek-text-of-codex-248/oclc/689315891</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/uiuo.ark:/13960/t4rj6b27x</url>
+        </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="Ecclesiasticus">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0527.tlg034</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Ecclesiasticus">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0527.tlg034.1st1K-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0527.tlg034.1st1K-grc1</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0527/tlg034/tlg0527.tlg034.1st1K-grc1.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
