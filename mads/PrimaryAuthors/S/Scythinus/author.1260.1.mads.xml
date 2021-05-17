@@ -6,7 +6,8 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-      <mads:name type="personal">
+      <mads:name type="personal" authority="viaf" authorityURI="http://www.viaf.org/viaf/"
+          valueURI="http://www.viaf.org/viaf/76706462/">
          <mads:namePart>Scythinus</mads:namePart>
          <mads:namePart type="termsOfAddress">Teius</mads:namePart>
          <mads:namePart type="date">fl.4. Jh. v. Chr</mads:namePart>
@@ -21,21 +22,21 @@
       <mads:name type="personal">
          <mads:namePart>Skythinos</mads:namePart>
          <mads:namePart type="termsOfAddress">von Teos</mads:namePart>
-         <mads:namePart type="date">fl.4. Jh. v. Chr</mads:namePart>
+        
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Scythinus</mads:namePart>
          <mads:namePart type="termsOfAddress">Poeta</mads:namePart>
-         <mads:namePart type="date">fl.4. Jh. v. Chr</mads:namePart>
+        
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
       <mads:name type="personal">
          <mads:namePart>Scitino</mads:namePart>
          <mads:namePart type="termsOfAddress">di Teo</mads:namePart>
-         <mads:namePart type="date">fl.4. Jh. v. Chr</mads:namePart>
+        
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="cat">
@@ -51,29 +52,25 @@
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Skythinos</mads:namePart>
-         <mads:namePart type="termsOfAddress">Grammatiker</mads:namePart>
-         <mads:namePart type="date">fl.4. Jh. v. Chr</mads:namePart>
+         <mads:namePart type="termsOfAddress">Grammatiker</mads:namePart>        
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Skythinos</mads:namePart>
-         <mads:namePart type="termsOfAddress">Dichter</mads:namePart>
-         <mads:namePart type="date">fl.4. Jh. v. Chr</mads:namePart>
+         <mads:namePart type="termsOfAddress">Dichter</mads:namePart>        
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Scythinus</mads:namePart>
-         <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
-         <mads:namePart type="date">fl.4. Jh. v. Chr</mads:namePart>
+         <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>        
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Scythinus</mads:namePart>
-         <mads:namePart type="termsOfAddress">Philosophus</mads:namePart>
-         <mads:namePart type="date">fl.4. Jh. v. Chr</mads:namePart>
+         <mads:namePart type="termsOfAddress">Philosophus</mads:namePart>        
       </mads:name>
   </mads:variant>
   <mads:variant type="abbreviation">
@@ -84,13 +81,18 @@
   <mads:identifier type="citeurn">urn:cite:perseus:author.1260.1</mads:identifier>
   <mads:identifier type="tlg">0259</mads:identifier>
   <mads:identifier type="tlg">2680</mads:identifier>
-  <mads:fieldOfActivity>Iambic Poet</mads:fieldOfActivity>
-  
+  <mads:fieldOfActivity>Iambic Poet</mads:fieldOfActivity>  
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
+    <mads:note type="source">Brill's New Pauly: "Iambic poet from Teos (Steph. Byz. s. v. Τέως), perhaps
+        5th or 4th century B.C. S. composed a poem expounding Heraclitus' [1] philosophy 
+        (cited in Diog. Laert. 9,16 = fr. 46 Wehrli), perhaps entitled On Nature (περὶ φύσεως),
+        as in the lemma of Stob. 1,8,43 citing fr. 2 W. on 'time', either in prose or in corrupted
+        trochaic tetrameters [1], the metre of S.' two lines about Apollo's lyre cited Plut.
+        de Pyth. or. 16,402a. Ath. 11,461e cites an account of Herakles' conquests from 
+        an apparently prose ‘historía’ (FGrH 13 F 1)....." from Bowie, Ewen (Oxford). "Scythinus." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and</mads:note>
+    <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 3, 1867, p. 763: "Scythinus,
+        of Teos, an iambic poet mentiond by Stephanus of Byzantium...He turned into great verse the work of the philosopher Heracleitus 
+        (Diog. Laert. ix. 16)...."</mads:note>
   <mads:url displayLabel="VIAF">http://www.viaf.org/viaf/76706462/</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0003.001;didno=ACL3129.0003.001;view=image;seq=00000771</mads:url>
   <mads:extension>

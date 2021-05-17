@@ -1,23 +1,24 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/78770488/">
       <mads:namePart>Sappho</mads:namePart>
     </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x3A3;&#x3B1;&#x3C0;&#x3C6;&#x3CE;</mads:namePart>
+      <mads:namePart>Σαπφώ</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ara">
     <mads:name type="personal" authority="">
-      <mads:namePart>&#x635;&#x627;&#x641;&#x648;</mads:namePart>
+      <mads:namePart>صافو</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="bul">
     <mads:name type="personal">
-      <mads:namePart>&#x421;&#x430;&#x444;&#x43E;</mads:namePart>
+      <mads:namePart>Сафо</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="cat">
@@ -28,12 +29,12 @@
   </mads:variant>
   <mads:variant type="other" lang="chi">
     <mads:name type="personal">
-      <mads:namePart>&#x838E;&#x5B5A;</mads:namePart>
+      <mads:namePart>莎孚</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="cze">
     <mads:name type="personal">
-      <mads:namePart>Sapf&#xF3;</mads:namePart>
+      <mads:namePart>Sapfó</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="dan">
@@ -48,12 +49,12 @@
   </mads:variant>
   <mads:variant type="other" lang="heb">
     <mads:name type="personal">
-      <mads:namePart>&#x5E1;&#x5D0;&#x5E4;&#x5E4;&#x5D5;</mads:namePart>
+      <mads:namePart>סאפפו</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="hun">
     <mads:name type="personal">
-      <mads:namePart>Szapph&#xF3;</mads:namePart>
+      <mads:namePart>Szapphó</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
@@ -63,22 +64,17 @@
   </mads:variant>
   <mads:variant type="other" lang="jap">
     <mads:name type="personal">
-      <mads:namePart>&#x30B5;&#x30C3;&#x30DD;&#x30FC;</mads:namePart>
+      <mads:namePart>サッポー</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="kor">
     <mads:name type="personal">
-      <mads:namePart>&#xC0AC;&#xD3EC; (&#xC2DC;&#xC778;)</mads:namePart>
+      <mads:namePart>사포 (시인)</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="pol">
     <mads:name type="personal">
       <mads:namePart>Safona</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="rus" transliteration="rom">
-    <mads:name type="personal">
-      <mads:namePart>&#x421;&#x430;&#x43F;&#x444;&#x43E;</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="spa">
@@ -90,11 +86,6 @@
   <mads:variant type="other" lang="scr">
     <mads:name type="personal">
       <mads:namePart>Sapfa</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Sap&#x2BB;o</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -114,30 +105,26 @@
     </mads:name>
   </mads:variant>
   <mads:note type="source">Mascioni, G. Saffo, 1981: t.p. (Saffo)</mads:note>
-  <mads:note type="source">Sap&#xCA;&#xBB;os poeturi samqaro, 1991</mads:note>
   <mads:note type="source">InU/3 cent. drama files (usage: Saffo, Sapphus, Sapfo, Sapho, Safo)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1245.1</mads:identifier>
   <mads:identifier type="lccn">n 50047921 </mads:identifier>
   <mads:fieldOfActivity>Lyric Poet</mads:fieldOfActivity>
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
   <mads:fieldOfActivity>Poetess</mads:fieldOfActivity>
-  
-  
-  
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology: " Σαπφώ, (or, in her own Aeolic dialect, Ψάπφα), one 
+    of the two great leaders of the Aeolian school of lyric poetry (Alcaeus being the other), was a native of Mytilene, or, as some said, of Eresos, in Lesbos..."   
+  </mads:note>
+  <mads:note type="source"> Brill's New Pauly: "Sappho, Lyric poet, born at Mytilene or Eresus on Lesbos.
+    Was regularly synchronized in Antiquity with the poet Alcaeus.."</mads:note>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Sappho</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-n50-47921</mads:url>
-  <mads:url displayLabel="VIAF">http://viaf.org/viaf/19568415</mads:url>
+  <mads:url displayLabel="VIAF">http://viaf.org/viaf/78770488/</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=sappho-bio-1</mads:url>
   <mads:identifier type="tlg">0009</mads:identifier>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
     <mads:identifier type="tlg">0009.001</mads:identifier>
     <mads:identifier type="tlg">0009.002</mads:identifier>
-  </mads:extension>
-  <mads:extension>
-    <mads:gender>
-      <mads:genderTerm>female</mads:genderTerm>
-    </mads:gender>
   </mads:extension>
   <mads:recordInfo>
     <mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource>

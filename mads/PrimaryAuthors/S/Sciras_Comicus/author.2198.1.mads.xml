@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2198.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/42230605">
 	        <namePart>Sciras</namePart>
 	        <namePart type="termsOfAddress">Comicus</namePart>
       </name>
@@ -18,7 +20,10 @@
 	        <namePart type="termsOfAddress">von Tarentum</namePart>
       </name>
     </variant>
-    <note type="source">Smith's Dictionary: "Sciras, of Tarentum, was one of the followers of Rhinthon in that peculiar sort of comedy, or rather burlesque tragedy, which was cultivated by the Dorians of Magna Graecia, and especially at Tarentum...."</note>
+  <identifier type="citeurn">urn:cite:perseus:author.2198.1</identifier>
+    <note type="source">Smith's Dictionary: "Sciras, of Tarentum, was one of the followers 
+      of Rhinthon in that peculiar sort of comedy, or rather burlesque tragedy, which was 
+      cultivated by the Dorians of Magna Graecia, and especially at Tarentum...."</note>
     <note type="source">Brill's New Pauly: "Sciras, Poet of 'Italic comedy'..."</note>
     <fieldOfActivity>Comic Poet</fieldOfActivity>
     <fieldOfActivity>Playwright</fieldOfActivity>

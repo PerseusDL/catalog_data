@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2243.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
       <name>
 	        <namePart>Scholia in Iamblichum Philosophum</namePart>
@@ -17,14 +18,10 @@
 	        <namePart>Scholia in librum Iamblichi in Nicomachi arithmeticam introductionem</namePart>
       </name>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2243.1</identifier>
     <identifier type="tlg">5027</identifier>
     <extension>
       <description>List of related work identifiers</description>
-      <identifier xmlns:mads="http://www.loc.gov/mads/v2"
-                  xmlns:mods="http://www.loc.gov/mods/v3"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                  xmlns=""
-                  type="tlg">5027.001</identifier>
+      <identifier type="tlg">5027.001</identifier>
     </extension>    
   </mads>
