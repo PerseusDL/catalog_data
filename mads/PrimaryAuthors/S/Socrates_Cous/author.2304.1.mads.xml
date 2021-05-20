@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2304.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/61941374">
         <namePart>Socrates</namePart>
         <namePart type="termsOfAddress">Cous</namePart>
         <namePart type="date">Person der Antike</namePart>
@@ -15,8 +17,9 @@
         <namePart type="date">Person der Antike</namePart>
       </name>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2304.1</identifier>  
     <fieldOfActivity>Historian</fieldOfActivity>
-    <url>http://viaf.org/viaf/61941374</url>
+    <url displayLabel="VIAF">http://viaf.org/viaf/61941374</url>
     <identifier type="uri">http://viaf.org/viaf/61941374</identifier>
     <identifier type="fhg">fhg0541</identifier>
     <extension>
