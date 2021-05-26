@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/76706491/">
       <mads:namePart>Straton</mads:namePart>
       <mads:namePart type="termsOfAddress">Comicus</mads:namePart>
       <mads:namePart type="date">4./3. Jh. v. Chr</mads:namePart>
@@ -9,28 +10,13 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x3A3;&#x3C4;&#x3C1;&#x3AC;&#x3C4;&#x3C9;&#x3BD;</mads:namePart>
+      <mads:namePart>Στράτων</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Strato</mads:namePart>
       <mads:namePart type="termsOfAddress">Comicus</mads:namePart>
-      <mads:namePart type="date">4./3. Jh. v. Chr</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Straton</mads:namePart>
-      <mads:namePart type="termsOfAddress">Komo&#x308;diendichter</mads:namePart>
-      <mads:namePart type="date">4./3. Jh. v. Chr</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Straton</mads:namePart>
-      <mads:namePart type="termsOfAddress">Dichter der Neuen Komo&#x308;die</mads:namePart>
-      <mads:namePart type="date">4./3. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -45,12 +31,7 @@
     </mads:name>
   </mads:variant>
   <mads:fieldOfActivity>Comic Poet</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|102406731</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/76706491/</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1334.1</mads:identifier>
   <mads:identifier type="tlg">0507</mads:identifier>
   <mads:extension>

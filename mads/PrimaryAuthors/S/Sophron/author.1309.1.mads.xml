@@ -6,7 +6,8 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+          valueURI="http://viaf.org/viaf/268615531/">
          <mads:namePart>Sophron</mads:namePart>
          <mads:namePart type="date">ca. 470-400 B.C</mads:namePart>
       </mads:name>
@@ -72,13 +73,7 @@
          <mads:namePart>Sofron</mads:namePart>
          <mads:namePart type="date">ca 470-ca 400 f. Kr.‏</mads:namePart>
       </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-      <mads:name type="personal">
-         <mads:namePart>Sòfrone</mads:namePart>
-         <mads:namePart type="date">ca. 470-400 B.C</mads:namePart>
-      </mads:name>
-  </mads:variant>
+  </mads:variant>  
   <mads:variant type="other">
       <mads:name type="personal" authority="tlg">
          <mads:namePart>Sophron</mads:namePart>
@@ -96,8 +91,16 @@
          <mads:namePart>Sophr.</mads:namePart>
       </mads:name>
   </mads:variant>
+    <mads:note type="source">Brill's New Pauly: "Sophron, Poet, 2nd half of the 5th cent. BC,
+        According to Suda σ 893, approximately contemporaneous with (Arta)Xerxes in Persia and 
+        Euripides in Athens, i.e. from the 2nd half of the 5th cent. BC...... became famous for
+        his mimoi, quasi-dramatic dialogues or monologues in a kind of rhythmic prose that 
+        depicted everyday characters for humorous purposes through mime and language...." from Furley, William D. (Heidelberg)
+        Ameling, Walter (Jena). "Sophron." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and
+        Helmuth Schneider . Brill, 2011. Brill Online. Tufts University Library. 13 April 2011</mads:note>
   <mads:note type="source">Theophrastus. Characters, 2002: t.p. (Sophron)</mads:note>
-  <mads:note type="source">Oxford classical dic., 1949: p. 851 (Sophron, c. 470-400 B.C., Syracusan writer of mimes)</mads:note>
+  <mads:note type="source">Oxford classical dic., 1949: p. 851 (Sophron, c. 470-400 B.C., 
+      Syracusan writer of mimes)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1309.1</mads:identifier>
   <mads:identifier type="lccn">n 2002028583</mads:identifier>
   <mads:fieldOfActivity>Comic Poet</mads:fieldOfActivity>

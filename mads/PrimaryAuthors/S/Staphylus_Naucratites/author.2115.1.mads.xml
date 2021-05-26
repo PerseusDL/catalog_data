@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2115.1</identifier>
+<mads  xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd" >
     <authority lang="lat">
-      <name type="personal" authority="viaf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/7766147270710735700008">
         <namePart>Staphylus</namePart>
         <namePart type="termsOfAddress">Naucratites</namePart>
         <namePart type="date">v3./2. Jh</namePart>
@@ -49,9 +51,12 @@
         <namePart type="termsOfAddress">of Naucratis</namePart>
       </name>
     </variant>
-    <note type="source">Smith's Dictionary: "Staphylus, of Naucratis, in Egypt, a Greek writer quoted by Strabo (x. p.475), Pliny (Plin. Nat. 5.31), and Athenaeus (ii. p. 45c.), as well as by the scholiasts, wrote a work on Thessaly...."</note>
+    <note type="source">Smith's Dictionary: "Staphylus, of Naucratis, in Egypt, a
+      Greek writer quoted by Strabo (x. p.475), Pliny (Plin. Nat. 5.31), and Athenaeus 
+      (ii. p. 45c.), as well as by the scholiasts, wrote a work on Thessaly...."</note>
     <fieldOfActivity>Historian</fieldOfActivity>
-    <url>http://viaf.org/viaf/7766147270710735700008</url>
+    <url displayLabel="VIAF">http://viaf.org/viaf/7766147270710735700008</url>
+  <identifier type="citeurn">urn:cite:perseus:author.2115.1</identifier>
     <url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=staphylus-bio-2</url>
     <identifier type="uri">http://viaf.org/viaf/7766147270710735700008</identifier>
     <identifier type="tlg">2182</identifier>

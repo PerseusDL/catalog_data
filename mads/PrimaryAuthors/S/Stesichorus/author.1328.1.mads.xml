@@ -1,13 +1,14 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/18015147/">
       <mads:namePart>Stesichorus</mads:namePart>
     </mads:name>
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x3A3;&#x3C4;&#x3B7;&#x3C3;&#x3AF;&#x3C7;&#x3BF;&#x3C1;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Στησίχορος</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -22,11 +23,6 @@
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
-      <mads:namePart>Ste&#xCC;&#x84;sichoros</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
       <mads:namePart>Stesicoro</mads:namePart>
     </mads:name>
   </mads:variant>
@@ -34,14 +30,9 @@
   <mads:note type="source">Stesicoro, c1984: t.p. (Stesicoro)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1328.1</mads:identifier>
   <mads:identifier type="lccn">n  81003957 </mads:identifier>
-  <mads:fieldOfActivity>Lyric Poet</mads:fieldOfActivity>
-  
-  
-  
+  <mads:fieldOfActivity>Lyric Poet</mads:fieldOfActivity>  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Stesichorus</mads:url>
-  <mads:url displayLabel="Worldcat Identities"/>
-  <mads:url displayLabel="Smith's Dictionary"/>
-  <mads:url displayLabel="VIAF"/>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/18015147/</mads:url>
   <mads:identifier type="tlg">0292</mads:identifier>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
