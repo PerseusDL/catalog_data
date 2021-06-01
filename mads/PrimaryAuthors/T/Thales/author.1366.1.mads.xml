@@ -6,7 +6,8 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority lang="lat">
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/290923996/">
          <mads:namePart>Thales</mads:namePart>
          <mads:namePart type="date">ca. 634-ca. 546 B.C</mads:namePart>
       </mads:name>
@@ -75,10 +76,12 @@
          <mads:namePart>Thal.</mads:namePart>
       </mads:name>
   </mads:variant>
+    <mads:note type="source">Brill's New Pauly: "Thales, One of the Seven Sages, philosopher,
+        astronomer and mathematician, said to be the founder of the Milesian School, 1st half
+        of 6th cent. BC...."</mads:note>
   <mads:note type="source">The Power of love over reason ... 1730?: p. 3, etc. (Thales)</mads:note>
-  <mads:note type="source">Enc. Brit., 15th ed. (Thales of Miletus, fl. 6th cent. B.C.;
+  <mads:note type="source">Enc. Brit., 15th ed. (Thales of Miletus, fl. 6th cent. B.C.,
       Philosopher, no writings survive)</mads:note>
-  <mads:note type="source">Collier&amp;#039;s enc., c1984 (Thales, ca. 640-546 B.C.)</mads:note>
   <mads:note type="source">Enc. Amer. (Thales, c. 634-c. 546)</mads:note>
   <mads:note type="source">Ox. class. dict., 2nd ed. (Thales)</mads:note>
   <mads:note type="source">Enc. of phil., 1967 (Thales of Miletus, fl. ca. 580 B.C.)</mads:note>
@@ -94,11 +97,8 @@
   <mads:fieldOfActivity>Pre-Socratic</mads:fieldOfActivity>
   <mads:fieldOfActivity>Lyric Poet</mads:fieldOfActivity>
   <mads:fieldOfActivity>Septem Sapientes</mads:fieldOfActivity>
-  
-  
-  
-  
-  <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Thales</mads:url>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/290923996/</mads:url> 
+   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Thales</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-n86-24245</mads:url>
   <mads:url displayLabel="Smith's Dictionary">.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=thales-bio-1</mads:url>
   <mads:extension>

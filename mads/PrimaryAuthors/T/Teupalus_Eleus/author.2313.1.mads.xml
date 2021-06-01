@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2313.1</identifier>
-    <authority lang="lat">
-      <name type="personal">
+<mads  xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
+  <authority lang="lat">
+    <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/54537404">
 	        <namePart>Teupalus</namePart>
 	        <namePart type="termsOfAddress">Eleus</namePart>
 	        <namePart type="date">Person der Antike</namePart>
@@ -33,6 +35,7 @@
     <url displayLabel="VIAF">http://viaf.org/viaf/54537404</url>
     <identifier type="uri">http://viaf.org/viaf/54537404</identifier>
     <identifier type="tlg">2288</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2313.1</identifier>  
     <extension>
       <description>List of related work identifiers</description>
       <identifier type="tlg">2288.001</identifier>

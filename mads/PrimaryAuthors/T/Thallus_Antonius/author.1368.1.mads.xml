@@ -6,7 +6,8 @@
            version="2.0"
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable">
-      <mads:name type="personal">
+      <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+          valueURI="http://viaf.org/viaf/52081591">
          <mads:namePart>Thallus, Antonius</mads:namePart>
          <mads:namePart type="date">1. Jh. v. Chr./1. Jh. n. Chr</mads:namePart>
       </mads:name>
@@ -14,48 +15,41 @@
   <mads:related type="equivalent">
       <mads:name type="personal">
          <mads:namePart>Thallus, Antonius</mads:namePart>
-         <mads:namePart type="date">1. Jh. v. Chr./1. Jh. n. Chr</mads:namePart>
       </mads:name>
   </mads:related>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Antonius</mads:namePart>
          <mads:namePart type="termsOfAddress">Thallus</mads:namePart>
-         <mads:namePart type="date">1. Jh. v. Chr./1. Jh. n. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Thallos, Antonios</mads:namePart>
-         <mads:namePart type="date">1. Jh. v. Chr./1. Jh. n. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Thallos</mads:namePart>
          <mads:namePart type="termsOfAddress">Epigrammatiker</mads:namePart>
-         <mads:namePart type="date">1. Jh. v. Chr./1. Jh. n. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Thallos</mads:namePart>
          <mads:namePart type="termsOfAddress">Grieche</mads:namePart>
-         <mads:namePart type="date">1. Jh. v. Chr./1. Jh. n. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Thallos</mads:namePart>
          <mads:namePart type="termsOfAddress">von Milet</mads:namePart>
-         <mads:namePart type="date">1. Jh. v. Chr./1. Jh. n. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Thallus</mads:namePart>
          <mads:namePart type="termsOfAddress">Argivus</mads:namePart>
-         <mads:namePart type="date">1. Jh. v. Chr./1. Jh. n. Chr</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -69,17 +63,19 @@
   <mads:identifier type="uri">http://viaf.org/viaf/52081591</mads:identifier>
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
   <mads:note type="source">TLG Canon of Greek Authors and Works</mads:note>
-  <mads:note type="source">Thallus of Miletus, an epigrammatic poet, five of whose epigrams are preserved in the Greek Anthology.  
+  <mads:note type="source">Thallus of Miletus, an epigrammatic poet, five of whose 
+      epigrams are preserved in the Greek Anthology.  
       Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 3
       1870, p.  1020:, "</mads:note>
-  <mads:note type="source">"Antonius Thallus, Epigrammatic poet from Miletus... lived in the 2nd half of the 1st cent. BC 
+  <mads:note type="source">"Antonius Thallus, Epigrammatic poet from Miletus... 
+      lived in the 2nd half of the 1st cent. BC 
       (in Anth. Pal. 6,235 the birth of a Καῖσαρ [Kaîsar] is celebrated, who is to be equated with either C. Julius Caesar, the grandson of Augustus,
       or with Germanicus).  Degani, 
       Enzo (Bologna); Degani, Enzo (Bologna); Fusillo, Massimo (L'Aquila); Savvidis, Kyriakos (Bochum); Savvidis, Kyriakos 
       (Bochum); Berschin, Walter (Heidelberg). "Antonius [I]." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik
       and Helmuth Schneider . Brill, 2007. Brill Online. Tufts University Library. 13 August 2007</mads:note>
-  <mads:url>http://viaf.org/viaf/52081591</mads:url>
-  <mads:url displayLabel="Dataset description">http://viaf.org/viaf/data</mads:url>
+  <mads:url displayLabel="VIAF">http://viaf.org/viaf/52081591</mads:url>
+    <mads:url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Thallus_(poet)</mads:url>
   <mads:identifier type="tlg">1707</mads:identifier>
   <mads:recordInfo>
       <mads:recordOrigin>Converted from MARCXML to MADS version 2.0 (Revision 2.10)</mads:recordOrigin>
