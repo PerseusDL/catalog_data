@@ -1,23 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xmlns:atom="http://www.w3.org/2005/Atom"
-           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-                <mods:titleInfo lang="eng" type="uniform">
-                    <mods:title xmlns="http://www.loc.gov/mods/v3">Letters to Atticus</mods:title>
-                </mods:titleInfo>
-                <mods:part>
-                    <mods:extent unit="words">
-                        <mods:total>124798</mods:total>
-                    </mods:extent>
-                </mods:part>
-                <mods:titleInfo xmlns="http://www.loc.gov/mods/v3">
-                    <mods:title>Epistulae ad Atticum</mods:title>
-                </mods:titleInfo>
-                <mods:identifier type="phi">474.57</mods:identifier>
-                <mods:identifier type="stoa author-text">stoa0087-stoa024</mods:identifier>
-                <mods:identifier type="ctsurn">urn:cts:latinLit:phi0474.phi057.opp-lat14</mods:identifier>
-                <mods:tableOfContents xmlns="http://www.loc.gov/mods/v3">Att. I. 5 -Att. I. 11 (pg. 127-39) --Att. I. 3-Att. I. 4 (pg. 140-4) --
+<mods xmlns="http://www.loc.gov/mods/v3">
+   <identifier type="phi">474.57</identifier>
+   <identifier type="stoa author-text">stoa0087-stoa024</identifier>
+   <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi057.opp-lat14</identifier>
+   <titleInfo lang="eng" type="uniform">
+      <title>Letters to Atticus</title>
+    </titleInfo>
+   <titleInfo>
+      <title>Epistulae ad Atticum</title>
+    </titleInfo>
+   <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n79-32166.html">
+      <namePart>Cicero, Marcus Tullius</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+   <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n85-821139.html">
+      <namePart>Tyrrell, Robert Yelverton</namePart>
+      <namePart type="date">1844-1914</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+      </role>
+    </name>
+   <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n87-812510.html">
+      <namePart>Purser, Louis Claude</namePart>
+      <namePart type="date">1854-1932</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+      </role>
+    </name>
+   <relatedItem type="constituent">
+      <titleInfo lang="eng" type="uniform">
+         <title>Letters to Atticus</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Epistulae ad Atticum</title>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-32166.html">
+         <namePart>Cicero, Marcus Tullius</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n85-821139.html">
+         <namePart>Tyrrell, Robert Yelverton</namePart>
+         <namePart type="date">1844-1914</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n87-812510.html">
+         <namePart>Purser, Louis Claude</namePart>
+         <namePart type="date">1854-1932</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Att. I. 5 -Att. I. 11 (pg. 127-39) --
+            Att. I. 3-Att. I. 4 (pg. 140-4) --
             --Att. I. 1-Att. I. 2 (pg. 146-153) -- Att. I. 12 (pg. 192-4) -- Att. I. 13-Att. 1. 17
             (pg. 196-pg. 224) -- Att. I. 18- Att. I. 20 (pg. 227-243) -- Att. II. 1- Att. II. 3 (pg.
             244-256) -- Att. II. 4-Att. II. 9 (pg. 280-296)-- -- Att. II. 12 (pg. 297-299)-- Att.
@@ -29,145 +87,290 @@
             -- Att. III. 16 (pg. 394)- Att. III. 17 (pg. 395) - Att. III. 18 (pg. 396) -- Att. III.
             19 (pg. 397-398) -- Att. III. 20 (pg. 399-400) -- Att. III. 21-Att. III 22 (pg. 403-405)
             -- Att. III. 23 (pg. 407-411 )-- Att. III. 24-Att. III. 25 (pg. 413-416) -- Att. III.
-            26-Att. III. 27 (pg. 419)--</mods:tableOfContents>
-                <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
-                    <mods:titleInfo>
-                        <mods:nonSort>The </mods:nonSort>
-                        <mods:title>correspondence of M. Tullius Cicero</mods:title>
-                        <mods:subTitle>arranged according to its chronological order; with a revision of the text, a
-            commentary, and introductory essays</mods:subTitle>
-                        <mods:partNumber>Vol I</mods:partNumber>
-                    </mods:titleInfo>
-                    <mods:titleInfo type="uniform">
-                        <mods:title>Epistolae. English.</mods:title>
-                    </mods:titleInfo>
-                    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-                 authority="naf"
-                 type="personal"
-                 ns2:href="http://errol.oclc.org/laf/n79-32166.html">
-                        <mods:namePart>Cicero, Marcus Tullius.</mods:namePart>
-                        <mods:role>
-                            <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-                        </mods:role>
-                    </mods:name>
-                    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-                 authority="naf"
-                 type="personal"
-                 ns2:href="http://errol.oclc.org/laf/n85-821139.html">
-                        <mods:namePart>Tyrrell, Robert Yelverton</mods:namePart>
-                        <mods:namePart type="date">1844-1914</mods:namePart>
-                        <mods:role>
-                            <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-                        </mods:role>
-                    </mods:name>
-                    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-                 authority="naf"
-                 type="personal"
-                 ns2:href="http://errol.oclc.org/laf/n87-812510.html">
-                        <mods:namePart>Purser, Louis Claude</mods:namePart>
-                        <mods:namePart type="date">1854-1932</mods:namePart>
-                        <mods:role>
-                            <mods:roleTerm authority="marcrelator" type="text">joint editor</mods:roleTerm>
-                        </mods:role>
-                    </mods:name>
-                    <mods:typeOfResource>text</mods:typeOfResource>
-                    <mods:originInfo>
-                        <mods:place>
-                            <mods:placeTerm type="code" authority="marccountry">ie</mods:placeTerm>
-                        </mods:place>
-                        <mods:place>
-                            <mods:placeTerm type="text">Dublin</mods:placeTerm>
-                        </mods:place>
-                        <mods:publisher>Hodges &amp; Figgis</mods:publisher>
-                        <mods:dateIssued>1904</mods:dateIssued>
-                        <mods:edition>3rd</mods:edition>
-                        <mods:issuance>monographic</mods:issuance>
-                    </mods:originInfo>
-                    <mods:language objectPart="text">
-                        <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
-                    </mods:language>
-                    <mods:language objectPart="notes">
-                        <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
-                    </mods:language>
-                    <mods:language objectPart="introduction">
-                        <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
-                    </mods:language>
-                    <mods:physicalDescription>
-                        <mods:form authority="marcform">print</mods:form>
-                        <mods:extent>first of seven volumes, 23 cm.</mods:extent>
-                    </mods:physicalDescription>
-                    <mods:note type="statement of responsibility">By Robert Yelverton Tyrrell..and Louis Claude Purser</mods:note>
-                    <mods:note>Vols. 4-6 have series title at head of t.-p. Vol. 3 has title slightly different</mods:note>
-                    <mods:note>Vol. 1: 3rd edition.</mods:note>
-                    <mods:note>Vol. 7: Index.</mods:note>
-                    <mods:subject>
-                        <mods:geographicCode authority="marcgac">e------</mods:geographicCode>
-                        <mods:geographicCode authority="marcgac">ff-----</mods:geographicCode>
-                        <mods:geographicCode authority="marcgac">aw-----</mods:geographicCode>
-                    </mods:subject>
-                    <mods:subject authority="lcsh">
-                        <mods:name authority="" type="personal">
-                            <mods:namePart>Cicero, Marcus Tullius</mods:namePart>
-                        </mods:name>
-                        <mods:topic>Correspondence</mods:topic>
-                    </mods:subject>
-                    <mods:subject authority="lcsh">
-                        <mods:topic>Statesmen</mods:topic>
-                        <mods:geographic>Rome</mods:geographic>
-                        <mods:topic>Correspondence</mods:topic>
-                    </mods:subject>
-                    <mods:subject authority="lcsh">
-                        <mods:topic>Authors, Latin</mods:topic>
-                        <mods:topic>Correspondence</mods:topic>
-                    </mods:subject>
-                    <mods:classification authority="lcc">PA6297</mods:classification>
-                    <mods:identifier type="oclc">6525638</mods:identifier>
-                    <mods:location>
-                        <mods:url displayLabel="WorldCat">http://worldcat.org/oclc/6525638</mods:url>
-                    </mods:location>
-                    <mods:location>
-                        <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=VB8DAAAAYAAJ </mods:url>
-                    </mods:location>
-                    <mods:recordInfo>
-                        <mods:recordContentSource authority="marcorg">OCoLC</mods:recordContentSource>
-                        <mods:recordCreationDate encoding="marc"/>
-                        <mods:recordChangeDate encoding="iso8601"/>
-                        <mods:recordIdentifier/>
-                    </mods:recordInfo>
-                </mods:relatedItem>
-                <mods:language xmlns="http://www.loc.gov/mods/v3">
-                    <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
-                </mods:language>
-                <mods:name xmlns="http://www.loc.gov/mods/v3"
-              xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/n79-32166.html">
-                    <mods:namePart>Cicero, Marcus Tullius.</mods:namePart>
-                    <mods:role>
-                        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
-                <mods:name xmlns="http://www.loc.gov/mods/v3"
-              xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/n85-821139.html">
-                    <mods:namePart>Tyrrell, Robert Yelverton</mods:namePart>
-                    <mods:namePart type="date">1844-1914</mods:namePart>
-                    <mods:role>
-                        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
-                <mods:name xmlns="http://www.loc.gov/mods/v3"
-              xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/n87-812510.html">
-                    <mods:namePart>Purser, Louis Claude</mods:namePart>
-                    <mods:namePart type="date">1854-1932</mods:namePart>
-                    <mods:role>
-                        <mods:roleTerm authority="marcrelator" type="text">joint editor</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
-            </mods:mods>
+            26-Att. III. 27 (pg. 419)--</tableOfContents>
+      <location displayLabel="HathiTrust">
+         <url>http://hdl.handle.net/2027/mdp.39015069576794?urlappend=%3Bseq=149</url>
+      </location>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo lang="eng" type="uniform">
+         <title>Letters to Atticus</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Epistulae ad Atticum</title>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-32166.html">
+         <namePart>Cicero, Marcus Tullius</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n85-821139.html">
+         <namePart>Tyrrell, Robert Yelverton</namePart>
+         <namePart type="date">1844-1914</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n87-812510.html">
+         <namePart>Purser, Louis Claude</namePart>
+         <namePart type="date">1854-1932</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Att. IV. I - Att. IV. 3 (pg. 5-18) --Att. IV. 4a (pg. 39) -- Att. IV. 4b-
+            Att. IV. 5 (pg. 55-60) --Att. IV. 6- Att. IV. 8a (pg. 67-73)-- Att. IV. 8b (pg. 85-87)
+            --Att. IV. 10 (pg. 96-7) -- Att. IV. 9 (pg. 98-99) -- Att. IV. 11 (pg. 104-5) -- Att.
+            IV. 12 (pg. 105) -- Att. VI. 23 (pg. 106-108) -- Att. IV. 13 (pg. 116-117) -- Att. IV.
+            14 (pg. 139) -- Att. IV. 15-Att. IV. 16 (pg. 148-158) --Att. IV. 17 (18) (pg. 177-181)
+            --Att. IV. 18 (pg. 208-212) --Att. IV. 19 (pg. 219-222)</tableOfContents>
+      <location displayLabel="HathiTrust">
+         <url>http://babel.hathitrust.org/cgi/pt?id=mdp.39015070411437;view=1up;seq=85</url>
+      </location>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo lang="eng" type="uniform">
+         <title>Letters to Atticus</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Epistulae ad Atticum</title>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-32166.html">
+         <namePart>Cicero, Marcus Tullius</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n85-821139.html">
+         <namePart>Tyrrell, Robert Yelverton</namePart>
+         <namePart type="date">1844-1914</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n87-812510.html">
+         <namePart>Purser, Louis Claude</namePart>
+         <namePart type="date">1854-1932</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Att. V. 1- Att. V. 7 (pg. 7-23)-- Att. V. 8 (pg. 29-30) --Att. V. 9 (pg.
+            32-33) --Att. IV. 10 (pg. 39-43) --Att. V. 11 (pg. 47-51) -- Att. V. 12-Att. V. 14 (pg.
+            53-59) --Att. V. 15-Att. V. 17 (pg. 66-72) --Att. V. 18 (pg. 87-89)--Att. V. 19 (pg.
+            94-96)-- Att. V. 20 (pg. 128-134) --Att. V. 21 (pg. 178-187)--Att. VI. 1 (pg. 188-205)
+            --Att. VI. 2 (pg. 208-215)-- Att. VI. 3 (pg. 230-235) --Att. VI. 4- Att. VI. 5 (pg.
+            244-248) --Att. VI. 7 (pg. 248-9) --Att. VI. 6 (pg. 260-263) -- Att. VI. 8 -Att. VI. 9
+            (pg 273-277) -- Att. VII. 1 (pg. 279-285) --Att. VII. 2-Att. VII. 9 (pg. 294-324) --
+        </tableOfContents>
+      <location displayLabel="HathiTrust">
+         <url>http://babel.hathitrust.org/cgi/pt?id=mdp.39015070411445;view=1up;seq=127</url>
+      </location>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo lang="eng" type="uniform">
+         <title>Letters to Atticus</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Epistulae ad Atticum</title>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-32166.html">
+         <namePart>Cicero, Marcus Tullius</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n85-821139.html">
+         <namePart>Tyrrell, Robert Yelverton</namePart>
+         <namePart type="date">1844-1914</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n87-812510.html">
+         <namePart>Purser, Louis Claude</namePart>
+         <namePart type="date">1854-1932</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents> Att. VII. 10-Att. VII. 12 (pg. 17-24) --Att. VII. 13a (pg. 25-28)--Att.
+            VII. 13b (pg. 28-30) -- Att. VII. 14- Att. VII. 15(pg. 31-35) -- Att. VII. 16 (pg.
+            39-40) --Att. VII. 17 -Att. VII. 23 (pg. 41-55) -- Att. VIII. 11A (pg. 55) -- Att. VII.
+            24-Att. VII. 25 (pg. 56- 57) -- Att. VIII. 12B (pg. 57-58) -- Att. VII. 26 (pg. 59-60)
+            -- Att. VIII. 11B (pg. 61-63) -- Att. VIII. 1 (pg. 63-65) -- Att. VIII. 12C (pg. 65-67)
+            -- Att. VIII. 12D (pg. 67-68) -- Att. VIII. 12A (pg. 68-70)-- Att. VIII. 2 -Att. VIII.
+            3(pg. 70-80) -- Att. VIII. 11C (pg. 80-81) -- Att. VIII. 4-Att. VIII. 8 (pg. 81-89)--
+            Att. VIII. 9 (1-3) (pg. 90-92) -- Att. VIII. 9 (3, 4) (pg. 92-93) -- Att. VIII. 10 (-
+            Att. VIII. 11 (pg. 94-99) -- Att. VIII. 11D (pg. 99-103) -- Att. VIII. 12 (pg. 106-109)
+            -- Att. VIII. 15A (pg. 109-111) -- Att. IX. 7C (pg. 111-112) -- Att. VIII. 13 -Att.
+            VIII. 15 (pg. 112-119)-- Att. IX. 7A (pg. 119-120) -- Att. VIII. 16 (pg. 121-122) --
+            Att. IX 1 (pg. 123-125) -- Att. IX. 7B (pg. 125-127) -- Att. IX. 2 (pg. 127-128) -- Att.
+            IX 2A (pg. 128-131) -- Att. IX. 6A (pg. 131) -- Att. IX. 3 (pg. 132-133) -- Att. IX. 5-
+            Att. IX. 6 (pg. 133-139) -- Att. IX. 4 (pg. 140-141) -- Att. IX. 7-Att. IX. 19 (pg.
+            141-188) --Att. X. 1- Att. X. 4 (pg. 189-205) --Att. X. 9 A or Fam. VIII. 16 (pg.
+            205-207) -- Att. X. 5 (pg. 208-209) -- Att. X. 8B (pg. 210-211) -- Att. X. 6 (pg.
+            211-212) -- Att. X. 7 (pg. 215-217) --Att. X. 8A (pg. 221-223) -- Att. X. 8 - Att. X. 9
+            (pg. 223-233) -- Att. X. 10- Att. X. 18 (pg. 237-262) -- Att. XI. 1- Att. XI. 2 (pg.
+            266-269) --Att. XI. 3 -Att. XI. 4 (pg. 275 -279) -- Att. XI. 5 (pg. 286-287) -- Att. XI.
+            6 - Att. XI. 7 (pg. 288-297) -- Att. XI. 8 (pg. 298-300)--Att. XI. 9 (pg. 302-305)
+            --Att. XI. 10 - Att. XI. 17(pg. 306-324) --Att. XI. 18 (pg. 325-6) -- Att. XI. 25 (pg.
+            327-329) -- Att. XI. 23 (pg. 329-331) -- Att. XI. 19 (pg. 332-3) -- Att. XI. 24 (pg.
+            333-336) Att. XI. 20- Att. XI. 22(pg. 337-343) -- Att. XII. 2 (pg. 367-369) --Att. XII.
+            5 (pg. 386-7) -- Att. XII. 3 - Att. XII. 4 (pg. 387-390) --Att. XII. 5, 1,2 (pg. 395-6)
+            -- Att. XII. 6 - Att. XII. 8(pg. 476-481) -- Att. XII. 11 (pg. 482-483) --Att. XII. 1
+            (pg. 485-487) -- </tableOfContents>
+      <location displayLabel="Open Content Alliance">
+         <url>https://archive.org/stream/correspondenceof04ciceuoft#page/16/mode/2up</url>
+      </location>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo lang="eng" type="uniform">
+         <title>Letters to Atticus</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Epistulae ad Atticum</title>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-32166.html">
+         <namePart>Cicero, Marcus Tullius</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n85-821139.html">
+         <namePart>Tyrrell, Robert Yelverton</namePart>
+         <namePart type="date">1844-1914</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n87-812510.html">
+         <namePart>Purser, Louis Claude</namePart>
+         <namePart type="date">1854-1932</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Att. XII. 13 - Att. XII. 16 (pg. 5-10) -- Att. XII. 18 (pg. 10-12) --Att.
+            XII. 17- At. XII. 20 (pg. 12-17) -- Att. XIII. 6 (pg. 17-19) -- Att. XII. 21 (pg. 26-31)
+            -- Att. XII. 22 - Att. XII. 29 (pg. 31-42) -- Att. XII. 33 (pg. 42) -- Att. XII. 30 (pg.
+            43) -- Att. XII. 31, 3 and 32 (pg. 44-45) -- Att. XII. 31, 1, 2 (pg. 46-47) --Att. XII
+            34, and 35 (pg. 48) -- Att. XII. 35, 2 (pg. 61) -- Att. XII. 36 (pg. 62-63) -- Att. XII.
+            37 (1-3) (pg. 63-64) --Att. XII. 37 (4) (pg. 64-65) Att. XIII. 38, 1, 2 (pg. 65--66) --
+            Att. XII. 39- Att. XII. (pg. 67-70) -- Att. XII. 42, 1-3 (pg 73-74) --Att. XII. 41 (pg.
+            76-77) -- Att. XII. 42, 3 and 43 (pg. 77-78) -- Att. XII. 44 and 45, 1 (pg. 78-80) --
+            Att. XIII. 26 (pg. 80-81) -- Att. XII. 46 and 47, 1 (pg. 81-82) -- Att. XII. 47, 1, 2
+            (pg. 82-83) -- Att. XII. 47, 3 and 48 (pg. 83) -- Att. XII. 45, 2, 3 (pg. 83-84) -- Att.
+            XII. 50 (pg. 84-5) -- Att. XII. 48 fin. and 49 (pg. 85-86) -- Att. XII. 51- Att. XII. 53
+            (pg. 87-90) -- Att. XIII. 1 (pg. 90-91) --Att. XIII. 2, 1 (pg. 91) -- Att. XIII. 27 (pg.
+            92-93) -- Att. XIII. 28, and 29, 1 (pg. 93-95) --Att. XIII. 29,2 and 3, and 30, 1 (pg.
+            95-96) -- Att. XIII. 2, 1, 2 (pg. 97) -- Att. XIII. 31 (pg. 98-99) --Att. XIII. 30, 2
+            and 3 (pg. 99-100) -- Att. XIII. 2, 3 and 3, 1 (pg. 100) -- Att. XIII. 32 (pg. 101-102)-
+            Att. XIII. 3, 1 and 2 (pg. 103) -- Att. XII. 5, 2 (pg. 104) -- Att. XIII. 4 - Att. XIII.
+            5 (pg. 108-110) --Att. XIII. 33, 1-3 (pg. 110-112) -- Att. XIII. 6, 4 (pg. 113) -- Att.
+            XIII. 8 ( pg. 114) -- Att. XIII. 7, 1-3(pg. 115-117) -- Att. XIII. 9 - Att. XIII. 19
+            (pg. 118-131) -- Att. XIII. 21, 4-7 (pg. 131-133) -- Att. XIII. 20 (pg. 139-141) -- Att.
+            XIII. 122 (pg. 142-144) --Att. XIII. 33, 4 and 5 (pg. 144-5) -- Att. XIII. 23 (pg.
+            146-148) -- Att. XIII. 24 and 25, 1 (pg. 152) -- Att. XIII. 25, 2, 3 (pg. 154-156) --
+            Att. XIII. 35 and 36 (pg. 156-157) -- Att. XIII. 43 (pg. 157) --Att. XIII. 44 (pg.
+            159-160) --Att. XIII. 34 (pg. 160-161) --Att. XII. 9 (pg. 163) -- Att. XII. 10 (pg.
+            165-166) -- Att. XIII. 21, 1-3 (pg. 166-167) -- Att. XIII. 47a (pg. 169-170) -- Att.
+            XIII. 48 (pg. 171-2) -- Att. XIII. 37 (pg. 172-173) -- Att. XIII. 38 - Att. XIII. 41(pg.
+            174-179) -- Att. XIII. 45 - Att. XIII. 47a(pg. 179-185) -- Att. XIII. 49- Att. XIII. 50
+            (pg. 187-190) -- Att. XIII. 51 (pg. 193-194) -- Att. XIII. 52 (pg. 208-211) -- Att.
+            XIII. 42 (pg. 212-213) -- Att. XIV. 1 - Att. XIV. 8 (pg. 248-260) -- Att. XIV. 9- Att.
+            XIV. 16 (pg. 262-284) --Att. XIV. 17a=Fam. IX. 14 (pg. 285-287) -- Att. XIV. 17 (pg.
+            290-292) -- Att. XIV. 19 (pg. 292-294) --Att. XIV. 18 (pg. 295-296) -- Att. XIV. 20-
+            Att. XIV. 22 (pg. 296-303) -- Att. XV. 1a-b (pg. 304-307) -- Att. XV. 2 - Att. XV. 4b
+            (pg. 308-318) -- Att. XV. 15 - Att. XV. 7 (pg. 321-326) -- Att. XV. 8-Att. XV. 12 (pg.
+            328-338) -- Att. XV. 16a-b (pg. 338-339) -- Att. XV. 15 (pg. 339-341) -- Att. XV.
+            17-Att. XV. 21 (pg. 342-51) -- Att. XV. 23 (pg. 351-353) -- Att. XV. 22 (pg. 353-4) --
+            Att. XV. 23-Att. XV. 24 (pg. 354-355) --Att. XV. 14 (pg. 355-357) -- Att. XV. 25 (pg.
+            357-358) --Att. XV. 26- Att. XV. 28 (pg. 363-368) -- Att. XVI. 16-16a (pg. 368- 370)
+            --Att. XV. 29 (pg. 370-373) --Att. XVI. 1 (pg. 373-376) -- Att. XVI. 5 (pg. 376-380) --
+            Att. XV1. 4 (pg. 380-382) --Att. XVI. 2- Att. XVI. 3 (pg. 382-388) -- Att. XVI. 6 (pg.
+            390-392) -- Att. XVI. 16b-16f (pg. 393-398) --Att. XVI. 7 (pg. 401-406) -- Att. XI. 28
+            (pg. 412-416) -- </tableOfContents>
+      <location displayLabel="Open Content Alliance">
+         <url>https://archive.org/stream/correspondenceof05ciceuoft#page/4/mode/2up</url>
+      </location>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo lang="eng" type="uniform">
+         <title>Letters to Atticus</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Epistulae ad Atticum</title>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-32166.html">
+         <namePart>Cicero, Marcus Tullius</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n85-821139.html">
+         <namePart>Tyrrell, Robert Yelverton</namePart>
+         <namePart type="date">1844-1914</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n87-812510.html">
+         <namePart>Purser, Louis Claude</namePart>
+         <namePart type="date">1854-1932</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Att. XV. 13 (pg. 20-22) -- Att. XV. 13a (pg. 23-25) -- Att. XVI. 8-Att.
+            XVI. 9(pg. 26-29) -- Att. XVI. 11- Att. XVI. 12 (pg. 29-35) -- Att. XVI. 10 (pg. 36) --
+            Att. XVI. 13a-c (pg. 37-39) -- Att. XVI. 14 (pg. 40-41) --Att. XVI. 15 (pg. 44-48) --
+        </tableOfContents>
+   </relatedItem>
+</mods>

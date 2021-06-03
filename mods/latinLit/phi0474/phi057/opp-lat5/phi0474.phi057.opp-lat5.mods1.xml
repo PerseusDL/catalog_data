@@ -1,112 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xmlns:atom="http://www.w3.org/2005/Atom"
-           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-                <mods:titleInfo xml:lang="en" type="uniform">
-                    <mods:title xmlns="http://www.loc.gov/mods/v3">Letters to Atticus</mods:title>
-                </mods:titleInfo>
-                <mods:part>
-                    <mods:extent unit="words">
-                        <mods:total>124798</mods:total>
-                    </mods:extent>
-                </mods:part>
-                <mods:titleInfo xmlns="http://www.loc.gov/mods/v3" type="translated" lang="lat">
-                    <mods:title>Epistulae Ad Atticum</mods:title>
-                </mods:titleInfo>
-                   <mods:titleInfo xml:lang="en" type="alternative">
-                    <mods:title xmlns="http://www.loc.gov/mods/v3">Letters to Atticus</mods:title>
-                </mods:titleInfo>
-                    <mods:titleInfo xml:lang="en" type="alternative">
-           <mods:title xmlns="http://www.loc.gov/mods/v3">Letters to Atticus</mods:title>
-           <mods:partName>Volume 1</mods:partName>
-           <mods:subTitle>Books I-VI</mods:subTitle>
-           </mods:titleInfo>
-                <mods:identifier type="oclc">40320058</mods:identifier>
-                <mods:identifier type="phi">474.57</mods:identifier>
-                <mods:identifier type="stoa author-text">stoa0087-stoa024</mods:identifier>
-                <mods:identifier type="Perseus:abo">Perseus:abo:phi,0474,057
-    </mods:identifier>
-                <mods:identifier type="ctsurn">urn:cts:latinLit:phi0474.phi057.opp-lat5</mods:identifier>
-                <mods:typeOfResource xmlns="http://www.loc.gov/mods/v3">text</mods:typeOfResource>
-                <mods:genre xmlns="http://www.loc.gov/mods/v3" authority="marc">biography</mods:genre>
-                <mods:originInfo xmlns="http://www.loc.gov/mods/v3">
-                    <mods:place>
-                        <mods:placeTerm type="code" authority="marccountry">mau</mods:placeTerm>
-                    </mods:place>
-                    <mods:place>
-                        <mods:placeTerm type="text">Cambridge</mods:placeTerm>
-                    </mods:place>
-                    <mods:place>
-                        <mods:placeTerm type="text">London</mods:placeTerm>
-                    </mods:place>
-                    <mods:publisher>Harvard University Press</mods:publisher>
-                    <mods:publisher>W. Heinemann</mods:publisher>
-                    <mods:dateIssued>1912</mods:dateIssued>
-                    <mods:dateModified>1956</mods:dateModified>
-                    <mods:edition>Reprint</mods:edition>
-                    <mods:issuance>monographic</mods:issuance>
-                </mods:originInfo>
-                <mods:physicalDescription xmlns="http://www.loc.gov/mods/v3">
-                    <mods:form authority="marcform">print</mods:form>
-                    <mods:extent>3 v. front. (port.) 17 cm.</mods:extent>
-                </mods:physicalDescription>
-                <mods:classification xmlns="http://www.loc.gov/mods/v3" authority="lcc">PA6156.C6</mods:classification>
-                <mods:note xmlns="http://www.loc.gov/mods/v3">First printed 1912-1918</mods:note>
-                <mods:note xmlns="http://www.loc.gov/mods/v3">Latin and English on opposite pages</mods:note>
-                <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="series">
-                    <mods:titleInfo>
-                        <mods:title>The Loeb classical library</mods:title>
-                        <mods:partNumber>7</mods:partNumber>
-                    </mods:titleInfo>
-                    <mods:titleInfo type="abbreviated">
-                        <mods:title>LCL 7</mods:title>
-                    </mods:titleInfo>
-                </mods:relatedItem>
-                <mods:location xmlns="http://www.loc.gov/mods/v3">
-                    <mods:url displayLabel="WorldCat">http://www.worldcat.org/oclc/40320058 </mods:url>
-                </mods:location>
-                <mods:location xmlns="http://www.loc.gov/mods/v3">
-                    <mods:url displayLabel="Open Content Alliance">http://www.archive.org/details/letterstoatticus01ciceuoft</mods:url>
-                </mods:location>
-                <mods:location xmlns="http://www.loc.gov/mods/v3">
-                    <mods:url displayLabel="OpenLibrary">http://www.openlibrary.org/details/letterstoatticus01ciceuoft</mods:url>
-                </mods:location>
-                <mods:recordInfo xmlns="http://www.loc.gov/mods/v3">
-                    <mods:recordContentSource authority="marcorg">OCLC</mods:recordContentSource>
-                    <mods:recordCreationDate encoding="marc"/>
-                    <mods:recordChangeDate encoding="iso8601"/>
-                    <mods:recordIdentifier/>
-                </mods:recordInfo>
-                <mods:language xmlns="http://www.loc.gov/mods/v3">
-                    <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
-                </mods:language>
-                <mods:name xmlns="http://www.loc.gov/mods/v3"
-              xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/n79-32166.html">
-                    <mods:namePart>Cicero, Marcus Tullius.</mods:namePart>
-                    <mods:role>
-                        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
-                <mods:name xmlns="http://www.loc.gov/mods/v3"
-              xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/n88-606327.html">
-                    <mods:namePart>Winstedt, Eric Otto,</mods:namePart>
-                    <mods:role>
-                        <mods:roleTerm authority="marcrelator" type="text">editor </mods:roleTerm>
-                    </mods:role>
-                    <mods:role>
-                        <mods:roleTerm authority="marcrelator" type="text">translator </mods:roleTerm>
-                    </mods:role>
-                </mods:name>
-                <mods:subject xmlns="http://www.loc.gov/mods/v3" authority="lcsh">
-                    <mods:name authority="" type="personal">
-                        <mods:namePart>Atticus, Titus Pomponius. [from old catalog]</mods:namePart>
-                    </mods:name>
-                </mods:subject>
-            </mods:mods>
+<mods xmlns="http://www.loc.gov/mods/v3">
+   <identifier type="oclc">40320058</identifier>
+   <identifier type="phi">474.57</identifier>
+   <identifier type="stoa author-text">stoa0087-stoa024</identifier>
+   <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi057.opp-lat5</identifier>
+   <titleInfo xml:lang="en" type="uniform">
+      <title>Letters to Atticus</title>
+    </titleInfo>
+   <titleInfo type="translated" lang="lat">
+      <title>Epistulae Ad Atticum</title>
+    </titleInfo>
+   <titleInfo xml:lang="en" type="alternative">
+      <title>Letters to Atticus</title>
+      <mods:partName xmlns:mods="http://www.loc.gov/mods/v3"
+                     xmlns:atom="http://www.w3.org/2005/Atom"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Volume 1</mods:partName>
+    </titleInfo>
+   <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n79-32166.html">
+      <namePart>Cicero, Marcus Tullius</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+   <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n88-606327.html">
+      <namePart>Winstedt, Eric Otto</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+      </role>
+    </name>
+   <originInfo>
+      <place>
+        <placeTerm type="code" authority="marccountry">mau</placeTerm>
+      </place>
+      <place>
+        <placeTerm type="text">Cambridge</placeTerm>
+      </place>
+      <place>
+        <placeTerm type="text">London</placeTerm>
+      </place>
+      <publisher>Harvard University Press</publisher>
+      <publisher>W. Heinemann</publisher>
+      <dateIssued>1912</dateIssued>
+      <mods:dateModified xmlns:mods="http://www.loc.gov/mods/v3"
+                         xmlns:atom="http://www.w3.org/2005/Atom"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1956</mods:dateModified>
+      <mods:edition xmlns:mods="http://www.loc.gov/mods/v3"
+                    xmlns:atom="http://www.w3.org/2005/Atom"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Reprint</mods:edition>
+      <issuance>monographic</issuance>
+    </originInfo>
+   <typeOfResource>text</typeOfResource>
+   <subject authority="lcsh">
+      <name authority="" type="personal">
+        <namePart>Atticus, Titus Pomponius. [from old catalog]</namePart>
+      </name>
+    </subject>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Letters to Atticus</title>
+      </titleInfo>
+      <titleInfo type="translated" lang="lat">
+         <title>Epistulae Ad Atticum</title>
+      </titleInfo>
+      <titleInfo xml:lang="en" type="alternative">
+         <title>Letters to Atticus</title>
+         <mods:partName xmlns:mods="http://www.loc.gov/mods/v3">Volume 1</mods:partName>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-32166.html">
+         <namePart>Cicero, Marcus Tullius</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n88-606327.html">
+         <namePart>Winstedt, Eric Otto</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Books I-VI</tableOfContents>
+      <location displayLabel="WorldCat">
+         <url>http://www.worldcat.org/oclc/40320058</url>
+      </location>
+      <location displayLabel="Open Content Alliance">
+         <url>http://www.archive.org/details/letterstoatticus01ciceuoft</url>
+      </location>
+      <location displayLabel="OpenLibrary">
+         <url>http://www.openlibrary.org/details/letterstoatticus01ciceuoft</url>
+      </location>
+      <note>First printed 1912-1918</note>
+      <note>Latin and English on opposite pages</note>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Letters to Atticus</title>
+      </titleInfo>
+      <titleInfo type="translated">
+         <title>Epistulae Ad Atticum</title>
+      </titleInfo>
+      <titleInfo xml:lang="en" type="alternative">
+         <title>Letters to Atticus</title>
+         <mods:partName xmlns:mods="http://www.loc.gov/mods/v3"
+                        xmlns:atom="http://www.w3.org/2005/Atom"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Volume 2</mods:partName>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-32166.html">
+         <namePart>Cicero, Marcus Tullius</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n88-606327.html">
+         <namePart>Winstedt, Eric Otto</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Books VII-XI</tableOfContents>
+      <location displayLabel="WorldCat">
+         <url>http://www.worldcat.org/oclc/40320058</url>
+      </location>
+      <location displayLabel="GoogleBooks">
+         <url>http://books.google.com/books?id=dMyx1LfFZoQC</url>
+      </location>
+      <location displayLabel="Open Content Alliance">
+         <url>http://www.archive.org/details/letterstoatticus02ciceuoft</url>
+      </location>
+      <location displayLabel="Open Content Alliance">
+         <url>http://www.archive.org/details/letterstoatticu02ciceuoft</url>
+      </location>
+      <note>First printed 1912-1918</note>
+      <note>Latin and English on opposite pages</note>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Letters to Atticus</title>
+      </titleInfo>
+      <titleInfo type="translated">
+         <title>Epistulae Ad Atticum</title>
+      </titleInfo>
+      <titleInfo xml:lang="en" type="alternative">
+         <title>Letters to Atticus</title>
+         <mods:partName xmlns:mods="http://www.loc.gov/mods/v3"
+                        xmlns:atom="http://www.w3.org/2005/Atom"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Volume 3</mods:partName>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-32166.html">
+         <namePart>Cicero, Marcus Tullius</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n88-606327.html">
+         <namePart>Winstedt, Eric Otto</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Books XII-XVI</tableOfContents>
+      <location displayLabel="WorldCat">
+         <url>http://www.worldcat.org/oclc/40320058</url>
+      </location>
+      <location displayLabel="Open Content Alliance">
+         <url>http://www.archive.org/details/letterstoatticuswins03ciceuoft</url>
+      </location>
+      <note>First printed 1912-1918</note>
+      <note>Latin and English on opposite pages</note>
+   </relatedItem>
+</mods>

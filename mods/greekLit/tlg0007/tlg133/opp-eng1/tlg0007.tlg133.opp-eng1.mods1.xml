@@ -124,10 +124,12 @@
                         <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
                     </mods:role>
                 </mods:name>
-                <mods:name xmlns="http://www.loc.gov/mods/v3" authority="unknown" type="personal">
-                    <mods:namePart>Brown, R.</mods:namePart>
-                    <mods:role>
-                        <mods:roleTerm authority="marcrelator" type="text">translator</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
+    <mods:name authority="VIAF" type="personal" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/107313403/">
+        <mods:namePart>Browne, Richard</mods:namePart>
+        <mods:namePart type="date">active 1674-1694</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator" type="text">translator</mods:roleTerm>
+        </mods:role>
+    </mods:name>
             </mods:mods>

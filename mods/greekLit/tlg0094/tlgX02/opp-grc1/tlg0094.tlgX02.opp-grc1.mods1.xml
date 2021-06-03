@@ -113,18 +113,20 @@
                 <mods:language xmlns="http://www.loc.gov/mods/v3">
                     <mods:languageTerm authority="iso639-2b" type="code">grc</mods:languageTerm>
                 </mods:language>
-                <mods:name xmlns="http://www.loc.gov/mods/v3"
-              xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/no2007-73438.html">
-                    <mods:namePart>Pseudo-Plutarch</mods:namePart>
-                    <mods:role>
-                        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
-                <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/n86-820646.html"/>
+                   <mods:name authority="viaf" type="personal" authorityURI="http://id.loc.gov/authorities/names/"
+        valueURI="http://viaf.org/viaf/228597197/">
+        <mods:namePart>Pseudo-Plutarch</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+                   <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
+                 authority="naf"
+                 type="personal"
+                 ns2:href="http://errol.oclc.org/laf/n86-820646.html">
+                        <mods:namePart>Babbitt, Frank Cole</mods:namePart>
+                        <mods:role>
+                            <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+                        </mods:role>
+                    </mods:name>
             </mods:mods>

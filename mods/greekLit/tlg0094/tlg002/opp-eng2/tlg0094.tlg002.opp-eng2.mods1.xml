@@ -2,7 +2,7 @@
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xmlns:atom="http://www.w3.org/2005/Atom"
-           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
                 <mods:titleInfo xml:lang="en" type="uniform">
                     <mods:title>De musica</mods:title>
                 </mods:titleInfo>
@@ -36,15 +36,12 @@
                         <mods:title>Plutarch's morals</mods:title>
                         <mods:partNumber>Volume I</mods:partNumber>
                     </mods:titleInfo>
-                    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-                 authority="naf"
-                 type="personal"
-                 ns2:href="http://errol.oclc.org/laf/n79-26763.html             ">
-                        <mods:namePart>Plutarch.</mods:namePart>
-                        <mods:role>
-                            <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-                        </mods:role>
-                    </mods:name>
+                       <mods:name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/228597197/">
+        <mods:namePart>Pseudo-Plutarch</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+        </mods:role>
+    </mods:name>
                     <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
                  authority="naf"
                  type="personal"
@@ -92,8 +89,8 @@
                     </mods:subject>
                     <mods:classification authority="lcc">PA4374 .M6</mods:classification>
                     <mods:identifier type="oclc">19496979</mods:identifier>
-                    <mods:identifier type="lccn"/>
-                    <mods:identifier type="oca"/>
+                    
+                    
                     <mods:location>
                         <mods:url displayLabel="LC Permalink"/>
                     </mods:location>
@@ -119,16 +116,12 @@
                 <mods:language xmlns="http://www.loc.gov/mods/v3">
                     <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
                 </mods:language>
-                <mods:name xmlns="http://www.loc.gov/mods/v3"
-              xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/no2007-73438.html">
-                    <mods:namePart>Pseudo-Plutarch</mods:namePart>
-                    <mods:role>
-                        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
+                <mods:name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/228597197/">
+        <mods:namePart>Pseudo-Plutarch</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+        </mods:role>
+    </mods:name>
                 <mods:name xmlns="http://www.loc.gov/mods/v3"
               xmlns:ns2="http://www.w3.org/1999/xlink"
               authority="naf"

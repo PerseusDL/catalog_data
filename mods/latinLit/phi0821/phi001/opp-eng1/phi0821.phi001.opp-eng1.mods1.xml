@@ -2,8 +2,8 @@
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xmlns:atom="http://www.w3.org/2005/Atom"
-           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-                <mods:titleInfo xml:lang="en" type="uniform">
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+                <mods:titleInfo xml:lang="lat" type="uniform">
                     <mods:title>Bucolica Einsidlensia </mods:title>
                 </mods:titleInfo>
                 <mods:part>
@@ -144,12 +144,12 @@
                 <mods:language xmlns="http://www.loc.gov/mods/v3">
                     <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
                 </mods:language>
-                <mods:name xmlns="http://www.loc.gov/mods/v3" authority="phi" type="corporate">
-                    <mods:namePart>Anonymous</mods:namePart>
-                    <mods:role>
-                        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
+                <mods:name authority="viaf" type="corporate" authorityURI="http://viaf.org/viaf" valueURI="http://viaf.org/viaf/183852674/">
+                   <mods:namePart>Bucolica Einsidlensia</mods:namePart>
+                       <mods:role>
+                                 <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+                       </mods:role>
+                        </mods:name>
                 <mods:name xmlns="http://www.loc.gov/mods/v3"
               xmlns:ns2="http://www.w3.org/1999/xlink"
               authority="naf"

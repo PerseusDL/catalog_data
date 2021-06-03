@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+
+  <identifier type="ggm">ggm0001.ggm001</identifier>
+  <identifier type="ctsurn">urn:cts:greekLit:ggm0001.ggm001.first1K-grc1</identifier>
+  <identifier type="lccn">unk82027447</identifier>
+  <identifier type="oclc">51397796</identifier>
+
+
+  <titleInfo>
+    <title>Anonymi Mensura totius habitatae terrae summatim data</title>
+  </titleInfo>
+  <titleInfo>
+    <title>De Ambitu Ponti Euxini</title>
+  </titleInfo>
+  <name authority="tlg" type="corporate">
+    <namePart>Anonymus de Ambitu</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+    </role>
+  </name>
+  <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/nr95-8185.html">
+    <namePart>Müller, Karl</namePart>
+    <namePart type="termsOfAddress">of Paris</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+    </role>
+  </name>
+  <language objectPart="text">
+    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+  </language>
+  <language objectPart="text">
+    <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+  </language>
+  <part>
+    <extent unit="pages">
+      <start>424</start>
+      <end>426</end>
+    </extent>
+  </part>
+  <location displayLabel="GoogleBooks">
+    <url>http://books.google.com/books?id=MT4OAAAAYAAJ&amp;pg=PA424</url>
+  </location>
+  <location displayLabel="HathiTrust">
+    <url>http://hdl.handle.net/2027/mdp.39015014558442?urlappend=%3Bseq=588</url>
+  </location>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Geographi graeci minores</title>
+      <partNumber>Volumen Primum</partNumber>
+    </titleInfo>
+    <name authority="naf" type="personal" xlink:href="http://errol.oclc.org/laf/nr95-8185.html">
+      <namePart>Müller, Karl</namePart>
+      <namePart type="termsOfAddress">of Paris</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+      </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+      <place>
+        <placeTerm type="code" authority="marccountry">fr</placeTerm>
+      </place>
+      <place>
+        <placeTerm type="text">Parisiis</placeTerm>
+      </place>
+      <dateIssued>1855</dateIssued>
+      <dateIssued point="start" encoding="marc">1855</dateIssued>
+      <dateIssued point="end" encoding="marc">1855</dateIssued>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <language objectPart="text">
+      <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+    </language>
+    <language objectPart="text">
+      <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+    </language>
+    <language objectPart="preface">
+      <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+    </language>
+    <physicalDescription>
+      <form authority="marcform">print</form>
+      <extent>cxlv, 576 pg.</extent>
+    </physicalDescription>
+    <note>Texts in Greek; translations and critical matter in Latin.</note>
+    <subject>
+      <topic>Geography, Ancient</topic>
+    </subject>
+    <subject>
+      <topic>Greek Literature</topic>
+    </subject>
+    <subject>
+      <topic>Greek geographers</topic>
+    </subject>
+    <tableOfContents>
+      v. 1. Hannonis Carthaginiensis Periplus. Scylacus, ut fertur, Periplus. Dicæarchi, ut fertur,
+      Periegesis. Agatharchidis De mari Erythraeo libri. Scymni Chii, ut fertur, Periegesis. Dionysii
+      Calliphontis f. Periegesis. Isidori Characeni Mansiones parthicae. Anonymi Periplus maris Erythraei. 
+      Arriani Indica et Ponti periplus. Anonymi Periplus ponti Euxini. Anonymi Stadiasmus maris magni. 
+      Marciani Heracleensis Peripli.
+    </tableOfContents>
+    <note type="statement of responsibility" altRepGroup="00"/>
+    <classification authority="lcc">PA3401.B5 A3</classification>
+    <location displayLabel="LC Permalink">
+      <url>http://lccn.loc.gov/unk82027447</url>
+    </location>
+    <location displayLabel="WorldCat">
+      <url>http://www.worldcat.org/oclc/51397796</url>
+    </location>
+    <location displayLabel="GoogleBooks">
+      <url>http://books.google.com/books?id=MT4OAAAAYAAJ</url>
+    </location>
+    <location displayLabel="HathiTrust">
+      <url>http://hdl.handle.net/2027/mdp.39015014558442</url>
+    </location>
+    <recordInfo>
+      <recordContentSource authority="marcorg">DLC</recordContentSource>
+      <recordCreationDate encoding="marc">830111</recordCreationDate>
+      <recordChangeDate encoding="iso8601">00000000000000.0</recordChangeDate>
+      <recordIdentifier>8606092</recordIdentifier>
+      <recordOrigin>Converted from MARCXML to MODS version 3.4 using MARC21slim2MODS3-4.xsl
+      (Revision 1.85 2013/03/07)</recordOrigin>
+    </recordInfo>
+  </relatedItem>
+</mods>

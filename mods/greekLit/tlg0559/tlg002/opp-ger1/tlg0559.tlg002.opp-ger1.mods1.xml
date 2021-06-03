@@ -14,6 +14,9 @@
                 <mods:titleInfo xmlns="http://www.loc.gov/mods/v3" type="alternative">
                     <mods:title>Automatopoetica</mods:title>
                 </mods:titleInfo>
+	   <mods:titleInfo xmlns="http://www.loc.gov/mods/v3" type="translated" lang="ger">
+                    <mods:title>Die Automatentheater</mods:title>
+                </mods:titleInfo>
                 <mods:titleInfo xmlns="http://www.loc.gov/mods/v3" type="abbreviated">
                     <mods:title>Hero Aut.</mods:title>
                 </mods:titleInfo>
@@ -28,9 +31,12 @@
                 <mods:location xmlns="http://www.loc.gov/mods/v3" displayLabel="GoogleBooks">
                     <mods:url>http://books.google.com/books?id=mNY2AAAAMAAJ&amp;pg=PA338</mods:url>
                 </mods:location>
+	   <mods:location xmlns="http://www.loc.gov/mods/v3" displayLabel="HathiTrust">
+                    <mods:url>https://hdl.handle.net/2027/mdp.39015024207253?urlappend=%3Bseq=414</mods:url>
+                </mods:location>
                 <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
                     <mods:titleInfo>
-                        <mods:title>Opera quae supersunt omnia</mods:title>
+                        <mods:title>Heronis Alexandrini Opera quae supersunt omnia</mods:title>
                         <mods:partNumber>Vol 1</mods:partNumber>
                         <mods:partName>Pneumatica et Automata</mods:partName>
                     </mods:titleInfo>
@@ -98,7 +104,7 @@
                     <mods:classification authority="lcc">PA3404 .H4 1899</mods:classification>
                     <mods:identifier type="lccn">15013159</mods:identifier>
                     <mods:identifier type="oclc">43057814</mods:identifier>
-                    <mods:identifier type="oca"/>
+                    
                     <mods:location>
                         <mods:url displayLabel="LC Permalink">http://lccn.loc.gov/15013159</mods:url>
                     </mods:location>

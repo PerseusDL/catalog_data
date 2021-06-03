@@ -1,127 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xmlns:atom="http://www.w3.org/2005/Atom"
-           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-                <mods:titleInfo xml:lang="en" type="uniform">
-                    <mods:title xmlns="http://www.loc.gov/mods/v3">Aeneid</mods:title>
-                </mods:titleInfo>
-                <mods:part>
-                    <mods:extent unit="words">
-                        <mods:total>83676</mods:total>
-                    </mods:extent>
-                </mods:part>
-                <mods:titleInfo xmlns="http://www.loc.gov/mods/v3">
-                    <mods:title>Aeneis</mods:title>
-                    <mods:partNumber>Book I-VI</mods:partNumber>
-                </mods:titleInfo>
-                <mods:identifier type="phi">690.3</mods:identifier>
-                <mods:identifier type="stoa author-text">stoa0290-stoa001</mods:identifier>
-                <mods:identifier type="ctsurn">urn:cts:latinLit:phi0690.phi003.opp-lat10</mods:identifier>
-                <mods:part xmlns="http://www.loc.gov/mods/v3">
-                    <mods:extent unit="pages">
-                        <mods:start>1</mods:start>
-                        <mods:end>368</mods:end>
-                    </mods:extent>
-                </mods:part>
-                <mods:location xmlns="http://www.loc.gov/mods/v3">
-                    <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=oe1gBmW7u3cC&amp;pg=PA1</mods:url>
-                </mods:location>
-                <mods:location xmlns="http://www.loc.gov/mods/v3">
-                    <mods:url displayLabel="Open Content Alliance">http://www.archive.org/stream/operavirg02virguoft#page/n7/mode/2up</mods:url>
-                </mods:location>
-                <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
-                    <mods:titleInfo>
-                        <mods:title>P. Vergili Maronis Opera</mods:title>
-                        <mods:partNumber>Volume 2</mods:partNumber>
-                        <mods:partName>Aeneidos Libri I-VI</mods:partName>
-                    </mods:titleInfo>
-                    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-                 authority="naf"
-                 type="personal"
-                 ns2:href="http://errol.oclc.org/laf/n79-14062.html">
-                        <mods:namePart>Virgil</mods:namePart>
-                        <mods:role>
-                            <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-                        </mods:role>
-                    </mods:name>
-                    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-                 authority="naf"
-                 type="personal"
-                 ns2:href="http://errol.oclc.org/laf/nr89-1832.html">
-                        <mods:namePart>Ribbeck, Otto</mods:namePart>
-                        <mods:namePart type="date">1827-1898</mods:namePart>
-                        <mods:role>
-                            <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-                        </mods:role>
-                    </mods:name>
-                    <mods:typeOfResource>text</mods:typeOfResource>
-                    <mods:originInfo>
-                        <mods:place>
-                            <mods:placeTerm type="text">Lipsiae</mods:placeTerm>
-                        </mods:place>
-                        <mods:publisher>B.G. Teubneri</mods:publisher>
-                        <mods:dateIssued>1860</mods:dateIssued>
-                        <mods:issuance>monographic</mods:issuance>
-                    </mods:originInfo>
-                    <mods:language>
-                        <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
-                    </mods:language>
-                    <mods:physicalDescription>
-                        <mods:form authority="marcform">print</mods:form>
-                        <mods:extent>435 pg</mods:extent>
-                    </mods:physicalDescription>
-                    <mods:note type="statement of responsibility">P. Vergili Maronis ; recensuit Otto Ribbeck.</mods:note>
-                    <mods:classification authority="lcc">PA6801 A2 1859</mods:classification>
-                    <mods:identifier type="oclc">8743036</mods:identifier>
-                    <mods:identifier type="lccn"/>
-                    <mods:identifier type="oca">operavirg02virguoft</mods:identifier>
-                    <mods:location>
-                        <mods:url displayLabel="LC Permalink"/>
-                    </mods:location>
-                    <mods:location>
-                        <mods:url displayLabel="WorldCat">http://www.worldcat.org/oclc/8743036</mods:url>
-                    </mods:location>
-                    <mods:location>
-                        <mods:url displayLabel="Open Content Alliance">http://www.archive.org/details/operavirg02virguoft</mods:url>
-                    </mods:location>
-                    <mods:location>
-                        <mods:url displayLabel="Open Library">http://openlibrary.org/ia/operavirg02virguoft</mods:url>
-                    </mods:location>
-                    <mods:location>
-                        <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=oe1gBmW7u3cC</mods:url>
-                    </mods:location>
-                    <mods:recordInfo>
-                        <mods:recordContentSource authority="marcorg">OTU</mods:recordContentSource>
-                        <mods:recordCreationDate encoding="marc">700101</mods:recordCreationDate>
-                        <mods:recordIdentifier>2307043</mods:recordIdentifier>
-                        <mods:languageOfCataloging>
-                            <mods:languageTerm authority="iso639-2b" type="code">ENG</mods:languageTerm>
-                        </mods:languageOfCataloging>
-                    </mods:recordInfo>
-                </mods:relatedItem>
-                <mods:language xmlns="http://www.loc.gov/mods/v3">
-                    <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
-                </mods:language>
-                <mods:name xmlns="http://www.loc.gov/mods/v3"
-              xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/n79-14062.html">
-                    <mods:namePart>Virgil</mods:namePart>
-                    <mods:role>
-                        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
-                <mods:name xmlns="http://www.loc.gov/mods/v3"
-              xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/nr89-1832.html">
-                    <mods:namePart>Ribbeck, Otto</mods:namePart>
-                    <mods:namePart type="date">1827-1898</mods:namePart>
-                    <mods:role>
-                        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
-            </mods:mods>
+<mods xmlns="http://www.loc.gov/mods/v3">
+   <identifier type="phi">690.3</identifier>
+   <identifier type="stoa author-text">stoa0290-stoa001</identifier>
+   <identifier type="ctsurn">urn:cts:latinLit:phi0690.phi003.opp-lat10</identifier>
+   <titleInfo xml:lang="en" type="uniform">
+      <title>Aeneid</title>
+    </titleInfo>
+   <titleInfo>
+      <title>Aeneis</title>
+    </titleInfo>
+   <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n79-14062.html">
+      <namePart>Virgil</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+   <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/nr89-1832.html">
+      <namePart>Ribbeck, Otto</namePart>
+      <namePart type="date">1827-1898</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+      </role>
+    </name>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Aeneid</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Aeneis</title>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-14062.html">
+         <namePart>Virgil</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/nr89-1832.html">
+         <namePart>Ribbeck, Otto</namePart>
+         <namePart type="date">1827-1898</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Book I-VI</tableOfContents>
+      <location displayLabel="GoogleBooks">
+         <url>http://books.google.com/books?id=oe1gBmW7u3cC&amp;pg=PA1</url>
+      </location>
+      <location displayLabel="Open Content Alliance">
+         <url>http://www.archive.org/stream/operavirg02virguoft#page/n7/mode/2up</url>
+      </location>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Aeneid</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Aeneis</title>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-14062.html">
+         <namePart>Virgil</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/nr89-1832.html">
+         <namePart>Ribbeck, Otto</namePart>
+         <namePart type="date">1827-1898</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Book VII-XII</tableOfContents>
+      <location displayLabel="GoogleBooks">
+         <url>http://books.google.com/books?id=MUQ9Oh1IceYC&amp;pg=PA1</url>
+      </location>
+      <location displayLabel="Open Content Alliance">
+         <url>http://www.archive.org/stream/operavirg03virguoft#page/n7/mode/2up</url>
+      </location>
+   </relatedItem>
+</mods>

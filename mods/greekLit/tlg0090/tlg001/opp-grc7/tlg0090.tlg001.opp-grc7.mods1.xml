@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+  <titleInfo type="uniform">
+    <title>Geographiae informatio</title>
+  </titleInfo>
+  <titleInfo type="alternative">
+    <title>Geographiae Expositio</title>
+  </titleInfo>
+  <name authority="naf" type="personal" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/no00081971">
+    <namePart>Agathemerus</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+    </role>
+  </name>
+  <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/76540878">
+    <namePart>Hoffmann, Samuel Friedrich Wilhelm</namePart>
+    <namePart type="date">1803-1872</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+    </role>
+  </name>
+  <language objectPart="text">
+    <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+  </language>
+  <identifier type="tlg">0090.001</identifier>
+  <identifier type="ctsurn">urn:cts:greekLit:tlg0090.tlg001.opp-grc7</identifier>
+  <part>
+    <extent unit="pages">
+      <start>283</start>
+      <end>378</end>
+    </extent>
+  </part>
+  <location>
+    <url displayLabel="HathiTrust">http://hdl.handle.net/2027/hvd.32044085078467?urlappend=%3Bseq=316</url>
+  </location>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Arriani periplus Ponti Euxini</title>
+      <subTitle>Anonymi periplus Ponti Euxini, qui Arriano falso adscribitur. Anonymi periplus Ponti Euxini et Maeotidis paludis.
+                Anonymi mensura Ponti Euxini. Agathemeri hypotyposes geographiae. Fragmenta duo geographica.</subTitle>
+    </titleInfo>
+    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/76540878">
+      <namePart>Hoffmann, Samuel Friedrich Wilhelm</namePart>
+      <namePart type="date">1803-1872</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+      </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+      <place>
+        <placeTerm type="code" authority="marccountry">gw</placeTerm>
+      </place>
+      <place>
+        <placeTerm type="text">Lipsiae</placeTerm>
+      </place>
+      <dateIssued>1842</dateIssued>
+      <issuance>monographic</issuance>
+      <publisher>Sumptibus C.L. Fritzschii</publisher>
+    </originInfo>
+    <language objectPart="text">
+      <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+    </language>
+    <language objectPart="text">
+      <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+    </language>
+    <physicalDescription>
+      <form authority="marcform">print</form>
+      <extent>1 vol</extent>
+    </physicalDescription>
+    <subject>
+      <topic>Geography, Ancient</topic>
+    </subject>
+    <note type="language">Texts in Greek with Latin translations; editorial matter in Latin.</note>
+    <classification authority="lcc">PA3401.B5 A3</classification>
+    <identifier type="oclc">311080480</identifier>
+    <location>
+      <url displayLabel="Worldcat">http://www.worldcat.org/oclc/311080480</url>
+    </location>
+    <location>
+      <url displayLabel="HathiTrust">http://hdl.handle.net/2027/hvd.32044085078467</url>
+    </location>
+    <recordInfo>
+      <recordContentSource authority="marcorg">DLC</recordContentSource>
+      <recordCreationDate encoding="marc">830111</recordCreationDate>
+      <recordChangeDate encoding="iso8601">00000000000000.0</recordChangeDate>
+      <recordIdentifier>8606092</recordIdentifier>
+      <recordOrigin>Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5.xsl
+				(Revision 1.106 2014/12/19)</recordOrigin>
+    </recordInfo>
+  </relatedItem>
+</mods>

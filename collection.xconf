@@ -1,0 +1,52 @@
+<collection xmlns:mads="http://www.loc.gov/mads/v2" xmlns="http://exist-db.org/collection-config/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <index>
+    <!-- Not using the Legacy Fulltext Index -->
+    <fulltext default="none" attributes="false"/>
+    <!-- Lucene-Based Full-Text Indexes -->
+    <lucene>
+      <!-- MODS -->
+      <text qname="mods:title"/>
+      <text qname="mods:name"/>
+      <text qname="mods:namePart"/>
+      <text qname="mods:identifier"/>
+
+      <!-- MADS -->
+      <text qname="mads:name"/>
+      <text qname="mads:namePart"/>
+      <text qname="mads:identifier"/>
+      <text qname="mads:note"/>
+      <text qname="mads:url"/>
+      
+      <!-- Citation index -->
+      <text qname="author"/>
+      <text qname="urn"/>
+      <text qname="canonical-id"/>
+      <text qname="related-works"/>
+      <text qname="authority-name"/>
+      <text qname="groupname-eng"/>
+      <text qname="title-eng"/>
+    </lucene>
+
+    <!-- New Range Indexes -->
+    <range>
+      <create qname="@type" type="xs:string"/>
+
+      <!-- MODS -->
+      <create qname="mods:identifier" type="xs:string"/>
+      <create qname="mods:topic" type="xs:string"/>
+      <create qname="mods:languageTerm" type="xs:string"/>
+
+      <!-- MADS -->
+      <create qname="mads:identifier" type="xs:string"/>
+      <create qname="mads:url" type="xs:string"/>
+      <create qname="mads:fieldOfActivity" type="xs:string"/>
+      
+      <!-- Citation Index -->
+      <create qname="urn" type="xs:string"/>
+      <create qname="canonical-id" type="xs:string"/>
+      <create qname="work" type="xs:string"/>
+      <create qname="version" type="xs:string"/>
+    </range>
+  </index>
+</collection>

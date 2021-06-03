@@ -106,8 +106,13 @@
                         <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
                     </mods:role>
                 </mods:name>
-                <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/n86-26019.html"/>
+                <mods:name authority="naf" type="corporate" xmlns:ns2="http://www.w3.org/1999/xlink"
+        ns2:href="http://errol.oclc.org/laf/n86-26019.html">
+        <mods:namePart>Gherardo,</mods:namePart>
+        <mods:namePart type="termsOfAddress">da Cremona,</mods:namePart>
+        <mods:namePart type="date">1113 or 14-1187</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator" type="text">translator</mods:roleTerm>
+        </mods:role>
+    </mods:name>
             </mods:mods>

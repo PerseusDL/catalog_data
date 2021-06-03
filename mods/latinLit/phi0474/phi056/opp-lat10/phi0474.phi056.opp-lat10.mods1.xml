@@ -1,167 +1,403 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xmlns:atom="http://www.w3.org/2005/Atom"
-           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-                <mods:titleInfo xml:lang="en" type="uniform">
-                    <mods:title>Letters to his Friends</mods:title>
-                </mods:titleInfo>
-                <mods:part>
-                    <mods:extent unit="words">
-                        <mods:total>116442</mods:total>
-                    </mods:extent>
-                </mods:part>
-                <mods:titleInfo xmlns="http://www.loc.gov/mods/v3">
-                    <mods:title>Epistulae ad Familiares</mods:title>
-                </mods:titleInfo>
-                <mods:titleInfo xmlns="http://www.loc.gov/mods/v3" type="translated" lang="eng">
-                    <mods:title>Letters to Friends</mods:title>
-                </mods:titleInfo>
-                <mods:identifier type="phi">474.56</mods:identifier>
-                <mods:identifier type="stoa author-text">stoa0087-stoa026</mods:identifier>
-                <mods:identifier type="ctsurn">urn:cts:latinLit:phi0474.phi056.opp-lat10</mods:identifier>
-                <mods:tableOfContents xmlns="http://www.loc.gov/mods/v3">Fam. v. 1 - Fam. v. 2 (pg. 181-6) -- Fam. v. 5 (pg. 194-196)-- Fam. v. 7
+<mods xmlns="http://www.loc.gov/mods/v3">
+   <identifier type="phi">474.56</identifier>
+   <identifier type="stoa author-text">stoa0087-stoa026</identifier>
+   <identifier type="ctsurn">urn:cts:latinLit:phi0474.phi056.opp-lat10</identifier>
+   <titleInfo xml:lang="en" type="uniform">
+      <title>Letters to his Friends</title>
+    </titleInfo>
+   <titleInfo>
+      <title>Epistulae ad Familiares</title>
+    </titleInfo>
+   <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n79-32166.html">
+      <namePart>Cicero, Marcus Tullius</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+   <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n85-821139.html">
+      <namePart>Tyrrell, Robert Yelverton</namePart>
+      <namePart type="date">1844-1914</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+      </role>
+    </name>
+   <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n87-812510.html">
+      <namePart>Purser, Louis Claude</namePart>
+      <namePart type="date">1854-1932</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+      </role>
+    </name>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Letters to his Friends</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Epistulae ad Familiares</title>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-32166.html">
+         <namePart>Cicero, Marcus Tullius</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n85-821139.html">
+         <namePart>Tyrrell, Robert Yelverton</namePart>
+         <namePart type="date">1844-1914</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n87-812510.html">
+         <namePart>Purser, Louis Claude</namePart>
+         <namePart type="date">1854-1932</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Fam. v. 1 - Fam. v. 2 (pg. 181-6) -- 
+            Fam. v. 5 (pg. 194-196)-- Fam. v. 7
             (pg. 187-8) -- Fam. v. 6 (pg. 188-190) --Fam xiii. 42 (pg. 347)-- Fam. xiii. 41 (pg.
             348) -- Fam. xiv. 4 (pg. 362--364) -- Fam. xiv. 2 (pg. 401-403)-- Fam. xiv. 1 (pg.
-            405-407) --Fam. xiv. 3 (pg. 411-12) -- Fam. v. 4 (pg. 420-422)</mods:tableOfContents>
-                <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
-                    <mods:titleInfo>
-                        <mods:nonSort>The </mods:nonSort>
-                        <mods:title>correspondence of M. Tullius Cicero</mods:title>
-                        <mods:subTitle>arranged according to its chronological order; with a revision of the text, a
-            commentary, and introductory essays</mods:subTitle>
-                        <mods:partNumber>Vol I</mods:partNumber>
-                    </mods:titleInfo>
-                    <mods:titleInfo type="uniform">
-                        <mods:title>Epistolae. English.</mods:title>
-                    </mods:titleInfo>
-                    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-                 authority="naf"
-                 type="personal"
-                 ns2:href="http://errol.oclc.org/laf/n79-32166.html">
-                        <mods:namePart>Cicero, Marcus Tullius.</mods:namePart>
-                        <mods:role>
-                            <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-                        </mods:role>
-                    </mods:name>
-                    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-                 authority="naf"
-                 type="personal"
-                 ns2:href="http://errol.oclc.org/laf/n85-821139.html">
-                        <mods:namePart>Tyrrell, Robert Yelverton</mods:namePart>
-                        <mods:namePart type="date">1844-1914</mods:namePart>
-                        <mods:role>
-                            <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-                        </mods:role>
-                    </mods:name>
-                    <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-                 authority="naf"
-                 type="personal"
-                 ns2:href="http://errol.oclc.org/laf/n87-812510.html">
-                        <mods:namePart>Purser, Louis Claude</mods:namePart>
-                        <mods:namePart type="date">1854-1932</mods:namePart>
-                        <mods:role>
-                            <mods:roleTerm authority="marcrelator" type="text">joint editor</mods:roleTerm>
-                        </mods:role>
-                    </mods:name>
-                    <mods:typeOfResource>text</mods:typeOfResource>
-                    <mods:originInfo>
-                        <mods:place>
-                            <mods:placeTerm type="code" authority="marccountry">ie</mods:placeTerm>
-                        </mods:place>
-                        <mods:place>
-                            <mods:placeTerm type="text">Dublin</mods:placeTerm>
-                        </mods:place>
-                        <mods:publisher>Hodges &amp; Figgis</mods:publisher>
-                        <mods:dateIssued>1904</mods:dateIssued>
-                        <mods:edition>3rd</mods:edition>
-                        <mods:issuance>monographic</mods:issuance>
-                    </mods:originInfo>
-                    <mods:language objectPart="text">
-                        <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
-                    </mods:language>
-                    <mods:language objectPart="notes">
-                        <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
-                    </mods:language>
-                    <mods:language objectPart="introduction">
-                        <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
-                    </mods:language>
-                    <mods:physicalDescription>
-                        <mods:form authority="marcform">print</mods:form>
-                        <mods:extent>first of seven volumes, 23 cm.</mods:extent>
-                    </mods:physicalDescription>
-                    <mods:note type="statement of responsibility">By Robert Yelverton Tyrrell..and Louis Claude Purser</mods:note>
-                    <mods:note>Vols. 4-6 have series title at head of t.-p. Vol. 3 has title slightly different</mods:note>
-                    <mods:note>Vol. 1: 3rd edition.</mods:note>
-                    <mods:note>Vol. 7: Index.</mods:note>
-                    <mods:subject>
-                        <mods:geographicCode authority="marcgac">e------</mods:geographicCode>
-                        <mods:geographicCode authority="marcgac">ff-----</mods:geographicCode>
-                        <mods:geographicCode authority="marcgac">aw-----</mods:geographicCode>
-                    </mods:subject>
-                    <mods:subject authority="lcsh">
-                        <mods:name authority="" type="personal">
-                            <mods:namePart>Cicero, Marcus Tullius</mods:namePart>
-                        </mods:name>
-                        <mods:topic>Correspondence</mods:topic>
-                    </mods:subject>
-                    <mods:subject authority="lcsh">
-                        <mods:topic>Statesmen</mods:topic>
-                        <mods:geographic>Rome</mods:geographic>
-                        <mods:topic>Correspondence</mods:topic>
-                    </mods:subject>
-                    <mods:subject authority="lcsh">
-                        <mods:topic>Authors, Latin</mods:topic>
-                        <mods:topic>Correspondence</mods:topic>
-                    </mods:subject>
-                    <mods:classification authority="lcc">PA6297</mods:classification>
-                    <mods:identifier type="oclc">6525638</mods:identifier>
-                    <mods:location>
-                        <mods:url displayLabel="WorldCat">http://worldcat.org/oclc/6525638</mods:url>
-                    </mods:location>
-                    <mods:location>
-                        <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=VB8DAAAAYAAJ </mods:url>
-                    </mods:location>
-                    <mods:recordInfo>
-                        <mods:recordContentSource authority="marcorg">OCoLC</mods:recordContentSource>
-                        <mods:recordCreationDate encoding="marc"/>
-                        <mods:recordChangeDate encoding="iso8601"/>
-                        <mods:recordIdentifier/>
-                    </mods:recordInfo>
-                </mods:relatedItem>
-                <mods:language xmlns="http://www.loc.gov/mods/v3">
-                    <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
-                </mods:language>
-                <mods:name xmlns="http://www.loc.gov/mods/v3"
-              xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/n79-32166.html">
-                    <mods:namePart>Cicero, Marcus Tullius.</mods:namePart>
-                    <mods:role>
-                        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
-                <mods:name xmlns="http://www.loc.gov/mods/v3"
-              xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/n85-821139.html">
-                    <mods:namePart>Tyrrell, Robert Yelverton</mods:namePart>
-                    <mods:namePart type="date">1844-1914</mods:namePart>
-                    <mods:role>
-                        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
-                <mods:name xmlns="http://www.loc.gov/mods/v3"
-              xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/n87-812510.html">
-                    <mods:namePart>Purser, Louis Claude</mods:namePart>
-                    <mods:namePart type="date">1854-1932</mods:namePart>
-                    <mods:role>
-                        <mods:roleTerm authority="marcrelator" type="text">joint editor</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
-            </mods:mods>
+            405-407) --Fam. xiv. 3 (pg. 411-12) -- Fam. v. 4 (pg. 420-422)</tableOfContents>
+      <location displayLabel="HathiTrust">
+         <url>http://hdl.handle.net/2027/mdp.39015069576794?urlappend=%3Bseq=202</url>
+      </location>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Letters to his Friends</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Epistulae ad Familiares</title>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-32166.html">
+         <namePart>Cicero, Marcus Tullius</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n85-821139.html">
+         <namePart>Tyrrell, Robert Yelverton</namePart>
+         <namePart type="date">1844-1914</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n87-812510.html">
+         <namePart>Purser, Louis Claude</namePart>
+         <namePart type="date">1854-1932</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Fam VII. 26 (pg. 22-24) --Fam. I. 1-Fam. I. 5a (pg. 27-37) Fam. I. 5b- Fam.
+            I. 6 (pg. 46-47) -- Fam. V. 12 (pg. 61-67) -- Fam. V. 3 (pg. 73) -- Fam. I. 7 (pg.
+            74-80) -- Fam. XIII. 6a (pg. 81-82) -- Fam. XII. 6b (pg. 83)-- Fam. I. 8 (pg. 91-93) --
+            Fam. VII. 1 (pg. 109-114) --Fam. XIII. 74 (pg. 115) -- Fam. XIII. 40 (pg. 115) --Fam. V.
+            8 (pg. 120-123) --Fam. VII. 5 (pg. 130-132) -- Fam. VII. 6 (pg. 136-138) -- Fam. VII. 7
+            (pg. 138) -- Fam. VII. 8 (pg. 142) -- Fam. VII. 9 (pg. 159) -- Fam. VII. 17 (pg.
+            160-161)-- Fam. I. 9 (pg. 190-208) -- Fam. VII. 16 (pg. 217-219) -- Fam. VII. 10 (pg.
+            229-231) -- Fam. I. 10 (pg. 231) --Fam. XIII 49 (pg. 232-234) -- Fam. XIII. 60 (pg. 233)
+            -- Fam. XIII. 73 (pg. 234) -- Fam. II. 1 (pg. 236-238) -- Fam. VII. II (pg. 238-239) --
+            Fam. II. 2 (pg. 240) -- Fam. II. 3 (pg. 240-241) -- Fam. VII. 12 (pg. 242-245) -- Fam.
+            VII. 13 (pg. 245-247) -- Fam. VII. 14 (pg. 248) -- Fam. VII. 18 (pg. 249-251) -- Fam.
+            VII. 15 (pg. 252) -- Fam. II. 4 (pg. 253-4) -- Fam. II. 5 (pg. 254-255) -- Fam. II. 6
+            (pg. 255-258) -- Fam. XII. 75 (pg. 258) --Fam. V. 17 (pg. 260-262) -- Fam. V. 18 (pg.
+            263-4) -- Fam. III. 1 (pg. 264-266) -- Fam. VII. 2 (pg. 266-268) -- </tableOfContents>
+      <location displayLabel="Google Books">
+         <url>https://books.google.com/books?id=Lx8DAAAAYAAJ&amp;pg=PA22#v=onepage</url>
+      </location>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Letters to his Friends</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Epistulae ad Familiares</title>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-32166.html">
+         <namePart>Cicero, Marcus Tullius</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n85-821139.html">
+         <namePart>Tyrrell, Robert Yelverton</namePart>
+         <namePart type="date">1844-1914</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n87-812510.html">
+         <namePart>Purser, Louis Claude</namePart>
+         <namePart type="date">1854-1932</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Fam. III. 2 (pg 5-6) --Fam III. 3 (pg. 24-5) -- Famm. VII. 1 (pg. 25-29) --
+            Fam. III. 4 (pg. 31-2) -- Fam. VIII. 2-Fam. VIII. 3 (Pg. 34-39) -- Fam. XIII. 1 (pg.
+            43-47) -- Fam. II. 8 (pg. 51-53) -- Fam. III. 5 (pg. 60-62) -- Fam. VIII. 4 (pg. 62-66)
+            -- Fam. VIII. 5 (pg. 72-74) --Fam. VIII. 9 (pg. 75-78) -- Fam. XV. 3 (pg. 79) -- Fam.
+            III. 6 (pg. 80-83) -- Fam. XV. 7- Fam. XV 9 (pg. 83-85) -- Fam. XV. 12 (pg. 86) --Fam.
+            XV. 2 (pg. 89-94) -- Fam. XV. 1 (pg. 97-99) --Fam. III. 8 (pg. 100-107) --Fam. VIII. 8
+            (pg. 108-117) -- Fam. II. 9 (pg. 118-119) -- Fam. II. 10 (pg. 120-122) -- Fam. VIII. 10
+            (pg. 123-125) -- Fam. II. 7 (pg. 125-127) -- Fam. VII. 32 (pg. 134-136) --Fam. XIII. 53
+            (pg. 137) -- Fam. XIII. 56 (pg. 138-139) -- Fam. XIII. 55 (pg. 140-141) -- Fam. XIII. 61
+            (pg. 141-142) -- Fam. XIII. 62 (pg. 142-3) -- Fam. XIII. 64-Fam. XIII. 65 (pg. 143-146)
+            -- Fam. XIII. 9 (pg. 146-147) -- Fam. XV. 4 (pg. 150-158)-- Fam. XV. 10 (pg. 159) --
+            Fam. XV. 13- Fam. XV. 14 (pg. 160-3) -- Fam. VIII. 6- Fam. VIII. 7(pg. 164-168) --Fam.
+            III. 7 (pg. 169-172) -- Fam. II. 14 (pg. 172-173) -- Fam. IX. 25 (pg. 173-174) -- Fam.
+            XIII. 59 (pg. 174-175) -- Fam. XII 58 (pg. 175) -- Fam. III. 9 (pg. 176-178)-- Fam.
+            XIII. 63 (pg. 187-188)-- Fam. XIII. 54 (pg. 205) -- Fam. XIII. 57 (pg. 206) -- Fam. II.
+            11 (pg. 207-208) -- Fam. II. 13 (pg. 215-217) -- Fam. II. 18 (pg. 218-219) -- Fam. XIII.
+            2-Fam. XIII. 3 (pg. 219-220) -- Fam. III. 10 (pg. 221-227) -- Fam. II. 19 (pg. 227-228)
+            -- Fam. II. 12 (pg. 228-230) -- Fam. III. 11 (pg. 235-238) -- Fam. XV. 5 (pg. 239-240)
+            -- Fam. VIII. 11 (pg. 240-244) -- Fam. VIII. 13 (pg. 250-251) --Fam. II. 17 (pg.
+            251-255) -- Fam. II. 15 (pg. 255-257) -- Fam. XV. 11 (pg. 257-258) -- Fam. III. 12 (pg.
+            258-260) --Fam. III. 13 (pg. 263-264) -- Fam. XV. 6 (pg. 264-266) -- Fam. VIII. 12 (pg.
+            266-268) -- Fam. VIII. 14 (pg. 269-273)-- Fam. XIV. 5 (pg. 278-279)-- Fam. XIV. 1 -Fam.
+            XIV. 7 (pg. 285-291) -- Fam. XIV. 9 (pg. 291-293)-- </tableOfContents>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Letters to his Friends</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Epistulae ad Familiares</title>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-32166.html">
+         <namePart>Cicero, Marcus Tullius</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n85-821139.html">
+         <namePart>Tyrrell, Robert Yelverton</namePart>
+         <namePart type="date">1844-1914</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n87-812510.html">
+         <namePart>Purser, Louis Claude</namePart>
+         <namePart type="date">1854-1932</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents> Fam. XVI. 11 (pg. 5-7) -- Fam. V. 20 (pg. 7-16) --Fam. XIV. 18 (pg. 24-25)
+            -- Fam. XIV. 14 (pg. 30-31) --Fam. XVI. 12 (pg. 36-9) --Fam. XVI. 8 (pg. 40-1) --Fam.
+            VIII. 15 (pg. 104-106) --Fam. IV. 1 (pg. 213-215) --Fam. IV. 2 (pg. 217-218) -- Fam. V.
+            19 (pg. 219-220) --Fam. II. 16 (pg. 233-237) --Fam. XIV. 17 (pg. 262-264) --Fam. VIII.
+            17 (pg. 270-271) --Fam. IX. 9 (pg. 272-274) -- Fam. XIV. 8 (pg.274-275) -- Fam. XIV. 6
+            (pg. 279) --Fam. XIV. 12 (pg. 285) -- Fam. XIV. 19 (pg. 287-288) Fam. XIV. 17 (pg. 298)
+            -- Fam. XIV. 16 (pg. 305-306)-- Fam. XIV. 11 (pg. 324-325) -- Fam. XIV. 15 (pg. 326) --
+            Fam. XIV. 10 (pg. 331) -- Fam. XIV. 13 (pg. 332) -- Fam. XIV. 24 (pg. 336) -- Fam. XIV.
+            23 (pg. 337) -- Fam. XIV. 22 (pg. 343) -- Fam. XV. 15 (pg. 344-347) --Fam XIV. 20 (pg.
+            347) --Fam. XV. 21 (pg. 348-350) -- Fam. XIII. 10 (pg. 352-354) -- Fam. XIII. 11- Fam.
+            XIII. 14 (pg. 354 -358) -- Fam. IX. 1 (pg. 358-360) --Fam. XIII. 29 (pg. 360-363) --Fam.
+            V. 21 (pg. 364-66) -- Fam. IX. 3 (pg. 370-371) --Fam. IX. 2 (pg. 372-375) -- Fam. IX. 7
+            (pg. 375-377) -- Fam. IX. 5 (pg. 377-378) -- Fam. VII. 3 (pg. 379-382) -- Fam. VI. 22
+            (pg. 383-384) --Fam. IX. 4 (pg. 385) --Fam. IX. 6 (pg. 391-394) --Fam. IX. 16 (pg.
+            397-404) -- Fam. IX. 18 (pg. 405-407) --Fam. VII. 33 (pg. 408-410) --Fam. IX. 20 (pg.
+            410-413) --Fam. VII. 27 - Fam. VII. 28(pg. 413-416) -- Fam. IX. 19 (pg. 417-418) -- Fam.
+            IX. 26 (pg. 419-422) -- Fam. IX. 17 (pg. 422-424) --Fam. IX. 15 (pg. 424-428) -- Fam.
+            XIII. 68 (pg. 428-429) --Fam. IV. 13 (pg. 429-433) -- Fam. IV. 15 (pg. 433-434) --Fam.
+            IV. 8 (pg. 434-436) -- Fam. IV. 7 (pg. 436-439) -- Fam. IV. 9 (pg. 440-443) -- Fam. VI.
+            6 (pg. 443-450) -- Fam. VI. 13 (pg. 451-452) -- Fam. VI. 12 (pg. 453-456) -- Fam. VI.
+            10, 4-6 (pg. 456-458) -- Fam. VI. 10, 1-3 (pg. 458-459) -- Fam. XII. 17 (pg. 460-461) --
+            Fam. IV. 3 - Fam. IV. 4 (pg. 461-469) --Fam. IV. 11 (pg. 469-470) --Fam. IX. 21 (pg.
+            471-474) -- Fam. VI. 14 (pg. 474-475) -- Fam. VII. 4 (pg. 483) -- Fam. IX. 23 (pg. 484)
+            -- Fam. XIII. 66 - Fam. XIII. 67 (pg. 487-489) --Fam. XIII. 69 - Fam. XIII. 72 (pg.
+            489-493) --Fam. XIII. 17- Fam. XIII. 28b (pg 494-510) --Fam. XIII. 78 - Fam. XIII. 79
+            (pg. 510-511) --Fam. VI. 8 -Fam. VI. 9 (pg. 512-514) --Fam. V. 16 (pg. 515-518) --Fam.
+            XV. 18 (pg. 518-519) -- Fam. XV. 16 (pg. 521-524) -- Fam. VI. 7 (pg. 524-528) --Fam. VI.
+            5 (pg. 528-530) -- Fam. VI. 18 (pg. 530-533) --Fam. IV. 14 (pg. 533-535) -- Fam. IV. 10
+            (pg. 536) -- Fam. IX. 10 (pg. 537-539) -- Fam. VI. 1 (pg. 539-543) --Fam. VI. 3 - Fam.
+            VI. 4 (pg. 544-549) -- Fam. XV. 17 (pg. 550-551) -- Fam. XV. 19 (pg. 552-554) -- Fam.
+            IX. 13 (pg. 554-555) --Fam. XIII. 16 (pg. 556-558) </tableOfContents>
+      <location displayLabel="Open Content Alliance">
+         <url>https://archive.org/stream/correspondenceof04ciceuoft#page/4/mode/2up</url>
+      </location>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Letters to his Friends</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Epistulae ad Familiares</title>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-32166.html">
+         <namePart>Cicero, Marcus Tullius</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n85-821139.html">
+         <namePart>Tyrrell, Robert Yelverton</namePart>
+         <namePart type="date">1844-1914</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n87-812510.html">
+         <namePart>Purser, Louis Claude</namePart>
+         <namePart type="date">1854-1932</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents> Fam. IV. 5 (pg. 19-25) --Fam. XIII. 15 (pg. 49-50) -- Fam. V. 13 (pg.
+            51-53) -- Fam. VI. 21 (pg. 53-55) -- Fam. IV. 6 (pg. 55-58) -- Fam. VI. 2 (pg. 58-59) --
+            Fam. IX. 11 (pg. 60) --Fam. V. 14 (pg. 71-72) -- Fam. V. 15 (pg. 74-76) -- Fam. IV. 12
+            (pg. 105-108)--Fam. VI. 11 (pg. 117-118) -- Fam. IX. 22 (pg. 134-8) --Fam. XIII. 77 (pg.
+            148-149) --Fam. V. 9 (pg. 150-151) --Fam. IX, 8 (pg. 153-154) --Fam. VI. 20 (pg.
+            158-159) -- Fam. VI. 19 (pg. 161-162) --Fam. XVI. 22 (pg. 163-5) --Fam. XVI. 17 (pg.
+            168-169) --Fam. XVI. 19 (pg. 170) --Fam. VII. 24 (pg. 185-187) --Fam. VII. 25 (pg.
+            191-193) --Fam. XII. 18 (pg. 194-196) --Fam. XII. 19 (pg. 196-197) --Fam. XIII. 4 - Fam.
+            XIII. 5 (pg. 197-200) --Fam XIII. 7 - Fam. XIII. 8 (pg. 201-4) -- Fam. V. 11 (pg.
+            204-205) -- Fam. VII. 29 (pg. 205-207) -- Fam. V. 10a (pg. 207-208) -- Fam. IX. 12 (pg.
+            211-212) -- Fam. XIII. 30 - Fam. XIII. 39 (pg. 214-221) -- Fam. XVI. 18 (pg. 222-224) --
+            Fam. XVI. 20 (pg. 224-225) -- Fam. VII. 30 (pg. 228-230) -- Fam. XIII. 50 (pg. 231) --
+            Fam. V. 10 (pg. 232-234) -- Fam. VII. 31 (pg. 234-235) --Fam. XII. 21 (pg. 236) --Fam.
+            VI. 15 (pg. 241) --Fam. XI. 1 (pg. 241-244) --Fam. VI. 16 (pg. 245) -- Fam. XV. 20 (pg.
+            246-248) -- Fam. VI. 17 (pg. 261) -- Fam. XII. 1 (pg. 288-290) --Fam. XII. 16 (pg.
+            318-320) --Fam. XI. 2 (pg. 326-327) -- Fam. VII. 21-Fam. VII. 22 (pg. 358-361) -- Fam.
+            XI. 29 (pg. 361-362) -- Fam. VII. 20 (pg. 388-390) --Fam. VII. 19 (pg. 392-393) --Fam.
+            XI. 3 (pg. 398-400) --Fam. XI. 27 (pg. 407-412) --Fam. XVI. 21 (pg. 416-420) --
+        </tableOfContents>
+      <location displayLabel="Open Content Alliance">
+         <url>https://archive.org/stream/correspondenceof05ciceuoft#page/18/mode/2up</url>
+      </location>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Letters to his Friends</title>
+      </titleInfo>
+      <titleInfo>
+         <title>Epistulae ad Familiares</title>
+      </titleInfo>
+      <titleInfo type="translated" lang="eng">
+         <title>Letters to Friends</title>
+      </titleInfo>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-32166.html">
+         <namePart>Cicero, Marcus Tullius</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n85-821139.html">
+         <namePart>Tyrrell, Robert Yelverton</namePart>
+         <namePart type="date">1844-1914</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n87-812510.html">
+         <namePart>Purser, Louis Claude</namePart>
+         <namePart type="date">1854-1932</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+         </role>
+      </name>
+      <tableOfContents>Fam. X. 1 - Fam. X. 3 (pg. 5-11) --Fam. XII. 2 -Fam. XII. 3 (pg. 11-16) --
+            Fam. XII. 23 (pg. 17-19) -- Fam. XII. 25 (pg. 19-20) -- Fam. XI. 4 (pg. 25-6) --Fam.
+            XVI. 24 (pg. 42-43) -- Fam. X. 4 (pg. 49-51) -- Fam. XI. 5 (pg. 51-53) -- Fam. X. 5 (pg.
+            53-55) -- Fam. XI. 7 (pg. 55-56) --Fam. XI. 6, 1-3 (pg. 57-8) -- Fam. XII. 22, 1-2 (pg.
+            58-59) --Fam. XII. 22, 3-4 (pg. 60-61) -- Fam. XVI. 26- Fam. XVI. 27 (pg. 61-63) -- Fam.
+            XI. 8 (pg. 66-67) -- Fam. XII. 24 (pg. 67-68) -- Fam. XII. 4 (pg. 68-70) -- Fam. X. 28
+            (pg. 71-73) -- Fam. IX. 24 (pg. 73-75) -- Fam. XII. 5 (pg. 76-78) --Fam. XII. 11 (pg.
+            78-79) -- Fam. XII. 7 (pg. 79-80) -- Fam. X. 31 (pg. 81-85) -- Fam. XII. 25, 1-5 (pg.
+            86-89) -- Fam. X. 6 (pg. 89-91) -- Fam. X. 27-Fam. X. 28 (pg. 91-3) -- Fam. XII. 26 (pg.
+            94) -- Fam. XII. 27 (pg. 95) -- Fam. XII. 29 (pg. 97) -- Fam. X. 7 (pg. 97-8) -- Fam. X.
+            8 (pg. 98-102) -- Fam. X. 10 (pg. 102-104) --Fam. XII. 6 (pg. 104) -- Fam. X. 12 (pg.
+            111-115) -- Fam. X. 30 (pg. 122-127) -- Fam. X. 9 (pg. 141-2) -- Fam. XI. 9 (pg.
+            144-145) -- Fam. X. 11 (pg. 145-148) --Fam. XI. 13b (pg. 148) -- Fam. XII. 25, 6-7 (pg.
+            152)--Fam. X. 14 (pg. 156-157) -- Fam. XI. 10 (pg. 157-160) -- Fam. XI. 11-Fam. XI. 12
+            (pg. 160-164) ---Fam. X. 13 (pg. 166-167) --Fam. XI. 13, 1-4 (pg. 167-169) -- Fam. X. 15
+            (pg. 170-172) --Fam. X. 21, 1-6 (pg. 172-176) --Fam. X. 21, 7 (pg. 176-7) --Fam. XI. 12
+            (pg. 177-178) --Fam. X. 34, 1-2 (pg. 204-205) -- Fam. X. 18 (pg. 205-208) --Fam. XI. 18
+            (pg. 208-209) -- Fam. XI. 17 (pg. 209-211) --Fam. XI. 19 (pg. 215-216) --Fam. X. 34, 3-4
+            (pg. 216-217) --Fam. XI. 20 (pg. 217-220) --Fam. XI. 23 (pg. 220-221) -- Fam. X. 19 (pg.
+            222-223) -- Fam. X. 25 (pg. 223-225) --Fam. X. 16 (pg. 225-226) --Fam. XII. 15, 1-6 (pg.
+            226-232) --Fam. XII. 14 (pg. 233-238) --Fam. X. 20 (pg. 238-239) -- Fam. X. 35 (pg.
+            239-240) -- Fam. XI. 14 (pg. 240-242) --Fam. XI. 16- Fam. XI. 17 (pg. 244-6) --Fam. X.
+            33 (pg. 247-251) --Fam. XII. 15, 7 (pg. 251-252) --Fam. XI. 26 (pg. 252-253) --Fam. XI.
+            21 (pg. 254-256) -- Fam. XI. 24 (pg. 256-257) -- Fam. X. 23 (pg. 258-262) --Fam. X. 32
+            (pg. 262-267) --Fam. XII. 8 (pg. 271-272) -- Fam. XII. 30 (pg. 272-276) --Fam. XI. 13,
+            4-5 (pg. 276-277) --Fam. XII. 13 (pg. 277-281) --Fam. XI. 25 (pg. 284) -- Fam. XII. 9
+            (pg. 285) -- Fam. XI. 15 (pg. 286) -- Fam. X. 22 (pg. 287-288) -- Fam. X. 26 (pg.
+            288-290) -- Fam. XII. 10 (pg. 294-295) --Fam. X. 29 (pg. 296) -- Fam. XI. 22 (pg.
+            296-297) -- Fam. X. 24 (pg. 314-319) -- Fam. XIII. 76 (pg. 325) --Fam. XIII. 43 (pg.
+            326) -- Fam. XIII. 44- Fam. XIII. 46 (pg. 327-328) --Fam. XIII. 51 (pg. 329) --Fam. XVI.
+            13-Fam. XVI. 15 (pg. 329-332) --Fam. XVI. 10 (pg. 332-333) -- Fam. XVI. 16 (pg.
+            333-334)-- Fam. XIII. 47- Fam. XIII. 48 (pg. 334-336) -- Fam. XII. 20 (pg. 336) --Fam.
+            XIII. 52 (pg. 337) </tableOfContents>
+   </relatedItem>
+</mods>

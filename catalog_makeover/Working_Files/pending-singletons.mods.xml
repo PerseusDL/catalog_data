@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+
+    <!--NEED TO ADD THESE IN AND ADD ALL THE TEXTGROUPS IN-NEED CITEURNs 
+        STILL TO DELETE AND REDO -->
+    <mods displayLabel="Acts of the Apostles, Apocryphal">
+        <!-- ERROR-This one is very different from the others, it contains page numbers
+    for instance, I believe that this file should be moved to the inverted rather than the singletons, numerous works in here-->
+        <titleInfo type="uniform">
+            <!-- 3 volumes each with more than one work, may  be too hard to also combine as a series?  -->
+            <title>Acts of the Apostles, Apocryphal</title>
+        </titleInfo>
+        <titleInfo lang="lat">
+            <title>Acta Apostolorum Apocrypha post Constantinum Tischendorf</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/77062188">
+            <namePart>Bonnet, Max</namePart>
+            <namePart type="date">1841-1917</namePart>
+            <role>
+                <roleTerm type="text">editor</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/25402935">
+            <namePart>Lipsius, Richard Adelbert</namePart>
+            <namePart type="date">1830-1892</namePart>
+            <role>
+                <roleTerm type="text">editor</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <originInfo>
+            <issuance>serial</issuance>
+        </originInfo>
+        <note type="statement of responsibility">post Constantinum Tischendorf denuo ediderunt
+            Ricardus Adelbertus Lipsius et Maximilianus Bonnet.</note>
+        <relatedItem type="constituent" otherType="structure" displayLabel="Vol 1">
+            <part type="volume">
+                <detail>
+                    <number>1</number>
+                </detail>
+            </part>
+            <identifier type="oclc">608965165</identifier>
+            <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+                valueURI="http://viaf.org/viaf/25402935">
+                <namePart>Lipsius, Richard Adelbert</namePart>
+                <namePart type="date">1830-1892</namePart>
+                <role>
+                    <roleTerm type="text">editor</roleTerm>
+                </role>
+            </name>
+            <originInfo>
+                <place>
+                    <placeTerm type="code" authority="marccountry">gw</placeTerm>
+                </place>
+                <place>
+                    <placeTerm type="text">Leipzig</placeTerm>
+                </place>
+                <publisher>Mendelssohn</publisher>
+                <dateIssued>1891</dateIssued>
+                <issuance>monographic</issuance>
+            </originInfo>
+            <location>
+                <url displayLabel="WorldCat">http://www.worldcat.org/oclc/608965165</url>
+            </location>
+            <location>
+                <url displayLabel="HathiTrust">http://hdl.handle.net/2027/wu.89013863634</url>
+            </location>
+            <location>
+                <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015005649523</url>
+            </location>
+            <location>
+                <url displayLabel="UBL">https://katalog.ub.uni-leipzig.de/Record/0003083909</url>
+            </location>
+            <relatedItem type="constituent" otherType="structure" displayLabel="Martyrium Pauli">
+                <part>
+                    <extent unit="pages">
+                        <list>104, 106, 108, 110, 112, 114-117</list>
+                    </extent>
+                </part>
+                <relatedItem type="constituent" otherType="work" displayLabel="Martyrium Pauli">
+                    <identifier type="tlg">0388.002</identifier>
+                    <relatedItem type="constituent" otherType="expression">
+                        <location>
+                            <url displayLabel="HathiTrust"
+                                >https://hdl.handle.net/2027/wu.89013863634?urlappend=%3Bseq=220https://hdl.handle.net/2027/wu.89013863634?urlappend=%3Bseq=220</url>
+                        </location>
+                    </relatedItem>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="structure"
+                displayLabel="Acta Pauli et Theclae">
+                <part>
+                    <extent unit="pages">
+                        <start>235</start>
+                        <end>271</end>
+                    </extent>
+                </part>
+                <relatedItem type="constituent" otherType="work">
+                    <identifier type="tlg">0388.004</identifier>
+                    <relatedItem type="constituent" otherType="expression">
+                        <location>
+                            <url displayLabel="HathiTrust"
+                                >https://hdl.handle.net/2027/wu.89013863634?urlappend=%3Bseq=350</url>
+                        </location>
+                    </relatedItem>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="structure"
+                displayLabel="Acta Pauli et Theclae (partis finalis recensio e codice G)">
+                <part>
+                    <extent unit="pages">
+                        <start>271</start>
+                        <end>272</end>
+                    </extent>
+                </part>
+                <relatedItem type="constituent" otherType="work">
+                    <identifier type="tlg">0388.005</identifier>
+                    <relatedItem type="constituent" otherType="expression">
+                        <location>
+                            <url displayLabel="HathiTrust"
+                                >https://hdl.handle.net/2027/wu.89013863634?urlappend=%3Bseq=386</url>
+                        </location>
+                    </relatedItem>
+                </relatedItem>
+            </relatedItem>
+        </relatedItem>
+
+        <relatedItem type="constituent" otherType="structure" displayLabel="Vol 2">
+            <part type="volume">
+                <detail>
+                    <number>2</number>
+                </detail>
+            </part>
+
+            <relatedItem type="constituent" otherType="structure" displayLabel="Vol 2.1">
+                <identifier type="oclc">717308117</identifier>
+                <originInfo>
+                    <place>
+                        <placeTerm type="code" authority="marccountry">gw</placeTerm>
+                    </place>
+                    <place>
+                        <placeTerm type="text">Leipzig</placeTerm>
+                    </place>
+                    <publisher>Mendelssohn</publisher>
+                    <dateIssued>1898</dateIssued>
+                    <issuance>monographic</issuance>
+                </originInfo>
+                <location>
+                    <url displayLabel="WorldCat">http://www.worldcat.org/oclc/717308117</url>
+                </location>
+                <location>
+                    <url displayLabel="UBL"
+                        >https://katalog.ub.uni-leipzig.de/Record/0003086899</url>
+                </location>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/hvd.32044010474799</url>
+                </location>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >http://hdl.handle.net/2027/mdp.39015066433262</url>
+                </location>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Acta Joannis">
+                    <part>
+                        <extent unit="pages">
+                            <start>151</start>
+                            <end>215</end>
+                        </extent>
+                    </part>
+                    <relatedItem type="constituent" otherType="work" displayLabel="Acta Joannis">
+                        <identifier type="tlg">0317.001</identifier>
+                    </relatedItem>
+                    <relatedItem type="constituent" otherType="expression">
+                        <location>
+                            <url displayLabel="HathiTrust"
+                                >https://hdl.handle.net/2027/hvd.32044010474799?urlappend=%3Bseq=210</url>
+                        </location>
+                    </relatedItem>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="structure"
+                    displayLabel="Acta Joannia (recensio)">
+                    <part>
+                        <extent unit="pages">
+                            <list>152-160, 169, 171-179, 203-206, 209-210</list>
+                        </extent>
+                    </part>
+                    <relatedItem type="constituent" otherType="work"
+                        displayLabel="Acta Joannia (recensio)">
+                        <identifier type="tlg">0317.002</identifier>
+                        <relatedItem type="constituent" otherType="expression">
+                            <location>
+                                <url displayLabel="HathiTrust"
+                                    >https://hdl.handle.net/2027/hvd.32044010474799?urlappend=%3Bseq=212</url>
+                            </location>
+                        </relatedItem>
+                    </relatedItem>
+                </relatedItem>
+            </relatedItem>
+
+            <relatedItem type="constituent" otherType="structure" displayLabel="Vol 2.2">
+                <originInfo>
+                    <place>
+                        <placeTerm type="code" authority="marccountry">gw</placeTerm>
+                    </place>
+                    <place>
+                        <placeTerm type="text">Leipzig</placeTerm>
+                    </place>
+                    <publisher>Mendelssohn</publisher>
+                    <dateIssued>1903</dateIssued>
+                </originInfo>
+                <part type="part">
+                    <detail>
+                        <number>2</number>
+                    </detail>
+                </part>
+                <titleInfo lang="lat">
+                    <title>Acta Philippi et Acta Thomae accedunt Acta Barnabae</title>
+                </titleInfo>
+                <identifier type="oclc">697604807</identifier>
+                <location>
+                    <url displayLabel="WorldCat">http://www.worldcat.org/oclc/697604807</url>
+                </location>
+                <location>
+                    <url displayLabel="UBL"
+                        >https://katalog.ub.uni-leipzig.de/Record/0003083911</url>
+                </location>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/coo.31924095644245</url>
+                </location>
+                <relatedItem type="constituent" otherType="part" displayLabel="Acta Thomae">
+                    <part type="part">
+                        <detail>
+                            <title>Acta Thomae</title>
+                        </detail>
+                    </part>
+                    <relatedItem type="constituent" otherType="structure"
+                        displayLabel="Πράξεις τοῦ ἁγίου ἀποστόλου Θωμᾶ">
+                        <part>
+                            <extent unit="pages">
+                                <start>99</start>
+                                <end>288</end>
+                            </extent>
+                        </part>
+                        <relatedItem type="constituent" otherType="work"
+                            displayLabel="Πράξεις τοῦ ἁγίου ἀποστόλου Θωμᾶ">
+                            <identifier type="tlg">2038.001</identifier>
+                            <relatedItem type="constituent" otherType="expression">
+                                <location>
+                                    <url displayLabel="HathiTrust"
+                                        >https://hdl.handle.net/2027/coo.31924095644245?urlappend=%3Bseq=148</url>
+                                </location>
+                            </relatedItem>
+                        </relatedItem>
+                    </relatedItem>
+                    <relatedItem type="constituent" otherType="structure"
+                        displayLabel="Πράξεις τοῦ ἁγίου ἀποστόλου Θωμᾶ">
+                        <part>
+                            <extent unit="pages">
+                                <list>108-109, 111-145, 251-258, 269-288</list>
+                            </extent>
+                        </part>
+                        <relatedItem type="constituent" otherType="work"
+                            displayLabel="Πράξεις τοῦ ἁγίου ἀποστόλου Θωμᾶ">
+                            <identifier type="tlg">2038.004</identifier>
+                            <relatedItem type="constituent" otherType="expression">
+                                <location>
+                                    <url displayLabel="HathiTrust"
+                                        >https://hdl.handle.net/2027/coo.31924095644245?urlappend=%3Bseq=158</url>
+                                </location>
+                                <location>
+                                    <url displayLabel="HathiTrust"
+                                        >https://hdl.handle.net/2027/coo.31924095644245?urlappend=%3Bseq=160</url>
+                                </location>
+                                <location>
+                                    <url displayLabel="HathiTrust"
+                                        >https://hdl.handle.net/2027/coo.31924095644245?urlappend=%3Bseq=300</url>
+                                </location>
+                                <location>
+                                    <url displayLabel="HathiTrust"
+                                        >https://hdl.handle.net/2027/coo.31924095644245?urlappend=%3Bseq=318</url>
+                                </location>
+
+                            </relatedItem>
+                        </relatedItem>
+                    </relatedItem>
+                    <relatedItem type="constituent" otherType="structure"
+                        displayLabel="Ἡ τελείωσις Θωμᾶ τοῦ ἀποστόλου">
+                        <part>
+                            <extent unit="pages">
+                                <start>289</start>
+                                <end>291</end>
+                            </extent>
+                        </part>
+                        <relatedItem type="constituent" otherType="work"
+                            displayLabel="Ἡ τελείωσις Θωμᾶ τοῦ ἀποστόλου">
+                            <identifier type="tlg">2038.005</identifier>
+                            <relatedItem type="constituent" otherType="expression">
+                                <location>
+                                    <url displayLabel="HathiTrust"
+                                        >https://hdl.handle.net/2027/coo.31924095644245?urlappend=%3Bseq=338</url>
+                                </location>
+                            </relatedItem>
+                        </relatedItem>
+                    </relatedItem>
+                </relatedItem>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <!-- END OF FILE TO DELETE AND REDO -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+    
+
+   
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</modsCollection>

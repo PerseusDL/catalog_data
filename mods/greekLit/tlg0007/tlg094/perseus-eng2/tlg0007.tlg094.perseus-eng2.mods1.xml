@@ -28,17 +28,12 @@
                         <roleTerm authority="marcrelator" type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name xmlns:ns2="http://www.w3.org/1999/xlink"
-         xmlns="http://www.loc.gov/mods/v3"
-         authority="naf"
-         type="personal"
-         ns2:href="http://errol.oclc.org/laf/n84-26495.html">
-                    <namePart>Morgan, Matthew</namePart>
-                    <namePart type="date">1652-1703</namePart>
-                    <role>
-                        <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-                    </role>
-                </name>
+    <mods:name authority="none" type="personal" >
+        <mods:namePart>C.H.</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator" type="text">translator</mods:roleTerm>
+        </mods:role>
+    </mods:name>
                 <language xmlns="http://www.loc.gov/mods/v3">
                     <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
                 </language>

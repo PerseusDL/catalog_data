@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3">
+  <titleInfo>
+    <title>Scholia Bobiensia Pro Sulla</title>
+  </titleInfo>
+  <name authority="stoa" type="corporate">
+    <namePart>Scholia Bobiensia</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+    </role>
+  </name>
+  <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/17313454">
+    <namePart>Hildebrandt, Paul</namePart>
+    <namePart type="date">1870-1948</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+    </role>
+  </name>
+  <language objectPart="text">
+    <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+  </language>
+  <part>
+    <extent unit="pages">
+      <start>7</start>
+      <end>19</end>
+    </extent>
+  </part>
+  <identifier type="stoa author-text">stoa0358-stoa002</identifier>
+  <identifier type="ctsurn">urn:cts:latinLit:stoa0358.stoa002.opp-lat1</identifier>
+  <location>
+    <url displayLabel="SLUB">http://digital.slub-dresden.de/werkansicht/dlf/103685/11/0</url>
+  </location>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Scholia in Ciceronis orationes Bobiensia</title>
+    </titleInfo>
+    <name authority="stoa" type="corporate">
+      <namePart>Scholia Bobiensia</namePart>
+      <role>
+        <roleTerm type="text">creator</roleTerm>
+      </role>
+    </name>
+    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/17313454">
+      <namePart>Hildebrandt, Paul</namePart>
+      <namePart type="date">1870-1948</namePart>
+      <role>
+        <roleTerm type="text">editor</roleTerm>
+      </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+      <place>
+        <placeTerm type="code" authority="marccountry">gw</placeTerm>
+      </place>
+      <place>
+        <placeTerm type="text">Stuttgardiae</placeTerm>
+      </place>
+      <publisher>Teubner</publisher>
+      <dateIssued>1971</dateIssued>
+      <edition>Editio stereotypa editionis anni 1907</edition>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <language objectPart="text">
+      <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+    </language>
+    <physicalDescription>
+      <form authority="marcform">print</form>
+      <extent>xlvi, 308 p.; 20 cm</extent>
+      <digitalOrigin>digitized other analog</digitalOrigin>
+    </physicalDescription>
+    <note type="statement of responsibility" altRepGroup="00">edidit Paulus Hildebrandt</note>
+    <note type="bibliography">Bibliographical footnotes</note>
+    <subject>
+      <geographicCode authority="marcgac">e------</geographicCode>
+      <geographicCode authority="marcgac">ff-----</geographicCode>
+      <geographicCode authority="marcgac">aw-----</geographicCode>
+    </subject>
+    <subject authority="lcsh">
+      <name type="personal">
+        <namePart>Cicero, Marcus Tullius</namePart>
+      </name>
+      <titleInfo>
+        <title>Speeches</title>
+      </titleInfo>
+      <topic>Scholia</topic>
+    </subject>
+    <subject authority="lcsh">
+      <topic>Speeches, addresses, etc., Latin</topic>
+      <topic>History and criticism</topic>
+    </subject>
+    <classification authority="lcc">PA6284 .A5 1971</classification>
+    <identifier type="isbn">3519012383</identifier>
+    <identifier type="lccn">74866644</identifier>
+    <identifier type="oclc">879620601</identifier>
+    <location>
+      <url displayLabel="WorldCat">http://www.worldcat.org/oclc/879620601</url>
+    </location>
+    <location>
+      <url displayLabel="SLUB">http://digital.slub-dresden.de/id404606873</url>
+    </location>
+    <recordInfo>
+      <recordContentSource authority="marcorg">DLC</recordContentSource>
+      <recordCreationDate encoding="marc">720516</recordCreationDate>
+      <recordChangeDate encoding="iso8601">20040629102301.0</recordChangeDate>
+      <recordIdentifier>7146795</recordIdentifier>
+      <recordOrigin>Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5.xsl
+				(Revision 1.106 2014/12/19)</recordOrigin>
+    </recordInfo>
+  </relatedItem>
+</mods>

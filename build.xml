@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<project basedir="." xmlns:xdb="http://exist-db.org/ant">
+  <description>Perseus Catalog ant tasks</description>
+
+  <property name="eXist_home" value="/opt/local/exist" />
+  
+
+  <path id="classpath.core">
+    <fileset dir="${eXist_home}/lib/core">
+      <include name="*.jar"/>
+    </fileset>
+    <pathelement path="${eXist_home}/exist.jar"/>
+    <pathelement path="${eXist_home}/exist-optional.jar"/>
+  </path>
+  
+  <typedef resource="org/exist/ant/antlib.xml" uri="http://exist-db.org/ant">
+    <classpath refid="classpath.core"/>
+  </typedef>
+
+  <property name="collectionName" value="PerseusCatalogData"/>
+  
+  <property name="xmldb.host" value="localhost" />
+  <property name="xmldb.port" value="8080" />
+  <property name="xmldb.user" value="perseus" />
+  <property name="xmldb.passwd" value="perseus" />
+  <property name="xmldb.url" value="xmldb:exist://${xmldb.host}:${xmldb.port}/exist/xmlrpc/db" />
+  <property name="xmldb.approot" value="${xmldb.url}/${collectionName}" />
+
+  <target name="load-conf" description="load the Perseus Catalog metadata collection.xconf record">
+    <xdb:store uri="${xmldb.url}/system/config/db/${collectionName}"
+	       user="${xmldb.user}"
+	       password="${xmldb.passwd}"
+	       createcollection="true">
+      <fileset dir=".">
+	<include name="collection.xconf" />
+      </fileset>
+    </xdb:store>
+  </target>
+
+  <target name="load-mods" description="load MODS records"
+	  depends="load-arabicLit, load-greekLit, load-latinLit"/>
+
+  <target name="load-arabicLit" description="load MODS records for Arabic Literature">
+    <xdb:store uri="${xmldb.approot}/mods/arabicLit"
+	       user="${xmldb.user}"
+	       password="${xmldb.passwd}"
+	       createcollection="true">
+      <fileset dir="./mods/arabicLit">
+	<include name="**/*.xml"/>
+      </fileset>
+    </xdb:store>
+  </target>
+
+  <target name="load-greekLit" description="load MODS records for Greek Literature">
+    <xdb:store uri="${xmldb.approot}/mods/greekLit"
+	       user="${xmldb.user}"
+	       password="${xmldb.passwd}"
+	       createcollection="true">
+      <fileset dir="./mods/greekLit">
+	<include name="**/*.xml"/>
+      </fileset>
+    </xdb:store>
+  </target>
+
+  <target name="load-latinLit" description="load MODS records for Latin Literature">
+    <xdb:store uri="${xmldb.approot}/mods/latinLit"
+	       user="${xmldb.user}"
+	       password="${xmldb.passwd}"
+	       createcollection="true">
+      <fileset dir="./mods/latinLit">
+	<include name="**/*.xml"/>
+      </fileset>
+    </xdb:store>
+  </target>
+
+  <target name="load-mads" description="load MADS records">
+    <xdb:store uri="${xmldb.approot}/mads"
+	       user="${xmldb.user}"
+	       password="${xmldb.passwd}"
+	       createcollection="true">
+      <fileset dir="./mads">
+	<include name="**/*.xml"/>
+      </fileset>
+    </xdb:store>
+  </target>
+
+  <target name="load-cite" description="load cite records">
+    <xdb:store uri="${xmldb.approot}/cite"
+	       user="${xmldb.user}"
+	       password="${xmldb.passwd}"
+	       createcollection="true">
+      <fileset dir="./citecoll">
+	<include name="**/*.xml"/>
+      </fileset>
+    </xdb:store>
+  </target>
+</project>
+

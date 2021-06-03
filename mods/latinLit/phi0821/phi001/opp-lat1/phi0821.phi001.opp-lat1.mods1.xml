@@ -2,9 +2,9 @@
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xmlns:atom="http://www.w3.org/2005/Atom"
-           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-                <mods:titleInfo xml:lang="en" type="uniform">
-                    <mods:title>Bucolica Einsidlensia </mods:title>
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+                <mods:titleInfo xml:lang="lat" type="uniform">
+                    <mods:title>Bucolica Einsidlensia</mods:title>
                 </mods:titleInfo>
                 <mods:part>
                     <mods:extent unit="words">
@@ -29,6 +29,9 @@
                 </mods:part>
                 <mods:location xmlns="http://www.loc.gov/mods/v3">
                     <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=a9QIAAAAQAAJ&amp;pg=PA60</mods:url>
+                </mods:location>
+                <mods:location xmlns="http://www.loc.gov/mods/v3">
+                    <mods:url displayLabel="HathiTrust">https://hdl.handle.net/2027/njp.32101075725034?urlappend=%3Bseq=64</mods:url>
                 </mods:location>
                 <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="host">
                     <mods:titleInfo>
@@ -64,7 +67,7 @@
                         <mods:form authority="marcform">print</mods:form>
                         <mods:extent>5 v. 18 cm.</mods:extent>
                     </mods:physicalDescription>
-                    <mods:note type="statement of                  responsibility">Recensuit et emendavit Aemilius
+                    <mods:note type="statement of responsibility">Recensuit et emendavit Aemilius
             Baehrens.</mods:note>
                     <mods:subject authority="lcsh">
                         <mods:topic>Latin poetry</mods:topic>
@@ -86,16 +89,19 @@
                     <mods:location>
                         <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=a9QIAAAAQAAJ</mods:url>
                     </mods:location>
+                                      <mods:location>
+                        <mods:url displayLabel="HathiTrust">http://hdl.handle.net/2027/njp.32101075725034</mods:url>
+                    </mods:location>
                 </mods:relatedItem>
                 <mods:language xmlns="http://www.loc.gov/mods/v3">
                     <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
                 </mods:language>
-                <mods:name xmlns="http://www.loc.gov/mods/v3" authority="phi" type="corporate">
-                    <mods:namePart>Anonymi Epici et Lyrici</mods:namePart>
-                    <mods:role>
-                        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
+               <mods:name authority="viaf" type="corporate" authorityURI="http://viaf.org/viaf" valueURI="http://viaf.org/viaf/183852674/">
+        <mods:namePart>Bucolica Einsidlensia</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+        </mods:role>
+    </mods:name>
                 <mods:name xmlns="http://www.loc.gov/mods/v3"
               xmlns:ns2="http://www.w3.org/1999/xlink"
               authority="naf"

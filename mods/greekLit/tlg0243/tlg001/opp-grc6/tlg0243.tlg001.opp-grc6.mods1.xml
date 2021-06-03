@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3">
+  <titleInfo>
+    <title>Fragmenta</title>
+  </titleInfo>
+  <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/16085183">
+    <namePart>Callinus</namePart>
+    <namePart type="termsOfAddress">of Ephesus</namePart>
+    <role>
+      <roleTerm type="text">creator</roleTerm>
+    </role>
+  </name>
+  <name authority="viaf" type="personal" usage="primary" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/108370990">
+    <namePart>West, Martin Litchfield</namePart>
+    <namePart type="date">1937-2015</namePart>
+    <role>
+      <roleTerm type="text">editor</roleTerm>
+    </role>
+  </name>
+  <language objectPart="text">
+    <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+  </language>
+  <identifier type="tlg">0243.001</identifier>
+  <identifier type="ctsurn">urn:cts:greekLit:tlg0243.tlg001.opp-grc6</identifier>
+  <part>
+    <extent unit="pages">
+      <start>80</start>
+      <end>82</end>
+    </extent>
+  </part>
+  <location>
+    <url displayLabel="SLUB">http://digital.slub-dresden.de/werkansicht/dlf/109839/88/</url>
+  </location>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Delectus ex iambis et elegis Graecis</title>
+    </titleInfo>
+    <name authority="viaf" type="personal" usage="primary" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/108370990">
+      <namePart>West, Martin Litchfield</namePart>
+      <namePart type="date">1937-2015</namePart>
+      <role>
+        <roleTerm type="text">editor</roleTerm>
+      </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+      <place>
+        <placeTerm type="code" authority="marccountry">enk</placeTerm>
+      </place>
+      <place>
+        <placeTerm type="text">Oxonii</placeTerm>
+      </place>
+      <publisher>Clarendon</publisher>
+      <dateIssued>1980</dateIssued>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <language objectPart="text">
+      <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+    </language>
+    <physicalDescription>
+      <form authority="marcform">print</form>
+      <extent>ix, 295 p.; 20 cm</extent>
+      <digitalOrigin>digitized other analog</digitalOrigin>
+    </physicalDescription>
+    <note type="statement of responsibility" altRepGroup="00">edidit M. L. West</note>
+    <note>Includes indexes</note>
+    <note>Selections taken from the two volumes published in 1971-72</note>
+    <note>Text in Greek; introductory matter in Latin</note>
+    <subject authority="lcsh">
+      <topic>Greek poetry</topic>
+    </subject>
+    <classification authority="lcc">PA3443 .W42 1980</classification>
+    <classification authority="ddc">881/.01</classification>
+    <identifier type="isbn">0198145896</identifier>
+    <identifier type="lccn">77030251</identifier>
+    <identifier type="oclc">894746440</identifier>
+    <location>
+      <url displayLabel="WorldCat">http://www.worldcat.org/oclc/894746440</url>
+    </location>
+    <location>
+      <url displayLabel="SLUB">http://digital.slub-dresden.de/id415736544</url>
+    </location>
+    <!-- Skipping next one -->
+    <recordInfo>
+      <descriptionStandard>aacr</descriptionStandard>
+      <recordContentSource authority="marcorg">DLC</recordContentSource>
+      <recordCreationDate encoding="marc">770830</recordCreationDate>
+      <recordChangeDate encoding="iso8601">20160106005839.0</recordChangeDate>
+      <recordIdentifier>2249077</recordIdentifier>
+      <recordOrigin>Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5.xsl
+				(Revision 1.106 2014/12/19)</recordOrigin>
+    </recordInfo>
+  </relatedItem>
+</mods>

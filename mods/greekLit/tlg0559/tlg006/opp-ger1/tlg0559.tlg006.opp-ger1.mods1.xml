@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods:mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
-  <mods:titleInfo>
+  <mods:titleInfo type="uniform">
     <mods:title>Metrica</mods:title>
+  </mods:titleInfo>
+    <mods:titleInfo type="translated" lang="ger">
+    <mods:title>Vermessungslehre</mods:title>
   </mods:titleInfo>
   <mods:name xmlns:ns2="http://www.w3.org/1999/xlink" authority="naf" type="personal" ns2:href="http://errol.oclc.org/laf/n81-55336.html">
     <mods:namePart>Hero,</mods:namePart>
@@ -24,16 +27,19 @@
   <mods:identifier type="ctsurn">urn:cts:greekLit:tlg0559.tlg006.opp-ger1</mods:identifier>
   <mods:part>
     <mods:extent unit="pages">
-      <mods:start>2</mods:start>
+      <mods:start>3</mods:start>
       <mods:end>184</mods:end>
     </mods:extent>
   </mods:part>
   <mods:location>
     <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=rh6hB9Vehs4C&amp;pg=PA1</mods:url>
   </mods:location>
+    <mods:location>
+    <mods:url displayLabel="HathiTrust">https://hdl.handle.net/2027/mdp.39015017390363?urlappend=%3Bseq=28</mods:url>
+  </mods:location>
   <mods:relatedItem type="host">
     <mods:titleInfo>
-      <mods:title>Opera quae supersunt omnia</mods:title>
+      <mods:title>Heronis Alexandrini Opera quae supersunt omnia</mods:title>
       <mods:partNumber>Vol 3</mods:partNumber>
       <mods:partName>Rationes dimetiendi et Commentatio dioptrica</mods:partName>
     </mods:titleInfo>
@@ -90,7 +96,7 @@
     <mods:classification authority="lcc">PA3404 .H4 1899</mods:classification>
     <mods:identifier type="lccn">15013159</mods:identifier>
     <mods:identifier type="oclc">43057814</mods:identifier>
-    <mods:identifier type="oca"/>
+    
     <mods:location>
       <mods:url displayLabel="LC Permalink">http://lccn.loc.gov/15013159</mods:url>
     </mods:location>
@@ -101,8 +107,8 @@
       <mods:url displayLabel="Open Content Alliance"/>
     </mods:location>
     <mods:location>
-      <mods:url displayLabel="Open Library"/>
-    </mods:location>
+    <mods:url displayLabel="HathiTrust">https://hdl.handle.net/2027/mdp.39015017390363</mods:url>
+  </mods:location>
     <mods:location>
       <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=rh6hB9Vehs4C</mods:url>
     </mods:location>

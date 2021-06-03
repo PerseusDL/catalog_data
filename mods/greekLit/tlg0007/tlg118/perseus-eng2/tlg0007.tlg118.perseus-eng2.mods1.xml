@@ -28,12 +28,13 @@
                         <roleTerm authority="marcrelator" type="text">creator</roleTerm>
                     </role>
                 </name>
-                <name xmlns="http://www.loc.gov/mods/v3" authority="unknown" type="personal">
-                    <namePart>Smith, R.</namePart>
-                    <role>
-                        <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-                    </role>
-                </name>
+    <mods:name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/26963189/">
+        <mods:namePart>White, Samuel,</mods:namePart>
+        <mods:namePart type="termsOfAddress">M.D.</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator" type="text">translator</mods:roleTerm>
+        </mods:role>
+    </mods:name>
                 <language xmlns="http://www.loc.gov/mods/v3">
                     <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
                 </language>

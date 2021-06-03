@@ -4,10 +4,10 @@
            xmlns:atom="http://www.w3.org/2005/Atom"
            xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
                 <mods:titleInfo xml:lang="en" type="uniform">
-                    <mods:title>Cynegetica-Selections</mods:title>
+                    <mods:title>Cynegetica</mods:title>
                 </mods:titleInfo>
                 <mods:titleInfo xmlns="http://www.loc.gov/mods/v3">
-                    <mods:title>Cynegetica</mods:title>
+                    <mods:title>Cynegetica. Selections.</mods:title>
                 </mods:titleInfo>
                 <mods:identifier type="phi">none</mods:identifier>
                 <mods:identifier type="stoa author-text">stoa0209-stoa002</mods:identifier>
@@ -146,14 +146,16 @@
                         <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
                     </mods:role>
                 </mods:name>
-                <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/n79-32221.html">
-                    <mods:role xmlns="http://www.loc.gov/mods/v3">
-                        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
+             <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
+                 authority="naf"
+                 type="personal"
+                 ns2:href="http://errol.oclc.org/laf/n79-32221.html">
+                        <mods:namePart>Duff, J. Wight (John Wight)</mods:namePart>
+                        <mods:namePart type="date">1866-1944</mods:namePart>
+                        <mods:role>
+                            <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+                        </mods:role>
+                    </mods:name>
                 <mods:name xmlns="http://www.loc.gov/mods/v3"
               xmlns:ns2="http://www.w3.org/1999/xlink"
               authority="naf"
@@ -163,9 +165,6 @@
                     <mods:namePart type="date">1900-</mods:namePart>
                     <mods:role>
                         <mods:roleTerm authority="marcrelator" type="text">joint editor</mods:roleTerm>
-                    </mods:role>
-                    <mods:role>
-                        <mods:roleTerm authority="marcrelator" type="text">joint translator</mods:roleTerm>
                     </mods:role>
                 </mods:name>
             </mods:mods>

@@ -1,106 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xmlns:atom="http://www.w3.org/2005/Atom"
-           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-                <mods:titleInfo xml:lang="en" type="uniform">
-                    <mods:title xmlns="http://www.loc.gov/mods/v3">Theologumena arithmeticae</mods:title>
-                </mods:titleInfo>
-                <mods:part>
-                    <mods:extent unit="words">
-                        <mods:total>17193</mods:total>
-                    </mods:extent>
-                </mods:part>
-                <mods:identifier type="oclc">4552909</mods:identifier>
-                <mods:identifier type="lccn"/>
-                <mods:identifier type="oca"/>
-                <mods:identifier type="tlg">2023.005</mods:identifier>
-                <mods:identifier type="ctsurn">urn:cts:greekLit:tlg2023.tlg005.opp-grc1</mods:identifier>
-                <mods:typeOfResource xmlns="http://www.loc.gov/mods/v3">text</mods:typeOfResource>
-                <mods:originInfo xmlns="http://www.loc.gov/mods/v3">
-                    <mods:place>
-                        <mods:placeTerm type="code" authority="marccountry">gw</mods:placeTerm>
-                    </mods:place>
-                    <mods:place>
-                        <mods:placeTerm type="text">Lipisiae</mods:placeTerm>
-                    </mods:place>
-                    <mods:publisher>in aedibus B. G. Teubner</mods:publisher>
-                    <mods:dateIssued>1922</mods:dateIssued>
-                    <mods:issuance>monographic</mods:issuance>
-                </mods:originInfo>
-                <mods:physicalDescription xmlns="http://www.loc.gov/mods/v3">
-                    <mods:form authority="marcform">print</mods:form>
-                    <mods:extent>xvii, 90 p. ; 17 cm.</mods:extent>
-                </mods:physicalDescription>
-                <mods:note xmlns="http://www.loc.gov/mods/v3" type="statement of responsibility">Ed. Victorius de Falco.</mods:note>
-                <mods:classification xmlns="http://www.loc.gov/mods/v3" authority="lcc">PA4220 .A5 1922</mods:classification>
-                <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="series">
-                    <mods:titleInfo>
-                        <mods:title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana : Scriptores Graeci</mods:title>
-                    </mods:titleInfo>
-                </mods:relatedItem>
-                <mods:location xmlns="http://www.loc.gov/mods/v3">
-                    <mods:url displayLabel="LC Permalink"/>
-                </mods:location>
-                <mods:location xmlns="http://www.loc.gov/mods/v3">
-                    <mods:url displayLabel="WorldCat">http://www.worldcat.org/oclc/4552909</mods:url>
-                </mods:location>
-                <mods:location xmlns="http://www.loc.gov/mods/v3">
-                    <mods:url displayLabel="GoogleBooks"/>
-                </mods:location>
-                <mods:location xmlns="http://www.loc.gov/mods/v3">
-                    <mods:url displayLabel="Open Content Alliance"/>
-                </mods:location>
-                <mods:location xmlns="http://www.loc.gov/mods/v3">
-                    <mods:url displayLabel="Open Library"/>
-                </mods:location>
-                <mods:location xmlns="http://www.loc.gov/mods/v3">
-                    <mods:url displayLabel="HathiTrust">http://hdl.handle.net/2027/inu.30000010414526</mods:url>
-                </mods:location>
-                <mods:recordInfo xmlns="http://www.loc.gov/mods/v3">
-                    <mods:recordContentSource authority="marcorg">OCoLC</mods:recordContentSource>
-                    <mods:recordCreationDate encoding="marc"/>
-                    <mods:recordChangeDate encoding="iso8601"/>
-                    <mods:recordIdentifier/>
-                    <mods:recordOrigin/>
-                </mods:recordInfo>
-                <mods:language xmlns="http://www.loc.gov/mods/v3" objectPart="text">
-                    <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
-                </mods:language>
-                <mods:name xmlns="http://www.loc.gov/mods/v3"
-              authority="viaf"
-              authorityURI="http://viaf.org/viaf/"
-              type="personal"
-              valueURI="http://viaf.org/viaf/12310254">
-                    <mods:namePart>Iamblichus</mods:namePart>
-                    <mods:namePart type="date">ca. 250-ca. 330</mods:namePart>
-                    <mods:role>
-                        <mods:roleTerm authority="marcrelator">creator</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
-                <mods:name xmlns="http://www.loc.gov/mods/v3"
-              authority="naf"
-              type="personal"
-              authorityURI="http://id.loc.gov/authorities/names/"
-              valueURI="http://id.loc.gov/authorities/names/n93059634">
-                    <mods:namePart>De Falco, Vittorio</mods:namePart>
-                    <mods:namePart type="date">b. 1898</mods:namePart>
-                    <mods:role>
-                        <mods:roleTerm authority="marcrelator">editor</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
-                <mods:subject xmlns="http://www.loc.gov/mods/v3">
-                    <mods:geographicCode authority="marcgac">e-gr---</mods:geographicCode>
-                </mods:subject>
-                <mods:subject xmlns="http://www.loc.gov/mods/v3" authority="lcsh">
-                    <mods:topic>Mathematics, Greek</mods:topic>
-                </mods:subject>
-                <mods:subject xmlns="http://www.loc.gov/mods/v3" authority="lcsh">
-                    <mods:topic>Arithmetic</mods:topic>
-                    <mods:genre>Early works to 1900</mods:genre>
-                </mods:subject>
-                <mods:subject xmlns="http://www.loc.gov/mods/v3" authority="lcsh">
-                    <mods:topic>Mathematics</mods:topic>
-                    <mods:topic>Philosophy</mods:topic>
-                </mods:subject>
-            </mods:mods>
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+    <mods:titleInfo xml:lang="en" type="uniform">
+        <mods:title xmlns="http://www.loc.gov/mods/v3">Theologumena arithmeticae</mods:title>
+    </mods:titleInfo>
+    <mods:name xmlns="http://www.loc.gov/mods/v3"
+        authority="viaf"
+        authorityURI="http://viaf.org/viaf/"
+        type="personal"
+        valueURI="http://viaf.org/viaf/12310254">
+        <mods:namePart>Iamblichus</mods:namePart>
+        <mods:namePart type="date">ca. 250-ca. 330</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator">creator</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:name xmlns="http://www.loc.gov/mods/v3"
+        authority="naf"
+        type="personal"
+        authorityURI="http://id.loc.gov/authorities/names/"
+        valueURI="http://id.loc.gov/authorities/names/n93059634">
+        <mods:namePart>De Falco, Vittorio</mods:namePart>
+        <mods:namePart type="date">b. 1898</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator">editor</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:identifier type="tlg">2023.005</mods:identifier>
+    <mods:identifier type="ctsurn">urn:cts:greekLit:tlg2023.tlg005.opp-grc1</mods:identifier>
+    <mods:language xmlns="http://www.loc.gov/mods/v3" objectPart="text">
+        <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
+    </mods:language>
+    <mods:part>
+        <mods:extent unit="words">
+            <mods:total>17193</mods:total>
+        </mods:extent>
+        <mods:extent unit="pages">
+            <mods:start>1</mods:start>
+            <mods:end>87</mods:end>
+        </mods:extent>
+    </mods:part>
+    <mods:location>
+        <mods:url displayLabel="HathiTrust">http://hdl.handle.net/2027/inu.30000010414526?urlappend=%3Bseq=22</mods:url>
+    </mods:location>
+    <mods:relatedItem type="host">
+    <mods:titleInfo>
+        <mods:title>[Iamblichi] Theologumena arithmeticae</mods:title>
+    </mods:titleInfo>
+        <mods:name xmlns="http://www.loc.gov/mods/v3"
+            authority="viaf"
+            authorityURI="http://viaf.org/viaf/"
+            type="personal"
+            valueURI="http://viaf.org/viaf/12310254">
+            <mods:namePart>Iamblichus</mods:namePart>
+            <mods:namePart type="date">ca. 250-ca. 330</mods:namePart>
+            <mods:role>
+                <mods:roleTerm authority="marcrelator">creator</mods:roleTerm>
+            </mods:role>
+        </mods:name>
+        <mods:name xmlns="http://www.loc.gov/mods/v3"
+            authority="naf"
+            type="personal"
+            authorityURI="http://id.loc.gov/authorities/names/"
+            valueURI="http://id.loc.gov/authorities/names/n93059634">
+            <mods:namePart>De Falco, Vittorio</mods:namePart>
+            <mods:namePart type="date">b. 1898</mods:namePart>
+            <mods:role>
+                <mods:roleTerm authority="marcrelator">editor</mods:roleTerm>
+            </mods:role>
+        </mods:name>
+    <mods:identifier type="oclc">4552909</mods:identifier>
+    
+    
+    <mods:typeOfResource xmlns="http://www.loc.gov/mods/v3">text</mods:typeOfResource>
+    <mods:originInfo xmlns="http://www.loc.gov/mods/v3">
+        <mods:place>
+            <mods:placeTerm type="code" authority="marccountry">gw</mods:placeTerm>
+        </mods:place>
+        <mods:place>
+            <mods:placeTerm type="text">Lipisiae</mods:placeTerm>
+        </mods:place>
+        <mods:publisher>in aedibus B. G. Teubner</mods:publisher>
+        <mods:dateIssued>1922</mods:dateIssued>
+        <mods:issuance>monographic</mods:issuance>
+    </mods:originInfo>
+    <mods:physicalDescription xmlns="http://www.loc.gov/mods/v3">
+        <mods:form authority="marcform">print</mods:form>
+        <mods:extent>xvii, 90 p. ; 17 cm.</mods:extent>
+        <mods:digitalOrigin>digitized other analog</mods:digitalOrigin>
+    </mods:physicalDescription>
+        <mods:language xmlns="http://www.loc.gov/mods/v3" objectPart="preface">
+            <mods:languageTerm type="code" authority="iso639-2b">lat</mods:languageTerm>
+        </mods:language>
+        <mods:language xmlns="http://www.loc.gov/mods/v3" objectPart="text">
+            <mods:languageTerm type="code" authority="iso639-2b">grc</mods:languageTerm>
+        </mods:language>
+    <mods:note xmlns="http://www.loc.gov/mods/v3" type="statement of responsibility">Ed. Victorius de Falco.</mods:note>
+    <mods:classification xmlns="http://www.loc.gov/mods/v3" authority="lcc">PA4220 .A5 1922</mods:classification>
+    <mods:relatedItem xmlns="http://www.loc.gov/mods/v3" type="series">
+        <mods:titleInfo>
+            <mods:title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana : Scriptores Graeci</mods:title>
+        </mods:titleInfo>
+    </mods:relatedItem>
+        <mods:subject xmlns="http://www.loc.gov/mods/v3">
+            <mods:geographicCode authority="marcgac">e-gr---</mods:geographicCode>
+        </mods:subject>
+        <mods:subject xmlns="http://www.loc.gov/mods/v3" authority="lcsh">
+            <mods:topic>Mathematics, Greek</mods:topic>
+        </mods:subject>
+        <mods:subject xmlns="http://www.loc.gov/mods/v3" authority="lcsh">
+            <mods:topic>Arithmetic</mods:topic>
+            <mods:genre>Early works to 1900</mods:genre>
+        </mods:subject>
+        <mods:subject xmlns="http://www.loc.gov/mods/v3" authority="lcsh">
+            <mods:topic>Mathematics</mods:topic>
+            <mods:topic>Philosophy</mods:topic>
+        </mods:subject>
+    <mods:location xmlns="http://www.loc.gov/mods/v3">
+        <mods:url displayLabel="WorldCat">http://www.worldcat.org/oclc/4552909</mods:url>
+    </mods:location>
+    <mods:location xmlns="http://www.loc.gov/mods/v3">
+        <mods:url displayLabel="HathiTrust">http://hdl.handle.net/2027/inu.30000010414526</mods:url>
+    </mods:location>
+    <mods:recordInfo xmlns="http://www.loc.gov/mods/v3">
+        <mods:recordContentSource authority="marcorg">OCoLC</mods:recordContentSource>
+        <mods:recordCreationDate encoding="marc"/>
+        <mods:recordChangeDate encoding="iso8601"/>
+        <mods:recordIdentifier/>
+        <mods:recordOrigin/>
+    </mods:recordInfo>
+    </mods:relatedItem>
+</mods:mods>

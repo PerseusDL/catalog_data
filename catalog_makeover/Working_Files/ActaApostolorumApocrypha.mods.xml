@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+    <!-- currently only contains Greek works in First1K -->
+    <titleInfo>
+        <title>Acta apostolorum apocrypha</title>
+    </titleInfo>
+    <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/56713311">
+        <namePart>Tischendorf, Constantin von,</namePart>
+        <namePart type="date">1815-1874</namePart>
+        <role>
+            <roleTerm type="text">editor</roleTerm>
+        </role>
+    </name>
+    <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/25402935/">
+        <namePart>Lipsius, Richard Adelbert,</namePart>
+        <namePart type="date">1830-1892</namePart>
+        <role>
+            <roleTerm type="text">editor</roleTerm>
+        </role>
+    </name>
+    <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/77062188/">
+        <namePart>Bonnet, Max,</namePart>
+        <namePart type="date">1841-1917</namePart>
+        <role>
+            <roleTerm type="text">editor</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <place>
+            <placeTerm type="code" authority="marccountry">gw</placeTerm>
+        </place>
+        <issuance>monographic</issuance>
+        <place>
+            <placeTerm type="text">Lipsiae</placeTerm>
+        </place>
+        <publisher>Avenarius et Mendelssohn</publisher>
+        <dateIssued>1891-1903</dateIssued>
+    </originInfo>
+    <language objectPart="text">
+        <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+    </language>
+    <language objectPart="notes">
+        <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+    </language>
+    <language objectPart="text">
+        <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+    </language>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+        <extent>2 volumes in 3</extent>
+    </physicalDescription>
+    <classification authority="lcc">BS2870.G7 T5</classification>
+    <identifier type="oclc">57387351</identifier>
+    <tableOfContents>v. 1. Acta Petri. Acta Pauli. Acta Petri et Pauli. Acta Pauli et Theclae. Acta Thaddaei / 
+        edidit Ricardus Adelbertus Lipsius --
+        v. 2, pt. 1. Passio Andreae. Ex actis Andreae. Martyria Andreae. Acta Andreae et Matthiae. Acta Petri et Andreae. 
+        Passio Bartholomaei. Acta Ioannis. Martyrium Matthiaei / edidit Maximilanus Bonnet
+        v. 2, pt. 2. Acta Philippi et acta Thomae, accedunt Acta Barnabae / edidit Maximilianus Bonnet.</tableOfContents>
+    <location>
+        <url displayLabel="Worldcat"
+            >https://www.worldcat.org/title/acta-apostolorum-apocrypha/oclc/57387351</url>
+    </location>
+    <relatedItem type="constituent" otherType="volume" displayLabel="Vol 1">
+        <part type="volume">
+            <detail type="volume">
+                <title>Acta apostolorum apocrypha</title>
+                <caption>Volume</caption>
+                <number>1</number>
+                <title>Acta Petri. Acta Pauli. Acta Petri et Pauli. Acta Pauli et Theclae. Acta Thaddae</title>
+            </detail>
+        </part>
+        <originInfo>
+            <dateIssued>1891</dateIssued>
+        </originInfo>
+        <name type="corporate" authority="viaf" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/695145858156323022501">
+            <namePart>Acta Pauli</namePart>
+            <role>
+                <roleTerm type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/25402935">
+            <namePart>Lipsius, Richard Adelbert</namePart>
+            <namePart type="date">1830-1892</namePart>
+            <role>
+                <roleTerm type="text">editor</roleTerm>
+            </role>
+        </name>
+        <location>
+            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/wu.89013863634</url>
+        </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="Martyrium Pauli">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0388.002</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Martyrium Pauli">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0388.tlg002.opp-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <list>104, 106, 108, 110, 112, 114-117</list>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/wu.89013863634?urlappend=%3Bseq=220</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="work" displayLabel="Acta Pauli et Theclae">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0388.004</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Martyrium Pauli">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0388.tlg004.opp-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>235</start>
+                        <end>271</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/wu.89013863634?urlappend=%3Bseq=350</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="work"
+            displayLabel="Acta Pauli et Theclae (partis finalis 
+            recensio e codice G)">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0388.005</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Martyrium Pauli">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0388.tlg005.opp-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>271</start>
+                        <end>272</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/wu.89013863634?urlappend=%3Bseq=386</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+    </relatedItem>
+    <relatedItem type="constituent" otherType="volume" displayLabel="Vol 2-Part 1">
+        <part type="volume">
+            <detail type="volume">
+                <title>Acta apostolorum apocrypha</title>
+                <caption>Volume</caption>
+                <number>2</number>
+                <caption>Part</caption>
+                <number>1</number>
+                <title>Passio Andreae. Ex actis Andreae. Martyria Andreae. Acta Andreae et Matthiae. Acta Petri et Andreae. 
+                    Passio Bartholomaei. Acta Ioannis. Martyrium Matthiaei</title>
+            </detail>
+        </part>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/77062188">
+            <namePart>Bonnet, Max</namePart>
+            <namePart type="date">1841-1917</namePart>
+            <role>
+                <roleTerm type="text">editor</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Leipzig</placeTerm>
+            </place>
+            <publisher>Mendelssohn</publisher>
+            <dateIssued>1898</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>XXXVII, 262 S. ; 23 cm</extent>
+        </physicalDescription>
+        <note type="statement of responsibility">post Constantinum Tischendorf denuo ed. Ricardus Adelbertus Lipsius
+            et Maximilianus Bonnet.</note>
+        <location>
+            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/hvd.32044010474799</url>
+        </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="Acta Joannis">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0317.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Acta Joannis">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0317.tlg001.opp-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>151</start>
+                        <end>215</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/hvd.32044010474799?urlappend=%3Bseq=210</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Acta Joannis">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0317.tlg001.1st1K-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg0317.tlg001.1st1K-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0317/tlg001/tlg0317.tlg001.1st1K-grc1.xml</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="work" displayLabel="Acta Joannis (recensio)">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0317.tlg002</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Acta Joannis">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0317.tlg002.opp-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <list>152-160, 169, 171-179, 203-206, 209-210</list>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/hvd.32044010474799?urlappend=%3Bseq=212</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Acta Joannis (recensio)">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0317.tlg002.1st1K-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg0317.tlg002.1st1K-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0317/tlg002/tlg0317.tlg002.1st1K-grc1.xml</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+    </relatedItem>
+    <relatedItem type="constituent" otherType="volume" displayLabel="Vol 2-Part 2">
+        <part type="volume">
+            <detail type="volume">
+                <title>Acta apostolorum apocrypha</title>
+                <caption>Volume</caption>
+                <number>2</number>
+                <caption>Part</caption>
+                <number>2</number>
+                <title>Acta Philippi et acta Thomae, accedunt Acta Barnabae</title>
+            </detail>
+        </part>
+        <originInfo>
+            <dateIssued>1903</dateIssued>
+        </originInfo>
+        <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/77062188/">
+            <namePart>Bonnet, Max,</namePart>
+            <namePart type="date">1841-1917</namePart>
+            <role>
+                <roleTerm type="text">editor</roleTerm>
+            </role>
+        </name>
+        <location>
+            <url displayLabel="Open Content Alliance"
+                >https://archive.org/details/actaphilippietac00bonnuoft</url>
+        </location>
+        <tableOfContents>Acta Philippi-Acta Thomae-Acta Barnabae</tableOfContents>
+        <relatedItem type="constituent" otherType="work" displayLabel="Acta Philippi">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg2948.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Acta Philippi">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2948.tlg001.1st1K-grc1</identifier>
+                <!--   <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg2948.tlg001.1st1K-grc1/</url>
+                </location>-->
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg2948/tlg001/tlg2948.tlg001.1st1K-grc1.xml</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Acts of Philip">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2948.tlg001.opp-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>1</start>
+                        <end>98</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="Open Content Alliance"
+                        >https://archive.org/details/actaphilippietac00bonnuoft/page/n47/mode/2up</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="work"
+            displayLabel="Πράξεις τοῦ ἁγίου ἀποστόλου Θωμᾶ">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg2038.tlg001</identifier>
+            <name authority="tlg" type="corporate" valueURI="http://viaf.org/viaf/175807631/">
+                <namePart>Acta Thomae</namePart>
+                <role>
+                    <roleTerm type="text">creator</roleTerm>
+                </role>
+            </name>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Acta Thomae">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2038.tlg001.opp-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>99</start>
+                        <end>288</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/coo.31924095644245?urlappend=%3Bseq=148</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="work" displayLabel="Acta Thomae (Recensio)">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg2038.tlg004</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Πράξεις τοῦ ἁγίου ἀποστόλου Θωμᾶ">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2038.tlg004.opp-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <list>108-109, 111-145, 251-258, 269-288</list>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/coo.31924095644245?urlappend=%3Bseq=158</url>
+                </location>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/coo.31924095644245?urlappend=%3Bseq=160</url>
+                </location>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/coo.31924095644245?urlappend=%3Bseq=300</url>
+                </location>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/coo.31924095644245?urlappend=%3Bseq=318</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="work" displayLabel="Actorum Thomae consummatio">
+            <identifier type="tlg">urn:cts:greekLit:tlg2038.tlg005</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Ἡ τελείωσις Θωμᾶ τοῦ ἀποστόλου">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2038.tlg005.opp-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>289</start>
+                        <end>291</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/coo.31924095644245?urlappend=%3Bseq=338</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+    </relatedItem>
+</mods>

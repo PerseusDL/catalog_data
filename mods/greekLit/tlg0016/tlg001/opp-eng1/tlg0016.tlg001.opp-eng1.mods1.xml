@@ -1,122 +1,374 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xmlns:atom="http://www.w3.org/2005/Atom"
-           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-                <mods:titleInfo xml:lang="en" type="uniform">
-                    <mods:title>Histories</mods:title>
-                </mods:titleInfo>
-                <mods:part>
-                    <mods:extent unit="words">
-                        <mods:total>189489</mods:total>
-                    </mods:extent>
-                </mods:part>
-                <mods:titleInfo xmlns="http://www.loc.gov/mods/v3">
-                    <mods:nonSort>The </mods:nonSort>
-                    <mods:title>history of Herodotus</mods:title>
-                    <mods:partNumber>Vol I</mods:partNumber>
-                </mods:titleInfo>
-                <mods:identifier type="oclc">4061134</mods:identifier>
-                <mods:identifier type="tlg">0016.001</mods:identifier>
-                <mods:identifier type="Perseus:abo">Perseus:abo:tlg,0016,001 </mods:identifier>
-                <mods:identifier type="ctsurn">urn:cts:greekLit:tlg0016.tlg001.opp-eng1</mods:identifier>
-                <mods:typeOfResource xmlns="http://www.loc.gov/mods/v3">text</mods:typeOfResource>
-                <mods:genre xmlns="http://www.loc.gov/mods/v3" authority="marc">biography</mods:genre>
-                <mods:originInfo xmlns="http://www.loc.gov/mods/v3">
-                    <mods:place>
-                        <mods:placeTerm type="code" authority="marccountry">enk</mods:placeTerm>
-                    </mods:place>
-                    <mods:place>
-                        <mods:placeTerm type="text">London</mods:placeTerm>
-                    </mods:place>
-                    <mods:publisher>J. Murray</mods:publisher>
-                    <mods:dateIssued>1862</mods:dateIssued>
-                    <mods:issuance>monographic</mods:issuance>
-                    <mods:edition>new edition</mods:edition>
-                </mods:originInfo>
-                <mods:physicalDescription xmlns="http://www.loc.gov/mods/v3">
-                    <mods:form authority="marcform">print</mods:form>
-                    <mods:extent>xvi, 568 p.</mods:extent>
-                </mods:physicalDescription>
-                <mods:classification xmlns="http://www.loc.gov/mods/v3" authority="lcc">D58</mods:classification>
-                <mods:location xmlns="http://www.loc.gov/mods/v3">
-                    <mods:url>http://worldcat.org/oclc/4061134</mods:url>
-                </mods:location>
-                <mods:location xmlns="http://www.loc.gov/mods/v3">
-                    <mods:url displayLabel="GoogleBooks">http://books.google.com/books?id=tzENAAAAIAAJ</mods:url>
-                </mods:location>
-                <mods:location xmlns="http://www.loc.gov/mods/v3">
-                    <mods:url displayLabel="Open Content Alliance">http://www.archive.org/details/historyofherod01hero</mods:url>
-                </mods:location>
-                <mods:location xmlns="http://www.loc.gov/mods/v3">
-                    <mods:url displayLabel="Open Library">http://www.archive.org/details/historyofherod01hero</mods:url>
-                </mods:location>
-                <mods:recordInfo xmlns="http://www.loc.gov/mods/v3">
-                    <mods:recordContentSource authority="marcorg">OCoLC</mods:recordContentSource>
-                    <mods:recordCreationDate encoding="marc"/>
-                    <mods:recordChangeDate encoding="iso8601"/>
-                    <mods:recordIdentifier/>
-                </mods:recordInfo>
-                <mods:language xmlns="http://www.loc.gov/mods/v3">
-                    <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
-                </mods:language>
-                <mods:name xmlns="http://www.loc.gov/mods/v3"
-              xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/n79-86888.html">
-                    <mods:namePart>Herodotus.</mods:namePart>
-                    <mods:role>
-                        <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
-                <mods:name xmlns="http://www.loc.gov/mods/v3"
-              xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/n84-5926.html">
-                    <mods:namePart>Rawlinson, George</mods:namePart>
-                    <mods:namePart type="date">1812-1902</mods:namePart>
-                    <mods:role>
-                        <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
-                    </mods:role>
-                    <mods:role>
-                        <mods:roleTerm authority="marcrelator" type="text">translator</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
-                <mods:name xmlns="http://www.loc.gov/mods/v3"
-              xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/n82-116298.html">
-                    <mods:namePart>Rawlinson, Henry Creswicke</mods:namePart>
-                    <mods:namePart type="termsOfAddress">Sir</mods:namePart>
-                    <mods:namePart type="date">1810-1895</mods:namePart>
-                    <mods:role>
-                        <mods:roleTerm authority="marcrelator" type="text">joint editor</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
-                <mods:name xmlns="http://www.loc.gov/mods/v3"
-              xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/n87-150654.html">
-                    <mods:namePart>Wilkinson, John Gardner</mods:namePart>
-                    <mods:namePart type="termsOfAddress">Sir</mods:namePart>
-                    <mods:namePart type="date">1797-1875</mods:namePart>
-                    <mods:role>
-                        <mods:roleTerm authority="marcrelator" type="text">joint editor</mods:roleTerm>
-                    </mods:role>
-                </mods:name>
-                <mods:subject xmlns="http://www.loc.gov/mods/v3">
-                    <mods:geographicCode authority="marcgac">e-gr---</mods:geographicCode>
-                </mods:subject>
-                <mods:subject xmlns="http://www.loc.gov/mods/v3" authority="lcsh">
-                    <mods:geographic>Greece</mods:geographic>
-                    <mods:topic>History</mods:topic>
-                    <mods:temporal>To 146 B.C</mods:temporal>
-                </mods:subject>
-                <mods:subject xmlns="http://www.loc.gov/mods/v3" authority="lcsh">
-                    <mods:topic>History, Ancient</mods:topic>
-                </mods:subject>
-            </mods:mods>
+<mods xmlns="http://www.loc.gov/mods/v3">
+   <identifier type="oclc">4061134</identifier>
+   <identifier type="tlg">0016.001</identifier>
+   <identifier type="Perseus:abo">Perseus:abo:tlg,0016,001</identifier>
+   <identifier type="ctsurn">urn:cts:greekLit:tlg0016.tlg001.opp-eng1</identifier>
+   <titleInfo xml:lang="en" type="uniform">
+      <title>Histories</title>
+    </titleInfo>
+   <titleInfo>
+      <nonSort>The</nonSort>
+      <title>history of Herodotus</title>
+      <partNumber>Vol I</partNumber>
+    </titleInfo>
+   <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n79-86888.html">
+      <namePart>Herodotus</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+   <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n84-5926.html">
+      <namePart>Rawlinson, George</namePart>
+      <namePart type="date">1812-1902</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+      </role>
+      <role>
+        <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+      </role>
+    </name>
+   <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n82-116298.html">
+      <namePart>Rawlinson, Henry Creswicke</namePart>
+      <namePart type="termsOfAddress">Sir</namePart>
+      <namePart type="date">1810-1895</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+      </role>
+    </name>
+   <name xmlns:ns2="http://www.w3.org/1999/xlink"
+         authority="naf"
+         type="personal"
+         ns2:href="http://errol.oclc.org/laf/n87-150654.html">
+      <namePart>Wilkinson, John Gardner</namePart>
+      <namePart type="termsOfAddress">Sir</namePart>
+      <namePart type="date">1797-1875</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+      </role>
+    </name>
+   <originInfo>
+      <place>
+        <placeTerm type="code" authority="marccountry">enk</placeTerm>
+      </place>
+      <place>
+        <placeTerm type="text">London</placeTerm>
+      </place>
+      <publisher>J. Murray</publisher>
+      <dateIssued>1862</dateIssued>
+      <issuance>monographic</issuance>
+      <mods:edition xmlns:mods="http://www.loc.gov/mods/v3"
+                    xmlns:atom="http://www.w3.org/2005/Atom"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">new edition</mods:edition>
+    </originInfo>
+   <typeOfResource>text</typeOfResource>
+   <subject>
+      <geographicCode authority="marcgac">e-gr---</geographicCode>
+    </subject>
+   <subject authority="lcsh">
+      <geographic>Greece</geographic>
+      <topic>History</topic>
+      <mods:temporal xmlns:mods="http://www.loc.gov/mods/v3"
+                     xmlns:atom="http://www.w3.org/2005/Atom"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">To 146 B.C</mods:temporal>
+    </subject>
+   <subject authority="lcsh">
+      <topic>History, Ancient</topic>
+    </subject>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Histories</title>
+      </titleInfo>
+      <titleInfo>
+         <nonSort>The</nonSort>
+         <title>history of Herodotus</title>
+         <partNumber>Vol I</partNumber>
+      </titleInfo>
+      <part>
+         <detail>
+            <caption>Vol I</caption>
+         </detail>
+      </part>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-86888.html">
+         <namePart>Herodotus</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n84-5926.html">
+         <namePart>Rawlinson, George</namePart>
+         <namePart type="date">1812-1902</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+         <role>
+            <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n82-116298.html">
+         <namePart>Rawlinson, Henry Creswicke</namePart>
+         <namePart type="termsOfAddress">Sir</namePart>
+         <namePart type="date">1810-1895</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n87-150654.html">
+         <namePart>Wilkinson, John Gardner</namePart>
+         <namePart type="termsOfAddress">Sir</namePart>
+         <namePart type="date">1797-1875</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+         </role>
+      </name>
+      <location>
+         <url>http://worldcat.org/oclc/4061134</url>
+      </location>
+      <location displayLabel="GoogleBooks">
+         <url>http://books.google.com/books?id=tzENAAAAIAAJ</url>
+      </location>
+      <location displayLabel="Open Content Alliance">
+         <url>http://www.archive.org/details/historyofherod01hero</url>
+      </location>
+      <location displayLabel="Open Library">
+         <url>http://www.archive.org/details/historyofherod01hero</url>
+      </location>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Histories</title>
+      </titleInfo>
+      <titleInfo>
+         <nonSort>The</nonSort>
+         <title>history of Herodotus</title>
+         <partNumber>Vol II</partNumber>
+      </titleInfo>
+      <titleInfo type="uniform">
+         <title>Historiae. English.</title>
+      </titleInfo>
+      <part>
+         <detail>
+            <caption>Vol II</caption>
+         </detail>
+      </part>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-86888.html">
+         <namePart>Herodotus</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n84-5926.html">
+         <namePart>Rawlinson, George</namePart>
+         <namePart type="date">1812-1902</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+         <role>
+            <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n82-116298.html">
+         <namePart>Rawlinson, Henry Creswicke</namePart>
+         <namePart type="termsOfAddress">Sir</namePart>
+         <namePart type="date">1810-1895</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">joint editor.</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n87-150654.html">
+         <namePart>Wilkinson, John Gardner</namePart>
+         <namePart type="termsOfAddress">Sir</namePart>
+         <namePart type="date">1797-1875</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+         </role>
+      </name>
+      <location>
+         <url>http://worldcat.org/oclc/4061134</url>
+      </location>
+      <location displayLabel="GoogleBooks">
+         <url>http://books.google.com/books?id=XFsGAAAAQAAJ</url>
+      </location>
+      <location displayLabel="Open Content Alliance">
+         <url>http://www.archive.org/details/historyherodotus02hero</url>
+      </location>
+      <location displayLabel="Open Library">
+         <url>http://www.openlibrary.org/details/historyherodotus02hero</url>
+      </location>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Histories</title>
+      </titleInfo>
+      <titleInfo>
+         <nonSort>The</nonSort>
+         <title>history of Herodotus</title>
+         <partNumber>Vol III</partNumber>
+      </titleInfo>
+      <part>
+         <detail>
+            <caption>Vol III</caption>
+         </detail>
+      </part>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-86888.html">
+         <namePart>Herodotus</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n84-5926.html">
+         <namePart>Rawlinson, George</namePart>
+         <namePart type="date">1812-1902</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+         <role>
+            <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n82-116298.html">
+         <namePart>Rawlinson, Henry Creswicke</namePart>
+         <namePart type="termsOfAddress">Sir</namePart>
+         <namePart type="date">1810-1895</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">joint editor.</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n87-150654.html">
+         <namePart>Wilkinson, John Gardner</namePart>
+         <namePart type="termsOfAddress">Sir</namePart>
+         <namePart type="date">1797-1875</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+         </role>
+      </name>
+      <location>
+         <url>http://worldcat.org/oclc/4061134</url>
+      </location>
+      <location displayLabel="GoogleBooks">
+         <url>http://books.google.com/books?id=mNpRVWjJFvsC</url>
+      </location>
+      <location displayLabel="Open Content Alliance">
+         <url>http://www.archive.org/details/historyofherodot03hero</url>
+      </location>
+      <location displayLabel="Open Library">
+         <url>http://www.openlibrary.org/details/historyofherodot03hero</url>
+      </location>
+   </relatedItem>
+   <relatedItem type="constituent">
+      <titleInfo xml:lang="en" type="uniform">
+         <title>Histories</title>
+      </titleInfo>
+      <titleInfo>
+         <nonSort>The</nonSort>
+         <title>history of Herodotus</title>
+         <partNumber>Vol IV </partNumber>
+      </titleInfo>
+      <part>
+         <detail>
+            <caption>Vol IV </caption>
+         </detail>
+      </part>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n79-86888.html">
+         <namePart>Herodotus</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n84-5926.html">
+         <namePart>Rawlinson, George</namePart>
+         <namePart type="date">1812-1902</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+         </role>
+         <role>
+            <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n82-116298.html">
+         <namePart>Rawlinson, Henry Creswicke</namePart>
+         <namePart type="termsOfAddress">Sir</namePart>
+         <namePart type="date">1810-1895</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">joint editor.</roleTerm>
+         </role>
+      </name>
+      <name xmlns:ns2="http://www.w3.org/1999/xlink"
+            authority="naf"
+            type="personal"
+            ns2:href="http://errol.oclc.org/laf/n87-150654.html">
+         <namePart>Wilkinson, John Gardner</namePart>
+         <namePart type="termsOfAddress">Sir</namePart>
+         <namePart type="date">1797-1875</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">joint editor</roleTerm>
+         </role>
+      </name>
+      <location>
+         <url>http://worldcat.org/oclc/4061134</url>
+      </location>
+      <location displayLabel="GoogleBooks">
+         <url>http://books.google.com/books?id=mzINAAAAIAAJ</url>
+      </location>
+      <location displayLabel="Open Content Alliance">
+         <url>http://www.archive.org/details/historyofherodot04hero</url>
+      </location>
+      <location displayLabel="Open Library">
+         <url>http://www.openlibrary.org/details/historyofherodot04hero</url>
+      </location>
+   </relatedItem>
+</mods>

@@ -4,7 +4,7 @@
            xmlns:atom="http://www.w3.org/2005/Atom"
            xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
                 <mods:titleInfo xml:lang="en" type="uniform">
-                    <mods:title>Vitae Herodotea. Selections. (The Phocais)</mods:title>
+                    <mods:title>Vitae Herodotea</mods:title>
                 </mods:titleInfo>
                 <mods:part>
                     <mods:extent unit="words">
@@ -177,8 +177,14 @@
                         <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
                     </mods:role>
                 </mods:name>
-                <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
-              authority="naf"
-              type="personal"
-              ns2:href="http://errol.oclc.org/laf/n88-14906.html"/>
+              <mods:name xmlns:ns2="http://www.w3.org/1999/xlink"
+                    authority="naf"
+                    type="personal"
+                    ns2:href="http://errol.oclc.org/laf/n88-14906.html">
+                            <mods:namePart>Evelyn-White, Hugh G. (Hugh Gerard)</mods:namePart>
+                            <mods:namePart type="date">d. 1924</mods:namePart>
+                            <mods:role>
+                                <mods:roleTerm authority="marcrelator" type="text">editor</mods:roleTerm>
+                            </mods:role>
+                        </mods:name>
             </mods:mods>
