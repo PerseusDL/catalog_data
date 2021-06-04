@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2343.1</identifier>
+<mads  xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+        valueURI="https://viaf.org/viaf/32386793/">
 	        <namePart>Theagenes</namePart>
 	        <namePart type="termsOfAddress">of Rhegium</namePart>
 	        <namePart type="date">active approximately 529 B.C.-522 B.C.</namePart>
@@ -38,8 +40,11 @@
 	        <namePart type="termsOfAddress">Rheginus</namePart>
       </name>
     </variant>
-    <note type="source">Smith's Dictionary: "Theagenes, 1, literary, A native of Rhegium, who was contemporary with Cambyses. (Tatianus, ad v. Graec. p. 105; Euseb. Praep. Evang. 10.11.) He was one of the earliest writers on Homer and his works..."</note>
+    <note type="source">Smith's Dictionary: "Theagenes, 1, literary, A native of Rhegium, 
+      who was contemporary with Cambyses. (Tatianus, ad v. Graec. p. 105; Euseb. Praep. Evang. 
+      10.11.) He was one of the earliest writers on Homer and his works..."</note>
     <identifier type="tlg">2275</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2343.1</identifier>
     <fieldOfActivity>Literary Critic</fieldOfActivity>
     <url displayLabel="viaf">https://viaf.org/viaf/32386793/</url>
     <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Theagenes_of_Rhegium</url>

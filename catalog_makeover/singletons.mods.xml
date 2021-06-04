@@ -2496,8 +2496,6 @@
             <nonSort>The</nonSort>
             <title>Aeneid of Virgil</title>
         </titleInfo>
-        <identifier type="lccn">10008062</identifier>
-        <identifier type="oclc">313514</identifier>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/8194433/">
             <namePart>Virgil</namePart>
@@ -2532,6 +2530,8 @@
             <dateIssued encoding="marc">1910</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
+        <identifier type="lccn">10008062</identifier>
+        <identifier type="oclc">313514</identifier>        
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
         </language>
@@ -2554,9 +2554,11 @@
             </titleInfo>
         </relatedItem>
         <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/hvd.32044015567506</url>
+        </location>
+        <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/313514</url>
         </location>
-
         <relatedItem type="constituent" otherType="work" displayLabel="Aeneid">
             <identifier type="ctsurn">urn:cts:latinLit:phi0690.phi003</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Aeneid">
@@ -25750,38 +25752,6 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Eclogues-Vergil-Perseus-English-Unknown">
-        <titleInfo lang="eng" type="uniform">
-            <title>Eclogues</title>
-        </titleInfo>
-        <part>
-            <extent unit="words">
-                <total>5754</total>
-            </extent>
-        </part>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/8194433/">
-            <namePart>Virgil</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <note>Unknown source edition</note>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-        </language>
-        <relatedItem type="constituent" otherType="work" displayLabel="Eclogae">
-            <identifier type="ctsurn">urn:cts:latinLit:phi0690.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Eclogues">
-                <identifier type="ctsurn">urn:cts:latinLit:phi0690.phi001.perseus-eng1</identifier>
-                <identifier>Perseus:text:1999.02.0057</identifier>
-                <location>
-                    <url displayLabel="Perseus" note="English"
-                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0057</url>
-                </location>
-            </relatedItem>
-        </relatedItem>
-    </mods>
     <mods displayLabel="Electra-Euripides-Murray-Allen-1905">
         <titleInfo lang="lat" type="uniform">
             <title>Electra</title>
@@ -35171,33 +35141,6 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Perseus" note="Greek"
                         >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0197</url>
-                </location>
-            </relatedItem>
-        </relatedItem>
-    </mods>
-    <mods displayLabel="Georgics-Virgil-Perseus-Unknown">
-        <titleInfo type="uniform" lang="eng">
-            <title>Georgics</title>
-        </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/8194433/">
-            <namePart>Virgil</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <note>Unknown source edition</note>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-        </language>
-        <relatedItem type="constituent" otherType="work" displayLabel="Georgica">
-            <identifier type="ctsurn">urn:cts:latinLit:phi0690.phi002</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Georgics">
-                <identifier type="ctsurn">urn:cts:latinLit:phi0690.phi002.perseus-eng1</identifier>
-                <identifier>Perseus:text:1999.02.0058</identifier>
-                <location>
-                    <url displayLabel="Perseus" note="English"
-                        >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0058</url>
                 </location>
             </relatedItem>
         </relatedItem>
