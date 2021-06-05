@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2349.1</identifier>
+<mads  xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/64396011">
 	        <namePart>Xeniades</namePart>
       </name>
     </authority>
@@ -16,9 +18,14 @@
 	        <namePart>Xeniàdes</namePart>
       </name>
     </variant>
-    <note type="source">Smith's Dictionary: "Xeniades, A Greek philosopher, a native of Corinth. The age when he flourished is uncertain. The little that we know of him is derived from Sextus Empiricus, who represents him as holding the most ultra sceptical opinions, and maintaining that all notions are false, and that there is absolutely nothing true in the universe...."</note>
+    <note type="source">Smith's Dictionary: "Xeniades, A Greek philosopher, a native of
+      Corinth. The age when he flourished is uncertain. The little that we know of him is
+      derived from Sextus Empiricus, who represents him as holding the most ultra sceptical 
+      opinions, and maintaining that all notions are false, and that there is absolutely nothing
+      true in the universe...."</note>
     <identifier type="tlg">2355</identifier>
     <fieldOfActivity>Philosopher</fieldOfActivity>
+  <identifier type="citeurn">urn:cite:perseus:author.2349.1</identifier>
     <url displayLabel="viaf">http://viaf.org/viaf/64396011</url>
     <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Xeniades</url>
     <url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=xeniades-bio-1</url>

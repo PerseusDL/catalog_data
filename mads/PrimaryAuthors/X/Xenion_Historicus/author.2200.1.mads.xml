@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2200.1</identifier>
+<mads  xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority lang="lat">
-      <name type="personal">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/39767185">
         <namePart>Xenion</namePart>
         <namePart type="termsOfAddress">Historicus</namePart>
         <namePart type="date">ca. 3.Jh.v.Chr</namePart>
@@ -17,18 +19,19 @@
       <name type="personal">
         <namePart>Xenion</namePart>
         <namePart type="termsOfAddress">Historiker</namePart>
-        <namePart type="date">ca. 3.Jh.v.Chr</namePart>
       </name>
     </variant>
     <variant type="other" lang="ita">
       <name type="personal">
         <namePart>Xenio</namePart>
         <namePart type="termsOfAddress">Historicus</namePart>
-        <namePart type="date">ca. 3.Jh.v.Chr</namePart>
       </name>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2200.1</identifier>
     <fieldOfActivity>Historian</fieldOfActivity>
-    <note type="source">Brill's New Pauly: "Xenion, Author of an historical treatise on Crete, Κρητικά ( Krētiká ) or Περὶ Κρήτης ( Perì Krḗtēs ). Pol. 6,45,1, where X. should probably be read instead of Xenophon..."</note>
+    <note type="source">Brill's New Pauly: "Xenion, Author of an historical treatise on Crete, 
+      Κρητικά ( Krētiká ) or Περὶ Κρήτης ( Perì Krḗtēs ). Pol. 6,45,1, where X. should probably 
+      be read instead of Xenophon..."</note>
     <url displayLabel="VIAF">http://viaf.org/viaf/39767185</url>
     <url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=xenion-bio-1</url>
     <identifier type="uri">http://viaf.org/viaf/39767185</identifier>
