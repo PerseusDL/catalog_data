@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2345.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">    
     <authority lang="lat">
-      <name type="personal">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/24990936">
         <namePart>Zenis</namePart>
         <namePart type="termsOfAddress">Chius</namePart>
         <namePart type="date">v4. Jh</namePart>
@@ -40,11 +42,12 @@
       </name>
     </variant>
     <fieldOfActivity>Historian</fieldOfActivity>
-    <note type="source">Brill's New Pauly: "Zenis, Writer from Chios, possibly 4th cent. BC; he wrote 'about his homeland' (περὶ τῆς πατρίδος/perì tês patrídos, FGrH 393 with comm.)...." Gärtner, Hans Armin (Heidelberg), “Zenis”, in: Brill’s New Pauly, Antiquity volumes edited by: Hubert Cancik and , Helmuth Schneider. Consulted online on 30 December 2016</note>
+    <note type="source">Brill's New Pauly: "Zenis, Writer from Chios, possibly 4th cent. 
+      BC, he wrote 'about his homeland' (περὶ τῆς πατρίδος/perì tês patrídos, FGrH 393 with comm.)...." Gärtner, Hans Armin (Heidelberg), “Zenis”, in: Brill’s New Pauly, Antiquity volumes edited by: Hubert Cancik and , Helmuth Schneider. Consulted online on 30 December 2016</note>
     <url displayLabel="VIAF">http://viaf.org/viaf/24990936</url>
-    <url displayLabel="Dataset description">http://viaf.org/viaf/data</url>
     <url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=zeneus-bio-1</url>
     <identifier type="uri">http://viaf.org/viaf/24990936</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2345.1</identifier>
     <identifier type="tlg">2276</identifier>
     <extension>
       <description>List of related work identifiers</description>

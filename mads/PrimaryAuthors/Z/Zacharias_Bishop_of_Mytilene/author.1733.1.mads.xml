@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/13590360">
       <mads:namePart>Zacharias</mads:namePart>
       <mads:namePart type="termsOfAddress">Bishop of Mytilene</mads:namePart>
     </mads:name>
@@ -14,7 +15,14 @@
   </mads:related>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart/>
+      <mads:namePart>Ζαχαρίας</mads:namePart>
+      <mads:namePart type="termsOfAddress">Ρήτωρ</mads:namePart>
+    </mads:name>
+  </mads:variant>
+  <mads:variant type="other" lang="grc">
+    <mads:name type="personal" authority="Brill">
+      <mads:namePart>Ζαχαρίας</mads:namePart>
+      <mads:namePart type="termsOfAddress">Σχολαστικός</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
@@ -47,23 +55,18 @@
       <mads:namePart type="termsOfAddress">Scholastikos</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:note type="source">Dialogo di Zaccheria Scolastico, vescovo di Mitilene, intorno alla fabbrica 
-    del mondo, contra quei filosofi che la eternit&#xE0; gli attribuiscono, 1735</mads:note>
   <mads:note type="source">The Chronicle of Pseudo-Zachariah Rhetor, 2011: p. 3 (Zacharias, Bishop of Mytilene,
-    also known as Zacharias Rhetor or Zacharias Scholasticus; church historian; b. in Maiuma, the harbor city of Gaza, 
-    in the late 460's; was active in Alexandria and Constantinople; attended a synod in Constantinople in 536, where he is
-    described as Bishop of Mytilene on the island of Lesbos; not attested after 536; died before 553, when a new bishop of
-    Mytilene attended the Second Council of Constantinople; was later confused with Pseudo-Zachariah Rhetor, 
+    also known as Zacharias Rhetor or Zacharias Scholasticus, church historian, b. in Maiuma, the harbor city of Gaza, 
+    in the late 460's, was active in Alexandria and Constantinople, attended a synod in Constantinople in 536, where he is
+    described as Bishop of Mytilene on the island of Lesbos, not attested after 536, died before 553, when a new bishop of
+    Mytilene attended the Second Council of Constantinople, was later confused with Pseudo-Zachariah Rhetor, 
     who wrote a chronicle in Syriac that drew heavily on Zacharia's own Historia ecclesiastica)</mads:note>
   <mads:identifier type="lccn">n  79083928 </mads:identifier>
-  <mads:identifier type="ctsurn"/>
   <mads:identifier type="tlg">2831</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1733.1</mads:identifier>
   <mads:fieldOfActivity>Rhetor</mads:fieldOfActivity>
   <mads:fieldOfActivity>Bishop</mads:fieldOfActivity>
-  
-  
-  <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Zacharias_Rhetor</mads:url>
+    <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Zacharias_Rhetor</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n79-83928</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=zacharias-bio-1</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/13590360</mads:url>
