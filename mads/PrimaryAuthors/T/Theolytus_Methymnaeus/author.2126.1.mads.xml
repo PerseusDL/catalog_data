@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2126.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority lang="lat">
-      <name type="personal" authority="viaf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf"
+        valueURI="http://viaf.org/viaf/69321576">
         <namePart>Theolytus</namePart>
         <namePart type="termsOfAddress">Methymnaeus</namePart>
         <namePart type="date">ca. 3.Jh.v.Chr</namePart>
@@ -17,33 +19,30 @@
       <name type="personal">
         <namePart>Theolytos</namePart>
         <namePart type="termsOfAddress">Dichter</namePart>
-        <namePart type="date">ca. 3.Jh.v.Chr</namePart>
       </name>
     </variant>
     <variant type="other" lang="ger">
       <name type="personal">
         <namePart>Theolytos</namePart>
         <namePart type="termsOfAddress">Epiker</namePart>
-        <namePart type="date">ca. 3.Jh.v.Chr</namePart>
       </name>
     </variant>
     <variant type="other" lang="lat"> 
       <name type="personal">
         <namePart>Theolytus</namePart>
-        <namePart type="termsOfAddress">Epicus</namePart>
-        <namePart type="date">ca. 3.Jh.v.Chr</namePart>
-      </name>
+        <namePart type="termsOfAddress">Epicus</namePart>      </name>
     </variant>
     <variant type="other" lang="lat">
       <name type="personal">
         <namePart>Theolytus</namePart>
         <namePart type="termsOfAddress">Historicus</namePart>
-        <namePart type="date">ca. 3.Jh.v.Chr</namePart>
       </name>
     </variant>
     <fieldOfActivity>Historian</fieldOfActivity>
-    <note type="source">Brill's New Pauly: "Theolytus, from Methymna, on Lesbos). Undatable author of Bakchikà épē ('Bacchic Songs') on the love of the sea god Glaucus...."</note>
+    <note type="source">Brill's New Pauly: "Theolytus, from Methymna, on Lesbos).
+      Undatable author of Bakchikà épē ('Bacchic Songs') on the love of the sea god Glaucus...."</note>
     <url displayLabel="VIAF">http://viaf.org/viaf/69321576</url>
+  <identifier type="citeurn">urn:cite:perseus:author.2126.1</identifier>
     <identifier type="uri">http://viaf.org/viaf/69321576</identifier>
     <identifier type="tlg">1723</identifier>
     <extension>

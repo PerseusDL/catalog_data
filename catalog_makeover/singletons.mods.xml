@@ -35376,7 +35376,6 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-
     <mods displayLabel="Graecarum affectionum curatio-Thedoretus-Teubner-1969">
         <titleInfo>
             <title>Theodoreti Graecarum affectionum curatio</title>
@@ -37288,7 +37287,88 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-
+<mods displayLabel="Historia Ecclesiastica-Theodoret-Parmentier-Hinrichs-1911">
+    <titleInfo>
+        <title>Theodoret Kirchengeschichte</title>
+    </titleInfo>
+    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/77111352">
+        <namePart>Theodoretus</namePart>
+        <namePart type="termsOfAddress">Bishop of Cyrrhus</namePart>
+        <role>
+            <roleTerm type="text">creator</roleTerm>
+        </role>
+    </name>
+    <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/69012059">
+        <namePart>Parmentier, Léon,</namePart>
+        <namePart type="date">1863-1929</namePart>
+        <role>
+            <roleTerm type="text">editor</roleTerm>
+        </role>
+    </name>
+    <name type="corporate">
+        <namePart>Deutsche Akademie der Wissenschaften zu Berlin.</namePart>
+        <namePart>Kirchenväter-Commission.</namePart>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <place>
+            <placeTerm type="code" authority="marccountry">gw</placeTerm>
+        </place>
+        <issuance>monographic</issuance>
+        <place>
+            <placeTerm type="text">Leipzig</placeTerm>
+        </place>
+        <publisher>J.C. Hinrichs</publisher>
+        <dateIssued>1911</dateIssued>
+    </originInfo>
+    <language objectPart="notes">
+        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+    </language>
+    <language objectPart="text">
+        <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+    </language>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+        <extent>cviii, 427 p. 25 cm.</extent>
+    </physicalDescription>
+    <note type="statement of responsibility">
+        Hrsg. im Auftrage der Kirchenväter-Commission der Königl. preussischen Akademie der Wissenschaften, von Léon Parmentier.
+    </note>
+    <classification authority="lcc">BR60 .G7 Bd. 19</classification>
+    <relatedItem type="series">
+        <titleInfo>
+            <title>
+                Die griechischen christlichen Schriftsteller der ersten drei Jahrhunderte
+            </title>
+            <partNumber>Bd. 19</partNumber>
+        </titleInfo>
+    </relatedItem>
+    <identifier type="lccn">11009050</identifier>
+    <identifier type="oclc">1003453</identifier>
+    <location>
+        <url displayLabel="Worldcat">https://www.worldcat.org/title/theodoret-kirchengeschichte/oclc/1003453</url>
+    </location>
+<location>
+    <url displayLabel="HathiTrust">https://hdl.handle.net/2027/njp.32101020919757</url>
+</location>
+    <location>
+        <url displayLabel="Open Content Alliance">https://archive.org/details/theodoretkirchen00theo</url>
+    </location>
+    <relatedItem type="constituent" otherType="work" displayLabel="Historia Ecclesiastica">
+        <identifier type="ctsurn">urn:cts:greekLit:tlg4089.tlg003</identifier>
+        <relatedItem type="constituent" otherType="expression" displayLabel="Historia Ecclesiastica">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg4089.tlg003.opp-grc1</identifier>
+            <location>
+                <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg4089.tlg003.opp-grc1</url>
+            </location>
+            <location>
+                <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/tlg0086/data/tlg4089/tlg003/tlg4089.tlg003.opp-grc1.xml</url>
+            </location>
+        </relatedItem>
+    </relatedItem>
+</mods>
     <mods displayLabel="Historia Nova-Zosimus-Mendelsohn-Teubner-1887">
         <titleInfo lang="lat" type="uniform">
             <title>Historia Nova</title>
@@ -39191,7 +39271,8 @@ but this is where the TLG has left off for numbering-->
                 <placeTerm type="text">Stutgardiae</placeTerm>
             </place>
             <publisher>Teubner</publisher>
-            <dateIssued>1972</dateIssued>
+        <dateModified>1972</dateModified>
+            <dateIssued>1887</dateIssued>
             <edition>Ed. correctiorem</edition>
             <issuance>monographic</issuance>
         </originInfo>
