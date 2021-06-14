@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2173.1</identifier>
+<mads   xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="https://viaf.org/viaf/283901427">
 	        <namePart>Theodorus</namePart>
       </name>
     </authority>
@@ -42,9 +44,12 @@
 	        <namePart type="termsOfAddress">z Cyreny</namePart>
       </name>
     </variant>
-    <note type="source">Brill's New Pauly: "Theodorus, Of Cyrene, mathematician, 5th cent. BC ...T.'s most important achievement was his contributions to the theory of irrationalities"</note>
+    <note type="source">Brill's New Pauly: "Theodorus, Of Cyrene, mathematician, 5th cent. BC ..
+      .T.'s most important achievement was his contributions to the theory of irrationalities"
+    </note>
     <identifier type="tlg">2237</identifier>
     <fieldOfActivity>Mathematician</fieldOfActivity>
+  <identifier type="citeurn">urn:cite:perseus:author.2173.1</identifier>
     <url displayLabel="viaf">http://viaf.org/viaf/306058175</url>
     <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Theodorus_of_Cyrene</url>
     <extension>
