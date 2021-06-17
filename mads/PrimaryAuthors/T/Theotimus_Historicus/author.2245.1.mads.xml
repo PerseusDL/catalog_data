@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2245.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/12694086">
         <namePart>Theotimus</namePart>
         <namePart type="termsOfAddress">Historicus</namePart>
         <namePart type="date">v2. Jh</namePart>
@@ -20,8 +22,12 @@
         <namePart type="date">v2. Jh</namePart>
       </name>
     </variant>   
-    <note type="source">Brill's New Pauly: "Theotimus, Greek historian of the Hellenistic period. Author of various works of local history: On Cyrene (FGrH 470 F 1 and 2), Italiká (FGrH 834 F 1), Against Aeelurus (FGrH 470 F 3-5), a Rhodean specialist author of unknown period (Aieluros FGrH 528). FGrH 470 and 834...." Meister, Klaus (Berlin), “Theotimus”, in: Brill’s New Pauly, Antiquity volumes edited by: Hubert Cancik and , Helmuth Schneider. Consulted online on 20 December 2016</note>
+    <note type="source">Brill's New Pauly: "Theotimus, Greek historian of the Hellenistic period. Author of
+      various works of local history: On Cyrene (FGrH 470 F 1 and 2), Italiká (FGrH 834 F 1), Against Aeelurus 
+      (FGrH 470 F 3-5), a Rhodean specialist author of unknown period (Aieluros FGrH 528). FGrH 470 and 834...."
+      Meister, Klaus (Berlin), “Theotimus”, in: Brill’s New Pauly, Antiquity volumes edited by: Hubert Cancik and , Helmuth Schneider. Consulted online on 20 December 2016</note>
     <fieldOfActivity>Historian</fieldOfActivity>
+  <identifier type="citeurn">urn:cite:perseus:author.2245.1</identifier>
     <url displayLabel="VIAF">http://viaf.org/viaf/12694086</url>
     <identifier type="uri">http://viaf.org/viaf/12694086</identifier>
     <identifier type="tlg">1727</identifier>

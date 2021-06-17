@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/22528439/">
       <mads:namePart>Theopompus</mads:namePart>
       <mads:namePart type="termsOfAddress">Comicus</mads:namePart>
       <mads:namePart type="date">5./4. Jh. v. Chr</mads:namePart>
@@ -9,35 +10,29 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x398;&#x3B5;&#x3CC;&#x3C0;&#x3BF;&#x3BC;&#x3C0;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Θεόπομπος</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Theopomp</mads:namePart>
-      <mads:namePart type="termsOfAddress">Komo&#x308;diendichter</mads:namePart>
-      <mads:namePart type="date">5./4. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Theopompos</mads:namePart>
-      <mads:namePart type="termsOfAddress">Dichter der Alten Komo&#x308;die</mads:namePart>
-      <mads:namePart type="date">5./4. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Theopompos</mads:namePart>
       <mads:namePart type="termsOfAddress">von Athen</mads:namePart>
-      <mads:namePart type="date">5./4. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
     <mads:name type="personal">
       <mads:namePart>Teopompo</mads:namePart>
       <mads:namePart type="termsOfAddress">di Atene</mads:namePart>
-      <mads:namePart type="date">5./4. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -51,13 +46,15 @@
       <mads:namePart>Theopomp.Com.</mads:namePart>
     </mads:name>
   </mads:variant>
+  <mads:note type="source">Brill's New Pauly: "Theopompus, Athenian comic poet, 5th/4th cents. BC, twice victor 
+    in the Lenaea, the first time after Metagenes [1] .... i.e. probably after 410
+    first victory at the Dionysia no later than 403.... was active into the 70s or 60s of the 4th cent. ... 108 
+    fragments (11 of them uncertain) and 20 titles are preserved, a third of which indicate mythological material..."
+    from Bäbler, Balbina (Göttingen). "Theopompus." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and
+    Helmuth Schneider . Brill, 2011. Brill Online.</mads:note>
   <mads:fieldOfActivity>Comic Poet</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|102407983</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
+  <mads:url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Theopompus_(comic_poet)</mads:url>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/22528439</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1395.1</mads:identifier>
   <mads:identifier type="tlg">0513</mads:identifier>
   <mads:extension>

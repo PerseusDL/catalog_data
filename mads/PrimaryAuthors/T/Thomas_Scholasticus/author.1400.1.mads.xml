@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/2857356">
       <mads:namePart>Thomas</mads:namePart>
       <mads:namePart type="termsOfAddress">Scholasticus</mads:namePart>
       <mads:namePart type="date">ca. 6. Jh</mads:namePart>
@@ -9,7 +10,7 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>&#x398;. &#x3A3;&#x3C7;&#x3BF;&#x3BB;&#x3B1;&#x3C3;&#x3C4;&#x3B9;&#x3BA;&#x3CC;&#x3C2;</mads:namePart>
+      <mads:namePart>Θ. Σχολαστικός</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -40,11 +41,9 @@
   <mads:identifier type="uri">http://viaf.org/viaf/2857356</mads:identifier>
   <mads:identifier type="tlg">4048</mads:identifier>
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="Worldcat Identities"/>
+  <mads:note type="source">Brill's New Pauly: "T. Scholasticus Epigrammarian, probably 6th cent... Otherwise unknown author of an epigram,
+    probably dating to the 6th cent. AD, in which he declares his love to the "three stars of rhetoric"...." from Albiani,
+    Maria Grazia (Bologna). "Thomas." Brill’s New Pauly. Brill Online, 2013. Reference. Tufts University Library. 29 May 2013</mads:note>
   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=thomas-bio-4</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/2857356</mads:url>
   <mads:extension>
