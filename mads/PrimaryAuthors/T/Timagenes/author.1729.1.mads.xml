@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/59476397">
       <mads:namePart>Timagenes</mads:namePart>
       <mads:namePart type="termsOfAddress">Alexandrinus</mads:namePart>
       <mads:namePart type="date">v55/30</mads:namePart>
@@ -16,56 +17,48 @@
     <mads:name type="personal">
       <mads:namePart>Timagenes</mads:namePart>
       <mads:namePart type="termsOfAddress">Historicus</mads:namePart>
-      <mads:namePart type="date">v55/30</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Timagenes</mads:namePart>
       <mads:namePart type="termsOfAddress">Historiker</mads:namePart>
-      <mads:namePart type="date">v55/30</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Timagenes</mads:namePart>
       <mads:namePart type="termsOfAddress">Rhetor</mads:namePart>
-      <mads:namePart type="date">v55/30</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Timagenes</mads:namePart>
       <mads:namePart type="termsOfAddress">of Alexandria</mads:namePart>
-      <mads:namePart type="date">v55/30</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Timagenes</mads:namePart>
       <mads:namePart type="termsOfAddress">von Alexandreia</mads:namePart>
-      <mads:namePart type="date">v55/30</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
     <mads:name type="personal">
       <mads:namePart>Timagene</mads:namePart>
       <mads:namePart type="termsOfAddress">Retore</mads:namePart>
-      <mads:namePart type="date">v55/30</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
     <mads:name type="personal">
       <mads:namePart>Timagene</mads:namePart>
       <mads:namePart type="termsOfAddress">Storico</mads:namePart>
-      <mads:namePart type="date">v55/30</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
     <mads:name type="personal">
       <mads:namePart>Timagene</mads:namePart>
       <mads:namePart type="termsOfAddress">di Alessandria</mads:namePart>
-      <mads:namePart type="date">v55/30</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -83,11 +76,8 @@
   <mads:identifier type="tlg">1918</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1729.1</mads:identifier>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  
-  
-  <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Timagenes</mads:url>
-  <mads:url displayLabel="Worldcat Identities"/>
-  <mads:url displayLabel="Smith's Dictionary"/>
+  <mads:note type="source">Brill's New Pauly: "T. of Alexandria Greek rhetor and historian, 1st cent. BC..."</mads:note>
+    <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Timagenes</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/59476397</mads:url>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>

@@ -1,42 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2256.1</identifier>
+<mads  xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/100906904">
         <namePart>Timaeus</namePart>
         <namePart type="termsOfAddress">of Locri</namePart>
       </name>
     </authority>
-    <variant type="equivalent">
+    <variant>
       <name type="personal">
         <namePart>Timaeus Locrus</namePart>
       </name>
     </variant>
-    <variant type="equivalent" lang="grc">
+    <variant>
       <name type="personal">
         <namePart>Τίμαιος</namePart>
         <namePart type="termsOfAddress">Λοκρό</namePart>
       </name>
     </variant>
-    <variant type="equivalent" lang="lat">
+    <variant type="other" lang="lat">
       <name type="personal">
         <namePart>Timaeus</namePart>
         <namePart type="termsOfAddress">Locrus</namePart>
         <namePart type="date">ca. 5. Jh. v. Chr</namePart>
       </name>
     </variant>
-    <variant type="equivalent">
+    <variant type="other">
       <name type="personal">
         <namePart>Timeo de Locres</namePart>
       </name>
     </variant>
-    <variant type="equivalent">
+    <variant type="other">
       <name type="personal">
         <namePart>Timeu</namePart>
         <namePart type="termsOfAddress">de Locres</namePart>
       </name>
     </variant>
-    <variant type="equivalent">
+    <variant type="other">
       <name type="personal">
         <namePart>Timée de Locres</namePart>
         <namePart type="date">04..-04.. av. J.-C</namePart>
@@ -62,21 +64,18 @@
       <name type="personal">
         <namePart>Timaeus</namePart>
         <namePart type="termsOfAddress">Locrensis</namePart>
-        <namePart type="date">ca. 5. Jh. v. Chr</namePart>
       </name>
     </variant>
     <variant type="other">
       <name type="personal">
         <namePart>Timaeus</namePart>
         <namePart type="termsOfAddress">Philosophus</namePart>
-        <namePart type="date">ca. 5. Jh. v. Chr</namePart>
       </name>
     </variant>
     <variant type="other">
       <name type="personal">
         <namePart>Timaeus</namePart>
         <namePart type="termsOfAddress">Pythagoricus</namePart>
-        <namePart type="date">ca. 5. Jh. v. Chr</namePart>
       </name>
     </variant>
     <variant type="other">
@@ -104,7 +103,6 @@
       <name type="personal">
         <namePart>Timäus</namePart>
         <namePart type="termsOfAddress">Locrus</namePart>
-        <namePart type="date">ca. 5. Jh. v. Chr</namePart>
       </name>
     </variant>
     <variant type="other">
@@ -141,7 +139,6 @@
       <name type="personal">
         <namePart>Timäus</namePart>
         <namePart type="termsOfAddress">Locrus</namePart>
-        <namePart type="date">ca. v5. Jh</namePart>
       </name>
     </variant>
     <variant type="other">
@@ -154,7 +151,6 @@
         <namePart>Tímaios ho Lokrós</namePart>
       </name>
     </variant>
-
     <variant type="other">
       <name type="personal">
         <namePart>Тимей Локрийский</namePart>
@@ -172,6 +168,7 @@
     </variant>
     <fieldOfActivity>Philosopher</fieldOfActivity>
     <fieldOfActivity>Pythagorean</fieldOfActivity>
+  <identifier type="citeurn">urn:cite:perseus:author.2256.1</identifier>
     <url displayLabel="VIAF">http://viaf.org/viaf/100906904</url>
     <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Timaeus_of_Locri</url>
     <identifier type="uri">http://viaf.org/viaf/100906904</identifier>

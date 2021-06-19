@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/24990915/">
       <mads:namePart>Thyillus</mads:namePart>
       <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
       <mads:namePart type="date">1. Jh. v. Chr</mads:namePart>
@@ -9,14 +10,13 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x398;&#x3CD;&#x3B9;&#x3BB;&#x3BB;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Θύιλλος</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Thyillos</mads:namePart>
       <mads:namePart type="termsOfAddress">Epigrammatiker</mads:namePart>
-      <mads:namePart type="date">1. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -30,13 +30,17 @@
       <mads:namePart>Thyill.</mads:namePart>
     </mads:name>
   </mads:variant>
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 3, 1867, p. 728:
+    "Satyrus, 4, an epigrammatic poet, who is mentioned in the titles to his epigrams in the Palatine and 
+    Planudean anthologies by the various names of Satyrius, Satyrus, Satyrus Thyllius, and Thyillus..."</mads:note>
+  <mads:note type="source">Brill's New Pauly: "Thyillus, Epigrammatist in Cicero's circle (Cic. Att. 1,9,2
+    1,16,15: 67 and 61 BC, cf. [13]). Three poems survive: a description of a spring (Anth. Pal. 6,170), 
+    an epitaph (perhaps for an inscription) for a Cybele priestess (Anth. Pal. 7,223 = GVI 707, cf. Philod. 
+    ibid. 7,222), a variation on the return of spring (ibid. 10,5, cf. Leonidas [3], ibid. 10,1 etc.)...." 
+    Albiani, Maria Grazia (Bologna). "Thyillus." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and Helmuth Schneider . Brill, 2009. Brill Online.</mads:note>
   <mads:note type="history">AP 6.170; 7.223; 10.5</mads:note>
-  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|10240822X</mads:url>
+  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>  
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/24990915/</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0003.001;didno=ACL3129.0003.001;view=image;seq=00000736</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1405.1</mads:identifier>
   <mads:identifier type="tlg">1730</mads:identifier>

@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/24616821/">
       <mads:namePart>Justinus, Marcus Junianus</mads:namePart>
     </mads:name>
   </mads:authority>
@@ -61,10 +62,19 @@
   <mads:identifier type="lccn">n 82043687 </mads:identifier>
   <mads:identifier type="stoa">stoa0167</mads:identifier>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  
-  
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 2, 1867, p. 680: "Justinus, 
+    the historian. We possess a work entitled Justini Historiarum Philippicarum Libri XLIV, in the preface of which
+    the author informs us that his book was entirely derived from the Universal History (Totius orbis Historias), 
+    composed in Latin by Trogus Pompeius..."</mads:note>
+  <mads:note type="source">Brill's New Pauly: "M. Iunian(i)us I. Author of an Epitome historiarum Philippicarum, around 400 AD, 
+    compiler of an extract from the lost Historiae Philippicae of Pompeius Trogus (Epitome historiarum Philippicarum). He does not 
+    strive for a uniform paraphrase: in the interests of brevitas the anecdotal and the exemplary are emphasized so that a kind 
+    of anthology of the corresponding,  original extracts is given, concrete details (geographical digressions, 
+    chronology, prosopography etc.) are avoided...." from Schmidt, Peter L. (Konstanz). "Iustinus." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and
+    Helmuth Schneider . Brill, 2010. Brill Online. Tufts University Library. 22 July 2010
+  </mads:note>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Justin_(historian)</mads:url>
-  <mads:url displayLabel="Worldcat Identities"/>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/24616821/</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0002.001;didno=ACL3129.0002.001;view=image;seq=00000690</mads:url>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>

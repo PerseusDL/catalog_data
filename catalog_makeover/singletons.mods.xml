@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ababeu/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/alisonbabeu/catalog_data/schemas/mods-3-7.xsd">
     <!--Make sure have both authority and valueURI-->
     <!-- Add in HathiTrust links-->
     <!-- Continue reviewing work names
@@ -8649,7 +8649,7 @@ but this is where the TLG has left off for numbering-->
                 </relatedItem>
             </relatedItem>
         </relatedItem>
-    </mods>
+    </mods>    
     <mods displayLabel="Bacchae-Euripides-Kopff-Teubner-1982">
         <titleInfo>
             <title>Bacchae</title>
@@ -8736,7 +8736,7 @@ but this is where the TLG has left off for numbering-->
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0006.tlg017.opp-grc3</identifier>
             </relatedItem>
         </relatedItem>
-    </mods>
+    </mods> 
     <mods displayLabel="Belopoeica-Hero of Alexandria-Diels/Schram-Reimer-1918">
         <titleInfo type="uniform" lang="lat">
             <title>Belopoeica</title>
@@ -58886,10 +58886,21 @@ p -->
         <physicalDescription>
             <extent>2 volumes</extent>
         </physicalDescription>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
+            </titleInfo>
+            <titleInfo type="abbreviated">
+                <title>Teubner</title>
+            </titleInfo>
+        </relatedItem>
         <note type="statement of responsibility">e codicibvs ab ipso collatis denvo edidit et
             adnotavit Ericvs Bethe</note>
         <identifier type="lccn">06016386</identifier>
         <identifier type="oclc">14881279</identifier>
+        <language objectPart="text">
+            <languageTerm type="code">lat</languageTerm>
+        </language>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/14881279</url>
         </location>
