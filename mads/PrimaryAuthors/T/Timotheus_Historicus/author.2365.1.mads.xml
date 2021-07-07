@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2365.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority lang="lat">
-      <name type="personal">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/27455934">
         <namePart>Timotheus</namePart>
         <namePart type="termsOfAddress">Historicus</namePart>
         <namePart type="date">Person der Antike</namePart>
@@ -21,6 +23,7 @@
       </name>
     </variant>
     <fieldOfActivity>Historian</fieldOfActivity>
+  <identifier type="citeurn">urn:cite:perseus:author.2365.1</identifier>
     <url displayLabel="VIAF">http://viaf.org/viaf/27455934</url>
     <identifier type="uri">http://viaf.org/viaf/27455934</identifier>
     <identifier type="tlg">2213</identifier>

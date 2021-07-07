@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2235.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/7775565">
         <namePart>Uranius</namePart>
         <namePart type="termsOfAddress">Historicus</namePart>
         <namePart type="date">ca. 1.Jh.v.Chr.bzw.6.Jh.n.Chr</namePart>
@@ -17,17 +19,18 @@
       <name type="personal">
         <namePart>Uranios</namePart>
         <namePart type="termsOfAddress">Historiker</namePart>
-        <namePart type="date">ca. 1.Jh.v.Chr.bzw.6.Jh.n.Chr</namePart>
       </name>
     </variant>
     <variant type="other" lang="lat">
       <name type="personal">
         <namePart>Uranius</namePart>
         <namePart type="termsOfAddress">Syrius</namePart>
-        <namePart type="date">ca. 1.Jh.v.Chr.bzw.6.Jh.n.Chr</namePart>
       </name>
     </variant>
-    <note type="source">Smith's Dictionary: "Uranius, 1, a Greek writer of uncertain date, wrote a work on Arabia in three books at the least, which is frequently referred to by Stephanus of Byzantium and occasionally quoted by other writers...."</note>
+  <identifier type="citeurn">urn:cite:perseus:author.2235.1</identifier>
+    <note type="source">Smith's Dictionary: "Uranius, 1, a Greek writer of uncertain date,
+      wrote a work on Arabia in three books at the least, which is frequently referred to by Stephanus 
+      of Byzantium and occasionally quoted by other writers...."</note>
     <fieldOfActivity>Historian</fieldOfActivity>
     <url displayLabel="VIAF">http://viaf.org/viaf/7775565</url>
     <url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=uranius-bio-1</url>

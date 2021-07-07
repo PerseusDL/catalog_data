@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/71784104"> 
       <mads:namePart>Tynnichus</mads:namePart>
       <mads:namePart type="termsOfAddress">Chalcidensis</mads:namePart>
       <mads:namePart type="date">6./4. Jh. v. Chr</mads:namePart>
@@ -9,43 +10,38 @@
   </mads:authority>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x3A4;&#x3CD;&#x3BD;&#x3BD;&#x3B9;&#x3C7;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Τύννιχος</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Tynnichos</mads:namePart>
       <mads:namePart type="termsOfAddress">von Chalkis</mads:namePart>
-      <mads:namePart type="date">6./4. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Tynnichus</mads:namePart>
       <mads:namePart type="termsOfAddress">Lyricus</mads:namePart>
-      <mads:namePart type="date">6./4. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ger">
     <mads:name type="personal">
       <mads:namePart>Tynnichos</mads:namePart>
       <mads:namePart type="termsOfAddress">Dichter</mads:namePart>
-      <mads:namePart type="date">6./4. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
     <mads:name type="personal">
       <mads:namePart>Tinnico</mads:namePart>
       <mads:namePart type="termsOfAddress">di Calcide</mads:namePart>
-      <mads:namePart type="date">6./4. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:fieldOfActivity>Lyric Poet</mads:fieldOfActivity>
   <mads:fieldOfActivity>Paeanist</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
+  <mads:note type="source">Brill's New Pauly: "Tynnichos, aus Chalkis (Euboia). 
+    Chorlyriker des 7. Jh. v. Chr. (?), Komponist eines in Delphi vielgesungenen Paians (Plat. Ion 534d),..." 
+    Käppel, Lutz. "Tynnichos." Der Neue Pauly. Herausgegeben von: Hubert Cancik und Helmuth Schneider (Antike), Manfred Landfester (Rezeptions- und Wissenschaftsgeschichte) . Brill, 2009</mads:note> 
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/71784104</mads:url>
   <mads:url displayLabel="Smith's Dictionary"/>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1441.1</mads:identifier>
