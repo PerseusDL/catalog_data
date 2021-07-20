@@ -2531,7 +2531,7 @@
             <issuance>monographic</issuance>
         </originInfo>
         <identifier type="lccn">10008062</identifier>
-        <identifier type="oclc">313514</identifier>        
+        <identifier type="oclc">313514</identifier>
         <language objectPart="text">
             <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
         </language>
@@ -8649,7 +8649,7 @@ but this is where the TLG has left off for numbering-->
                 </relatedItem>
             </relatedItem>
         </relatedItem>
-    </mods>    
+    </mods>
     <mods displayLabel="Bacchae-Euripides-Kopff-Teubner-1982">
         <titleInfo>
             <title>Bacchae</title>
@@ -8736,7 +8736,7 @@ but this is where the TLG has left off for numbering-->
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0006.tlg017.opp-grc3</identifier>
             </relatedItem>
         </relatedItem>
-    </mods> 
+    </mods>
     <mods displayLabel="Belopoeica-Hero of Alexandria-Marsden-Clarendon-1971-First1K">
         <titleInfo>
             <title>Greek and Roman artillery</title>
@@ -8816,10 +8816,12 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression" displayLabel="Belopoeica">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0559.tlg012.1st1K-grc1</identifier>
                 <location>
-                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0559.tlg012.1st1K-grc1/</url>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0559.tlg012.1st1K-grc1/</url>
                 </location>
                 <location>
-                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0559/tlg012/tlg0559.tlg012.1st1K-grc1.xml</url>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0559/tlg012/tlg0559.tlg012.1st1K-grc1.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -24615,8 +24617,8 @@ but this is where the TLG has left off for numbering-->
             <title>Dialogue avec Tryphon</title>
             <subTitle>texte Grec, traduction Française</subTitle>
         </titleInfo>
-        <name authority="viaf" type="personal" usage="primary" 
-            authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/88878069">
+        <name authority="viaf" type="personal" usage="primary" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/88878069">
             <namePart>Justin,</namePart>
             <namePart type="termsOfAddress">Martyr, Saint</namePart>
             <role>
@@ -24660,101 +24662,108 @@ but this is where the TLG has left off for numbering-->
         <identifier type="oclc">230736608</identifier>
         <location>
             <url displayLabel="Worldcat">https://www.worldcat.org/oclc/230736608</url>
-        </location>        
+        </location>
         <relatedItem type="series">
             <titleInfo>
                 <title>Textes et Documents pour l'étude historique du Christianisme.</title>
             </titleInfo>
         </relatedItem>
-            <relatedItem type="constituent" otherType="work" displayLabel="Dialogue with Trypho">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0645.tlg003</identifier>
-                <relatedItem type="constituent" otherType="expression" displayLabel="Dialogue with Trypho">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0645.tlg003.perseus-grc2</identifier>
-                    <relatedItem type="constituent" otherType="structure" displayLabel="Vol 1-2">
-                        <part type="volume">
-                            <detail type="volume">
-                                <caption>Volume</caption>
-                                <number>1-2</number>
-                            </detail>
-                        </part>
-                        <originInfo>
-                            <dateIssued>1909</dateIssued>
-                        </originInfo>
-                    </relatedItem>
-                    <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0645.tlg003.perseus-grc2</url>
-                    </location>
-                    <location>
-                        <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0645/tlg003/tlg0645.tlg003.perseus-grc2.xml</url>
-                    </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="Dialogue with Trypho">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0645.tlg003</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Dialogue with Trypho">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0645.tlg003.perseus-grc2</identifier>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Vol 1-2">
+                    <part type="volume">
+                        <detail type="volume">
+                            <caption>Volume</caption>
+                            <number>1-2</number>
+                        </detail>
+                    </part>
+                    <originInfo>
+                        <dateIssued>1909</dateIssued>
+                    </originInfo>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="expression" displayLabel="Dialogus cum Tryphone" >
-                    <identifier type="ctsurn">>urn:cts:greekLit:tlg0645.tlg003.opp-grc1</identifier>
-                    <identifier type="ctsurn">>urn:cts:greekLit:tlg0645.tlg003.opp-fre1</identifier>
-                    <relatedItem type="constituent" otherType="structure" displayLabel="Vol 1">
-                        <part type="volume">
-                            <detail type="volume">
-                                <caption>Volume</caption>
-                                <number>1</number>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0645.tlg003.perseus-grc2</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0645/tlg003/tlg0645.tlg003.perseus-grc2.xml</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Dialogus cum Tryphone">
+                <identifier type="ctsurn">>urn:cts:greekLit:tlg0645.tlg003.opp-grc1</identifier>
+                <identifier type="ctsurn">>urn:cts:greekLit:tlg0645.tlg003.opp-fre1</identifier>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Vol 1">
+                    <part type="volume">
+                        <detail type="volume">
+                            <caption>Volume</caption>
+                            <number>1</number>
+                        </detail>
+                    </part>
+                    <originInfo>
+                        <dateIssued>1909</dateIssued>
+                    </originInfo>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >https://archive.org/details/dialogueavectryp01just/</url>
+                    </location>
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Chapters">
+                        <part>
+                            <detail type="chapter">
+                                <caption>Chapter</caption>
+                                <number>1-73</number>
                             </detail>
                         </part>
-                        <originInfo>
-                            <dateIssued>1909</dateIssued>
-                        </originInfo>
-                        <location>
-                            <url displayLabel="Open Content Alliance">https://archive.org/details/dialogueavectryp01just/</url>
-                        </location>
-                        <relatedItem type="constituent" otherType="structure" displayLabel="Chapters">
-                            <part>
-                                <detail type="chapter">
-                                    <caption>Chapter</caption>
-                                    <number>1-73</number>
-                                </detail>
-                            </part>
-                            <part>
-                                <extent unit="pages">
-                                    <start>1</start>
-                                    <end>359</end>
-                                </extent>
-                            </part>
-                            <location>
-                                <url>https://archive.org/details/dialogueavectryp01just/page/n113/mode/2up</url>
-                            </location>
-                        </relatedItem>
-                    </relatedItem>
-                    <relatedItem type="constituent" otherType="structure" displayLabel="Vol 2">
-                        <part type="volume">
-                            <detail type="volume">
-                                <caption>Volume</caption>
-                                <number>2</number>
-                            </detail>
+                        <part>
+                            <extent unit="pages">
+                                <start>1</start>
+                                <end>359</end>
+                            </extent>
                         </part>
-                        <originInfo>
-                            <dateIssued>1909</dateIssued>
-                        </originInfo>
                         <location>
-                            <url displayLabel="Open Content Alliance">https://archive.org/details/dialogueavectryp02just/</url>
+                            <url>https://archive.org/details/dialogueavectryp01just/page/n113/mode/2up</url>
                         </location>
-                        <relatedItem type="constituent" otherType="structure" displayLabel="Book">
-                            <part>
-                                <detail type="chapter">
-                                    <caption>Chapter</caption>
-                                    <number>74-142</number>
-                                </detail>
-                            </part>
-                            <part>
-                                <extent unit="pages">
-                                    <start>1</start>
-                                    <end>313</end>
-                                </extent>
-                            </part>
-                            <location>
-                                <url displayLabel="Open Content Alliance">https://archive.org/details/dialogueavectryp02just/page/2/mode/2up</url>
-                            </location>
-                        </relatedItem>
                     </relatedItem>
                 </relatedItem>
-            </relatedItem>                
+                <relatedItem type="constituent" otherType="structure" displayLabel="Vol 2">
+                    <part type="volume">
+                        <detail type="volume">
+                            <caption>Volume</caption>
+                            <number>2</number>
+                        </detail>
+                    </part>
+                    <originInfo>
+                        <dateIssued>1909</dateIssued>
+                    </originInfo>
+                    <location>
+                        <url displayLabel="Open Content Alliance"
+                            >https://archive.org/details/dialogueavectryp02just/</url>
+                    </location>
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Book">
+                        <part>
+                            <detail type="chapter">
+                                <caption>Chapter</caption>
+                                <number>74-142</number>
+                            </detail>
+                        </part>
+                        <part>
+                            <extent unit="pages">
+                                <start>1</start>
+                                <end>313</end>
+                            </extent>
+                        </part>
+                        <location>
+                            <url displayLabel="Open Content Alliance"
+                                >https://archive.org/details/dialogueavectryp02just/page/2/mode/2up</url>
+                        </location>
+                    </relatedItem>
+                </relatedItem>
+            </relatedItem>
+        </relatedItem>
     </mods>
     <mods displayLabel="Dialogus de Oratoribus-Tacitus-Gudeman-Teubner/Hakkert-1914 (1967 reprint)">
         <titleInfo lang="lat" type="uniform">
@@ -28709,9 +28718,8 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-
     <mods displayLabel="Epistulae-Horace-Fairclough-Loeb-1929-Perseus-Latin">
-        <!--Edition contails only one work used by Perseu -->
+        <!--Edition contails only one work used by Perseus -->
         <titleInfo>
             <title>Satires, Epistles and Ars poetica</title>
         </titleInfo>
@@ -30772,7 +30780,6 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-
     <mods displayLabel="Epodon-Horace-Vollmer-Teubner-1912-Perseus">
         <titleInfo>
             <title>Carmina</title>
@@ -30818,10 +30825,10 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/1307669</url>
         </location>
         <location>
-            <url displayLabel="GoogleBooks"> http://books.google.com/books?id=5ppGAAAAMAAJ</url>
+            <url displayLabel="GoogleBooks">http://books.google.com/books?id=5ppGAAAAMAAJ</url>
         </location>
         <location>
-            <url displayLabel="Open Content Alliance"> http://archive.org/details/carminah00horauoft
+            <url displayLabel="Open Content Alliance">http://archive.org/details/carminah00horauoft
             </url>
         </location>
         <location>
@@ -30834,14 +30841,14 @@ but this is where the TLG has left off for numbering-->
                 <identifier type="ctsurn">urn:cts:latinLit:phi0893.phi003.perseus-lat1</identifier>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Epodon">
-                <identifier type="ctsurn">urn:cts:latinLit:phi0893.phi002.perseus-lat2</identifier>
+                <identifier type="ctsurn">urn:cts:latinLit:phi0893.phi003.perseus-lat2</identifier>
                 <location>
                     <url displayLabel="Perseus Canonical Latin"
-                        >https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0893/phi002/phi0893.phi002.perseus-lat2.xml</url>
+                        >https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0893/phi003/phi0893.phi003.perseus-lat2.xml</url>
                 </location>
                 <location>
                     <url displayLabel="Scaife Viewer"
-                        >https://scaife.perseus.org/library/urn:cts:latinLit:phi0893.phi002.perseus-lat2/</url>
+                        >https://scaife.perseus.org/library/urn:cts:latinLit:phi0893.phi003.perseus-lat2/</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -37520,88 +37527,93 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-<mods displayLabel="Historia Ecclesiastica-Theodoret-Parmentier-Hinrichs-1911">
-    <titleInfo>
-        <title>Theodoret Kirchengeschichte</title>
-    </titleInfo>
-    <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
-        valueURI="http://viaf.org/viaf/77111352">
-        <namePart>Theodoretus</namePart>
-        <namePart type="termsOfAddress">Bishop of Cyrrhus</namePart>
-        <role>
-            <roleTerm type="text">creator</roleTerm>
-        </role>
-    </name>
-    <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
-        valueURI="http://viaf.org/viaf/69012059">
-        <namePart>Parmentier, Léon,</namePart>
-        <namePart type="date">1863-1929</namePart>
-        <role>
-            <roleTerm type="text">editor</roleTerm>
-        </role>
-    </name>
-    <name type="corporate">
-        <namePart>Deutsche Akademie der Wissenschaften zu Berlin.</namePart>
-        <namePart>Kirchenväter-Commission.</namePart>
-    </name>
-    <typeOfResource>text</typeOfResource>
-    <originInfo>
-        <place>
-            <placeTerm type="code" authority="marccountry">gw</placeTerm>
-        </place>
-        <issuance>monographic</issuance>
-        <place>
-            <placeTerm type="text">Leipzig</placeTerm>
-        </place>
-        <publisher>J.C. Hinrichs</publisher>
-        <dateIssued>1911</dateIssued>
-    </originInfo>
-    <language objectPart="notes">
-        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
-    </language>
-    <language objectPart="text">
-        <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
-    </language>
-    <physicalDescription>
-        <form authority="marcform">print</form>
-        <extent>cviii, 427 p. 25 cm.</extent>
-    </physicalDescription>
-    <note type="statement of responsibility">
+    <mods displayLabel="Historia Ecclesiastica-Theodoret-Parmentier-Hinrichs-1911">
+        <titleInfo>
+            <title>Theodoret Kirchengeschichte</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/77111352">
+            <namePart>Theodoretus</namePart>
+            <namePart type="termsOfAddress">Bishop of Cyrrhus</namePart>
+            <role>
+                <roleTerm type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/69012059">
+            <namePart>Parmentier, Léon,</namePart>
+            <namePart type="date">1863-1929</namePart>
+            <role>
+                <roleTerm type="text">editor</roleTerm>
+            </role>
+        </name>
+        <name type="corporate">
+            <namePart>Deutsche Akademie der Wissenschaften zu Berlin.</namePart>
+            <namePart>Kirchenväter-Commission.</namePart>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
+            </place>
+            <issuance>monographic</issuance>
+            <place>
+                <placeTerm type="text">Leipzig</placeTerm>
+            </place>
+            <publisher>J.C. Hinrichs</publisher>
+            <dateIssued>1911</dateIssued>
+        </originInfo>
+        <language objectPart="notes">
+            <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>cviii, 427 p. 25 cm.</extent>
+        </physicalDescription>
+        <note type="statement of responsibility">
         Hrsg. im Auftrage der Kirchenväter-Commission der Königl. preussischen Akademie der Wissenschaften, von Léon Parmentier.
     </note>
-    <classification authority="lcc">BR60 .G7 Bd. 19</classification>
-    <relatedItem type="series">
-        <titleInfo>
-            <title>
+        <classification authority="lcc">BR60 .G7 Bd. 19</classification>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>
                 Die griechischen christlichen Schriftsteller der ersten drei Jahrhunderte
             </title>
-            <partNumber>Bd. 19</partNumber>
-        </titleInfo>
-    </relatedItem>
-    <identifier type="lccn">11009050</identifier>
-    <identifier type="oclc">1003453</identifier>
-    <location>
-        <url displayLabel="Worldcat">https://www.worldcat.org/title/theodoret-kirchengeschichte/oclc/1003453</url>
-    </location>
-<location>
-    <url displayLabel="HathiTrust">https://hdl.handle.net/2027/njp.32101020919757</url>
-</location>
-    <location>
-        <url displayLabel="Open Content Alliance">https://archive.org/details/theodoretkirchen00theo</url>
-    </location>
-    <relatedItem type="constituent" otherType="work" displayLabel="Historia Ecclesiastica">
-        <identifier type="ctsurn">urn:cts:greekLit:tlg4089.tlg003</identifier>
-        <relatedItem type="constituent" otherType="expression" displayLabel="Historia Ecclesiastica">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg4089.tlg003.opp-grc1</identifier>
-            <location>
-                <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg4089.tlg003.opp-grc1</url>
-            </location>
-            <location>
-                <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/tlg0086/data/tlg4089/tlg003/tlg4089.tlg003.opp-grc1.xml</url>
-            </location>
+                <partNumber>Bd. 19</partNumber>
+            </titleInfo>
         </relatedItem>
-    </relatedItem>
-</mods>
+        <identifier type="lccn">11009050</identifier>
+        <identifier type="oclc">1003453</identifier>
+        <location>
+            <url displayLabel="Worldcat"
+                >https://www.worldcat.org/title/theodoret-kirchengeschichte/oclc/1003453</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/njp.32101020919757</url>
+        </location>
+        <location>
+            <url displayLabel="Open Content Alliance"
+                >https://archive.org/details/theodoretkirchen00theo</url>
+        </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="Historia Ecclesiastica">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg4089.tlg003</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Historia Ecclesiastica">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg4089.tlg003.opp-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg4089.tlg003.opp-grc1</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/tlg0086/data/tlg4089/tlg003/tlg4089.tlg003.opp-grc1.xml</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+    </mods>
     <mods displayLabel="Historia Nova-Zosimus-Mendelsohn-Teubner-1887">
         <titleInfo lang="lat" type="uniform">
             <title>Historia Nova</title>
@@ -39504,7 +39516,7 @@ but this is where the TLG has left off for numbering-->
                 <placeTerm type="text">Stutgardiae</placeTerm>
             </place>
             <publisher>Teubner</publisher>
-        <dateModified>1972</dateModified>
+            <dateModified>1972</dateModified>
             <dateIssued>1887</dateIssued>
             <edition>Ed. correctiorem</edition>
             <issuance>monographic</issuance>
@@ -45771,10 +45783,12 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression" displayLabel="Iliad">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0012.tlg001.perseus-eng3</identifier>
                 <location>
-                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0012.tlg001.perseus-eng3</url>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0012.tlg001.perseus-eng3</url>
                 </location>
                 <location>
-                    <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0012/tlg001/tlg0012.tlg001.perseus-eng3.xml</url>
+                    <url displayLabel="Perseus Canonical Greek"
+                        >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0012/tlg001/tlg0012.tlg001.perseus-eng3.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -45861,10 +45875,12 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression" displayLabel="Iliad">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0012.tlg001.perseus-eng4</identifier>
                 <location>
-                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0012.tlg001.perseus-eng4</url>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0012.tlg001.perseus-eng4</url>
                 </location>
                 <location>
-                    <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0012/tlg001/tlg0012.tlg001.perseus-eng4.xml</url>
+                    <url displayLabel="Perseus Canonical Greek"
+                        >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0012/tlg001/tlg0012.tlg001.perseus-eng4.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -46458,8 +46474,7 @@ but this is where the TLG has left off for numbering-->
                         >https://archive.org/details/commentariainari04akaduoft/page/n863/mode/2up?view=theater</url>
                 </location>
             </relatedItem>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="in Aristotelis
+            <relatedItem type="constituent" otherType="expression" displayLabel="in Aristotelis
                 Analyticorum Priorum librum I commentarium">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg4016.tlg004.opp-grc2</identifier>
                 <location>
@@ -46793,7 +46808,6 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/commentariainari04akaduoft</url>
         </location>
-
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=FTINAAAAYAAJ</url>
         </location>
@@ -47929,7 +47943,8 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="GoogleBooks">https://books.google.com/books?id=8IYOAAAAIAAJ</url>
         </location>
         <location>
-            <url displayLabel="Open Content Alliance">https://www.archive.org/details/commentariaina06pt12akaduoft</url>
+            <url displayLabel="Open Content Alliance"
+                >https://www.archive.org/details/commentariaina06pt12akaduoft</url>
         </location>
         <location>
             <url displayLabel="Worldcat">https://www.worldcat.org/oclc/28808737</url>
@@ -47949,7 +47964,7 @@ but this is where the TLG has left off for numbering-->
                         >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0417/tlg001/tlg0417.tlg001.opp-grc1.xml</url>
                 </location>
             </relatedItem>
-        </relatedItem>        
+        </relatedItem>
     </mods>
     <mods
         displayLabel="In Aristotetelis Meteorologicorum librum primum commentarium-Philoponus-CAG 14.1-Hayduck-1901">
@@ -48051,6 +48066,84 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="First1KGreek"
                         >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg4015/tlg005/tlg4015.tlg005.opp-grc1.xml</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods displayLabel="In Aristotelis Meteora Commentaria-Olympiodorus-Stuve-1900-First1K">
+        <titleInfo lang="lat" type="uniform">
+            <title>in Aristotelis Meteorologicorum libros commentaria</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/106969362/">
+            <namePart>Olympiodorus,</namePart>
+            <namePart type="termsOfAddress">the Younger, of Alexandria</namePart>
+            <namePart type="date">active 6th century</namePart>
+            <role>
+                <roleTerm type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/61697422">
+            <namePart>Stuve, Wilhelm</namePart>
+            <namePart type="date">1872-1921</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Berlin</placeTerm>
+            </place>
+            <publisher>typ. et impensis G. Reimeri</publisher>
+            <dateIssued>1900</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language objectPart="preface">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <physicalDescription>
+            <extent>1 volume</extent>
+        </physicalDescription>
+        <subject authority="lcsh">
+            <topic>Aristotle</topic>
+            <topic>Criticism and Interpretation</topic>
+        </subject>
+        <location>
+            <url displayLabel="Worldcat">https://www.worldcat.org/oclc/257430909</url>
+        </location>
+        <location displayLabel="Open Content Alliance">
+            <url>https://archive.org/details/commentariaina12pt12akaduoft/page/n195/mode/2up</url>
+        </location>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Commentaria in Aristotelem graeca</title>
+                <subTitle>Edita consilio et auctoritate Academiae litterarum regiae
+                    borussicae</subTitle>
+                <partNumber>Volume 12</partNumber>
+                <partName>Part 2</partName>
+            </titleInfo>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="work"
+            displayLabel="In Aristotelis meteora commentaria">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg4019.tlg003</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="In Aristotelis meteora commentaria">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg4019.tlg003.opp-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg4019.tlg003.opp-grc1</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg4019/tlg003/tlg4019.tlg003.opp-grc1.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -58057,7 +58150,7 @@ p -->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Odes-Carmen Saeculare-Horace-Conington-Bell-1882">
+    <mods displayLabel="Odes-Carmen Saeculare-Horace-Conington-Bell-1882=Perseus-English">
         <titleInfo>
             <nonSort>The</nonSort>
             <title>Odes and Carmen Saeculare of Horace</title>
@@ -58121,6 +58214,10 @@ p -->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
         </language>
+        <location>
+            <url displayLabel="HathiTrust" note="1892 printing"
+                >https://hdl.handle.net/2027/uc1.b4450528</url>
+        </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Carmina">
             <identifier type="ctsurn">urn:cts:latinLit:phi0893.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Odes">
@@ -58138,7 +58235,7 @@ p -->
                         >https://scaife.perseus.org/library/urn:cts:latinLit:phi0893.phi001.perseus-eng2/</url>
                 </location>
                 <location>
-                    <url displayLabel="Perseus Canonical Latin"
+                    <url displayLabel="Perseus Canonical Latin" note="English"
                         >https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0893/phi001/phi0893.phi001.perseus-eng2.xml</url>
                 </location>
             </relatedItem>
@@ -58553,7 +58650,7 @@ p -->
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
         <identifier type="lccn">19016044</identifier>
-        <identifier type="oclc">22584673</identifier>        
+        <identifier type="oclc">22584673</identifier>
         <physicalDescription>
             <form authority="marcform">print</form>
             <extent>2 v. front (port.) 17 cm.</extent>
@@ -58605,10 +58702,12 @@ p -->
             <relatedItem type="constituent" otherType="expression" displayLabel="Odyssey">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0012.tlg002.perseus-grc2</identifier>
                 <location>
-                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0012.tlg002.perseus-grc2</url>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0012.tlg002.perseus-grc2</url>
                 </location>
                 <location>
-                    <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0012/tlg002/tlg0012.tlg002.perseus-grc2.xml</url>
+                    <url displayLabel="Perseus Canonical Greek"
+                        >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0012/tlg002/tlg0012.tlg002.perseus-grc2.xml</url>
                 </location>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Odyssey">
@@ -58622,10 +58721,12 @@ p -->
             <relatedItem type="constituent" otherType="expression" displayLabel="Odyssey">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0012.tlg002.perseus-eng3</identifier>
                 <location>
-                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0012.tlg002.perseus-eng3</url>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0012.tlg002.perseus-eng3</url>
                 </location>
                 <location>
-                    <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0012/tlg002/tlg0012.tlg002.perseus-eng3.xml</url>
+                    <url displayLabel="Perseus Canonical Greek"
+                        >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0012/tlg002/tlg0012.tlg002.perseus-eng3.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -58692,7 +58793,7 @@ p -->
             <topic>Epic poetry, Greek</topic>
             <topic>Translations into English</topic>
         </subject>
-        <identifier type="oclc">7405645</identifier>        
+        <identifier type="oclc">7405645</identifier>
         <classification authority="lcc">PA4025.A2 B85</classification>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/7405645</url>
@@ -58713,9 +58814,10 @@ p -->
             </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Odyssey">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0012.tlg002.perseus-eng4</identifier>
-            <location>
-                <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0012.tlg002.perseus-eng4</url>
-            </location>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0012.tlg002.perseus-eng4</url>
+                </location>
                 <location>
                     <url displayLabel="Perseus Canonical Greek" note="English">
                         https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0012/tlg002/tlg0012.tlg002.perseus-eng4.xml
