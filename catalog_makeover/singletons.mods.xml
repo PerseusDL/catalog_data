@@ -37250,6 +37250,103 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
+    <mods displayLabel="Historia Ecclesiastic-Philostorgius-Bidez-1913">
+        <titleInfo>
+            <title>Kirchengeschichte</title>
+        </titleInfo>
+        <titleInfo type="uniform" lang="lat">
+            <title>Historia ecclesiastica</title>
+        </titleInfo>
+        <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/88747658">
+            <namePart>Philostorgius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/66536121">
+            <namePart>Bidez, Joseph</namePart>
+            <namePart type="date">1867-1945</namePart>
+            <role>
+                <roleTerm type="text">editor</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">ge</placeTerm>
+            </place>
+            <issuance>monographic</issuance>
+            <place>
+                <placeTerm type="text">Leipzig</placeTerm>
+            </place>
+            <publisher>J. C. Hinrichs</publisher>
+            <dateIssued>1913</dateIssued>
+        </originInfo>
+        <language objectPart="notes">
+            <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>cixviii, [2]. 340 p. diagrs. 25 cm.</extent>
+        </physicalDescription>
+        <note type="statement of responsibility">
+            mit dem leben des Lucian von Antiochien und den fragmenten eines arianischen historiographen,
+        </note>
+        <subject authority="lcsh">
+            <name type="personal">
+                <namePart>Lucian,</namePart>
+                <namePart type="termsOfAddress">of Antioch, Saint,</namePart>
+                <namePart type="date">-312</namePart>
+            </name>
+        </subject>
+        <subject authority="lcsh">
+            <topic>Church history</topic>
+            <temporal>Primitive and early church, ca. 30-600</temporal>
+        </subject>
+        <classification authority="lcc">BR60 .G7 Bd. 21</classification>
+        <identifier type="lccn">13012059</identifier>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Griechischen christlichen Schriftsteller der ersten drei Jahrhunderte</title>
+                <partNumber>21</partNumber>
+            </titleInfo>
+        </relatedItem>
+        <location>
+            <url displayLabel="Open Content Alliance">https://archive.org/details/kirchengeschicht21philuoft/page/n175/mode/2up</url>
+        </location>
+        <location>
+            <url displayLabel="Worldcat">https://www.worldcat.org/title/kirchengeschichte/oclc/614149230</url>
+        </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="Historia Ecclesiastica">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg2058.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historia Ecclesiastica">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2058.tlg001.opp-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>1</start>
+                        <end>150</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="Open Content Alliance">https://archive.org/details/kirchengeschicht21philuoft/page/n175/mode/2up</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Historia Ecclesiastica">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2058.tlg001.1st1K-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg2058.tlg001.1st1K-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg2058/tlg001/tlg2058.tlg001.1st1K-grc1.xml</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+    </mods>
     <mods displayLabel="Historia Ecclesiastica-Socrates Scholasticus-Hussey/Bright-Oxford-1893">
         <titleInfo>
             <title>Socrates' Ecclesiastical history</title>
@@ -37365,7 +37462,7 @@ but this is where the TLG has left off for numbering-->
         </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/64353232/">
-            <namePart>Hussey, Robert, </namePart>
+            <namePart>Hussey, Robert,</namePart>
             <namePart type="date">1801-1856</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
