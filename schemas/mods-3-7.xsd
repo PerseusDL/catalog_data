@@ -1369,7 +1369,6 @@ Choice two.	With <etal>.
 		<xs:complexType>
 			<xs:simpleContent>
 				<xs:extension base="stringPlusLanguage">
-					<xs:attribute ref="xml:space"/>
 				</xs:extension>
 			</xs:simpleContent>
 		</xs:complexType>
@@ -1460,7 +1459,6 @@ String Definitions
 -->
 	<xs:attributeGroup name="languageAttributeGroup">
 		<xs:attribute name="lang" type="xs:string"/>
-		<xs:attribute ref="xml:lang"/>
 		<xs:attribute name="script" type="xs:string"/>
 		<xs:attribute name="transliteration" type="xs:string"/>
 	</xs:attributeGroup>
