@@ -11917,12 +11917,11 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Tabula">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg1247.tlg001.1st1K-grc1</identifier>
-                <!-- Not yet in Scaife Viewer or Github yet
                     <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg1247.tlg001.1st1K-grc1</url>                                      
+                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg1247.tlg001.1st1K-grc1</url></location>                                      
                     <location>
                         <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/tlg1247/tlg001/tlg1247.tlg001.1st1K-grc1.xml</url>
-                    </location>   -->
+                    </location>   
             </relatedItem>
         </relatedItem>
     </mods>
@@ -17679,6 +17678,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
+    
     <mods displayLabel="De Generatione Animalium-Aristotle-Reimer-1829">
         <titleInfo>
             <title>Aristotelis De generatione animalium libri quinque</title>
@@ -17742,6 +17742,47 @@ but this is where the TLG has left off for numbering-->
                     <url displayLabel="HathiTrust">https://hdl.handle.net/2027/njp.32101073028480?urlappend=%3Bseq=7</url>
                 </location>
             </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods displayLabel="De Incredibilibus-Palaiphatos-Hawes-CHS-2021">
+        <titleInfo>
+            <title>De Incredibilibus</title>
+        </titleInfo>
+        <titleInfo type="translated" lang="eng">
+            <title>On Unbelievable Stories</title>
+        </titleInfo>              
+        <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100181721/">
+            <namePart>Palaephatus</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/310508091/">
+            <namePart>Hawes, Greta</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <publisher>Center for Hellenic Studies</publisher>
+            <place>
+                <placeTerm>Washington, D.C.</placeTerm>
+            </place>
+            <dateIssued>2021</dateIssued>
+        </originInfo>
+        <physicalDescription>
+            <digitalOrigin>born digital</digitalOrigin>
+        </physicalDescription>
+        <relatedItem type="constituent" otherType="expression" displayLabel="On Incredible Stories">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg1553.tlg001.1st1K-grc1</identifier>
+            <location>
+                <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg1553.tlg001.1st1K-grc1//</url>
+            </location>
+            <location>
+                <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg1553/tlg001/tlg1553.tlg001.1st1K-grc1.xml</url>
+            </location>
         </relatedItem>
     </mods>
     <mods displayLabel="De Inventione-Cicero-Stroebel-Teubner-1915-Perseus-Latin">
@@ -23605,7 +23646,7 @@ but this is where the TLG has left off for numbering-->
     <mods
         displayLabel="Deipnosophistae-Athenaeus-Teubner-Kaibel-1887-1890-OPP\Perseus-Greek2\Epidoc-Greek3">
         <titleInfo>
-            <title>Athenaei Navcratitae Dipnosophistarvm libri XV</title>
+            <title>Athenaei Naucratitae Dipnosophistarum libri XV</title>
         </titleInfo>
         <titleInfo type="uniform">
             <title>Deipnosophistae</title>
@@ -23678,7 +23719,7 @@ but this is where the TLG has left off for numbering-->
         <relatedItem type="constituent" otherType="work" displayLabel="Deipnosophistae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="Athenaei Naucratitae Dipnosophistarum libri XV">
+                displayLabel="Deipnosophistae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.perseus-grc2</identifier>
                 <identifier>Perseus:text:2013.01.0001</identifier>
                 <location>
@@ -23687,7 +23728,7 @@ but this is where the TLG has left off for numbering-->
                 </location>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="Athenaei Naucratitae Dipnosophistarum libri XV Epidoc Edition.">
+                displayLabel="Deipnosophistae (Epidoc Edition)">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.perseus-grc3</identifier>
                 <name authority="" type="personal">
                     <namePart>Franzini, Greta</namePart>
@@ -23709,9 +23750,12 @@ but this is where the TLG has left off for numbering-->
                     <url displayLabel="Perseus Canonical Greek"
                         >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0008/tlg001/tlg0008.tlg001.perseus-grc3.xml</url>
                 </location>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0008.tlg001.perseus-grc3</url>
+                </location>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="Athenaei Navcratitae Dipnosophistarvm libri XV">
+                displayLabel="Deipnosophistae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.opp-grc11</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part type="volume">
@@ -23895,7 +23939,7 @@ but this is where the TLG has left off for numbering-->
                 </location>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="Athenaei Naucratitae Dipnosophistarum libri XV Epidoc Edition.">
+                displayLabel="Deipnosophistae Epidoc Edition.">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.perseus-grc4</identifier>
                 <name authority="" type="personal">
                     <namePart>Franzini, Greta</namePart>
@@ -23916,6 +23960,17 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Perseus Canonical Greek"
                         >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0008/tlg001/tlg0008.tlg001.perseus-grc4.xml</url>
+                </location>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg0008.tlg001.perseus-grc4/</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Deipnosophists">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.perseus-eng3</identifier>
+                <location>
+                    <url displayLabel="Perseus Canonical Greek"
+                        >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0008/tlg001/tlg0008.tlg001.perseus-eng3.xml</url>
                 </location>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Deipnosophistae">
@@ -23940,6 +23995,9 @@ but this is where the TLG has left off for numbering-->
                         </part>
                     </relatedItem>
                     <tableOfContents>Book I-III to 106E</tableOfContents>
+                   <location>
+                       <url displayLabel="Open Content Alliance">https://archive.org/details/in.ernet.dli.2015.185290/</url>
+                   </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
                     <part type="volume">
@@ -23960,6 +24018,9 @@ but this is where the TLG has left off for numbering-->
                         </part>
                     </relatedItem>
                     <tableOfContents>Book III. from 106E-Book V</tableOfContents>
+                    <location>
+                        <url displayLabel="Open Content Alliance">https://archive.org/details/deipnosophists0002athe_v6d9/</url>
+                    </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
                     <part type="volume">
@@ -23971,6 +24032,9 @@ but this is where the TLG has left off for numbering-->
                     <originInfo>
                         <dateIssued>1929</dateIssued>
                     </originInfo>
+                    <location>
+                        <url displayLabel="Open Content Alliance">https://archive.org/details/deipnosophists0000athe</url>
+                    </location>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 5-7">
                         <part type="book">
                             <detail type="book">
@@ -23991,6 +24055,9 @@ but this is where the TLG has left off for numbering-->
                     <originInfo>
                         <dateIssued>1930</dateIssued>
                     </originInfo>
+                    <location>
+                        <url displayLabel="Open Content Alliance">https://archive.org/details/deipnosophists0004athe_h9i3/</url>
+                    </location>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Books 7-10">
                         <part type="book">
                             <detail type="book">
@@ -24011,6 +24078,9 @@ but this is where the TLG has left off for numbering-->
                     <originInfo>
                         <dateIssued>1933</dateIssued>
                     </originInfo>
+                    <location>
+                        <url displayLabel="Open Content Alliance">https://archive.org/details/deipnosophists0005athe</url>
+                    </location>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Books 11-12">
                         <part type="book">
                             <detail type="book">
@@ -24031,6 +24101,9 @@ but this is where the TLG has left off for numbering-->
                     <originInfo>
                         <dateIssued>1937</dateIssued>
                     </originInfo>
+                    <location>
+                        <url displayLabel="Volume 6">https://archive.org/details/deipnosophists0006athe</url>
+                    </location>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Books 13-14">
                         <part type="book">
                             <detail type="book">
@@ -24051,6 +24124,9 @@ but this is where the TLG has left off for numbering-->
                     <originInfo>
                         <dateIssued>1941</dateIssued>
                     </originInfo>
+                    <location>
+                        <url displayLabel="Open Content Alliance">https://archive.org/details/deipnosophists0007athe/</url>
+                    </location>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Books 14-5">
                         <part type="book">
                             <detail type="book">
@@ -24141,7 +24217,7 @@ but this is where the TLG has left off for numbering-->
                 </location>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="The Deipnosophists Epidoc Edition.">
+                displayLabel="The Deipnosophists Epidoc Edition">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0008.tlg001.perseus-eng2</identifier>
                 <name authority="" type="personal">
                     <namePart>Franzini, Greta</namePart>
@@ -24161,7 +24237,10 @@ but this is where the TLG has left off for numbering-->
                     <dateModified>2015</dateModified>
                 </originInfo>
                 <location>
-                    <url displayLabel="Perseus Canonical Greek"
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0008.tlg001.perseus-eng2</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Greek" note="English"
                         >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0008/tlg001/tlg0008.tlg001.perseus-eng2.xml</url>
                 </location>
             </relatedItem>
@@ -24183,6 +24262,9 @@ but this is where the TLG has left off for numbering-->
                         </part>
                     </relatedItem>
                     <tableOfContents>Book I-VI</tableOfContents>
+                    <location>
+                        <url displayLabel="Open Content Alliance">https://archive.org/details/deipnosophistsor01atheuoft</url>
+                    </location>
                     <location>
                         <url displayLabel="GoogleBooks"
                             >http://books.google.com/books?id=A0_lgVLT0lsC</url>
@@ -24748,7 +24830,7 @@ but this is where the TLG has left off for numbering-->
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
-                <placeTerm type="code" authority="marccountry">xx</placeTerm>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
             </place>
             <place>
                 <placeTerm type="text">Lipsiae</placeTerm>
@@ -24775,34 +24857,12 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="WorldCat">http://worldcat.org/oclc/16685758</url>
         </location>
-        <location>
-            <url displayLabel="GoogleBooks" note="Volume 1"
-                >http://books.google.com/books?id=mJQzAAAAMAAJ</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance" note="Volume 1">
-                https://archive.org/details/pausaniouhellado01paus
-            </url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks" note="Volume 2"
-                >http://books.google.com/books?id=j6VfAAAAMAAJ</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance" note="Volume 2">https://archive.org/details/pausaniouhellado02paus</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks" note="Volume 3"
-                >http://books.google.com/books?id=raVfAAAAMAAJ</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance" note="Volume 3"
-                >http://www.archive.org/details/helladosperieges03pausuoft</url>
-        </location>
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
-
+        <language objectPart="notes">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
         <subject>
             <geographicCode authority="marcgac">e-gr---</geographicCode>
         </subject>
@@ -24834,6 +24894,76 @@ but this is where the TLG has left off for numbering-->
                     <url displayLabel="Perseus Canonical Greek" note="Greek">https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/master/data/tlg0525/tlg001/tlg0525.tlg001.perseus-grc2.xml</url>
                 </location>
             </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Graeciae Descriptio">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0525.tlg001.ogl-grc2</identifier>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
+                    <part>
+                        <detail type="volume">
+                            <caption>Volume</caption>
+                            <number>1</number>
+                        </detail>
+                    </part>
+                    <part>
+                        <detail type="book">
+                            <caption>Book</caption>
+                            <number>I-IV</number>
+                        </detail>
+                    </part>
+                    <location>
+                        <url displayLabel="GoogleBooks" note="Volume 1"
+                            >http://books.google.com/books?id=mJQzAAAAMAAJ</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Open Content Alliance" note="Volume 1">
+                            https://archive.org/details/pausaniouhellado01paus
+                        </url>
+                    </location>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
+                    <part>
+                        <detail type="volume">
+                            <caption>Volume</caption>
+                            <number>2</number>
+                        </detail>
+                    </part>
+                    <part>
+                        <detail type="book">
+                            <caption>Book</caption>
+                            <number>5-8</number>
+                        </detail>
+                    </part>
+                    <location>
+                        <url displayLabel="GoogleBooks" note="Volume 2"
+                            >http://books.google.com/books?id=j6VfAAAAMAAJ</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Open Content Alliance" note="Volume 2">
+                            https://archive.org/details/pausaniouhellado02paus</url>
+                    </location>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="structure" displayLabel="Volume 3">
+                    <part>
+                        <detail type="volume">
+                            <caption>Volume</caption>
+                            <number>3</number>
+                        </detail>
+                    </part>
+                    <part>
+                        <detail type="book">
+                            <caption>Book</caption>
+                            <number>9-10</number>
+                        </detail>
+                    </part>
+                    <location>
+                        <url displayLabel="GoogleBooks" note="Volume 3"
+                            >http://books.google.com/books?id=raVfAAAAMAAJ</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Open Content Alliance" note="Volume 3"
+                            >http://www.archive.org/details/helladosperieges03pausuoft</url>
+                    </location>
+                </relatedItem>
+                </relatedItem>
         </relatedItem>
     </mods>
     <mods displayLabel="Dialogus cum Tryphone-Justinus Marytyr-Archembault-Picard-1909-First1K">
@@ -28327,7 +28457,7 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="Worldcat"
                 >https://www.worldcat.org/title/quae-exstant-omnia-edidit-ag-roos/oclc/888302602</url>
         </location>
-        <relatedItem type="constituent" otherType="volume" displayLabel="Vol 1">
+        <relatedItem type="constituent" otherType="volume" displayLabel="Vol 2">
             <part type="volume">
                 <detail type="volume">
                     <caption>Volume</caption>
@@ -31168,71 +31298,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Excerpta Περὶ παθῶν-Tryphon-Schneider-1894">
-        <titleInfo>
-            <title>Excerpta Περὶ παθῶν</title>
-        </titleInfo>
-        <name authority="vif" authorityURI="https://viaf.org/viaf/" type="personal"
-            valueURI="https://viaf.org/viaf/7191746">
-            <namePart>Tryphon,</namePart>
-            <namePart type="date">1st cent. B.C.</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" authorityURI="https://viaf.org/viaf/" type="personal"
-            valueURI="https://viaf.org/viaf/116371549/">
-            <namePart>Schneider, Richard</namePart>
-            <namePart type="date">b. 1835</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">gw</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text"/>
-            </place>
-            <publisher>Teubner</publisher>
-            <dateIssued>1895</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language objectPart="preface">
-            <languageTerm type="code">lat</languageTerm>
-        </language>
-        <language objectPart="text">
-            <languageTerm type="code">grc</languageTerm>
-        </language>
-        <subject authority="lcsh">
-            <topic>Greek Language, Hellenistic</topic>
-            <temporal>(300 B.C.-600 A.D.)</temporal>
-        </subject>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
-            </titleInfo>
-            <titleInfo type="abbreviated">
-                <title>Teubner</title>
-            </titleInfo>
-        </relatedItem>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/334747247</url>
-        </location>
-        <location>
-            <url displayLabel="GoogleBooks">http://books.google.com/books?id=Yw0oAAAAYAAJ</url>
-        </location>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/njp.32101065320549</url>
-        </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Περὶ παθῶν">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0609.tlg002</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Περὶ παθῶν">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0609.tlg002.opp-grc1</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
+    
     <mods displayLabel="Etymologiae-Isidorus-Lindsay-OCT-1911">
         <titleInfo>
             <title>Isidori Hispalensis Episcopi Etymologiarvm sive originvm libri XX</title>
@@ -31381,6 +31447,212 @@ but this is where the TLG has left off for numbering-->
                         <url displayLabel="SLUB">http://digital.slub-dresden.de/id415657539</url>
                     </location>
                 </relatedItem>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods displayLabel="Excerpta Vaticana-Anonymi Paradoxograhpi-Hawes-2004">
+        <titleInfo>
+            <title>Rationalizing myth in antiquity</title>
+        </titleInfo>
+        <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/310508091/">
+            <namePart>Hawes, Greta</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <genre authority="marcgt">bibliography</genre>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">enk</placeTerm>
+            </place>
+            <issuance>monographic</issuance>
+            <place>
+                <placeTerm type="text">Oxford</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">New York</placeTerm>
+            </place>
+            <publisher>Oxford University Press</publisher>
+            <dateIssued>2014</dateIssued>
+            <edition>First edition.</edition>
+        </originInfo>
+        <physicalDescription>
+            <digitalOrigin>digitized other analog</digitalOrigin>
+        </physicalDescription>
+        <language>
+            <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+        </language>
+        <location>
+            <url displayLabel="Worldcat">https://www.worldcat.org/title/rationalizing-myth-in-antiquity/oclc/1122929819</url>
+        </location>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>viii, 279 p. ; 23 cm</extent>
+        </physicalDescription>
+        <relatedItem type="constituent" otherType="work" displayLabel="Excerpta Vaticana">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg4037.tlg001</identifier>
+            <titleInfo>
+                <title>Excerpta Vaticana</title>
+            </titleInfo>
+            <relatedItem type="constituent" otherType="expression" displayLabel="De Incredibilibus">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg4037.tlg001.1st1K-eng1</identifier>
+            <location>                
+                <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg4037.tlg001.1st1K-eng1/</url>
+            </location>
+            <location>
+                <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg4037/tlg001/tlg4037.tlg001.1st1K-eng1.xml</url>
+            </location>
+            </relatedItem>
+        </relatedItem>        
+    </mods>
+    <mods displayLabel="Excerpta Περὶ παθῶν-Tryphon-Schneider-1894">
+        <titleInfo>
+            <title>Excerpta Περὶ παθῶν</title>
+        </titleInfo>
+        <name authority="vif" authorityURI="https://viaf.org/viaf/" type="personal"
+            valueURI="https://viaf.org/viaf/7191746">
+            <namePart>Tryphon,</namePart>
+            <namePart type="date">1st cent. B.C.</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" authorityURI="https://viaf.org/viaf/" type="personal"
+            valueURI="https://viaf.org/viaf/116371549/">
+            <namePart>Schneider, Richard</namePart>
+            <namePart type="date">b. 1835</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text"/>
+            </place>
+            <publisher>Teubner</publisher>
+            <dateIssued>1895</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language objectPart="preface">
+            <languageTerm type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code">grc</languageTerm>
+        </language>
+        <subject authority="lcsh">
+            <topic>Greek Language, Hellenistic</topic>
+            <temporal>(300 B.C.-600 A.D.)</temporal>
+        </subject>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
+            </titleInfo>
+            <titleInfo type="abbreviated">
+                <title>Teubner</title>
+            </titleInfo>
+        </relatedItem>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/334747247</url>
+        </location>
+        <location>
+            <url displayLabel="GoogleBooks">http://books.google.com/books?id=Yw0oAAAAYAAJ</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/njp.32101065320549</url>
+        </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="Περὶ παθῶν">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0609.tlg002</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Περὶ παθῶν">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0609.tlg002.opp-grc1</identifier>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods displayLabel="Exordia-Demosthenes-Clavaud-Les Belles Lettres-1974">
+        <titleInfo type="translated" lang="eng">
+            <title>Prologues</title>
+        </titleInfo>
+        <titleInfo type="uniform">
+            <title>Exordia</title>
+        </titleInfo>
+        <titleInfo type="alternative">
+            <title>Prooemia</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/268302412">
+            <namePart>Demosthenes</namePart>
+            <namePart type="date">384-322</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/61543914">
+            <namePart>Clavaud, Robert</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <genre authority="marcgt">bibliography</genre>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">fr</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Paris</placeTerm>
+            </place>
+            <publisher>Les Belles lettres</publisher>
+            <dateIssued>1974</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">fre</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>170, [54] p.; 20 cm</extent>
+            <digitalOrigin>digitized other analog</digitalOrigin>
+        </physicalDescription>
+        <note type="statement of responsibility" altRepGroup="00">Démosthène ; texte établi et
+            traduit par Robert Clavaud.</note>
+        <note>Greek text and French translation of Prooimia dēmēgorika; commentary in
+            French.</note>
+        <note>Pages [84]-137 numbered in duplicate.</note>
+        <note type="bibliography">Includes bibliographical references.</note>
+        <note>Greek text only.</note>
+        <subject authority="lcsh">
+            <name type="personal">
+                <namePart>Demosthenes</namePart>
+            </name>
+            <topic>Translations into French</topic>
+        </subject>
+        <classification authority="lcc">PA3951 .F8 1974</classification>
+        <classification authority="ddc">885/.01</classification>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Collection des universités de France</title>
+            </titleInfo>
+        </relatedItem>
+        <identifier type="lccn">75515130</identifier>
+        <identifier type="oclc">894760156</identifier>
+        <location>
+            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/894760156</url>
+        </location>
+        <location>
+            <url displayLabel="SLUB">http://digital.slub-dresden.de/id416057004</url>
+        </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="Exordia">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0014.tlg062</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Exordia">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0014.tlg062.opp-grc2</identifier>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -31640,90 +31912,8 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Exordia-Demosthenes-Clavaud-Les Belles Lettres-1974">
-        <titleInfo type="translated" lang="eng">
-            <title>Prologues</title>
-        </titleInfo>
-        <titleInfo type="uniform">
-            <title>Exordia</title>
-        </titleInfo>
-        <titleInfo type="alternative">
-            <title>Prooemia</title>
-        </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/268302412">
-            <namePart>Demosthenes</namePart>
-            <namePart type="date">384-322</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/61543914">
-            <namePart>Clavaud, Robert</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <genre authority="marcgt">bibliography</genre>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">fr</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Paris</placeTerm>
-            </place>
-            <publisher>Les Belles lettres</publisher>
-            <dateIssued>1974</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language objectPart="text">
-            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
-        </language>
-        <language objectPart="text">
-            <languageTerm type="code" authority="iso639-2b">fre</languageTerm>
-        </language>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>170, [54] p.; 20 cm</extent>
-            <digitalOrigin>digitized other analog</digitalOrigin>
-        </physicalDescription>
-        <note type="statement of responsibility" altRepGroup="00">Démosthène ; texte établi et
-            traduit par Robert Clavaud.</note>
-        <note>Greek text and French translation of Prooimia dēmēgorika; commentary in
-            French.</note>
-        <note>Pages [84]-137 numbered in duplicate.</note>
-        <note type="bibliography">Includes bibliographical references.</note>
-        <note>Greek text only.</note>
-        <subject authority="lcsh">
-            <name type="personal">
-                <namePart>Demosthenes</namePart>
-            </name>
-            <topic>Translations into French</topic>
-        </subject>
-        <classification authority="lcc">PA3951 .F8 1974</classification>
-        <classification authority="ddc">885/.01</classification>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Collection des universités de France</title>
-            </titleInfo>
-        </relatedItem>
-        <identifier type="lccn">75515130</identifier>
-        <identifier type="oclc">894760156</identifier>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/894760156</url>
-        </location>
-        <location>
-            <url displayLabel="SLUB">http://digital.slub-dresden.de/id416057004</url>
-        </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Exordia">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0014.tlg062</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Exordia">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0014.tlg062.opp-grc2</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
+    
+    
     <mods displayLabel="Fabulae-Phaedrus-Muller-Teubner-1903-Editio Stereotypis-Perseus">
         <titleInfo lang="lat" type="uniform">
             <title>Fabulae Aesopiae</title>
@@ -37320,95 +37510,7 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
     </mods>
 
-    <mods displayLabel="Historia Ecclesiastica-Gelasius-Loeschke-Hinrichs-1918">
-        <titleInfo type="uniform" lang="lat">
-            <title>Historia ecclesiastica</title>
-        </titleInfo>
-        <titleInfo type="translated" lang="ger">
-            <title>Gelasius Kirchengeschichte</title>
-        </titleInfo>
-        <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/89139709/">
-            <namePart>Gelasius of Cyzicus</namePart>
-            <namePart type="date">active 475</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">attributed author</roleTerm>
-            </role>
-        </name>
-        <name type="personal" authorityURI="https://viaf.org/viaf/" authority="viaf"
-            valueURI="http://viaf.org/viaf/10615927/">
-            <namePart>Loeschcke, Gerhard</namePart>
-            <namePart type="date">1880-1912</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="http://viaf.org/viaf/27453362">
-            <namePart>Heinemann, Margret</namePart>
-            <namePart type="date">1883-1968</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">gw</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Leipzig</placeTerm>
-            </place>
-            <publisher>J. C. Hinrichs</publisher>
-            <dateIssued>1918</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <language objectPart="preface">
-            <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
-        </language>
-        <language objectPart="text">
-            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
-        </language>
-        <note type="statement of responsibility" altRepGroup="00">hrsg. im Auftrage der
-            Kirchenväter-Commission der Köngl. Preussischen Akademie der Wissenschaften, auf Grund
-            der nachgelassenen Papiere von Gerhard Loeschcke, durch Margret Heinemann.</note>
-        <subject authority="lcsh">
-            <topic>Church history</topic>
-            <temporal>Primitive and early church, ca. 30-600</temporal>
-        </subject>
-        <classification authority="lcc">BR60 .G7 Bd. 28</classification>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Die griechischen christlichen Schriftsteller der ersten drei
-                    Jahrhunderte</title>
-                <partNumber>28</partNumber>
-            </titleInfo>
-        </relatedItem>
-        <identifier type="lccn">20023080</identifier>
-        <identifier type="oclc">781927375</identifier>
-        <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/781927375</url>
-        </location>
-        <location>
-            <url displayLabel="Open Content Alliance"
-                >https://archive.org/details/gelasiuskircheng28gelauoft</url>
-        </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Historia ecclesiastica">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg2768.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression"
-                displayLabel="Historia ecclesiastica">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg2768.tlg001.opp-grc1</identifier>
-                <location>
-                    <url displayLabel="First1KGreek"
-                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg2768/tlg001/tlg2768.tlg001.opp-grc1.xml</url>
-                </location>
-                <location>
-                    <url displayLabel="Scaife Viewer"
-                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg2768.tlg001.opp-grc1/</url>
-                </location>
-            </relatedItem>
-        </relatedItem>
-    </mods>
+    
     <mods displayLabel="Historia Ecclesiastic-Philostorgius-Bidez-1913">
         <titleInfo>
             <title>Kirchengeschichte</title>
