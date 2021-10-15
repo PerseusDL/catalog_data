@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2089.1</identifier>
+<mads  xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+        valueURI="https://viaf.org/viaf/78625557/">
 	        <namePart>Atilius Fortunatianus</namePart>
 	        <namePart type="date">active 4th century</namePart>
       </name>
@@ -10,15 +12,14 @@
     <variant type="other">
       <name type="personal">
 	        <namePart>Atilius Fortunatianus</namePart>
-	        <namePart type="date">4th cent</namePart>
       </name>
     </variant>
     <variant type="other">
       <name type="personal">
 	        <namePart>Fortunatianus, Atilius</namePart>
-	        <namePart type="date">active 4th century</namePart>
       </name>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2089.1</identifier>
     <note type="source">Caesius Bassus. Caesius Bassus, Atilius Fortunatianus, c1987</note>
     <note type="source">Ox. class. dict., 2nd ed. (Atilius Fortunatianus, 4th cent., metrician)</note>
     <note type="source">LC class. PA (Atilius Fortunatianus, 4th cent. C.E.)</note>

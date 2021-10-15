@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2088.1</identifier>
+<mads  xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/1167145857083122921697">
         <namePart>Audax</namePart>
         <namePart type="termsOfAddress">Grammaticus</namePart>
         <namePart type="date">5./6. Jht</namePart>
@@ -15,6 +17,7 @@
         <namePart type="date">5./6. Jht</namePart>
       </name>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2088.1</identifier>
     <fieldOfActivity>Grammarian</fieldOfActivity>
     <url displayLabel="VIAF">http://viaf.org/viaf/1167145857083122921697</url>
     <identifier type="uri">http://viaf.org/viaf/1167145857083122921697</identifier>
