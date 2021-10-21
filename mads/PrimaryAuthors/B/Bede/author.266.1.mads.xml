@@ -6,7 +6,8 @@
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
            version="2.0">
   <mads:authority>
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+          valueURI="http://viaf.org/viaf/61539765/">
          <mads:namePart>Bede</mads:namePart>
          <mads:namePart type="termsOfAddress">the Venerable, Saint</mads:namePart>
          <mads:namePart type="date">673-735</mads:namePart>
@@ -15,20 +16,17 @@
   <mads:variant lang="lat">
       <mads:name type="personal">
          <mads:namePart>Beda Venerabilis</mads:namePart>
-         <mads:namePart type="date">673-735</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Baeda Venerabilis</mads:namePart>
-         <mads:namePart type="date">673-735</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Bede</mads:namePart>
          <mads:namePart type="termsOfAddress">Saint</mads:namePart>
-         <mads:namePart type="date">673-735</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -40,18 +38,15 @@
   <mads:variant type="other" lang="ger">
       <mads:name type="personal">
          <mads:namePart>Beda</mads:namePart>
-         <mads:namePart type="termsOfAddress">der EhrwuÌ&#x88;rdige</mads:namePart>
-         <mads:namePart type="date">673-735</mads:namePart>
       </mads:name>
   </mads:variant>
-  <mads:note type="source">His Kirchengeschichte des englischen Volkes, 1982: t.p. (Beda der
-        EhrwuÌ&#x88;rdige)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.266.1</mads:identifier>
   <mads:identifier type="lccn">n 80039744 </mads:identifier>
   <mads:identifier type="stoa">stoa0054</mads:identifier>
   <mads:fieldOfActivity>Saint</mads:fieldOfActivity>
   <mads:fieldOfActivity>Hagiographer</mads:fieldOfActivity>
   <mads:fieldOfActivity>Theologian</mads:fieldOfActivity>
+    <mads:url displayLabel="VIAF">http://viaf.org/viaf/61539765/</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-n80-39744</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Bede</mads:url>
   <mads:url displayLabel="Catholic Encyclopedia">http://www.newadvent.org/cathen/02384a.htm</mads:url>

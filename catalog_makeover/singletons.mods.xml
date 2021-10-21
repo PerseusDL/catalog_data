@@ -16654,6 +16654,14 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Anicii Manlii Severini Boethii Philosophiae consolationis libri quinque">
                 <identifier type="ctsurn">urn:cts:latinLit:stoa0058.stoa001.opp-lat3</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:latinLit:stoa0058.stoa001.opp-lat3/</url>
+                </location>
+                <location>
+                    <url displayLabel="CSEL"
+                        >https://github.com/OpenGreekAndLatin/csel-dev/blob/master/data/stoa0058/stoa001/stoa0058.stoa001.opp-lat3.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -37119,6 +37127,84 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
+    <mods displayLabel="Historia Ecclesiastica-Bede-King-Cambridge-Perseus-English-Loeb-Unpublished">
+        <titleInfo lang="lat" type="uniform">
+            <title>Baedae Opera historica</title>
+            <partNumber>Volume 1</partNumber>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/61539765/">
+            <namePart>Bede</namePart>
+            <namePart type="termsOfAddress">the Venerable, Saint</namePart>
+            <namePart type="date">673-735</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/73940141/">
+            <namePart>King, John Edward</namePart>
+            <namePart type="date">1858-1939</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">enk</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">London</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Cambridge</placeTerm>
+            </place>
+            <publisher>William Heinemann Ltd; Harvard University Press</publisher>
+            <dateIssued>1930</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>1 v. 20 cm.</extent>
+        </physicalDescription>
+        <subject>
+            <geographicCode authority="marcgac">e-uk---</geographicCode>
+        </subject>
+        <subject authority="lcsh">
+            <geographic>Great Britain</geographic>
+            <topic>Church history</topic>
+        </subject>
+        <subject authority="lcsh">
+            <topic>Abbots</topic>
+        </subject>
+        <relatedItem type="constituent" otherType="series">
+            <titleInfo>
+                <title>Loeb Classical Library</title>
+            </titleInfo>
+        </relatedItem>
+        <location>
+            <url displayLabel="Open Content Alliance">https://archive.org/details/in.ernet.dli.2015.189090/</url>
+        </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="Historia Ecclesiastica">
+            <identifier type="ctsurn">urn:cts:latinLit:stoa0054.stoa006</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Ecclesiastical history of the English nation">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0054.stoa006.perseus-eng1</identifier>
+            <location>
+                <url displayLabel="Perseus Canonical Latin">https://github.com/PerseusDL/canonical-latinLit/blob/master/data/stoa0054/stoa006/stoa0054.stoa006.perseus-eng1.xml</url>
+            </location>
+        </relatedItem>
+        </relatedItem>        
+    </mods>
     <mods displayLabel="Historia Ecclesiastica-Bede-Plummer-OCT-Perseus-Latin">
         <titleInfo lang="lat" type="uniform">
             <title>Historia Ecclesiastica</title>
@@ -37212,7 +37298,6 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="GoogleBooks" note="Volume 2"
                 >http://books.google.com/books?id=_Q0z35cJ3JcC</url>
         </location>
-
         <relatedItem type="constituent" otherType="work" displayLabel="Historia Ecclesiastica">
             <identifier type="ctsurn">urn:cts:latinLit:stoa0054.stoa006</identifier>
             <relatedItem type="constituent" otherType="expression"
@@ -51355,6 +51440,28 @@ p -->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="In Porphyrii Isagogen commentarii">
                 <identifier type="ctsurn">urn:cts:latinLit:stoa0058.stoa007.opp-lat2</identifier>
+                <!-- First edition, pages 1-132 -->
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:latinLit:stoa0058.stoa007.opp-lat2/</url>
+                </location>
+                <location>
+                    <url displayLabel="CSEL"
+                        >https://github.com/OpenGreekAndLatin/csel-dev/blob/master/data/stoa0058/stoa007/stoa0058.stoa007.opp-lat2.xml</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="In Porphyrii Isagogen commentarii">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0058.stoa007.opp-lat3</identifier>
+                <!-- second edition pages 133-348 -->
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:latinLit:stoa0058.stoa007.opp-lat3/</url>
+                </location>
+                <location>
+                    <url displayLabel="CSEL"
+                        >https://github.com/OpenGreekAndLatin/csel-dev/blob/master/data/stoa0058/stoa007/stoa0058.stoa007.opp-lat3.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
