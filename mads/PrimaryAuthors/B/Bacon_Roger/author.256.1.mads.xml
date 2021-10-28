@@ -6,7 +6,8 @@
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
            version="2.0">
   <mads:authority>
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/120688673">
          <mads:namePart>Bacon, Roger</mads:namePart>
          <mads:namePart type="date">1214?-1294</mads:namePart>
       </mads:name>
@@ -14,25 +15,21 @@
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Baco, Roger</mads:namePart>
-         <mads:namePart type="date">1214?-1294</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
       <mads:name type="personal">
          <mads:namePart>Bacone, Ruggero</mads:namePart>
-         <mads:namePart type="date">1214?-1294</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Bacco, Rogerius</mads:namePart>
-         <mads:namePart type="date">1214?-1294</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
       <mads:name type="personal">
          <mads:namePart>Bachon, Roger</mads:namePart>
-         <mads:namePart type="date">1214?-1294</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:note type="source">His The 'Opus majus' ... 1897-1900</mads:note>
@@ -42,6 +39,7 @@
   <mads:identifier type="lccn">n 50019200 </mads:identifier>
   <mads:identifier type="stoa author">stoa0048b</mads:identifier>
   <mads:fieldOfActivity>Philosopher</mads:fieldOfActivity>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/120688673</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-n50-19200</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Roger_Bacon</mads:url>
   <mads:url>http://plato.stanford.edu/entries/roger-bacon/</mads:url>
