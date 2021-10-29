@@ -6,7 +6,8 @@
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
            version="2.0">
   <mads:authority>
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/198554257/">
          <mads:namePart>Bembo, Pietro</mads:namePart>
          <mads:namePart type="date">1470-1547</mads:namePart>
       </mads:name>
@@ -15,19 +16,16 @@
       <mads:name type="personal">
          <mads:namePart>Bembo, Pietro</mads:namePart>
          <mads:namePart type="termsOfAddress">Cardinal</mads:namePart>
-         <mads:namePart type="date">1470-1547</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
       <mads:name type="personal">
          <mads:namePart>Bembus, Petrus</mads:namePart>
-         <mads:namePart type="date">1470-1547</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Bembo</mads:namePart>
-         <mads:namePart type="date">1470-1547</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:note type="source">His Petri Bembi opuscula aliquot ... 1532: t.p. (Petri Bembi ...) p. 83
@@ -38,6 +36,7 @@
   <mads:identifier type="stoa author">stoa0054b</mads:identifier>
   <mads:fieldOfActivity>Cardinal</mads:fieldOfActivity>
   <mads:fieldOfActivity>Lyric Poet</mads:fieldOfActivity>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/198554257/</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-n50-78865</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Pietro_Bembo</mads:url>
   <mads:extension>
