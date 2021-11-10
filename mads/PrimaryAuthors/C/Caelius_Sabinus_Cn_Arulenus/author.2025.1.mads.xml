@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2025.1</identifier>
+<mads  xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+        valueURI="https://viaf.org/viaf/51583204/">
 	        <namePart>Caelius Sabinus, Cn. Arulenus</namePart>
 	        <namePart type="date">active 1st century</namePart>
       </name>
@@ -48,16 +50,25 @@
       </name>
     </variant>
     <fieldOfActivity>Jurist</fieldOfActivity>
+  <identifier type="citeurn">urn:cite:perseus:author.2025.1</identifier>  
     <note type="nonpublic">Not the same as: Sabinus, 1st cent. B.C./1st cent. A.D</note>
-    <note type="source">His Iurisprudentia, fragmenta, 1991: PHI CD ROM #5.3, Latin Canon, bibliographic screen (Cn. Arulenus Caelius Sabinus)</note>
-    <note type="source">Pauly-Wissowa: 5. Halbbd., col. 1272-1273; "Caelius", #36 (Cn. Arulenus Caelius Sabinus; Roman jurist, consul, 69 A.D.) 4. Halbbd., col. 1490, "Arulenus", #2 (Cn. Arulenus Caelius Sabinus)</note>
-    <note type="source">Lexikon der antiken Welt, 1965: p. 379 (Arulenus Caelius Sabinus, Cn.; known in legal sources only as Caelius Sabinus, consul, 69 A.D.)</note>
-    <note type="source">Harper's dict. of class. lit. and antiq., 1965: p. 244 (Caelius Sabinus; writer in the age of Vespasian, composed a treatise on the edicts of the curale aediles)</note>
-    <note type="source">Dict. of Greek and Roman biog. and mythology, 1967: v. 3, p. 688 (Sabinus, M. Caelius; consul, 69 A.D., wrote Ad edictum aedilium curalium; cited in the Digesta either as Caelius Sabinus, or Sabinus)</note>
+    <note type="source">His Iurisprudentia, fragmenta, 1991: PHI CD ROM #5.3, Latin Canon, bibliographic 
+      screen (Cn. Arulenus Caelius Sabinus)</note>
+    <note type="source">Pauly-Wissowa: 5. Halbbd., col. 1272-1273; "Caelius", #36 (Cn. Arulenus Caelius 
+      Sabinus, Roman jurist, consul, 69 A.D.) 4. Halbbd., col. 1490, "Arulenus", #2 (Cn. Arulenu
+      s Caelius Sabinus)</note>
+    <note type="source">Lexikon der antiken Welt, 1965: p. 379 (Arulenus Caelius Sabinus, Cn., 
+      known in legal sources only as Caelius Sabinus, consul, 69 A.D.)</note>
+    <note type="source">Harper's dict. of class. lit. and antiq., 1965: p. 244 (Caelius Sabinus, 
+      writer in the age of Vespasian, composed a treatise on the edicts of the curale aediles)</note>
+    <note type="source">Dict. of Greek and Roman biog. and mythology, 1967: v. 3, p. 688 (Sabinus,
+      M. Caelius; consul, 69 A.D., wrote Ad edictum aedilium curalium, cited in the Digesta either as 
+      Caelius Sabinus, or Sabinus)</note>
     <note type="notFound">Oxford class. dict</note>
     <identifier type="lccn">nr 95037302</identifier>
     <identifier type="phi">824</identifier>
     <url displayLabel="ID.gov">http://id.loc.gov/authorities/names/nr95037302</url>
+  <url displayLabel="VIAF">https://viaf.org/viaf/51583204/</url>
     <extension>
       <description>List of related work identifiers</description>
       <identifier type="phi">824.1</identifier>

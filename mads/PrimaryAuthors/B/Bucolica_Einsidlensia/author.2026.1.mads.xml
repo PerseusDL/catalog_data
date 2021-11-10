@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2026.1</identifier>
+<mads  xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name authority="viaf" type="corporate">
+      <name authority="viaf" type="corporate" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/183852674">
 	        <namePart>Bucolica Einsidlensia</namePart>
       </name>
-    </authority>  
-    <variant>
-      <mads:titleInfo xmlns:xlink="http://www.w3.org/1999/xlink"
-                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                      xmlns:mads="http://www.loc.gov/mads/v2"
-                      authority="naf">
-	        <mads:title>Bucolica Einsidlensia</mads:title>
-      </mads:titleInfo>
-    </variant>
+    </authority> 
     <variant type="other" lang="lat">
       <name>
 	        <namePart>Carmina Einsidlensia</namePart>
@@ -24,11 +18,14 @@
 	        <namePart>Einsiedeln Eclogues</namePart>
       </name>
     </variant>
-    <note type="source">Consolation à Livie , Elégies à Mécène, Bucoliques d'Einsiedeln, 1997: page 129 ff. (Carmina Einsidlensia, attributed to Calpurnius Siculus or Lucan, but not their work, the poems probably date to the 60s AD)</note>
+    <note type="source">Consolation à Livie , Elégies à Mécène, Bucoliques d'Einsiedeln, 1997:
+      page 129 ff. (Carmina Einsidlensia, attributed to Calpurnius Siculus or Lucan, but not their work, the poems probably date to the 60s AD)</note>
     <note type="source">Packard Humanities Institute, Classical Latin texts, via WWW, 8 July 2014 (Bucolica Einsidlensia)</note>
     <note type="source">Brill's new Pauly online, 8 July 2014 (Einsiedeln Eclogues, two bucolic poems in the Codex Einsidlensis, from the Neronian period)</note>
     <identifier type="lccn">no2014090886</identifier>
     <identifier type="phi">821</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2026.1</identifier>
+  
     <url displayLabel="VIAF">http://viaf.org/viaf/183852674/</url>
     <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Einsiedeln_Eclogues</url>
     <extension>

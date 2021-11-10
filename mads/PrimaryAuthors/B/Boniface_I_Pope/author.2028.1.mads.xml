@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2028.1</identifier>
-    <authority>
-      <name type="personal" authority="naf">
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">    <authority>
+    <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/13111908/">
 	        <namePart>Boniface</namePart>
 	        <namePart type="termsOfAddress">I, Pope</namePart>
 	        <namePart type="date">-422</namePart>
@@ -26,7 +27,8 @@
 	        <namePart type="termsOfAddress">I, Pope</namePart>
 	        <namePart type="date">d. 422</namePart>
       </name>
-    </variant>
+    </variant>  
+  <identifier type="citeurn">urn:cite:perseus:author.2028.1</identifier>  
     <note type="source">S. Bonifacii Papæ I. epistolæ, quibus aliorum nonnullæ intextæ, 1773</note>
     <note type="source">Catholic Encyclopedia www site, 1 Oct. 2007: Boniface I page (elected 28 Dec. 418, died 4 Sept. 422)</note>
     <identifier type="lccn">nb2007022341</identifier>
