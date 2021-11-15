@@ -66403,6 +66403,86 @@ p -->
             </relatedItem>
         </relatedItem>
     </mods>
+    <mods displayLabel="Scholia in Lucianuem-Rabe-Teubner-Leipzig-Teubner-1906">
+        <titleInfo>
+            <title>Scholia in Lucianum</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/44690899/">
+            <namePart>Rabe, Hugo,</namePart>
+            <namePart type="date">1867-1932</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">ge</placeTerm>
+            </place>
+            <issuance>monographic</issuance>
+            <place>
+                <placeTerm type="text">Lipsiae</placeTerm>
+            </place>
+            <publisher>in aedibvs B. G. Tevbneri</publisher>
+            <dateIssued>1906</dateIssued>
+        </originInfo>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+        </language>
+        <language objectPart="notes">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>x, [2], 336 p. 2 fold. facsim. 18 cm.</extent>
+        </physicalDescription>
+        <subject authority="lcsh">
+            <name type="personal">
+                <namePart>Lucian,</namePart>
+                <namePart type="termsOfAddress">of Samosata</namePart>
+            </name>
+            <topic>Scholia</topic>
+        </subject>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Bibliotheca scriptorum graecorum et romanorum Teubneriana</title>
+            </titleInfo>
+        </relatedItem>
+        <classification authority="lcc">PA3404 .L73 1906</classification>
+        <identifier type="lccn">06023143</identifier>
+        <identifier  type="oclc">727022837</identifier>
+        <location>
+            <url displayLabel="Worldcat">https://www.worldcat.org/title/scholia-in-lvcianvm/oclc/727022837</url>
+        </location>
+        <location>
+            <url displayLabel="Open Content Alliance">https://archive.org/details/scholiainlucianu00rabe</url>
+        </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="Scholia in Lucianum (scholia vetera et recentiora Arethae)">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg5029.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Scholia in Lucianum (scholia vetera et recentiora Arethae)">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg5029.tlg001.1st1K-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg5029.tlg001.1st1K-grc1</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg5029/tlg001/tlg5029.tlg001.1st1K-grc1.xml/</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Scholia in Lucianum (scholia vetera et recentiora Arethae)">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg5029.tlg001.opp-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>1</start>
+                        <end>285</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="Open Content Alliance">https://archive.org/details/scholiainlucianu00rabe/page/n13/mode/2up</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+    </mods>
     <mods displayLabel="Scholia in Thucydidem-Anonymous-Hude-Teubner-1927">
         <titleInfo>
             <title>Scholia in Thucydidem ad optimos codices collata</title>
