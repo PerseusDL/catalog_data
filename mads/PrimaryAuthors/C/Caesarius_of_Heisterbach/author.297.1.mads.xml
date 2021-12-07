@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/803256">
       <mads:namePart>Caesarius</mads:namePart>
       <mads:namePart type="termsOfAddress">of Heisterbach</mads:namePart>
       <mads:namePart type="date">ca. 1180-ca. 1240</mads:namePart>
@@ -9,31 +10,16 @@
   </mads:authority>
   <mads:variant type="other">
     <mads:name type="personal">
-      <mads:namePart>Ce&#x301;saire</mads:namePart>
+      <mads:namePart>Césaire</mads:namePart>
       <mads:namePart type="termsOfAddress">de Heisterbach</mads:namePart>
-      <mads:namePart type="date">ca. 1180-ca. 1240</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Heisterbach, Ce&#x301;saire de</mads:namePart>
-      <mads:namePart type="date">ca. 1180-ca. 1240</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>De Heisterbach, Ce&#x301;saire</mads:namePart>
-      <mads:namePart type="date">ca. 1180-ca. 1240</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:note type="source">Tuez-les tous, Dieu reconnai&#x302;tra les siens : le massacre de Be&#x301;ziers
-        (22 juillet 1209) et la croisade contre les Albigeois vus par Ce&#x301;saire de Heisterbach, c1994</mads:note>
   <mads:note type="source">LC data base, 08-27-95 (hdg.: Caesarius, of Heisterbach, ca. 1180-ca.
         1240)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.297.1</mads:identifier>
   <mads:identifier type="lccn">n 95085085</mads:identifier>
   <mads:fieldOfActivity>Hagiographer</mads:fieldOfActivity>
-  
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/803256</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Caesar_of_Heisterbach</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/np-caesarius%20of%20heisterbach</mads:url>
   <mads:url displayLabel="Catholic Encylopedia">http://www.newadvent.org/cathen/03137a.htm</mads:url>

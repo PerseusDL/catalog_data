@@ -3856,6 +3856,10 @@
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0074.tlg001</identifier>
                 <relatedItem type="constituent" otherType="expression" displayLabel="Anabasis">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0074.tlg001.perseus-grc1</identifier>
+                    <identifier>Perseus:text:2008.01.0530</identifier>
+                    <location>
+                        <url displayLabel="Perseus">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0530</url>
+                    </location>
                 </relatedItem>
             </relatedItem>
         </relatedItem>
@@ -12264,7 +12268,82 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-
+    <mods displayLabel="Chronicon Paschale-Dindorf-Corpus Scriptorum Historiae Byzantinae-Volume 16-1832">
+    <titleInfo>
+        <title>Chronichon Paschale</title>
+    </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/4973853/">
+            <namePart>Dindorf, Ludwig August</namePart>
+            <namePart type="date">1805-1871</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Bonn</placeTerm>
+            </place>
+            <publisher>Weber</publisher>
+            <dateIssued>1832</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <physicalDescription>
+            <extent>2 volumes</extent>
+        </physicalDescription>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Corpus Scriptorum Historiae Byzantinae</title>
+                <partNumber>Volume 16</partNumber>
+            </titleInfo>
+        </relatedItem>
+        <language objectPart="preface">
+            <languageTerm type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code">grc</languageTerm>
+        </language>
+        <location>
+            <url displayLabel="Worldcat">https://www.worldcat.org/oclc/490662102</url>
+        </location>        
+        <relatedItem type="constituent" otherType="volume" displayLabel="Vol 1">
+            <part type="volume">
+                <detail type="volume">
+                    <caption>Volume</caption>
+                    <number>1</number>
+                </detail>
+            </part>
+            <location>
+                <url displayLabel="HathiTrust">https://hdl.handle.net/2027/uva.x030353197</url>
+            </location>
+            <location>
+                <url displayLabel="GoogleBooks">https://books.google.com/books?vid=BCUL1094753840</url>
+            </location>
+            <relatedItem type="constituent" otherType="work" displayLabel="Chronichon Paschale">
+                <relatedItem type="constituent" otherType="expression" displayLabel="Chronichon Paschale">
+                    <identifier type="ctsurn">urn:cts:latinLit:tlg2371.tlg001.opp-grc1</identifier>
+                    <part>
+                        <extent unit="pages">
+                            <start>3</start>
+                            <end>731</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="HathiTrust">https://hdl.handle.net/2027/uva.x030353197?urlappend=%3Bseq=11%3Bownerid=27021597766005750-15</url>
+                    </location>
+                </relatedItem>
+                    <location>
+                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg2371.tlg001.opp-grc1/</url>
+                    </location>
+                    <location>
+                        <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg2371/tlg001/tlg2371.tlg001.opp-grc1.xml</url>
+                    </location>
+            </relatedItem>
+        </relatedItem>
+</mods>
     <mods displayLabel="Christus Patiens-Gregory Nazianzenus-Brambs-Teubner-1885">
         <titleInfo lang="lat" type="uniform">
             <title>Christus Patiens</title>
@@ -19120,7 +19199,7 @@ but this is where the TLG has left off for numbering-->
             displayLabel="De motu circulari corporum caelestium">
             <identifier type="ctsurn">urn:cts:greekLit:tlg1272.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="De motu circulari corporum caelestium">
+                displayLabel="Μετέωρα">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg1272.tlg001.opp-grc1</identifier>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression"
@@ -29298,8 +29377,14 @@ but this is where the TLG has left off for numbering-->
             displayLabel="Epistulae imperatorum pontificum aliorum">
             <identifier type="ctsurn">urn:cts:latinLit:stoa0045a.stoa001</identifier>
             <relatedItem type="constituent" otherType="expression"
-                displayLabel="Epistulae imperatorum pontificum aliorum ">
+                displayLabel="Epistulae imperatorum pontificum aliorum">
                 <identifier type="ctsurn">urn:cts:latinLit:stoa0045a.stoa001.opp-lat1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:latinLit:stoa0045a.stoa001.opp-lat1/</url>
+                </location>
+                <location>
+                    <url displayLabel="CSEL">https://github.com/OpenGreekAndLatin/csel-dev/blob/master/data/stoa0045a/stoa001/stoa0045a.stoa001.opp-lat1.xml</url>
+                </location>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part type="volume">
                         <detail type="volume">
@@ -29307,6 +29392,9 @@ but this is where the TLG has left off for numbering-->
                             <number>1</number>
                         </detail>
                     </part>
+                    <originInfo>
+                        <dateIssued>1895</dateIssued>
+                    </originInfo>
                     <relatedItem type="constituent" otherType="structure"
                         displayLabel="Epistulae 1-104">
                         <part>
@@ -29337,6 +29425,9 @@ but this is where the TLG has left off for numbering-->
                             <number>2</number>
                         </detail>
                     </part>
+                    <originInfo>
+                        <dateIssued>1898</dateIssued>
+                    </originInfo>
                     <relatedItem type="constituent" otherType="structure"
                         displayLabel="Epistulae 105-243">
                         <part>
