@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-  <identifier type="citeurn">urn:cite:perseus:author.2040.1</identifier>
+<mads   xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
   <authority>
-    <name type="personal" authority="naf">
+    <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/39766506">
       <namePart>Candidus Arianus</namePart>
     </name>
   </authority>
@@ -12,6 +14,7 @@
       <namePart type="termsOfAddress">Arrianus</namePart>
     </name>
   </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2040.1</identifier>
   <fieldOfActivity>Theologian</fieldOfActivity>
   <identifier type="stoa">stoa0075a</identifier>
   <url displayLabel="viaf">http://viaf.org/viaf/39766506</url>
