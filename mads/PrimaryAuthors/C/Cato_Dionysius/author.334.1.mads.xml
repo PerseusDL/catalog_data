@@ -1,15 +1,11 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/49256470/">
       <mads:namePart>Cato, Dionysius</mads:namePart>
     </mads:name>
   </mads:authority>
-  <mads:variant type="other" lang="ger">
-    <mads:name type="personal" authority="Brill">
-      <mads:namePart/>
-    </mads:name>
-  </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal" authority="">
       <mads:namePart>Caton, Denys</mads:namePart>
@@ -17,12 +13,12 @@
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal" authority="">
-      <mads:namePart>Caton, Dionysius&#x200F;</mads:namePart>
+      <mads:namePart>Caton, Dionysius</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal" authority="">
-      <mads:namePart>Katon, Dionysius&#x200F;</mads:namePart>
+      <mads:namePart>Katon, Dionysius</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="abbreviation">
@@ -30,14 +26,16 @@
       <mads:namePart>Dion. Cato</mads:namePart>
     </mads:name>
   </mads:variant>
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 1, 1867, p. 634: "Cato, Dionysius,
+    We possess a small volume which commonly bears the title "Dionysii Catonis Disticha de Moribus ad Filium....In truth, we
+    know nothing about this Cato or Dionysius Cato, if he is to be so called...."</mads:note>
   <mads:note type="source">nuc90-60951: His Disticha moralia ... [MI] 1577 (hdg. on GmC rept.:
         Cato, Dionysius)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.334.1</mads:identifier>
   <mads:identifier type="lccn">n 90698934 </mads:identifier>
   <mads:fieldOfActivity>Moralist</mads:fieldOfActivity>
   <mads:fieldOfActivity>Ethicist</mads:fieldOfActivity>
-  
-  
+  <mads:url displayLabel="VIAF">http://viaf.org/viaf/49256470/</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Dionysius_Cato</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-n90-698934</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0001.001;didno=ACL3129.0001.001;view=image;seq=00000649</mads:url>

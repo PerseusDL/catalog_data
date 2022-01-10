@@ -34567,6 +34567,87 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
         <!-- Have not as yet created record of CTS URN for work of Hirtius encompassed within the Perseus edition -->
     </mods>
+    <mods displayLabel="Generalis elementaria introductio-Eusebius-Gaisford-Oxford-1842">
+       <titleInfo>
+           <title>Generalis elementaria introductio</title>
+       </titleInfo>
+        <titleInfo type="alternative">
+            <title>Eclogae propheticae</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/4929593/">
+            <namePart>Eusebius</namePart>
+            <namePart type="termsOfAddress">of Caesarea, Bishop of Caesarea</namePart>
+            <namePart type="date">ca. 260-ca. 340</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/51742598">
+            <namePart>Gaisford, Thomas,</namePart>
+            <namePart type="date">1779-1855</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">enk</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Oxford</placeTerm>
+            </place>
+            <publisher>E Typographeo Academico</publisher>
+            <dateIssued>1842</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <physicalDescription>
+            <digitalOrigin>digitized other analog</digitalOrigin>
+        </physicalDescription>
+        <note type="statement of responsibility">e codice manuscripto Bibliothecæ Cæsareæ Vindobonensis nunc primum edidit Thomas Gaisford.</note>
+        <language objectPart="notes">
+            <languageTerm type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code">grc</languageTerm>
+        </language>
+        <identifier type="oclc">55546190</identifier>
+        <location>
+            <url displayLabel="Worldcat">https://www.worldcat.org/oclc/55546190</url>
+        </location>
+        <location>
+            <url displayLabel="Open Content Alliance">https://archive.org/details/eusebiuseclogaepropheticae/page/n6/mode/1up</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/hvd.hwm3fm</url>
+        </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="Generalis elementaria introductio (= Eclogae propheticae)">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg2018.tlg023</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Generalis elementaria introductio (= Eclogae propheticae)">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2018.tlg023.1st1K-grc1</identifier>
+                <!-- URN not yet online -->
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg2018/tlg023/tlg2018.tlg023.1st1K-grc1.xml</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Generalis elementaria introductio (= Eclogae propheticae)">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2018.tlg023.opp-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>1</start>
+                        <end>236</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="Open Content Alliance">https://archive.org/details/eusebiuseclogaepropheticae/page/n6/mode/1up</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+    </mods>
     <mods displayLabel="Gallic War-Caesar-Shuckburgh-Cambridge-1912 (1953 reprint)">
         <titleInfo lang="eng" type="uniform">
             <title>Gallic War</title>
