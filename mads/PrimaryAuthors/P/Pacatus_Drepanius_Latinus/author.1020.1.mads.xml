@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  version="2.0"
+  xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/47559379">
       <mads:namePart>Pacatus Drepanius, Latinus</mads:namePart>
       <mads:namePart type="date">4th cent</mads:namePart>
     </mads:name>
@@ -37,7 +41,6 @@
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Drepanius, Latinus P</mads:namePart>
-      <mads:namePart type="date">fl.um 395 n. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
@@ -49,14 +52,12 @@
     <mads:name type="personal">
       <mads:namePart>Latinius Drepanius</mads:namePart>
       <mads:namePart type="termsOfAddress">Pacatus</mads:namePart>
-      <mads:namePart type="date">fl.um 395 n. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Latinius Pacatus</mads:namePart>
       <mads:namePart type="termsOfAddress">Drepanius</mads:namePart>
-      <mads:namePart type="date">fl.um 395 n. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
@@ -67,7 +68,6 @@
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Latinus Pacatus Drepanius</mads:namePart>
-      <mads:namePart type="date">fl.um 395 n. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
@@ -78,13 +78,11 @@
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Pacatus Drepanius Latinus</mads:namePart>
-      <mads:namePart type="date">fl.um 395 n. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Pacatus Drepanius, Latinius</mads:namePart>
-      <mads:namePart type="date">fl.um 395 n. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
@@ -95,61 +93,56 @@
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Pacatus, Latinus Drepanius</mads:namePart>
-      <mads:namePart type="date">4th cent</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Pacatus, Latinus</mads:namePart>
-      <mads:namePart type="date">fl.um 395 n. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Pacatus</mads:namePart>
       <mads:namePart type="termsOfAddress">Aquitanus</mads:namePart>
-      <mads:namePart type="date">fl.um 395 n. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Pacatus</mads:namePart>
       <mads:namePart type="termsOfAddress">Burdigalensis</mads:namePart>
-      <mads:namePart type="date">fl.um 395 n. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Pacatus</mads:namePart>
       <mads:namePart type="termsOfAddress">Gallus</mads:namePart>
-      <mads:namePart type="date">fl.um 395 n. Chr</mads:namePart>
+
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Pacatus</mads:namePart>
       <mads:namePart type="termsOfAddress">Latinus</mads:namePart>
-      <mads:namePart type="date">fl.um 395 n. Chr</mads:namePart>
+
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Pacatus</mads:namePart>
       <mads:namePart type="termsOfAddress">Panegyrist</mads:namePart>
-      <mads:namePart type="date">fl.um 395 n. Chr</mads:namePart>
+
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Pacatus</mads:namePart>
       <mads:namePart type="termsOfAddress">Rhetor</mads:namePart>
-      <mads:namePart type="date">fl.um 395 n. Chr</mads:namePart>
+
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Pacatus</mads:namePart>
-      <mads:namePart type="date">fl.um 395 n. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="abbreviation">
@@ -157,13 +150,22 @@
       <mads:namePart>Pacat.</mads:namePart>
     </mads:name>
   </mads:variant>
+  <mads:note type="source">Brill's New Pauly: "Latinus P. Drepanius, a rhetor from the region 
+    around Bordeaux, lived in the 4th/5th cents. AD and in 390 attained the proconsulship of Africa.
+    He was a friend of Ausonius and Symmachus, presumably also of Paulinus [5] of Nola. In 389 P. held 
+    a panegyric on the emperor Theodosius I. In this there was an especially striking accumulation of
+    exempla from the Roman tradition with which P. probably wanted to do justice to the dignity of the
+    res publica..." from Günther, Linda-Marie (Munich). "Pacatus." Brill's New Pauly. Antiquity volumes 
+    edited by: Hubert Cancik and Helmuth Schneider . Brill, 2011. Brill Online. Tufts University Library. 
+    29 July 2011</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1020.1</mads:identifier>
   <mads:identifier type="uri">http://viaf.org/viaf/47559379</mads:identifier>
   <mads:fieldOfActivity>Orator</mads:fieldOfActivity>
   <mads:fieldOfActivity>Panegyrist</mads:fieldOfActivity>
-  
+  <mads:url displayLabel="VIAF">http://viaf.org/viaf/47559379</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Pacatus_Drepanius</mads:url>
-  <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-n88-49138</mads:url>
+  <mads:url displayLabel="Worldcat Identities"
+    >http://www.worldcat.org/wcidentities/lccn-n88-49138</mads:url>
   <mads:url displayLabel="Smith's Dictionary"/>
   <mads:identifier type="stoa author">stoa0217a</mads:identifier>
   <mads:extension>
