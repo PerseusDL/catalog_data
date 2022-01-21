@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2052.1</identifier>
+<mads  xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority lang="lat">
-      <name type="personal">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/79068858">
         <namePart>Cetius Faventinus, Marcus</namePart>
       </name>
     </authority>
-    <variant type="equivalent" lang="lat">
+    <related type="equivalent" lang="lat">
       <name type="personal">
         <namePart>Cetius, Marcus</namePart>
         <namePart type="date">ca. 3./4. Jh</namePart>
       </name>
-    </variant>
-    <variant type="equivalent" lang="lat">
+    </related>
+    <related type="equivalent" lang="lat">
       <name type="personal">
         <namePart>Marcus Cetius Faventinus</namePart>
         <namePart type="termsOfAddress">römischer Fachschriftsteller</namePart>
       </name>
-    </variant>
+    </related>
     <variant type="other" lang="ita">
       <name type="personal">
         <namePart>Cetio Faventino, M</namePart>
@@ -67,8 +69,14 @@
         <namePart type="date">činný 3. století-4. století</namePart>
       </name>
     </variant>
-    <note type="source">Brill's New Pauly: "Cetius Faventinus, M., C.' liber artis architectonicae (name and title not ascertained until 1871/1879): a vulgarized, individual adaptation of Vitruvius on domestic architecture, survives in MSS of Vitruvius. If it came down via Gargilius Martialis [1], then it belongs in the middle or [2] at the end of the 3rd cent. AD; C. is quoted in Palladius and in Isidorus of Seville....." Sallmann, Klaus (Mainz), “Cetius Faventinus, M.”, in: Brill’s New Pauly, Antiquity volumes edited by: Hubert Cancik and , Helmuth Schneider. Consulted online on 21 August 2017</note>
+    <note type="source">Brill's New Pauly: "Cetius Faventinus, M., C.' liber artis architectonicae 
+      (name and title not ascertained until 1871/1879): a vulgarized, individual adaptation of Vitruvius 
+      on domestic architecture, survives in MSS of Vitruvius. If it came down via Gargilius Martialis [1],
+      then it belongs in the middle or [2] at the end of the 3rd cent. AD; C. is quoted in Palladius and 
+      in Isidorus of Seville....." Sallmann, Klaus (Mainz), “Cetius Faventinus, M.”, in: Brill’s New Pauly
+      , Antiquity volumes edited by: Hubert Cancik and , Helmuth Schneider. Consulted online on 21 August 2017</note>
     <fieldOfActivity>Architectural Author</fieldOfActivity>
+  <identifier type="citeurn">urn:cite:perseus:author.2052.1</identifier>
     <url displayLabel="VIAF">http://viaf.org/viaf/79068858</url>
     <identifier type="uri">http://viaf.org/viaf/79068858</identifier>
     <identifier type="stoa">stoa0085a</identifier>

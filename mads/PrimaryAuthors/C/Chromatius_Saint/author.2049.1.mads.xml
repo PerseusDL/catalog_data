@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2049.1</identifier>
+<mads  xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/100161952/">
 	        <namePart>Chromatius</namePart>
 	        <namePart type="termsOfAddress">Saint</namePart>
 	        <namePart type="date">-407</namePart>
@@ -52,11 +54,13 @@
     <note type="source">New Cath. encyc., 2003 (Chromatius of Aquileia, St., 4th cent. bishop and spiritual director, d. 407)</note>
     <note type="source">Holweck (Chromatius, Bp. of Aquileja, ca. 387-407)</note>
     <note type="source">Dict. of Cath. biog., 1961 (Chromatius, St., d. 407?; bishop, probably a native of Aquileia)</note>
-    <note type="source">Smith's Dictionary: "Chromatius, Latin writer and bishop of Aquileia, flourished at the close of the fourth century and the commencement of the fifth..."</note>
+    <note type="source">Smith's Dictionary: "Chromatius, Latin writer and bishop of Aquileia, flourished at the close of the 
+      fourth century and the commencement of the fifth..."</note>
     <identifier type="lccn">n 80045045</identifier>
     <identifier type="stoa">stoa0086a</identifier>
     <fieldOfActivity>Bishop</fieldOfActivity>
     <fieldOfActivity>Theologian</fieldOfActivity>
+  <identifier type="citeurn">urn:cite:perseus:author.2049.1</identifier>
     <url displayLabel="viaf">http://viaf.org/viaf/100161952/</url>
     <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Chromatius</url>
     <url displayLabel="WorldCat Identities">https://www.worldcat.org/identities/lccn-n80045045/</url>

@@ -33330,6 +33330,9 @@ but this is where the TLG has left off for numbering-->
                     <edition>Epidoc Edition</edition>
                 </originInfo>
                 <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:latinLit:phi0959.phi007.perseus-lat2</url>
+                </location>
+                <location>
                     <url displayLabel="Perseus Canonical Latin"
                         >https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0959/phi007/phi0959.phi007.perseus-lat2.xml</url>
                 </location>
@@ -56217,7 +56220,7 @@ p -->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Metamporphoses-Ovid-More-Cornhill-1922-Perseus-English-1">
+    <mods displayLabel="Metamporphoses-Ovid-More-Cornhill-1922-Perseus-English-1/3">
         <titleInfo lang="eng" type="uniform">
             <title>Metamorphoses</title>
         </titleInfo>
@@ -56259,7 +56262,7 @@ p -->
         </language>
         <physicalDescription>
             <form authority="marcform">print</form>
-            <extent>2 v. ; 20 cm.</extent>
+            <extent></extent>
         </physicalDescription>
         <note type="statement of responsibility">tr. into English blank verse by Brookes More...
             with a foreword by Frederic Alllison Tupper</note>
@@ -56279,6 +56282,12 @@ p -->
         <identifier type="lccn">22012850</identifier>
         <identifier type="oclc">24965574</identifier>
         <classification authority="lcc">PA6522.M2 M6</classification>
+        <location>
+           <url displayLabel="Worldcat">http://worldcat.org/oclc/24965574</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/nnc2.ark:/13960/t6058km66</url>
+        </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Metamorphoses">
             <identifier type="ctsurn">urn:cts:latinLit:phi0959.phi006</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Metamorphoses">
@@ -56289,9 +56298,20 @@ p -->
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0028</url>
                 </location>
             </relatedItem>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Metamorphoses">
+                <identifier type="ctsurn">urn:cts:latinLit:phi0959.phi006.perseus-eng3</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:latinLit:phi0959.phi006.perseus-eng3</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Latin"
+                        >https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0959/phi006/phi0959.phi006.perseus-eng3.xml</url>
+                </location>
+            </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Metamorphoses-Ovid-Golding/Seres-1567-Perseus-English-2">
+    <mods displayLabel="Metamorphoses-Ovid-Golding/Seres-1567-Perseus-English-2/4">
         <titleInfo lang="eng" type="uniform">
             <title>Metamorphoses</title>
         </titleInfo>
@@ -56367,6 +56387,9 @@ p -->
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/15050230</url>
         </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/uiuc.5310857</url>
+        </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Metamorphoses">
             <identifier type="ctsurn">urn:cts:latinLit:phi0959.phi006</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Metamorphoses">
@@ -56375,6 +56398,16 @@ p -->
                 <location>
                     <url displayLabel="Perseus" note="English"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0074</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Metamorphoses">
+                <identifier type="ctsurn">urn:cts:latinLit:phi0959.phi006.perseus-eng4</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:latinLit:phi0959.phi006.perseus-eng4</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Latin"
+                        >https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0959/phi006/phi0959.phi006.perseus-eng4.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -56416,7 +56449,7 @@ p -->
                 <placeTerm type="text">Gotha</placeTerm>
             </place>
             <publisher>F.A. Perthes</publisher>
-            <dateIssued>1892</dateIssued>
+            <dateIssued>1892-?</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
         <language objectPart="text">
@@ -56425,6 +56458,7 @@ p -->
         <physicalDescription>
             <form authority="marcform">print</form>
             <extent> 4 v. ; 21 cm.</extent>
+            <digitalOrigin>digitized other analog</digitalOrigin>
         </physicalDescription>
         <note type="statement of responsibility"/>
         <subject authority="lcsh">
@@ -56439,6 +56473,14 @@ p -->
             <topic>Mythology</topic>
             <genre>Poetry</genre>
         </subject>
+        <tableOfContents> 	1. Bdch. Buch I-V. 
+            2. Bdch. Buch VI-X. 2 Aufl.  --
+            3. Bdch. Buch XI-XV. 2. Aufl. . --</tableOfContents>
+       <relatedItem type="series">
+           <titleInfo>
+               <title>Schulausgaben griechischer und lateinischer Klassiker</title>
+           </titleInfo>
+       </relatedItem>
         <classification authority="lcc">PA6522.M2 M6</classification>
         <identifier type="oclc">32116154</identifier>
         <location>
@@ -56468,6 +56510,9 @@ p -->
                     <dateModified>2015</dateModified>
                     <edition>Epidoc Edition</edition>
                 </originInfo>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:latinLit:phi0959.phi006.perseus-lat2</url>
+                </location>
                 <location>
                     <url displayLabel="Perseus Canonical Latin"
                         >https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0959/phi006/phi0959.phi006.perseus-lat2.xml</url>
@@ -63596,6 +63641,9 @@ p -->
         <identifier type="oclc">45983415</identifier>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/45983415</url>
+        </location>
+        <location>
+            <url displayLabel="Open Content Alliance">https://archive.org/stream/iamblichiprotrep00jamb</url>
         </location>
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=UzUhAAAAMAAJ</url>
