@@ -63399,7 +63399,109 @@ p -->
             </relatedItem>
         </relatedItem>
     </mods>
-
+    <mods  displayLabel="Problemata-Aristotle-Ruelle-Teubner-1922-1st1K">
+        <titleInfo>
+            <title>Aristotelis quae feruntur Problemata physica</title>
+        </titleInfo>
+         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/7524651/">
+            <namePart>Aristotle</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/9887353/">
+            <namePart>Ruelle, Charles-Émile,</namePart>
+            <namePart type="date">1833-1912</namePart>
+            <role>
+                <roleTerm type="text">joint editor</roleTerm>
+            </role>
+        </name>
+        <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/69677212">
+            <namePart>Knoellinger, Hermann,</namePart>
+            <namePart type="date">1883-1914</namePart>
+            <role>
+                <roleTerm type="text">joint editor</roleTerm>
+            </role>
+        </name>
+        <name type="personal" authority="http://viaf.org/viaf/55220912">
+            <namePart>Klek, Joseph,</namePart>
+            <namePart type="date">1895-1971</namePart>
+            <role>
+                <roleTerm type="text">reviser</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
+            </place>
+            <issuance>monographic</issuance>
+            <place>
+                <placeTerm type="text">Lipsiae</placeTerm>
+            </place>
+            <publisher>in aedibus B. G. Teubneri</publisher>
+            <dateIssued>1922</dateIssued>
+        </originInfo>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+        </language>
+        <language objectPart="notes">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>xv, 317 pages 18 cm.</extent>
+        </physicalDescription>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
+            </titleInfo>
+            <titleInfo type="abbreviated">
+                <title>Teubner</title>
+            </titleInfo>
+        </relatedItem>
+        <classification authority="lcc">PA3404.A8 Z2 1922</classification>
+        <identifier type="lccn">22024115</identifier>
+        <identifier type="oclc">9202064</identifier>
+        <note type="statement of responsibility">edidit Carolus Aemilius Ruelle, recognovit Hermannus Knoellinger, 
+            editionem post utriusque mortem curavit praefatione ornavit Iosephus Klek.</note>
+        <location>
+            <url displayLabel="Worldcat">https://www.worldcat.org/oclc/9202064</url>
+        </location>
+        <location>
+            <url displayLabel="HathiTrust">https://hdl.handle.net/2027/uc1.b3922302</url>
+        </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="Problemata">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg036</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Problemata">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg036.opp-grc2</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>1</start>
+                        <end></end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust"
+                        >https://hdl.handle.net/2027/uc1.b3922302?urlappend=%3Bseq=24%3Bownerid=9007199256347748-28</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Αριστοτέλους φυσικά προβλήματα κατ᾿ εἶδος συναγώγης">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg036.1st1K-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg0086.tlg036.1st1K-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0086/tlg036/tlg0086.tlg036.1st1K-grc1.xml</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+    </mods>
     <mods displayLabel="Prometheus Bound-Aeschylus-Wecklein-1891 (1981 reprint)">
         <titleInfo lang="eng" type="uniform">
             <title>Prometheus Bound</title>

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2074.1</identifier>
+<mads   xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/267405622">
 	        <namePart>Damasus</namePart>
 	        <namePart type="termsOfAddress">I, Pope</namePart>
 	        <namePart type="date">305-384</namePart>
@@ -65,6 +67,7 @@
     <fieldOfActivity>Pope</fieldOfActivity>
     <fieldOfActivity>Theologian</fieldOfActivity>
     <fieldOfActivity>Poet</fieldOfActivity>
+  <identifier type="citeurn">urn:cite:perseus:author.2074.1</identifier>
     <url displayLabel="viaf">http://viaf.org/viaf/267405622</url>
     <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Pope_Damasus_I</url>
     <url displayLabel="WorldCat Identities">https://www.worldcat.org/identities/lccn-n85257304/</url>
