@@ -1,43 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2178.1</identifier>
+<mads  xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="viaf">
+      <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+        valueURI="https://viaf.org/viaf/24990700">
         <namePart>Petellidas</namePart>
         <namePart type="termsOfAddress">Creticus</namePart>
-        <namePart type="date">ca. 1.Jh.v.Chr</namePart>
       </name>
     </authority>
-    <variant type="other" lang="grc">
-      <name type="personal" authority="Brill">
-        <namePart/>
-      </name>
-    </variant>
     <variant type="other">
       <name type="personal">
         <namePart>Petellidas</namePart>
         <namePart type="termsOfAddress">Historicus</namePart>
-        <namePart type="date">ca. 1.Jh.v.Chr</namePart>
       </name>
     </variant>
     <variant type="other" lang="lat">
       <name type="personal">
         <namePart>Petellides</namePart>
         <namePart type="termsOfAddress">Cnossius</namePart>
-        <namePart type="date">ca. 1.Jh.v.Chr</namePart>
       </name>
     </variant>
     <variant type="other" lang="ger">
       <name type="personal">
         <namePart>Petellidas</namePart>
         <namePart type="termsOfAddress">von Knossos</namePart>
-        <namePart type="date">ca. 1.Jh.v.Chr</namePart>
       </name>
     </variant>
     <fieldOfActivity>Historian</fieldOfActivity>
     <identifier type="tlg">2323</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2178.1</identifier>
     <url displayLabel="VIAF">http://viaf.org/viaf/24990700</url>
-    <identifier type="uri">http://viaf.org/viaf/24990700</identifier>
+    <identifier type="uri">http://viaf.org/viaf/24990700</identifier>  
     <extension>
       <description>List of related work identifiers</description>
       <identifier type="tlg">2323.001</identifier>

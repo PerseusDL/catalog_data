@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/alisonbabeu/catalog_data/schemas/mods-3-7.xsd" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mods version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+        <titleInfo>
+            <title>Fragmenta philosophorum graecorum</title>
+        </titleInfo>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm authority="marccountry" type="code">fr</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Parisiis</placeTerm>
+            </place>
+            <dateIssued>1860-1881</dateIssued>
+            <dateIssued encoding="marc" point="start">1860</dateIssued>
+            <dateIssued encoding="marc" point="end">1881</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language>
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <language>
+            <languageTerm authority="iso639-2b" type="code">gre</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>3 v. 26 cm.</extent>
+        </physicalDescription>
+        <note>Latin and Greek.</note>
+        <classification authority="lcc">PA3401.B5 A4</classification>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>
+                    Bibliotheca scriptorum graecorum ... [v. 56] [from old catalog]
+                </title>
+            </titleInfo>
+        </relatedItem>
+        <identifier type="lccn">tmp92003885</identifier>
+        <recordInfo>
+            <recordContentSource authority="marcorg">DLC</recordContentSource>
+            <recordCreationDate encoding="marc">970604</recordCreationDate>
+            <recordChangeDate encoding="iso8601">00000000000000.0</recordChangeDate>
+            <recordIdentifier>6783467</recordIdentifier>
+            <recordOrigin>
+                Converted from MARCXML to MODS version 3.6 using MARC21slim2MODS3-6.xsl (Revision 1.119 2018/06/21)
+            </recordOrigin>
+        </recordInfo>
+    </mods>
+</modsCollection>

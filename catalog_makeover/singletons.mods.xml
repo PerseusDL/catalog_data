@@ -17902,10 +17902,9 @@ but this is where the TLG has left off for numbering-->
             <identifier type="ctsurn">urn:cts:greekLit:tlg2035.tlg002</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="De Incarnatione">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg2035.tlg002.1st1K-grc1</identifier>
-                <!-- Not published yet
                 <location>
-                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/</url>
-                </location> -->
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg2035.tlg002.1st1K-grc1</url>
+                </location> 
                 <location>
                     <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg2035/tlg002/tlg2035.tlg002.1st1K-grc1.xml</url>
                 </location>
@@ -17922,8 +17921,46 @@ but this is where the TLG has left off for numbering-->
                     <url displayLabel="Google Books">https://books.google.de/books?id=5sIUAAAAQAAJ&amp;hl=de&amp;pg=PA1</url>
                 </location>
             </relatedItem>
+        </relatedItem>        
+    </mods>
+    <mods displayLabel="De Incredibilibus-Heraclitus-Hawes-CHS-2021">
+        <titleInfo>
+            <title>De Incredibilibus</title>
+        </titleInfo>
+        <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/204998794/">
+            <namePart>Heraclitus</namePart>
+            <namePart type="termsOfAddress">Paradoxographus</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/310508091/">
+            <namePart>Hawes, Greta</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <publisher>Center for Hellenic Studies</publisher>
+            <place>
+                <placeTerm>Washington, D.C.</placeTerm>
+            </place>
+            <dateIssued>2021</dateIssued>
+        </originInfo>
+        <physicalDescription>
+            <digitalOrigin>born digital</digitalOrigin>
+        </physicalDescription>
+        <relatedItem type="constituent" otherType="expression" displayLabel="On Incredible Stories">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg1413.tlg001.1st1K-eng1</identifier>
+            <location>
+                <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg1413.tlg001.1st1K-eng1/</url>
+            </location>
+            <location>
+                <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg1413/tlg001/tlg1413.tlg001.1st1K-eng1.xml</url>
+            </location>
         </relatedItem>
-        
     </mods>
     <mods displayLabel="De Incredibilibus-Palaiphatos-Hawes-CHS-2021">
         <titleInfo>
@@ -32474,7 +32511,9 @@ but this is where the TLG has left off for numbering-->
     <mods displayLabel="Fabulae-Phaedrus-Riley/Smart-Bohn-Perseus-English">
         <!-- Did not catalog Terence works as edition used for single work of Phaedrus -->
         <titleInfo>
-            <title>Comedies of Terence and the fables of Phaedrus</title>
+            <nonSort>The</nonSort>
+            <title>Comedies of Terence</title>
+            <subTitle>and the fables of Phaedrus</subTitle>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/66462384/">
@@ -32548,7 +32587,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Fabulae-Phaedrus-Muller-1876-Perseus-Latin">
+    <mods displayLabel="Fabulae-Phaedrus-Muller-1876-Perseus-Latin-1/2">
         <titleInfo lang="lat" type="uniform">
             <title>Fabulae Aesopiae</title>
         </titleInfo>
@@ -32620,6 +32659,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=bakNAAAAIAAJ</url>
         </location>
+        <location>
+            <url displayLabel="Open Content Alliance">https://archive.org/details/PhaedriFabularumAesopiarumMueller1877</url>
+        </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Fabulae">
             <identifier type="ctsurn">urn:cts:latinLit:phi0975.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Fabulae">
@@ -32628,6 +32670,15 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Perseus" note="Latin"
                         >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.02.0118</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Fabulae">
+                <identifier type="ctsurn">urn:cts:latinLit:phi0975.phi001.perseus-lat2</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:latinLit:phi0975.phi001.perseus-lat2</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Latin">https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0975/phi001/phi0975.phi001.perseus-lat2.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
