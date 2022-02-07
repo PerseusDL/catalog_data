@@ -61202,10 +61202,132 @@ p -->
             </relatedItem>
         </relatedItem>
     </mods>
+    <mods displayLabel="Oratio ad Graecs-Tatianus-Otto-Mauke-1851">
+        <titleInfo>
+            <title>Oratio ad Graecos</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/78777213">
+            <namePart>Tatian</namePart>
+            <namePart type="date">approximately 120-173</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/416334/">
+            <namePart>Otto, Johann Karl Theodor von</namePart>
+            <namePart type="date">1816-1897</namePart>
+            <role>
+                <roleTerm type="text">editor</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">xx</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Ienae</placeTerm>
+            </place>
+            <publisher>prostat apud F. Mauke</publisher>
+            <dateIssued>1851</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language objectPart="notes">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>  
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">grc</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm type="code" authority="iso639-2b">lat</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>1 online resource (xl, 202 pages) 2 facsimile</extent>
+        </physicalDescription>
+        <subject authority="lcsh">
+            <topic>Apologetics</topic>
+            <genre>Early works to 1800</genre>
+        </subject>
+        <subject authority="lcsh">
+            <topic>Theology</topic>
+            <genre>Early works to 1800</genre>
+        </subject>
+        <note type="statement of responsbiility">Ad optimos libros mss. partim denuo collatos recensuit, 
+            scholiis parisinis nunc primum integris ornavit, prolegomenis adnotatione versione instruxit, indices adiecit Ioann. Carol. Theod. Otto ... Cum speciminibus duorum codicum parisinorum.</note>
+        <identifier type="oclc">866889444</identifier>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Corpus apologetarum Christianorum saeculi secundi</title>
+                <partNumber>Volume 6</partNumber>
+            </titleInfo>
+        </relatedItem>
+        <location>
+            <url displayLabel="Worldcat">https://www.worldcat.org//oclc/866889444</url>
+        </location>
+        <location>
+            <url displayLabel="GoogleBooks">https://books.google.de/books/about/Oratio_ad_Graecos.html?id=057kZUS5h14C</url>
+        </location>
+       <location>
+           <url displayLabel="HathiTrust">https://hdl.handle.net/2027/hvd.32044038324505?urlappend=%3Bseq=6%3Bownerid=7679296-10</url>
+       </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="Oratio ad Graecos">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg1766.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Oratio ad Graecos">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1766.tlg001.perseus-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg1766.tlg001.perseus-grc1</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg1766/tlg001/tlg1766.tlg001.perseus-grc1.xml</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Oratio ad Graecos">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1766.tlg001.opp-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>2</start>
+                        <end>162</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust">https://hdl.handle.net/2027/hvd.32044038324505?urlappend=%3Bseq=50%3Bownerid=7680518-54</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Oratio ad Graecos">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1766.tlg001.opp-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>3</start>
+                        <end>163</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="HathiTrust">https://hdl.handle.net/2027/hvd.32044038324505?urlappend=%3Bseq=50%3Bownerid=7680518-54</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+    </mods>
     <mods displayLabel="Orationes in L. Catilinam-Cicero-Maslowski-Saur-2003">
         <titleInfo lang="eng" type="translated">
             <title>Against Catiline</title>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/78769600/">
+            <namePart>Cicero, Marcus Tullius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/24627587/">
+            <namePart>Maslowski, Tadeusz</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <part>
             <extent unit="words">
                 <total>12866</total>
@@ -61214,8 +61336,6 @@ p -->
         <titleInfo>
             <title>Orationes in L. Catilinam quattuor</title>
         </titleInfo>
-        <identifier type="oclc">52809215</identifier>
-        <identifier type="Perseus:abo">Perseus:abo:phi,0474,013 </identifier>
         <typeOfResource>text</typeOfResource>
         <genre authority="marc">bibliography</genre>
         <originInfo>
@@ -61233,6 +61353,8 @@ p -->
             <form authority="marcform">print</form>
             <extent>108 p. ; 21 c.m.</extent>
         </physicalDescription>
+        <identifier type="oclc">52809215</identifier>
+        <identifier type="Perseus:abo">Perseus:abo:phi,0474,013 </identifier>
         <note type="statement of responsibility">recensuit Tadeusz Maslowski.</note>
         <note>Includes bibliographical references and indexes.</note>
         <classification authority="lcc">PA6104</classification>
@@ -61265,20 +61387,6 @@ p -->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/78769600/">
-            <namePart>Cicero, Marcus Tullius</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/24627587/">
-            <namePart>Maslowski, Tadeusz</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
         <subject authority="lcsh">
             <topic>Speeches, addresses, etc., Latin</topic>
         </subject>
