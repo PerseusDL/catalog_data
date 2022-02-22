@@ -6,7 +6,8 @@
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
            version="2.0">
   <mads:authority>
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+          valueURI="http://viaf.org/viaf/17218101">
          <mads:namePart>Egeria</mads:namePart>
          <mads:namePart type="date">4th/5th cent</mads:namePart>
       </mads:name>
@@ -86,6 +87,20 @@
         an anon. and incomplete account of her travels written in Latin by a nun from Western Europe
         near the end of the 4th cent., now generally identified with a Spanish nun called Etheria
         (Aetheria, Egeria, Eucheria))</mads:note>
+    <mads:note type="source">    Brill's New Pauly: "Peregrinatio ad loca sancta" "Report by
+        an educated Christian pilgrim about her religiously motivated journey into the Holy Land
+        (Itinerare C.) and and about the liturgy as practised in Jerusalem (Liturgy II.) towards 
+        the end of the 4th cent. AD (probably 381-384 [4
+        2. 21-29]). The only MS of the text (Codex Arretinus, 11th cent.), being incomplete in 
+        places, does not reveal the author. Her name has become known principally via a letter
+        of the Galician monk Valerius of Bierzo († 691): Egeria (other interpretations: Aetheria,
+        Etheria, Eucheria). There is some evidence that the author was a member of a female monastic
+        community in NW Spain (or the South of France) [2. 13-21]. She wrote for her fellow sisters
+        in a colloquial late Latin that was strongly influenced by the Old Latin Bible..." Feulner,
+        Hans-Jürgen (Tübingen). "Peregrinatio ad loca sancta." Brill's New Pauly. Antiquity volumes
+        edited by: Hubert Cancik and Helmuth Schneider . Brill, 2009. Brill Online. Tufts University Library
+        Author info:
+        Wikip</mads:note>
   <mads:note type="source">Hodoiporiko, 1989: t.p. (Aitheria)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.544.1</mads:identifier>
   <mads:identifier type="lccn">n 84128374 </mads:identifier>
@@ -93,19 +108,13 @@
   <mads:fieldOfActivity>Nun</mads:fieldOfActivity>
   <mads:fieldOfActivity>Pilgrim</mads:fieldOfActivity>
   <mads:fieldOfActivity>Travel Writer</mads:fieldOfActivity>
-  
-  <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Egeria_(pilgrim)</mads:url>
+    <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Egeria_(pilgrim)</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-n84-128374</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://viaf.org/viaf/17218101/</mads:url>
   <mads:identifier type="stoa author">stoa0111</mads:identifier>
   <mads:extension>
       <mads:description>List of related work identifiers</mads:description>
       <mads:identifier type="stoa author-text">stoa0111-stoa001</mads:identifier>
-  </mads:extension>
-  <mads:extension>
-      <mads:gender>
-         <mads:genderTerm>female</mads:genderTerm>
-      </mads:gender>
   </mads:extension>
   <mads:recordInfo>
       <mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource>

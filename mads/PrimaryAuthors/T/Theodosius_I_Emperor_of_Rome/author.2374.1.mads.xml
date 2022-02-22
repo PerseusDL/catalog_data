@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2374.1</identifier>
+<mads   xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/31978444">
 	        <namePart>Theodosius</namePart>
 	        <namePart type="termsOfAddress">I, Emperor of Rome</namePart>
 	        <namePart type="date">347-395</namePart>
@@ -12,23 +14,21 @@
       <name type="personal">
 	        <namePart>Theodosius</namePart>
 	        <namePart type="termsOfAddress">the Great</namePart>
-	        <namePart type="date">347-395</namePart>
       </name>
     </variant>
     <variant type="other">
       <name type="personal">
 	        <namePart>Flavius Theodosius</namePart>
 	        <namePart type="termsOfAddress">Emperor of Rome</namePart>
-	        <namePart type="date">347-395</namePart>
       </name>
     </variant>
     <variant type="other">
       <name type="personal">
 	        <namePart>Theodosius</namePart>
 	        <namePart type="termsOfAddress">I, the Great, Emperor of Rome</namePart>
-	        <namePart type="date">346?-395</namePart>
       </name>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2374.1</identifier>  
     <note type="source">Encyc. Brit. (Theodosius I the Great, b. 1/11/347, d. 1/17/395)</note>
     <note type="source">Collier's Encyc., index (Theodosius I, Roman emperor)</note>
     <note type="source">Encyc. Amer. (Theodosius I (347-395), called the Great)</note>
