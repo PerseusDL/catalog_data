@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2024.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf"
+        valueURI="http://viaf.org/viaf/2857704">
         <namePart>Clodianus</namePart>
         <namePart type="termsOfAddress">Grammaticus</namePart>
         <namePart type="date">4. Jh</namePart>
@@ -19,6 +21,7 @@
     <identifier type="stoa">stoa0091b</identifier>
     <url displayLabel="VIAF">http://viaf.org/viaf/2857704</url>
     <identifier type="uri">http://viaf.org/viaf/2857704</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2024.1</identifier>
     <extension>
       <description>List of related work identifiers</description>
       <identifier type="stoa author-text">stoa0091b-stoa001</identifier>
