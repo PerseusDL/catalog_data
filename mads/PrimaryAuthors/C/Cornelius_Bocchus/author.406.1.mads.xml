@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/74242024/">
       <mads:namePart>Cornelius Bocchus, Lucius</mads:namePart>
       <mads:namePart type="date">1. Jh. v. Chr./1. Jh. n. Chr</mads:namePart>
     </mads:name>
@@ -9,7 +9,6 @@
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Bocchus, Lucius Cornelius</mads:namePart>
-      <mads:namePart type="date">1. Jh. v. Chr./1. Jh. n. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -21,11 +20,11 @@
   </mads:variant>
   <mads:note type="history">De admirandis Hispaniae</mads:note>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  
-  
+  <mads:note type="source">Brill's New Pauly: "Mentioned by Pliny the Elder as the source
+    for parts of his Naturalis historia (Plin. HN 16,216
+    37,24,97, 127)..."</mads:note>  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Cornelius_Bocchus</mads:url>
-  <mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|102385734</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/74242024/</mads:url>
   <mads:identifier type="citeurn">urn:cite:perseus:author.406.1</mads:identifier>
   <mads:identifier type="stoa author">stoa0099b</mads:identifier>
   <mads:extension>

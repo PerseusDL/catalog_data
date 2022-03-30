@@ -25662,7 +25662,7 @@ but this is where the TLG has left off for numbering-->
                         <url displayLabel="Open Content Alliance"
                             >https://archive.org/details/dialogueavectryp01just/</url>
                     </location>
-                    <relatedItem type="constituent" otherType="structure" displayLabel="Chapters">
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Chapters 1-73">
                         <part>
                             <detail type="chapter">
                                 <caption>Chapter</caption>
@@ -25694,7 +25694,7 @@ but this is where the TLG has left off for numbering-->
                         <url displayLabel="Open Content Alliance"
                             >https://archive.org/details/dialogueavectryp02just/</url>
                     </location>
-                    <relatedItem type="constituent" otherType="structure" displayLabel="Book">
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Chapter 74-142">
                         <part>
                             <detail type="chapter">
                                 <caption>Chapter</caption>
@@ -59266,7 +59266,7 @@ p -->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Noctes Atticae-Aulus Gellius-Hosius-Teubner-1967 (1903 reprint)">
+    <mods displayLabel="Noctes Atticae-Aulus Gellius-Hosius-Teubner-1903 (1967 reprint)">
         <titleInfo lang="lat" type="uniform">
             <title>Noctes Atticae</title>
         </titleInfo>
@@ -59321,7 +59321,6 @@ p -->
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
         </language>
-
         <identifier type="oclc">34303592</identifier>
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/04031911</url>
@@ -59363,7 +59362,6 @@ p -->
                         <url displayLabel="HathiTrust"
                             >http://hdl.handle.net/2027/pst.000005622450</url>
                     </location>
-
                 </relatedItem>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
                     <part type="volume">
@@ -59496,6 +59494,16 @@ p -->
                 </location>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Noctes Atticae">
+                <identifier type="ctsurn">urn:cts:latinLit:phi1254.phi001.perseus-lat2</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:latinLit:phi1254.phi001.perseus-lat2</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Latin">https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi1254/phi001/phi1254.phi001.perseus-lat2.xml</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Noctes Atticae">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1254.phi001.opp-eng2</identifier>
                 <identifier type="ctsurn">urn:cts:latinLit:phi1254.phi001.opp-lat3</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
@@ -59541,7 +59549,7 @@ p -->
                     </originInfo>
                     <tableOfContents>Book VI-Book XIII</tableOfContents>
                     <location>
-                        <url displayLabel="hathiTrust"
+                        <url displayLabel="HathiTrust"
                             >http://hdl.handle.net/2027/mdp.39076007041895</url>
                     </location>
                     <location>
@@ -59634,7 +59642,6 @@ p -->
         </relatedItem>
         <identifier type="lccn">02027829</identifier>
         <identifier type="oclc">6798938 </identifier>
-
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/02027829</url>
         </location>
@@ -59643,7 +59650,7 @@ p -->
         </location>
         <location>
             <url displayLabel="Open Content Alliance">
-                http://www.archive.org/details/odonisabbatisclv00odosiala </url>
+                http://www.archive.org/details/odonisabbatisclv00odosiala</url>
         </location>
         <location>
             <url displayLabel="GoogleBooks">http://books.google.com/books?id=6G2_922x0sAC</url>
@@ -69316,7 +69323,13 @@ p -->
             <identifier type="ctsurn">urn:cts:latinLit:stoa0149b.stoa001</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Tractatus super psalmos">
-                <identifier type="ctsurn">urn:cts:latinLit:stoa0149b.stoa001.opp-lat1</identifier>
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0149b.stoa001.opp-lat1</identifier>                
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:latinLit:stoa0149b.stoa001.opp-lat1/</url>
+                </location>
+                <location>
+                    <url displayLabel="CSEL">https://github.com/OpenGreekAndLatin/csel-dev/blob/master/data/stoa0149b/stoa001/stoa0149b.stoa001.opp-lat1.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>

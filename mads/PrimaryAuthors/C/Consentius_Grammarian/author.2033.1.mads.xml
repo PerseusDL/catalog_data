@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2033.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/49613849">
 	        <namePart>Consentius</namePart>
 	        <namePart type="termsOfAddress">(Grammarian)</namePart>
       </name>
@@ -20,10 +22,15 @@
     </variant>
     <note type="source">Correspondència amb Sant Agustí, 1987-1991: t.p. (Consenci)</note>
     <note type="source">LC catalog, viewed 9-8-2008 (hdg.: Consentius Grammarian)</note>
-    <note type="source">Brill's New Pauly: "Consentius, Name of a 5th-cent. Lat. grammarian, perhaps from Narbo (Narbonne), which he refers to in his Ars (GL 346,5; 348,35). He was either identical with or related to Sidonius Apollinaris, curator palatii under Avitus (455-456) ..... The grammarian C. wrote two treatises De nomine et verbo and De barbarismis et metaplasmis ..." Gatti, Paolo (Trento), “Consentius”, in: Brill’s New Pauly, Antiquity volumes edited by: Hubert Cancik and , Helmuth Schneider. Consulted online on 23 September 2016</note>
+    <note type="source">Brill's New Pauly: "Consentius, Name of a 5th-cent. Lat. grammarian,
+      perhaps from Narbo (Narbonne), which he refers to in his Ars (GL 346,5; 348,35). He was
+      either identical with or related to Sidonius Apollinaris, curator palatii under Avitus (455-456) ...
+      .. The grammarian C. wrote two treatises De nomine et verbo and De barbarismis et metaplasmis ..." 
+      Gatti, Paolo (Trento), “Consentius”, in: Brill’s New Pauly, Antiquity volumes edited by: Hubert Cancik and , Helmuth Schneider. Consulted online on 23 September 2016</note>
     <identifier type="lccn">no2008131019</identifier>
     <identifier type="stoa">stoa0096a</identifier>
     <fieldOfActivity>Grammarian</fieldOfActivity>
+  <identifier type="citeurn">urn:cite:perseus:author.2033.1</identifier>
     <url displayLabel="viaf">http://viaf.org/viaf/49613849</url>
     <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Consentius</url>
     <url displayLabel="WorldCat Identities">https://www.worldcat.org/identities/lccn-no2008131019/</url>
