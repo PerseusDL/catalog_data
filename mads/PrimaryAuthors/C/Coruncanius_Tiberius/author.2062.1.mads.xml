@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2062.1</identifier>
+<mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  version="2.0"
+  xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd   
+  http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">  
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+        valueURI="https://viaf.org/viaf/24990199">
 	        <namePart>Coruncanius, Tiberius</namePart>
       </name>
     </authority>
@@ -26,6 +30,7 @@
     </variant>
     <identifier type="stoa">stoa0101b</identifier>
     <fieldOfActivity>Consul</fieldOfActivity>
+  <identifier type="citeurn">urn:cite:perseus:author.2062.1</identifier>
     <url displayLabel="viaf">http://viaf.org/viaf/24990199</url>
     <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Tiberius_Coruncanius</url>
     <extension>

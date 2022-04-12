@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2229.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/19831889">
 	        <namePart>Diomedes</namePart>
 	        <namePart type="termsOfAddress">(Grammarian)</namePart>
 	        <namePart type="date">active 4th century</namePart>
@@ -15,10 +17,13 @@
 	        <namePart type="date">4th cent</namePart>
       </name>
     </variant>
-    <note type="source">Flavii Sosipatri Charisii Artis grammaticae libri V. Diomedis Artis grammaticae libri III. Ex Charisii Arte grammatica excerpta, 1961</note>
+    <note type="source">Flavii Sosipatri Charisii Artis grammaticae libri V. Diomedis Artis grammaticae libri III. 
+      Ex Charisii Arte grammatica excerpta, 1961</note>
     <note type="source">RLIN, 1/2/96 (hdg.: Diomedes, Diomedes, the Grammarian, Diomedes, 4th cent.)</note>
-    <note type="source">Oxford Classical Dict., 1972: p. 349 (Diomedes, late 4th cent. A.D., grammarian; wrote Ars grammatica)</note>
+    <note type="source">Oxford Classical Dict., 1972: p. 349 (Diomedes, late 4th cent. A.D., grammarian,
+      wrote Ars grammatica)</note>
     <identifier type="lccn">nr 97000126</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2229.1</identifier> 
     <identifier type="stoa">stoa0108b</identifier>
     <fieldOfActivity>Grammarian</fieldOfActivity>
     <url displayLabel="viaf">http://viaf.org/viaf/19831889</url>
