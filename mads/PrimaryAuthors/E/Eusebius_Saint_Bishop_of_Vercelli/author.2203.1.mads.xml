@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2203.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">  
     <authority lang="eng">
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/79254701"
+        valueURI="http://viaf.org/viaf/79254701">
 	        <namePart>Eusebius</namePart>
 	        <namePart type="termsOfAddress">Saint, Bishop of Vercelli</namePart>
 	        <namePart type="date">approximately 283-371</namePart>
@@ -27,11 +29,14 @@
       </name>
     </variant>
     <note type="source">Eusebio di Vercelli e il suo tempo, c1997: p. 129 (d. 371)</note>
-    <note type="source">Encyc. Brit., c1989 (Eusebius of Vercelli, Saint, became first bp. of Vercelli, 345, b. early 4th cent. in Sardinia, d. Aug. 1, 370/371)</note>
-    <note type="source">Cath. encyc. WWW version, Apr. 19, 2000 (St. Eusebius, b. Sardinia, ca. 283, d. Vercelli, Aug. 1, 371)</note>
+    <note type="source">Encyc. Brit., c1989 (Eusebius of Vercelli, Saint, became first bp. 
+      of Vercelli, 345, b. early 4th cent. in Sardinia, d. Aug. 1, 370/371)</note>
+    <note type="source">Cath. encyc. WWW version, Apr. 19, 2000 (St. Eusebius, b. Sardinia,
+      ca. 283, d. Vercelli, Aug. 1, 371)</note>
     <identifier type="lccn">n 87143170</identifier>
     <identifier type="stoa">stoa0120f</identifier>
     <fieldOfActivity>Bishop</fieldOfActivity>
+  <identifier type="citeurn">urn:cite:perseus:author.2203.1</identifier>
     <url displayLabel="viaf">http://viaf.org/viaf/79254701</url>
     <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Eusebius_of_Vercelli</url>
     <url displayLabel="WorldCat Identities">https://www.worldcat.org/identities/lccn-n87143170/</url>

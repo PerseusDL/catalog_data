@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2276.1</identifier>
-    <authority>
-      <name type="personal" authority="naf">
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">  
+     <authority>
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/" valueURI="http://viaf.org/viaf/58608059">
 	        <namePart>Eutychianus</namePart>
 	        <namePart type="termsOfAddress">Pope</namePart>
 	        <namePart type="date">-283</namePart>
@@ -40,12 +41,14 @@
       </name>
     </variant>
     <note type="source">Eutychiani Papæ Exhortatio ad Presbyteros, 1825</note>
-    <note type="source">Catholic Encyclopedia www site, 5 Oct. 2007: Pope St. Eutychianus page (governed the Church from Jan. 275 until 7 Dec. 283)</note>
+    <note type="source">Catholic Encyclopedia www site, 5 Oct. 2007: Pope St. Eutychianus page
+      (governed the Church from Jan. 275 until 7 Dec. 283)</note>
     <note type="source">Wikipedia www site, 5 Oct. 2007: List of Popes page (Eutychian)</note>
     <identifier type="lccn">nb2007022879</identifier>
     <identifier type="stoa">stoa0120g</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2276.1</identifier>
     <fieldOfActivity>Pope</fieldOfActivity>
-    <url displayLabel="viaf">http://viaf.org/viaf/58608059</url>
+    <url displayLabel="VIAF">http://viaf.org/viaf/58608059</url>
     <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Pope_Eutychian</url>
     <url displayLabel="WorldCat Identities">https://www.worldcat.org/identities/lccn-nb2007022879/</url>
     <extension>

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2267.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">  
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/37721887">
 	        <namePart>Eusebius</namePart>
 	        <namePart type="termsOfAddress">Pope</namePart>
 	        <namePart type="date">-309 or 310</namePart>
@@ -26,8 +28,11 @@
 	        <namePart>Εὐσέβιος</namePart>
       </name>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2267.1</identifier>
     <note type="source">Cronologia Costantiniana e dei papi S. Eusebio e S. Milziade, 1910</note>
-    <note type="source">Catholic Encyclopedia www site, 3 Oct. 2007: Pope St. Eusebius page (reigned as pope for only 4 months, from 18 April to 17 August 309 or 310, deported to Sicily where he died soon after)</note>
+    <note type="source">Catholic Encyclopedia www site, 3 Oct. 2007: Pope St. Eusebius page
+      (reigned as pope for only 4 months, from 18 April to 17 August 309 or 310, deported to 
+      Sicily where he died soon after)</note>
     <identifier type="lccn">nb2007022584</identifier>
     <identifier type="stoa">stoa0120e</identifier>
     <fieldOfActivity>Pope</fieldOfActivity>

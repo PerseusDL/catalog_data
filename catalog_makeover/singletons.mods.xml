@@ -80,10 +80,10 @@
             <url displayLabel="Open Content Alliance"
                 >https://archive.org/details/herodianiabexce00bekkgoog</url>
         </location>
-        <relatedItem type="constituent" otherType="work"
-            displayLabel="Ab excessu divi Marci">
+        <relatedItem type="constituent" otherType="work" displayLabel="Ab excessu divi Marci">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0015.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Ab excessu divi Marci">
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Ab excessu divi Marci">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0015.tlg001.opp-grc1</identifier>
                 <part>
                     <extent unit="pages">
@@ -92,7 +92,8 @@
                     </extent>
                 </part>
                 <location>
-                    <url displayLabel="Open Content Alliance">https://archive.org/details/herodianiabexce00bekkgoog/page/n12/mode/2up</url>
+                    <url displayLabel="Open Content Alliance"
+                        >https://archive.org/details/herodianiabexce00bekkgoog/page/n12/mode/2up</url>
                 </location>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression"
@@ -2692,7 +2693,7 @@
             <title>Flavii Iosephi opera</title>
             <subTitle>ex versione Latine Antiqua</subTitle>
             <partNumber>Pars VI</partNumber>
-            <partName>De Iudaeorum vetustate sive Contra Apionem,</partName>
+            <partName>De Iudaeorum vetustate sive Contra Apionem</partName>
         </titleInfo>
         <titleInfo type="alternative">
             <title>De Judaeorum vetustate; sive, Contra Apionem</title>
@@ -2702,7 +2703,7 @@
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/22143666/">
-            <namePart>Josephus, Flavius.</namePart>
+            <namePart>Josephus, Flavius</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
@@ -2780,6 +2781,12 @@
             <identifier type="ctsurn">urn:cts:greekLit:tlg0526.tlg003</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Against Apion">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0526.tlg003.opp-lat1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0526.tlg003.opp-lat1</url>
+                </location>
+                <location>
+                    <url displayLabel="CSEL">https://github.com/OpenGreekAndLatin/csel-dev/blob/master/data/tlg0526/tlg003/tlg0526.tlg003.opp-lat1.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -3743,7 +3750,7 @@
             <identifier type="ctsurn">urn:cts:latinLit:stoa0120c.stoa001</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Altercatio legis inter Simonem Iudaeum et Theophilum Christianum">
-                <identifier type="ctsurn">urn:cts:latinLit:stoa0120c.stoa001.opp-lat1</identifier>
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0120c.stoa001.opp-lat2</identifier>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -16715,13 +16722,16 @@ but this is where the TLG has left off for numbering-->
                 displayLabel="De communi mathematica scientia">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg2023.tlg003.opp-grc1</identifier>
             </relatedItem>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Περί της κοινής μαθηματικής επιστήμης">
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Περί της κοινής μαθηματικής επιστήμης">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg2023.tlg003.1st1K-grc1</identifier>
                 <location>
-                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg2023.tlg003.1st1K-grc1</url>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg2023.tlg003.1st1K-grc1</url>
                 </location>
                 <location>
-                    <url displayLabel="First1K">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg2023/tlg003/tlg2023.tlg003.1st1K-grc1.xml</url>
+                    <url displayLabel="First1K"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg2023/tlg003/tlg2023.tlg003.1st1K-grc1.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -20022,10 +20032,12 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression" displayLabel="">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg2023.tlg006.1st1K-grc1</identifier>
                 <location>
-                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg2023.tlg006.1st1K-grc1</url>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg2023.tlg006.1st1K-grc1</url>
                 </location>
                 <location>
-                    <url displayLabel="First1K">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg2023/tlg006/tlg2023.tlg006.1st1K-grc1.xml</url>
+                    <url displayLabel="First1K"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg2023/tlg006/tlg2023.tlg006.1st1K-grc1.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -25680,7 +25692,8 @@ but this is where the TLG has left off for numbering-->
                         <url displayLabel="Open Content Alliance"
                             >https://archive.org/details/dialogueavectryp01just/</url>
                     </location>
-                    <relatedItem type="constituent" otherType="structure" displayLabel="Chapters 1-73">
+                    <relatedItem type="constituent" otherType="structure"
+                        displayLabel="Chapters 1-73">
                         <part>
                             <detail type="chapter">
                                 <caption>Chapter</caption>
@@ -25712,7 +25725,8 @@ but this is where the TLG has left off for numbering-->
                         <url displayLabel="Open Content Alliance"
                             >https://archive.org/details/dialogueavectryp02just/</url>
                     </location>
-                    <relatedItem type="constituent" otherType="structure" displayLabel="Chapter 74-142">
+                    <relatedItem type="constituent" otherType="structure"
+                        displayLabel="Chapter 74-142">
                         <part>
                             <detail type="chapter">
                                 <caption>Chapter</caption>
@@ -27877,6 +27891,17 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Perseus" note="Latin"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0494</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Elegiae">
+                <identifier type="ctsurn">urn:cts:latinLit:phi0620.phi001.perseus-lat3</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:latinLit:phi0620.phi001.perseus-lat3</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Latin"
+                        >https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0620/phi001/phi0620.phi001.perseus-lat3.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -38188,6 +38213,7 @@ but this is where the TLG has left off for numbering-->
         </relatedItem>
         <!-- Deleted urn:cts:latinLit:stoa0054.stoa006.opp-eng1 as invalid -->
     </mods>
+
     <mods displayLabel="Historia Ecclesiastica-Eusebius-Lake/Oulton-Loeb-Perseus\OPP">
         <titleInfo type="uniform">
             <title>Historia Ecclesiastica</title>
@@ -38402,9 +38428,116 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-
-
-    <mods displayLabel="Historia Ecclesiastic-Philostorgius-Bidez-1913">
+    <mods
+        displayLabel="Historia Ecclesiastica-Evagrius Scholasticus-Bidez/Parmentier-Methuen-1898-First1K">
+        <titleInfo>
+            <title>
+            The ecclesiastical history of Evagrius with the scholia
+        </title>
+        </titleInfo>
+        <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/8181546/">
+            <namePart>Evagrius</namePart>
+            <namePart type="termsOfAddress">Scholasticus</namePart>
+            <namePart type="date">536?-</namePart>
+            <role>
+                <roleTerm type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/66536121">
+            <namePart>Bidez, Joseph</namePart>
+            <namePart type="date">1867-1945</namePart>
+            <role>
+                <roleTerm type="text">editor</roleTerm>
+            </role>
+        </name>
+        <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/69012059">
+            <namePart>Parmentier, Léon,</namePart>
+            <namePart type="date">1863-1929</namePart>
+            <role>
+                <roleTerm type="text">editor</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm authority="marccountry" type="code">enk</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">London</placeTerm>
+            </place>
+            <publisher>Methuen &amp; co.</publisher>
+            <dateIssued>1898</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <language objectPart="notes">
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        </language>
+        <physicalDescription>
+            <digitalOrigin>digitized other analog</digitalOrigin>
+        </physicalDescription>
+        <note altRepGroup="00" type="statement of responsibility">
+            edited with introduction, critical notes, and indices by J. Bidez ... and L. Parmentier ...
+        </note>
+        <note>Text in Greek.</note>
+        <subject authority="lcsh">
+            <topic>Church history</topic>
+            <temporal>Primitive and early church, ca. 30-600</temporal>
+        </subject>
+        <classification authority="lcc">BR160.E6 B5 1898</classification>
+        <identifier type="lccn">30033504</identifier>
+        <identifier type="oclc">3027973</identifier>
+        <location>
+            <url displayLabel="LC Permalink">https://lccn.loc.gov/30033504</url>
+        </location>
+        <location>
+            <url displayLabel="Worldcat">https://worldcat.org/oclc/3027973</url>
+        </location>
+        <location>
+            <url displayLabel="Open Content Alliance"
+                >https://archive.org/details/ecclesiasticalhi00evag</url>
+        </location>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Byzantine Texts</title>
+            </titleInfo>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="work" displayLabel="Historia Ecclesiastica">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg2773.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Historia Ecclesiastica">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2733.tlg001.1st1K-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg2733.tlg001.1st1K-grc1</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg2733/tlg001/tlg2733.tlg001.1st1K-grc1.xml</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Historia Ecclesiastica">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2733.tlg001.opp-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>1</start>
+                        <end>241</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="Open Content Alliance"
+                        >https://archive.org/details/ecclesiasticalhi00evag/page/n25/mode/2up</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods displayLabel="Historia Ecclesiastica-Philostorgius-Bidez-1913">
         <titleInfo>
             <title>Kirchengeschichte</title>
         </titleInfo>
@@ -40461,7 +40594,8 @@ but this is where the TLG has left off for numbering-->
                 </location>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Histories">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0016.tlg001.opp-eng9</identifier><!-- Number so high due
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0016.tlg001.opp-eng9</identifier>
+                <!-- Number so high due
                 to many invalidated earlier English URNs-->
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0016.tlg001.opp-grc5</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
@@ -59524,7 +59658,8 @@ p -->
                         >https://scaife.perseus.org/reader/urn:cts:latinLit:phi1254.phi001.perseus-lat2</url>
                 </location>
                 <location>
-                    <url displayLabel="Perseus Canonical Latin">https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi1254/phi001/phi1254.phi001.perseus-lat2.xml</url>
+                    <url displayLabel="Perseus Canonical Latin"
+                        >https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi1254/phi001/phi1254.phi001.perseus-lat2.xml</url>
                 </location>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Noctes Atticae">
@@ -64878,10 +65013,12 @@ p -->
                 displayLabel="Pseudo-Augustini Quaestiones Veteris et Novi Testamenti CXXVII">
                 <identifier type="ctsurn">urn:cts:latinLit:stoa0022a.stoa001.opp-lat1</identifier>
                 <location>
-                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:latinLit:stoa0022a.stoa001.opp-lat1/</url>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:latinLit:stoa0022a.stoa001.opp-lat1/</url>
                 </location>
                 <location>
-                    <url displayLabel="CSEL">https://github.com/OpenGreekAndLatin/csel-dev/blob/master/data/stoa0022a/stoa001/stoa0022a.stoa001.opp-lat1.xml</url>
+                    <url displayLabel="CSEL"
+                        >https://github.com/OpenGreekAndLatin/csel-dev/blob/master/data/stoa0022a/stoa001/stoa0022a.stoa001.opp-lat1.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -69353,12 +69490,14 @@ p -->
             <identifier type="ctsurn">urn:cts:latinLit:stoa0149b.stoa001</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Tractatus super psalmos">
-                <identifier type="ctsurn">urn:cts:latinLit:stoa0149b.stoa001.opp-lat1</identifier>                
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0149b.stoa001.opp-lat1</identifier>
                 <location>
-                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:latinLit:stoa0149b.stoa001.opp-lat1/</url>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:latinLit:stoa0149b.stoa001.opp-lat1/</url>
                 </location>
                 <location>
-                    <url displayLabel="CSEL">https://github.com/OpenGreekAndLatin/csel-dev/blob/master/data/stoa0149b/stoa001/stoa0149b.stoa001.opp-lat1.xml</url>
+                    <url displayLabel="CSEL"
+                        >https://github.com/OpenGreekAndLatin/csel-dev/blob/master/data/stoa0149b/stoa001/stoa0149b.stoa001.opp-lat1.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
