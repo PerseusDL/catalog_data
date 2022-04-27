@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/225076852">
       <mads:namePart>Ruricius</mads:namePart>
       <mads:namePart type="termsOfAddress">I, Bishop of Limoges</mads:namePart>
       <mads:namePart type="date">-approximately 507</mads:namePart>
@@ -60,8 +61,10 @@
       <mads:namePart>Ruricius I</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:note type="source">Fausti Reiensis praeter sermones pseudo-Eusebianos Opera. Accedunt Ruricii Epistulae, 1891</mads:note>
-  <mads:note type="source">RLIN, 12/5/96 (hdg.: Ruricius, I, Bp. of Limoges, d. ca. 507; Ruricius I, Bishop of Limoges, d. ca. 507)</mads:note>
+  <mads:note type="source">Fausti Reiensis praeter sermones pseudo-Eusebianos Opera. Accedunt Ruricii Epistulae,
+    1891</mads:note>
+  <mads:note type="source">RLIN, 12/5/96 (hdg.: Ruricius, I, Bp. of Limoges, d. ca. 507,
+    Ruricius I, Bishop of Limoges, d. ca. 507)</mads:note>
   <mads:note type="source">Clavis patrum Latinorum, 1995: p. 318(Ruricius episcopus Lemovicensis)</mads:note>
   <mads:note type="source">Ruricii Lemovicensis Epistularum libri duo, 1985: p. 305 (Rurice)</mads:note>
   <mads:note type="source">Lettere, c2009: t.p. (Ruricio di Limoges) p. 7 (Ruricio I, vescovo di Limoges)</mads:note>
@@ -70,8 +73,7 @@
   <mads:identifier type="citeurn">urn:cite:perseus:author.1708.1</mads:identifier>
   <mads:fieldOfActivity>Bishop</mads:fieldOfActivity>
   <mads:fieldOfActivity>Theologian</mads:fieldOfActivity>
-  
-  
+  <mads:note type="source">Brill's New Pauly: "Ruricius of Limoges, Christian bishop and author..."</mads:note>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Ruricius</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-nr96-43770</mads:url>
   <mads:url displayLabel="Smith's Dictionary"/>
