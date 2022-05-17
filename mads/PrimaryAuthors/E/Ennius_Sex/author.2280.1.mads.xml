@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2280.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">    
     <authority>
-      <name type="personal">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/49118770">
         <namePart>Ennius, Sex</namePart>
       </name>
     </authority>
-    <variant type="equivalent">
+    <related type="equivalent">
       <name type="personal">
         <namePart>Ennius, Sextus</namePart>
       </name>
-    </variant>
-    <variant type="equivalent">
+    </related>
+    <related type="equivalent">
       <name type="personal" authority="naf">
         <namePart>Ennius, Spurius</namePart>
       </name>
-    </variant>
+    </related>
     <variant type="other">
       <name type="personal">
         <namePart>Ennius, Sp</namePart>
@@ -30,6 +32,7 @@
     <identifier type="phi">515</identifier>
     <url>http://viaf.org/viaf/49118770</url>
     <url displayLabel="Dataset description">http://viaf.org/viaf/data</url>
+  <identifier type="citeurn">urn:cite:perseus:author.2280.1</identifier>
     <identifier type="uri">http://viaf.org/viaf/49118770</identifier>
     <extension>
       <description>List of related work identifiers</description>

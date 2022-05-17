@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/16066263/">
       <mads:namePart>Fortunatianus</mads:namePart>
       <mads:namePart type="termsOfAddress">Chirius</mads:namePart>
     </mads:name>
@@ -56,8 +57,15 @@
   </mads:variant>
   <mads:fieldOfActivity>Grammarian</mads:fieldOfActivity>
   <mads:fieldOfActivity>Rhetorician</mads:fieldOfActivity>
-  
-  
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 2, 1867, p. 181:
+    "Fortunatianus, Curius or Chirius, a Roman lawyer, flourished about the middle of the fifth century after Christ,
+    a short time before Cassiodorus, by whom he is quoted. He drew up a compendium of technical rhetoric, by way of 
+    question and answer, in three books.."</mads:note>
+  <mads:note type="source">Brill's New Pauly: "Consultus Fortunatianus, C. Chirius F. derives from
+    a misunderstood title of a work: enchiridion/enchiriadis). Author of a Lat. manual Ars 
+    rhetorica in three bks in the form of question and answer..... .....Probably to be dated 
+    in the 5th rather than the 4th cent. AD... the work represents a comprehensive and highly 
+    systematic compendium, deriving from the declamatory school..."</mads:note>  
   <mads:url displayLabel="Wikipedia">http://hu.wikipedia.org/wiki/Caius_Chirius_Fortunatianus</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-n80-49752</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0002.001;didno=ACL3129.0002.001;view=image;seq=00000191</mads:url>

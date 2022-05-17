@@ -23269,6 +23269,9 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="SLUB" note="1969 Editio Stereotypis"
                 >http://digital.slub-dresden.de/id413088340</url>
         </location>
+        <location>
+            <url displayLabel="Open Content Alliance">https://archive.org/details/galnouperikrase00helmgoog</url>
+        </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Peri kraseōn">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg009</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Peri kraseōn">
@@ -29897,6 +29900,12 @@ but this is where the TLG has left off for numbering-->
             <identifier type="ctsurn">urn:cts:latinLit:stoa0162.stoa004</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Epistulae">
                 <identifier type="ctsurn">urn:cts:latinLit:stoa0162.stoa004.opp-lat1</identifier>
+                <location>
+                    <url displayLabel="CSEL"></url>
+                </location>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:latinLit:stoa0162.stoa004.opp-lat1:</url>
+                </location>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part type="volume">
                         <detail type="volume">
@@ -30078,6 +30087,16 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Perseus" note="Latin"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0566</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Epistulae">
+                <identifier type="ctsurn">urn:cts:latinLit:stoa0162.stoa004.perseus-lat2</identifier>
+                <location>
+                    <url displayLabel="Perseus" note="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:latinLit:stoa0162.stoa004.perseus-lat2</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Latin">https://github.com/PerseusDL/canonical-latinLit/blob/master/data/stoa0162/stoa004/stoa0162.stoa004.perseus-lat2 .xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
