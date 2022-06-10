@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2067.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">   
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/227095134">
 	        <namePart>Anonymous Iamblichi</namePart>
 	        <namePart type="date">active 5th century B.C.-4th century B.C.</namePart>
       </name>
@@ -16,6 +18,7 @@
     <identifier type="lccn">n2012003972</identifier>
     <identifier type="tlg">1134</identifier>
     <fieldOfActivity>Philosopher</fieldOfActivity>
+  <identifier type="citeurn">urn:cite:perseus:author.2067.1</identifier>
     <url displayLabel="viaf">http://viaf.org/viaf/227095134</url>
     <url displayLabel="WorldCat Identities">https://www.worldcat.org/identities/lccn-n2012003972/</url>
     <extension>
