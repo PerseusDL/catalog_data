@@ -2329,6 +2329,150 @@
             </relatedItem>
         </relatedItem>
     </mods>
+    <mods displayLabel="Adversus Haereses-Irenaeus of Lyon-Cambridge-Harvey">
+        <titleInfo>
+            <title>Sancti Irenaei episcopi Lugdunensis libri quinque adversus haereses</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/70051641/">
+            <namePart>Irenaeus,</namePart>
+            <namePart type="termsOfAddress">Saint, Bishop of Lyon</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name type="personal" usage="primary" authorityURI="http://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/22529988">
+            <namePart>Harvey, William Wigan</namePart>
+            <namePart type="date">1810-1883</namePart>
+            <role>
+                <roleTerm type="text">editor</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <publisher>Cambridge</publisher>
+            <place>
+                <placeTerm authority="marccountry" type="code">enk</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Cambridge</placeTerm>
+            </place>
+            <dateIssued>1857</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <note type="statement of responsibility">Edidit W. Wigan Harvey. Cantabrigiae, Typis Academicis, 1857.</note>
+        <language objectPart="notes">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <language objectPart="preface">
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>2 volumes</extent>
+        </physicalDescription>
+        <subject>
+            <topic>Fathers of the Church</topic>
+        </subject>
+        <subject>
+            <topic>Christian heresies</topic>
+            <topic>History</topic>
+            <topic>Early Church</topic>
+            <temporal>ca. 30-600</temporal>
+        </subject>
+        <identifier type="oclc">20866967</identifier>
+        <location>
+            <url displayLabel="Worldcat"
+                >https://www.worldcat.org/title/libros-quinque-adversus-haereses/oclc/20866967</url>
+        </location>
+        <relatedItem type="constituent" otherType="volume" displayLabel="Volume 1-2">
+            <part type="volume">
+                <detail type="volume">
+                    <caption>Volume</caption>
+                    <number>1-2</number>
+                </detail>
+            </part>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="Libros Quinque adversus Haereses">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1447.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Libros Quinque adversus Haereses">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg1447.tlg001.opp-grc1</identifier>
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
+                        <part type="volume">
+                            <detail type="volume">
+                                <caption>Volume</caption>
+                                <number>1</number>
+                            </detail>
+                        </part>
+                        <originInfo>
+                            <dateIssued>1857</dateIssued>
+                        </originInfo>
+                        <location>
+                            <url displayLabel="HathiTrust"
+                                >https://hdl.handle.net/2027/uc1.b3948496</url>
+                        </location>
+                        <location>
+                            <url displayLabel="Open Content Alliance"
+                                >https://archive.org/details/sanctiirenaeiepi01unse</url>
+                        </location>
+                        <relatedItem type="constituent" otherType="structure"
+                            displayLabel="Book 1-2">
+                            <part>
+                                <detail type="book">
+                                    <caption>Book</caption>
+                                    <number>1-2</number>
+                                </detail>
+                            </part>
+                        </relatedItem>
+                    </relatedItem>
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Volume 2">
+                        <part type="volume">
+                            <detail type="volume">
+                                <caption>Volume</caption>
+                                <number>2</number>
+                            </detail>
+                        </part>
+                        <originInfo>
+                            <dateIssued>1857</dateIssued>
+                        </originInfo>
+                        <location>
+                            <url displayLabel="HathiTrust"
+                                >https://hdl.handle.net/2027/uc1.b3948497</url>
+                        </location>
+                        <location>
+                            <url displayLabel="Open Content Alliance"
+                                >https://archive.org/details/sanctiirenaeiepi01unse</url>
+                        </location>
+                        <relatedItem type="constituent" otherType="structure" displayLabel="Book 3">
+                            <part>
+                                <detail type="book">
+                                    <caption>Book</caption>
+                                    <number>3</number>
+                                </detail>
+                            </part>
+                        </relatedItem>
+                    </relatedItem>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Libros Quinque adversus Haereses">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg1447.tlg001.1st1K-grc1</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg1447.tlg001.1st1K-grc1/</url>
+                    </location>
+                    <location>
+                        <url displayLabel="First1KGreek"
+                            >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg1447/tlg001/tlg1447.tlg001.1st1K-grc1.xml</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+        </relatedItem>
+    </mods>
     <mods displayLabel="Aeneid-Virgil-Dryden-Perseus-English-Unknown">
         <titleInfo type="uniform">
             <title>Aeneid</title>
@@ -2781,10 +2925,12 @@
             <relatedItem type="constituent" otherType="expression" displayLabel="Against Apion">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0526.tlg003.opp-lat1</identifier>
                 <location>
-                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0526.tlg003.opp-lat1</url>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0526.tlg003.opp-lat1</url>
                 </location>
                 <location>
-                    <url displayLabel="CSEL">https://github.com/OpenGreekAndLatin/csel-dev/blob/master/data/tlg0526/tlg003/tlg0526.tlg003.opp-lat1.xml</url>
+                    <url displayLabel="CSEL"
+                        >https://github.com/OpenGreekAndLatin/csel-dev/blob/master/data/tlg0526/tlg003/tlg0526.tlg003.opp-lat1.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -3124,7 +3270,7 @@
             <place>
                 <placeTerm type="text">Leipzig</placeTerm>
             </place>
-           <publisher>Teubner</publisher>
+            <publisher>Teubner</publisher>
             <dateIssued>1983</dateIssued>
             <edition>2. Aufl.</edition>
             <issuance>monographic</issuance>
@@ -4699,7 +4845,7 @@
             <place>
                 <placeTerm type="text">Leipzig</placeTerm>
             </place>
-           <publisher>Teubner</publisher>
+            <publisher>Teubner</publisher>
             <dateIssued>1981</dateIssued>
             <edition>1. Aufl.</edition>
             <issuance>monographic</issuance>
@@ -5150,7 +5296,7 @@
             <place>
                 <placeTerm type="text">Leipzig</placeTerm>
             </place>
-           <publisher>Teubner</publisher>
+            <publisher>Teubner</publisher>
             <dateIssued>1984</dateIssued>
             <edition>1. Aufl.</edition>
             <issuance>monographic</issuance>
@@ -10327,7 +10473,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Leipzig</placeTerm>
             </place>
-           <publisher>Teubner</publisher>
+            <publisher>Teubner</publisher>
             <dateIssued>1912</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -11480,7 +11626,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Leipzig</placeTerm>
             </place>
-           <publisher>Teubner</publisher>
+            <publisher>Teubner</publisher>
             <dateModified>1910</dateModified>
             <issuance>monographic</issuance>
         </originInfo>
@@ -12697,7 +12843,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Lepizig</placeTerm>
             </place>
-           <publisher>Teubner</publisher>
+            <publisher>Teubner</publisher>
             <dateIssued>1876</dateIssued>
             <edition>4. Aufl.</edition>
             <issuance>monographic</issuance>
@@ -13602,10 +13748,12 @@ but this is where the TLG has left off for numbering-->
                 displayLabel="In Hieremiam Prophetam Libri Sex">
                 <identifier type="ctsurn">urn:cts:latinLit:stoa0162.stoa024.opp-lat1</identifier>
                 <location>
-                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:latinLit:stoa0162.stoa024.opp-lat1/</url>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:latinLit:stoa0162.stoa024.opp-lat1/</url>
                 </location>
                 <location>
-                    <url displayLabel="CSEL">https://github.com/OpenGreekAndLatin/csel-dev/blob/master/data/stoa0162/stoa024/stoa0162.stoa024.opp-lat1.xml</url>
+                    <url displayLabel="CSEL"
+                        >https://github.com/OpenGreekAndLatin/csel-dev/blob/master/data/stoa0162/stoa024/stoa0162.stoa024.opp-lat1.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -13845,7 +13993,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Leipzig</placeTerm>
             </place>
-           <publisher>Teubner</publisher>
+            <publisher>Teubner</publisher>
             <dateIssued>1983</dateIssued>
             <edition>1. Aufl.</edition>
             <issuance>monographic</issuance>
@@ -23278,7 +23426,8 @@ but this is where the TLG has left off for numbering-->
                 >http://digital.slub-dresden.de/id413088340</url>
         </location>
         <location>
-            <url displayLabel="Open Content Alliance">https://archive.org/details/galnouperikrase00helmgoog</url>
+            <url displayLabel="Open Content Alliance"
+                >https://archive.org/details/galnouperikrase00helmgoog</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Peri kraseōn">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg009</identifier>
@@ -27486,7 +27635,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Leipzig</placeTerm>
             </place>
-           <publisher>Teubner</publisher>
+            <publisher>Teubner</publisher>
             <dateIssued>1880</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -28742,7 +28891,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Stutgardiae</placeTerm>
             </place>
-           <publisher>Teubner</publisher>
+            <publisher>Teubner</publisher>
             <dateIssued>1925</dateIssued>
             <dateModified>1976</dateModified>
             <issuance>monographic</issuance>
@@ -29909,10 +30058,11 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression" displayLabel="Epistulae">
                 <identifier type="ctsurn">urn:cts:latinLit:stoa0162.stoa004.opp-lat1</identifier>
                 <location>
-                    <url displayLabel="CSEL"></url>
+                    <url displayLabel="CSEL"/>
                 </location>
                 <location>
-                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:latinLit:stoa0162.stoa004.opp-lat1:</url>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:latinLit:stoa0162.stoa004.opp-lat1:</url>
                 </location>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part type="volume">
@@ -30104,7 +30254,9 @@ but this is where the TLG has left off for numbering-->
                         >https://scaife.perseus.org/reader/urn:cts:latinLit:stoa0162.stoa004.perseus-lat2</url>
                 </location>
                 <location>
-                    <url displayLabel="Perseus Canonical Latin">https://github.com/PerseusDL/canonical-latinLit/blob/master/data/stoa0162/stoa004/stoa0162.stoa004.perseus-lat2 .xml</url>
+                    <url displayLabel="Perseus Canonical Latin"
+                        >https://github.com/PerseusDL/canonical-latinLit/blob/master/data/stoa0162/stoa004/stoa0162.stoa004.perseus-lat2
+                        .xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -30140,7 +30292,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Leipzig</placeTerm>
             </place>
-           <publisher>Teubner</publisher>
+            <publisher>Teubner</publisher>
             <dateIssued>1972</dateIssued>
             <edition>1. Aufl.</edition>
             <issuance>monographic</issuance>
@@ -32647,7 +32799,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Leipzig</placeTerm>
             </place>
-           <publisher>Teubner</publisher>
+            <publisher>Teubner</publisher>
             <dateIssued>1903</dateIssued>
             <edition>Editio stereotypa</edition>
             <issuance>monographic</issuance>
@@ -34200,7 +34352,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Leipzig</placeTerm>
             </place>
-           <publisher>Teubner</publisher>
+            <publisher>Teubner</publisher>
             <dateIssued>1983</dateIssued>
             <edition>1. Aufl.</edition>
             <issuance>monographic</issuance>
@@ -46649,7 +46801,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Leipzig</placeTerm>
             </place>
-           <publisher>Teubner</publisher>
+            <publisher>Teubner</publisher>
             <dateIssued>1903</dateIssued>
             <edition>4. aufl., besorgt von Alfred Weinhold</edition>
             <issuance>monographic</issuance>
@@ -47533,7 +47685,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Leipzig</placeTerm>
             </place>
-           <publisher>Teubner</publisher>
+            <publisher>Teubner</publisher>
             <dateIssued>1982</dateIssued>
             <edition>1 Aufl.</edition>
             <issuance>monographic</issuance>
@@ -50773,7 +50925,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">Stutgardiae</placeTerm>
             </place>
-           <publisher>Teubner</publisher>
+            <publisher>Teubner</publisher>
             <dateIssued>1983</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -55872,7 +56024,7 @@ p -->
             <place>
                 <placeTerm type="text">Leipzig</placeTerm>
             </place>
-           <publisher>Teubner</publisher>
+            <publisher>Teubner</publisher>
             <dateIssued>1981</dateIssued>
             <edition>1. Aufl.</edition>
             <issuance>monographic</issuance>
@@ -58015,7 +58167,7 @@ p -->
             <place>
                 <placeTerm type="text">Leipzig</placeTerm>
             </place>
-           <publisher>Teubner</publisher>
+            <publisher>Teubner</publisher>
             <dateIssued>1983</dateIssued>
             <edition>1. Aufl.</edition>
             <issuance>monographic</issuance>
@@ -59886,7 +60038,7 @@ p -->
             <place>
                 <placeTerm type="text">Leipzig</placeTerm>
             </place>
-           <publisher>Teubner</publisher>
+            <publisher>Teubner</publisher>
             <dateIssued>1926</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -60956,7 +61108,7 @@ p -->
             <place>
                 <placeTerm type="text">Leipzig</placeTerm>
             </place>
-           <publisher>Teubner</publisher>
+            <publisher>Teubner</publisher>
             <dateIssued>1939</dateIssued>
             <issuance>monographic</issuance>
             <edition>Editio Stereotypa Quam Curavit</edition>
@@ -62053,7 +62205,7 @@ p -->
             <place>
                 <placeTerm type="text">Leipzig</placeTerm>
             </place>
-           <publisher>Teubner</publisher>
+            <publisher>Teubner</publisher>
             <dateIssued>1985</dateIssued>
             <edition>1. Aufl.</edition>
             <issuance>monographic</issuance>
@@ -67001,7 +67153,7 @@ p -->
             <place>
                 <placeTerm type="text">Leipzig</placeTerm>
             </place>
-           <publisher>Teubner</publisher>
+            <publisher>Teubner</publisher>
             <dateIssued>1860</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -68999,7 +69151,7 @@ p -->
             <place>
                 <placeTerm type="text">Leipzig</placeTerm>
             </place>
-           <publisher>Teubner</publisher>
+            <publisher>Teubner</publisher>
             <dateIssued>1912-1913</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -69292,7 +69444,7 @@ p -->
             <place>
                 <placeTerm type="text">Leipzig</placeTerm>
             </place>
-           <publisher>Teubner</publisher>
+            <publisher>Teubner</publisher>
             <dateIssued>1973</dateIssued>
             <edition>2. Aufl.</edition>
             <issuance>monographic</issuance>
