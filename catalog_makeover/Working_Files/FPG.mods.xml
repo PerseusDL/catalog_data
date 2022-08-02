@@ -84,11 +84,19 @@
                 </detail>
             </part>
             <originInfo>
-                <dateIssued></dateIssued>
+                <dateIssued>1881</dateIssued>
             </originInfo>
             <location>
                 <url displayLabel="Open Content Alliance">https://www.archive.org/details/fragmentaphiloso02mulluoft</url>
             </location>
+            <name type="personal" authority="viaf"  authorityURI="https://viaf.org/viaf/"
+                valueURI="https://viaf.org/viaf/7670336/">
+                <namePart>Didymos,</namePart>
+                <namePart type="termsOfAddress">ho Areios</namePart>
+                <role>
+                    <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                </role>
+            </name>
             <name type="personal" authority="viaf"  authorityURI="https://viaf.org/viaf/"
                 valueURI="https://viaf.org/viaf/73701116/">
                 <namePart>Oenomaus</namePart>
@@ -97,6 +105,38 @@
                     <roleTerm authority="marcrelator" type="text">creator</roleTerm>
                 </role>
             </name>
+            <relatedItem type="constituent" otherType="work" displayLabel="Liber de philosophorum sectis (epitome ap. Stobaeum)">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0529.tlg002</identifier>
+                <name type="personal" authority="viaf"  authorityURI="https://viaf.org/viaf/"
+                    valueURI="https://viaf.org/viaf/7670336/">
+                    <namePart>Didymos,</namePart>
+                    <namePart type="termsOfAddress">ho Areios</namePart>
+                    <role>
+                        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+                    </role>
+                </name>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Liber de philosophorum sectis (epitome ap. Stobaeum)">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0529.tlg002.1st1K-grc1</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0529.tlg002.1st1K-grc1</url>
+                    </location>
+                    <location>
+                        <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0529/tlg002/tlg0529.tlg002.1st1K-grc1.xml</url>
+                    </location>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Liber de philosophorum sectis (epitome ap. Stobaeum)">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0529.tlg002.opp-grc1</identifier>
+                    <part>
+                        <extent unit="pages">
+                            <start>53</start>
+                            <end>101</end>
+                        </extent>
+                    </part>
+                    <location>
+                        <url displayLabel="Open Content Alliance">https://archive.org/details/fragmentaphiloso02mulluoft/page/52/mode/2up</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Fragmenta">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg1548.tlg001</identifier>
                  <relatedItem type="constituent" otherType="expression" displayLabel="Fragmenta">
@@ -117,7 +157,7 @@
                         </extent>
                     </part>
                     <location>
-                        <url displayLabel="Open Content Alliance">https://archive.org/details/fragmentaphiloso02mulluoft/page/360/mode/2up"</url>
+                        <url displayLabel="Open Content Alliance">https://archive.org/details/fragmentaphiloso02mulluoft/page/360/mode/2up</url>
                     </location>
                 </relatedItem>
             </relatedItem>
