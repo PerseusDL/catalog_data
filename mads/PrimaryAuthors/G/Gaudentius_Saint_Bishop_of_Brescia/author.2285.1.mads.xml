@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2285.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">  
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/100286172"> 
 	        <namePart>Gaudentius</namePart>
 	        <namePart type="termsOfAddress">Saint, Bishop of Brescia</namePart>
 	        <namePart type="date">-410?</namePart>
@@ -11,7 +13,6 @@
     <variant type="other" lang="fre">
       <name type="personal">
 	        <namePart>Gaudence</namePart>
-	        <namePart type="termsOfAddress"/>
       </name>
     </variant>
     <variant type="other" lang="ita">
@@ -33,12 +34,17 @@
       </name>
     </variant>
     <note type="source">His I sermoni, c1996: t.p. (Gaudenzio di Brescia)</note>
-    <note type="source">RLIN, Mar. 4, 1998 (hdg.: Gaudentius, Saint, Bp. of Brescia, fl. 387-410; usage: Sancti Gaudentii Brixiae Episcopi , San Gaudenzio di Brescia)</note>
+    <note type="source">RLIN, Mar. 4, 1998 (hdg.: Gaudentius, Saint, Bp. of Brescia, fl. 387-410;
+      usage: Sancti Gaudentii Brixiae Episcopi , San Gaudenzio di Brescia)</note>
     <note type="source">Dict. of Cath. biogr. (Gaudentius, St., d. 410?, become bishop of Brescia in 387)</note>
     <note type="source">Truzzi, C. Zeno, Gaudenzio e Cromazio, 1985: p. 9 (Gaudenzio di Brescia, bishop)</note>
     <note type="source">GEV (Gaudenzio di Brescia, bishop of Brescia, d. ca. 410)</note>
-    <note type="source">Brill's New Pauly: "Gaudentius, In 386/7 bishop of Brixia (Brescia), who participated under Simplicianus at the Synod of Milan against Rufinus and Origen (397-401)....21 homilies by G. are preserved (CPL 215) of which he edited at least 15 based on shorthand notes.." Uthemann, Karl-Heinz (Amsterdam). “Gaudentius”, in: Brill’s New Pauly, Antiquity volumes edited by: Hubert Cancik and , Helmuth Schneider. Consulted online on 02 December 2016</note>
+    <note type="source">Brill's New Pauly: "Gaudentius, In 386/7 bishop of Brixia (Brescia), 
+      who participated under Simplicianus at the Synod of Milan against Rufinus and Origen (397-401).
+      ...21 homilies by G. are preserved (CPL 215) of which he edited at least 15 based on shorthand notes.." 
+      Uthemann, Karl-Heinz (Amsterdam). “Gaudentius”, in: Brill’s New Pauly, Antiquity volumes edited by: Hubert Cancik and , Helmuth Schneider. Consulted online on 02 December 2016</note>
     <identifier type="lccn">nr 98008106</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2285.1</identifier>
     <identifier type="lccn">n 85341805</identifier>
     <identifier type="stoa">stoa0132a</identifier>
     <fieldOfActivity>Bishop</fieldOfActivity>

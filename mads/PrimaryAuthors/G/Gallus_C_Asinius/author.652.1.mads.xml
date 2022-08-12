@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/7775078/">
       <mads:namePart>Gallus, C. Asinius (Caius Asinius)</mads:namePart>
       <mads:namePart type="date">41 B.C.-33 A.D</mads:namePart>
     </mads:name>
@@ -71,8 +72,11 @@
   <mads:identifier type="citeurn">urn:cite:perseus:author.652.1</mads:identifier>
   <mads:identifier type="lccn">nr 95021497</mads:identifier>
   <mads:fieldOfActivity>Poet</mads:fieldOfActivity>
-  
-  
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 2, 1867, p. 225: "
+    Gallus, Asinius, C., a son of C. Asinius Pollio, bore the agnomen of Saloninus.....The writings of Asinius Gallus, 
+    however, have perished, and all that has come down of his productions is a short epigram preserved in Suetonius..."
+  </mads:note>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/7775078/</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Gaius_Asinius_Gallus_Saloninus</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-nr95-21497</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0002.001;didno=ACL3129.0002.001;view=image;seq=00000235</mads:url>

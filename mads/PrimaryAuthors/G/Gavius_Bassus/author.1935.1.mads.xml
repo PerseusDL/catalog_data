@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/12196280">
       <mads:namePart>Gavius Bassus</mads:namePart>
     </mads:name>
   </mads:authority>
@@ -28,10 +29,9 @@
   <mads:identifier type="phi">413</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1935.1</mads:identifier>
   <mads:fieldOfActivity>Grammarian</mads:fieldOfActivity>
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="Worldcat Identities"/>
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology: "Bassus, Gavius, 
+    a learned grammarian, whose Commentarii and treatise De Origine Verborum et Vocabulorum are cited by Gellius .."
+    Brill's New Pauly: "G. Bassus Roman grammarian and antiquarian of the late Republic.."</mads:note>
   <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=bassus-gavius-bio-1</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/12196280</mads:url>
   <mads:url displayLabel="id.gov">http://id.loc.gov/authorities/names/nr95016321</mads:url>
