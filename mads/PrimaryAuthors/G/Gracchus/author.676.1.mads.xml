@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority lang="lat">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/75178071/">
       <mads:namePart>Gracchus, Gaius Sempronius</mads:namePart>
       <mads:namePart type="date">154-121 B.C</mads:namePart>
     </mads:name>
@@ -27,36 +28,21 @@
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Gracchus, C. Sempronius (Caius Sempronius)</mads:namePart>
-      <mads:namePart type="date">154-121 B.C</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Gracchus, Gaius</mads:namePart>
-      <mads:namePart type="date">154-121 B.C</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Gracchus, Caius</mads:namePart>
-      <mads:namePart type="date">154-121 B.C</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="cat">
     <mads:name type="personal">
       <mads:namePart>Gai Semproni Grac</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Grakkh, Ga&#x12D;,</mads:namePart>
-      <mads:namePart type="date">154-121 B.C</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other" lang="gre">
-    <mads:name type="personal">
-      <mads:namePart>Grakchos, Ga&#xEF;os,</mads:namePart>
-      <mads:namePart type="date">154-121 B.C</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
@@ -79,11 +65,6 @@
       <mads:namePart>Grakchus, Gajusz </mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:variant type="other" lang="rus">
-    <mads:name type="personal">
-      <mads:namePart>&#x413;&#x430;&#x439; &#x421;&#x435;&#x43C;&#x43F;&#x440;&#x43E;&#x301;&#x43D;&#x438;&#x439; &#x413;&#x440;&#x430;&#x43A;&#x445;</mads:namePart>
-    </mads:name>
-  </mads:variant>
   <mads:variant type="other" lang="spa">
     <mads:name type="personal">
       <mads:namePart>Graco, Cayo</mads:namePart>
@@ -95,12 +76,6 @@
       <mads:namePart>Cayo Sempronio Graco</mads:namePart>
     </mads:name>
   </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Grakchos, Gaios Sempr&#x14D;nios,</mads:namePart>
-      <mads:namePart type="date">154-121 B.C</mads:namePart>
-    </mads:name>
-  </mads:variant>
   <mads:variant type="abbreviation">
     <mads:name type="personal" authority="old">
       <mads:namePart>GRACCH.</mads:namePart>
@@ -110,16 +85,11 @@
   <mads:note type="source">Romero, J.L. Estado y sociedad en el mundo antiguo, c1980: p. 11 (Cayo Graco)</mads:note>
   <mads:note type="source">OCLC, 10/24/96 (hdgs.: Gracchus, Gaius Sempronious, 154-121 B.C.; Gracchus, Caius Sempronious, 153-121 B.C.; 
         usage: Caius Gracchus; C. Sempronius Gracchus)</mads:note>
-  <mads:note type="source">Gai&#xCC;&#x88;os Grakchos, 1993: p. 9 (Gai&#xCC;&#x88;os Grakchos, 154-121 B.C.)</mads:note>
-  <mads:note type="source">Enkykl. Papyros Larous Britannika, c1984 (Gaios Sempro&#xCC;&#x84;nios Grakchos; Caius Sempronius Gracchus, 160/153?
-        -121 B.C.; Roman mayor (123-122, B.C.) who restored to power the agrarian reformers of this brother Tiberius Sempronius Gracchus (162-133 B.C.) 
-        and proposed new standards in order to reduce the power of the Roman Senate)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.676.1</mads:identifier>
   <mads:identifier type="lccn">n  81098243 </mads:identifier>
   <mads:fieldOfActivity>Tribune</mads:fieldOfActivity>
   <mads:fieldOfActivity>Orator</mads:fieldOfActivity>
-  
-  
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/75178071/ </mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Gaius_Gracchus</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-n81-98243</mads:url>
   <mads:url displayLabel="Smith's Dictionary">http://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=moa;cc=moa;rgn=full%20text;idno=ACL3129.0002.001;didno=ACL3129.0002.001;view=image;seq=00000304</mads:url>
