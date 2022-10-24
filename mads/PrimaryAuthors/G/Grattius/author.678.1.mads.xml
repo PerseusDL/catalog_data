@@ -6,7 +6,8 @@
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
            version="2.0">
   <mads:authority lang="lat">
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/250873970/">
          <mads:namePart>Grattius</mads:namePart>
          <mads:namePart type="termsOfAddress">Faliscus</mads:namePart>
       </mads:name>
@@ -55,11 +56,17 @@
   </mads:variant>
   <mads:fieldOfActivity>Poet</mads:fieldOfActivity>
   <mads:fieldOfActivity>Latin Poet</mads:fieldOfActivity>
-  
-  
+    <mads:note type="source">Brill's New Pauly: "Writer of an informative Latin didactic poem about 
+        the hunt (Cynegetica = Cyn.) in several bks., of which one fragment of 541 hexameters from
+        the first bk. is extant. G. was perhaps of Faliscan ( Falisci) origin (Cyn. 40). Ovid 
+        mentions him and his didactic poem in the Epistulae ex Ponto (4,16,35)
+        in the case of the spelling Gratius attested by the Ovid MSS, it is probably a matter
+        of an historically incorrect variation..." Schindler, Alfred (Heidelberg). "Grattius."
+        Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and
+        Helmuth Schneider . Brill, 2011. Brill Online. Tufts University Library. 25 March 2011</mads:note>
+    <mads:url displayLabel="VIAF">https://viaf.org/viaf/250873970/</mads:url>  
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Grattius</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-nr89-2495</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:identifier type="citeurn">urn:cite:perseus:author.678.1</mads:identifier>
   <mads:identifier type="phi">887</mads:identifier>
   <mads:identifier type="stoa author">stoa0139</mads:identifier>

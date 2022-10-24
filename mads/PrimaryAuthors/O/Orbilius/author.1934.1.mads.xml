@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
-<mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads.xsd">
+<mads:mads xmlns:mads="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
+  version="2.0"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/76207567">
       <mads:namePart>Orbilius Pupillus, L. (Lucius)</mads:namePart>
       <mads:namePart type="date">approximately 114 B.C.-approximately 14 B.C</mads:namePart>
     </mads:name>
@@ -9,38 +13,34 @@
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>L. Orbilius Pupillus (Lucius Orbilius Pupillus)</mads:namePart>
-      <mads:namePart type="date">approximately 114 B.C.-approximately 14 B.C</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Orbilius Pupillus, L. (Lucius)</mads:namePart>
-      <mads:namePart type="date">ca. 114-ca. 14 B.C</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Orbilius Pupillus, Lucius</mads:namePart>
-      <mads:namePart type="date">approximately 114 B.C.-approximately 14 B.C</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Pupillus, L. Orbilius (Lucius Orbilius)</mads:namePart>
-      <mads:namePart type="date">approximately 114 B.C.-approximately 14 B.C</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:note type="source">His Grammatica [CF] 1991: PHI CD ROM #5.3, Latin Canon, bibliographic
     screen (L. Orbilius Pupillus)</mads:note>
-  <mads:note type="source">Pauly-Wissowa: 35. Halbbd., col. 876-877 (L. Orbilius Pupillus; b. 114 in
-    Beneventum; d. ca. 14 B.C.; grammarian; migrated to Rome, 63 B.C., where he was a teacher of the
+  <mads:note type="source">Pauly-Wissowa: 35. Halbbd., col. 876-877 (L. Orbilius Pupillus, b. 114 in
+    Beneventum; d. ca. 14 B.C., grammarian; migrated to Rome, 63 B.C., where he was a teacher of the
     sons of wealthy families)</mads:note>
-  <mads:note type="source">Oxford class. dict., 1st ed.: p. 624 (Orbilius Pupillus, Lucius; of
-    Beneventum; teacher and grammarian; migrated to Rome aged 50 (63 B.C.); his pupils included
+  <mads:note type="source">Oxford class. dict., 1st ed.: p. 624 (Orbilius Pupillus, Lucius of
+    Beneventum, teacher and grammarian, migrated to Rome aged 50 (63 B.C.), his pupils included
     Horace, who called him plogosus ("whacker") from thrashings administered during lessons on
     Andronicus' translation of Homer's Odyssey)</mads:note>
   <mads:note type="source">Dict. of Greek and Roman biography and mythology, 1967: v. 2, p. 41
-    (Orbilius Pupillus; Roman grammarian and schoolmaster; he lived to be maybe one hundred years
+    (Orbilius Pupillus, Roman grammarian and schoolmaster, he lived to be maybe one hundred years
     old, and as he was 50 in B.C. 63, he must have born in B.C. 113, and have died shortly before
     B.C. 13)</mads:note>
   <mads:note type="notFound">NUC pre-56</mads:note>
@@ -48,9 +48,8 @@
   <mads:identifier type="phi">419</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1934.1</mads:identifier>
   <mads:fieldOfActivity>Grammarian</mads:fieldOfActivity>
-  <mads:url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Lucius_Orbilius_Pupillus</mads:url>
-  <mads:url displayLabel="Worldcat Identities"/>
-  <mads:url displayLabel="Smith's Dictionary"/>
+  <mads:url displayLabel="Wikipedia"
+    >https://en.wikipedia.org/wiki/Lucius_Orbilius_Pupillus</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/76207567</mads:url>
   <mads:url displayLabel="id.gov">http://id.loc.gov/authorities/names/nr95027998</mads:url>
   <mads:extension>

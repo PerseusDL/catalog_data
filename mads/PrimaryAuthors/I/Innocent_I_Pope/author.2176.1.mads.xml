@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2176.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd"> 
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/222301390">
 	        <namePart>Innocent</namePart>
 	        <namePart type="termsOfAddress">I, Pope</namePart>
 	        <namePart type="date">-417</namePart>
@@ -39,6 +41,7 @@
 	        <namePart type="termsOfAddress">I</namePart>
       </name>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2176.1</identifier>  
     <note type="source">Oxford dictionary of popes, 1986: (Innocent I; pope from Dec. 21, 401-Dec. 3, 417)</note>
     <note type="source">La lettra di S. Innocenzo I a Decenzio vescovo di Gubbio, 1921: t.p. (S. Innocenzo I)</note>
     <note type="source">LC in RLIN, Aug. 25, 1997 (Innocentius I, Saint, Pope, d. 417)</note>
