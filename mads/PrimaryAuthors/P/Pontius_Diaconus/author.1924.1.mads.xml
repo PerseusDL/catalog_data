@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads.xsd">
   <mads:authority geographicSubdivision="not applicable">
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/163516157">
       <mads:namePart>Pontius</mads:namePart>
       <mads:namePart type="termsOfAddress">Diaconus</mads:namePart>
       <mads:namePart type="date">ca. 3. Jh</mads:namePart>
@@ -16,14 +17,6 @@
     <mads:name type="personal">
       <mads:namePart>Pontius</mads:namePart>
       <mads:namePart type="termsOfAddress">Carthaginiensis</mads:namePart>
-      <mads:namePart type="date">ca. 3. Jh</mads:namePart>
-    </mads:name>
-  </mads:variant>
-  <mads:variant type="other">
-    <mads:name type="personal">
-      <mads:namePart>Pontius</mads:namePart>
-      <mads:namePart type="termsOfAddress">Diaconus</mads:namePart>
-      <mads:namePart type="date">ca. 3. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -36,7 +29,6 @@
     <mads:name type="personal">
       <mads:namePart>Ponce</mads:namePart>
       <mads:namePart type="termsOfAddress">Diacre</mads:namePart>
-      <mads:namePart type="date">ca. 3. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -60,7 +52,6 @@
     <mads:name type="personal">
       <mads:namePart>Pontius</mads:namePart>
       <mads:namePart type="termsOfAddress">Diakon</mads:namePart>
-      <mads:namePart type="date">ca. 3. Jh</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -99,8 +90,9 @@
   <mads:identifier type="citeurn">urn:cite:perseus:author.1924.1</mads:identifier>
   <mads:fieldOfActivity>Hagiographer</mads:fieldOfActivity>
   <mads:fieldOfActivity>Biographer</mads:fieldOfActivity>
-  
-  
+  <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology: "Pontius, of Carthage, Christian deacon
+    supplemented a “‘Vita Cypriani” with the Acta Cypriani, anonymously written in the style of a protocol...P. was the first to represent a bishop in a Latin biography
+    his work, much praised by Jer. Vir. ill. 68, should have the title Vita et passio, as Jerome correctly notes..."</mads:note>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Pontius_of_Carthage</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/163516157</mads:url>
   <mads:url displayLabel="id.gov">http://id.loc.gov/authorities/names/nr2002022275</mads:url>
