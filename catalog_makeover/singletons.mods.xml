@@ -5936,10 +5936,23 @@
         </location>
         <location>
             <url displayLabel="Open Content Alliance"
-                >https://archive.org/details/bub_gb_OQ_gAAAAMAAJ/page/n1</url>
+                >https://archive.org/details/bub_gb_OQ_gAAAAMAAJ</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Anthologiarum libri">
             <identifier type="ctsurn">urn:cts:greekLit:tlg1764.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1764.tlg001.opp-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>1</start>
+                        <end>372</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="Open Content Alliance"
+                        >https://archive.org/details/bub_gb_OQ_gAAAAMAAJ/page/n19/mode/2up</url>
+                </location>
+            </relatedItem>
             <relatedItem type="constituent" otherType="expression">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg1764.tlg001.1st1K-grc1</identifier>
                 <location>
@@ -33328,14 +33341,14 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="ΑΙΣΩΠΕΙΩΝ ΜΥΘΩΝ ΣΥΝΑΓΩΓΗ">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0096.tlg002.First1K-grc1</identifier>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0096.tlg002.1st1K-grc1</identifier>
                 <location>
                     <url displayLabel="Scaife Viewer"
-                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg0096.tlg002.First1K-grc1/</url>
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg0096.tlg002.1st1K-grc1/</url>
                 </location>
                 <location>
                     <url displayLabel="First1KGreek"
-                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0096/tlg002/tlg0096.tlg002.First1K-grc1.xml</url>
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0096/tlg002/tlg0096.tlg002.1st1K-grc1.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -57990,7 +58003,7 @@ p -->
         </titleInfo>
         <name type="personal" usage="primary" authority="viaf" authorityURI="http://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/306114022/">
-            <namePart>Öhler, Heinrich.</namePart>
+            <namePart>Öhler, Heinrich</namePart>
             <namePart type="date">1889-1956</namePart>
             <role>
                 <roleTerm>editor</roleTerm>
@@ -58076,7 +58089,7 @@ p -->
             <relatedItem type="constituent" otherType="expression" displayLabel="Mirabilia de aquis">
                 <identifier type="ctsurn">tlg0580.tlg001.1st1K-grc1</identifier>
                 <location>
-                    <url displayLabel="Scaife Viewer"/>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0580.tlg001.1st1K-grc1:1-5/</url>
                 </location>
                 <location>
                     <url displayLabel="First1KGreek"
@@ -68982,6 +68995,15 @@ p -->
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Synagoge">
             <identifier type="ctsurn">urn:cts:greekLit:tlg2032.tlg001</identifier>
+            <relatedItem type="constituent" otherType="expression">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2032.tlg001.1st1K-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg2032.tlg001.1st1K-grc1</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg2032/tlg001/tlg2032.tlg001.1st1K-grc1.xml</url>
+                </location>
+            </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Synagoge">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg2032.tlg001.opp-lat3</identifier>
                 <identifier type="ctsurn">urn:cts:greekLit:tlg2032.tlg001.opp-grc4</identifier>
@@ -69066,8 +69088,12 @@ p -->
                     displayLabel="Volume 3-Part II">
                     <part>
                         <detail type="volume">
-                            <caption>Volumen III</caption>
-                            <number>Tomus II</number>
+                            <caption>Volume</caption>
+                            <number>3</number>
+                        </detail>
+                        <detail type="section">
+                            <caption>Part</caption>
+                            <number>2</number>
                         </detail>
                     </part>
                     <tableOfContents>Index Graecitatis, Scripturae Compendiorum, Conspectus, Index

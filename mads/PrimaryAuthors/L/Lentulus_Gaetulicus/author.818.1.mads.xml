@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
+  version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://www.viaf.org/viaf/"
+      valueURI="http://www.viaf.org/viaf/14660104">
       <mads:namePart>Lentulus Gaetulicus, Cn. Cornelius (Cneius Cornelius)</mads:namePart>
       <mads:namePart type="date">d. 39</mads:namePart>
     </mads:name>
@@ -9,55 +13,46 @@
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Cornelius Lentulus Gaetulicus, Cn. (Cneius)</mads:namePart>
-      <mads:namePart type="date">d. 39</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Cornelius Lentulus Gaetulicus, Cneius</mads:namePart>
-      <mads:namePart type="date">d. 39</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Cornelius Lentulus Gaetulicus, Gnaeus</mads:namePart>
-      <mads:namePart type="date">d. 39</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Lentulus Gaetulicus, Cneius Cornelius</mads:namePart>
-      <mads:namePart type="date">d. 39</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Lentulus Gaetulicus, Gnaeus Cornelius</mads:namePart>
-      <mads:namePart type="date">d. 39</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Gaetulicus, Cn. Cornelius Lentulus (Cneius Cornelius Lentulus)</mads:namePart>
-      <mads:namePart type="date">d. 39</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Gaetulicus, Cneius Cornelius Lentulus</mads:namePart>
-      <mads:namePart type="date">d. 39</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Gaetulicus, Gnaeus Cornelius Lentulus</mads:namePart>
-      <mads:namePart type="date">d. 39</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Gaetulicus</mads:namePart>
-      <mads:namePart type="date">d. 39</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -71,8 +66,6 @@
   <mads:note type="source">Oxford class. dict., 1st ed.: p. 494 (Lentulus Gaetulicus, Gnaeus
         Cornelius, consul in 26 A.D. and legate of Upper Germany, executed by the emperor Gaius
         (Caligula) in 39)</mads:note>
-  <mads:note type="source">Who was who in the Roman world, 1980: (Lentulus Gaetulicus, Gnaeus
-        Cornelius, executed 39 A.D.)</mads:note>
   <mads:note type="source">A Dictionary of Greek and Roman biography and mythology, 1967: v. 2, p.
         733, "Lentulus", #41 (Cn. Cornelius Cossi f. Cn. n. Lentulus Gaetulicus)</mads:note>
   <mads:note type="source">Pauly-Wissowa: 7. Halbbd. col. 1384-1386, "Cornelius", #220 (Cn.
@@ -87,11 +80,12 @@
   <mads:identifier type="citeurn">urn:cite:perseus:author.818.1</mads:identifier>
   <mads:identifier type="lccn">nr 95021465 </mads:identifier>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-    <mads:fieldOfActivity>Poet</mads:fieldOfActivity>
-  
-  <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Gnaeus_Cornelius_Lentulus_Gaetulicus</mads:url>
+  <mads:fieldOfActivity>Poet</mads:fieldOfActivity>
+  <mads:url displayLabel="Wikipedia"
+    >http://en.wikipedia.org/wiki/Gnaeus_Cornelius_Lentulus_Gaetulicus</mads:url>
   <mads:url displayLabel="VIAF">http://www.viaf.org/viaf/14660104/</mads:url>
-  <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=lentulus-bio-42</mads:url>
+  <mads:url displayLabel="Smith's Dictionary"
+    >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=lentulus-bio-42</mads:url>
   <mads:identifier type="phi">875</mads:identifier>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
