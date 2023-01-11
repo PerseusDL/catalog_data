@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
+  version="2.0">
   <mads:authority lang="eng">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/22933701">
       <mads:namePart>Liudprand</mads:namePart>
       <mads:namePart type="termsOfAddress">Bishop of Cremona</mads:namePart>
       <mads:namePart type="date">d. ca. 972</mads:namePart>
@@ -11,50 +15,43 @@
     <mads:name type="personal">
       <mads:namePart>Liudprandus</mads:namePart>
       <mads:namePart type="termsOfAddress">Bp. of Cremona</mads:namePart>
-      <mads:namePart type="date">d. ca. 972</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Luitprandus</mads:namePart>
       <mads:namePart type="termsOfAddress">Bishop of Cremona</mads:namePart>
-      <mads:namePart type="date">d. ca. 972</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Liutprand</mads:namePart>
       <mads:namePart type="termsOfAddress">Bishop of Cremona</mads:namePart>
-      <mads:namePart type="date">d. ca. 972</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Liudprandus</mads:namePart>
       <mads:namePart type="termsOfAddress">Bishop of Cremona</mads:namePart>
-      <mads:namePart type="date">d. ca. 972</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Liudprand</mads:namePart>
       <mads:namePart type="termsOfAddress">von Cremona</mads:namePart>
-      <mads:namePart type="date">d. ca. 972</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Liudprand</mads:namePart>
       <mads:namePart type="termsOfAddress">of Cremona</mads:namePart>
-      <mads:namePart type="date">d. ca. 972</mads:namePart>
     </mads:name>
   </mads:variant>
-    <mads:variant type="other">
+  <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Eutrandus</mads:namePart>
-      <mads:namePart type="termsOfAddress">Cremonensis</mads:namePart>
     </mads:name>
-  </mads:variant> 
+  </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Eutrandus</mads:namePart>
@@ -65,28 +62,24 @@
     <mads:name type="personal">
       <mads:namePart>Liutprando</mads:namePart>
       <mads:namePart type="termsOfAddress">da Cremona</mads:namePart>
-      <mads:namePart type="date">d. ca. 972</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Liutprando</mads:namePart>
       <mads:namePart type="termsOfAddress">di Cremona</mads:namePart>
-      <mads:namePart type="date">d. ca. 972</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Liutprando</mads:namePart>
       <mads:namePart type="termsOfAddress">de Cremona</mads:namePart>
-      <mads:namePart type="date">d. ca. 972</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Liudprandus</mads:namePart>
       <mads:namePart type="termsOfAddress">Cremonensis</mads:namePart>
-      <mads:namePart type="date">d. ca. 972</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:note type="source">Rentschler, M. Liudprand von Cremona, c1981 (subj.) t.p. (Liudprand von Cremona)</mads:note>
@@ -101,7 +94,8 @@
   <mads:fieldOfActivity>Bishop</mads:fieldOfActivity>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Liutprand_of_Cremona</mads:url>
-  <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-n80-156035</mads:url>
+  <mads:url displayLabel="Worldcat Identities"
+    >http://worldcat.org/identities/lccn-n80-156035</mads:url>
   <mads:url displayLabel="Smith's Dictionary"/>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/22933701/</mads:url>
   <mads:extension>

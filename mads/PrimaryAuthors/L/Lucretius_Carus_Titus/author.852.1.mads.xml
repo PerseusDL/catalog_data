@@ -6,7 +6,8 @@
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
            version="2.0">
   <mads:authority lang="lat">
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+          valueURI="http://viaf.org/viaf/106388020">
          <mads:namePart>Lucretius Carus, Titus</mads:namePart>
       </mads:name>
   </mads:authority>
@@ -110,10 +111,6 @@
          <mads:namePart>LUCR.</mads:namePart>
       </mads:name>
   </mads:variant>
-  <mads:note type="source">His O prirode veshcheiÌ&#x86;, 1946</mads:note>
-  <mads:note type="source">Burnet, E. LucreÌ&#x80;ce, notre contemporain, c1984: p. 10-11
-        (Titus Lucretius Carus; birth date variously reported as 94 B.C., 95 B.C., and 99 B.C.;
-        death date about 55 or 54 B.C.)</mads:note>
   <mads:note type="source">Reitzenstein, E. Theophrast bei Epikur und Lucrez, 1975 (Lucrez)</mads:note>
   <mads:note type="source">Woltjer, J. Lucretii philosophia cum ... 1987: CIP t.p. (Lucretii)
         galley (Lucretius)</mads:note>
@@ -127,8 +124,12 @@
   <mads:fieldOfActivity>Philosopher</mads:fieldOfActivity>
   <mads:fieldOfActivity>Epicurean</mads:fieldOfActivity>
   <mads:fieldOfActivity>Latin Poet</mads:fieldOfActivity>
-  
-  
+    <mads:note type="source">Smith's Dictionary of Greek and Roman Biography and Mythology, Vol 2, 1867, p. 828-830: "The information to be derived from Ancient writers 
+        regarding the personal history of Lucretius is very scanty in amount and somewhat suspiciious in character... 
+        The work which has immortalised the name of Lucretius, and which, happily, has been preserved entire, is 
+        a philosophical didactic poem, and is entitled De Rerum Natura...""</mads:note>  
+    <mads:note type="source">Brill's New Pauly: "T. Lucretius Carus, The ancient details regarding the exact time when the Roman didactic poet of Epicurean physics, 
+        T.L. Carus, lived are inconsistent....</mads:note>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/106388020</mads:url>        
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Lucretius</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-n79-33010</mads:url>

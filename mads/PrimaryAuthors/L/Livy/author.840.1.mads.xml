@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/99942145">
       <mads:namePart>Livy</mads:namePart>
     </mads:name>
   </mads:authority>
@@ -27,8 +28,7 @@
   </mads:variant>
   <mads:variant type="other" lang="ara">
     <mads:name type="personal" authority="viaf">
-      <mads:namePart>&#x62A;&#x64A;&#x62A;&#x648;&#x633; &#x644;&#x64A;&#x641;&#x64A;&#x648;&#x633;</mads:namePart>
-      <mads:namePart type="termsOfAddress"/>
+      <mads:namePart>تيتوس ليفيوس,</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="cat">
@@ -38,7 +38,7 @@
   </mads:variant>
   <mads:variant type="other" lang="chi">
     <mads:name type="personal">
-      <mads:namePart>&#x8482;&#x6258;&#xB7;&#x674E;&#x7EF4;</mads:namePart>
+      <mads:namePart>蒂托·李维</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
@@ -48,12 +48,12 @@
   </mads:variant>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal">
-      <mads:namePart>&#x3A4;&#x3AF;&#x3C4;&#x3BF;&#x3C2; &#x39B;&#x3AF;&#x3B2;&#x3B9;&#x3BF;&#x3C2;</mads:namePart>
+      <mads:namePart>Τίτος Λίβιος</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="heb">
     <mads:name type="personal" authority="viaf">
-      <mads:namePart>&#x5D8;&#x5D9;&#x5D8;&#x5D5;&#x5E1; &#x5DC;&#x5D9;&#x5D5;&#x5D5;&#x5D9;&#x5D5;&#x5E1;</mads:namePart>
+      <mads:namePart>טיטוס ליוויוס</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
@@ -63,12 +63,12 @@
   </mads:variant>
   <mads:variant type="other" lang="jap">
     <mads:name type="personal" authority="viaf">
-      <mads:namePart>&#x30C6;&#x30A3;&#x30C8;&#x30A5;&#x30B9;&#x30FB;&#x30EA;&#x30A6;&#x30A3;&#x30A6;&#x30B9;</mads:namePart>
+      <mads:namePart>ティトゥス・リウィウス</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="kor">
     <mads:name type="personal">
-      <mads:namePart>&#xD2F0;&#xD22C;&#xC2A4; &#xB9AC;&#xBE44;&#xC6B0;&#xC2A4;</mads:namePart>
+      <mads:namePart>티투스 리비우스</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -88,7 +88,7 @@
   </mads:variant>
   <mads:variant type="other" lang="rus">
     <mads:name type="personal">
-      <mads:namePart>&#x422;&#x438;&#x442; &#x41B;&#x438;&#x432;&#x438;&#x439;</mads:namePart>
+      <mads:namePart>Тит Ливий</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="spa">
@@ -123,9 +123,16 @@
     </mads:name>
   </mads:variant>
   <mads:fieldOfActivity>Historian</mads:fieldOfActivity>
-  
-  
-  
+  <mads:note type="source">Brill's New Pauly: "L., T. Roman historiographer, 59 BC - 17 AD... ...
+    The history Ab urbe condita libri, ‘From the founding of the city (Rome)’, in 142 bks. extended to the death 
+    of the elder Drusus... reserved are 35 bks.: bks. 1-10 (until 293 BC) and bks. 21-45 (218-167 BC
+    from bk. 41 with lacunae) moreover a fragment from bk. 91 (on Sertorius) as well as from bk. 120 a 
+    description of Cicero's death and a characterization of him in a quote from the elder Seneca (Sen. Suas. 6,17 and 22).
+    Our information on what is lost comes from excerpts, especially the so-called Periochae (missing for bks. 136 and 137) 
+    and remains of content summaries for bks. 37-40, 48-55 and 87-88, which go back to a common intermediate step with 
+    the historical notes by Iulius Obsequens and the consul list in the Chronica of Cassiodorus...."
+    from Schmidt, Peter L. (Constance) Fuhrmann, Manfred (Constance). Livius." Brill’s New Pauly. 
+    Brill Online, 2013. Reference. Tufts University Library. 26 February 2013</mads:note>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/99942145</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Livy</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://orlabs.oclc.org/identities/lccn-n79-15690</mads:url>
@@ -143,14 +150,6 @@
     <mads:identifier type="stoa author-text">stoa0179-stoa002</mads:identifier>
     <mads:identifier type="stoa author-text">stoa0179-stoa003</mads:identifier>
   </mads:extension>
-  <mads:note type="source">His Las De&#xCC;&#x81;cadas de Tito Livio, 1982?: v. 1, t.p. (Tito
-        Livio)</mads:note>
-  <mads:note type="source">His Istorii&#xEF;&#xB8;&#xA0;a&#xEF;&#xB8;&#xA1; Rima ot osnovanii&#xEF;&#xB8;&#xA0;a&#xEF;&#xB8;&#xA1; goroda, 1989- : v. 1, t.p.
-        (Tit Livii&#xCC;&#x86;) p. 5 (59 B.C.-17 A.D.)</mads:note>
-  <mads:note type="source">nuc89-65998: His Ab urbe condita libri [MI]1873-1888 (hdg. on MH rept.:
-        Livy; usage: T. Livi)</mads:note>
-  <mads:note type="source">His T. Livii Patavini Historiarum ab urbe condita libri qui supersunt,
-        1722</mads:note>
   <mads:note type="source">Lo storico in parola, 1998: t.p. (Livio)</mads:note>
   <mads:identifier type="lccn">n 79015690 </mads:identifier>
   <mads:recordInfo>
