@@ -188,7 +188,7 @@
         <titleInfo lang="lat" type="uniform">
             <title>Ab Urbe Condita</title>
         </titleInfo>
-        <titleInfo type="translated" lang="eng"> 
+        <titleInfo type="translated" lang="eng">
             <title>History of Rome</title>
             <partNumber>Volume 1-2</partNumber>
         </titleInfo>
@@ -206,7 +206,7 @@
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
-        </name>        
+        </name>
         <originInfo>
             <place>
                 <placeTerm type="code" authority="marccountry">enk</placeTerm>
@@ -247,10 +247,12 @@
             </titleInfo>
         </relatedItem>
         <location>
-            <url displayLabel="HathiTrust" note="Volume 1">https://hdl.handle.net/2027/inu.32000001981283</url>
+            <url displayLabel="HathiTrust" note="Volume 1"
+                >https://hdl.handle.net/2027/inu.32000001981283</url>
         </location>
         <location>
-            <url displayLabel="HathiTrust" note="Volume 2">https://hdl.handle.net/2027/wu.89003814845</url>
+            <url displayLabel="HathiTrust" note="Volume 2"
+                >https://hdl.handle.net/2027/wu.89003814845</url>
         </location>
         <!-- URNs for Livy are a sufficient mess that I am not going to create another one at this moment
         for the other expression of this work in this edition-->
@@ -265,15 +267,17 @@
                     </detail>
                 </part>
                 <location>
-                    <url displayLabel="Perseus Canonical Latin Literature">https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0914/phi001/phi0914.phi001.perseus-eng3.xml</url>
+                    <url displayLabel="Perseus Canonical Latin Literature"
+                        >https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0914/phi001/phi0914.phi001.perseus-eng3.xml</url>
                 </location>
                 <location>
-                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:latinLit:phi0914.phi001.perseus-eng3</url>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:latinLit:phi0914.phi001.perseus-eng3</url>
                 </location>
             </relatedItem>
         </relatedItem>
     </mods>
-    
+
     <mods displayLabel="Ab Urbe Condita-Livy-Church-Macmillan-1901-Book 21,25">
         <titleInfo lang="lat" type="uniform">
             <title>Ab Urbe Condita</title>
@@ -1158,7 +1162,7 @@
             <role>
                 <roleTerm authority="marcrelator" type="text">editor</roleTerm>
             </role>
-        </name>        
+        </name>
         <originInfo>
             <dateIssued qualifier="questionable">1884-1911</dateIssued>
             <publisher>Teubner</publisher>
@@ -1168,7 +1172,7 @@
             <edition>Editio Stereotpyica</edition>
         </originInfo>
         <physicalDescription>
-          <digitalOrigin>digitized other analog</digitalOrigin>
+            <digitalOrigin>digitized other analog</digitalOrigin>
             <extent>4 volumes</extent>
         </physicalDescription>
         <classification authority="lcc">PA6104</classification>
@@ -1181,17 +1185,20 @@
             </titleInfo>
         </relatedItem>
         <location>
-            <url displayLabel="HathiTrust" note="catalog record">https://catalog.hathitrust.org/Record/001808936</url>
+            <url displayLabel="HathiTrust" note="catalog record"
+                >https://catalog.hathitrust.org/Record/001808936</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Ab Urbe Condita">
             <identifier type="ctsurn">urn:cts:latinLit:phi0914.phi001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Ab Urbe Condita">
-                <identifier type="ctsurn">urn:cts:latinLit:phi0914.phi001.perseus-lat2</identifier>   
+                <identifier type="ctsurn">urn:cts:latinLit:phi0914.phi001.perseus-lat2</identifier>
                 <location>
-                    <url displayLabel="Perseus Canonical Latin">https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0914/phi001/phi0914.phi001.perseus-lat2.xml</url>
+                    <url displayLabel="Perseus Canonical Latin"
+                        >https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0914/phi001/phi0914.phi001.perseus-lat2.xml</url>
                 </location>
                 <location>
-                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:latinLit:phi0914.phi001.perseus-lat2</url>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:latinLit:phi0914.phi001.perseus-lat2</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -2138,7 +2145,7 @@
     </mods>
     <mods displayLabel="Ad Autolycum Libri Tres-Theophilus-Humphry-Parker-1852">
         <titleInfo>
-            <title>Libri tres ad Autholycum</title>
+            <title>Libri tres ad Autolycum</title>
         </titleInfo>
         <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
             displayLabel="https://viaf.org/viaf/107036494">
@@ -2250,10 +2257,10 @@
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
-                <placeTerm type="code" authority="marccountry">xx</placeTerm>
+                <placeTerm type="code" authority="marccountry">ge</placeTerm>
             </place>
             <place>
-                <placeTerm type="text">Ienae</placeTerm>
+                <placeTerm type="text">Jena</placeTerm>
             </place>
             <publisher>Mauke</publisher>
             <dateIssued>1861</dateIssued>
@@ -6760,6 +6767,120 @@
             </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Apocolocyntosis">
                 <identifier type="ctsurn">urn:cts:latinLit:phi1017.phi011.opp-lat3</identifier>
+            </relatedItem>
+        </relatedItem>
+    </mods>
+    <mods displayLabel="Apocalypsis Enoch">
+        <titleInfo>
+            <nonSort>Das</nonSort>
+            <title>buch Henoch</title>
+        </titleInfo>
+        <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/62304710/">
+            <namePart>Flemming, Johannes Paul Gotthilf,</namePart>
+            <namePart type="date">1859-1914</namePart>
+            <role>
+                <roleTerm type="text">editor</roleTerm>
+            </role>
+        </name>
+        <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/5679336">
+            <namePart>Radermacher, Ludwig,</namePart>
+            <namePart type="date">1867-1952</namePart>
+            <role>
+                <roleTerm type="text">editor</roleTerm>
+            </role>
+        </name>
+        <name type="corporate">
+            <namePart>
+                Preussische Akademie der wissenschaften zu Berlin. Kirchenväter-commission.
+            </namePart>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <originInfo>
+            <place>
+                <placeTerm authority="marccountry" type="code">gw</placeTerm>
+            </place>
+            <issuance>monographic</issuance>
+            <place>
+                <placeTerm type="text">Leipzig</placeTerm>
+            </place>
+            <publisher>J.C. Hinrichs</publisher>
+            <dateIssued>1901</dateIssued>
+        </originInfo>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <language>
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>4 leaves, 171, [1] p. 26 cm.</extent>
+        </physicalDescription>
+        <tableOfContents displayLabel="Contents">
+            Einleitung.--Text: griechisches fragment; deutsche übersetzung des äthiopischen textes.--Register.
+        </tableOfContents>
+        <note type="statement of responsibility">
+            herausgegeben im auftrage der Kirchenväter-commission der Königlich preussischen akademie der wissenschaften von Joh. Flemming ... und L. Radermacher.
+        </note>
+        <classification authority="lcc">BR60 .G7 Bd. 5</classification>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>
+                    Die Griechischen christlichen Schriftsteller der ersten drei Jahrhunderte
+                </title>
+                <partNumber>Bd. 5</partNumber>
+            </titleInfo>
+        </relatedItem>
+        <identifier type="lccn">03019936</identifier>
+        <identifier type="oclc">19756155</identifier>
+        <location>
+            <url displayLabel="Worldcat">http://worldcat.org/oclc/19756155</url>
+        </location>
+        <location>
+            <url displayLabel="Internet Archive"
+                >https://archive.org/details/dasbuchhenochhrs00flemuoft/</url>
+        </location>
+        <relatedItem type="constituent" otherType="work" displayLabel="Apocalypsis Enochi">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Apocalypsis Enochi">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1463.tlg001.opp-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>18</start>
+                        <end>62</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="Open Content Alliance"
+                        >https://archive.org/details/dasbuchhenochhrs00flemuoft/page/18/mode/2up?</url>
+                </location>
+            </relatedItem>
+            <!-- Renumbered this one -will need to update in Scaife-->
+            <relatedItem type="constituent" otherType="expression" displayLabel="Apocalypsis Enochi">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1463.tlg001.1st1K-grc2</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg1463.tlg001.1st1K-grc2</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg1463/tlg001/tlg1463.tlg001.1st1K-grc2.xml</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Apocalypsis Enochi">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1463.tlg001.1st1K-lat1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg1463.tlg001.1stk-lat1</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg1463/tlg001/tlg1463.tlg001.1st1K-lat1.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -26952,10 +27073,12 @@ but this is where the TLG has left off for numbering-->
                 displayLabel="Diversarum hereseon liber">
                 <identifier type="ctsurn">urn:cts:latinLit:stoa0122a.stoa001.opp-lat1</identifier>
                 <location>
-                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:latinLit:stoa0122a.stoa001.opp-lat1/</url>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:latinLit:stoa0122a.stoa001.opp-lat1/</url>
                 </location>
                 <location>
-                    <url displayLabel="CSEL">https://github.com/OpenGreekAndLatin/csel-dev/blob/master/data/stoa0122a/stoa001/stoa0122a.stoa001.opp-lat1.xml</url>
+                    <url displayLabel="CSEL"
+                        >https://github.com/OpenGreekAndLatin/csel-dev/blob/master/data/stoa0122a/stoa001/stoa0122a.stoa001.opp-lat1.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -27443,12 +27566,23 @@ but this is where the TLG has left off for numbering-->
         </originInfo>
         <relatedItem type="constituent" otherType="work" displayLabel="Elegiae">
             <identifier type="ctsurn">urn:cts:latinLit:phi0660.phi003</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Elegies">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Six Poems">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0660.phi003.perseus-eng1</identifier>
                 <identifier>Perseus:text:1999.02.0071</identifier>
                 <location>
                     <url displayLabel="Perseus" note="English"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0071</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Six Poems">
+                <identifier type="ctsurn">urn:cts:latinLit:phi0660.phi003.perseus-eng2</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:latinLit:phi0660.phi003.perseus-eng2</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Latin"
+                        >https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0660/phi003/phi0660.phi003.perseus-eng2.xml</url>
                 </location>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Elegiae">
@@ -27457,6 +27591,17 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Perseus" note="Latin"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0070:text=orig</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Carmina Omnia">
+                <identifier type="ctsurn">urn:cts:latinLit:phi0660.phi003.perseus-lat2</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:latinLit:phi0660.phi003.perseus-lat2</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Latin"
+                        >https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0660/phi003/phi0660.phi003.perseus-lat2.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -42214,7 +42359,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Historiae-Thucydides-Jowett-Clarendon-1881-Perseus-English-2/5">
+    <mods displayLabel="Historiae-Thucydides-Jowett-Clarendon-1900-Perseus-English-2/5">
         <titleInfo lang="eng" type="uniform">
             <title>Histories</title>
         </titleInfo>
@@ -42255,7 +42400,7 @@ but this is where the TLG has left off for numbering-->
                 <placeTerm type="text">Oxford</placeTerm>
             </place>
             <publisher>Clarendon press</publisher>
-            <dateIssued>1881</dateIssued>
+            <dateIssued>1900</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
         <language objectPart="text">
@@ -42282,10 +42427,10 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/352149</url>
         </location>
         <location>
-            <url displayLabel="GoogleBooks">http://books.google.com/books?id=2U8OCOL-RfUC</url>
+            <url displayLabel="GoogleBooks" note="1881 edition">http://books.google.com/books?id=2U8OCOL-RfUC</url>
         </location>
         <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/umn.319510020828972</url>
+            <url displayLabel="HathiTrust" note="1881 edition">http://hdl.handle.net/2027/umn.319510020828972</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Historiae">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0003.tlg001</identifier>
@@ -49851,11 +49996,13 @@ but this is where the TLG has left off for numbering-->
                     </extent>
                 </part>
                 <location>
-                    <url displayLabel="Open Content Alliance">https://archive.org/details/commentariaina01akaduoft/page/n17/mode/2up</url>
+                    <url displayLabel="Open Content Alliance"
+                        >https://archive.org/details/commentariaina01akaduoft/page/n17/mode/2up</url>
                 </location>
             </relatedItem>
             <!-- Not yet updated online -->
-            <relatedItem type="constituent" otherType="expression" displayLabel="in Aristotelis Metaphysica commentaria">
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="in Aristotelis Metaphysica commentaria">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0732.tlg004.1st1K-grc1</identifier>
                 <location>
                     <url displayLabel="Scaife Viewer"
@@ -50321,11 +50468,13 @@ but this is where the TLG has left off for numbering-->
                     </extent>
                 </part>
                 <location>
-                    <url displayLabel="Open Content Alliance">https://archive.org/details/commentariaina03pt2akaduoft/page/n21/mode/2up</url>
+                    <url displayLabel="Open Content Alliance"
+                        >https://archive.org/details/commentariaina03pt2akaduoft/page/n21/mode/2up</url>
                 </location>
             </relatedItem>
-            <relatedItem type="constituent" otherType="expression" displayLabel="in Aristotelis Meteorologicorum libros commentaria">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0732.tlg008.1st1K-grc1</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="in Aristotelis Meteorologicorum libros commentaria">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0732.tlg008.1st1K-grc1</identifier>
                 <location>
                     <url displayLabel="First1KGreek"
                         >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0732/tlg008/tlg0732.tlg008.1st1K-grc1.xml</url>
@@ -50962,10 +51111,12 @@ but this is where the TLG has left off for numbering-->
                     </extent>
                 </part>
                 <location>
-                    <url displayLabel="Open Content Alliance">https://archive.org/details/pt2commentariain02akaduoft/page/n53/mode/2up</url>
+                    <url displayLabel="Open Content Alliance"
+                        >https://archive.org/details/pt2commentariain02akaduoft/page/n53/mode/2up</url>
                 </location>
             </relatedItem>
-            <relatedItem type="constituent" otherType="expression" displayLabel="in Aristotelis Topicorum libros octo commentaria">
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="in Aristotelis Topicorum libros octo commentaria">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0732.tlg006.1st1K-grc1</identifier>
                 <location>
                     <url displayLabel="Scaife Viewer"
@@ -51798,10 +51949,12 @@ p -->
                     </extent>
                 </part>
                 <location>
-                    <url displayLabel="Open Content Alliance">https://archive.org/details/p1commentariainari03bero/page/n23/mode/2up</url>
+                    <url displayLabel="Open Content Alliance"
+                        >https://archive.org/details/p1commentariainari03bero/page/n23/mode/2up</url>
                 </location>
             </relatedItem>
-            <relatedItem type="constituent" otherType="expression" displayLabel="in librum de sensu commentarium">
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="in librum de sensu commentarium">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0732.tlg007.1st1K-grc1</identifier>
                 <location>
                     <url displayLabel="Scaife Viewer"
@@ -54347,10 +54500,12 @@ p -->
                 displayLabel="Interpretatio Orationum Gregorii Nazianzeni">
                 <identifier type="ctsurn">urn:cts:latinLit:stoa0244d.stoa005.opp-lat1</identifier>
                 <location>
-                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:latinLit:stoa0244d.stoa005.opp-lat1/</url>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:latinLit:stoa0244d.stoa005.opp-lat1/</url>
                 </location>
                 <location>
-                    <url displayLabel="CSEL">https://github.com/OpenGreekAndLatin/csel-dev/blob/master/data/stoa0244d/stoa005/stoa0244d.stoa005.opp-lat1.xml</url>
+                    <url displayLabel="CSEL"
+                        >https://github.com/OpenGreekAndLatin/csel-dev/blob/master/data/stoa0244d/stoa005/stoa0244d.stoa005.opp-lat1.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -58290,7 +58445,8 @@ p -->
             <relatedItem type="constituent" otherType="expression" displayLabel="Mirabilia de aquis">
                 <identifier type="ctsurn">tlg0580.tlg001.1st1K-grc1</identifier>
                 <location>
-                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0580.tlg001.1st1K-grc1:1-5/</url>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0580.tlg001.1st1K-grc1:1-5/</url>
                 </location>
                 <location>
                     <url displayLabel="First1KGreek"
@@ -69199,10 +69355,12 @@ p -->
             <relatedItem type="constituent" otherType="expression">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg2032.tlg001.1st1K-grc1</identifier>
                 <location>
-                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg2032.tlg001.1st1K-grc1</url>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg2032.tlg001.1st1K-grc1</url>
                 </location>
                 <location>
-                    <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg2032/tlg001/tlg2032.tlg001.1st1K-grc1.xml</url>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg2032/tlg001/tlg2032.tlg001.1st1K-grc1.xml</url>
                 </location>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Synagoge">

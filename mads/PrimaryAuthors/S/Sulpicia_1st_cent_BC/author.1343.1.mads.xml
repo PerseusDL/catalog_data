@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/67269869/">
       <mads:namePart>Sulpicia</mads:namePart>
       <mads:namePart type="date">1st cent. B.C</mads:namePart>
     </mads:name>
@@ -9,13 +10,11 @@
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Sulpicia</mads:namePart>
-      <mads:namePart type="date">fl. 25 B.C</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Soulpikia</mads:namePart>
-      <mads:namePart type="date">1st cent. B.C</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:note type="source">Alvios Tivoullos ... 1989: t.p. (Soulpikia; Sulpicia)</mads:note>
@@ -27,8 +26,12 @@
   <mads:identifier type="lccn">n 92014232 </mads:identifier>
   <mads:fieldOfActivity>Elegist</mads:fieldOfActivity>
   <mads:fieldOfActivity>Poetess</mads:fieldOfActivity>
-  
-  
+  <mads:note type="source">Brill's New Pauly: "Suplicia, Poet in the Corpus Tibullianum, Granddaughter of Servius Sulpicius 
+    ... niece of M. Valerius Messala Corvinus. Author of a small collection of poems in the Corpus Tibullianum (3,13-18) in
+    which she expresses her love for a man whom she calls by the pseudonym Cerinthus
+    ..." Schmidt, Peter Lebrecht. "Sulpicia." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and
+    Helmuth Schneider . Brill, 2010. Brill Online. Tufts University Library
+    LC data base, 4-2-92 (hdg.: Sulpicia, fl. 25 B.C.</mads:note>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Sulpicia</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/67269869/</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-n92-14232</mads:url>
@@ -39,11 +42,6 @@
     <mads:identifier type="stoa author-text">stoa0269-stoa002</mads:identifier>
   </mads:extension>
   <mads:note type="source">LC data base, 4-2-92 (hdg.: Sulpicia, fl. 25 B.C.)</mads:note>
-  <mads:extension>
-    <mads:gender>
-      <mads:genderTerm>female</mads:genderTerm>
-    </mads:gender>
-  </mads:extension>
   <mads:recordInfo>
     <mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource>
     <mads:recordCreationDate encoding="marc">920208</mads:recordCreationDate>
