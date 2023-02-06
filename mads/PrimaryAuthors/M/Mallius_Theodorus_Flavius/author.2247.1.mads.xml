@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2247.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd"> 
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/305239870">
 	        <namePart>Mallius Theodorus, Flavius</namePart>
 	        <namePart type="date">active 377-409</namePart>
       </name>
@@ -10,22 +12,21 @@
     <variant type="other">
       <name type="personal">
 	        <namePart>Flavius Mallius Theodorus</namePart>
-	        <namePart type="date">active 377-409</namePart>
       </name>
     </variant>
     <variant type="other">
       <name type="personal">
 	        <namePart>Mallius Theodorus, Flavius</namePart>
-	        <namePart type="date">fl. 377-409</namePart>
       </name>
     </variant>
     <variant type="other">
       <name type="personal">
 	        <namePart>Theodorus, Flavius Mallius</namePart>
-	        <namePart type="date">active 377-409</namePart>
       </name>
     </variant>
-    <note type="source">Biblioteca apostolica vaticana. Manuscript. Vat. Lat. 1491 [MI] between 1951 and 1959: fol. 30r (Mallii Theodori Ars)</note>
+  <identifier type="citeurn">urn:cite:perseus:author.2247.1</identifier>
+    <note type="source">Biblioteca apostolica vaticana. Manuscript. Vat. Lat. 1491 [MI]
+      between 1951 and 1959: fol. 30r (Mallii Theodori Ars)</note>
     <note type="source">Oxford classical dict., 1996 (Mallius Theodorus, Flavius, wrote On meters)</note>
     <note type="source">Neue Pauly (Theodorus, Flavius Mallius, held political offices from ca. 377 to ca. 409)</note>
     <identifier type="lccn">no2004090858</identifier>

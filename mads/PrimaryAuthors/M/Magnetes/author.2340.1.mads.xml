@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2340.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd"> 
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/37257036">
 	        <namePart>Magnetes</namePart>
       </name>
     </authority>
     <identifier type="stoa">stoa0187d</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2340.1</identifier>
     <url displayLabel="viaf">http://viaf.org/viaf/37257036</url>
     <url displayLabel="WorldCat Identities">https://www.worldcat.org/identities/np-magnetes/</url>
     <extension>

@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  version="2.0"
+  xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/59476062/">
       <mads:namePart>Maecius, Quintus</mads:namePart>
       <mads:namePart type="date">1. Jh. v. Chr</mads:namePart>
     </mads:name>
@@ -13,7 +17,7 @@
   </mads:variant>
   <mads:variant type="other" lang="grc">
     <mads:name type="personal" authority="Brill">
-      <mads:namePart>Μαίκιος;</mads:namePart>
+      <mads:namePart>Μαίκιος</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -26,7 +30,6 @@
     <mads:name type="personal">
       <mads:namePart>Maecius</mads:namePart>
       <mads:namePart type="termsOfAddress">Epigrammaticus</mads:namePart>
-      <mads:namePart type="date">1. Jh. v. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -65,12 +68,20 @@
       <mads:namePart>Maec.</mads:namePart>
     </mads:name>
   </mads:variant>
+  <mads:note type="source">Brill's New Pauly: "Maecius, Epigrammatist, Poet, by whom 11
+    epigrams are extant from the ‘Garland’ of Philippus - erotic, anathematic and epideictic -
+    (the funerary epigram Anth. Pal. 7,635 originates perhaps from Antiphilus). For the Anth. Pal.
+    6,89, the praenomen Κοίντος (Koíntos) is placed side by side with the nomen Μαίκιος (Maíkios
+    Μάκκιος according the corrector and the lemmatists J), whereby the poem Anth. Pal. 6,230 
+    (ascribed without further information to a certain Quintus) can be attributed to him. M.
+    composes verses on an elevated level and is capable of witty and lively turns of phrase,
+    with occasionally unusual ideas in an epigrammatic setting..." from Albiani, Maria Grazia
+    (Bologna). "Maecius." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and
+    Helmuth Schneider . Brill, 2010. Brill Online</mads:note>
   <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
-  <mads:url displayLabel="VIAF">http://viaf.org/processed/DNB|102397937</mads:url>
+  <mads:note type="source"/>
+  <mads:url displayLabel="Wikipedia">https://ca.wikipedia.org/wiki/Quint_Meci</mads:url>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/59476062/</mads:url>
   <mads:url displayLabel="Smith's Dictionary"/>
   <mads:identifier type="citeurn">urn:cite:perseus:author.875.1</mads:identifier>
   <mads:identifier type="tlg">1474</mads:identifier>
