@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2319.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/103009367">
 	        <namePart>Marcellinus</namePart>
 	        <namePart type="termsOfAddress">Pope</namePart>
 	        <namePart type="date">-304</namePart>
@@ -22,8 +24,10 @@
       </name>
     </variant>
     <note type="source">Apologia pro Marcellino, 1876</note>
-    <note type="source">Catholic Encyclopedia www site, 4 Oct. 2007: Pope Saint Marcellinus page (elected 30 June 296; died 304)</note>
+    <note type="source">Catholic Encyclopedia www site, 4 Oct. 2007: 
+      Pope Saint Marcellinus page (elected 30 June 296; died 304)</note>
     <identifier type="lccn">nb2007022765</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2319.1</identifier>
     <identifier type="stoa">stoa0189a</identifier>
     <fieldOfActivity>Pope</fieldOfActivity>
     <url displayLabel="viaf">http://viaf.org/viaf/103009367</url>

@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="2.0">
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
+  version="2.0">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/39766935">
       <mads:namePart>Marcius, Cn</mads:namePart>
       <mads:namePart type="termsOfAddress">vates</mads:namePart>
     </mads:name>
@@ -29,16 +33,17 @@
   </mads:variant>
   <mads:fieldOfActivity>Rhetor</mads:fieldOfActivity>
   <mads:note type="source">His Praecepta [CF] 1991: PHI CD ROM #5.3, Latin Canon, bibliographic screen (Cn. Marcius vates)</mads:note>
-  <mads:note type="source">Pauly-Wissowa: 28. Halbbd., col. 1538, 1541-1542; "Marcius", #2 (Marcius; Marcius vates; under the name Marcius a collection of praecepta from 2 cent. B.C., 
+  <mads:note type="source">Pauly-Wissowa: 28. Halbbd., col. 1538, 1541-1542; "Marcius", #2 (Marcius, Marcius vates, under the name Marcius a collection of praecepta from 2 cent. B.C., 
 but it is difficult to decide whether there is any connection with vates Marcius)</mads:note>
-  <mads:note type="source">Oxford class. dict., 1st ed.: p. 537 (Marcius; eponymous author of a number of miscellaneous 
-oracular sayings current in Rome in early days. According to Cicero, there were Marcii frates, men of noble birth who wrote prophecies; 
+  <mads:note type="source">Oxford class. dict., 1st ed.: p. 537 (Marcius, eponymous author of a number of miscellaneous 
+oracular sayings current in Rome in early days. According to Cicero, there were Marcii frates, men of noble birth who wrote prophecies,
 according to Livy, there was only one, vates Marcius. Of an ancient collection of praecepta under the name Marcius three
-Saturnian quotations survive; connection with Marcius vates uncertain)</mads:note>
+Saturnian quotations survive, connection with Marcius vates uncertain)</mads:note>
   <mads:note type="notFound">NUC pre-56</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.891.1</mads:identifier>
   <mads:identifier type="lccn">nr 95022106 </mads:identifier>
-  <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-nr95-22106</mads:url>
+  <mads:url displayLabel="Worldcat Identities"
+    >http://www.worldcat.org/wcidentities/lccn-nr95-22106</mads:url>
   <mads:url displayLabel="Smith's Dictionary"/>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/39766935</mads:url>
   <mads:identifier type="phi">103</mads:identifier>
