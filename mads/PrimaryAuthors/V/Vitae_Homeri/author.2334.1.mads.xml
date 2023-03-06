@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2334.1</identifier>
-    <authority>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
+  <authority>
       <name authority="naf">
         <namePart>Vitae Homeri</namePart>
       </name>
     </authority>
-    <variant type="equivalent">
+    <variant>
       <name type="personal">
         <namePart>Herodote (0484?-0420? av. J.-C.)</namePart>
       </name>
@@ -17,12 +18,9 @@
       </mads:titleInfo>
     </variant>
     <variant type="other">
-      <mads:titleInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      xmlns:mads="http://www.loc.gov/mads/v2"
-                      authority="naf">
-        <mads:title>Vita Homeri</mads:title>
-      </mads:titleInfo>
+      <titleInfo>
+        <title>Vita Homeri</title>
+      </titleInfo>
     </variant>
     <variant type="other">
       <mads:titleInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -173,6 +171,7 @@
         <mads:title>Herodotus Vita Herodotea</mads:title>
       </mads:titleInfo>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2334.1</identifier>  
     <url displayLabel="VIAF">http://viaf.org/viaf/220677335</url>
     <identifier type="uri">http://viaf.org/viaf/220677335</identifier>
     <identifier type="tlg">1805</identifier>

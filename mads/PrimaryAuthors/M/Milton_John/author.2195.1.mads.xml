@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2195.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">    
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+        valueURI="https://viaf.org/viaf/17226855/"> 
         <namePart>Milton, John</namePart>
         <namePart type="date">1608-1674</namePart>
       </name>
@@ -13,7 +15,10 @@
         <namePart type="date">1608-1674</namePart>
       </name>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2195.1</identifier>
     <fieldOfActivity>Latin Poet</fieldOfActivity>
+  <url displayLabel="VIAF">https://viaf.org/viaf/17226855/</url>
+  <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/John_Milton</url>
     <identifier type="lccn">n 78095532</identifier>
     <identifier type="stoa">stoa0202</identifier>
     <extension>
