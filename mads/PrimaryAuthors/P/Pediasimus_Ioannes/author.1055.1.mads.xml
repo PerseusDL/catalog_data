@@ -6,7 +6,8 @@
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
            version="2.0">
   <mads:authority geographicSubdivision="not applicable">
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+          valueURI="https://viaf.org/viaf/97934141/">
          <mads:namePart>Pediasimus, Ioannes</mads:namePart>
          <mads:namePart type="date">1282-1326</mads:namePart>
       </mads:name>
@@ -14,20 +15,17 @@
   <mads:variant type="other" lang="grc">
       <mads:name type="personal">
          <mads:namePart>Πεδιάσιμος, Ἰωάννης,</mads:namePart>
-         <mads:namePart type="date">1282-1326</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="grc">
       <mads:name type="personal">
          <mads:namePart>Ἰωάννης</mads:namePart>
          <mads:namePart type="termsOfAddress">Πεδιάσιμος,</mads:namePart>
-         <mads:namePart type="date">1282-1326</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
       <mads:name type="personal">
          <mads:namePart>Pediasimοs, Ioannēs</mads:namePart>
-         <mads:namePart type="date">1282-1326</mads:namePart>
       </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -90,13 +88,8 @@
   <mads:identifier type="tlg">2592</mads:identifier>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1055.1</mads:identifier>
   <mads:fieldOfActivity>Mythographer</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Philologist</mads:fieldOfActivity>
-  
-  
-  
-  <mads:url displayLabel="Wikipedia"/>
+  <mads:fieldOfActivity>Philologist</mads:fieldOfActivity>  
   <mads:url displayLabel="Worldcat Identities">http://www.worldcat.org/wcidentities/lccn-no2009-27533</mads:url>
-  <mads:url displayLabel="Smith's Dictionary"/>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/97934141</mads:url>
   <mads:extension>
       <mads:description>List of related work identifiers</mads:description>
