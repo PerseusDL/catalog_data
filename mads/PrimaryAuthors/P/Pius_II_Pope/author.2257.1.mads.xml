@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2257.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">  
     <authority>
-      <name type="personal" authority="">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/95156138">
         <namePart>Pius</namePart>
         <namePart type="termsOfAddress">II, Pope</namePart>
         <namePart type="date">1405-1464</namePart>
@@ -129,7 +130,9 @@
     </variant>
     <identifier type="stoa">stoa0230</identifier>
     <identifier type="uri">http://viaf.org/viaf/95156138</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2257.1</identifier>
     <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Pope_Pius_II</url>
+  <url displayLabel="VIAF">http://viaf.org/viaf/95156138</url>
     <fieldOfActivity>Pope</fieldOfActivity>
     <fieldOfActivity>Poet</fieldOfActivity>
     <extension>

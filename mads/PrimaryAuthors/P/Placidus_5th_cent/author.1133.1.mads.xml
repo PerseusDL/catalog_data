@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  version="2.0"
+  xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority lang="lat">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/56330019/">
       <mads:namePart>Placidus</mads:namePart>
       <mads:namePart type="date">5th cent.</mads:namePart>
     </mads:name>
@@ -10,48 +14,41 @@
     <mads:name type="personal">
       <mads:namePart>Placidus</mads:namePart>
       <mads:namePart type="termsOfAddress">Glossator</mads:namePart>
-      <mads:namePart type="date">um 450 n. Chr</mads:namePart>
     </mads:name>
   </mads:related>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Luctatius</mads:namePart>
       <mads:namePart type="termsOfAddress">Placidus</mads:namePart>
-      <mads:namePart type="date">um 450 n. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Placidus, Luctatius</mads:namePart>
-      <mads:namePart type="date">um 450 n. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Placidus</mads:namePart>
       <mads:namePart type="termsOfAddress">Grammatiker</mads:namePart>
-      <mads:namePart type="date">um 450 n. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Placidus</mads:namePart>
       <mads:namePart type="termsOfAddress">Kompilator</mads:namePart>
-      <mads:namePart type="date">um 450 n. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Placidus</mads:namePart>
       <mads:namePart type="termsOfAddress">Scholiast</mads:namePart>
-      <mads:namePart type="date">um 450 n. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Pseudo-Lactantius</mads:namePart>
       <mads:namePart type="termsOfAddress">Placidus</mads:namePart>
-      <mads:namePart type="date">um 450 n. Chr</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
@@ -70,9 +67,15 @@
   <mads:fieldOfActivity>Grammarian</mads:fieldOfActivity>
   <mads:fieldOfActivity>Glossator</mads:fieldOfActivity>
   <mads:fieldOfActivity>Lexicographer</mads:fieldOfActivity>
-  
+  <mads:note type="source">Brill's New Pauly: "Placidus, Compiler of a Latin lexicon, 5th/6th cents.,As well as being significant
+    to our knowledge of Old Latin, the glossary represents important evidence for the educational system in Late Antiquity.
+    We owe its direct preservation to Parisinus n. acq. Lat. 1298 (11th cent.) and three Vaticani of the 15th cent.
+    there are also substantial excerpts in the Liber glossarum. The reception also includes Isidore (Isidorus [9]) of Seville... " 
+    from chmidt, Peter L. (Constance). "Placidus." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and
+    Helmuth Schneider . Brill, 2011. Brill Online. Tufts University Library. 13 May 2011</mads:note>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/56330019/</mads:url>
-  <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-no2004-90855</mads:url>
+  <mads:url displayLabel="Worldcat Identities"
+    >http://worldcat.org/identities/lccn-no2004-90855</mads:url>
   <mads:url displayLabel="Smith's Dictionary"/>
   <mads:identifier type="stoa author">stoa0230a</mads:identifier>
   <mads:extension>
