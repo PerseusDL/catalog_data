@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  version="2.0"
+  xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+      valueURI="http://viaf.org/viaf/56960115">
       <mads:namePart>Pomponius Secundus, P. (Publius)</mads:namePart>
       <mads:namePart type="date">1st cent. A.D</mads:namePart>
     </mads:name>
@@ -9,25 +13,21 @@
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Pomponius Secundus, Publius</mads:namePart>
-      <mads:namePart type="date">1st cent. A.D</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>P. Pomponius Secundus</mads:namePart>
-      <mads:namePart type="date">1st cent. A.D</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Secundus, P. Pomponius (Publius Pomponius)</mads:namePart>
-      <mads:namePart type="date">1st cent. A.D</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other">
     <mads:name type="personal">
       <mads:namePart>Secundus, Publius Calvius Sabinus Pomponius</mads:namePart>
-      <mads:namePart type="date">1st cent. A.D</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:note type="source">The works of P. Pomponius Secundus [CF] 1991: PHI CD ROM #5.3, Latin Canon,
@@ -36,7 +36,7 @@
   Sabinus, consul, 44 A.D., d. either 51-57 A.D.....)</mads:note>
   <mads:note type="source">Dict. of Greek and Roman biog. and mythology, 1967: v. 3, p. 764 (Secundus, Pomponius,
   distinguished poet in the reigns of Tiberius, Caligula, and Claudius, friend of Sejanus, and imprisoned 31 A.D., 
-  released 37 A.D.; legate in Germany, 50 A.D.; praenomen is doubtful, called Publius or Lucius by Tacitus,
+  released 37 A.D.; legate in Germany, 50 A.D., praenomen is doubtful, called Publius or Lucius by Tacitus,
   Dio Cassius calls him Quintus)</mads:note>
   <mads:note type="notFound">NUC pre-56</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1165.1</mads:identifier>

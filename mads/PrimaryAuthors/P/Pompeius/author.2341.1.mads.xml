@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads  xmlns="http://www.loc.gov/mads/v2"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<mads xmlns="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
-    <authority>
-      <name type="personal" authority="naf">
-	        <namePart>Pompeius</namePart>
-	        <namePart type="date">active 5th century-6th century</namePart>
-      </name>
-    </authority>
-    <variant type="other">
-      <name type="personal">
-	        <namePart>Pompeius</namePart>
-	        <namePart type="date">5th/6th cent</namePart>
-      </name>
-    </variant>
+  <authority>
+    <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/12653928/">
+      <namePart>Pompeius</namePart>
+      <namePart type="date">active 5th century-6th century</namePart>
+    </name>
+  </authority>
+  <variant type="other">
+    <name type="personal">
+      <namePart>Pompeius</namePart>
+      <namePart type="date">5th/6th cent</namePart>
+    </name>
+  </variant>
   <identifier type="citeurn">urn:cite:perseus:author.2341.1</identifier>
-    <fieldOfActivity>Grammarian</fieldOfActivity>
-    <note type="source">Biblioteca apostolica vaticana. Manuscript. Vat. Lat. 1491 [MI] between
+  <fieldOfActivity>Grammarian</fieldOfActivity>
+  <note type="source">Biblioteca apostolica vaticana. Manuscript. Vat. Lat. 1491 [MI] between
       1951 and 1959: fol. 34r (Pompeius)</note>
-    <note type="source">Oxford classical dict., 1996 (Pompeius, late 5th-early 6th cent.; grammarian)</note>
-    <note type="Brill's New Pauly">"Pompeius, African grammarian, second half of the 5th cent.,
+  <note type="source">Oxford classical dict., 1996 (Pompeius, late 5th-early 6th cent.; grammarian)</note>
+  <note type="Brill's New Pauly">"Pompeius, African grammarian, second half of the 5th cent.,
       Author of a prolix and elementary Commentum artis Donati...'</note>
-    <identifier type="lccn">no2004094622</identifier>
-    <identifier type="stoa">stoa0233c</identifier>
-    <url displayLabel="Id.gov">http://id.loc.gov/rwo/agents/no2004094622</url>
-    <extension>
-      <description>List of related work identifiers</description>
-      <identifier type="stoa author-text">stoa0233c-stoa001</identifier>
-    </extension>    
-  </mads>
+  <identifier type="lccn">no2004094622</identifier>
+  <identifier type="stoa">stoa0233c</identifier>
+  <url displayLabel="Id.gov">http://id.loc.gov/rwo/agents/no2004094622</url>
+  <extension>
+    <description>List of related work identifiers</description>
+    <identifier type="stoa author-text">stoa0233c-stoa001</identifier>
+  </extension>
+</mads>
