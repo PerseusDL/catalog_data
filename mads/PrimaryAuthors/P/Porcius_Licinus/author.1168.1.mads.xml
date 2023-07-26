@@ -6,7 +6,8 @@
            xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
            version="2.0">
   <mads:authority lang="lat">
-      <mads:name type="personal" authority="naf">
+      <mads:name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+          valueURI="http://viaf.org/viaf/26954027">
          <mads:namePart>Porcius Licinus</mads:namePart>
          <mads:namePart type="date">fl. 2nd  cent. B.C</mads:namePart>
       </mads:name>
@@ -14,7 +15,6 @@
   <mads:variant type="other" lang="lat">
       <mads:name type="personal">
          <mads:namePart>Licinus, Porcius</mads:namePart>
-         <mads:namePart type="date">fl. 2nd cent. B.C</mads:namePart>
       </mads:name>
   </mads:variant>
     <mads:variant type="other" lang="ita">
@@ -27,17 +27,21 @@
          <mads:namePart>PORC.</mads:namePart>
       </mads:name>
   </mads:variant>
-  <mads:note type="source">His Carmina [CF] 1991: PHI CD ROM #5.3, Latin Canon, bibliographic screen (Porcius Licinus)</mads:note>
-  <mads:note type="source">Oxford class. dict., 1st ed.: p. 719 (Porcius Licinus; fl. 2nd half of the 2nd cent. B.C.; wrote a poem in trochaic septinarii; preserved by Suetonius; and an erotic epigram)</mads:note>
-  <mads:note type="source">Pauly-Wissowa: 34. Halbbd., col. 232-233; "Porcius", #48 (Porcius Licinus; early Roman poet)</mads:note>
+  <mads:note type="source">His Carmina [CF] 1991: PHI CD ROM #5.3, 
+      Latin Canon, bibliographic screen (Porcius Licinus)</mads:note>
+  <mads:note type="source">Oxford class. dict., 1st ed.: p. 719 (Porcius Licinus,
+      fl. 2nd half of the 2nd cent. B.C., wrote a poem in trochaic septinarii,
+      preserved by Suetonius, and an erotic epigram)</mads:note>
+  <mads:note type="source">Pauly-Wissowa: 34. Halbbd., col. 232-233; "Porcius", 
+      #48 (Porcius Licinus, early Roman poet)</mads:note>
   <mads:note type="source">NUC pre-56; v. 465, p. 653 (Porcius Licinus)</mads:note>
-  <mads:note type="source">The Fragmentary Latin poets, 1993: p. 82-92 (Porcius Licinus; nothing is known of the man; chronologically he could be the monetalis of 118 B.C.)</mads:note>
+  <mads:note type="source">The Fragmentary Latin poets, 1993: p. 82-92 (Porcius Licinus,
+      nothing is known of the man, chronologically he could be the monetalis of 118 B.C.)</mads:note>
   <mads:identifier type="citeurn">urn:cite:perseus:author.1168.1</mads:identifier>
   <mads:identifier type="lccn">nr 95021141 </mads:identifier>
   <mads:fieldOfActivity>Poet</mads:fieldOfActivity>
   <mads:fieldOfActivity>Latin Poet</mads:fieldOfActivity>
-  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>
-  
+  <mads:fieldOfActivity>Epigrammatist</mads:fieldOfActivity>  
   <mads:url displayLabel="Id.gov">http://id.loc.gov/authorities/names/nr95021141</mads:url>
   <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-nr95-21141</mads:url>
   <mads:url displayLabel="VIAF">http://viaf.org/viaf/26954027</mads:url>
