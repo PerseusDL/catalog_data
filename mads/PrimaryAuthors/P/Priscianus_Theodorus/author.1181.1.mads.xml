@@ -1,10 +1,18 @@
 <?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+<mads:mads xmlns:mads="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
   <mads:authority lang="lat">
-    <mads:name type="personal" authority="naf">
+    <mads:name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/79060995/">
       <mads:namePart>Priscianus, Theodorus</mads:namePart>
     </mads:name>
   </mads:authority>
+  <mads:variant type="other" lang="grc">
+    <mads:name type="personal">
+      <mads:namePart>Θεόδωρος ὁ Πρισκιανός</mads:namePart>
+    </mads:name>
+  </mads:variant>
   <mads:variant type="other" lang="lat">
     <mads:name type="personal">
       <mads:namePart>Octavius Horatianus</mads:namePart>
@@ -17,12 +25,12 @@
   </mads:variant>
   <mads:variant type="other" lang="fre">
     <mads:name type="personal">
-      <mads:namePart>Priscien, Th&#xE9;odore</mads:namePart>
+      <mads:namePart>Priscien, Théodore</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="fre">
     <mads:name type="personal">
-      <mads:namePart>Th&#xE9;odore Priscien</mads:namePart>
+      <mads:namePart>Théodore Priscien</mads:namePart>
     </mads:name>
   </mads:variant>
   <mads:variant type="other" lang="ita">
@@ -56,10 +64,20 @@
   <mads:identifier type="lccn">n 85056645</mads:identifier>
   <mads:fieldOfActivity>Physician</mads:fieldOfActivity>
   <mads:fieldOfActivity>Medical Author</mads:fieldOfActivity>
-  
+  <mads:note>Brill's New Pauly: "T. Priscianus Physician, 4th-5th cent. AD, probably hailing from North Africa. A pupil of Vindicianus
+    he was the author of a therapeutic compendium, only extant in Latin (Euporista, ‘Easily obtainable remedies’, around 400) in three volumes: 
+    Phaenomena (external disorders, listed a capite ad calcem, 'from head to toe')
+    logicus (internal disorders, divided into chronic and acute conditions) and gynaecia (female disorders).
+    According to the author, the work was written in Greek first and then translated into Latin in an abbreviated version prepared by the author himself....
+    The fragment of a work entitled De physicis and dedicated to T.' son Eusebius deals with headaches and epilepsy...." 
+    Touwaide, Alain (Madrid). "Theodorus." Brill's New Pauly. Antiquity volumes edited by: Hubert Cancik and
+    Helmuth Schneider . Brill, 2011. Brill Online. Tufts University Library. 17 May 2011</mads:note>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/79060995/</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Theodorus_Priscianus</mads:url>
-  <mads:url displayLabel="Worldcat Identities">http://worldcat.org/identities/lccn-n85-56645</mads:url>
-  <mads:url displayLabel="Smith's Dictionary">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=priscianus-theodorus-bio-1</mads:url>
+  <mads:url displayLabel="Worldcat Identities"
+    >http://worldcat.org/identities/lccn-n85-56645</mads:url>
+  <mads:url displayLabel="Smith's Dictionary"
+    >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=priscianus-theodorus-bio-1</mads:url>
   <mads:identifier type="stoa author">stoa0234b</mads:identifier>
   <mads:extension>
     <mads:description>List of related work identifiers</mads:description>
