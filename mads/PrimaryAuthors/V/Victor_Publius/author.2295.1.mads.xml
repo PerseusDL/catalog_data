@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2295.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">    
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/64395902">
 	        <namePart>Victor, Publius</namePart>
       </name>
     </authority>
@@ -18,6 +20,7 @@
     </variant>
     <note type="source">Author's Des régions de la ville de Rome, 1843</note>
     <identifier type="lccn">n 82074168</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2295.1</identifier>
     <identifier type="stoa">stoa0238b</identifier>
     <url displayLabel="viaf">http://viaf.org/viaf/64395902</url>
     <url displayLabel="WorldCat Identities">https://www.worldcat.org/identities/lccn-n82074168/</url>
