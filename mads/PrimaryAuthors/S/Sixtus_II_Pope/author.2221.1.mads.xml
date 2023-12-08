@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2221.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd"> 
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/1336166">
 	        <namePart>Sixtus</namePart>
 	        <namePart type="termsOfAddress">II, Pope</namePart>
 	        <namePart type="date">-258</namePart>
@@ -43,8 +45,10 @@
 	        <namePart type="termsOfAddress">II</namePart>
       </name>
     </variant>
-    <note type="source">Catholic Encyclopedia www site, 5 Oct. 2007: Pope St. Sixtus II page (elected 31 Aug. 257, martyred at Rome, 6 Aug. 258, Xystus)</note>
+    <note type="source">Catholic Encyclopedia www site, 5 Oct. 2007: Pope St. Sixtus II page 
+      (elected 31 Aug. 257, martyred at Rome, 6 Aug. 258, Xystus)</note>
     <identifier type="lccn">n 81086466</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2221.1</identifier>
     <identifier type="stoa">stoa0263b</identifier>
     <fieldOfActivity>Pope</fieldOfActivity>
     <fieldOfActivity>Martyr</fieldOfActivity>

@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2075.1</identifier>
-    <authority>
-      <name type="corporate" authority="tlg">
-        <namePart>Anonymi Historici</namePart>
-      </name>
-    </authority>
-    <note type="source">TLG: Anonymi Historici is a large textgroup ID used to represent those anonymous historical works in the FGrH that we have also expanded for use in FHG.</note>
-    <identifier type="tlg">1139</identifier>
-    <fieldOfActivity>Anonymous Textgroup</fieldOfActivity>
-    <extension>
-      <description>List of related work identifiers</description>
-      <identifier type="tlg">1139.013</identifier>
-      <identifier type="tlg">1139.014</identifier>
-      <identifier type="tlg">1139.015</identifier>
-      <identifier type="tlg">1139.016</identifier>
-    </extension>    
-  </mads>
+<mads xmlns="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">
+  <authority>
+    <name type="corporate" authority="tlg">
+      <namePart>Anonymi Historici</namePart>
+    </name>
+  </authority>
+  <note type="source">TLG: Anonymi Historici is a large textgroup ID used to represent those anonymous historical works in the FGrH that we have also expanded for use in FHG.</note>
+  <identifier type="tlg">1139</identifier>
+  <fieldOfActivity>Anonymous Textgroup</fieldOfActivity>
+  <identifier type="citeurn">urn:cite:perseus:author.2075.1</identifier>
+  <extension>
+    <description>List of related work identifiers</description>
+    <identifier type="tlg">1139.013</identifier>
+    <identifier type="tlg">1139.014</identifier>
+    <identifier type="tlg">1139.015</identifier>
+    <identifier type="tlg">1139.016</identifier>
+  </extension>
+</mads>

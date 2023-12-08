@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2111.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd"> 
     <authority lang="eng">
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/61254702">
 	        <namePart>Diogenianus</namePart>
 	        <namePart type="termsOfAddress">of Heraclea</namePart>
       </name>
@@ -37,6 +39,7 @@
     <note type="source">LCCS: PA3965.D74 (Diogenianus Heracleota, lexicographer, 2d cent. C.E.)</note>
     <note type="source">Der kleine Pauly (Diogenianos, aus Herakleia)</note>
     <note type="source">Dict. of Greek and Roman biog. and myth. (Diogenianus, of Heracleia, grammarian in the reign of Hadrian)</note>
+  <identifier type="citeurn">urn:cite:perseus:author.2111.1</identifier>
     <identifier type="lccn">no2004042212</identifier>
     <identifier type="tlg">0097</identifier>
     <fieldOfActivity>Grammarian</fieldOfActivity>

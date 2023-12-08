@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2312.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd"> 
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+         valueURI="">
 	        <namePart>Stephen</namePart>
 	        <namePart type="termsOfAddress">I, Pope</namePart>
 	        <namePart type="date">-257</namePart>
@@ -54,6 +56,7 @@
     <note type="source">Vita, epistolæ et decreta, 1844</note>
     <note type="source">Catholic Encyclopedia www site, 5 Oct. 2007: Pope St. Stephen I page (consecrated 12 May 254, d. 2 Aug. 257)</note>
     <identifier type="lccn">nb2007022859</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2312.1</identifier>
     <identifier type="stoa">stoa0267c</identifier>
     <fieldOfActivity>Pope</fieldOfActivity>
     <fieldOfActivity>Martyr</fieldOfActivity>

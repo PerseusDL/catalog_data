@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2265.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd"> 
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"  valueURI="http://viaf.org/viaf/166435340">
 	        <namePart>Ticonius</namePart>
 	        <namePart type="date">active 4th century</namePart>
       </name>
@@ -44,6 +45,7 @@
 	        <namePart type="date">active 4th century</namePart>
       </name>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2265.1</identifier>
     <note type="source">Steinhauser, K.B. The Apocalypse commentary of Tyconius, c1987: CIP</note>
     <note type="source">BLC (Tichonius, Afer)</note>
     <note type="source">New Schaff-Herzog encyclopedia of religious knowledge, 1911 (Tichonius (Tychonius))</note>
@@ -63,10 +65,5 @@
 	        <identifier type="stoa author-text">stoa0281a-stoa001</identifier>
 	        <identifier type="stoa author-text">stoa0281a-stoa002</identifier>
       </extension>      
-      <mads:gender xmlns:xlink="http://www.w3.org/1999/xlink"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                   xmlns:mads="http://www.loc.gov/mads/v2">
-	        <mads:genderTerm>male</mads:genderTerm>
-      </mads:gender>
     </extension>    
   </mads>

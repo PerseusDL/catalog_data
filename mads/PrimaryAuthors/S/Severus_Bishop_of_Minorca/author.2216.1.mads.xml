@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2216.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd"> 
+    
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/264002293">
 	        <namePart>Severus</namePart>
 	        <namePart type="termsOfAddress">Bishop of Minorca</namePart>
 	        <namePart type="date">active 5th century</namePart>
@@ -34,6 +37,7 @@
 	        <namePart>Severus Rhetor</namePart>
       </name>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2216.1</identifier>
     <note type="source">His Epistola Severi Episcopi, 1981: t.p. (Obispo Severo, Bisbe Sever) p. 18 (active in 5th century)</note>
     <note type="source">Espasa-Calpe (Severo, prelado español del siglo V, prob. d. 423, first bishop of Menorca)</note>
     <note type="source">LC database, Aug. 11, 2014 (hdg.: Severo, Bishop of Minorca, active 5th century, usage: Severus of Minorca)</note>

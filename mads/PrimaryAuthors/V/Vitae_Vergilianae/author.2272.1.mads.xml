@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2272.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd"> 
     <authority>
-      <name authority="naf">
+      <name  type="corporate" authorityURI="http://viaf.org/viaf" valueURI="http://viaf.org/viaf/997145856882922920267">
         <namePart>Vitae Vergilianae</namePart>
       </name>
     </authority>
@@ -21,6 +22,7 @@
         <mads:title>Vergil-Viten</mads:title>
       </mads:titleInfo>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2272.1</identifier>
     <identifier type="uri">http://viaf.org/viaf/997145856882922920267</identifier>
     <identifier type="stoa">stoa0359</identifier>
     <url displayLabel="VIAF">http://viaf.org/viaf/997145856882922920267</url>

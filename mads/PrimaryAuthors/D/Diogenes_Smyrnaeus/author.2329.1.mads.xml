@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2329.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd"> 
     <authority lang="lat">
-      <name authority="viaf">
+      <name authority="viaf" type="personal" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/10236188">
 	        <namePart>Diogenes</namePart>
 	        <namePart type="termsOfAddress">Smyrnaeus</namePart>
       </name>
@@ -31,7 +33,9 @@
       </name>
     </variant>
     <identifier type="tlg">2314</identifier>
-    <note type="source">Smiths' Dictionary: "Diogenes, of Smyrna, an Eleatic Philosopher, who was a disciple of Metrodorus and Protagoras...."</note>
+  <identifier type="citeurn">urn:cite:perseus:author.2329.1</identifier>
+    <note type="source">Smiths' Dictionary: "Diogenes, of Smyrna, an Eleatic Philosopher, 
+      who was a disciple of Metrodorus and Protagoras...."</note>
     <fieldOfActivity>Philosopher</fieldOfActivity>
     <fieldOfActivity>Pre-Socratic</fieldOfActivity>
     <url displayLabel="VIAF">http://viaf.org/viaf/10236188</url>

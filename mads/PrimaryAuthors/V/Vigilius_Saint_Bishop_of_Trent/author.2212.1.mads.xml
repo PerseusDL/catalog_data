@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2212.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd"> 
     <authority lang="lat">
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/155570460">
 	        <namePart>Vigilius</namePart>
 	        <namePart type="termsOfAddress">Saint, Bishop of Trent</namePart>
 	        <namePart type="date">-405</namePart>
@@ -49,6 +51,7 @@
     <note type="source">Biog. Dict. of the saints, 1924: p. 1020 (Vigilius, Bp. of Trent, d. June 26, 405)</note>
     <note type="source">Catholic encyclopedia, 1912 v. 15 p. 426 (Vigilius, Saint, Bishop of Trent, d. June 26, 405)</note>
     <identifier type="lccn">nr2001013071</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2212.1</identifier>
     <identifier type="stoa">stoa0293e</identifier>
     <fieldOfActivity>Bishop</fieldOfActivity>
     <url displayLabel="viaf">http://viaf.org/viaf/155570460</url>

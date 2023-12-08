@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2104.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd"> 
     <authority>
-      <name type="personal" authority="">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/37305086">
         <namePart>Titius Aristo</namePart>
       </name>
     </authority>
@@ -19,6 +21,7 @@
         <namePart type="date">1./2. Jh</namePart>
       </name>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2104.1</identifier>
     <note type="source">Brill's New Pauly: "T. Aristo Roman jurist, member of Trajan's consilium in c. 100...."</note>
     <fieldOfActivity>Jurist</fieldOfActivity>
     <identifier type="uri">http://viaf.org/viaf/37305086</identifier>

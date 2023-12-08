@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-  <identifier type="citeurn">urn:cite:perseus:author.2122.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd"> 
   <authority>
-    <name type="personal" authority="naf">
+    <name type="personal" authority="viaf" authorityURI="https://viaf.org/viaf/"
+      valueURI="https://viaf.org/viaf/20069787/">
       <namePart>Veranius</namePart>
       <namePart type="date">active 1st century B.C.?</namePart>
     </name>
@@ -39,6 +41,7 @@
   <note type="source">NUC pre-56: v. 632, p. 654 (Veranius)</note>
   <note type="notFound">Oxford class. dict</note>
   <identifier type="lccn">nr 95037473</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2122.1</identifier>
   <identifier type="phi">1047</identifier>
   <identifier type="stoa">stoa0291a</identifier>
   <url displayLabel="ID.gov">http://id.loc.gov/authorities/names/nr95037473</url>

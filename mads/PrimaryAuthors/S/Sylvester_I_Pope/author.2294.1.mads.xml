@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2294.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd"> 
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/85181438">
 	        <namePart>Sylvester</namePart>
 	        <namePart type="termsOfAddress">I, Pope</namePart>
 	        <namePart type="date">-335</namePart>
@@ -42,6 +44,7 @@
     <note type="source">Come Costantin chiese Silvestro d'entro Siratti, c2006: p. 8 (Papa Silvestro I)</note>
     <identifier type="lccn">nr 90017026</identifier>
     <identifier type="stoa">stoa0263c</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2294.1</identifier>
     <fieldOfActivity>Pope</fieldOfActivity>
     <url displayLabel="VIAF">http://viaf.org/viaf/85181438</url>
     <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Pope_Sylvester_I</url>

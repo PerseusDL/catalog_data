@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2041.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd"> 
     <authority>
-      <name type="personal" authority="viaf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/24990168">
 	        <namePart>Calliphon</namePart>
-        <namePart type="termsofAddress">Cnidius</namePart>
+        <namePart type="termsOfAddress">Cnidius</namePart>
         <namePart type="date">v6. Jh.‏</namePart>
       </name>
     </authority>
@@ -24,8 +26,10 @@
       </name>
     </variant>
     <note type="source">Smith's Dictionary: "Calliphon, a philosopher, and most probably a disciple of Epicurus, who is 
-      mentioned several times and condemned by Cicero as making the chief good of man to consist in an union of virtue (honestas) and bodily pleasure...."</note>
+      mentioned several times and condemned by Cicero as making the chief good of man to consist in an union of virtue (honestas) 
+      and bodily pleasure...."</note>
     <identifier type="tlg">2218</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2041.1</identifier>
     <fieldOfActivity>Philosopher</fieldOfActivity>
     <fieldOfActivity>Physician</fieldOfActivity>
     <url displayLabel="viaf">http://viaf.org/viaf/24990168</url>

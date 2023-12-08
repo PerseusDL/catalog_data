@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2253.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd"> 
     <authority>
-      <name>
+      <name type="corporate" authority="viaf" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/178264888">
 	        <namePart>Scholia Bobiensia</namePart>
       </name>   
     </authority>
@@ -14,6 +15,8 @@
     <note type="source">nuc86-112615: Scholia Bobiensia. Scholia in Ciceronis ... [MI] 1907 (hdg. on NNC rept.: Scholia Bobiensia)</note>
     <identifier type="lccn">n 86872090</identifier>
     <identifier type="stoa">stoa0358</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2253.1</identifier>  
+  <url displayLabel="VIAF">https://viaf.org/viaf/178264888</url>
     <url displayLabel="Id.gov">http://id.loc.gov/authorities/names/n86872090</url>
     <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Bobbio_Scholiast</url>
     <extension>

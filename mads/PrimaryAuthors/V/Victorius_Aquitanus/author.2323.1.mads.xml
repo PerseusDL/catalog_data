@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2323.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd"> 
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/282639091">
 	        <namePart>Victorius</namePart>
 	        <namePart type="termsOfAddress">Aquitanus</namePart>
 	        <namePart type="date">active 5th century</namePart>
@@ -28,6 +30,7 @@
 	        <namePart type="termsOfAddress">d'Aquitaine</namePart>
       </name>
     </variant>
+  <identifier type="citeurn">urn:cite:perseus:author.2323.1</identifier>
     <note type="source">Studien zur christlich mittelalterlichen chronologie, 1938: t.p. (Victorius)</note>
     <note type="source">LC database, 7 Oct. 2003 (hdg.:Victorius, Aquitanus 5th cent.)</note>
     <note type="source">Abbo of Fleury and Ramsey, commentary on the calculus of Victorius of Aquitaine, 2003</note>

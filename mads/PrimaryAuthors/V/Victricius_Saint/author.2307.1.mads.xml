@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2307.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd"> 
     <authority lang="lat">
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/64014952/">
 	        <namePart>Victricius</namePart>
 	        <namePart type="termsOfAddress">Saint</namePart>
 	        <namePart type="date">approximately 330-approximately 409</namePart>
@@ -47,6 +49,7 @@
     <note type="source">Holweck (Victricius, Bp. of Rouen, ca. 330-ca. 409)</note>
     <note type="source">NUC pre-56 (hdg.: Victricius, Saint, Bp. of Rouen, d. ca. 407, ref.: Victrice, Saint, Bp. of Rouen)</note>
     <identifier type="lccn">no 97007759</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2307.1</identifier>
     <identifier type="stoa">stoa0292f</identifier>
     <fieldOfActivity>Bishop</fieldOfActivity>
     <url displayLabel="viaf">http://viaf.org/viaf/64014952/</url>

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/v2">
-    <identifier type="citeurn">urn:cite:perseus:author.2322.1</identifier>
+<mads xmlns="http://www.loc.gov/mads/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd"> 
     <authority>
-      <name type="personal" authority="naf">
+      <name type="personal" authority="viaf" authorityURI="http://viaf.org/viaf/"
+        valueURI="http://viaf.org/viaf/49572621">
 	        <namePart>Terentius Scaurus, Q. (Quintus)</namePart>
       </name>
     </authority>
@@ -21,6 +23,7 @@
     <note type="source">NUC pre-56: v. 587, p. 141 (Terentius Scaurus, Quintus)</note>
     <identifier type="lccn">nr 95015084</identifier>
     <identifier type="phi">1370</identifier>
+  <identifier type="citeurn">urn:cite:perseus:author.2322.1</identifier>
     <fieldOfActivity>Grammarian</fieldOfActivity>
     <url displayLabel="viaf">http://viaf.org/viaf/49572621</url>
     <url displayLabel="Wikipedia">https://en.wikipedia.org/wiki/Quintus_Terentius_Scaurus</url>
