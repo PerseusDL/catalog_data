@@ -8776,6 +8776,15 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
+        <name authority="viaf" authorityURI="https://viaf.org/viaf/" type="personal"
+            valueURI="https://viaf.org/viaf/27866092">
+            <namePart>Heraclides,</namePart>
+            <namePart type="termsOfAddress">Ponticus,</namePart>
+            <namePart type="date">ca. 390-310 B.C.</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/27137807/">
             <namePart>Kenyon, Frederic G. (Frederic George)</namePart>
@@ -8845,7 +8854,19 @@ but this is where the TLG has left off for numbering-->
                         >https://hdl.handle.net/2027/uc1.l0094900578?urlappend=%3Bseq=24</url>
                 </location>
             </relatedItem>
-        </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Epitoma to Res Publica Atheniensium">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1409.opp003</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Epitoma to Res Publica Atheniensium">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg1409.opp003.1st1K-grc1</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg1409.opp003.1st1K-grc1//</url>
+                    </location>
+                    <location>
+                        <url displayLabel="First1KGreek">https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg1409/tlg003/tlg1409.opp003.1st1K-grc1.xml</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>            
+        </relatedItem>        
     </mods>
 
     <mods displayLabel="Athēnaiōn politeia-Aristotle-Teubner-Oppermann-1928">
@@ -56641,6 +56662,17 @@ but this is where the TLG has left off for numbering-->
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="Libro de Elocutione">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0613.tlg001.opp-grc2</identifier>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Περὶ ἑρμηνείας">
+                <identifier type="ctsurn">urn:cts:greekLit:urn:cts:greekLit:tlg0613.tlg001.perseus-grc2</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0613.tlg001.perseus-grc2/</url>
+                </location>
+                <location>
+                    <url displayLabel="First1KGreek"
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0613/tlg001/tlg0613.tlg001.perseus-grc2.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
