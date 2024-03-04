@@ -6600,13 +6600,27 @@
         <titleInfo lang="lat" type="uniform">
             <title>Antiquitates Romanae</title>
         </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/100218889/">
+            <namePart>Dionysius</namePart>
+            <namePart type="termsOfAddress">of Halicarnassus</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/32086104/">
+            <namePart>Jacoby, Carolus</namePart>
+            <namePart type="date">1849-1939</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
         <part>
             <extent unit="words">
                 <total>295922</total>
             </extent>
         </part>
-        <identifier type="lccn">34019033</identifier>
-        <identifier type="oclc">4990814</identifier>
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
@@ -6632,6 +6646,8 @@
                 <title>Bibliotheca Teubneriana</title>
             </titleInfo>
         </relatedItem>
+        <identifier type="lccn">34019033</identifier>
+        <identifier type="oclc">4990814</identifier>
         <location>
             <url displayLabel="LC Permalink">http://lccn.loc.gov/34019033</url>
         </location>
@@ -6657,22 +6673,9 @@
         <language objectPart="text">
             <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
         </language>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/100218889/">
-            <namePart>Dionysius</namePart>
-            <namePart type="termsOfAddress">of Halicarnassus</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/32086104/">
-            <namePart>Jacoby, Carolus</namePart>
-            <namePart type="date">1849-1939</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
+        <language objectPart="notes">
+            <languageTerm>lat</languageTerm>
+        </language>
         <subject>
             <geographicCode authority="marcgac">e-it---</geographicCode>
         </subject>
@@ -6697,6 +6700,16 @@
                 <location>
                     <url displayLabel="Perseus" note="Greek">
                         http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0572</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Ῥωμαϊκὴ Ἀρχαιολογία">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0081.tlg001.perseus-grc2</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg0081.tlg001.perseus-grc2/</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0081/tlg001/tlg0081.tlg001.perseus-grc2.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -9167,6 +9180,15 @@ but this is where the TLG has left off for numbering-->
                 <relatedItem type="constituent" otherType="expression" displayLabel="Bacchae">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0006.tlg017.perseus-eng1</identifier>
                 </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Bacchae">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0006.tlg017.perseus-eng2</identifier>                    
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg0006.tlg017.perseus-eng2/</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Greek" note="English">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0006/tlg0017/tlg0006.tlg017.perseus-eng2.xml</url>
+                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -21025,6 +21047,16 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Perseus" note="Greek"
                         >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0255</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Περί φυσικῶν δυνάμεων">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg010.perseus-grc2</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg0057.tlg010.perseus-grc2/</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0057/tlg010/tlg0057.tlg010.perseus-grc2.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -39069,6 +39101,17 @@ but this is where the TLG has left off for numbering-->
                     <location>
                         <url displayLabel="Perseus" note="Greek"
                             >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0640</url>
+                    </location>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Ἐκκλησιαστικὴ ἱστορία">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg2018.tlg002.perseus-grc2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg2018.tlg002.perseus-grc2</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg2018/tlg002/tlg2018.tlg002.perseus-grc2.xml</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="expression"
@@ -67730,7 +67773,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Rhesus-Euripides-Murray-Oxford-Perseus-English-2">
+    <mods displayLabel="Rhesus-Euripides-Murray-Oxford-Perseus-English-2/4">
         <titleInfo lang="lat" type="uniform">
             <title>Rhesus</title>
         </titleInfo>
@@ -67743,8 +67786,6 @@ but this is where the TLG has left off for numbering-->
             <nonSort>The</nonSort>
             <title>Rhesus of Euripides</title>
         </titleInfo>
-        <identifier type="lccn">13017345</identifier>
-        <identifier type="oclc">943562</identifier>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="http://viaf.org/viaf/265326651">
             <namePart>Euripides</namePart>
@@ -67766,12 +67807,12 @@ but this is where the TLG has left off for numbering-->
         <typeOfResource>text</typeOfResource>
         <originInfo>
             <place>
-                <placeTerm type="code" authority="marccountry">nyu</placeTerm>
+                <placeTerm type="code" authority="marccountry">enk</placeTerm>
             </place>
             <place>
-                <placeTerm type="text">New York</placeTerm>
+                <placeTerm type="text">London</placeTerm>
             </place>
-            <publisher>Oxford University Press</publisher>
+            <publisher>G. Allen</publisher>
             <dateIssued>1913</dateIssued>
             <issuance>monographic</issuance>
         </originInfo>
@@ -67789,12 +67830,13 @@ but this is where the TLG has left off for numbering-->
             <topic>Rhesus (Legendary character)</topic>
             <genre>Drama</genre>
         </subject>
+        <identifier type="oclc">1117942789</identifier>
         <classification authority="lcc">PA3975.R5 M8 1913a</classification>
         <location>
-            <url displayLabel="WorldCat">http://www.worldcat.org/oclc/943562</url>
+            <url displayLabel="WorldCat">https://search.worldcat.org/title/1117942789</url>
         </location>
         <location>
-            <url displayLabel="GoogleBooks">http://books.google.com/books?id=19RfAAAAMAAJ</url>
+            <url displayLabel="Open Content Alliance">https://archive.org/details/rhesusofeuripid00euri/page/n6</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Rhesus">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0006.tlg019</identifier>
@@ -67804,6 +67846,15 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Perseus" note="English"
                         >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0238</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Rhesus">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0006.tlg019.perseus-eng4</identifier>                    
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/library/urn:cts:greekLit:tlg0006.tlg019.perseus-eng4/</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Greek" note="English">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0006/tlg0019/tlg0006.tlg019.perseus-eng4.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -72005,6 +72056,17 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Perseus" note="Greek"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0666</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Βαρλαάμ καί Ἰωάσαφ">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg2934.tlg066.perseus-grc2</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg2934.tlg066.perseus-grc2</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg2934/tlg066/tlg2934.tlg066.perseus-grc2.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
