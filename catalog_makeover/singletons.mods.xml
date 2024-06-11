@@ -21912,7 +21912,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="De parvae pilae exercitio">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg034.opp-grc1</identifier>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg034.opp-grc2</identifier>
                 <part>
                     <extent unit="pages">
                         <start>3</start>
@@ -24373,6 +24373,9 @@ but this is where the TLG has left off for numbering-->
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/4219408</url>
         </location>
         <location>
+            <url displayLabel="Internet Archive">https://archive.org/details/galenidevictuat01galegoog</url>
+        </location>
+        <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/hvd.hxjvph</url>
         </location>
         <location>
@@ -24384,14 +24387,17 @@ but this is where the TLG has left off for numbering-->
                 displayLabel="De Victu Attenuante">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg019.opp-grc1</identifier>
             </relatedItem>
+            <relatedItem type="constituent" otherType="expression">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg019.1st1K-grc1</identifier>
             <location>
                 <url displayLabel="First1KGreek"
-                    >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0057/tlg019/tlg0057.tlg019.opp-grc1.xml</url>
+                    >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0057/tlg019/tlg0057.tlg019.1st1K-grc1.xml</url>
             </location>
             <location>
                 <url displayLabel="Scaife Viewer"
-                    >https://scaife.perseus.org/library/urn:cts:greekLit:tlg0057.tlg019.opp-grc1/</url>
+                    >https://scaife.perseus.org/library/urn:cts:greekLit:tlg0057.tlg019.1st1K-grc1/</url>
             </location>
+            </relatedItem>
         </relatedItem>
     </mods>
     <mods displayLabel="De Vita S. Hypatii Liber-Callinicus-Teubner-1895">
@@ -33102,112 +33108,6 @@ but this is where the TLG has left off for numbering-->
             <identifier type="ctsurn">urn:cts:greekLit:tlg0014.tlg062</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Exordia">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0014.tlg062.opp-grc2</identifier>
-            </relatedItem>
-        </relatedItem>
-    </mods>
-    <mods displayLabel="Eudemian Ethics-Aristotle-Susemihl-Perseus">
-        <!-- Only catalog record for this book is for Perseus edition -->
-        <titleInfo lang="eng" type="uniform">
-            <title>Eudemian Ethics</title>
-        </titleInfo>
-        <part>
-            <extent unit="words">
-                <total>27112</total>
-            </extent>
-        </part>
-        <titleInfo>
-            <title>Aristotelis Ethica Eudemia</title>
-            <subTitle>Eudemi Rhodii Ethica. Adiecto de virtutibus et vitiis libello</subTitle>
-        </titleInfo>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/7524651/">
-            <namePart>Aristotle</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/284656229/">
-            <namePart>Eudemus</namePart>
-            <namePart type="termsOfAddress">of Rhodes</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-            valueURI="https://viaf.org/viaf/27847187/">
-            <namePart>Susemihl, Franz</namePart>
-            <namePart type="date">1826-1901</namePart>
-            <role>
-                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-            </role>
-        </name>
-        <typeOfResource>text</typeOfResource>
-        <originInfo>
-            <place>
-                <placeTerm type="code" authority="marccountry">gw</placeTerm>
-            </place>
-            <place>
-                <placeTerm type="text">Leipzig</placeTerm>
-            </place>
-            <publisher>Teubner</publisher>
-            <dateIssued>1884</dateIssued>
-            <issuance>monographic</issuance>
-        </originInfo>
-        <relatedItem type="series">
-            <titleInfo>
-                <title>Bibliotheca scriptorum Graecorum et Romanorum Teubneriana</title>
-            </titleInfo>
-            <titleInfo type="abbreviated">
-                <title>Teubner</title>
-            </titleInfo>
-        </relatedItem>
-        <language objectPart="text">
-            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
-        </language>
-        <language objectPart="preface">
-            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
-        </language>
-        <physicalDescription>
-            <form authority="marcform">print</form>
-            <extent>p. cm.</extent>
-        </physicalDescription>
-        <subject authority="lcsh">
-            <topic>Ethics</topic>
-        </subject>
-        <classification authority="lcc">PA3404.A8 E4 1884</classification>
-        <identifier type="oclc">23930997</identifier>
-
-        <location>
-            <url displayLabel="WorldCat">http://worldcat.org/oclc/23930997</url>
-        </location>
-
-        <location>
-            <url displayLabel="GoogleBooks">http://books.google.com/books?id=C0NOAAAAYAAJ</url>
-        </location>
-        <location>
-            <url displayLabel="HathiTrust">http://hdl.handle.net/2027/njp.32101055826364</url>
-        </location>
-        <relatedItem type="constituent" otherType="work" displayLabel="Ethica Eudemia">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg009</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Ethica Eudemia">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg009.perseus-grc1</identifier>
-                <identifier>Perseus:text:1999.01.0049</identifier>
-                <location>
-                    <url displayLabel="Perseus"
-                        >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0049</url>
-                </location>
-            </relatedItem>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Ἠθικὰ Εὐδήμεια">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg009.perseus-grc2</identifier>
-                <location>
-                    <url displayLabel="Scaife Viewer"
-                        >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0086.tlg009.perseus-grc2</url>
-                </location>
-                <location>
-                    <url displayLabel="Perseus Canonical Greek"
-                        >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0086/tlg009/tlg0086.tlg009.perseus-grc2.xml</url>
-                </location>
             </relatedItem>
         </relatedItem>
     </mods>
@@ -51014,17 +50914,29 @@ but this is where the TLG has left off for numbering-->
         </location>
         <relatedItem type="constituent" otherType="work"
             displayLabel="in Aristotelis Metaphysica commentaria">
-            <identifier type="ctsurn">urn:cts:greekLit:tlg0417.tlg001</identifier>
+            <identifier type="ctsurn">urn:cts:greekLit:tlg4017.tlg001</identifier>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="in Aristotelis Metaphysica commentaria">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0417.tlg001.opp-grc1</identifier>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg4017.tlg001.1st1K-grc1</identifier>
                 <location>
                     <url displayLabel="Scaife Viewer"
-                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg0417.tlg001.opp-grc1/</url>
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg4017.tlg001.1st1K-grc1/</url>
                 </location>
                 <location>
                     <url displayLabel="First1KGreek"
-                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0417/tlg001/tlg0417.tlg001.opp-grc1.xml</url>
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg4017/tlg001/tlg4017.tlg001.1st1K-grc1.xml</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="in Aristotelis Metaphysica commentaria">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg4017.tlg001.opp-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>1</start>
+                        <end>195</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="Internet Archvie">https://archive.org/details/commentariaina06pt12akaduoft/page/n21/mode/2up</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -54186,6 +54098,9 @@ but this is where the TLG has left off for numbering-->
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/wu.89097872832</url>
         </location>
+        <location>
+            <url displayLabel="Internet Archive">https://archive.org/details/galnoueisaggdia00kalbgoog/</url>
+        </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Institutio Logica">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg081</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Institutio Logica">
@@ -54197,6 +54112,20 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Scaife Viewer"
                         >https://scaife.perseus.org/library/urn:cts:greekLit:tlg0057.tlg081.1st1K-grc1/</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Institutio Logica">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg081.opp-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>3</start>
+                        <end>49</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="Internet Archive"
+                        >https://archive.org/details/galnoueisaggdia00kalbgoog/page/n19/mode/2up</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -60961,6 +60890,15 @@ but this is where the TLG has left off for numbering-->
                         >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0054</url>
                 </location>
             </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Nicomachean Ethics">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg010.perseus-eng2</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0086.tlg010.perseus-eng2</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0086/tlg010/tlg0086.tlg010.perseus-eng2.xml</url>
+                </location>
+            </relatedItem>
         </relatedItem>
     </mods>
     <mods displayLabel="Noctes Atticae-Aulus Gellius-Hosius-Teubner-1903 (1967 reprint)">
@@ -63343,19 +63281,6 @@ but this is where the TLG has left off for numbering-->
                 <identifier type="ctsurn">urn:cts:greekLit:tlg1766.tlg001.opp-grc1</identifier>
                 <part>
                     <extent unit="pages">
-                        <start>2</start>
-                        <end>162</end>
-                    </extent>
-                </part>
-                <location>
-                    <url displayLabel="HathiTrust"
-                        >https://hdl.handle.net/2027/hvd.32044038324505?urlappend=%3Bseq=50%3Bownerid=7680518-54</url>
-                </location>
-            </relatedItem>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Oratio ad Graecos">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg1766.tlg001.opp-grc1</identifier>
-                <part>
-                    <extent unit="pages">
                         <start>3</start>
                         <end>163</end>
                     </extent>
@@ -65148,10 +65073,6 @@ but this is where the TLG has left off for numbering-->
         <identifier type="oclc">29752140</identifier>
         <identifier type="lccn">93237324</identifier>
         <location>
-            <url displayLabel="Perseus" note="English"
-                >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058</url>
-        </location>
-        <location>
             <url displayLabel="Open Content Alliance"
                 >http://www.archive.org/details/politicsrackh00arisuoft</url>
         </location>
@@ -65168,6 +65089,17 @@ but this is where the TLG has left off for numbering-->
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058</url>
                 </location>
             </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Politica">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg035.perseus-eng2</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0086.tlg035.perseus-eng2</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Greek" note="English"
+                        >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0086/tlg035/tlg0086.tlg035.perseus-eng2.xml</url>
+                </location>
+            </relatedItem>
         </relatedItem>
     </mods>
     <mods displayLabel="Politics-Aristotle-Ross-OCT-Perseus-Greek">
@@ -65182,9 +65114,6 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Politica</title>
         </titleInfo>
-        <identifier type="lccn">a 58000316</identifier>
-        <identifier type="oclc" invalid="yes">29604983</identifier>
-        <identifier type="oclc">29604983</identifier>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/7524651/">
             <namePart>Aristotle</namePart>
@@ -65226,6 +65155,9 @@ but this is where the TLG has left off for numbering-->
             <topic>Political science</topic>
         </subject>
         <classification authority="lcc">PA3405.S8 A89</classification>
+        <identifier type="lccn">a 58000316</identifier>
+        <identifier type="oclc" invalid="yes">29604983</identifier>
+        <identifier type="oclc">29604983</identifier>
         <relatedItem type="series">
             <titleInfo>
                 <title>Scriptorum classicorum bibliotheca Oxoniensis</title>
