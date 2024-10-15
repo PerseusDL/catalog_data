@@ -1,11 +1,14 @@
 <?xml version="1.0"?>
-<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+<mads:mads xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  version="2.0"
+  xsi:schemaLocation="http://www.loc.gov/mads/ http://www.loc.gov/standards/mads/mads.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
   <mads:authority>
-    <mads:titleInfo>
+    <mads:titleInfo authority="viaf" authorityURI="https://viaf.org/viaf/" valueURI="https://viaf.org/viaf/176191341/">
       <mads:title>Scriptores historiae Augustae</mads:title>
     </mads:titleInfo>
   </mads:authority>
-  <!-- The following list of name is that of the ficitious authors affiliated with this work -->
+  <!-- The following list of names is that of the ficitious authors affiliated with this work -->
   <mads:related>
     <mads:name authority="naf" type="personal">
       <mads:namePart>Capitolinus, Julius</mads:namePart>
@@ -40,7 +43,7 @@
     <mads:name authority="viaf" type="personal">
       <mads:namePart>Vulcacius</mads:namePart>
       <mads:namePart type="termsOfAddress">Gallicanus</mads:namePart>
-      <mads:namePart type="date">fl.3./4. Jh.&#x200F; </mads:namePart>
+      <mads:namePart type="date">fl.3./4. Jh.</mads:namePart>
     </mads:name>
   </mads:related>
   <mads:variant type="other">
@@ -83,8 +86,6 @@
       <mads:title>HA</mads:title>
     </mads:titleInfo>
   </mads:variant>
-  <mads:note type="source">Bertrand-Dagenbach, C. Alexandre Se&#x301;ve&#x300;re et l'Histoire auguste, 1990:
-        prelim p., etc. (often referred to simply as Historia Augustae, or HA)</mads:note>
   <mads:note type="source">Vlasteliny Rima, 1992: p. preceding t.p. (Scriptores historiae
         Augustae)</mads:note>
   <mads:note type="source">"Historia Augusta , name given by the Swiss scholar Casaubon in the
@@ -99,6 +100,7 @@
   <mads:identifier type="lccn">n 50004878</mads:identifier>
   <mads:identifier type="phi">2331</mads:identifier>
   <mads:identifier type="stoa">stoa0324</mads:identifier>
+  <mads:url displayLabel="VIAF">https://viaf.org/viaf/176191341/</mads:url>
   <mads:url displayLabel="Wikipedia">http://en.wikipedia.org/wiki/Augustan_History</mads:url>
   <mads:extension>
     <mads:note>This is a list of related work identifiers</mads:note>

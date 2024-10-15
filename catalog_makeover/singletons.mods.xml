@@ -1586,7 +1586,7 @@
     </mods>
     <mods displayLabel="Acta Archelai-Hegemonius-Beeson-Hinrichs-1906">
         <titleInfo>
-            <title>Hegemonius: Acta Archelai</title>
+            <title>Hegemonius Acta Archelai</title>
         </titleInfo>
         <titleInfo type="alternative">
             <title>Acta Archelai</title>
@@ -1637,7 +1637,8 @@
             <topic>Manichaeism</topic>
         </subject>
         <note>Latin translation--known as Acta Archelai--of a Greek work by Hegemonius which purports to be a relation by one Archelaus,
-            bishop of Caschara in Mesopotamia, of a disputation between himself and Mani, the founder of Manichaeism. The fragments of the original are included.</note>
+            bishop of Caschara in Mesopotamia, of a disputation between himself and Mani, the founder of Manichaeism. The fragments of the 
+            original are included.</note>
         <relatedItem type="series">
             <titleInfo>
                 <title>Griechischen christlichen Schriftsteller der ersten drei Jahrhunderte</title>
@@ -1661,16 +1662,46 @@
             <identifier type="ctsurn">urn:cts:greekLit:stoa0146d.stoa001</identifier>
             <relatedItem type="constituent" otherType="expression" displayLabel="Acta Archelai">
                 <identifier type="ctsurn">urn:cts:greekLit:stoa0146d.stoa001.opp-lat1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>1</start>
+                        <end>100</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="Open Content Alliance">https://archive.org/details/hegemoniusactaar00hege/page/n43/mode/2up</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Acta Archelai">
+                <identifier type="ctsurn">urn:cts:greekLit:stoa0146d.stoa001.1st1K-lat1</identifier>
                 <location>
                     <url displayLabel="First1KGreek"
-                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/stoa0146d/stoa001/stoa0146d.stoa001.opp-lat1.xml</url>
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/stoa0146d/stoa001/stoa0146d.stoa001.1st1K-lat1.xml</url>
+                </location>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:stoa0146d.stoa001.1st1K-lat1</url>
                 </location>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Acta Archelai">
                 <identifier type="ctsurn">urn:cts:greekLit:stoa0146d.stoa001.opp-grc1</identifier>
+                <part>
+                    <extent unit="pages">
+                        <start>5</start>
+                        <end>22</end>
+                    </extent>
+                </part>
+                <location>
+                    <url displayLabel="Open Content Alliance">https://archive.org/details/hegemoniusactaar00hege/page/n43/mode/2up</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Acta Archelai">
+                <identifier type="ctsurn">urn:cts:greekLit:stoa0146d.stoa001.1st1K-grc1</identifier>
                 <location>
                     <url displayLabel="First1KGreek"
-                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/stoa0146d/stoa001/stoa0146d.stoa001.opp-grc1.xml</url>
+                        >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/stoa0146d/stoa001/stoa0146d.stoa001.1st1K-grc1.xml</url>
+                </location>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:stoa0146d.stoa001.1st1K-grc1</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -10506,6 +10537,19 @@ but this is where the TLG has left off for numbering-->
                     <location>
                         <url displayLabel="First1KGreek"
                             >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg0527/tlg048/tlg0527.tlg048.opp-grc2.xml</url>
+                    </location>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Isaias">
+                    <identifier type="ctsurn">urn:cts:hebrewlit:heb0001.heb010.1st1K-eng1
+                        </identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:hebrewlit:heb0001.heb010.1st1K-eng1
+                            </url>
+                    </location>
+                    <location>
+                        <url displayLabel="First1KGreek"
+                            >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/heb0001/heb010/heb0001.heb010.1st1K-eng1.xml</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -36787,6 +36831,17 @@ but this is where the TLG has left off for numbering-->
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0099.tlg001.perseus-eng2</identifier>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Geography">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0099.tlg001.perseus-eng4</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0099.tlg001.perseus-eng4</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Greek"
+                        >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0099/tlg001/tlg0099.tlg001.perseus-eng4.xml</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Geography">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0099.tlg001.opp-eng10</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
                     <part type="volume">
@@ -36994,7 +37049,7 @@ but this is where the TLG has left off for numbering-->
         </subject>
         <relatedItem type="constituent" otherType="work" displayLabel="Geographica">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0099.tlg001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Geography">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Geography (Books 3-6)">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0099.tlg001.perseus-eng1</identifier>
                 <identifier>Perseus:text:1999.01.0198</identifier>
                 <location>
@@ -37002,7 +37057,18 @@ but this is where the TLG has left off for numbering-->
                         >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0198</url>
                 </location>
             </relatedItem>
-            <relatedItem type="constituent" otherType="expression" displayLabel="Geographica">
+            <relatedItem type="constituent" otherType="expression" displayLabel="Geography (Books 3-6)">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0099.tlg001.perseus-eng3</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0099.tlg001.perseus-eng3</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Greek"
+                        >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0099/tlg001/tlg0099.tlg001.perseus-eng3.xml</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Geography">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0099.tlg001.opp-eng11</identifier>
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0099.tlg001.opp-grc8</identifier>
                 <relatedItem type="constituent" otherType="structure" displayLabel="Volume 1">
@@ -39962,6 +40028,7 @@ but this is where the TLG has left off for numbering-->
             <place>
                 <placeTerm type="text">New York</placeTerm>
             </place>
+            <publisher>G.P. Putnam's Sons</publisher>
             <publisher>William Heinemann</publisher>
             <publisher>The Macmillan co.</publisher>
             <dateIssued>1914-1927</dateIssued>
@@ -40005,6 +40072,17 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Perseus" note="Greek"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0593</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Ῥωμαϊκὴ Ἱστορία (Books 36-55)">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0385.tlg001.perseus-grc2</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0385.tlg001.perseus-grc2</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Greek"
+                        >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0385/tlg001/tlg0385.tlg001.perseus-grc2.xml</url>
                 </location>
             </relatedItem>
             <relatedItem type="constituent" otherType="expression" displayLabel="Historia Romana">
@@ -49352,7 +49430,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
             <relatedItem type="constituent" otherType="expression"
                 displayLabel="in Aristotelis Analytica Priora commentaria">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg4015.tlg002.opp-grc1</identifier>
+                <identifier type="ctsurn">urn:cts:greekLit:tlg4015.tlg002.1st1K-grc1</identifier>
                 <location>
                     <url displayLabel="First1KGreek"
                         >https://github.com/OpenGreekAndLatin/First1KGreek/blob/master/data/tlg4015/tlg002/tlg4015.tlg002.1st1K-grc1.xml</url>
@@ -56265,16 +56343,21 @@ but this is where the TLG has left off for numbering-->
             <genre>Glossaries, vocabularies, etc</genre>
         </subject>
         <identifier type="oclc">61607020</identifier>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Scriptorum classicorum bibliotheca Oxoniensis</title>
+            </titleInfo>
+        </relatedItem>
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/61607020</url>
         </location>
         <location>
-            <url displayLabel="GoogleBooks" note="Volume 1"
+            <url displayLabel="GoogleBooks"
                 >http://books.google.com/books?id=rLQMAAAAYAAJ</url>
         </location>
         <location>
-            <url displayLabel="HathiTrust" note="Volume 1"
-                >http://hdl.handle.net/2027/coo.31924087935049 (Volume 1)</url>
+            <url displayLabel="HathiTrust" 
+                >http://hdl.handle.net/2027/coo.31924087935049</url>
         </location>
         <relatedItem type="constituent" otherType="work"
             displayLabel="Lexicon in decem oratores Atticos">
@@ -56286,6 +56369,18 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Perseus"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2013.01.0002</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Lexicon in decem oratores Atticos">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg1389.tlg001.perseus-grc2</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg1389.tlg001.perseus-grc2/</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical" note="Greek"
+                        >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg1389/tlg001/tlg1389.tlg001.perseus-grc2.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -62136,7 +62231,6 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <!-- LEFT OFF HERE FOR CHECKING CONVERSION -->
     <mods displayLabel="Odyssey-Butler/Power/Nagy/-Perseus-1900-English-2">
         <titleInfo lang="eng" type="uniform">
             <title>Odyssey</title>
@@ -62321,7 +62415,7 @@ but this is where the TLG has left off for numbering-->
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>
             </role>
         </name>
-        <name authority="viaf" type="personal" valueURI="http://viaf.org/viaf/8786">
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/" valueURI="http://viaf.org/viaf/8786">
             <namePart>Chantraine, Pierre</namePart>
             <namePart type="date">1899-1974</namePart>
             <role>
@@ -62436,7 +62530,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Omega 1.12">
+    <mods displayLabel="Omega 1.12-Homer Multitext-">
         <titleInfo>
             <title>Omega 1.12</title>
         </titleInfo>
@@ -62461,7 +62555,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
-    <mods displayLabel="Onirocriticon-Artermidorus Daldianus-Teubner-1864">
+    <mods displayLabel="Onirocriticon-Artermidorus Daldianus-Hercher-Teubner-1864">
         <titleInfo lang="lat" type="uniform">
             <title>Onirocriticon</title>
         </titleInfo>
@@ -62542,6 +62636,9 @@ but this is where the TLG has left off for numbering-->
         </location>
         <location>
             <url displayLabel="HathiTrust">http://hdl.handle.net/2027/hvd.hxjtu3</url>
+        </location>
+        <location>
+            <url displayLabel="Open Content Alliance">https://archive.org/details/bub_gb_hlgTAAAAYAAJ_2</url>
         </location>
         <relatedItem type="constituent" otherType="work" displayLabel="Onirocriticon">
             <identifier type="ctsurn">urn:cts:greekLit:tlg0553.tlg001</identifier>
@@ -62798,7 +62895,6 @@ but this is where the TLG has left off for numbering-->
         </physicalDescription>
         <note type="statement of responsibility">with critical and explanatory notes, an historical
             sketch, and essays by William Watson Goodwin.</note>
-        <note>.</note>
         <subject>
             <topic>Athens (Greece)</topic>
             <topic>Politics and Government</topic>
@@ -62824,6 +62920,7 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
+    <!-- LEFT OFF HERE FOR CHECKING RECORD CONVERSION -->
     <mods displayLabel="Opera-Choricius Gazaeus-Boissonade-Dumont-1846">
         <titleInfo>
             <title>Choricius Gazaeus Opera</title>
@@ -64924,6 +65021,18 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Perseus" note="Greek"
                         >http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus:text:1999.01.0055</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="Περὶ ποιητικῆς">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0086.tlg034.perseus-grc2</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0086.tlg034.perseus-grc2/</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical" note="Greek"
+                        >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0086/tlg034/tlg0086.tlg034.perseus-grc2.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -69315,7 +69424,8 @@ but this is where the TLG has left off for numbering-->
         <titleInfo>
             <title>Scholia in Iuvenalem vetustiora collegit</title>
         </titleInfo>
-        <name authority="stoa" type="corporate">
+        <name authority="viaf" type="corporate" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/87149066746865602805">
             <namePart>Anonymous</namePart>
             <role>
                 <roleTerm authority="marcrelator" type="text">creator</roleTerm>

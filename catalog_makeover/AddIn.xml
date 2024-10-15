@@ -189,12 +189,16 @@
         <identifier type="ctsurn">urn:cts:greekLit:</identifier>
         <relatedItem type="constituent" otherType="expression" displayLabel="">
             <identifier type="ctsurn"></identifier>
-            <location>
-                <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader//</url>
-            </location>
-            <location>
-                <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/tree/master/data/tlg0013</url>
-            </location>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0627.tlg00.perseus-grc2</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0627.tlg00.perseus-grc2</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg000/tlg00/tlg000.tlg00.perseus-grc2.xml</url>
+                </location>
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="expression" displayLabel="">
             <identifier type="ctsurn"></identifier>
