@@ -1368,9 +1368,7 @@ Choice two.	With <etal>.
 	<xs:element name="nonSort">
 		<xs:complexType>
 			<xs:simpleContent>
-				<xs:extension base="stringPlusLanguage">
-					<xs:attribute ref="xml:space"/>
-				</xs:extension>
+				<xs:extension base="stringPlusLanguage"> </xs:extension>
 			</xs:simpleContent>
 		</xs:complexType>
 	</xs:element>

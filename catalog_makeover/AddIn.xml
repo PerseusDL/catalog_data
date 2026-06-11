@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods>
 
+for Plutach work
+
+    <name>Bridget Almas</name>
+    <name>Lisa Cerrato</name>
+    <name>Rashmi Singhal</name>
+  
+
+for English
+
+    <date type="release" when="2010-10-22">Perseus 4.0</date> 
+    <idno type="filename">tlg0007.tlg0.perseus-eng3.xml</idno>
+    <availability>
+        <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+    </availability>
+    
+    
+ for Greek
+ 
+    <date type="release" when="2010-10-22">Perseus 4.0</date> 
+    <idno type="filename">tlg0007.tlg0.perseus-grc2.xml</idno>
+    <availability>
+        <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+    </availability>
+  
+
+    <ref target="">Internet Archive</ref> 
 
 
     <relatedItem type="constituent" otherType="expression" displayLabel="">
@@ -61,7 +87,7 @@
                 <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader//</url>
             </location>
             <location>
-                <url displayLabel="Perseus Canonical Greek" note="English">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg01/tlg001.tlg001.perseus-grc2.xml</url>
+                <url displayLabel="Perseus Canonical Greek" note="English">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg01/tlg0007.tlg001.perseus-grc2.xml</url>
             </location>
         </relatedItem>
 
@@ -466,3 +492,19 @@ For Hippocrates
 
 
 </mods>
+
+when editing TEI-XML files
+
+<pb n="p."/>
+rend="align(indent)"
+
+<q rend="double"></q>
+  
+    <quote rend="blockquote;double">
+        <l></l>
+    </quote>
+        
+    
+   ϒϛ
+    
+

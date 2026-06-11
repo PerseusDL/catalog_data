@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods_3.7_perseus_catalog.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods-3-8.xsd">
     <!--Make sure have both authority and valueURI-->
     <!-- Add in HathiTrust links-->
     <!-- Continue reviewing work names
@@ -9506,6 +9506,178 @@ but this is where the TLG has left off for numbering-->
             </relatedItem>
         </relatedItem>
     </mods>
+    <mods displayLabel="Bellum Civile-Caesar-Peskett-Loeb-1914">
+        <titleInfo>
+            <title>Caesar</title>
+            <subTitle>the civil wars</subTitle>
+        </titleInfo>
+        <titleInfo type="alternative">
+            <title>Civil wars</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="https://viaf.org/viaf/286265178/">
+            <namePart>Caesar, Julius</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">author</roleTerm>
+            </role>
+        </name>
+        <name type="personal" authority="viaf" authorityURI="https://viaf.org/en/viaf/"
+            valueURI="https://viaf.org/en/viaf/24633424">
+            <namePart>Peskett, A. G. (Arthur George)</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+        </name>
+        <typeOfResource>text</typeOfResource>
+        <genre authority="rdacontent">text</genre>
+        <genre authority="fast">Biography</genre>
+        <genre authority="fast">History</genre>
+        <genre authority="lcgft" valueURI="https://id.loc.gov/authorities/genreForms/gf2014026049">Biographies.</genre>
+        <originInfo>
+            <place>
+                <placeTerm authority="marccountry" type="code">enk</placeTerm>
+            </place>
+            <dateIssued encoding="marc">1928</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <originInfo eventType="publication">
+            <place>
+                <placeTerm type="text">London</placeTerm>
+            </place>
+            <agent>
+                <namePart>William Heinemann</namePart>
+                <role>
+                    <roleTerm>publisher</roleTerm>
+                </role>
+            </agent>
+            <place>
+                <placeTerm type="text">New York</placeTerm>
+            </place>
+            <agent>
+                <namePart>G. P. Putnam's Sons</namePart>
+                <role>
+                    <roleTerm>publisher</roleTerm>
+                </role>
+            </agent>
+            <dateCreated>1914</dateCreated>
+            <dateModified>1918</dateModified>
+            <dateIssued>[1928]</dateIssued>
+        </originInfo>
+        <language>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        </language>
+        <language objectPart="text">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <language objectPart="translation">
+            <languageTerm authority="iso639-2b" type="code">lat</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <form authority="rdamedia" type="media">unmediated</form>
+            <form authority="rdacarrier" type="carrier">volume</form>
+            <extent>x, 370 pages : illustrations, 6 maps ; 17 cm.</extent>
+        </physicalDescription>
+        <note type="statement of responsibility">with an English translation by A. G. Peskett.</note>
+        <note>
+            "First printed 1914; reprinted 1921, 1928" -- t.p. verso.
+        </note>
+        <note>Latin and English on opposite pages.</note>
+        <note type="bibliography">Includes index.</note>
+        <subject>
+            <geographicCode authority="marcgac">e------</geographicCode>
+            <geographicCode authority="marcgac">ff-----</geographicCode>
+            <geographicCode authority="marcgac">aw-----</geographicCode>
+        </subject>
+        <subject authority="lcsh">
+            <name type="personal">
+                <namePart>Caesar, Julius.</namePart>
+            </name>
+        </subject>
+        <subject authority="fast">
+            <name type="personal">
+                <namePart>Caesar, Julius.</namePart>
+            </name>
+        </subject>
+        <subject authority="fast">
+            <name type="conference">
+                <namePart>Civil War (Rome : 49-45 B.C.)</namePart>
+            </name>
+        </subject>
+        <subject authority="fast">
+            <temporal>49-45 B.C</temporal>
+        </subject>
+        <subject authority="lcsh">
+            <topic>Heads of state</topic>
+            <geographic>Rome</geographic>
+            <genre>Biography</genre>
+        </subject>
+        <subject authority="lcsh">
+            <topic>Generals</topic>
+            <geographic>Rome</geographic>
+            <genre>Biography</genre>
+        </subject>
+        <subject authority="lcsh">
+            <geographic>Rome</geographic>
+            <topic>History</topic>
+            <temporal>Civil War, 49-45 B.C</temporal>
+        </subject>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Loeb classical library</title>
+            </titleInfo>
+        </relatedItem>
+        <identifier type="lccn">2018295295</identifier>
+        <identifier type="oclc">9136845</identifier>
+        <location>
+            <url displayLabel="Worldcat">http://worldcat.org/oclc/9136845</url>
+        </location>
+        <location>
+            <url displayLabel="Internet Archive"/>
+        </location>
+        <classification authority="lcc">PA6238 .B2 1928</classification>
+        <relatedItem type="constituent" otherType="work" displayLabel="Bellum Civile">
+            <identifier type="ctsurn">urn:cts:latinLit:phi0448.phi002</identifier>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Civil War">
+                <identifier type="ctsurn">urn:cts:latinLit:phi0448.phi002.perseus-eng2</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:latinLit:phi0448.phi002.perseus-eng2</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Latin" note="English"
+                        >https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0448/phi002/phi0448.phi002.perseus-eng2.xml</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Bellum Civile">
+                <identifier type="ctsurn">urn:cts:latinLit:phi0448.phi002.perseus-lat3</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/reader/urn:cts:latinLit:phi0448.phi002.perseus-lat3</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Latin"
+                        >https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0448/phi002/phi0448.phi002.perseus-lat3.xml</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+        <recordInfo>
+            <descriptionStandard>rda</descriptionStandard>
+            <recordContentSource authority="marcorg">OKU</recordContentSource>
+            <recordCreationDate encoding="marc">180409</recordCreationDate>
+            <recordChangeDate encoding="iso8601">20250607085739.0</recordChangeDate>
+            <recordIdentifier>20437412</recordIdentifier>
+            <recordOrigin>
+                Converted from MARCXML to MODS version 3.8 using MARC21slim2MODS3-8_XSLT1-0.xsl (Revision 1.172 20230208)
+            </recordOrigin>
+            <languageOfCataloging>
+                <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            </languageOfCataloging>
+        </recordInfo>
+    </mods>
     <mods displayLabel="Bellum Punicum-Naevius-Strzelecki-Teubner-1964">
         <titleInfo>
             <title>Belli Punici carminis quae supersunt</title>
@@ -13227,6 +13399,15 @@ but this is where the TLG has left off for numbering-->
                 <location>
                     <url displayLabel="Perseus Digital Library" note="English"
                         >http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0076</url>
+                </location>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="expression" displayLabel="Civil War">
+                <identifier type="ctsurn">urn:cts:latinLit:phi0448.phi002.perseus-eng3</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:latinLit:phi0448.phi002.perseus-eng3</url>
+                </location>
+                <location>
+                    <url displayLabel="Perseus Canonical Latin">https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0448/phi002/phi0448.phi002.perseus-eng3.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
@@ -19148,6 +19329,108 @@ but this is where the TLG has left off for numbering-->
                 <identifier type="ctsurn">urn:cts:latinLit:phi1518.phi001.opp-lat1</identifier>
             </relatedItem>
         </relatedItem>
+    </mods>
+    <mods displayLabel="De Locis Affectis-Galen-Gärtner/Brunschön-CMG-Degruyter-2015-2021">
+        <titleInfo>
+            <title>De locis affectis I-VI</title>
+        </titleInfo>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+            valueURI="http://viaf.org/viaf/44299175/">
+            <namePart>Galen</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/en/viaf/" valueURI="https://viaf.org/en/viaf/20848198">
+            <namePart type="family">Gärtner</namePart>
+            <namePart type="given">Florian</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+        </name>
+        <name authority="viaf" type="personal" authorityURI="https://viaf.org/en/viaf/" valueURI="https://viaf.org/en/viaf/37226206">
+            <namePart type="family">Brunschön</namePart>
+            <namePart type="given">Carl Wolfram</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+            <role>
+                <roleTerm authority="marcrelator" type="text">translator</roleTerm>
+            </role>
+        </name>
+        <note type="statement of responsibility">I-II edidit, in linguam Germanicam vertit, commentatus est Florian Gärtner Corpus Medicorum Graecorum V 6,1,1 (pp. 226-382.) 
+            V-VI edidit et in linguam Germanicam vertit Carl Wolfram Brunschön Corpus Medicorum Graecorum V 6,1,3, (pp. 284-450)</note>
+        <typeOfResource>text</typeOfResource>
+        <identifier type="oclc">979906579</identifier><!-- For 2015 volume -->
+        <identifier type="oclc">1399978506</identifier><!-- for 2021 volume -->
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">gw</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Berlin</placeTerm>
+            </place>
+            <publisher>DeGruyter</publisher>
+            <dateIssued>2015-2021</dateIssued>
+            <copyrightDate>2015-2021</copyrightDate>
+        </originInfo>
+        <language>
+            <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+        </language>
+        <language>
+            <languageTerm authority="iso639-2b" type="code">grc</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>2 vols</extent>
+            <digitalOrigin>digitized other analog</digitalOrigin>
+        </physicalDescription>
+        <subject authority="lcsh">
+            <geographic>Diseases</geographic>
+            <topic>Early Works to 1800</topic>
+        </subject>
+        <relatedItem type="series">
+            <titleInfo>
+                <title>Corpus Medicorum Graecorum</title>
+                <partNumber>V 6,1,1- V 6,1,3,</partNumber>
+            </titleInfo>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="work"
+            displayLabel="De locis affectis libri vi">
+            <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg057</identifier>
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="De locis affectis libri vi">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg057.cmg-grc1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg0057.tlg057.cmg-grc1/</url>
+                </location>
+                <location>
+                    <url displayLabel="Telota"
+                        >https://github.com/telota/galen/blob/main/data/tlg0057/tlg057/tlg0057.tlg057.cmg-grc1.xml</url>
+                </location>
+            </relatedItem>        
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="De locis affectis libri vi">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0057.tlg057.cmg-deu1</identifier>
+                <location>
+                    <url displayLabel="Scaife Viewer"
+                        >https://scaife.perseus.org/library/urn:cts:greekLit:tlg0057.tlg057.cmg-deu1/</url>
+                </location>
+                <location>
+                    <url displayLabel="Telota"
+                        >https://github.com/telota/galen/blob/main/data/tlg0057/tlg057/tlg0057.tlg057.cmg-deu1.xml</url>
+                </location>
+            </relatedItem>
+        </relatedItem>
+            <recordInfo>
+                <descriptionStandard>rda</descriptionStandard>
+                <recordContentSource authority="marcorg">UIU</recordContentSource>
+                <recordCreationDate encoding="marc">260130</recordCreationDate>
+            </recordInfo>
     </mods>
     <mods displayLabel="De Magistratibus populi romani-Lydus-Wunsch-Teubner-1903">
         <titleInfo lang="lat" type="uniform">
@@ -35550,7 +35833,7 @@ but this is where the TLG has left off for numbering-->
                 </location>
                 <location>
                     <url displayLabel="Perseus Canonical Latin"
-                        >https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0448/phi001/phi0448.phi001.perseus-lat2.xml</url>
+                        >https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0448/phi001/phi0448.phi001.perseus-eng2.xml</url>
                 </location>
             </relatedItem>
         </relatedItem>
