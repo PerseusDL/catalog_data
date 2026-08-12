@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods-3-8.xsd">
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data/schemas/mods-3-8.xsd">
     <!-- ADD IN LINKS TO THE SCAIFE VIEWER AND CANONICAL GITHUB FILES -->
     <!-- NEED TO THINK ABOUT AUTHORITY RECORD DATA-ONES ADDED FROM CATALOG PENDING NOT AS RICH-
         EXPRESSION RECORDS ALSO NOT HAVE LINKED DATA NAME AUTHORITIES-->
@@ -12295,6 +12295,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
     <mods displayLabel="Bibliotheca-Epitome-Apollodorus-Loeb-Frazer-1921-Perseus">
         <titleInfo>
             <title>Library</title>
+            <partName>Vol 1-2</partName>
         </titleInfo>
         <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
             valueURI="https://viaf.org/viaf/100219535/">
@@ -12349,6 +12350,14 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
         <location>
             <url displayLabel="GoogleBooks" note="Volume 1"
                 >http://books.google.com/books?id=YKUNAAAAIAAJ</url>
+        </location>
+        <location>
+            <url displayLabel="Internet Archive" note="Volume 1"
+                >https://archive.org/details/apollodoruslibra01apol</url>
+        </location>
+        <location>
+            <url displayLabel="Internet Archive" note="Volume 2"
+                >https://archive.org/details/apollodoruslibra02apol</url>
         </location>
         <location>
             <url displayLabel="GoogleBooks" note="Volume 2"
@@ -82091,13 +82100,16 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="On the Education of Children">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg067.perseus-eng1</identifier>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="expression" displayLabel="The Education of Children">
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="The Education of Children">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg067.perseus-eng3</identifier>
                     <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg067.perseus-eng3</url>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg067.perseus-eng3</url>
                     </location>
                     <location>
-                        <url displayLabel="Perseus Canonical Greek" note="English">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg067/tlg0007.tlg067.perseus-eng3.xml</url>
+                        <url displayLabel="Perseus Canonical Greek" note="English"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg067/tlg0007.tlg067.perseus-eng3.xml</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="expression"
@@ -82120,32 +82132,40 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="Πῶς δεῖ τὸν νέον ποιημάτων ἀκούειν">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg068.opp-grc2</identifier>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="expression" displayLabel="How the Young Man Should Study Poetry">
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="How the Young Man Should Study Poetry">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg068.perseus-eng3</identifier>
                     <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg068.perseus-eng3</url>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg068.perseus-eng3</url>
                     </location>
                     <location>
-                        <url displayLabel="Perseus Canonical Greek" note="English">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg068/tlg0007.tlg068.perseus-eng3.xml</url>
+                        <url displayLabel="Perseus Canonical Greek" note="English"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg068/tlg0007.tlg068.perseus-eng3.xml</url>
                     </location>
                 </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work"
                 displayLabel="De recta ratione audiendi">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg069</identifier>
-                <relatedItem type="constituent" otherType="expression" displayLabel="On Listening to Lectures">
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="On Listening to Lectures">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg069.opp-eng2</identifier>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="expression" displayLabel="On Listening to Lectures">
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="On Listening to Lectures">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg069.perseus-eng1</identifier>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="expression" displayLabel="On Listening to Lectures">
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="On Listening to Lectures">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg069.perseus-eng3</identifier>
                     <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg069.perseus-eng3</url>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg069.perseus-eng3</url>
                     </location>
                     <location>
-                        <url displayLabel="Perseus Canonical Greek" note="English">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg069/tlg0007.tlg069.perseus-eng3.xml</url>
+                        <url displayLabel="Perseus Canonical Greek" note="English"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg069/tlg0007.tlg069.perseus-eng3.xml</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="expression"
@@ -82162,15 +82182,18 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                 </relatedItem>
                 <relatedItem type="constituent" otherType="expression"
                     displayLabel="How to Tell a Flatterer from a Friend">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg070.perseus-eng1</identifier>                    
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg070.perseus-eng1</identifier>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="expression" displayLabel="How to Tell a Flatterer from a Friend">
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="How to Tell a Flatterer from a Friend">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg070.perseus-eng3</identifier>
                     <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg070.perseus-eng3</url>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg070.perseus-eng3</url>
                     </location>
                     <location>
-                        <url displayLabel="Perseus Canonical Greek" note="English">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg070/tlg0007.tlg070.perseus-eng3.xml</url>
+                        <url displayLabel="Perseus Canonical Greek" note="English"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg070/tlg0007.tlg070.perseus-eng3.xml</url>
                     </location>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="expression"
@@ -82578,7 +82601,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg084a.opp-grc2</identifier>
                 </relatedItem>
             </relatedItem>
-            
+
             <relatedItem type="constituent" otherType="work" displayLabel="Parallela minora">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg085</identifier>
                 <relatedItem type="constituent" otherType="expression"
@@ -85120,7 +85143,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
             <location>
                 <url displayLabel="HathiTrust">https://hdl.handle.net/2027/uva.x000425913</url>
             </location>
-            
+
             <relatedItem type="constituent" otherType="work" displayLabel="De liberis educandis">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg067</identifier>
                 <relatedItem type="constituent" otherType="expression"
@@ -85131,17 +85154,20 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="De liberis educandis">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg067.perseus-eng2</identifier>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="expression" displayLabel="The Education of Children">
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="The Education of Children">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg067.perseus-eng4</identifier>
                     <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg067.perseus-eng4</url>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg067.perseus-eng4</url>
                     </location>
                     <location>
-                        <url displayLabel="Perseus Canonical Greek" note="English">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg067/tlg0007.tlg067.perseus-eng4.xml</url>
+                        <url displayLabel="Perseus Canonical Greek" note="English"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg067/tlg0007.tlg067.perseus-eng4.xml</url>
                     </location>
                 </relatedItem>
             </relatedItem>
-            
+
             <relatedItem type="constituent" otherType="work"
                 displayLabel="De capienda ex inimicis utilitate">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg072</identifier>
@@ -85165,7 +85191,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg073.perseus-eng2</identifier>
                 </relatedItem>
             </relatedItem>
-            
+
             <relatedItem type="constituent" otherType="work" displayLabel="Consolatio ad Apollonium">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg076</identifier>
                 <relatedItem type="constituent" otherType="expression"
@@ -85188,7 +85214,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="De tuenda sanitate praecepta">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg077.perseus-eng2</identifier>
                 </relatedItem>
-            </relatedItem>            
+            </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="De superstitione">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg080</identifier>
                 <relatedItem type="constituent" otherType="expression"
@@ -85261,7 +85287,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg093.perseus-eng2</identifier>
                 </relatedItem>
             </relatedItem>
-                  
+
             <relatedItem type="constituent" otherType="work" displayLabel="De cohibenda ira">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg095</identifier>
                 <relatedItem type="constituent" otherType="expression"
@@ -85284,7 +85310,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg096.perseus-eng2</identifier>
                 </relatedItem>
             </relatedItem>
-            
+
             <relatedItem type="constituent" otherType="work" displayLabel="De vitioso pudore">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg104</identifier>
                 <relatedItem type="constituent" otherType="expression"
@@ -85296,9 +85322,9 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg104.perseus-eng1</identifier>
                 </relatedItem>
             </relatedItem>
-      
-     
-            
+
+
+
             <relatedItem type="constituent" otherType="work" displayLabel="De musica">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0094.tlg002</identifier>
                 <relatedItem type="constituent" otherType="expression" displayLabel="De musica">
@@ -85337,34 +85363,37 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="How a Young Man Ought to Hear Poems">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg068.perseus-eng2</identifier>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="expression" displayLabel="How a Young Man Ought to Hear Poems">
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="How a Young Man Ought to Hear Poems">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg068.perseus-eng4</identifier>
                     <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg068.perseus-eng4</url>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg068.perseus-eng4</url>
                     </location>
                     <location>
-                        <url displayLabel="Perseus Canonical Greek" note="English">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg068/tlg0007.tlg068.perseus-eng4.xml</url>
+                        <url displayLabel="Perseus Canonical Greek" note="English"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg068/tlg0007.tlg068.perseus-eng4.xml</url>
                     </location>
                 </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work"
                 displayLabel="De recta ratione audiendi">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg069</identifier>
-                <relatedItem type="constituent" otherType="expression"
-                    displayLabel="Of Hearing">
+                <relatedItem type="constituent" otherType="expression" displayLabel="Of Hearing">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg069.opp-eng1</identifier>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="expression"
-                    displayLabel="Of hearing">
+                <relatedItem type="constituent" otherType="expression" displayLabel="Of hearing">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg069.perseus-eng2</identifier>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="expression" displayLabel="Of hearing">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg069.perseus-eng4</identifier>
                     <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg069.perseus-eng4</url>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg069.perseus-eng4</url>
                     </location>
                     <location>
-                        <url displayLabel="Perseus Canonical Greek" note="English">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg069/tlg0007.tlg069.perseus-eng4.xml</url>
+                        <url displayLabel="Perseus Canonical Greek" note="English"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg069/tlg0007.tlg069.perseus-eng4.xml</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -85379,13 +85408,16 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="How to Tell a Flatterer from a Friend">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg070.perseus-eng2</identifier>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="expression" displayLabel="How to Tell a Flatterer from a Friend">
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="How to Tell a Flatterer from a Friend">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg070.perseus-eng4</identifier>
                     <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg070.perseus-eng3</url>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg070.perseus-eng3</url>
                     </location>
                     <location>
-                        <url displayLabel="Perseus Canonical Greek" note="English">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg070/tlg0007.tlg070.perseus-eng3.xml</url>
+                        <url displayLabel="Perseus Canonical Greek" note="English"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg070/tlg0007.tlg070.perseus-eng3.xml</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -85400,7 +85432,8 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="Quomodo quis suos in virtute sentiat profectus">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg071.perseus-eng2</identifier>
                 </relatedItem>
-            </relatedItem><!-- LEFT OFF HERE FOR PLUTARCH CATALOGING -->
+            </relatedItem>
+            <!-- LEFT OFF HERE FOR PLUTARCH CATALOGING -->
             <relatedItem type="constituent" otherType="work" displayLabel="De fortuna">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg074</identifier>
                 <relatedItem type="constituent" otherType="expression" displayLabel="De fortuna">
@@ -85521,7 +85554,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="De animae procreatione in Timaeo">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg134.perseus-eng1</identifier>
                 </relatedItem>
-            </relatedItem>                        
+            </relatedItem>
             <relatedItem type="constituent" otherType="work"
                 displayLabel="Non posse suaviter vivi secundum Epicurum">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg139</identifier>
@@ -85534,7 +85567,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg139.perseus-eng1</identifier>
                 </relatedItem>
             </relatedItem>
-      
+
         </relatedItem>
         <relatedItem type="constituent" otherType="volume" displayLabel="Volume 3">
             <part type="volume">
@@ -85652,7 +85685,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="An Recte Dictum Sit Latenter Esse Vivendum">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg141.perseus-eng1</identifier>
                 </relatedItem>
-            </relatedItem>                         
+            </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Placita Philosophorum">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0094.tlg003</identifier>
                 <relatedItem type="constituent" otherType="expression"
@@ -85664,7 +85697,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0094.tlg003.perseus-eng1</identifier>
                 </relatedItem>
             </relatedItem>
-                 
+
         </relatedItem>
         <relatedItem type="constituent" otherType="volume" displayLabel="Volume 4">
             <part type="volume">
@@ -85679,7 +85712,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
             </location>
             <location>
                 <url displayLabel="HathiTrust"/>
-            </location>         
+            </location>
             <relatedItem type="constituent" otherType="work" displayLabel="De fortuna Romanorum">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg086</identifier>
                 <relatedItem type="constituent" otherType="expression"
@@ -85820,7 +85853,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="De Herodoti malignitate">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg123.perseus-eng1</identifier>
                 </relatedItem>
-            </relatedItem>            
+            </relatedItem>
             <relatedItem type="constituent" otherType="work"
                 displayLabel="De Stoicorum repugnantiis">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg136</identifier>
@@ -85845,7 +85878,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg138.perseus-eng1</identifier>
                 </relatedItem>
             </relatedItem>
-            
+
         </relatedItem>
         <relatedItem type="constituent" otherType="volume" displayLabel="Volume 5">
             <part type="volume">
@@ -85905,7 +85938,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="Consolatio ad uxorem">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg111.perseus-eng1</identifier>
                 </relatedItem>
-            </relatedItem>      
+            </relatedItem>
             <relatedItem type="constituent" otherType="work"
                 displayLabel="An seni respublica gerenda sit">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg117</identifier>
@@ -85918,7 +85951,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg117.perseus-eng2</identifier>
                 </relatedItem>
             </relatedItem>
-            
+
             <relatedItem type="constituent" otherType="work"
                 displayLabel="Praecepta gerendae reipublicae">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg118</identifier>
@@ -85964,7 +85997,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="Vitae decem oratorum">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg121.perseus-eng2</identifier>
                 </relatedItem>
-            </relatedItem>                        
+            </relatedItem>
             <relatedItem type="constituent" otherType="work"
                 displayLabel="De faciae quae in orbe lunae apparet">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg126</identifier>
@@ -86056,8 +86089,8 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg133.perseus-eng1</identifier>
                 </relatedItem>
             </relatedItem>
-            
-            
+
+
             <relatedItem type="constituent" otherType="work" displayLabel="Adversus Colotem">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg140</identifier>
                 <relatedItem type="constituent" otherType="expression"
@@ -86069,7 +86102,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg140.perseus-eng1</identifier>
                 </relatedItem>
             </relatedItem>
-            
+
             <relatedItem type="constituent" otherType="work" displayLabel="De fluviis">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0094.tlg001</identifier>
                 <relatedItem type="constituent" otherType="expression" displayLabel="De fluviis">
@@ -86079,7 +86112,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0094.tlg001.perseus-eng1</identifier>
                 </relatedItem>
             </relatedItem>
-            
+
         </relatedItem>
     </mods>
     <mods displayLabel="Moralia-Plutarch-Vernardakes-Teubner-1888-1896-OPP\Perseus-Greek">
@@ -86164,7 +86197,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
             <location>
                 <url displayLabel="HathiTrust">https://hdl.handle.net/2027/njp.32101013724669</url>
             </location>
-          
+
             <relatedItem type="constituent" otherType="work" displayLabel="De liberis educandis">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg067</identifier>
                 <relatedItem type="constituent" otherType="expression"
@@ -86175,13 +86208,16 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="Περὶ παίδων ἀγωγῆς">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg067.perseus-grc1</identifier>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="expression" displayLabel="Περὶ παίδων ἀγωγῆς">
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Περὶ παίδων ἀγωγῆς">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg067.perseus-grc2</identifier>
                     <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg067.perseus-grc2</url>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg067.perseus-grc2</url>
                     </location>
                     <location>
-                        <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg067/tlg0007.tlg067.perseus-grc2.xml</url>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg067/tlg0007.tlg067.perseus-grc2.xml</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -86196,13 +86232,16 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="Πῶς δεῖ τὸν νέον ποιημάτων ἀκούεινt">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg068.perseus-grc1</identifier>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="expression" displayLabel="Πῶς δεῖ τὸν νέον ποιημάτων ἀκούειν">
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Πῶς δεῖ τὸν νέον ποιημάτων ἀκούειν">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg068.perseus-grc2</identifier>
                     <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg068.perseus-grc2</url>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg068.perseus-grc2</url>
                     </location>
                     <location>
-                        <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg069/tlg0007.tlg068.perseus-grc2.xml</url>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg069/tlg0007.tlg068.perseus-grc2.xml</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -86217,17 +86256,20 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="Περὶ τοῦ ἀκούεινi">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg069.perseus-grc1</identifier>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="expression" displayLabel="Περὶ τοῦ ἀκούειν">
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Περὶ τοῦ ἀκούειν">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg069.perseus-grc2</identifier>
                     <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg069.perseus-grc2</url>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg069.perseus-grc2</url>
                     </location>
                     <location>
-                        <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg069/tlg0007.tlg069.perseus-grc2.xml</url>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg069/tlg0007.tlg069.perseus-grc2.xml</url>
                     </location>
                 </relatedItem>
             </relatedItem>
-            
+
             <relatedItem type="constituent" otherType="work"
                 displayLabel="Quomodo adulator ab amico internoscatur">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg070</identifier>
@@ -86239,13 +86281,16 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="Πῶς ἄν τις αἴσθοιτο ἑαυτοῦ προκόπτοντος ἐπʼ ἀρετή">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg070.perseus-grc1</identifier>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="expression" displayLabel="Πῶς ἄν τις αἴσθοιτο ἑαυτοῦ προκόπτοντος ἐπʼ ἀρετή">
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Πῶς ἄν τις αἴσθοιτο ἑαυτοῦ προκόπτοντος ἐπʼ ἀρετή">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg070.perseus-grc2</identifier>
                     <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg070.perseus-grc2</url>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg070.perseus-grc2</url>
                     </location>
                     <location>
-                        <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg070/tlg0007.tlg070.perseus-grc2.xml</url>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg070/tlg0007.tlg070.perseus-grc2.xml</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -86260,13 +86305,16 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="Πῶς ἄν τις αἴσθοιτο ἑαυτοῦ προκόπτοντος ἐπʼ ἀρετή">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg071.perseus-grc1</identifier>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="expression" displayLabel="Πῶς ἄν τις αἴσθοιτο ἑαυτοῦ προκόπτοντος ἐπʼ ἀρετή">
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Πῶς ἄν τις αἴσθοιτο ἑαυτοῦ προκόπτοντος ἐπʼ ἀρετή">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg071.perseus-grc2</identifier>
                     <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tl</url>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tl</url>
                     </location>
                     <location>
-                        <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg071/tlg0007.tlg071.perseus-grc2.xml</url>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg071/tlg0007.tlg071.perseus-grc2.xml</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -86284,10 +86332,12 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                 <relatedItem type="constituent" otherType="expression" displayLabel="">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg072.perseus-grc2</identifier>
                     <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg072.perseus-grc2</url>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg072.perseus-grc2</url>
                     </location>
                     <location>
-                        <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg072/tlg0007.tlg072.perseus-grc2.xml</url>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg072/tlg0007.tlg072.perseus-grc2.xml</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -86304,10 +86354,12 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                 <relatedItem type="constituent" otherType="expression" displayLabel="">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg073.perseus-grc2</identifier>
                     <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg073.perseus-grc2</url>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg073.perseus-grc2</url>
                     </location>
                     <location>
-                        <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg073/tlg0007.tlg073.perseus-grc2.xml</url>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg073/tlg0007.tlg073.perseus-grc2.xml</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -86322,10 +86374,12 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                 <relatedItem type="constituent" otherType="expression" displayLabel="">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg074.perseus-grc2</identifier>
                     <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg074.perseus-grc2</url>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg074.perseus-grc2</url>
                     </location>
                     <location>
-                        <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg074/tlg0007.tlg074.perseus-grc2.xml</url>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg074/tlg0007.tlg074.perseus-grc2.xml</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -86339,13 +86393,16 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="De virtute et vitio">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg075.perseus-grc1</identifier>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="expression" displayLabel="Περὶ ἀρετῆς καὶ κακιάς">
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Περὶ ἀρετῆς καὶ κακιάς">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg075.perseus-grc2</identifier>
                     <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg075.perseus-grc2</url>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg075.perseus-grc2</url>
                     </location>
                     <location>
-                        <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg075/tlg0007.tlg075.perseus-grc2.xml</url>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg075/tlg0007.tlg075.perseus-grc2.xml</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -86359,13 +86416,16 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="Consolatio ad Apollonium">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg076.perseus-grc1</identifier>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="expression" displayLabel="Πραμυθητικὸς πρὸς Ἀπολλώνιον">
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Πραμυθητικὸς πρὸς Ἀπολλώνιον">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg076.perseus-grc2</identifier>
                     <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg076.perseus-grc2</url>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg076.perseus-grc2</url>
                     </location>
                     <location>
-                        <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg076/tlg0007.tlg076.perseus-grc2.xml</url>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg076/tlg0007.tlg076.perseus-grc2.xml</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -86380,13 +86440,16 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="De tuenda sanitate praecepta">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg077.perseus-grc1</identifier>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="expression" displayLabel="Ὑγιεινὰ παραγγέλματα">
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Ὑγιεινὰ παραγγέλματα">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg077.perseus-grc2</identifier>
                     <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg077.perseus-grc2</url>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg077.perseus-grc2</url>
                     </location>
                     <location>
-                        <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg077/tlg0007.tlg077.perseus-grc2.xml</url>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg077/tlg0007.tlg077.perseus-grc2.xml</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -86400,13 +86463,16 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="Conjugalia Praecepta">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg078.perseus-grc1</identifier>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="expression" displayLabel="Γαμικὰ παραγγέλματα">
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Γαμικὰ παραγγέλματα">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg078.perseus-grc2</identifier>
                     <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg078.perseus-grc2</url>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg078.perseus-grc2</url>
                     </location>
                     <location>
-                        <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg078/tlg0007.tlg078.perseus-grc2.xml</url>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg078/tlg0007.tlg078.perseus-grc2.xml</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -86421,13 +86487,16 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="Πων επτά σοφών συμπόσιον">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg079.perseus-grc1</identifier>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="expression" displayLabel="Πων επτά σοφών συμπόσιον">
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Πων επτά σοφών συμπόσιον">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg079.perseus-grc2</identifier>
                     <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg079.perseus-grc2</url>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg079.perseus-grc2</url>
                     </location>
                     <location>
-                        <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg079/tlg0007.tlg079.perseus-grc2.xml</url>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg079/tlg0007.tlg079.perseus-grc2.xml</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -86444,10 +86513,12 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                 <relatedItem type="constituent" otherType="expression" displayLabel="">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg080.perseus-grc2</identifier>
                     <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg080.perseus-grc2</url>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg080.perseus-grc2</url>
                     </location>
                     <location>
-                        <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg080/tlg0007.tlg080.perseus-grc2.xml</url>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg080/tlg0007.tlg080.perseus-grc2.xml</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -86528,7 +86599,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg083.perseus-grc2</identifier>
                 </relatedItem>
             </relatedItem>
-            
+
             <relatedItem type="constituent" otherType="work" displayLabel="ΑΙΤΙΑ ΡΩΜΑΙΚΑ">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg084a</identifier>
                 <relatedItem type="constituent" otherType="expression" displayLabel="ΑΙΤΙΑ ΡΩΜΑΙΚΑ">
@@ -86538,7 +86609,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg084a.perseus-grc2</identifier>
                 </relatedItem>
             </relatedItem>
-            
+
             <relatedItem type="constituent" otherType="work" displayLabel="ΑΙΤΙΑ ΕΛΛΗΝΙΚΑ">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg084b</identifier>
                 <relatedItem type="constituent" otherType="expression" displayLabel="ΑΙΤΙΑ ΕΛΛΗΝΙΚΑ">
@@ -86548,7 +86619,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg084b.perseus-grc2</identifier>
                 </relatedItem>
             </relatedItem>
-            
+
             <relatedItem type="constituent" otherType="work" displayLabel="Parallela minora">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg085</identifier>
                 <relatedItem type="constituent" otherType="expression"
@@ -86559,7 +86630,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="Parallela minora">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg085.perseus-grc2</identifier>
                 </relatedItem>
-            </relatedItem>  
+            </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="De fortuna Romanorum">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg086</identifier>
                 <relatedItem type="constituent" otherType="expression"
@@ -86573,10 +86644,12 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                 <relatedItem type="constituent" otherType="expression" displayLabel="">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg086.perseus-grc2</identifier>
                     <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg086.perseus-grc2</url>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg086.perseus-grc2</url>
                     </location>
                     <location>
-                        <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg086/tlg0007.tlg086.perseus-grc2.xml</url>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg086/tlg0007.tlg086.perseus-grc2.xml</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -86605,10 +86678,12 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                 <relatedItem type="constituent" otherType="expression" displayLabel="">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg088.perseus-grc2</identifier>
                     <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg088.perseus-grc2</url>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg088.perseus-grc2</url>
                     </location>
                     <location>
-                        <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg088/tlg0007.tlg088.perseus-grc2.xml</url>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg088/tlg0007.tlg088.perseus-grc2.xml</url>
                     </location>
                 </relatedItem>
             </relatedItem>
@@ -86625,13 +86700,15 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                 <relatedItem type="constituent" otherType="expression" displayLabel="">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg089.perseus-grc2</identifier>
                     <location>
-                        <url displayLabel="Scaife Viewer">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg089.perseus-grc2</url>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg089.perseus-grc2</url>
                     </location>
                     <location>
-                        <url displayLabel="Perseus Canonical Greek">https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg089/tlg0007.tlg089.perseus-grc2.xml</url>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0007/tlg089/tlg0007.tlg089.perseus-grc2.xml</url>
                     </location>
                 </relatedItem>
-            </relatedItem>         
+            </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="volume" displayLabel="Volume 3">
             <part type="volume">
@@ -86764,7 +86841,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg099.perseus-grc1</identifier>
                 </relatedItem>
             </relatedItem>
-            
+
             <relatedItem type="constituent" otherType="work"
                 displayLabel="Animine an corporis affectiones sint peiores">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg100</identifier>
@@ -86840,7 +86917,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg106.perseus-grc1</identifier>
                 </relatedItem>
             </relatedItem>
-            
+
             <relatedItem type="constituent" otherType="work" displayLabel="De sera numinis vindicta">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg107</identifier>
                 <relatedItem type="constituent" otherType="expression"
@@ -86914,7 +86991,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
             <location>
                 <url displayLabel="HathiTrust">https://hdl.handle.net/2027/njp.32101075724847</url>
             </location>
-                        <relatedItem type="constituent" otherType="work" displayLabel="Quaestiones Convivales">
+            <relatedItem type="constituent" otherType="work" displayLabel="Quaestiones Convivales">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg112</identifier>
                 <relatedItem type="constituent" otherType="expression"
                     displayLabel="Quaestiones Convivales">
@@ -87070,8 +87147,8 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg123.perseus-grc1</identifier>
                 </relatedItem>
             </relatedItem>
-            
-            
+
+
             <relatedItem type="constituent" otherType="work" displayLabel="Quaestiones Naturales">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg125</identifier>
                 <relatedItem type="constituent" otherType="expression"
@@ -87094,7 +87171,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="De faciae quae in orbe lunae apparet">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg126.perseus-grc1</identifier>
                 </relatedItem>
-            </relatedItem>                        
+            </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Placita Philosophorum">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0094.tlg003</identifier>
                 <relatedItem type="constituent" otherType="expression"
@@ -87106,10 +87183,10 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0094.tlg003.perseus-grc1</identifier>
                 </relatedItem>
             </relatedItem>
-       
-            
-            
-            
+
+
+
+
         </relatedItem>
         <relatedItem type="constituent" otherType="volume" displayLabel="Volume 6">
             <part type="volume">
@@ -87164,7 +87241,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="De sollertia animalium">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg129.perseus-grc1</identifier>
                 </relatedItem>
-            </relatedItem>            
+            </relatedItem>
             <relatedItem type="constituent" otherType="work"
                 displayLabel="Bruta animalia ratione uti">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg130</identifier>
@@ -87258,8 +87335,8 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg137.perseus-grc1</identifier>
                 </relatedItem>
             </relatedItem>
-     
-            
+
+
             <relatedItem type="constituent" otherType="work" displayLabel="De musica">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0094.tlg002</identifier>
                 <relatedItem type="constituent" otherType="expression" displayLabel="De musica">
@@ -87269,7 +87346,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0094.tlg002.perseus-grc1</identifier>
                 </relatedItem>
             </relatedItem>
-            
+
             <relatedItem type="constituent" otherType="work"
                 displayLabel="De communibus notitiis adversus Stoicos">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg138</identifier>
@@ -87374,7 +87451,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0007.tlg147.opp-grc1</identifier>
                 </relatedItem>
             </relatedItem>
-            
+
             <relatedItem type="constituent" otherType="work" displayLabel="De fluviis">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0094.tlg001</identifier>
                 <relatedItem type="constituent" otherType="expression" displayLabel="De fluviis">
@@ -98937,7 +99014,8 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
         </relatedItem>
         <relatedItem type="constituent" otherType="work" displayLabel="De Bello Alexandrino">
             <identifier type="ctsurn">urn:cts:latinLit:phi0428.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="De Bello Alexandrino">
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="De Bello Alexandrino">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0428.phi001.perseus-lat1</identifier>
                 <location>
                     <url displayLabel="Scaife Viewer"
@@ -98948,7 +99026,8 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                         >https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0428/phi001/phi0428.phi001.perseus-lat1.xml</url>
                 </location>
             </relatedItem>
-            <relatedItem type="constituent" otherType="expression" displayLabel="The Alexandrian War">
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="The Alexandrian War">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0428.phi001.perseus-eng1</identifier>
                 <location>
                     <url displayLabel="Scaife Viewer"
@@ -98959,7 +99038,8 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                         >https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0428/phi001/phi0428.phi001.perseus-eng1.xml</url>
                 </location>
             </relatedItem>
-            <relatedItem type="constituent" otherType="expression" displayLabel="De Bello Alexandrino">
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="De Bello Alexandrino">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0428.phi001.opp-lat2</identifier>
                 <part>
                     <extent unit="pages">
@@ -98972,7 +99052,8 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                         >https://archive.org/details/alexandrianafric00caesuoft/page/10/mode/2up</url>
                 </location>
             </relatedItem>
-            <relatedItem type="constituent" otherType="expression" displayLabel="The Alexandrian War">
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="The Alexandrian War">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0428.phi001.opp-eng1</identifier>
                 <part>
                     <extent unit="pages">
@@ -99039,7 +99120,8 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
         </relatedItem>
         <relatedItem type="constituent" otherType="work" displayLabel="De Bello Hispaniensi">
             <identifier type="ctsurn">urn:cts:latinLit:phi0430.phi001</identifier>
-            <relatedItem type="constituent" otherType="expression" displayLabel="De Bello Hispaniensi">
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="De Bello Hispaniensi">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0430.phi001.perseus-lat1</identifier>
                 <location>
                     <url displayLabel="Scaife Viewer"
@@ -99061,7 +99143,8 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                         >https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0430/phi001/phi0430.phi001.perseus-eng1.xml</url>
                 </location>
             </relatedItem>
-            <relatedItem type="constituent" otherType="expression" displayLabel="De Bello Hispaniensi">
+            <relatedItem type="constituent" otherType="expression"
+                displayLabel="De Bello Hispaniensi">
                 <identifier type="ctsurn">urn:cts:latinLit:phi0430.phi001.opp-lat2</identifier>
                 <part>
                     <extent unit="pages">
@@ -99110,7 +99193,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
             </recordOrigin>
         </recordInfo>
     </mods>
-    
+
     <mods displayLabel="Opera-Caesar-DuPontet-OCT-1900/1-OPP/Perseus">
         <titleInfo>
             <title>C. Iuli Caesaris Commentariorum</title>
@@ -147439,6 +147522,31 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
         <location>
             <url displayLabel="WorldCat">http://www.worldcat.org/oclc/848681476</url>
         </location>
+        <relatedItem type="constituent" otherType="volume" displayLabel="Volume 1-2">
+            <part type="volume">
+                <detail type="volume">
+                    <caption>Volume</caption>
+                    <number>1-2</number>
+                </detail>
+            </part>
+            <relatedItem type="constituent" otherType="work" displayLabel="Hellenica">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg001</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Hellenica">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg001.perseus-eng1</identifier>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Hellenica">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg001.perseus-eng2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg001.perseus-eng2</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg001/tlg0032.tlg001.perseus-eng2.xml</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+        </relatedItem>
         <relatedItem type="constituent" otherType="volume" displayLabel="Volume 1">
             <part type="volume">
                 <detail type="volume">
@@ -147477,7 +147585,6 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
             <relatedItem type="constituent" otherType="work" displayLabel="Hellenica">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg001</identifier>
                 <relatedItem type="constituent" otherType="expression" displayLabel="Hellenica">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg001.perseus-eng1</identifier>
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg001.opp-eng2</identifier>
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg001.opp-grc2</identifier>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-5">
@@ -147488,6 +147595,31 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                             </detail>
                         </part>
                     </relatedItem>
+                </relatedItem>
+            </relatedItem>
+        </relatedItem>
+        <relatedItem type="constituent" otherType="volume" displayLabel="Volume 2-3">
+            <part type="volume">
+                <detail type="volume">
+                    <caption>Volume</caption>
+                    <number>2-3</number>
+                </detail>
+            </part>
+            <relatedItem type="constituent" otherType="work" displayLabel="Anabasis">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg006</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Anabasis">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg006.perseus-eng1</identifier>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Anabasis">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg006.perseus-eng2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg006.perseus-eng2</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg006/tlg0032.tlg006.perseus-eng2.xml</url>
+                    </location>
                 </relatedItem>
             </relatedItem>
         </relatedItem>
@@ -147527,7 +147659,6 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
             <relatedItem type="constituent" otherType="work" displayLabel="Hellenica">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg001</identifier>
                 <relatedItem type="constituent" otherType="expression" displayLabel="Hellenica">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg001.perseus-eng1</identifier>
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg001.opp-eng2</identifier>
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg001.opp-grc2</identifier>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 6-7">
@@ -147543,7 +147674,6 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
             <relatedItem type="constituent" otherType="work" displayLabel="Anabasis">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg006</identifier>
                 <relatedItem type="constituent" otherType="expression" displayLabel="Anabasis">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg006.perseus-eng1</identifier>
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg006.opp-eng5</identifier>
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg006.opp-grc7</identifier>
                     <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-3">
@@ -147582,7 +147712,6 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
             <relatedItem type="constituent" otherType="work" displayLabel="Anabasis">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg006</identifier>
                 <relatedItem type="constituent" otherType="expression" displayLabel="Anabasis">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg006.perseus-eng1</identifier>
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg006.opp-eng5</identifier>
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg006.opp-grc7</identifier>
                     <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
@@ -147674,6 +147803,17 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                 <relatedItem type="constituent" otherType="expression" displayLabel="Memorabilia">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg002.opp-grc1</identifier>
                 </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Memorabilia">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg002.perseus-eng2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg002.perseus-eng2</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg002/tlg0032.tlg002.perseus-eng2.xml</url>
+                    </location>
+                </relatedItem>
                 <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
                     valueURI="https://viaf.org/viaf/76387703/">
                     <namePart>Marchant, E. C. (Edgar Cardew)</namePart>
@@ -147696,6 +147836,17 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                 </relatedItem>
                 <relatedItem type="constituent" otherType="expression" displayLabel="Economics">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg003.perseus-eng1</identifier>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Economics">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg003.perseus-eng2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg003.perseus-eng2</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg003/tlg0032.tlg003.perseus-eng2.xml</url>
+                    </location>
                 </relatedItem>
                 <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
                     valueURI="https://viaf.org/viaf/76387703/">
@@ -147720,6 +147871,17 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                 <relatedItem type="constituent" otherType="expression" displayLabel="Symposium">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg004.perseus-eng1</identifier>
                 </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Symposium">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg004.perseus-eng2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg004.perseus-eng2</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg004/tlg0032.tlg004.perseus-eng2.xml</url>
+                    </location>
+                </relatedItem>
                 <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
                     valueURI="https://viaf.org/viaf/34331315/">
                     <namePart>Todd, O. J. (Otis Johnson)</namePart>
@@ -147742,6 +147904,17 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                 <relatedItem type="constituent" otherType="expression" displayLabel="Apology">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg005.perseus-eng1</identifier>
                 </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Apology">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg005.perseus-eng2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg005.perseus-eng2</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg004/tlg0032.tlg005.perseus-eng2.xml</url>
+                    </location>
+                </relatedItem>
                 <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
                     valueURI="https://viaf.org/viaf/34331315/">
                     <namePart>Todd, O. J. (Otis Johnson)</namePart>
@@ -147758,12 +147931,12 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
             <part type="volume">
                 <detail>
                     <caption>Volume</caption>
-                    <number>5</number>
+                    <number>5-6</number>
                 </detail>
             </part>
             <titleInfo>
                 <title>Cyropaedia</title>
-                <partNumber>Volume 1</partNumber>
+                <partNumber>Volume 1-2</partNumber>
             </titleInfo>
             <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
                 valueURI="https://viaf.org/viaf/24678621/">
@@ -147780,77 +147953,83 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                 <dateIssued>1914</dateIssued>
                 <dateModified>1960</dateModified>
             </originInfo>
-            <location>
-                <url displayLabel="Open Content Alliance"
-                    >http://www.archive.org/details/cyropaediawithen01xenouoft</url>
-            </location>
-            <location>
-                <url displayLabel="GoogleBooks">http://books.google.com/books?id=gaQNAAAAIAAJ</url>
-            </location>
-            <location>
-                <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015008097423</url>
-            </location>
-            <relatedItem type="constituent" otherType="work" displayLabel="Cyropaedia">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg007</identifier>
-                <relatedItem type="constituent" otherType="expression" displayLabel="Cyropaedia">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg007.perseus-eng1</identifier>
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg007.opp-eng2</identifier>
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg007.opp-grc3</identifier>
-                    <relatedItem type="constituent" otherType="structure" displayLabel="Book 1-4">
-                        <part>
-                            <detail type="book">
-                                <caption>Book</caption>
-                                <number>1-4</number>
-                            </detail>
-                        </part>
-                    </relatedItem>
-                </relatedItem>
+            <relatedItem type="series">
+                <titleInfo>
+                    <title>Loeb Classical Library</title>
+                </titleInfo>
             </relatedItem>
-        </relatedItem>
-        <relatedItem type="constituent" otherType="volume" displayLabel="Volume 6">
-            <part type="volume">
-                <detail>
-                    <caption>Volume</caption>
-                    <number>6</number>
-                </detail>
-            </part>
-            <titleInfo>
-                <title>Cyropaedia</title>
-                <partNumber>Volume 2</partNumber>
-            </titleInfo>
-            <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-                valueURI="https://viaf.org/viaf/24678621/">
-                <namePart>Miller, Walter</namePart>
-                <namePart type="date">1864-1949</namePart>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                </role>
-                <role>
-                    <roleTerm authority="marcrelator" type="text">translator</roleTerm>
-                </role>
-            </name>
-            <originInfo>
-                <dateIssued>1914</dateIssued>
-            </originInfo>
-            <location>
-                <url displayLabel="GoogleBooks">http://books.google.com/books?id=I13EUvMSDyIC</url>
-            </location>
-            <location>
-                <url displayLabel="HathiTrust">http://hdl.handle.net/2027/mdp.39015008097431</url>
-            </location>
             <relatedItem type="constituent" otherType="work" displayLabel="Cyropaedia">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg007</identifier>
                 <relatedItem type="constituent" otherType="expression" displayLabel="Cyropaedia">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg007.perseus-eng1</identifier>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Cyropaedia">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg007.perseus-eng2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg007.perseus-eng2</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg007/tlg0032.tlg007.perseus-eng2.xml</url>
+                    </location>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Cyropaedia">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg007.opp-eng2</identifier>
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg007.opp-grc3</identifier>
-                    <relatedItem type="constituent" otherType="structure" displayLabel="Books 5-8">
-                        <part>
-                            <detail type="book">
-                                <caption>Books</caption>
-                                <number>5-8</number>
+                    <relatedItem type="constituent" otherType="structure" displayLabel="Volume 5">
+                        <part type="volume">
+                            <detail>
+                                <caption>Volume</caption>
+                                <number>5</number>
                             </detail>
                         </part>
+                        <location>
+                            <url displayLabel="Open Content Alliance"
+                                >http://www.archive.org/details/cyropaediawithen01xenouoft</url>
+                        </location>
+                        <location>
+                            <url displayLabel="GoogleBooks"
+                                >http://books.google.com/books?id=gaQNAAAAIAAJ</url>
+                        </location>
+                        <location>
+                            <url displayLabel="HathiTrust"
+                                >http://hdl.handle.net/2027/mdp.39015008097423</url>
+                        </location>
+                        <relatedItem type="constituent" otherType="structure"
+                            displayLabel="Book 1-4">
+                            <part>
+                                <detail type="book">
+                                    <caption>Book</caption>
+                                    <number>1-4</number>
+                                </detail>
+                            </part>
+                        </relatedItem>
+                    </relatedItem>
+                    <relatedItem type="constituent" otherType="volume" displayLabel="Volume 6">
+                        <part type="volume">
+                            <detail>
+                                <caption>Volume</caption>
+                                <number>6</number>
+                            </detail>
+                        </part>
+                        <location>
+                            <url displayLabel="GoogleBooks"
+                                >http://books.google.com/books?id=I13EUvMSDyIC</url>
+                        </location>
+                        <location>
+                            <url displayLabel="HathiTrust"
+                                >http://hdl.handle.net/2027/mdp.39015008097431</url>
+                        </location>
+                        <relatedItem type="constituent" otherType="structure"
+                            displayLabel="Books 5-8">
+                            <part>
+                                <detail type="book">
+                                    <caption>Books</caption>
+                                    <number>5-8</number>
+                                </detail>
+                            </part>
+                        </relatedItem>
                     </relatedItem>
                 </relatedItem>
             </relatedItem>
@@ -147881,6 +148060,52 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                 <url displayLabel="Open Content Alliance"
                     >http://www.archive.org/details/scriptaminorawit00xenouoft</url>
             </location>
+            <relatedItem type="constituent" otherType="work" displayLabel="Hiero">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg008</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Hiero">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg008.opp-eng2</identifier>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Hiero">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg008.opp-grc2</identifier>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Hiero">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg008.perseus-eng1</identifier>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Hiero">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg008.perseus-eng2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg008.perseus-eng2</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg008/tlg0032.tlg008.perseus-eng2.xml</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Agesilaus">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg009</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Agesilaus">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg009.opp-eng2</identifier>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Agesilaus">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg009.opp-grc2</identifier>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Agesilaus">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg009.perseus-eng1</identifier>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Agesilaus">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg009.perseus-eng2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg009.perseus-eng2</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg009/tlg0032.tlg009.perseus-eng2.xml</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Ways and Means">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg011</identifier>
                 <relatedItem type="constituent" otherType="expression" displayLabel="Ways and Means">
@@ -147892,20 +148117,16 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                 <relatedItem type="constituent" otherType="expression" displayLabel="Ways and Means">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg011.perseus-eng1</identifier>
                 </relatedItem>
-            </relatedItem>
-            <relatedItem type="constituent" otherType="work" displayLabel="On the Cavalry Commander">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg012</identifier>
-                <relatedItem type="constituent" otherType="expression"
-                    displayLabel="On the Cavalry Commander">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg012.opp-eng2</identifier>
-                </relatedItem>
-                <relatedItem type="constituent" otherType="expression"
-                    displayLabel="On the Cavalry Commander">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg012.opp-grc2</identifier>
-                </relatedItem>
-                <relatedItem type="constituent" otherType="expression"
-                    displayLabel="On the Cavalry Commander">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg012.perseus-eng1</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Ways and Means">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg011.perseus-eng2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg011.perseus-eng2</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg011/tlg0032.tlg011.perseus-eng2.xml</url>
+                    </location>
                 </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work"
@@ -147923,21 +148144,42 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="Constitution of the Lacedaimonians">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg010.perseus-eng1</identifier>
                 </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Constitution of the Lacedaimonians">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg010.perseus-eng2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg010.perseus-eng2</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg010/tlg0032.tlg010.perseus-eng2.xml</url>
+                    </location>
+                </relatedItem>
             </relatedItem>
-            <relatedItem type="constituent" otherType="work"
-                displayLabel="Constitution of the Athenians">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg015</identifier>
+            <relatedItem type="constituent" otherType="work" displayLabel="On the Cavalry Commander">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg012</identifier>
                 <relatedItem type="constituent" otherType="expression"
-                    displayLabel="Constitution of the Athenians">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg015.perseus-eng1</identifier>
-                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
-                        valueURI="https://viaf.org/viaf/108295941/">
-                        <namePart>Bowersock, G. W. (Glen Warren),</namePart>
-                        <namePart type="date">1936-</namePart>
-                        <role>
-                            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
-                        </role>
-                    </name>
+                    displayLabel="On the Cavalry Commander">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg012.opp-eng2</identifier>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="On the Cavalry Commander">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg012.opp-grc2</identifier>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="On the Cavalry Commander">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg012.perseus-eng1</identifier>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="On the Cavalry Commander">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg012.perseus-eng2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg012.perseus-eng2</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg012/tlg0032.tlg012.perseus-eng2.xml</url>
+                    </location>
                 </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work"
@@ -147955,6 +148197,17 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="On the Art of Horsemanship">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg013.perseus-eng1</identifier>
                 </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="On the Art of Horsemanship">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg013.perseus-eng2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg013.perseus-eng2</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg013/tlg0032.tlg013.perseus-eng2.xml</url>
+                    </location>
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="On Hunting">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg014</identifier>
@@ -147967,29 +148220,32 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                 <relatedItem type="constituent" otherType="expression" displayLabel="On Hunting">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg014.perseus-eng1</identifier>
                 </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="On Hunting">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg014.perseus-eng2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg014.perseus-eng2</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg013/tlg0032.tlg014.perseus-eng2.xml</url>
+                    </location>
+                </relatedItem>
             </relatedItem>
-            <relatedItem type="constituent" otherType="work" displayLabel="Hiero">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg008</identifier>
-                <relatedItem type="constituent" otherType="expression" displayLabel="Hiero">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg008.opp-eng2</identifier>
-                </relatedItem>
-                <relatedItem type="constituent" otherType="expression" displayLabel="Hiero">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg008.opp-grc2</identifier>
-                </relatedItem>
-                <relatedItem type="constituent" otherType="expression" displayLabel="Hiero">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg008.perseus-eng1</identifier>
-                </relatedItem>
-            </relatedItem>
-            <relatedItem type="constituent" otherType="work" displayLabel="Agesilaus">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg009</identifier>
-                <relatedItem type="constituent" otherType="expression" displayLabel="Agesilaus">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg009.opp-eng2</identifier>
-                </relatedItem>
-                <relatedItem type="constituent" otherType="expression" displayLabel="Agesilaus">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg009.opp-grc2</identifier>
-                </relatedItem>
-                <relatedItem type="constituent" otherType="expression" displayLabel="Agesilaus">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg009.perseus-eng1</identifier>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="Constitution of the Athenians">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg015</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Constitution of the Athenians">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg015.perseus-eng1</identifier>
+                    <name authority="viaf" type="personal" authorityURI="https://viaf.org/viaf/"
+                        valueURI="https://viaf.org/viaf/108295941/">
+                        <namePart>Bowersock, G. W. (Glen Warren),</namePart>
+                        <namePart type="date">1936-</namePart>
+                        <role>
+                            <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+                        </role>
+                    </name>
                 </relatedItem>
             </relatedItem>
         </relatedItem>
@@ -148137,7 +148393,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                 </relatedItem>
             </relatedItem>
         </relatedItem>
-        <relatedItem type="constituent" otherType="volume" displayLabel="Volume 2">
+        <relatedItem type="constituent" otherType="volume" displayLabel="Volume 2-Edition Altera">
             <part type="volume">
                 <detail type="volume">
                     <caption>Volume</caption>
@@ -148164,6 +148420,17 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                 <relatedItem type="constituent" otherType="expression" displayLabel="Symposium">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg004.perseus-grc1</identifier>
                 </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Symposium">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg004.perseus-grc2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg004.perseus-grc2/</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg004/tlg0032.tlg004.perseus-grc2.xml</url>
+                    </location>
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Apology">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg005</identifier>
@@ -148172,6 +148439,17 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                 </relatedItem>
                 <relatedItem type="constituent" otherType="expression" displayLabel="Apology">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg005.perseus-grc1</identifier>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Apology">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg005.perseus-grc2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg005.perseus-grc2/</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg005/tlg0032.tlg005.perseus-grc2.xml</url>
+                    </location>
                 </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Memorabilia">
@@ -148182,6 +148460,17 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                 <relatedItem type="constituent" otherType="expression" displayLabel="Memorabilia">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg002.perseus-grc1</identifier>
                 </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Memorabilia">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg002.perseus-grc2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg002.perseus-grc2/</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg001/tlg0032.tlg002.perseus-grc2.xml</url>
+                    </location>
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="Economics">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg003</identifier>
@@ -148190,6 +148479,17 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                 </relatedItem>
                 <relatedItem type="constituent" otherType="expression" displayLabel="Economics">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg003.perseus-grc1</identifier>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Economics">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg003.perseus-grc2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg003.perseus-grc2/</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg001/tlg0032.tlg003.perseus-grc2.xml</url>
+                    </location>
                 </relatedItem>
             </relatedItem>
         </relatedItem>
@@ -148218,6 +148518,17 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                 </relatedItem>
                 <relatedItem type="constituent" otherType="expression" displayLabel="Anabasis">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg006.opp-grc2</identifier>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Anabasis">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg006.perseus-grc2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg006.perseus-grc2/</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg006/tlg0032.tlg006.perseus-grc2.xml</url>
+                    </location>
                 </relatedItem>
             </relatedItem>
         </relatedItem>
@@ -148250,6 +148561,17 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                 <relatedItem type="constituent" otherType="expression" displayLabel="Cyropaedia">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg007.opp-grc1</identifier>
                 </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Cyropaedia">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg007.perseus-grc2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg007.perseus-grc2/</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg007/tlg0032.tlg007.perseus-grc2.xml</url>
+                    </location>
+                </relatedItem>
             </relatedItem>
         </relatedItem>
         <relatedItem type="constituent" otherType="volume" displayLabel="Volume 5">
@@ -148270,24 +148592,44 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
             <location>
                 <url displayLabel="HathiTrust">https://hdl.handle.net/2027/uva.x000613701</url>
             </location>
-            <relatedItem type="constituent" otherType="work" displayLabel="Ways and Means">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg011</identifier>
-                <relatedItem type="constituent" otherType="expression" displayLabel="Ways and Means">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg011.opp-grc1</identifier>
+            <relatedItem type="constituent" otherType="work" displayLabel="Hiero">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg008</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Hiero">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg008.opp-grc1</identifier>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="expression" displayLabel="Ways and Means">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg011.perseus-grc1</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Hiero">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg008.perseus-grc1</identifier>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Hiero">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg008.perseus-grc2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg008.perseus-grc2/</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg008/tlg0032.tlg008.perseus-grc2.xml</url>
+                    </location>
                 </relatedItem>
             </relatedItem>
-            <relatedItem type="constituent" otherType="work" displayLabel="On the Cavalry Commander">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg012</identifier>
-                <relatedItem type="constituent" otherType="expression"
-                    displayLabel="On the Cavalry Commander">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg012.opp-grc1</identifier>
+            <relatedItem type="constituent" otherType="work" displayLabel="Agesilaus">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg009</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Agesilaus">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg009.opp-grc1</identifier>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="expression"
-                    displayLabel="On the Cavalry Commander">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg012.perseus-grc1</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Agesilaus">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg009.perseus-grc1</identifier>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Agesilaus">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg009.perseus-grc2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg009.perseus-grc2/</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg009/tlg0032.tlg00.perseus-grc2.xml</url>
+                    </location>
                 </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work"
@@ -148301,17 +148643,60 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="Constitution of the Lacedaimonians">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg010.perseus-grc1</identifier>
                 </relatedItem>
-            </relatedItem>
-            <relatedItem type="constituent" otherType="work"
-                displayLabel="Constitution of the Athenians">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg015</identifier>
                 <relatedItem type="constituent" otherType="expression"
-                    displayLabel="Constitution of the Athenians">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg015.opp-grc1</identifier>
+                    displayLabel="Constitution of the Lacedaimonians">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg010.perseus-grc2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg010.perseus-grc2/</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg010/tlg0032.tlg010.perseus-grc2.xml</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="Ways and Means">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg011</identifier>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Ways and Means">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg011.opp-grc1</identifier>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Ways and Means">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg011.perseus-grc1</identifier>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="Ways and Means">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg011.perseus-grc2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg011.perseus-grc2/</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg011/tlg0032.tlg011.perseus-grc2.xml</url>
+                    </location>
+                </relatedItem>
+            </relatedItem>
+            <relatedItem type="constituent" otherType="work" displayLabel="On the Cavalry Commander">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg012</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="On the Cavalry Commander">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg012.opp-grc1</identifier>
                 </relatedItem>
                 <relatedItem type="constituent" otherType="expression"
-                    displayLabel="Constitution of the Athenians">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg015.perseus-grc1</identifier>
+                    displayLabel="On the Cavalry Commander">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg012.perseus-grc1</identifier>
+                </relatedItem>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="On the Cavalry Commander">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg012.perseus-grc2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg012.perseus-grc2/</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg012/tlg0032.tlg012.perseus-grc2.xml</url>
+                    </location>
                 </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work"
@@ -148325,6 +148710,18 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                     displayLabel="On the Art of Horsemanship">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg013.perseus-grc1</identifier>
                 </relatedItem>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="On the Art of Horsemanship">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg013.perseus-grc2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg013.perseus-grc2/</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg013/tlg0032.tlg013.perseus-grc2.xml</url>
+                    </location>
+                </relatedItem>
             </relatedItem>
             <relatedItem type="constituent" otherType="work" displayLabel="On Hunting">
                 <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg014</identifier>
@@ -148334,23 +148731,28 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
                 <relatedItem type="constituent" otherType="expression" displayLabel="On Hunting">
                     <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg014.perseus-grc1</identifier>
                 </relatedItem>
+                <relatedItem type="constituent" otherType="expression" displayLabel="On Hunting">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg014.perseus-grc2</identifier>
+                    <location>
+                        <url displayLabel="Scaife Viewer"
+                            >https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg014.perseus-grc2/</url>
+                    </location>
+                    <location>
+                        <url displayLabel="Perseus Canonical Greek"
+                            >https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg014/tlg0032.tlg014.perseus-grc2.xml</url>
+                    </location>
+                </relatedItem>
             </relatedItem>
-            <relatedItem type="constituent" otherType="work" displayLabel="Hiero">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg008</identifier>
-                <relatedItem type="constituent" otherType="expression" displayLabel="Hiero">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg008.opp-grc1</identifier>
+            <relatedItem type="constituent" otherType="work"
+                displayLabel="Constitution of the Athenians">
+                <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg015</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Constitution of the Athenians">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg015.opp-grc1</identifier>
                 </relatedItem>
-                <relatedItem type="constituent" otherType="expression" displayLabel="Hiero">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg008.perseus-grc1</identifier>
-                </relatedItem>
-            </relatedItem>
-            <relatedItem type="constituent" otherType="work" displayLabel="Agesilaus">
-                <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg009</identifier>
-                <relatedItem type="constituent" otherType="expression" displayLabel="Agesilaus">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg009.opp-grc1</identifier>
-                </relatedItem>
-                <relatedItem type="constituent" otherType="expression" displayLabel="Agesilaus">
-                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg009.perseus-grc1</identifier>
+                <relatedItem type="constituent" otherType="expression"
+                    displayLabel="Constitution of the Athenians">
+                    <identifier type="ctsurn">urn:cts:greekLit:tlg0032.tlg015.perseus-grc1</identifier>
                 </relatedItem>
             </relatedItem>
         </relatedItem>
@@ -184629,7 +185031,7 @@ xsi:schemaLocation="http://www.loc.gov/mods/v3 file:/Users/ajones06/catalog_data
         </relatedItem>
     </mods>
     <mods displayLabel="Vitae Caesarum-Suetonius-Rolfe-Loeb-1913-1914">
-      <!-- Will need to add in Loeb editions -->
+        <!-- Will need to add in Loeb editions -->
         <titleInfo>
             <title>Suetonius</title>
         </titleInfo>
